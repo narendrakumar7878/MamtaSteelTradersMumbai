@@ -1,6 +1,6 @@
 # Overview
 
-This is a React-based static website for Mamta Steel Traders, a steel manufacturing and supply company based in Mumbai, Maharashtra. The project uses modern web technologies including React, TypeScript, Vite, Tailwind CSS, and shadcn/ui components to create a fully responsive and SEO-optimized business website. The site showcases the company's steel products (pipes, sheets, flanges), services, certifications, and contact information with a professional design focused on the industrial steel industry.
+This is a React-based static website for Mamta Steel Traders, a steel manufacturing and supply company based in Mumbai, Maharashtra. The project uses modern web technologies including React, TypeScript, Vite, Tailwind CSS, and shadcn/ui components to create a fully responsive and SEO-optimized business website. The site features a three-part header structure (TopBar, MainHeader with proper alignment, Navbar), hero carousel, product showcase, and comprehensive pages showcasing the company's steel products (pipes, sheets, flanges), technical specifications, services, certifications, and contact information with a professional design focused on the industrial steel industry.
 
 # User Preferences
 
@@ -31,11 +31,14 @@ Preferred communication style: Simple, everyday language.
 - **Path Aliases**: Configured for clean imports (`@/` for client, `@shared/` for shared types)
 
 ## Component Architecture
-- **Layout Components**: Modular header (TopBar, MainHeader, Navbar) and Footer components
-- **Page Components**: Individual pages (Home, About, Products, Solutions, Certificate, Contact)
+- **Layout Components**: Three-part modular header structure:
+  - TopBar: Company contact information with clickable phone/email
+  - MainHeader: Logo (left), business info with certifications (center), CTA button (right) with proper flexbox alignment
+  - Navbar: Navigation menu with dropdown for products and mobile hamburger menu
+- **Page Components**: Individual pages (Home, About, Products, TechnicalInfo, Solutions, Certificate, Contact)
 - **UI Components**: Comprehensive shadcn/ui component library for consistent design
 - **SEO Components**: Dedicated SEO component with React Helmet for meta tags and structured data
-- **Interactive Components**: Carousels, product showcases, and responsive navigation
+- **Interactive Components**: Hero carousel with autoplay, product showcase slider, and responsive navigation
 
 ## Styling and Design System
 - **CSS Framework**: Tailwind CSS with custom configuration
