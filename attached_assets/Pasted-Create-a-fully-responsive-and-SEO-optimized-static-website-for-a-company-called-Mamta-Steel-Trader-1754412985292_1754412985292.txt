@@ -1,0 +1,70 @@
+Create a fully responsive and SEO-optimized static website for a company called **Mamta Steel Traders** using **React.js with Vite** and **Tailwind CSS**.
+
+👷 Requirements (Home Page):
+
+🔹 HEADER (3-part structure):
+1. **Top Thin Bar** (full width) containing:
+   - Mamta Steel Traders
+   - Mumbai Maharashtra, 400004
+   - mamtasteeltraders@gmail.com (clickable → opens default email app)
+   - +91 98193 22576 (clickable → call on mobile & number copy on click)
+
+2. **Main Header Section**:
+   - Left Side: Company Logo (logo will be added locally, so use a placeholder now, and make sure it adjusts automatically to fit)
+   - Middle: Taglines (centered):
+     - Mamta Steel Traders - Leading Steel Products Manufacturer in Mumbai
+     - Premium Steel Solutions Provider
+     - ISO 9001:2015 Certified
+     - MSME-MH-17-0092705
+     - Office Time: 9:30am - 8:30pm
+   - Right Side: **"Get Instant Quote"** button (styled, with hover effect)
+
+3. **Navbar Section (Modular: Navbar.jsx)**:
+   - Should appear on every page
+   - Items:
+     - Home
+     - About
+     - Products → Hover dropdown with:
+       - Pipes → submenu: Steel Pipe, Carbon Pipe
+       - Sheets
+       - Flange
+     - Solutions
+     - Certificate
+     - Contact
+   - Left: Logo
+   - Right: CTA Button (aligned with main header)
+   - Use React Router for all navigation
+   - On mobile: collapsible hamburger menu with dropdown behavior
+
+🔹 HERO SECTION:
+- Full-width carousel with sliding banners
+- Control buttons (previous/next)
+- Use responsive image sliders (Swiper.js or Splide.js)
+- Use placeholder royalty-free images from Unsplash (or similar)
+
+🔹 MAIN CONTENT SECTION (below hero):
+- Title: *Stainless Steel Materials & Products - Premium Quality SS Items*
+- Subtitle: *Manufacturers & Suppliers of All Grades of Stainless Steel Products in Mumbai*
+- Horizontal product showcase slider (images of pipes, sheets, flanges etc.)
+
+🔹 FOOTER (Modular: Footer.jsx)
+- Must appear on every page
+- Contain:
+  - Contact details (clickable phone/email)
+  - Navigation links
+  - Company description
+  - Social media icons (dummy for now)
+  - Copyright
+
+✅ SEO Optimization:
+- Semantic HTML tags (`<header>`, `<nav>`, `<section>`, `<footer>`)
+- `<title>`, `<meta name="description">`, `<meta name="keywords">`, and Open Graph + Twitter cards
+- Sitemap.xml and robots.txt in public folder
+- Lazy loading of images
+- Use `<img alt="description" />` for all images
+- Favicon and manifest.json in public
+- Add schema markup for LocalBusiness using JSON-LD in `index.html`
+- Use React Helmet for dynamic meta tags per page
+- Responsive on all devices (mobile/tablet/desktop)
+
+📁 Folder Structure Required:
