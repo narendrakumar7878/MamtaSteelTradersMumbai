@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(20, 14.3%, 4.1%);
+  --muted: hsl(60, 4.8%, 95.9%);
+  --muted-foreground: hsl(25, 5.3%, 44.7%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(20, 14.3%, 4.1%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(20, 14.3%, 4.1%);
+  --border: hsl(20, 5.9%, 90%);
+  --input: hsl(20, 5.9%, 90%);
+  --primary: hsl(207, 90%, 54%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(60, 4.8%, 95.9%);
+  --secondary-foreground: hsl(24, 9.8%, 10%);
+  --accent: hsl(60, 4.8%, 95.9%);
+  --accent-foreground: hsl(24, 9.8%, 10%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(60, 9.1%, 97.8%);
+  --ring: hsl(20, 14.3%, 4.1%);
+  --radius: 0.5rem;
+  --steel-blue-50: hsl(214, 100%, 97%);
+  --steel-blue-500: hsl(207, 90%, 54%);
+  --steel-blue-600: hsl(213, 94%, 68%);
+  --steel-blue-700: hsl(217, 91%, 60%);
+  --steel-blue-800: hsl(224, 76%, 48%);
+  --steel-blue-900: hsl(224, 64%, 33%);
+  --steel-orange-500: hsl(24, 95%, 53%);
+  --steel-orange-600: hsl(20, 90%, 48%);
+  --steel-orange-700: hsl(16, 84%, 37%);
+}
+
+.dark {
+  --background: hsl(240, 10%, 3.9%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 3.7%, 15.9%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+  --popover: hsl(240, 10%, 3.9%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 3.9%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 3.7%, 15.9%);
+  --input: hsl(240, 3.7%, 15.9%);
+  --primary: hsl(207, 90%, 54%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(240, 3.7%, 15.9%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(240, 3.7%, 15.9%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(240, 4.9%, 83.9%);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer components {
+  .steel-blue-50 {
+    background-color: var(--steel-blue-50);
+  }
+  
+  .steel-blue-500 {
+    background-color: var(--steel-blue-500);
+  }
+  
+  .steel-blue-600 {
+    background-color: var(--steel-blue-600);
+  }
+  
+  .steel-blue-700 {
+    background-color: var(--steel-blue-700);
+  }
+  
+  .steel-blue-800 {
+    background-color: var(--steel-blue-800);
+  }
+  
+  .steel-blue-900 {
+    background-color: var(--steel-blue-900);
+  }
+  
+  .steel-orange-500 {
+    background-color: var(--steel-orange-500);
+  }
+  
+  .steel-orange-600 {
+    background-color: var(--steel-orange-600);
+  }
+  
+  .steel-orange-700 {
+    background-color: var(--steel-orange-700);
+  }
+  
+  .text-steel-blue-800 {
+    color: var(--steel-blue-800);
+  }
+  
+  .text-steel-orange-400 {
+    color: var(--steel-orange-500);
+  }
+  
+  .text-steel-orange-500 {
+    color: var(--steel-orange-500);
+  }
+  
+  .hover\:text-steel-orange-500:hover {
+    color: var(--steel-orange-500);
+  }
+  
+  .hover\:bg-steel-orange-600:hover {
+    background-color: var(--steel-orange-600);
+  }
+  
+  .hover\:bg-steel-blue-700:hover {
+    background-color: var(--steel-blue-700);
+  }
+}
+
+/* Swiper customization */
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--steel-orange-500) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--steel-orange-500) !important;
+}

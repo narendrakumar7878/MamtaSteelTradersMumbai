@@ -1,0 +1,19 @@
+{
+  "name": "Mamta Steel Traders - Premium Steel Solutions Provider",
+  "short_name": "Mamta Steel",
+  "description": "Leading manufacturer and supplier of stainless steel pipes, sheets, flanges in Mumbai. ISO 9001:2015 certified.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#f97316",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": ["business", "manufacturing", "industrial"],
+  "lang": "en-IN",
+  "orientation": "portrait-primary"
+}

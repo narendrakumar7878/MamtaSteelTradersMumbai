@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://mamtasteeltraders.com/sitemap.xml
+
+# Disallow admin pages if any
+Disallow: /admin/
+Disallow: /private/
+
+# Allow crawling of CSS and JS files
+Allow: /src/
+Allow: /assets/
