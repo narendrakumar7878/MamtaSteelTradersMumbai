@@ -10,7 +10,7 @@ export default function TopBar() {
   };
 
   return (
-    <div className="bg-slate-800 text-white py-2 text-sm">
+    <div className="bg-navy-primary text-white py-2 text-sm">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-between items-center">
           <div className="flex flex-wrap items-center space-x-6">
@@ -26,7 +26,7 @@ export default function TopBar() {
           <div className="flex flex-wrap items-center space-x-6">
             <a 
               href="mailto:mamtasteeltraders@gmail.com" 
-              className="flex items-center hover:text-orange-400 transition-colors"
+              className="flex items-center hover:text-gold-primary transition-colors"
               data-testid="link-email"
             >
               <Mail className="w-4 h-4 mr-2" />
@@ -34,7 +34,7 @@ export default function TopBar() {
             </a>
             <button 
               onClick={() => handlePhoneClick("+919819322576")}
-              className="flex items-center hover:text-orange-400 transition-colors cursor-pointer"
+              className="flex items-center hover:text-gold-primary transition-colors cursor-pointer"
               data-testid="button-phone"
             >
               <Phone className="w-4 h-4 mr-2" />

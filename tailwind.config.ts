@@ -44,6 +44,30 @@ export default {
         border: "var(--border)",
         input: "var(--input)",
         ring: "var(--ring)",
+        // Mamta Steel Custom Colors
+        navy: {
+          primary: "var(--navy-primary)",
+          secondary: "var(--navy-secondary)",
+        },
+        gold: {
+          primary: "var(--gold-primary)",
+          hover: "var(--gold-hover)",
+        },
+        steel: {
+          blue: {
+            50: "var(--steel-blue-50)",
+            500: "var(--steel-blue-500)",
+            600: "var(--steel-blue-600)",
+            700: "var(--steel-blue-700)",
+            800: "var(--steel-blue-800)",
+            900: "var(--steel-blue-900)",
+          },
+          orange: {
+            500: "var(--steel-orange-500)",
+            600: "var(--steel-orange-600)",
+            700: "var(--steel-orange-700)",
+          },
+        },
         chart: {
           "1": "var(--chart-1)",
           "2": "var(--chart-2)",

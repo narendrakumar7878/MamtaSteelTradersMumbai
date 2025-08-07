@@ -1,13 +1,16 @@
 User-agent: *
 Allow: /
 
-# Sitemap
+# Allow specific pages
+Allow: /about
+Allow: /products
+Allow: /technical-info
+Allow: /solutions
+Allow: /certificate
+Allow: /contact
+
+# Sitemap location
 Sitemap: https://mamtasteeltraders.com/sitemap.xml
 
-# Disallow admin pages if any
-Disallow: /admin/
-Disallow: /private/
-
-# Allow crawling of CSS and JS files
-Allow: /src/
-Allow: /assets/
+# General crawling rules
+Crawl-delay: 1

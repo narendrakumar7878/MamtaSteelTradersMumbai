@@ -4,57 +4,73 @@
 
 :root {
   --background: hsl(0, 0%, 100%);
-  --foreground: hsl(20, 14.3%, 4.1%);
-  --muted: hsl(60, 4.8%, 95.9%);
-  --muted-foreground: hsl(25, 5.3%, 44.7%);
+  --foreground: hsl(0, 0%, 12%);
+  --muted: hsl(210, 40%, 96%);
+  --muted-foreground: hsl(215, 16%, 47%);
   --popover: hsl(0, 0%, 100%);
-  --popover-foreground: hsl(20, 14.3%, 4.1%);
+  --popover-foreground: hsl(0, 0%, 12%);
   --card: hsl(0, 0%, 100%);
-  --card-foreground: hsl(20, 14.3%, 4.1%);
-  --border: hsl(20, 5.9%, 90%);
-  --input: hsl(20, 5.9%, 90%);
-  --primary: hsl(207, 90%, 54%);
-  --primary-foreground: hsl(211, 100%, 99%);
-  --secondary: hsl(60, 4.8%, 95.9%);
-  --secondary-foreground: hsl(24, 9.8%, 10%);
-  --accent: hsl(60, 4.8%, 95.9%);
-  --accent-foreground: hsl(24, 9.8%, 10%);
+  --card-foreground: hsl(0, 0%, 12%);
+  --border: hsl(214, 32%, 91%);
+  --input: hsl(214, 32%, 91%);
+  --primary: hsl(209, 85%, 18%);
+  --primary-foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(210, 40%, 96%);
+  --secondary-foreground: hsl(0, 0%, 12%);
+  --accent: hsl(210, 40%, 96%);
+  --accent-foreground: hsl(0, 0%, 12%);
   --destructive: hsl(0, 84.2%, 60.2%);
-  --destructive-foreground: hsl(60, 9.1%, 97.8%);
-  --ring: hsl(20, 14.3%, 4.1%);
+  --destructive-foreground: hsl(0, 0%, 100%);
+  --ring: hsl(209, 85%, 18%);
   --radius: 0.5rem;
+  
+  /* Mamta Steel Custom Color Palette */
+  --navy-primary: hsl(209, 85%, 18%);
+  --navy-secondary: hsl(213, 59%, 29%);
+  --gold-primary: hsl(36, 95%, 51%);
+  --gold-hover: hsl(34, 89%, 47%);
+  --text-light: hsl(0, 0%, 100%);
+  --text-gray: hsl(0, 0%, 88%);
+  
+  /* Legacy steel colors for backward compatibility */
   --steel-blue-50: hsl(214, 100%, 97%);
-  --steel-blue-500: hsl(207, 90%, 54%);
-  --steel-blue-600: hsl(213, 94%, 68%);
-  --steel-blue-700: hsl(217, 91%, 60%);
-  --steel-blue-800: hsl(224, 76%, 48%);
-  --steel-blue-900: hsl(224, 64%, 33%);
-  --steel-orange-500: hsl(24, 95%, 53%);
-  --steel-orange-600: hsl(20, 90%, 48%);
-  --steel-orange-700: hsl(16, 84%, 37%);
+  --steel-blue-500: hsl(209, 85%, 18%);
+  --steel-blue-600: hsl(213, 59%, 29%);
+  --steel-blue-700: hsl(213, 59%, 29%);
+  --steel-blue-800: hsl(209, 85%, 18%);
+  --steel-blue-900: hsl(209, 85%, 18%);
+  --steel-orange-500: hsl(36, 95%, 51%);
+  --steel-orange-600: hsl(34, 89%, 47%);
+  --steel-orange-700: hsl(32, 84%, 42%);
 }
 
 .dark {
-  --background: hsl(240, 10%, 3.9%);
+  --background: hsl(209, 85%, 18%);
   --foreground: hsl(0, 0%, 98%);
-  --muted: hsl(240, 3.7%, 15.9%);
-  --muted-foreground: hsl(240, 5%, 64.9%);
-  --popover: hsl(240, 10%, 3.9%);
+  --muted: hsl(213, 59%, 29%);
+  --muted-foreground: hsl(0, 0%, 88%);
+  --popover: hsl(209, 85%, 18%);
   --popover-foreground: hsl(0, 0%, 98%);
-  --card: hsl(240, 10%, 3.9%);
+  --card: hsl(213, 59%, 29%);
   --card-foreground: hsl(0, 0%, 98%);
-  --border: hsl(240, 3.7%, 15.9%);
-  --input: hsl(240, 3.7%, 15.9%);
-  --primary: hsl(207, 90%, 54%);
-  --primary-foreground: hsl(211, 100%, 99%);
-  --secondary: hsl(240, 3.7%, 15.9%);
+  --border: hsl(213, 59%, 29%);
+  --input: hsl(213, 59%, 29%);
+  --primary: hsl(36, 95%, 51%);
+  --primary-foreground: hsl(209, 85%, 18%);
+  --secondary: hsl(213, 59%, 29%);
   --secondary-foreground: hsl(0, 0%, 98%);
-  --accent: hsl(240, 3.7%, 15.9%);
+  --accent: hsl(213, 59%, 29%);
   --accent-foreground: hsl(0, 0%, 98%);
   --destructive: hsl(0, 62.8%, 30.6%);
   --destructive-foreground: hsl(0, 0%, 98%);
-  --ring: hsl(240, 4.9%, 83.9%);
+  --ring: hsl(36, 95%, 51%);
   --radius: 0.5rem;
+  
+  /* Dark mode custom colors */
+  --navy-primary: hsl(213, 59%, 29%);
+  --navy-secondary: hsl(209, 85%, 18%);
+  --gold-primary: hsl(36, 95%, 51%);
+  --gold-hover: hsl(34, 89%, 47%);
 }
 
 @layer base {

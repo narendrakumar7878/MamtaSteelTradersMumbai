@@ -13,6 +13,7 @@ import Contact from "@/pages/Contact";
 import TechnicalInfo from "@/pages/TechnicalInfo";
 import NotFound from "@/pages/not-found";
 import TopBar from "@/components/TopBar";
+import MainHeader from "@/components/MainHeader";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -38,6 +39,7 @@ function App() {
         <TooltipProvider>
           <div className="min-h-screen flex flex-col">
             <TopBar />
+            <MainHeader />
             <Navbar />
             <main className="flex-1">
               <Router />
