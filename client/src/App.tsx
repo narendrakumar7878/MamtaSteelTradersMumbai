@@ -40,6 +40,7 @@ function App() {
           <div className="min-h-screen flex flex-col">
             <TopBar />
             <MainHeader />
+            <div className="h-[2px] bg-[#f39c12] w-full" />
             <Navbar />
             <main className="flex-1">
               <Router />
