@@ -1,0 +1,54 @@
+🎨 Apply the following **color theme** across the website:
+
+- Primary background: `#0d2b4e` (deep navy)
+- Secondary background: `#1a3e72` (steel blue)
+- CTA Button color: `#f39c12` (warm gold)
+- Text: Use white `#ffffff` or light gray `#e0e0e0` for contrast
+- Hover effects: Slight shade variations or `opacity` changes on buttons and links
+- Use Tailwind's `extend` feature in `tailwind.config.js` to add custom colors
+
+📌 Layout Instructions:
+
+- Ensure **component order** is exactly:
+  1. `TopBar.jsx` (thin top strip with email, phone, location)
+  2. `MainHeader.jsx` (logo left, center business info, right CTA)
+  3. `Navbar.jsx` (sticky nav bar visible on all pages)
+
+➡️ Position `MainHeader.jsx`:
+  - Place it **just below** TopBar
+  - And **above** Navbar
+  - Use Tailwind flex/grid layout to align: logo (left), info (center), CTA (right)
+
+💡 Modern UI Design Instructions:
+- Use Tailwind classes for spacing, typography, and responsiveness
+- Add box shadows, borders, and hover animations where needed
+- Ensure components have adequate padding (`py-4`, `px-6`, etc.)
+- Use `container mx-auto` and responsive widths (`max-w-7xl`) for content alignment
+
+📱 Responsive Rules:
+- On small screens:
+  - Stack logo, info, and button vertically in MainHeader
+  - Collapse Navbar into hamburger menu
+- Use `sm:`, `md:`, `lg:` breakpoints for consistent responsive behavior
+- All sections should look clean on phones, tablets, and desktops
+
+🔍 SEO Best Practices:
+- Use semantic HTML5: `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`
+- Include:
+  - `<title>`, `<meta name="description">`, `<meta name="keywords">`
+  - Open Graph + Twitter card meta tags
+  - `robots.txt`, `sitemap.xml` in `public/`
+  - Lazy loading for all images (`loading="lazy"`)
+  - `alt` text for all images
+  - JSON-LD schema markup for Local Business in `index.html`
+- Use React Helmet (or Vite Helmet plugin) for dynamic meta tags per page
+
+📁 Folder Structure Reminder:
+- Ensure each of these files are modular components:
+  - `TopBar.jsx`
+  - `MainHeader.jsx`
+  - `Navbar.jsx`
+  - Use them in `App.jsx` or `Layout.jsx` so they appear on every page
+
+Use only **React + Vite + Tailwind CSS**. Do not use Next.js or backend.
+
