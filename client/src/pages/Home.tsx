@@ -14,7 +14,9 @@ export default function Home() {
       />
       <HeroCarousel />
       <ProductShowcase />
+      <div className="my-12 h-px w-full bg-gradient-to-r from-transparent via-gray-300 to-transparent opacity-60" />
       <ContactSection />
+      <div className="my-12 h-px w-full bg-gradient-to-r from-transparent via-gray-300 to-transparent opacity-60" />
       <StatsSection />
     </>
   );
