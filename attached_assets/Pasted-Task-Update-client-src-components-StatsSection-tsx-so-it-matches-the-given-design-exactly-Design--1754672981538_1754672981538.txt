@@ -1,0 +1,98 @@
+Task: Update client/src/components/StatsSection.tsx so it matches the given design exactly.
+
+Design Requirements:
+
+Color Combination: Use the exact colors from the provided design:
+
+Dark blue heading text: #1a3e72
+
+Orange highlight section background: #f39c12
+
+Orange text for numbers like "500+" and "1000+": #f39c12
+
+Body text in dark gray: #333333
+
+Layout:
+
+On the left side, a heading:
+Stainless Steel Industry Leaders in Mumbai Since 2010 (H1, bold, large font).
+
+Below heading, an orange speech-bubble style box with description text.
+
+Below that, three stats cards in a row:
+
+"500+ Clients Served"
+
+"1000+ Products Available"
+
+"12+ Years Experience"
+
+Below stats cards, a list of benefits with checkmark icons.
+
+Right side:
+
+Large image (online Unsplash/Pexels link, industrial steel factory style).
+
+Rounded corners.
+
+A small badge over the image bottom-left corner saying Trusted by 500+ Companies (dark background, white text).
+
+Typography:
+
+Heading: Large, bold, responsive, SEO-friendly.
+
+Numbers in stats: Large, bold, orange.
+
+Subtext: Smaller, gray.
+
+Benefits list: Orange check icons, black text.
+
+Responsive:
+
+On large screens: Text on left, image on right.
+
+On mobile: Stack vertically with image on top and text below.
+
+SEO:
+
+Use semantic tags (H1, H2, section, article).
+
+Add alt attributes for images.
+
+Text content should be keyword-rich for steel industry searches.
+
+Clean and Modern:
+
+Use Tailwind CSS or modern CSS.
+
+Smooth fade-in animations for text and image.
+
+Content to Use:
+
+Heading: Stainless Steel Industry Leaders in Mumbai Since 2010
+
+Description: Mamta Steel Traders is a premier supplier of high-grade stainless steel products serving 50+ industries across India. With 12+ years of expertise, we provide the most durable and corrosion-resistant steel solutions.
+
+Stats:
+
+500+ Clients Served
+
+1000+ Products Available
+
+12+ Years Experience
+
+Why Choose Us List:
+
+ISI-certified stainless steel products
+
+Jindal, Tata Steel & SAIL authorized dealer
+
+Same-day delivery in Mumbai
+
+Competitive wholesale prices
+
+Custom cutting & fabrication services
+
+Image: Use an industrial steel manufacturing factory image from Unsplash or Pexels with a direct URL.
+
+Badge Text: Trusted by 500+ Companies
