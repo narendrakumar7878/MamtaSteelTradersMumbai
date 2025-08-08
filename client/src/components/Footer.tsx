@@ -5,8 +5,8 @@ export default function Footer() {
   return (
     <footer className="bg-slate-700 text-white" data-testid="footer">
       <div className="container mx-auto max-w-7xl px-6 lg:px-12 py-12">
-        {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+        {/* Main Footer Content - Centered */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 justify-items-center text-center lg:text-left lg:justify-items-start">
           
           {/* Company Info Section */}
           <div className="lg:col-span-1 group">
@@ -163,48 +163,49 @@ export default function Footer() {
         </div>
 
         {/* Animated Divider Line */}
-        <div className="relative w-full h-px bg-gray-600 my-8 overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-orange-400 to-transparent opacity-0 animate-pulse hover:opacity-100 transition-opacity duration-500" />
+        <div className="relative w-full h-[2px] gradient-divider my-8 rounded-full overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 animate-pulse hover:opacity-40 transition-opacity duration-500" />
         </div>
 
-        {/* Bottom Footer */}
-        <div className="flex flex-col lg:flex-row justify-center lg:justify-between items-center space-y-4 lg:space-y-0">
-          <div className="text-gray-400 text-sm text-center lg:text-left transition-colors duration-300 hover:text-gray-300">
+        {/* Bottom Footer - Centered Layout */}
+        <div className="text-center space-y-6">
+          {/* Copyright Text - Centered */}
+          <div className="text-gray-400 text-sm transition-colors duration-300 hover:text-gray-300">
             © 2019-2025 Mamta Steel Traders. All rights Reserved. Developed by{" "}
             <span className="text-white font-medium hover:text-orange-300 transition-colors duration-300 cursor-pointer">Narendra Kumar</span>
           </div>
           
-          {/* Bottom Social Icons - Centered */}
-          <div className="flex space-x-6 justify-center lg:justify-end">
+          {/* Bottom Social Icons - Below divider, Centered */}
+          <div className="flex justify-center space-x-8">
             <a 
               href="https://linkedin.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-blue-500 hover:scale-125 transform transition-all duration-300 hover:rotate-12 hover:shadow-lg"
+              className="text-gray-400 hover:text-blue-500 social-bounce transform transition-all duration-300 hover:shadow-lg rounded-full p-2 hover:bg-blue-500/10"
               data-testid="bottom-social-linkedin"
               aria-label="LinkedIn"
             >
-              <Linkedin size={22} />
+              <Linkedin size={24} />
             </a>
             <a 
               href="https://instagram.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-pink-400 hover:scale-125 transform transition-all duration-300 hover:rotate-12 hover:shadow-lg"
+              className="text-gray-400 hover:text-pink-400 social-bounce transform transition-all duration-300 hover:shadow-lg rounded-full p-2 hover:bg-pink-400/10"
               data-testid="bottom-social-instagram"
               aria-label="Instagram"
             >
-              <Instagram size={22} />
+              <Instagram size={24} />
             </a>
             <a 
               href="https://github.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white hover:scale-125 transform transition-all duration-300 hover:rotate-12 hover:shadow-lg"
+              className="text-gray-400 hover:text-white social-bounce transform transition-all duration-300 hover:shadow-lg rounded-full p-2 hover:bg-white/10"
               data-testid="bottom-social-github"
               aria-label="GitHub"
             >
-              <Github size={22} />
+              <Github size={24} />
             </a>
           </div>
         </div>
