@@ -1,125 +1,209 @@
-import { Facebook, Twitter, Instagram, Linkedin, Github, Phone, Mail, FileText } from "lucide-react";
+import { Facebook, Twitter, Instagram, Linkedin, Github } from "lucide-react";
+import { Link } from "wouter";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-800 text-white py-12" data-testid="footer">
-      <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* Company Info */}
-          <div className="col-span-1 md:col-span-2">
-            <h3 className="text-xl font-bold mb-4 text-orange-400" data-testid="text-company-footer-title">
+    <footer className="bg-slate-700 text-white" data-testid="footer">
+      <div className="container mx-auto max-w-7xl px-6 lg:px-12 py-12">
+        {/* Main Footer Content */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+          
+          {/* Company Info Section */}
+          <div className="lg:col-span-1">
+            <h3 className="text-orange-400 text-lg font-semibold mb-4">
               MAMTA STEEL TRADERS
             </h3>
-            <p className="text-gray-300 mb-4" data-testid="text-company-description">
-              Experience and knowledge of International industrial systems, dedicated to provide the best economical 
-              solutions to our valued customers. We Won Many Factory Awards and Certified.
+            <p className="text-gray-300 text-sm leading-relaxed mb-6">
+              Experience and knowledge of International industrial 
+              systems, dedicated to provide the best economical 
+              solutions to our valued customers. We Won Many 
+              Factory Awards and Certified.
             </p>
-            <p className="text-gray-300 mb-4">Follow us:</p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-orange-500 transition-colors" data-testid="link-facebook">
-                <Facebook className="w-6 h-6" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-orange-500 transition-colors" data-testid="link-twitter">
-                <Twitter className="w-6 h-6" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-orange-500 transition-colors" data-testid="link-instagram">
-                <Instagram className="w-6 h-6" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-orange-500 transition-colors" data-testid="link-linkedin">
-                <Linkedin className="w-6 h-6" />
-              </a>
-            </div>
-          </div>
-          
-          {/* Quick Links */}
-          <div>
-            <h4 className="text-lg font-semibold mb-4 text-orange-400" data-testid="text-quick-links-title">
-              Quick Links
-            </h4>
-            <ul className="space-y-2">
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors" data-testid="footer-link-home">Home</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors" data-testid="footer-link-products">Products</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors" data-testid="footer-link-about">About</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors" data-testid="footer-link-quality">Quality</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors" data-testid="footer-link-content">Content</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors" data-testid="footer-link-contact">Contact</a></li>
-            </ul>
-          </div>
-          
-          {/* Contact Info */}
-          <div>
-            <h4 className="text-lg font-semibold mb-4 text-orange-400" data-testid="text-contact-info-title">
-              Contact Info
-            </h4>
-            <div className="space-y-3">
-              <p className="text-gray-300 font-semibold" data-testid="text-contact-person">Prakash Pramar</p>
-              <a 
-                href="tel:+919819322576" 
-                className="text-gray-300 hover:text-orange-500 transition-colors flex items-center"
-                data-testid="footer-link-phone-1"
-              >
-                <Phone className="w-4 h-4 mr-2" />
-                +91 98193 22576
-              </a>
-              <a 
-                href="tel:+919867995210" 
-                className="text-gray-300 hover:text-orange-500 transition-colors flex items-center"
-                data-testid="footer-link-phone-2"
-              >
-                <Phone className="w-4 h-4 mr-2" />
-                +91 98679 95210
-              </a>
-              <a 
-                href="mailto:mamtasteeltraders@gmail.com" 
-                className="text-gray-300 hover:text-orange-500 transition-colors flex items-center"
-                data-testid="footer-link-email"
-              >
-                <Mail className="w-4 h-4 mr-2" />
-                mamtasteeltraders@gmail.com
-              </a>
-              <p className="text-gray-300 flex items-center" data-testid="text-gst-number">
-                <FileText className="w-4 h-4 mr-2" />
-                GST: 27DMIPR2047R1Z8
-              </p>
-            </div>
-          </div>
-        </div>
-        
-        {/* Our Location */}
-        <div className="mt-8 pt-8 border-t border-gray-700">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            
+            {/* Social Media Icons */}
             <div>
-              <h4 className="text-lg font-semibold mb-4 text-orange-400" data-testid="text-location-title">
-                Our Location
-              </h4>
-              <div className="text-gray-300">
-                <p data-testid="text-office-address">Office No. 20, 1st Floor</p>
-                <p data-testid="text-building-address">45/49 Gulab Mohammad Building</p>
-                <p data-testid="text-area-address">Rana Gali, 2nd Kumbharwada</p>
-                <p data-testid="text-city-address">Mumbai 400004</p>
-                <p data-testid="text-state-address">Maharashtra, India</p>
+              <p className="text-gray-300 text-sm mb-3">Follow us:</p>
+              <div className="flex space-x-4">
+                <a 
+                  href="https://facebook.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors duration-200"
+                  data-testid="social-facebook"
+                  aria-label="Follow us on Facebook"
+                >
+                  <Facebook size={20} />
+                </a>
+                <a 
+                  href="https://twitter.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors duration-200"
+                  data-testid="social-twitter"
+                  aria-label="Follow us on Twitter"
+                >
+                  <Twitter size={20} />
+                </a>
+                <a 
+                  href="https://instagram.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors duration-200"
+                  data-testid="social-instagram"
+                  aria-label="Follow us on Instagram"
+                >
+                  <Instagram size={20} />
+                </a>
+                <a 
+                  href="https://linkedin.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors duration-200"
+                  data-testid="social-linkedin"
+                  aria-label="Follow us on LinkedIn"
+                >
+                  <Linkedin size={20} />
+                </a>
               </div>
             </div>
           </div>
-        </div>
-        
-        {/* Bottom Section */}
-        <div className="border-t border-gray-700 mt-8 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 mb-4 md:mb-0" data-testid="text-copyright">
-              © 2019-2025 Mamta Steel Traders. All rights Reserved. Developed by Narendra Kumar
-            </p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-orange-500 transition-colors" data-testid="footer-bottom-linkedin">
-                <Linkedin className="w-5 h-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-orange-500 transition-colors" data-testid="footer-bottom-instagram">
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-orange-500 transition-colors" data-testid="footer-bottom-github">
-                <Github className="w-5 h-5" />
-              </a>
+
+          {/* Quick Links Section */}
+          <div>
+            <h3 className="text-orange-400 text-lg font-semibold mb-4">
+              Quick Links
+            </h3>
+            <ul className="space-y-3">
+              <li>
+                <Link href="/" className="text-gray-300 text-sm hover:text-white transition-colors duration-200">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link href="/products" className="text-gray-300 text-sm hover:text-white transition-colors duration-200">
+                  Products
+                </Link>
+              </li>
+              <li>
+                <Link href="/about" className="text-gray-300 text-sm hover:text-white transition-colors duration-200">
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link href="/technical-info" className="text-gray-300 text-sm hover:text-white transition-colors duration-200">
+                  Quality
+                </Link>
+              </li>
+              <li>
+                <Link href="/solutions" className="text-gray-300 text-sm hover:text-white transition-colors duration-200">
+                  Content
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact" className="text-gray-300 text-sm hover:text-white transition-colors duration-200">
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Contact Info Section */}
+          <div>
+            <h3 className="text-orange-400 text-lg font-semibold mb-4">
+              Contact Info
+            </h3>
+            <div className="space-y-3">
+              <div>
+                <p className="text-white text-sm font-medium mb-1">Prakash Pramar</p>
+                <a 
+                  href="tel:+919619342876" 
+                  className="text-blue-400 text-sm hover:text-blue-300 transition-colors duration-200"
+                  data-testid="contact-phone-1"
+                >
+                  +91 9619342876
+                </a>
+              </div>
+              <div>
+                <a 
+                  href="tel:+919867059210" 
+                  className="text-blue-400 text-sm hover:text-blue-300 transition-colors duration-200"
+                  data-testid="contact-phone-2"
+                >
+                  +91 9867059210
+                </a>
+              </div>
+              <div>
+                <a 
+                  href="mailto:mamtasteeltraders@gmail.com" 
+                  className="text-blue-400 text-sm hover:text-blue-300 transition-colors duration-200"
+                  data-testid="contact-email"
+                >
+                  mamtasteeltraders@gmail.com
+                </a>
+              </div>
+              <div className="pt-2">
+                <p className="text-gray-300 text-sm">GST: 27DMIPR2047R1Z8</p>
+              </div>
             </div>
+          </div>
+
+          {/* Location Section */}
+          <div>
+            <h3 className="text-orange-400 text-lg font-semibold mb-4">
+              Our Location
+            </h3>
+            <address className="text-gray-300 text-sm leading-relaxed not-italic">
+              Office No. 20, 1st Floor<br />
+              4549 Gulab Mohammad Building<br />
+              Rangi Gali, 2nd Kumbharwada<br />
+              Mumbai 400004<br />
+              Maharashtra, India
+            </address>
+          </div>
+        </div>
+
+        {/* Divider Line */}
+        <div className="w-full h-px bg-gray-600 my-8" />
+
+        {/* Bottom Footer */}
+        <div className="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
+          <div className="text-gray-400 text-sm">
+            © 2019-2025 Mamta Steel Traders. All rights Reserved. Developed by{" "}
+            <span className="text-white font-medium">Narendra Kumar</span>
+          </div>
+          
+          {/* Bottom Social Icons */}
+          <div className="flex space-x-4">
+            <a 
+              href="https://linkedin.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-white transition-colors duration-200"
+              data-testid="bottom-social-linkedin"
+              aria-label="LinkedIn"
+            >
+              <Linkedin size={18} />
+            </a>
+            <a 
+              href="https://instagram.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-white transition-colors duration-200"
+              data-testid="bottom-social-instagram"
+              aria-label="Instagram"
+            >
+              <Instagram size={18} />
+            </a>
+            <a 
+              href="https://github.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-white transition-colors duration-200"
+              data-testid="bottom-social-github"
+              aria-label="GitHub"
+            >
+              <Github size={18} />
+            </a>
           </div>
         </div>
       </div>
