@@ -3,6 +3,7 @@ import HeroCarousel from "@/components/HeroCarousel";
 import ProductShowcase from "@/components/ProductShowcase";
 import ContactSection from "@/components/ContactSection";
 import StatsSection from "@/components/StatsSection";
+import IndustryServe from "@/components/IndustryServe";
 
 export default function Home() {
   return (
@@ -14,10 +15,11 @@ export default function Home() {
       />
       <HeroCarousel />
       <ProductShowcase />
-      <div className="my-12 h-px w-full bg-gradient-to-r from-transparent via-gray-300 to-transparent opacity-60" />
+      
       <ContactSection />
-      <div className="my-12 h-px w-full bg-gradient-to-r from-transparent via-gray-300 to-transparent opacity-60" />
+      
       <StatsSection />
+      <IndustryServe />
     </>
   );
 }

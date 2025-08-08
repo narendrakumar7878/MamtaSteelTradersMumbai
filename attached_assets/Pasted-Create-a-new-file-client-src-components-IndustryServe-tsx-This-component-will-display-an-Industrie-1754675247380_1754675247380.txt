@@ -1,0 +1,75 @@
+Create a new file:
+client/src/components/IndustryServe.tsx
+
+This component will display an Industries We Serve section below <StatsSection /> in home.tsx.
+
+Features:
+
+Responsive modern carousel (use swiper.js or react-slick).
+
+Each industry in a card layout with:
+
+Image (use free online image URLs from Unsplash or Pexels so they work after deployment).
+
+Title, short SEO-friendly description, and link button.
+
+Hover animation (zoom image slightly + overlay fade-in).
+
+Section heading:
+
+Main title: "Industries We Serve" (centered, bold, large font).
+
+Subtitle: "Premium Steel Solutions for Diverse Industrial Applications".
+
+Cards should have:
+
+Rounded corners (rounded-xl), subtle shadow (shadow-lg), smooth hover effect.
+
+Overlay content with transition-opacity animation.
+
+Carousel should auto-slide, have navigation arrows, and be touch/swipe friendly.
+
+Include schema.org markup for SEO:
+
+html
+Copy
+Edit
+<section className="industries-served" itemScope itemType="http://schema.org/ItemList">
+and for each card:
+
+html
+Copy
+Edit
+<div itemProp="itemListElement" itemScope itemType="http://schema.org/ListItem">
+Example image URLs:
+
+Construction: https://images.unsplash.com/photo-1503387762-592deb58ef4e
+
+Automotive: https://images.unsplash.com/photo-1519681393784-d120267933ba
+
+Manufacturing: https://images.unsplash.com/photo-1581091215360-943be9f4a52b
+
+Food & Beverage: https://images.unsplash.com/photo-1504674900247-0877df9cc836
+
+Pharmaceutical: https://images.unsplash.com/photo-1584984990245-fb68d86bfb6b
+
+Chemical: https://images.unsplash.com/photo-1611284640350-3c52f4e9c9f2
+
+Water Treatment: https://images.unsplash.com/photo-1581092586418-2a03f1f7e8be
+
+Aerospace: https://images.unsplash.com/photo-1581092795360-f3e9d5f3cba3
+
+Add the component in home.tsx below:
+
+tsx
+Copy
+Edit
+<StatsSection />
+<IndustryServe />
+Styling:
+
+TailwindCSS for design (no inline styles).
+
+Keep padding consistent with rest of page (px-4 md:px-8).
+
+Carousel navigation buttons should be rounded with a translucent background and hover effect.
