@@ -36,28 +36,28 @@ const cardVariants = {
 export default function ContactSection() {
   return (
     <section 
-      className="py-16 lg:py-24 bg-white" 
+      className="py-16 lg:py-24 bg-white px-6 lg:px-12" 
       data-testid="contact-section"
       aria-label="Contact Mamta Steel Traders"
     >
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto max-w-7xl">
         
         {/* Header Section */}
         <motion.div 
-          className="text-center mb-16"
+          className="text-center mb-12 lg:mb-16"
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
           <h1 
-            className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4"
+            className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4"
             style={{ color: '#1a3e72' }}
             data-testid="contact-heading"
           >
             Contact Mamta Steel Traders
           </h1>
-          <p className="text-xl text-gray-600 mb-6" data-testid="contact-subtitle">
+          <p className="text-lg md:text-xl text-gray-600 mb-6" data-testid="contact-subtitle">
             Premium steel solutions since 2010
           </p>
           
@@ -74,14 +74,14 @@ export default function ContactSection() {
         </motion.div>
 
         {/* Contact Cards Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-6xl mx-auto">
           
           {/* Left Column - Directors */}
           <div className="space-y-6">
             {directors.map((director, index) => (
               <motion.div
                 key={index}
-                className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:scale-[1.02]"
+                className="bg-white rounded-2xl p-6 lg:p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:scale-[1.02] max-w-lg mx-auto lg:mx-0"
                 variants={cardVariants}
                 initial="hidden"
                 whileInView="visible"
@@ -91,21 +91,21 @@ export default function ContactSection() {
               >
                 <div className="flex items-start space-x-4">
                   <div 
-                    className="w-16 h-16 rounded-full flex items-center justify-center flex-shrink-0"
+                    className="w-14 h-14 lg:w-16 lg:h-16 rounded-full flex items-center justify-center flex-shrink-0"
                     style={{ backgroundColor: '#1a3e72' }}
                   >
-                    <User className="w-8 h-8 text-white" />
+                    <User className="w-7 h-7 lg:w-8 lg:h-8 text-white" />
                   </div>
                   
-                  <div className="flex-1">
+                  <div className="flex-1 min-w-0">
                     <h3 
-                      className="text-2xl font-bold mb-2"
+                      className="text-xl lg:text-2xl font-bold mb-2"
                       style={{ color: '#1a3e72' }}
                       data-testid={`director-name-${index}`}
                     >
                       {director.name}
                     </h3>
-                    <p className="text-gray-600 text-lg mb-4" data-testid={`director-title-${index}`}>
+                    <p className="text-gray-600 text-base lg:text-lg mb-4" data-testid={`director-title-${index}`}>
                       {director.title}
                     </p>
                     
@@ -113,11 +113,11 @@ export default function ContactSection() {
                       {director.phone && (
                         <a
                           href={`tel:${director.phone}`}
-                          className="flex items-center space-x-3 text-lg hover:text-orange-500 transition-colors duration-200 group"
+                          className="flex items-center space-x-3 text-base lg:text-lg hover:text-orange-500 transition-colors duration-200 group"
                           data-testid={`director-phone-${index}`}
                         >
-                          <Phone className="w-5 h-5 text-orange-500 group-hover:scale-110 transition-transform duration-200" />
-                          <span>{director.phone}</span>
+                          <Phone className="w-4 h-4 lg:w-5 lg:h-5 text-orange-500 group-hover:scale-110 transition-transform duration-200" />
+                          <span className="truncate">{director.phone}</span>
                         </a>
                       )}
                       
@@ -125,11 +125,11 @@ export default function ContactSection() {
                         <a
                           key={phoneIndex}
                           href={`tel:${phone}`}
-                          className="flex items-center space-x-3 text-lg hover:text-orange-500 transition-colors duration-200 group"
+                          className="flex items-center space-x-3 text-base lg:text-lg hover:text-orange-500 transition-colors duration-200 group"
                           data-testid={`director-phone-${index}-${phoneIndex}`}
                         >
-                          <Phone className="w-5 h-5 text-orange-500 group-hover:scale-110 transition-transform duration-200" />
-                          <span>{phone}</span>
+                          <Phone className="w-4 h-4 lg:w-5 lg:h-5 text-orange-500 group-hover:scale-110 transition-transform duration-200" />
+                          <span className="truncate">{phone}</span>
                         </a>
                       ))}
                     </div>
@@ -144,7 +144,7 @@ export default function ContactSection() {
             
             {/* Email Card */}
             <motion.div
-              className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:scale-[1.02]"
+              className="bg-white rounded-2xl p-6 lg:p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:scale-[1.02] max-w-lg mx-auto lg:mx-0"
               variants={cardVariants}
               initial="hidden"
               whileInView="visible"
@@ -154,15 +154,15 @@ export default function ContactSection() {
             >
               <div className="flex items-start space-x-4">
                 <div 
-                  className="w-16 h-16 rounded-full flex items-center justify-center flex-shrink-0"
+                  className="w-14 h-14 lg:w-16 lg:h-16 rounded-full flex items-center justify-center flex-shrink-0"
                   style={{ backgroundColor: '#f39c12' }}
                 >
-                  <Mail className="w-8 h-8 text-white" />
+                  <Mail className="w-7 h-7 lg:w-8 lg:h-8 text-white" />
                 </div>
                 
-                <div className="flex-1">
+                <div className="flex-1 min-w-0">
                   <h3 
-                    className="text-2xl font-bold mb-4"
+                    className="text-xl lg:text-2xl font-bold mb-4"
                     style={{ color: '#1a3e72' }}
                     data-testid="email-heading"
                   >
@@ -171,13 +171,13 @@ export default function ContactSection() {
                   
                   <a
                     href={`mailto:${contactInfo.email}`}
-                    className="text-lg text-blue-600 hover:text-blue-800 font-medium mb-3 block transition-colors duration-200"
+                    className="text-base lg:text-lg text-blue-600 hover:text-blue-800 font-medium mb-3 block transition-colors duration-200 break-all"
                     data-testid="email-link"
                   >
                     {contactInfo.email}
                   </a>
                   
-                  <p className="text-gray-600" data-testid="email-note">
+                  <p className="text-gray-600 text-sm lg:text-base" data-testid="email-note">
                     We reply within 24 hours
                   </p>
                 </div>
@@ -186,7 +186,7 @@ export default function ContactSection() {
 
             {/* Address Card */}
             <motion.div
-              className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:scale-[1.02]"
+              className="bg-white rounded-2xl p-6 lg:p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:scale-[1.02] max-w-lg mx-auto lg:mx-0"
               variants={cardVariants}
               initial="hidden"
               whileInView="visible"
@@ -196,22 +196,22 @@ export default function ContactSection() {
             >
               <div className="flex items-start space-x-4">
                 <div 
-                  className="w-16 h-16 rounded-full flex items-center justify-center flex-shrink-0"
+                  className="w-14 h-14 lg:w-16 lg:h-16 rounded-full flex items-center justify-center flex-shrink-0"
                   style={{ backgroundColor: '#f39c12' }}
                 >
-                  <MapPin className="w-8 h-8 text-white" />
+                  <MapPin className="w-7 h-7 lg:w-8 lg:h-8 text-white" />
                 </div>
                 
-                <div className="flex-1">
+                <div className="flex-1 min-w-0">
                   <h3 
-                    className="text-2xl font-bold mb-4"
+                    className="text-xl lg:text-2xl font-bold mb-4"
                     style={{ color: '#1a3e72' }}
                     data-testid="address-heading"
                   >
                     Registered Office
                   </h3>
                   
-                  <address className="text-lg text-gray-700 not-italic mb-6 leading-relaxed" data-testid="office-address">
+                  <address className="text-base lg:text-lg text-gray-700 not-italic mb-6 leading-relaxed" data-testid="office-address">
                     <div>{contactInfo.address.line1}</div>
                     <div>{contactInfo.address.line2}</div>
                     <div>{contactInfo.address.line3}</div>
@@ -219,7 +219,7 @@ export default function ContactSection() {
                   
                   <Button
                     asChild
-                    className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+                    className="bg-blue-600 hover:bg-blue-700 text-white px-4 lg:px-6 py-2 lg:py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 text-sm lg:text-base"
                     data-testid="maps-button"
                   >
                     <a
@@ -228,7 +228,7 @@ export default function ContactSection() {
                       rel="noopener noreferrer"
                       className="flex items-center space-x-2"
                     >
-                      <MapPin className="w-5 h-5" />
+                      <MapPin className="w-4 h-4 lg:w-5 lg:h-5" />
                       <span>View on Google Maps</span>
                     </a>
                   </Button>
