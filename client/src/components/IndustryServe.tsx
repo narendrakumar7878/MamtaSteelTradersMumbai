@@ -80,6 +80,9 @@ export default function IndustryServe() {
     >
       <div className="container mx-auto max-w-7xl">
         
+        {/* Animated Section Divider */}
+        <div className="w-full h-[1px] lg:h-[2px] bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 shimmer-gradient mb-6" />
+        
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 

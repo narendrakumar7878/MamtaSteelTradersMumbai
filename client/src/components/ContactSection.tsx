@@ -42,6 +42,9 @@ export default function ContactSection() {
     >
       <div className="container mx-auto max-w-7xl">
         
+        {/* Animated Section Divider */}
+        <div className="w-full h-[1px] lg:h-[2px] bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 shimmer-gradient mb-6" />
+        
         {/* Header Section */}
         <motion.div 
           className="text-center mb-12 lg:mb-16"
