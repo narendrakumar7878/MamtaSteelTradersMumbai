@@ -1,0 +1,104 @@
+Task: Create a new file ui/contactsection.tsx in the ui folder, then import and place it in home.tsx between <ProductShowcase /> and <StatsSection />.
+
+Design Requirements (Match Reference Image):
+
+Heading Section:
+
+Title: Contact Mamta Steel Traders (H1, bold, dark navy #1a3e72).
+
+Subtitle: Premium steel solutions since 2010 (lighter gray).
+
+Underline below heading with a small gradient line from orange → red → yellow (same as screenshot).
+
+Contact Cards Layout:
+
+Two director cards on left column:
+
+Card 1: Prakash Pramar (Managing Director)
+
+Phone: +91 98193 22576
+
+Card 2: Naresh Parmar (Operations Director)
+
+Phones: +91 98679 58210 and +91 91529 58210
+
+Right column cards:
+
+Card: Email Enquiries → mamtasteeltraders@gmail.com (click opens email client mailto:) + note: "We reply within 24 hours".
+
+Card: Registered Office →
+
+objectivec
+Copy
+Edit
+OFFICE NO 20, 1st FLOOR 45/49 GULAB MOHAMAD BULDING
+RAMA GALI, 2ND KUMBHARWADA
+MUMBAI 400004, MAHARASHTRA, INDIA
+Button: View on Google Maps (click opens location in new tab).
+
+Icons & Interactions:
+
+Use modern outlined icons for person, phone, email, and location (e.g., from Lucide Icons or Heroicons).
+
+All phone numbers are clickable (tel: link) so mobile devices show "Call" option; desktop users can copy.
+
+Email is clickable (mailto: link).
+
+Map button is clickable and opens Google Maps in new tab.
+
+Styling:
+
+Use Tailwind CSS with rounded-2xl cards, soft shadows, padding, and hover effects.
+
+Colors: Navy blue text #1a3e72, orange accent #f39c12.
+
+Smooth fade-in & slide-up animations for each card using Framer Motion.
+
+SEO:
+
+Use <section> with aria-label="Contact Mamta Steel Traders".
+
+Use semantic tags like <h1>, <address>, <a>.
+
+Add alt attributes for any icons/images if used as <img>.
+
+Ensure phone numbers and email are crawlable text, not just images.
+
+Responsive Layout:
+
+Desktop: Two columns (left contacts, right email & address).
+
+Mobile: Stack vertically with smooth spacing.
+
+Animation:
+
+Cards should have a small upward motion with opacity fade-in when they appear in viewport.
+
+Hover effect: subtle scale-up (1.02) with shadow intensity increase.
+
+Image/Avatar:
+
+Use the given avatar image file for director placeholders or use a generic profile icon.
+
+Icons should match color theme and be consistent across cards.
+
+Implementation Steps:
+
+Create ui/contactsection.tsx component.
+
+Add all data hardcoded for now (Prakash, Naresh, email, address).
+
+Import in home.tsx:
+
+tsx
+Copy
+Edit
+import ContactSection from "@/ui/contactsection";
+
+...
+<ProductShowcase />
+<ContactSection />
+<StatsSection />
+Ensure animations trigger on scroll using Framer Motion.
+
+Ensure accessibility with role, aria-label, and tabIndex where needed.

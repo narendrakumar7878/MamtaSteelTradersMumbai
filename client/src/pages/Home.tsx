@@ -1,6 +1,7 @@
 import SEOHead from "@/components/SEOHead";
 import HeroCarousel from "@/components/HeroCarousel";
 import ProductShowcase from "@/components/ProductShowcase";
+import ContactSection from "@/components/ui/contactsection";
 import StatsSection from "@/components/StatsSection";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       />
       <HeroCarousel />
       <ProductShowcase />
+      <ContactSection />
       <StatsSection />
     </>
   );
