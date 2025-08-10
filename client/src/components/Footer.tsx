@@ -163,7 +163,7 @@ export default function Footer() {
         </div>
 
         {/* Animated Divider Line */}
-        <div className="footer-divider" style={{paddingTop: "1px"}}></div>
+        <div className="footer-divider" style={{ paddingTop: "1px" }}></div>
 
         {/* Bottom Footer - Centered Layout */}
         <div className="text-center space-y-6">
