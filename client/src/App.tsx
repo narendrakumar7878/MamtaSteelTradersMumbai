@@ -11,6 +11,11 @@ import Solutions from "@/pages/Solutions";
 import Certificate from "@/pages/Certificate";
 import Contact from "@/pages/Contact";
 import TechnicalInfo from "@/pages/TechnicalInfo";
+import TechnicalInformation from "@/pages/technicalInformation";
+import ChemicalComposition from "@/pages/chemicalComposition";
+import SS300And200SeriesChemicalComposition from "@/pages/ss300And200SeriesChemicalComposition";
+import StainlessSteelPipeSpecification from "@/pages/stainlessSteelPipeSpecification";
+import CarbonAndAlloyPipeSpecifications from "@/pages/carbonAndAlloyPipeSpecifications";
 import NotFound from "@/pages/not-found";
 import TopBar from "@/components/TopBar";
 import MainHeader from "@/components/MainHeader";
@@ -24,6 +29,11 @@ function Router() {
       <Route path="/about" component={About} />
       <Route path="/products" component={Products} />
       <Route path="/technical-info" component={TechnicalInfo} />
+      <Route path="/technicalInformation" component={TechnicalInformation} />
+      <Route path="/chemicalComposition" component={ChemicalComposition} />
+      <Route path="/ss300And200SeriesChemicalComposition" component={SS300And200SeriesChemicalComposition} />
+      <Route path="/stainlessSteelPipeSpecification" component={StainlessSteelPipeSpecification} />
+      <Route path="/carbonAndAlloyPipeSpecifications" component={CarbonAndAlloyPipeSpecifications} />
       <Route path="/solutions" component={Solutions} />
       <Route path="/certificate" component={Certificate} />
       <Route path="/contact" component={Contact} />

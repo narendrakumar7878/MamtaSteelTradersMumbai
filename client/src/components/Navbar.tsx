@@ -248,27 +248,27 @@ export default function Navbar() {
               </button>
               <div className="absolute top-full left-0 bg-white text-gray-800 min-w-80 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform group-hover:translate-y-2 z-50">
                 <div className="py-2">
-                  <Link href="/technical-information" className="px-4 py-3 hover:bg-gray-100 cursor-pointer border-b flex items-center transition-colors duration-200" data-testid="link-technical-information">
+                  <Link href="/technicalInformation" className="px-4 py-3 hover:bg-gray-100 cursor-pointer border-b flex items-center transition-colors duration-200" data-testid="link-technical-information">
                     <BookOpen className="w-4 h-4 mr-3 text-navy-primary" />
                     <span className="font-semibold text-navy-primary">Technical Information</span>
                   </Link>
                   
-                  <Link href="/chemical-composition" className="px-4 py-3 hover:bg-gray-100 cursor-pointer border-b flex items-center transition-colors duration-200" data-testid="link-chemical-composition">
+                  <Link href="/chemicalComposition" className="px-4 py-3 hover:bg-gray-100 cursor-pointer border-b flex items-center transition-colors duration-200" data-testid="link-chemical-composition">
                     <TestTube className="w-4 h-4 mr-3 text-navy-primary" />
                     <span className="font-semibold text-navy-primary">Chemical Composition</span>
                   </Link>
                   
-                  <Link href="/ss300-and-200-series-chemical-composition" className="px-4 py-3 hover:bg-gray-100 cursor-pointer border-b flex items-center transition-colors duration-200" data-testid="link-ss300-200-series">
+                  <Link href="/ss300And200SeriesChemicalComposition" className="px-4 py-3 hover:bg-gray-100 cursor-pointer border-b flex items-center transition-colors duration-200" data-testid="link-ss300-200-series">
                     <Layers className="w-4 h-4 mr-3 text-navy-primary" />
                     <span className="font-semibold text-navy-primary">SS 300 & 200 Series Chemical Composition</span>
                   </Link>
                   
-                  <Link href="/stainless-steel-pipe-specification" className="px-4 py-3 hover:bg-gray-100 cursor-pointer border-b flex items-center transition-colors duration-200" data-testid="link-stainless-pipe-spec">
+                  <Link href="/stainlessSteelPipeSpecification" className="px-4 py-3 hover:bg-gray-100 cursor-pointer border-b flex items-center transition-colors duration-200" data-testid="link-stainless-pipe-spec">
                     <Cylinder className="w-4 h-4 mr-3 text-navy-primary" />
                     <span className="font-semibold text-navy-primary">Stainless Steel Pipe Specification</span>
                   </Link>
                   
-                  <Link href="/carbon-and-alloy-pipe-specifications" className="px-4 py-3 hover:bg-gray-100 cursor-pointer flex items-center transition-colors duration-200" data-testid="link-carbon-alloy-pipe-spec">
+                  <Link href="/carbonAndAlloyPipeSpecifications" className="px-4 py-3 hover:bg-gray-100 cursor-pointer flex items-center transition-colors duration-200" data-testid="link-carbon-alloy-pipe-spec">
                     <TrendingUp className="w-4 h-4 mr-3 text-navy-primary" />
                     <span className="font-semibold text-navy-primary">Carbon & Alloy Pipe Specifications</span>
                   </Link>
@@ -441,10 +441,40 @@ export default function Navbar() {
                 )}
               </div>
               
-              <Link href="/technical-info" className="flex items-center py-2 px-4 hover:text-gold-primary hover:bg-navy-primary/20 transition-all duration-200" onClick={toggleMobileMenu} data-testid="mobile-link-technical-info">
-                <FileText className="w-4 h-4 mr-3" />
-                Technical Info
-              </Link>
+              {/* Mobile Technical Info Menu */}
+              <div className="py-2 px-4">
+                <div className="flex items-center justify-between cursor-pointer" onClick={toggleMobileTechnicalInfo} data-testid="mobile-dropdown-technical-info">
+                  <div className="flex items-center">
+                    <FileText className="w-4 h-4 mr-3" />
+                    <span className="font-semibold">Technical Info</span>
+                  </div>
+                  <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${mobileTechnicalInfoOpen ? 'rotate-180' : ''}`} />
+                </div>
+                {mobileTechnicalInfoOpen && (
+                  <div className="ml-7 mt-2 space-y-1 animate-in slide-in-from-top duration-200">
+                    <Link href="/technicalInformation" className="flex items-center py-2 text-sm hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-technical-information">
+                      <BookOpen className="w-3 h-3 mr-2" />
+                      Technical Information
+                    </Link>
+                    <Link href="/chemicalComposition" className="flex items-center py-2 text-sm hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-chemical-composition">
+                      <TestTube className="w-3 h-3 mr-2" />
+                      Chemical Composition
+                    </Link>
+                    <Link href="/ss300And200SeriesChemicalComposition" className="flex items-center py-2 text-sm hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-ss300-200-series">
+                      <Layers className="w-3 h-3 mr-2" />
+                      SS 300 & 200 Series
+                    </Link>
+                    <Link href="/stainlessSteelPipeSpecification" className="flex items-center py-2 text-sm hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-stainless-pipe-spec">
+                      <Cylinder className="w-3 h-3 mr-2" />
+                      Stainless Steel Pipes
+                    </Link>
+                    <Link href="/carbonAndAlloyPipeSpecifications" className="flex items-center py-2 text-sm hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-carbon-alloy-pipe-spec">
+                      <TrendingUp className="w-3 h-3 mr-2" />
+                      Carbon & Alloy Pipes
+                    </Link>
+                  </div>
+                )}
+              </div>
               <Link href="/solutions" className="flex items-center py-2 px-4 hover:text-gold-primary hover:bg-navy-primary/20 transition-all duration-200" onClick={toggleMobileMenu} data-testid="mobile-link-solutions">
                 <Wrench className="w-4 h-4 mr-3" />
                 Solutions
