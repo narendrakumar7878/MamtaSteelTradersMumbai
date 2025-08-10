@@ -1,0 +1,72 @@
+update the file client/src/pages/About.tsx to be a fully SEO-optimized, responsive, modern, and animated About page.
+
+Requirements:
+
+Use React + Tailwind CSS for styling, and add smooth animations (Framer Motion for fade-in, slide, and staggered animations).
+
+Structure the page for best SEO:
+
+Use semantic HTML tags (<section>, <article>, <header>, <main>).
+
+Use proper heading hierarchy (<h1> for title, <h2> for subsections).
+
+Add descriptive alt text for images.
+
+Wrap main content in <main> with itemScope and itemType="https://schema.org/AboutPage".
+
+Use meta description with React Helmet.
+
+The content should be visually appealing with cards, gradient backgrounds, subtle hover effects, and animated dividers between sections.
+
+Use a responsive two-column layout on desktop and single-column on mobile for readability.
+
+Add scroll animations so each section fades in from bottom when visible.
+
+Place a modern animated gradient divider line between major sections.
+
+Make sure typography is clean and easy to read.
+
+Content to display:
+
+Main Heading: "About Industry"
+
+Paragraph:
+
+sql
+Copy
+Edit
+Mamta Steel Traders is one of the Largest Manufacturer, Stockiest, Supplier, Importer and Exporter of Stainless Steel, Carbon Steel, Alloy Steel, Mild Steel, High Nickel Alloys, Special Alloys, Aluminium Alloys, Copper Nickel, Titanium Alloys, Duplex & Super Duplex, Tantalum, Abrasion Resistant Steel, Hadfield Manganese Steel, Corten Steel, High Tensile, Quenched & Tempered Steel, Armour Steel etc in Form & Shapes of Pipes, Tubes, Plates, Round Bars, Flanges and Fittings. We also deal in IBR Products. Over 3 decades of experience and our commitment towards customer delight and providing top-notch quality of products, we are a well-recognized choice for the majority of the businesses and companies for their Industrial solutions. Since Mamta Steel Traders was set up with a vision of excelling in the field of Manufacturing, Supplying and Fulfilling the demand of the dynamic metal market and the customers involved.
+Section: "Why Choose Us" → Include a relevant image and bullet points:
+
+diff
+Copy
+Edit
+- State of the Art Manufacturing Facilities  
+- Technically Qualified Engineers & Professionals team  
+- Market experience  
+- Products confirming to International standards  
+- Use of sophisticated machinery for perfect finish  
+- Strong market networks to distribute our products  
+- Cost-effective solutions
+Section: "Our Values", "Our Vision", "Our Mission" — with animated cards for each.
+
+Closing Paragraph:
+
+pgsql
+Copy
+Edit
+Our Clients are our most valuable assets and for that we use our skilled people and latest technology and equipments to fulfill their needs.
+
+We help customers develop their energy resources; bringing world class capability and delivering it locally. We promote commercial arrangements that are aligned to our customers’ needs, allowing us to deliver more value to the customer while increasing the returns from our most precious asset – our people.
+
+Provide technically sound solutions and create additional value in mutual interest with our customers resulting in being a preferred Stockists & Suppliers within the Stockists & Suppliers industry. We would appreciate to get your esteemed enquires and look forward to the pleasure receiving your valuable response.
+Extra:
+
+Use online royalty-free stock images matching each section.
+
+Add small icon illustrations next to bullet points.
+
+Ensure animations are smooth and performance-optimized.
+
+Fully mobile-friendly and tested for desktop, tablet, and phone views.
+
