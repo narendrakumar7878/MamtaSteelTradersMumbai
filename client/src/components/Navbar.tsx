@@ -16,12 +16,18 @@ import {
   BarChart3,
   Puzzle,
   Circle,
-  Gauge
+  Gauge,
+  BookOpen,
+  TestTube,
+  Layers,
+  TrendingUp,
+  Zap
 } from "lucide-react";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [mobileProductsOpen, setMobileProductsOpen] = useState(false);
+  const [mobileTechnicalInfoOpen, setMobileTechnicalInfoOpen] = useState(false);
   const [mobileSubmenus, setMobileSubmenus] = useState({
     pipes: false,
     sheets: false,
@@ -37,6 +43,7 @@ export default function Navbar() {
     // Reset all submenu states when closing mobile menu
     if (isMobileMenuOpen) {
       setMobileProductsOpen(false);
+      setMobileTechnicalInfoOpen(false);
       setMobileSubmenus({
         pipes: false,
         sheets: false,
@@ -66,6 +73,10 @@ export default function Navbar() {
       ...prev,
       [submenu]: !prev[submenu]
     }));
+  };
+
+  const toggleMobileTechnicalInfo = () => {
+    setMobileTechnicalInfoOpen(!mobileTechnicalInfoOpen);
   };
 
   const isActive = (path: string) => {
@@ -228,10 +239,42 @@ export default function Navbar() {
               </div>
             </div>
             
-            <Link href="/technical-info" className={`hover:text-gold-primary transition-colors flex items-center ${isActive('/technical-info') ? 'text-gold-primary' : ''}`} data-testid="link-technical-info">
-              <FileText className="w-4 h-4 mr-2" />
-              Technical Info
-            </Link>
+            {/* Technical Info Dropdown */}
+            <div className="relative group">
+              <button className="hover:text-gold-primary transition-colors flex items-center" data-testid="dropdown-technical-info">
+                <FileText className="w-4 h-4 mr-2" />
+                Technical Info
+                <ChevronDown className="w-4 h-4 ml-2 group-hover:rotate-180 transition-transform duration-300" />
+              </button>
+              <div className="absolute top-full left-0 bg-white text-gray-800 min-w-80 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform group-hover:translate-y-2 z-50">
+                <div className="py-2">
+                  <Link href="/technical-information" className="px-4 py-3 hover:bg-gray-100 cursor-pointer border-b flex items-center transition-colors duration-200" data-testid="link-technical-information">
+                    <BookOpen className="w-4 h-4 mr-3 text-navy-primary" />
+                    <span className="font-semibold text-navy-primary">Technical Information</span>
+                  </Link>
+                  
+                  <Link href="/chemical-composition" className="px-4 py-3 hover:bg-gray-100 cursor-pointer border-b flex items-center transition-colors duration-200" data-testid="link-chemical-composition">
+                    <TestTube className="w-4 h-4 mr-3 text-navy-primary" />
+                    <span className="font-semibold text-navy-primary">Chemical Composition</span>
+                  </Link>
+                  
+                  <Link href="/ss300-and-200-series-chemical-composition" className="px-4 py-3 hover:bg-gray-100 cursor-pointer border-b flex items-center transition-colors duration-200" data-testid="link-ss300-200-series">
+                    <Layers className="w-4 h-4 mr-3 text-navy-primary" />
+                    <span className="font-semibold text-navy-primary">SS 300 & 200 Series Chemical Composition</span>
+                  </Link>
+                  
+                  <Link href="/stainless-steel-pipe-specification" className="px-4 py-3 hover:bg-gray-100 cursor-pointer border-b flex items-center transition-colors duration-200" data-testid="link-stainless-pipe-spec">
+                    <Cylinder className="w-4 h-4 mr-3 text-navy-primary" />
+                    <span className="font-semibold text-navy-primary">Stainless Steel Pipe Specification</span>
+                  </Link>
+                  
+                  <Link href="/carbon-and-alloy-pipe-specifications" className="px-4 py-3 hover:bg-gray-100 cursor-pointer flex items-center transition-colors duration-200" data-testid="link-carbon-alloy-pipe-spec">
+                    <TrendingUp className="w-4 h-4 mr-3 text-navy-primary" />
+                    <span className="font-semibold text-navy-primary">Carbon & Alloy Pipe Specifications</span>
+                  </Link>
+                </div>
+              </div>
+            </div>
             
             <Link href="/solutions" className={`hover:text-gold-primary transition-colors flex items-center ${isActive('/solutions') ? 'text-gold-primary' : ''}`} data-testid="link-solutions">
               <Wrench className="w-4 h-4 mr-2" />
