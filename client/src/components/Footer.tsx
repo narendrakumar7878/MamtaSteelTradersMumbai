@@ -163,9 +163,7 @@ export default function Footer() {
         </div>
 
         {/* Animated Divider Line */}
-        <div className="relative w-full h-[2px] gradient-divider my-8 rounded-full overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 animate-pulse hover:opacity-40 transition-opacity duration-500" />
-        </div>
+        <div className="footer-divider"></div>
 
         {/* Bottom Footer - Centered Layout */}
         <div className="text-center space-y-6">

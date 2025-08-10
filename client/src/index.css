@@ -123,6 +123,15 @@
   animation: shimmer 3s infinite;
 }
 
+/* Footer Animated Divider */
+.footer-divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, #f39c12, transparent);
+  margin: 0 auto 20px;
+  width: 80%;
+  max-width: 600px;
+}
+
 /* Footer Modern Animations */
 @keyframes fadeInUp {
   from {
