@@ -1,0 +1,87 @@
+Please improve client/src/pages/Solutions.tsx with the following requirements:
+
+SEO Optimization:
+
+Use semantic HTML tags (<section>, <article>, <header>, <footer>, <main>).
+
+Add proper meta title and description for "Steel Solutions | Mamta Steel Traders".
+
+Use <h1>, <h2>, <h3> headings in a proper hierarchy for the given content.
+
+Include relevant SEO keywords such as: steel solutions, industrial steel, structural steel, custom steel fabrication, supply chain steel, steel manufacturing, steel supplier.
+
+Optimize images with alt attributes and proper loading="lazy".
+
+Content Structure & Styling:
+
+Use a modern and professional design with smooth animations (Framer Motion or CSS transitions).
+
+Add visually appealing icons for each section using lucide-react or similar.
+
+Add hover effects for each solution card.
+
+Use a color theme consistent with #1a3e72, #0d2b4e, and #f39c12.
+
+Make the page fully responsive for mobile, tablet, and desktop.
+
+Content (Use the given content exactly but improve the layout and readability):
+Main Heading: Steel Solutions
+Subtitle: Comprehensive steel solutions tailored to meet diverse industry requirements with expert consultation and support.
+
+Industrial Manufacturing
+Comprehensive steel solutions for manufacturing industries including automotive, aerospace, and heavy machinery.
+
+Custom fabrication
+
+Quality assurance
+
+Timely delivery
+
+Technical support
+
+Construction & Infrastructure
+High-grade structural steel products for construction projects, bridges, and infrastructure development.
+
+Structural steel
+
+Reinforcement bars
+
+Custom cutting
+
+Site delivery
+
+Custom Solutions
+Tailored steel solutions designed to meet specific project requirements and industry standards.
+
+Design consultation
+
+Custom specifications
+
+Prototype development
+
+Quality testing
+
+Supply Chain Management
+End-to-end supply chain solutions ensuring efficient procurement, storage, and distribution.
+
+Inventory management
+
+Just-in-time delivery
+
+Logistics support
+
+Order tracking
+
+Our Solution Process:
+01 — Consultation: Understanding your requirements
+02 — Planning: Designing optimal solutions
+03 — Execution: Manufacturing and quality control
+04 — Delivery: Timely delivery and support
+
+Extra Enhancements:
+
+Add a scroll animation so that each section fades in or slides in when visible.
+
+Include a small breadcrumb navigation at the top for better UX.
+
+Add call-to-action buttons linking to the Contact page for consultation requests.
