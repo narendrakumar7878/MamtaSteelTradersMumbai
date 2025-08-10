@@ -507,24 +507,24 @@ export default function ChemicalComposition() {
                 </p>
               </header>
 
-              <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-                <div className="overflow-x-auto">
-                  <table className="w-full min-w-[1200px]" role="table" aria-label="Martensitic Steel Chemical Composition">
-                    <thead className="bg-gradient-to-r from-[#1a3e72] to-[#0d2b4e]">
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200">
+                <div className="overflow-x-auto max-w-full">
+                  <table className="w-full min-w-[1400px] border-collapse" role="table" aria-label="Martensitic Steel Chemical Composition">
+                    <thead className="bg-gradient-to-r from-[#1a3e72] to-[#0d2b4e] sticky top-0 z-10">
                       <tr>
-                        <th className="text-left py-4 px-3 font-bold text-white border-r border-blue-400" scope="col">Grade</th>
-                        <th className="text-left py-4 px-3 font-bold text-white border-r border-blue-400" scope="col">UNS</th>
-                        <th className="text-left py-4 px-3 font-bold text-white border-r border-blue-400" scope="col">Indian / IS</th>
-                        <th className="text-left py-4 px-3 font-bold text-white border-r border-blue-400" scope="col">European / EN</th>
-                        <th className="text-left py-4 px-3 font-bold text-white border-r border-blue-400" scope="col">%C (Max)</th>
-                        <th className="text-left py-4 px-3 font-bold text-white border-r border-blue-400" scope="col">%Mn (Max)</th>
-                        <th className="text-left py-4 px-3 font-bold text-white border-r border-blue-400" scope="col">%P (Max)</th>
-                        <th className="text-left py-4 px-3 font-bold text-white border-r border-blue-400" scope="col">%S (Max)</th>
-                        <th className="text-left py-4 px-3 font-bold text-white border-r border-blue-400" scope="col">%Si (Max)</th>
-                        <th className="text-left py-4 px-3 font-bold text-white border-r border-blue-400" scope="col">%Cr</th>
-                        <th className="text-left py-4 px-3 font-bold text-white border-r border-blue-400" scope="col">%Ni</th>
-                        <th className="text-left py-4 px-3 font-bold text-white border-r border-blue-400" scope="col">%Mo</th>
-                        <th className="text-left py-4 px-3 font-bold text-white" scope="col">% Others</th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">Grade</th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">UNS</th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">Indian / IS</th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">European / EN</th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">%C<br/><span className="text-xs font-normal">(Max)</span></th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">%Mn<br/><span className="text-xs font-normal">(Max)</span></th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">%P<br/><span className="text-xs font-normal">(Max)</span></th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">%S<br/><span className="text-xs font-normal">(Max)</span></th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">%Si<br/><span className="text-xs font-normal">(Max)</span></th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">%Cr</th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">%Ni</th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">%Mo</th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-b border-blue-400" scope="col">% Others</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -532,46 +532,46 @@ export default function ChemicalComposition() {
                         <tr 
                           key={grade.grade}
                           id={`${grade.grade}-chemical-composition`}
-                          className={`${index % 2 === 0 ? 'bg-gray-50' : 'bg-white'} hover:bg-blue-50 transition-all duration-200`}
+                          className={`${index % 2 === 0 ? 'bg-gray-50' : 'bg-white'} hover:bg-blue-50 transition-all duration-200 border-b border-gray-200`}
                           aria-label={`Chemical composition data for ${grade.grade} martensitic stainless steel`}
                         >
-                          <td className="py-4 px-3 font-bold text-[#0d2b4e] border-r border-gray-200" data-grade={grade.grade}>
+                          <td className="py-4 px-4 font-bold text-[#0d2b4e] border-r border-gray-300 whitespace-nowrap" data-grade={grade.grade}>
                             {grade.grade}
                           </td>
-                          <td className="py-4 px-3 text-gray-700 border-r border-gray-200" data-uns={grade.uns}>
+                          <td className="py-4 px-4 text-gray-700 border-r border-gray-300 whitespace-nowrap" data-uns={grade.uns}>
                             {grade.uns}
                           </td>
-                          <td className="py-4 px-3 text-gray-700 border-r border-gray-200" data-indian-standard={grade.indian}>
+                          <td className="py-4 px-4 text-gray-700 border-r border-gray-300 text-sm" data-indian-standard={grade.indian}>
                             {grade.indian}
                           </td>
-                          <td className="py-4 px-3 text-gray-700 border-r border-gray-200" data-european-standard={grade.european}>
+                          <td className="py-4 px-4 text-gray-700 border-r border-gray-300 whitespace-nowrap" data-european-standard={grade.european}>
                             {grade.european}
                           </td>
-                          <td className="py-4 px-3 font-medium text-[#1a3e72] border-r border-gray-200" data-carbon-content={grade.composition.carbon}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-300 text-center" data-carbon-content={grade.composition.carbon}>
                             {grade.composition.carbon}
                           </td>
-                          <td className="py-4 px-3 font-medium text-[#1a3e72] border-r border-gray-200" data-manganese-content={grade.composition.manganese}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-300 text-center" data-manganese-content={grade.composition.manganese}>
                             {grade.composition.manganese}
                           </td>
-                          <td className="py-4 px-3 font-medium text-[#1a3e72] border-r border-gray-200" data-phosphorus-content={grade.composition.phosphorus}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-300 text-center" data-phosphorus-content={grade.composition.phosphorus}>
                             {grade.composition.phosphorus}
                           </td>
-                          <td className="py-4 px-3 font-medium text-[#1a3e72] border-r border-gray-200" data-sulfur-content={grade.composition.sulfur}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-300 text-center" data-sulfur-content={grade.composition.sulfur}>
                             {grade.composition.sulfur}
                           </td>
-                          <td className="py-4 px-3 font-medium text-[#1a3e72] border-r border-gray-200" data-silicon-content={grade.composition.silicon}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-300 text-center" data-silicon-content={grade.composition.silicon}>
                             {grade.composition.silicon}
                           </td>
-                          <td className="py-4 px-3 font-medium text-[#1a3e72] border-r border-gray-200" data-chromium-content={grade.composition.chromium}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-300 text-center" data-chromium-content={grade.composition.chromium}>
                             {grade.composition.chromium}
                           </td>
-                          <td className="py-4 px-3 font-medium text-[#1a3e72] border-r border-gray-200" data-nickel-content={grade.composition.nickel}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-300 text-center" data-nickel-content={grade.composition.nickel}>
                             {grade.composition.nickel}
                           </td>
-                          <td className="py-4 px-3 font-medium text-[#1a3e72] border-r border-gray-200" data-molybdenum-content={grade.composition.molybdenum}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-300 text-center" data-molybdenum-content={grade.composition.molybdenum}>
                             {grade.composition.molybdenum}
                           </td>
-                          <td className="py-4 px-3 font-medium text-[#1a3e72]" data-other-elements={grade.composition.others}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] text-sm" data-other-elements={grade.composition.others}>
                             {grade.composition.others}
                           </td>
                         </tr>
@@ -603,25 +603,25 @@ export default function ChemicalComposition() {
                 </p>
               </header>
 
-              <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-                <div className="overflow-x-auto">
-                  <table className="w-full min-w-[1400px]" role="table" aria-label="Ferritic Steel Chemical Composition">
-                    <thead className="bg-gradient-to-r from-[#1a3e72] to-[#0d2b4e]">
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200">
+                <div className="overflow-x-auto max-w-full">
+                  <table className="w-full min-w-[1600px] border-collapse" role="table" aria-label="Ferritic Steel Chemical Composition">
+                    <thead className="bg-gradient-to-r from-[#1a3e72] to-[#0d2b4e] sticky top-0 z-10">
                       <tr>
-                        <th className="text-left py-4 px-3 font-bold text-white border-r border-blue-400" scope="col">Grade</th>
-                        <th className="text-left py-4 px-3 font-bold text-white border-r border-blue-400" scope="col">UNS</th>
-                        <th className="text-left py-4 px-3 font-bold text-white border-r border-blue-400" scope="col">Indian IS</th>
-                        <th className="text-left py-4 px-3 font-bold text-white border-r border-blue-400" scope="col">European EN</th>
-                        <th className="text-left py-4 px-3 font-bold text-white border-r border-blue-400" scope="col">%C (Max)</th>
-                        <th className="text-left py-4 px-3 font-bold text-white border-r border-blue-400" scope="col">%Mn (Max)</th>
-                        <th className="text-left py-4 px-3 font-bold text-white border-r border-blue-400" scope="col">%P (Max)</th>
-                        <th className="text-left py-4 px-3 font-bold text-white border-r border-blue-400" scope="col">%S (Max)</th>
-                        <th className="text-left py-4 px-3 font-bold text-white border-r border-blue-400" scope="col">%Si (Max)</th>
-                        <th className="text-left py-4 px-3 font-bold text-white border-r border-blue-400" scope="col">%Cr</th>
-                        <th className="text-left py-4 px-3 font-bold text-white border-r border-blue-400" scope="col">%Ni</th>
-                        <th className="text-left py-4 px-3 font-bold text-white border-r border-blue-400" scope="col">%Mo</th>
-                        <th className="text-left py-4 px-3 font-bold text-white border-r border-blue-400" scope="col">N PPM (Max)</th>
-                        <th className="text-left py-4 px-3 font-bold text-white" scope="col">% Others</th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">Grade</th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">UNS</th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">Indian<br/><span className="text-xs font-normal">IS</span></th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">European<br/><span className="text-xs font-normal">EN</span></th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">%C<br/><span className="text-xs font-normal">(Max)</span></th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">%Mn<br/><span className="text-xs font-normal">(Max)</span></th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">%P<br/><span className="text-xs font-normal">(Max)</span></th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">%S<br/><span className="text-xs font-normal">(Max)</span></th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">%Si<br/><span className="text-xs font-normal">(Max)</span></th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">%Cr</th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">%Ni</th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">%Mo</th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">N PPM<br/><span className="text-xs font-normal">(Max)</span></th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-b border-blue-400" scope="col">% Others</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -629,49 +629,49 @@ export default function ChemicalComposition() {
                         <tr 
                           key={grade.grade}
                           id={`${grade.grade}-chemical-composition`}
-                          className={`${index % 2 === 0 ? 'bg-gray-50' : 'bg-white'} hover:bg-blue-50 transition-all duration-200`}
+                          className={`${index % 2 === 0 ? 'bg-gray-50' : 'bg-white'} hover:bg-blue-50 transition-all duration-200 border-b border-gray-200`}
                           aria-label={`Chemical composition data for ${grade.grade} ferritic stainless steel`}
                         >
-                          <td className="py-4 px-3 font-bold text-[#0d2b4e] border-r border-gray-200" data-grade={grade.grade}>
+                          <td className="py-4 px-4 font-bold text-[#0d2b4e] border-r border-gray-300 whitespace-nowrap" data-grade={grade.grade}>
                             {grade.grade}
                           </td>
-                          <td className="py-4 px-3 text-gray-700 border-r border-gray-200" data-uns={grade.uns}>
+                          <td className="py-4 px-4 text-gray-700 border-r border-gray-300 whitespace-nowrap" data-uns={grade.uns}>
                             {grade.uns}
                           </td>
-                          <td className="py-4 px-3 text-gray-700 border-r border-gray-200" data-indian-standard={grade.indian}>
+                          <td className="py-4 px-4 text-gray-700 border-r border-gray-300 text-sm" data-indian-standard={grade.indian}>
                             {grade.indian}
                           </td>
-                          <td className="py-4 px-3 text-gray-700 border-r border-gray-200" data-european-standard={grade.european}>
+                          <td className="py-4 px-4 text-gray-700 border-r border-gray-300 whitespace-nowrap" data-european-standard={grade.european}>
                             {grade.european}
                           </td>
-                          <td className="py-4 px-3 font-medium text-[#1a3e72] border-r border-gray-200" data-carbon-content={grade.composition.carbon}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-300 text-center" data-carbon-content={grade.composition.carbon}>
                             {grade.composition.carbon}
                           </td>
-                          <td className="py-4 px-3 font-medium text-[#1a3e72] border-r border-gray-200" data-manganese-content={grade.composition.manganese}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-300 text-center" data-manganese-content={grade.composition.manganese}>
                             {grade.composition.manganese}
                           </td>
-                          <td className="py-4 px-3 font-medium text-[#1a3e72] border-r border-gray-200" data-phosphorus-content={grade.composition.phosphorus}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-300 text-center" data-phosphorus-content={grade.composition.phosphorus}>
                             {grade.composition.phosphorus}
                           </td>
-                          <td className="py-4 px-3 font-medium text-[#1a3e72] border-r border-gray-200" data-sulfur-content={grade.composition.sulfur}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-300 text-center" data-sulfur-content={grade.composition.sulfur}>
                             {grade.composition.sulfur}
                           </td>
-                          <td className="py-4 px-3 font-medium text-[#1a3e72] border-r border-gray-200" data-silicon-content={grade.composition.silicon}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-300 text-center" data-silicon-content={grade.composition.silicon}>
                             {grade.composition.silicon}
                           </td>
-                          <td className="py-4 px-3 font-medium text-[#1a3e72] border-r border-gray-200" data-chromium-content={grade.composition.chromium}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-300 text-center" data-chromium-content={grade.composition.chromium}>
                             {grade.composition.chromium}
                           </td>
-                          <td className="py-4 px-3 font-medium text-[#1a3e72] border-r border-gray-200" data-nickel-content={grade.composition.nickel}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-300 text-center" data-nickel-content={grade.composition.nickel}>
                             {grade.composition.nickel}
                           </td>
-                          <td className="py-4 px-3 font-medium text-[#1a3e72] border-r border-gray-200" data-molybdenum-content={grade.composition.molybdenum}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-300 text-center" data-molybdenum-content={grade.composition.molybdenum}>
                             {grade.composition.molybdenum}
                           </td>
-                          <td className="py-4 px-3 font-medium text-[#1a3e72] border-r border-gray-200" data-nitrogen-content={grade.composition.nitrogen}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-300 text-center" data-nitrogen-content={grade.composition.nitrogen}>
                             {grade.composition.nitrogen}
                           </td>
-                          <td className="py-4 px-3 font-medium text-[#1a3e72]" data-other-elements={grade.composition.others}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] text-sm" data-other-elements={grade.composition.others}>
                             {grade.composition.others}
                           </td>
                         </tr>
@@ -703,22 +703,22 @@ export default function ChemicalComposition() {
                 </p>
               </header>
 
-              <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-                <div className="overflow-x-auto">
-                  <table className="w-full min-w-[1200px]" role="table" aria-label="Ferritic + Martensitic Steel Chemical Composition">
-                    <thead className="bg-gradient-to-r from-[#1a3e72] to-[#0d2b4e]">
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200">
+                <div className="overflow-x-auto max-w-full">
+                  <table className="w-full min-w-[1300px] border-collapse" role="table" aria-label="Ferritic + Martensitic Steel Chemical Composition">
+                    <thead className="bg-gradient-to-r from-[#1a3e72] to-[#0d2b4e] sticky top-0 z-10">
                       <tr>
-                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400" scope="col">Grade</th>
-                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400" scope="col">%C (Max)</th>
-                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400" scope="col">%Mn (Max)</th>
-                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400" scope="col">%P (Max)</th>
-                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400" scope="col">%S (Max)</th>
-                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400" scope="col">%Si (Max)</th>
-                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400" scope="col">%Cr</th>
-                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400" scope="col">%Ni</th>
-                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400" scope="col">%Mo</th>
-                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400" scope="col">N PPM (Max)</th>
-                        <th className="text-left py-4 px-4 font-bold text-white" scope="col">% Others</th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">Grade</th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">%C<br/><span className="text-xs font-normal">(Max)</span></th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">%Mn<br/><span className="text-xs font-normal">(Max)</span></th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">%P<br/><span className="text-xs font-normal">(Max)</span></th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">%S<br/><span className="text-xs font-normal">(Max)</span></th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">%Si<br/><span className="text-xs font-normal">(Max)</span></th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">%Cr</th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">%Ni</th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">%Mo</th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-r border-blue-400 border-b border-blue-400" scope="col">N PPM<br/><span className="text-xs font-normal">(Max)</span></th>
+                        <th className="text-left py-4 px-4 font-bold text-white border-b border-blue-400" scope="col">% Others</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -726,40 +726,40 @@ export default function ChemicalComposition() {
                         <tr 
                           key={grade.grade}
                           id={`${grade.grade}-chemical-composition`}
-                          className={`${index % 2 === 0 ? 'bg-gray-50' : 'bg-white'} hover:bg-blue-50 transition-all duration-200`}
+                          className={`${index % 2 === 0 ? 'bg-gray-50' : 'bg-white'} hover:bg-blue-50 transition-all duration-200 border-b border-gray-200`}
                           aria-label={`Chemical composition data for ${grade.grade} ferritic-martensitic stainless steel`}
                         >
-                          <td className="py-4 px-4 font-bold text-[#0d2b4e] border-r border-gray-200" data-grade={grade.grade}>
+                          <td className="py-4 px-4 font-bold text-[#0d2b4e] border-r border-gray-300 whitespace-nowrap" data-grade={grade.grade}>
                             {grade.grade}
                           </td>
-                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-200" data-carbon-content={grade.composition.carbon}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-300 text-center" data-carbon-content={grade.composition.carbon}>
                             {grade.composition.carbon}
                           </td>
-                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-200" data-manganese-content={grade.composition.manganese}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-300 text-center" data-manganese-content={grade.composition.manganese}>
                             {grade.composition.manganese}
                           </td>
-                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-200" data-phosphorus-content={grade.composition.phosphorus}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-300 text-center" data-phosphorus-content={grade.composition.phosphorus}>
                             {grade.composition.phosphorus}
                           </td>
-                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-200" data-sulfur-content={grade.composition.sulfur}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-300 text-center" data-sulfur-content={grade.composition.sulfur}>
                             {grade.composition.sulfur}
                           </td>
-                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-200" data-silicon-content={grade.composition.silicon}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-300 text-center" data-silicon-content={grade.composition.silicon}>
                             {grade.composition.silicon}
                           </td>
-                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-200" data-chromium-content={grade.composition.chromium}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-300 text-center" data-chromium-content={grade.composition.chromium}>
                             {grade.composition.chromium}
                           </td>
-                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-200" data-nickel-content={grade.composition.nickel}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-300 text-center" data-nickel-content={grade.composition.nickel}>
                             {grade.composition.nickel}
                           </td>
-                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-200" data-molybdenum-content={grade.composition.molybdenum}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-300 text-center" data-molybdenum-content={grade.composition.molybdenum}>
                             {grade.composition.molybdenum}
                           </td>
-                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-200" data-nitrogen-content={grade.composition.nitrogen}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] border-r border-gray-300 text-center" data-nitrogen-content={grade.composition.nitrogen}>
                             {grade.composition.nitrogen}
                           </td>
-                          <td className="py-4 px-4 font-medium text-[#1a3e72]" data-other-elements={grade.composition.others}>
+                          <td className="py-4 px-4 font-medium text-[#1a3e72] text-sm" data-other-elements={grade.composition.others}>
                             {grade.composition.others}
                           </td>
                         </tr>
@@ -940,24 +940,7 @@ export default function ChemicalComposition() {
               </div>
             </motion.section>
 
-            {/* Source Reference */}
-            <motion.footer
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.5, delay: 1.5 }}
-              className="mt-8 text-center text-sm text-gray-500"
-            >
-              <p>
-                Source: <a 
-                  href="https://www.textronsteelalloys.com/chemical-composition-400-series-martensitic-ferritic/" 
-                  target="_blank" 
-                  rel="nofollow noopener noreferrer"
-                  className="text-[#1a3e72] hover:text-[#0d2b4e] transition-colors duration-200"
-                >
-                  Textron Steel & Alloys
-                </a>
-              </p>
-            </motion.footer>
+
           </motion.div>
         </div>
       </main>
