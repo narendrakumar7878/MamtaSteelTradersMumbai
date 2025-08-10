@@ -37,6 +37,7 @@ const slideInRight = {
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: '',
+    companyName: '',
     email: '',
     phone: '',
     message: ''
@@ -58,6 +59,15 @@ export default function Contact() {
       toast({
         title: "Error",
         description: "Name is required",
+        variant: "destructive"
+      });
+      return false;
+    }
+    
+    if (!formData.companyName.trim()) {
+      toast({
+        title: "Error",
+        description: "Client Company Name is required",
         variant: "destructive"
       });
       return false;
@@ -111,7 +121,8 @@ export default function Contact() {
     setIsSubmitting(true);
     
     try {
-      // Simulate form submission - In real app, integrate with EmailJS or backend API
+      // Form submission - In real app, integrate with EmailJS or backend API to send to your-email@example.com
+      // Data being sent: Name, Client Company Name, Email, Phone, Message
       await new Promise(resolve => setTimeout(resolve, 2000));
       
       toast({
@@ -122,6 +133,7 @@ export default function Contact() {
       // Reset form
       setFormData({
         name: '',
+        companyName: '',
         email: '',
         phone: '',
         message: ''
@@ -160,7 +172,7 @@ export default function Contact() {
     <>
       <SEOHead
         title="Contact Us - Mamta Steel Traders | Get in Touch for Steel Solutions"
-        description="Contact Mamta Steel Traders for steel product inquiries, quotes, and technical support. Located in Mumbai, Maharashtra. Call +91 9619342876 or email mamtasteeltraders@gmail.com"
+        description="Contact Mamta Steel Traders for steel product inquiries, quotes, and technical support. Located in Mumbai, Maharashtra. Call Prakash Parmar +91 9819322575, Naresh Parmar +91 9152958210 or email mamtasteeltraders@gmail.com"
         keywords="contact Mamta Steel Traders, steel supplier Mumbai, steel quotes, technical support, steel inquiry, Mumbai steel company"
       />
       
@@ -232,40 +244,25 @@ export default function Contact() {
                     whileInView="visible"
                     viewport={{ once: true }}
                   >
-                    {/* Contact Person */}
+                    {/* Contact Person - Prakash Parmar */}
                     <motion.div variants={fadeInUp} className="group">
                       <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 group-hover:border-[#f39c12]/30">
                         <div className="flex items-start">
                           <div className="w-14 h-14 bg-gradient-to-br from-[#0d2b4e] to-[#2563eb] rounded-xl flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300">
                             <User className="w-7 h-7 text-white" />
                           </div>
-                          <div>
-                            <h3 className="text-lg font-semibold text-[#0d2b4e] mb-1">Contact Person</h3>
-                            <p className="text-gray-600 text-lg">Prakash Pramar</p>
-                          </div>
-                        </div>
-                      </div>
-                    </motion.div>
-
-                    {/* Phone Numbers */}
-                    <motion.div variants={fadeInUp} className="group">
-                      <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 group-hover:border-[#f39c12]/30">
-                        <div className="flex items-start">
-                          <div className="w-14 h-14 bg-gradient-to-br from-[#0d2b4e] to-[#2563eb] rounded-xl flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300">
-                            <Phone className="w-7 h-7 text-white" />
-                          </div>
                           <div className="flex-1">
-                            <h3 className="text-lg font-semibold text-[#0d2b4e] mb-3">Phone Numbers</h3>
+                            <h3 className="text-lg font-semibold text-[#0d2b4e] mb-3">Prakash Parmar</h3>
                             <div className="space-y-2">
                               <div className="flex items-center justify-between">
                                 <a 
-                                  href="tel:+919619342876" 
+                                  href="tel:+919819322575" 
                                   className="text-gray-600 hover:text-[#f39c12] transition-colors duration-200 text-lg font-medium"
                                 >
-                                  +91 9619342876
+                                  +91 9819322575
                                 </a>
                                 <button
-                                  onClick={() => copyToClipboard('+919619342876', 'Phone')}
+                                  onClick={() => copyToClipboard('+919819322575', 'Phone')}
                                   className="ml-2 p-2 text-gray-400 hover:text-[#f39c12] transition-colors duration-200"
                                   title="Copy phone number"
                                 >
@@ -274,13 +271,44 @@ export default function Contact() {
                               </div>
                               <div className="flex items-center justify-between">
                                 <a 
-                                  href="tel:+919867059210" 
+                                  href="tel:+919819322576" 
                                   className="text-gray-600 hover:text-[#f39c12] transition-colors duration-200 text-lg font-medium"
                                 >
-                                  +91 9867059210
+                                  +91 9819322576
                                 </a>
                                 <button
-                                  onClick={() => copyToClipboard('+919867059210', 'Phone')}
+                                  onClick={() => copyToClipboard('+919819322576', 'Phone')}
+                                  className="ml-2 p-2 text-gray-400 hover:text-[#f39c12] transition-colors duration-200"
+                                  title="Copy phone number"
+                                >
+                                  {copySuccess === 'Phone' ? <Check className="w-4 h-4" /> : <Copy className="w-4 h-4" />}
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </motion.div>
+
+                    {/* Contact Person - Naresh Parmar */}
+                    <motion.div variants={fadeInUp} className="group">
+                      <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 group-hover:border-[#f39c12]/30">
+                        <div className="flex items-start">
+                          <div className="w-14 h-14 bg-gradient-to-br from-[#0d2b4e] to-[#2563eb] rounded-xl flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300">
+                            <User className="w-7 h-7 text-white" />
+                          </div>
+                          <div className="flex-1">
+                            <h3 className="text-lg font-semibold text-[#0d2b4e] mb-3">Naresh Parmar</h3>
+                            <div className="space-y-2">
+                              <div className="flex items-center justify-between">
+                                <a 
+                                  href="tel:+919152958210" 
+                                  className="text-gray-600 hover:text-[#f39c12] transition-colors duration-200 text-lg font-medium"
+                                >
+                                  +91 9152958210
+                                </a>
+                                <button
+                                  onClick={() => copyToClipboard('+919152958210', 'Phone')}
                                   className="ml-2 p-2 text-gray-400 hover:text-[#f39c12] transition-colors duration-200"
                                   title="Copy phone number"
                                 >
@@ -403,21 +431,37 @@ export default function Contact() {
                     </h2>
                     
                     <form onSubmit={handleSubmit} className="space-y-6">
+                      <div>
+                        <label className="block text-sm font-semibold text-[#0d2b4e] mb-2">
+                          Name *
+                        </label>
+                        <Input 
+                          type="text" 
+                          name="name"
+                          value={formData.name}
+                          onChange={handleInputChange}
+                          required 
+                          className="w-full h-12 border-2 border-gray-200 focus:border-[#f39c12] rounded-xl transition-colors duration-300"
+                          placeholder="Your full name"
+                        />
+                      </div>
+                      
+                      <div>
+                        <label className="block text-sm font-semibold text-[#0d2b4e] mb-2">
+                          Client Company Name *
+                        </label>
+                        <Input 
+                          type="text" 
+                          name="companyName"
+                          value={formData.companyName}
+                          onChange={handleInputChange}
+                          required 
+                          className="w-full h-12 border-2 border-gray-200 focus:border-[#f39c12] rounded-xl transition-colors duration-300"
+                          placeholder="Your company name"
+                        />
+                      </div>
+                      
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div>
-                          <label className="block text-sm font-semibold text-[#0d2b4e] mb-2">
-                            Name *
-                          </label>
-                          <Input 
-                            type="text" 
-                            name="name"
-                            value={formData.name}
-                            onChange={handleInputChange}
-                            required 
-                            className="w-full h-12 border-2 border-gray-200 focus:border-[#f39c12] rounded-xl transition-colors duration-300"
-                            placeholder="Your full name"
-                          />
-                        </div>
                         <div>
                           <label className="block text-sm font-semibold text-[#0d2b4e] mb-2">
                             Email *
@@ -432,20 +476,19 @@ export default function Contact() {
                             placeholder="your.email@example.com"
                           />
                         </div>
-                      </div>
-                      
-                      <div>
-                        <label className="block text-sm font-semibold text-[#0d2b4e] mb-2">
-                          Phone
-                        </label>
-                        <Input 
-                          type="tel" 
-                          name="phone"
-                          value={formData.phone}
-                          onChange={handleInputChange}
-                          className="w-full h-12 border-2 border-gray-200 focus:border-[#f39c12] rounded-xl transition-colors duration-300"
-                          placeholder="+91 9876543210"
-                        />
+                        <div>
+                          <label className="block text-sm font-semibold text-[#0d2b4e] mb-2">
+                            Phone
+                          </label>
+                          <Input 
+                            type="tel" 
+                            name="phone"
+                            value={formData.phone}
+                            onChange={handleInputChange}
+                            className="w-full h-12 border-2 border-gray-200 focus:border-[#f39c12] rounded-xl transition-colors duration-300"
+                            placeholder="+91 9876543210"
+                          />
+                        </div>
                       </div>
                       
                       <div>
