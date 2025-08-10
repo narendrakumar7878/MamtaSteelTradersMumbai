@@ -189,7 +189,7 @@ export default function Footer() {
         </div>
 
         {/* Animated Divider Line */}
-        <div className="footer-divider pt-1"></div>
+        <div className="footer-divider"></div>
 
         {/* Bottom Footer - Centered Layout */}
         <div className="text-center space-y-6">
