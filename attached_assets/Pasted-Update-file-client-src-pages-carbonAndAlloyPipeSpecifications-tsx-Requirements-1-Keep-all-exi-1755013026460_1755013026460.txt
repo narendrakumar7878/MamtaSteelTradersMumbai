@@ -1,0 +1,22 @@
+Update file: client/src/pages/carbonAndAlloyPipeSpecifications.tsx
+
+Requirements:
+1. Keep all existing content in this file exactly as it is.
+2. Below the existing content, add a new modern, fully responsive Tailwind CSS table using the exact data from the provided image titled "Application & Specifications of Carbon and Alloy Steel Pipes & Tubes".
+3. The table should have:
+   - A heading <h1> with the title "Application & Specifications of Carbon and Alloy Steel Pipes & Tubes".
+   - Three columns: Application Sector, Standard / Specification Codes, Notes (if applicable).
+   - Rows exactly matching the image content. All text must be copy-paste accurate to preserve keywords.
+4. Apply Tailwind styling for:
+   - Mobile-first responsiveness (scrollable horizontally on small screens)
+   - Alternating row background colors
+   - Hover highlight effects
+   - Proper padding, border, and rounded corners
+5. Wrap the table in a semantic <section> with an `id="carbon-alloy-pipe-specifications"` and `aria-label="Carbon and Alloy Steel Pipes and Tubes Specifications"` for accessibility and SEO.
+6. Add meta tags for SEO at the top of the file:
+   - <title>Carbon & Alloy Steel Pipes & Tubes Specifications | API, ASTM, IS Standards</title>
+   - <meta name="description" content="Complete application and specifications of carbon and alloy steel pipes & tubes for oil & gas, automotive, boilers, railways, water, gas, sewage, and more. Includes API, ASTM, IS, BS, DIN standards.">
+7. After the table, add a bullet list exactly matching the one in the provided image. Each list item should be a <li> with <strong> for keywords like 'Boiler Tubes', 'Galvanized Tubes', 'Oil and Gas Pipes', etc.
+8. Ensure every important keyword (e.g., "API 5L", "ASTM A53", "IS 4270", "Carbon Steel", "Alloy Steel") is wrapped in <strong> for SEO weight.
+9. Use semantic HTML5 elements (<section>, <h2>, <ul>, <table>, <thead>, <tbody>, <th>, <td>) for better Google indexing.
+10. Ensure the component is fully TypeScript-compatible and uses React + Tailwind best practices.

@@ -125,12 +125,12 @@ export default function CarbonAndAlloyPipeSpecifications() {
   return (
     <>
       <Helmet>
-        <title>Carbon & Alloy Pipe Specifications - ASTM A106, A335 | Mamta Steel Traders</title>
+        <title>Carbon & Alloy Steel Pipes & Tubes Specifications | API, ASTM, IS Standards</title>
         <meta 
           name="description" 
-          content="Comprehensive carbon steel and alloy steel pipe specifications. ASTM A106, A335 standards with detailed chemical composition, mechanical properties, and high temperature applications."
+          content="Complete application and specifications of carbon and alloy steel pipes & tubes for oil & gas, automotive, boilers, railways, water, gas, sewage, and more. Includes API, ASTM, IS, BS, DIN standards."
         />
-        <meta name="keywords" content="carbon steel pipes, alloy steel pipes, ASTM A106, ASTM A335, pipe specifications, chemical composition, high temperature pipes" />
+        <meta name="keywords" content="carbon steel pipes, alloy steel pipes, ASTM A106, ASTM A335, pipe specifications, chemical composition, high temperature pipes, API 5L, IS 4270, oil gas pipes, automotive industry" />
       </Helmet>
 
       <main className="min-h-screen bg-gray-50">
@@ -383,11 +383,161 @@ export default function CarbonAndAlloyPipeSpecifications() {
               </div>
             </motion.section>
 
+            {/* Application & Specifications Table */}
+            <motion.section
+              id="carbon-alloy-pipe-specifications"
+              aria-label="Carbon and Alloy Steel Pipes and Tubes Specifications"
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 1.5 }}
+              className="mb-12"
+            >
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+                <div className="bg-gradient-to-r from-[#1a3e72] to-[#0d2b4e] p-6 text-center">
+                  <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">
+                    <strong>Application & Specifications of Carbon and Alloy Steel Pipes & Tubes</strong>
+                  </h1>
+                </div>
+                
+                <div className="p-6">
+                  <div className="overflow-x-auto">
+                    <table className="w-full border-collapse">
+                      <thead>
+                        <tr className="bg-gradient-to-r from-orange-400 to-orange-500">
+                          <th className="border border-gray-300 px-4 py-3 text-left font-bold text-white text-sm md:text-base">
+                            <strong>Application Sector</strong>
+                          </th>
+                          <th className="border border-gray-300 px-4 py-3 text-left font-bold text-white text-sm md:text-base">
+                            <strong>Standard / Specification Codes</strong>
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr className="bg-gray-100 hover:bg-blue-50 transition-colors duration-200">
+                          <td className="border border-gray-300 px-4 py-3 font-semibold text-gray-800 text-sm md:text-base">
+                            <strong>Oil & Gas Sector</strong>
+                          </td>
+                          <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm md:text-base">
+                            <strong>API 5L</strong><br />
+                            <strong>IS / ISO</strong> : 3183<br />
+                            <strong>BS</strong> : 6323 (PSL)<br />
+                            <strong>IS</strong> : 3601, 3074
+                          </td>
+                        </tr>
+                        <tr className="bg-white hover:bg-blue-50 transition-colors duration-200">
+                          <td className="border border-gray-300 px-4 py-3 font-semibold text-gray-800 text-sm md:text-base">
+                            <strong>Automotive Industry</strong>
+                          </td>
+                          <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm md:text-base">
+                            <strong>ASTM</strong> : A53<br />
+                            <strong>BS</strong> : 3603<br />
+                            <strong>IS</strong> : 6286
+                          </td>
+                        </tr>
+                        <tr className="bg-gray-100 hover:bg-blue-50 transition-colors duration-200">
+                          <td className="border border-gray-300 px-4 py-3 font-semibold text-gray-800 text-sm md:text-base">
+                            <strong>Hydrocarbon & Process Industry</strong>
+                          </td>
+                          <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm md:text-base">
+                            <strong>ASTM A179, A214, A334, A426</strong><br />
+                            <strong>BS</strong> : 3059 (Pt.1, Pt.ii), 6323 (PLV)<br />
+                            <strong>IS</strong> : 2440 (Pt.i), 1161<br />
+                            <strong>RQD</strong> : EH CHEK II
+                          </td>
+                        </tr>
+                        <tr className="bg-white hover:bg-blue-50 transition-colors duration-200">
+                          <td className="border border-gray-300 px-4 py-3 font-semibold text-gray-800 text-sm md:text-base">
+                            <strong>Boiler, Heat Exchanger, Super Heater, Air Heater & Condenser</strong>
+                          </td>
+                          <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm md:text-base">
+                            <strong>ASTM A178, A214, A334, A335</strong><br />
+                            <strong>BS</strong> : 3059 (Pt.ii Pt.ii), 6323 (PLV)<br />
+                            <strong>IS</strong> : 2440 (PLV)<br />
+                            <strong>IS</strong> : 1239 (Pt.ii), 1161
+                          </td>
+                        </tr>
+                        <tr className="bg-gray-100 hover:bg-blue-50 transition-colors duration-200">
+                          <td className="border border-gray-300 px-4 py-3 font-semibold text-gray-800 text-sm md:text-base">
+                            <strong>Railways</strong>
+                          </td>
+                          <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm md:text-base">
+                            <strong>IS</strong> : 1161, 3501, 4923, 5295<br />
+                            <strong>BS</strong> : 6323 (PLV)<br />
+                            <strong>IS</strong> : 1157<br />
+                            <strong>DIN</strong> : 2440, 2441<br />
+                            <strong>ISO</strong> : 65
+                          </td>
+                        </tr>
+                        <tr className="bg-white hover:bg-blue-50 transition-colors duration-200">
+                          <td className="border border-gray-300 px-4 py-3 font-semibold text-gray-800 text-sm md:text-base">
+                            <strong>Mechanical, Structural & General Engineering</strong>
+                          </td>
+                          <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm md:text-base">
+                            <strong>IS</strong> : 1161, 3501, 4923, 5295<br />
+                            <strong>BS</strong> : 6323 (PLV)<br />
+                            <strong>IS</strong> : 1239 (PLV)
+                          </td>
+                        </tr>
+                        <tr className="bg-gray-100 hover:bg-blue-50 transition-colors duration-200">
+                          <td className="border border-gray-300 px-4 py-3 font-semibold text-gray-800 text-sm md:text-base">
+                            <strong>Water, Gas & Sewage</strong>
+                          </td>
+                          <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm md:text-base">
+                            <strong>IS</strong> : 3589, 1239 (PLI)<br />
+                            <strong>BS</strong> : 1387<br />
+                            <strong>DIN</strong> : 2440, 2441<br />
+                            <strong>ISO</strong> : 65
+                          </td>
+                        </tr>
+                        <tr className="bg-white hover:bg-blue-50 transition-colors duration-200">
+                          <td className="border border-gray-300 px-4 py-3 font-semibold text-gray-800 text-sm md:text-base">
+                            <strong>Water Well</strong>
+                          </td>
+                          <td className="border border-gray-300 px-4 py-3 text-gray-700 text-sm md:text-base">
+                            <strong>IS</strong> : 4270
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                {/* Applications List */}
+                <div className="bg-gray-50 p-6 border-t">
+                  <ul className="space-y-2 text-sm">
+                    <li><strong>• Boiler Tubes Applications & Specifications</strong></li>
+                    <li><strong>• Galvanized Tubes Applications & Specifications</strong></li>
+                    <li><strong>• Oil and Gas Pipes & Tubes - Applications & Specifications</strong></li>
+                    <li><strong>• Heat Exchanger Pipes & Tubes Applications & Specifications</strong></li>
+                    <li><strong>• Super Heater Pipes & Tubes - Applications & Specifications</strong></li>
+                    <li><strong>• Railways Pipes & Tubes - Applications & Specifications</strong></li>
+                    <li><strong>• Black & Galvanized ERW Pipes & Tubes conforming to IS 1239 (Pt-I) Equivalent to IS 1537</strong></li>
+                    <li><strong>• Structural Tubes Conforming to IS (116)</strong></li>
+                    <li><strong>• ERW Line Pipes conforming to API 5L</strong></li>
+                    <li><strong>• IS | ISO : 3183 & ASTM A53</strong></li>
+                    <li><strong>• ERW Boiler, Super Heater, Heat Exchanger, Condenser & Air Heater Pipes & Tubes</strong></li>
+                  </ul>
+                  
+                  <div className="mt-6 pt-4 border-t border-gray-200">
+                    <p className="font-bold text-[#1a3e72] text-sm">
+                      <strong>Jindal Stainless Steel Pipes & Tubes</strong>
+                    </p>
+                    <p className="text-gray-700 text-sm mt-1">
+                      <strong>M.S. Pipes & Tubes</strong>
+                    </p>
+                    <p className="text-gray-700 text-sm">
+                      <strong>Carbon & Alloy Steel Pipe</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </motion.section>
+
             {/* CTA Section */}
             <motion.section
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 1.5 }}
+              transition={{ duration: 0.6, delay: 1.7 }}
               className="text-center"
             >
               <div className="bg-gradient-to-r from-[#1a3e72] to-[#0d2b4e] rounded-xl p-8 text-white">
