@@ -19,6 +19,10 @@ import CarbonAndAlloyPipeSpecifications from "@/pages/carbonAndAlloyPipeSpecific
 import AmsStandardMaterial from "@/pages/amsStandardMaterial";
 import Pipestubes from "@/pages/pipestubes";
 import PlatesSheets from "@/pages/platesSheets";
+import Bars from "@/pages/bars";
+import Flanges from "@/pages/flanges";
+import Fittings from "@/pages/fittings";
+import Fasteners from "@/pages/fasteners";
 import NotFound from "@/pages/not-found";
 import TopBar from "@/components/TopBar";
 import MainHeader from "@/components/MainHeader";
@@ -40,6 +44,10 @@ function Router() {
       <Route path="/ams-standard-material" component={AmsStandardMaterial} />
       <Route path="/pipes-tubes" component={Pipestubes} />
       <Route path="/plates-sheets" component={PlatesSheets} />
+      <Route path="/bars" component={Bars} />
+      <Route path="/flanges" component={Flanges} />
+      <Route path="/fittings" component={Fittings} />
+      <Route path="/fasteners" component={Fasteners} />
       <Route path="/solutions" component={Solutions} />
       <Route path="/certificate" component={Certificate} />
       <Route path="/contact" component={Contact} />

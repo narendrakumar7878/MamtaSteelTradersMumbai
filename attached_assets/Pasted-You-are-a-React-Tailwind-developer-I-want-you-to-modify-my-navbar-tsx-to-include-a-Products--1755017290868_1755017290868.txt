@@ -1,0 +1,52 @@
+You are a React + Tailwind developer.
+I want you to modify my `navbar.tsx` to include a **Products** dropdown menu with these items:
+- Bars → /bars
+- Flanges → /flanges
+- Fittings → /fittings
+- Fasteners → /fasteners
+
+Each of these should link to a separate page with its own component file in `src/pages/`.
+
+**Tasks:**
+1. Create 4 new files in `src/pages/`:
+   - Bars.tsx
+   - Flanges.tsx
+   - Fittings.tsx
+   - Fasteners.tsx
+
+2. Content for `Bars.tsx`:
+   - Title: "Round Bar"
+   - Description: same text as in the provided image about Round Bar (stock details, user industries, range, stainless steel, duplex steel).
+   - Include an image at the top (use `/assets/bars.jpg` placeholder if actual image not available).
+   - Use Tailwind for responsive layout (2-column: image on left, text on right).
+   - Include a `<table>` styled with Tailwind for the range & grades.
+
+3. Content for `Flanges.tsx`:
+   - Title: "Flanges"
+   - Description: List types of flanges (Weld Neck, Slip On, Blind, Socket Weld, Lap Joint, Threaded).
+   - Include available material grades & standards.
+   - Add image `/assets/flanges.jpg`.
+
+4. Content for `Fittings.tsx`:
+   - Title: "Pipe Fittings"
+   - List types: Elbows, Tees, Reducers, Couplings, Caps, Stub Ends.
+   - Include table of sizes & material grades.
+   - Add image `/assets/fittings.jpg`.
+
+5. Content for `Fasteners.tsx`:
+   - Title: "Industrial Fasteners"
+   - List types: Bolts, Nuts, Screws, Washers, Studs.
+   - Include table of grades & sizes.
+   - Add image `/assets/fasteners.jpg`.
+
+6. Update `App.tsx` (or your router file) to add routes:
+   ```tsx
+   import Bars from "./pages/Bars";
+   import Flanges from "./pages/Flanges";
+   import Fittings from "./pages/Fittings";
+   import Fasteners from "./pages/Fasteners";
+
+   <Route path="/bars" element={<Bars />} />
+   <Route path="/flanges" element={<Flanges />} />
+   <Route path="/fittings" element={<Fittings />} />
+   <Route path="/fasteners" element={<Fasteners />} />

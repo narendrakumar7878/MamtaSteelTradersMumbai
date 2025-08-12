@@ -129,61 +129,28 @@ export default function Navbar() {
                   </Link>
                   
                   {/* Bars */}
-                  <div className="relative group/submenu">
-                    <div className="px-4 py-3 hover:bg-gray-100 cursor-pointer border-b flex items-center justify-between" data-testid="submenu-bars">
-                      <div className="flex items-center">
-                        <BarChart3 className="w-4 h-4 mr-3 text-navy-primary" />
-                        <span className="font-semibold text-navy-primary">Bars</span>
-                      </div>
-                      <ChevronDown className="w-3 h-3 -rotate-90 text-gray-400 group-hover/submenu:rotate-0 transition-transform duration-200" />
-                    </div>
-                    {/* Bars Submenu */}
-                    <div className="absolute left-full top-0 bg-white min-w-48 rounded-lg shadow-xl opacity-0 invisible group-hover/submenu:opacity-100 group-hover/submenu:visible transition-all duration-300 transform translate-x-2 group-hover/submenu:translate-x-4 z-60 ml-2">
-                      <div className="py-2">
-                        <div className="px-4 py-2 hover:bg-gray-100 cursor-pointer text-sm text-gray-700 hover:text-navy-primary transition-colors" data-testid="link-bars-placeholder">
-                          Add bars items here
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <Link href="/bars" className="px-4 py-3 hover:bg-gray-100 cursor-pointer border-b flex items-center transition-colors duration-200" data-testid="link-bars">
+                    <BarChart3 className="w-4 h-4 mr-3 text-navy-primary" />
+                    <span className="font-semibold text-navy-primary">Bars</span>
+                  </Link>
                   
                   {/* Fittings */}
-                  <div className="relative group/submenu">
-                    <div className="px-4 py-3 hover:bg-gray-100 cursor-pointer border-b flex items-center justify-between" data-testid="submenu-fittings">
-                      <div className="flex items-center">
-                        <Puzzle className="w-4 h-4 mr-3 text-navy-primary" />
-                        <span className="font-semibold text-navy-primary">Fittings</span>
-                      </div>
-                      <ChevronDown className="w-3 h-3 -rotate-90 text-gray-400 group-hover/submenu:rotate-0 transition-transform duration-200" />
-                    </div>
-                    {/* Fittings Submenu */}
-                    <div className="absolute left-full top-0 bg-white min-w-48 rounded-lg shadow-xl opacity-0 invisible group-hover/submenu:opacity-100 group-hover/submenu:visible transition-all duration-300 transform translate-x-2 group-hover/submenu:translate-x-4 z-60 ml-2">
-                      <div className="py-2">
-                        <div className="px-4 py-2 hover:bg-gray-100 cursor-pointer text-sm text-gray-700 hover:text-navy-primary transition-colors" data-testid="link-fittings-placeholder">
-                          Add fittings items here
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <Link href="/fittings" className="px-4 py-3 hover:bg-gray-100 cursor-pointer border-b flex items-center transition-colors duration-200" data-testid="link-fittings">
+                    <Puzzle className="w-4 h-4 mr-3 text-navy-primary" />
+                    <span className="font-semibold text-navy-primary">Fittings</span>
+                  </Link>
                   
                   {/* Flanges */}
-                  <div className="relative group/submenu">
-                    <div className="px-4 py-3 hover:bg-gray-100 cursor-pointer border-b flex items-center justify-between" data-testid="submenu-flanges">
-                      <div className="flex items-center">
-                        <Circle className="w-4 h-4 mr-3 text-navy-primary" />
-                        <span className="font-semibold text-navy-primary">Flanges</span>
-                      </div>
-                      <ChevronDown className="w-3 h-3 -rotate-90 text-gray-400 group-hover/submenu:rotate-0 transition-transform duration-200" />
-                    </div>
-                    {/* Flanges Submenu */}
-                    <div className="absolute left-full top-0 bg-white min-w-48 rounded-lg shadow-xl opacity-0 invisible group-hover/submenu:opacity-100 group-hover/submenu:visible transition-all duration-300 transform translate-x-2 group-hover/submenu:translate-x-4 z-60 ml-2">
-                      <div className="py-2">
-                        <div className="px-4 py-2 hover:bg-gray-100 cursor-pointer text-sm text-gray-700 hover:text-navy-primary transition-colors" data-testid="link-flanges-placeholder">
-                          Add flanges items here
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <Link href="/flanges" className="px-4 py-3 hover:bg-gray-100 cursor-pointer border-b flex items-center transition-colors duration-200" data-testid="link-flanges">
+                    <Circle className="w-4 h-4 mr-3 text-navy-primary" />
+                    <span className="font-semibold text-navy-primary">Flanges</span>
+                  </Link>
+                  
+                  {/* Fasteners */}
+                  <Link href="/fasteners" className="px-4 py-3 hover:bg-gray-100 cursor-pointer border-b flex items-center transition-colors duration-200" data-testid="link-fasteners">
+                    <Wrench className="w-4 h-4 mr-3 text-navy-primary" />
+                    <span className="font-semibold text-navy-primary">Fasteners</span>
+                  </Link>
                   
                   {/* Valves */}
                   <div className="relative group/submenu">
@@ -309,59 +276,29 @@ export default function Navbar() {
                       Plates & Sheets
                     </Link>
                     
-                    {/* Mobile Bars Submenu */}
-                    <div>
-                      <div className="flex items-center justify-between py-2 cursor-pointer" onClick={() => toggleMobileSubmenu('bars')} data-testid="mobile-submenu-bars">
-                        <div className="flex items-center text-sm hover:text-gold-primary">
-                          <BarChart3 className="w-3 h-3 mr-2" />
-                          Bars
-                        </div>
-                        <ChevronDown className={`w-3 h-3 transition-transform duration-200 ${mobileSubmenus.bars ? 'rotate-180' : ''}`} />
-                      </div>
-                      {mobileSubmenus.bars && (
-                        <div className="ml-5 space-y-1 animate-in slide-in-from-top duration-200">
-                          <div className="py-1 text-xs text-gray-600 hover:text-navy-primary cursor-pointer" data-testid="mobile-link-bars-placeholder">
-                            Add bars items here
-                          </div>
-                        </div>
-                      )}
-                    </div>
+                    {/* Mobile Bars */}
+                    <Link href="/bars" className="flex items-center py-2 text-sm hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-bars">
+                      <BarChart3 className="w-3 h-3 mr-2" />
+                      Bars
+                    </Link>
                     
-                    {/* Mobile Fittings Submenu */}
-                    <div>
-                      <div className="flex items-center justify-between py-2 cursor-pointer" onClick={() => toggleMobileSubmenu('fittings')} data-testid="mobile-submenu-fittings">
-                        <div className="flex items-center text-sm hover:text-gold-primary">
-                          <Puzzle className="w-3 h-3 mr-2" />
-                          Fittings
-                        </div>
-                        <ChevronDown className={`w-3 h-3 transition-transform duration-200 ${mobileSubmenus.fittings ? 'rotate-180' : ''}`} />
-                      </div>
-                      {mobileSubmenus.fittings && (
-                        <div className="ml-5 space-y-1 animate-in slide-in-from-top duration-200">
-                          <div className="py-1 text-xs text-gray-600 hover:text-navy-primary cursor-pointer" data-testid="mobile-link-fittings-placeholder">
-                            Add fittings items here
-                          </div>
-                        </div>
-                      )}
-                    </div>
+                    {/* Mobile Fittings */}
+                    <Link href="/fittings" className="flex items-center py-2 text-sm hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-fittings">
+                      <Puzzle className="w-3 h-3 mr-2" />
+                      Fittings
+                    </Link>
                     
-                    {/* Mobile Flanges Submenu */}
-                    <div>
-                      <div className="flex items-center justify-between py-2 cursor-pointer" onClick={() => toggleMobileSubmenu('flanges')} data-testid="mobile-submenu-flanges">
-                        <div className="flex items-center text-sm hover:text-gold-primary">
-                          <Circle className="w-3 h-3 mr-2" />
-                          Flanges
-                        </div>
-                        <ChevronDown className={`w-3 h-3 transition-transform duration-200 ${mobileSubmenus.flanges ? 'rotate-180' : ''}`} />
-                      </div>
-                      {mobileSubmenus.flanges && (
-                        <div className="ml-5 space-y-1 animate-in slide-in-from-top duration-200">
-                          <div className="py-1 text-xs text-gray-600 hover:text-navy-primary cursor-pointer" data-testid="mobile-link-flanges-placeholder">
-                            Add flanges items here
-                          </div>
-                        </div>
-                      )}
-                    </div>
+                    {/* Mobile Flanges */}
+                    <Link href="/flanges" className="flex items-center py-2 text-sm hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-flanges">
+                      <Circle className="w-3 h-3 mr-2" />
+                      Flanges
+                    </Link>
+                    
+                    {/* Mobile Fasteners */}
+                    <Link href="/fasteners" className="flex items-center py-2 text-sm hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-fasteners">
+                      <Wrench className="w-3 h-3 mr-2" />
+                      Fasteners
+                    </Link>
                     
                     {/* Mobile Valves Submenu */}
                     <div>
