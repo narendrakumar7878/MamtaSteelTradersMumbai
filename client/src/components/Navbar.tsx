@@ -122,27 +122,11 @@ export default function Navbar() {
                     <span className="font-semibold text-navy-primary">Pipes & Tubes</span>
                   </Link>
                   
-                  {/* Sheets */}
-                  <div className="relative group/submenu">
-                    <div className="px-4 py-3 hover:bg-gray-100 cursor-pointer border-b flex items-center justify-between" data-testid="submenu-sheets">
-                      <div className="flex items-center">
-                        <RectangleHorizontal className="w-4 h-4 mr-3 text-navy-primary" />
-                        <span className="font-semibold text-navy-primary">Sheets</span>
-                      </div>
-                      <ChevronDown className="w-3 h-3 -rotate-90 text-gray-400 group-hover/submenu:rotate-0 transition-transform duration-200" />
-                    </div>
-                    {/* Sheets Submenu */}
-                    <div className="absolute left-full top-0 bg-white min-w-48 rounded-lg shadow-xl opacity-0 invisible group-hover/submenu:opacity-100 group-hover/submenu:visible transition-all duration-300 transform translate-x-2 group-hover/submenu:translate-x-4 z-60 ml-2">
-                      <div className="py-2">
-                        <div className="px-4 py-2 hover:bg-gray-100 cursor-pointer text-sm text-gray-700 hover:text-navy-primary transition-colors" data-testid="link-steel-sheets">
-                          Steel Sheets
-                        </div>
-                        <div className="px-4 py-2 hover:bg-gray-100 cursor-pointer text-sm text-gray-700 hover:text-navy-primary transition-colors" data-testid="link-carbon-sheets">
-                          Carbon Sheets
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  {/* Plates & Sheets */}
+                  <Link href="/plates-sheets" className="px-4 py-3 hover:bg-gray-100 cursor-pointer border-b flex items-center transition-colors duration-200" data-testid="link-plates-sheets">
+                    <RectangleHorizontal className="w-4 h-4 mr-3 text-navy-primary" />
+                    <span className="font-semibold text-navy-primary">Plates & Sheets</span>
+                  </Link>
                   
                   {/* Bars */}
                   <div className="relative group/submenu">
@@ -319,26 +303,11 @@ export default function Navbar() {
                       Pipes & Tubes
                     </Link>
                     
-                    {/* Mobile Sheets Submenu */}
-                    <div>
-                      <div className="flex items-center justify-between py-2 cursor-pointer" onClick={() => toggleMobileSubmenu('sheets')} data-testid="mobile-submenu-sheets">
-                        <div className="flex items-center text-sm hover:text-gold-primary">
-                          <RectangleHorizontal className="w-3 h-3 mr-2" />
-                          Sheets
-                        </div>
-                        <ChevronDown className={`w-3 h-3 transition-transform duration-200 ${mobileSubmenus.sheets ? 'rotate-180' : ''}`} />
-                      </div>
-                      {mobileSubmenus.sheets && (
-                        <div className="ml-5 space-y-1 animate-in slide-in-from-top duration-200">
-                          <div className="py-1 text-xs text-gray-600 hover:text-navy-primary cursor-pointer" data-testid="mobile-link-steel-sheets">
-                            Steel Sheets
-                          </div>
-                          <div className="py-1 text-xs text-gray-600 hover:text-navy-primary cursor-pointer" data-testid="mobile-link-carbon-sheets">
-                            Carbon Sheets
-                          </div>
-                        </div>
-                      )}
-                    </div>
+                    {/* Mobile Plates & Sheets */}
+                    <Link href="/plates-sheets" className="flex items-center py-2 text-sm hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-plates-sheets">
+                      <RectangleHorizontal className="w-3 h-3 mr-2" />
+                      Plates & Sheets
+                    </Link>
                     
                     {/* Mobile Bars Submenu */}
                     <div>

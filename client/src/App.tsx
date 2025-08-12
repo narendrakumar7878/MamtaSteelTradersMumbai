@@ -18,6 +18,7 @@ import StainlessSteelPipeSpecification from "@/pages/stainlessSteelPipeSpecifica
 import CarbonAndAlloyPipeSpecifications from "@/pages/carbonAndAlloyPipeSpecifications";
 import AmsStandardMaterial from "@/pages/amsStandardMaterial";
 import Pipestubes from "@/pages/pipestubes";
+import PlatesSheets from "@/pages/platesSheets";
 import NotFound from "@/pages/not-found";
 import TopBar from "@/components/TopBar";
 import MainHeader from "@/components/MainHeader";
@@ -38,6 +39,7 @@ function Router() {
       <Route path="/carbonAndAlloyPipeSpecifications" component={CarbonAndAlloyPipeSpecifications} />
       <Route path="/ams-standard-material" component={AmsStandardMaterial} />
       <Route path="/pipes-tubes" component={Pipestubes} />
+      <Route path="/plates-sheets" component={PlatesSheets} />
       <Route path="/solutions" component={Solutions} />
       <Route path="/certificate" component={Certificate} />
       <Route path="/contact" component={Contact} />
