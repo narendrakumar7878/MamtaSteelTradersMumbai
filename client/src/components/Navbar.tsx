@@ -116,27 +116,11 @@ export default function Navbar() {
               </button>
               <div className="absolute top-full left-0 bg-white text-gray-800 min-w-64 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform group-hover:translate-y-2 z-50">
                 <div className="py-2">
-                  {/* Pipes */}
-                  <div className="relative group/submenu">
-                    <div className="px-4 py-3 hover:bg-gray-100 cursor-pointer border-b flex items-center justify-between" data-testid="submenu-pipes">
-                      <div className="flex items-center">
-                        <Cylinder className="w-4 h-4 mr-3 text-navy-primary" />
-                        <span className="font-semibold text-navy-primary">Pipes</span>
-                      </div>
-                      <ChevronDown className="w-3 h-3 -rotate-90 text-gray-400 group-hover/submenu:rotate-0 transition-transform duration-200" />
-                    </div>
-                    {/* Pipes Submenu */}
-                    <div className="absolute left-full top-0 bg-white min-w-48 rounded-lg shadow-xl opacity-0 invisible group-hover/submenu:opacity-100 group-hover/submenu:visible transition-all duration-300 transform translate-x-2 group-hover/submenu:translate-x-4 z-60 ml-2">
-                      <div className="py-2">
-                        <div className="px-4 py-2 hover:bg-gray-100 cursor-pointer text-sm text-gray-700 hover:text-navy-primary transition-colors" data-testid="link-steel-pipes">
-                          Steel Pipes
-                        </div>
-                        <div className="px-4 py-2 hover:bg-gray-100 cursor-pointer text-sm text-gray-700 hover:text-navy-primary transition-colors" data-testid="link-carbon-pipes">
-                          Carbon Pipes
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  {/* Pipes & Tubes */}
+                  <Link href="/pipes-tubes" className="px-4 py-3 hover:bg-gray-100 cursor-pointer border-b flex items-center transition-colors duration-200" data-testid="link-pipes-tubes">
+                    <Cylinder className="w-4 h-4 mr-3 text-navy-primary" />
+                    <span className="font-semibold text-navy-primary">Pipes & Tubes</span>
+                  </Link>
                   
                   {/* Sheets */}
                   <div className="relative group/submenu">
@@ -329,26 +313,11 @@ export default function Navbar() {
                 </div>
                 {mobileProductsOpen && (
                   <div className="ml-7 mt-2 space-y-1 animate-in slide-in-from-top duration-200">
-                    {/* Mobile Pipes Submenu */}
-                    <div>
-                      <div className="flex items-center justify-between py-2 cursor-pointer" onClick={() => toggleMobileSubmenu('pipes')} data-testid="mobile-submenu-pipes">
-                        <div className="flex items-center text-sm hover:text-gold-primary">
-                          <Cylinder className="w-3 h-3 mr-2" />
-                          Pipes
-                        </div>
-                        <ChevronDown className={`w-3 h-3 transition-transform duration-200 ${mobileSubmenus.pipes ? 'rotate-180' : ''}`} />
-                      </div>
-                      {mobileSubmenus.pipes && (
-                        <div className="ml-5 space-y-1 animate-in slide-in-from-top duration-200">
-                          <div className="py-1 text-xs text-gray-600 hover:text-navy-primary cursor-pointer" data-testid="mobile-link-steel-pipes">
-                            Steel Pipes
-                          </div>
-                          <div className="py-1 text-xs text-gray-600 hover:text-navy-primary cursor-pointer" data-testid="mobile-link-carbon-pipes">
-                            Carbon Pipes
-                          </div>
-                        </div>
-                      )}
-                    </div>
+                    {/* Mobile Pipes & Tubes */}
+                    <Link href="/pipes-tubes" className="flex items-center py-2 text-sm hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-pipes-tubes">
+                      <Cylinder className="w-3 h-3 mr-2" />
+                      Pipes & Tubes
+                    </Link>
                     
                     {/* Mobile Sheets Submenu */}
                     <div>
