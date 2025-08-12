@@ -7,12 +7,12 @@ export default function AmsStandardMaterial() {
   return (
     <>
       <Helmet>
-        <title>AMS Standard Material Specifications | Aerospace Material Standards</title>
+        <title>AMS Standard Material Specifications | Aerospace, ASTM, Stainless Steel, High Temperature Alloys</title>
         <meta 
           name="description" 
-          content="AMS (Aerospace Material Standards) specifications for aerospace and high-performance applications. Comprehensive material standards and requirements for critical components."
+          content="AMS Standard Material specifications for aerospace, defense, automotive, stainless steel, and high temperature alloys. Learn about ASTM, AMS usage, and detailed alloy lists."
         />
-        <meta name="keywords" content="AMS standards, aerospace materials, aerospace material standards, AMS specifications, aviation materials, high performance materials" />
+        <meta name="keywords" content="AMS standards, aerospace materials, ASTM, stainless steel, high temperature alloys, aerospace material specifications, aviation materials" />
       </Helmet>
 
       <main className="min-h-screen bg-gray-50">
@@ -56,106 +56,128 @@ export default function AmsStandardMaterial() {
               </motion.div>
               
               <h1 className="text-4xl md:text-5xl font-bold text-[#0d2b4e] mb-6">
-                AMS Standard Material
+                <strong>AMS Standard Material</strong>
               </h1>
-              
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                This page will contain AMS Standard Material specifications. AMS (Aerospace Material Standards) 
-                provide comprehensive specifications for materials used in aerospace and high-performance applications.
-              </p>
             </header>
 
-            {/* Content Placeholder Section */}
+            {/* Main Content Section */}
             <motion.section
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
               className="bg-white rounded-xl shadow-lg p-8 mb-12"
             >
-              <div className="flex items-center space-x-3 mb-6">
-                <FileText className="w-7 h-7 text-[#f39c12]" />
-                <h2 className="text-3xl font-bold text-[#0d2b4e]">Coming Soon</h2>
-              </div>
-              
-              <div className="space-y-6">
-                <p className="text-lg text-gray-700 leading-relaxed">
-                  This section will feature comprehensive AMS Standard Material specifications including:
-                </p>
-                
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div>
-                    <h3 className="text-xl font-semibold text-[#1a3e72] mb-3">Material Categories</h3>
-                    <ul className="space-y-2 text-gray-700">
-                      <li>• Aerospace Alloys</li>
-                      <li>• High-Temperature Materials</li>
-                      <li>• Corrosion-Resistant Materials</li>
-                      <li>• Structural Materials</li>
-                      <li>• Specialty Coatings</li>
-                      <li>• Fastener Materials</li>
-                    </ul>
-                  </div>
+              <article className="space-y-8">
+                <div className="prose max-w-none">
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    <strong>AMS stands for Aerospace Material Specifications</strong>, a set of standards and specifications developed by the Society of Automotive Engineers (SAE). These standards are widely used to define the requirements for materials used in aerospace, defense, and high-performance applications such as automotive, power generation, and oil and gas applications.
+                  </p>
                   
-                  <div>
-                    <h3 className="text-xl font-semibold text-[#1a3e72] mb-3">Standard Types</h3>
-                    <ul className="space-y-2 text-gray-700">
-                      <li>• AMS Material Specifications</li>
-                      <li>• AMS Process Specifications</li>
-                      <li>• AMS Quality Standards</li>
-                      <li>• AMS Testing Requirements</li>
-                      <li>• AMS Certification Guidelines</li>
-                      <li>• AMS Traceability Standards</li>
-                    </ul>
-                  </div>
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    The thermal Steel and Alloys discuss these <strong>AMS Standard Material</strong> and not use ideal devices and Supply for importing all our clients application.
+                  </p>
+                  
+                  <p className="text-lg text-gray-700 leading-relaxed mb-8">
+                    Thermal Steel and Alloys value objective is to identify all convenient adversary by offering a comprehensive and flexible range of products and services.
+                  </p>
                 </div>
-              </div>
+
+                <section className="space-y-6">
+                  <h2 className="text-2xl font-bold text-[#f39c12] mb-4">What is AMS?</h2>
+                  <div className="prose max-w-none">
+                    <p className="text-lg text-gray-700 leading-relaxed">
+                      AMS (Aerospace Material Specifications), developed by the Society of Automotive Engineers (SAE), provides standards applicable to aerospace and defense materials. AMS standards focus on materials that require high performance under extreme conditions, such as high temperatures, pressures, or corrosive environments. These specifications may include guidelines, engineering standards, and quality requirements.
+                    </p>
+                    <p className="text-lg text-gray-700 leading-relaxed">
+                      Primary Usage: Primarily used in the aerospace, defense, and automotive industries.
+                    </p>
+                  </div>
+                </section>
+
+                <section className="space-y-6">
+                  <h2 className="text-2xl font-bold text-[#f39c12] mb-4">What is ASTM?</h2>
+                  <div className="prose max-w-none">
+                    <p className="text-lg text-gray-700 leading-relaxed">
+                      <strong>ASTM</strong> (American Society for Testing and Materials) is a globally recognized organization that develops standards for materials, products, systems, and services across a wide range of industries. These standards cover everything from manufacturing processes and testing methods to chemical composition and mechanical properties.
+                    </p>
+                    <p className="text-lg text-gray-700 leading-relaxed">
+                      Primary Usage: <strong>ASTM</strong> standards are used across various industries, including construction, automotive, and manufacturing.
+                    </p>
+                  </div>
+                </section>
+
+                <section className="space-y-6">
+                  <h2 className="text-2xl font-bold text-[#f39c12] mb-4">Why Uses ASTM and AMS Standards?</h2>
+                  <div className="prose max-w-none">
+                    <p className="text-lg text-gray-700 leading-relaxed">
+                      <strong>ASTM</strong>: Widely used across many industries, including construction, automotive, medical, and consumer products.
+                    </p>
+                    <p className="text-lg text-gray-700 leading-relaxed">
+                      AMS: Primarily tailored for aerospace & Defense, and High-Performance industries, automotive, power generation, where meeting stringent material standards is essential.
+                    </p>
+                  </div>
+                </section>
+              </article>
             </motion.section>
 
-            {/* Information Cards */}
-            <div className="grid md:grid-cols-3 gap-6 mb-12">
-              <motion.div
+            {/* Material Lists Section */}
+            <div className="grid lg:grid-cols-2 gap-8 mb-12">
+              {/* Stainless Steel Section */}
+              <motion.section
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.4 }}
-                className="bg-white rounded-xl shadow-lg p-6"
+                className="bg-white rounded-xl shadow-lg p-8"
               >
-                <div className="flex items-center space-x-3 mb-4">
-                  <Settings className="w-6 h-6 text-[#f39c12]" />
-                  <h3 className="text-xl font-bold text-[#0d2b4e]">Precision Standards</h3>
-                </div>
-                <p className="text-gray-600">
-                  Detailed specifications for aerospace-grade materials meeting the highest industry standards for critical applications.
-                </p>
-              </motion.div>
+                <h2 className="text-2xl font-bold text-[#f39c12] mb-6">Stainless Steel:</h2>
+                <ul className="space-y-2 text-gray-700">
+                  <li>• <strong>SS304 MATERIALS</strong> • SS304H • SS304-A08</li>
+                  <li>• <strong>SS316 MATERIALS</strong> • SS316H</li>
+                  <li>• <strong>SS321 MATERIALS</strong> • SS321H</li>
+                  <li>• <strong>SS347 MATERIALS</strong> • SS347H</li>
+                  <li>• <strong>SS SUPER DUPLEX</strong> • SS2507</li>
+                  <li>• <strong>SS DUPLEX MATERIALS</strong> • SS2205 • SS2507 • AMS5561</li>
+                  <li>• <strong>SS SUPERAUSTENITIC MATERIALS</strong> • SS904L</li>
+                  <li>• <strong>SS410 MATERIALS</strong></li>
+                  <li>• <strong>SS416 MATERIALS</strong></li>
+                  <li>• <strong>SS17-4 PH / SS MARAGING</strong> • ASTM A564-TYPE T</li>
+                  <li>• <strong>SS630 MATERIALS</strong></li>
+                  <li>• <strong>Inconel 625 MATERIALS</strong></li>
+                  <li>• <strong>Monel 400 MATERIALS</strong></li>
+                  <li>• <strong>SS 253 MA MATERIALS</strong></li>
+                  <li>• <strong>SS316Ti MATERIALS</strong></li>
+                  <li>• <strong>Inconel 718 MATERIALS</strong></li>
+                  <li>• <strong>Hastelloy MATERIALS</strong></li>
+                  <li>• <strong>NITRONIC MATERIALS</strong> • NITRONIC-40</li>
+                  <li>• <strong>TITANIUM MATERIALS</strong></li>
+                  <li>• <strong>SS904 Low / SS904L UNS S30408</strong> • S30408-24</li>
+                  <li>• <strong>SS304 Tube / SS304H Tube</strong> • UNS S30403-24</li>
+                  <li>• <strong>SMO 254 MATERIALS</strong></li>
+                  <li>• <strong>SMO MATERIALS</strong></li>
+                  <li>• <strong>T-9 AM350CL</strong></li>
+                </ul>
+              </motion.section>
 
-              <motion.div
+              {/* High Temperature Alloys Section */}
+              <motion.section
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="bg-white rounded-xl shadow-lg p-6"
+                className="bg-white rounded-xl shadow-lg p-8"
               >
-                <div className="flex items-center space-x-3 mb-4">
-                  <Award className="w-6 h-6 text-[#f39c12]" />
-                  <h3 className="text-xl font-bold text-[#0d2b4e]">Quality Assurance</h3>
-                </div>
-                <p className="text-gray-600">
-                  Comprehensive quality control measures and testing protocols ensuring material reliability and performance.
-                </p>
-              </motion.div>
-
-              <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.6 }}
-                className="bg-white rounded-xl shadow-lg p-6"
-              >
-                <div className="flex items-center space-x-3 mb-4">
-                  <FileText className="w-6 h-6 text-[#f39c12]" />
-                  <h3 className="text-xl font-bold text-[#0d2b4e]">Documentation</h3>
-                </div>
-                <p className="text-gray-600">
-                  Complete material certification and traceability documentation for aerospace and defense applications.
-                </p>
-              </motion.div>
+                <h2 className="text-2xl font-bold text-[#f39c12] mb-6"><strong>High Temperature Alloys:</strong></h2>
+                <ul className="space-y-2 text-gray-700">
+                  <li>• Alloy 900 Tube</li>
+                  <li>• Rene41 / Alloy 41 / AMS 5545</li>
+                  <li>• Inconel X-F - 750</li>
+                  <li>• Hastelloy C - 276</li>
+                  <li>• Hastelloy C - 22</li>
+                  <li>• Inconel - 600</li>
+                  <li>• Monel 401-K-500</li>
+                  <li>• Monel 410</li>
+                  <li>• <strong>Inconel</strong></li>
+                </ul>
+              </motion.section>
             </div>
 
             {/* CTA Section */}
