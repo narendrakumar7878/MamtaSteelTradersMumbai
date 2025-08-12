@@ -268,9 +268,14 @@ export default function Navbar() {
                     <span className="font-semibold text-navy-primary">Stainless Steel Pipe Specification</span>
                   </Link>
                   
-                  <Link href="/carbonAndAlloyPipeSpecifications" className="px-4 py-3 hover:bg-gray-100 cursor-pointer flex items-center transition-colors duration-200" data-testid="link-carbon-alloy-pipe-spec">
+                  <Link href="/carbonAndAlloyPipeSpecifications" className="px-4 py-3 hover:bg-gray-100 cursor-pointer border-b flex items-center transition-colors duration-200" data-testid="link-carbon-alloy-pipe-spec">
                     <TrendingUp className="w-4 h-4 mr-3 text-navy-primary" />
                     <span className="font-semibold text-navy-primary">Carbon & Alloy Pipe Specifications</span>
+                  </Link>
+                  
+                  <Link href="/ams-standard-material" className="px-4 py-3 hover:bg-gray-100 cursor-pointer flex items-center transition-colors duration-200" data-testid="link-ams-standard-material">
+                    <Award className="w-4 h-4 mr-3 text-navy-primary" />
+                    <span className="font-semibold text-navy-primary">AMS Standard Material</span>
                   </Link>
                 </div>
               </div>
@@ -471,6 +476,10 @@ export default function Navbar() {
                     <Link href="/carbonAndAlloyPipeSpecifications" className="flex items-center py-2 text-sm hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-carbon-alloy-pipe-spec">
                       <TrendingUp className="w-3 h-3 mr-2" />
                       Carbon & Alloy Pipes
+                    </Link>
+                    <Link href="/ams-standard-material" className="flex items-center py-2 text-sm hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-ams-standard-material">
+                      <Award className="w-3 h-3 mr-2" />
+                      AMS Standard Material
                     </Link>
                   </div>
                 )}

@@ -16,6 +16,7 @@ import ChemicalComposition from "@/pages/chemicalComposition";
 import SS300And200SeriesChemicalComposition from "@/pages/ss300And200SeriesChemicalComposition";
 import StainlessSteelPipeSpecification from "@/pages/stainlessSteelPipeSpecification";
 import CarbonAndAlloyPipeSpecifications from "@/pages/carbonAndAlloyPipeSpecifications";
+import AmsStandardMaterial from "@/pages/amsStandardMaterial";
 import NotFound from "@/pages/not-found";
 import TopBar from "@/components/TopBar";
 import MainHeader from "@/components/MainHeader";
@@ -34,6 +35,7 @@ function Router() {
       <Route path="/ss300And200SeriesChemicalComposition" component={SS300And200SeriesChemicalComposition} />
       <Route path="/stainlessSteelPipeSpecification" component={StainlessSteelPipeSpecification} />
       <Route path="/carbonAndAlloyPipeSpecifications" component={CarbonAndAlloyPipeSpecifications} />
+      <Route path="/ams-standard-material" component={AmsStandardMaterial} />
       <Route path="/solutions" component={Solutions} />
       <Route path="/certificate" component={Certificate} />
       <Route path="/contact" component={Contact} />
