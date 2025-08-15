@@ -1,0 +1,43 @@
+Update the file `client/src/components/ProductShowcase.tsx` in my React + TypeScript + Tailwind project with the following changes:
+
+1. **Remove all buttons** from the cards — only show the product image and product text.
+2. Make the component **fully SEO optimized**:
+   - Use semantic HTML tags like `<section>`, `<article>`, `<h2>`, `<p>`.
+   - Write rich, keyword-dense product descriptions under each product name so that if anyone searches these product names in Google, our site ranks at the top.
+   - Add alt text to each image with relevant keywords.
+3. The product list is:
+Pipes
+Tubes
+Sheets
+Plates
+Round Bars
+Flat Bars
+Square Bars
+Hollow Bars
+Forged Bars
+Fittings
+Flanges
+
+markdown
+Copy
+Edit
+4. **Image setting**:
+- Make it so that I can change the image URL in a simple array/object at the top of the file, and the card will update automatically without editing the JSX structure.
+5. **Modern hover effects**:
+- Add smooth hover animation (scale up slightly, shadow, maybe subtle brightness effect).
+- Ensure hover looks premium and memorable.
+6. **Carousel**:
+- Show multiple cards in a horizontal carousel scrolling **right to left automatically** in an infinite loop.
+- Keep the current carousel logic if it exists, but make it visually more attractive and smooth.
+7. **Responsive design**:
+- Cards should adjust in size and layout for mobile, tablet, and desktop.
+8. **SEO carousel**:
+- Ensure all product names and descriptions are still rendered in HTML so Google can index them (avoid rendering important text only in JavaScript without hydration).
+9. **Overall look**:
+- This section should look premium, modern, and make users remember the website instantly.
+- Keep spacing, typography, and alignment consistent for a professional feel.
+
+Final Goal:
+- The `ProductShowcase` should be the best-looking section of the site.
+- It should help the site appear at the top of Google when searching for any of these products.
+- It should be responsive, smooth, and high-conversion.
