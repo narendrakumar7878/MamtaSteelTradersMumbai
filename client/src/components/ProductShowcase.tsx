@@ -181,67 +181,73 @@ export default function ProductShowcase() {
         <div className="relative overflow-hidden">
           <div 
             ref={carouselRef}
-            className="flex gap-8 pb-8 overflow-x-hidden"
+            className="flex gap-4 sm:gap-6 lg:gap-8 pb-8 overflow-x-hidden"
             onMouseEnter={stopAutoplay}
             onMouseLeave={startAutoplay}
             style={{ 
               scrollbarWidth: 'none', 
               msOverflowStyle: 'none',
-              width: `${products.length * 400 + (products.length - 1) * 32}px` // Dynamic width for infinite scroll
+              width: `${products.length * 350 + (products.length - 1) * 32}px` // Dynamic width for infinite scroll
             }}
           >
             {/* Duplicate products for infinite scroll effect */}
             {[...products, ...products].map((product, index) => (
               <motion.article
                 key={`${product.id}-${index}`}
-                className="flex-shrink-0 w-[380px] bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden group cursor-pointer transform transition-all duration-500"
+                className="flex-shrink-0 w-[300px] sm:w-[320px] lg:w-[350px] bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden group cursor-pointer transform transition-all duration-500"
                 whileHover={{ 
-                  scale: 1.05, 
-                  y: -10,
-                  boxShadow: "0 25px 50px rgba(0, 0, 0, 0.15)"
+                  scale: 1.03, 
+                  y: -8,
+                  boxShadow: "0 20px 40px rgba(0, 0, 0, 0.15)"
                 }}
                 data-testid={`product-card-${product.id}`}
               >
-                <div className="relative overflow-hidden">
+                <div className="relative overflow-hidden h-48 sm:h-52">
                   <img 
                     src={product.image} 
-                    alt={`${product.title} - Premium quality stainless steel, carbon steel, alloy steel ${product.title.toLowerCase()} supplier in India`}
-                    className="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110 group-hover:brightness-110"
+                    alt={`${product.title} - Premium quality stainless steel, carbon steel, alloy steel ${product.title.toLowerCase()} supplier Mamta Steel Traders Mumbai India`}
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     loading="lazy"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                  <div className="absolute bottom-4 left-4 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                    <span className="bg-[#f39c12] text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  
+                  {/* Hover Description Overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-end p-4">
+                    <div className="text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                      <p className="text-sm leading-relaxed line-clamp-4">
+                        {product.description.substring(0, 200)}...
+                      </p>
+                    </div>
+                  </div>
+                  
+                  {/* Premium Quality Badge */}
+                  <div className="absolute top-3 right-3 transform translate-x-full group-hover:translate-x-0 transition-transform duration-300">
+                    <span className="bg-[#f39c12] text-white px-2 py-1 rounded-full text-xs font-semibold">
                       Premium Quality
                     </span>
                   </div>
                 </div>
                 
-                <div className="p-8">
-                  <h3 className="text-3xl font-bold text-[#0d2b4e] dark:text-blue-400 mb-4 group-hover:text-[#f39c12] transition-colors duration-300">
+                <div className="p-4">
+                  <h3 className="text-xl sm:text-2xl font-bold text-[#0d2b4e] dark:text-blue-400 mb-3 group-hover:text-[#f39c12] transition-colors duration-300">
                     Steel {product.title}
                   </h3>
-                  <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-base line-clamp-6">
-                    {product.description}
-                  </p>
                   
-                  {/* SEO Keywords Footer */}
-                  <div className="mt-6 pt-4 border-t border-gray-200 dark:border-gray-700">
-                    <div className="flex flex-wrap gap-2">
-                      <span className="text-xs bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 px-2 py-1 rounded">
-                        Stainless Steel
-                      </span>
-                      <span className="text-xs bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 px-2 py-1 rounded">
-                        Carbon Steel
-                      </span>
-                      <span className="text-xs bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 px-2 py-1 rounded">
-                        Alloy Steel
-                      </span>
-                      <span className="text-xs bg-orange-100 dark:bg-orange-900/30 text-orange-800 dark:text-orange-300 px-2 py-1 rounded">
-                        Mild Steel
-                      </span>
-                    </div>
+                  {/* SEO Keywords Tags */}
+                  <div className="flex flex-wrap gap-1 mb-3">
+                    <span className="text-xs bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 px-2 py-1 rounded-full">
+                      304, 316, 316L
+                    </span>
+                    <span className="text-xs bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-300 px-2 py-1 rounded-full">
+                      IS 2062
+                    </span>
+                    <span className="text-xs bg-purple-50 dark:bg-purple-900/20 text-purple-700 dark:text-purple-300 px-2 py-1 rounded-full">
+                      ASTM, ASME
+                    </span>
                   </div>
+                  
+                  <p className="text-xs text-gray-500 dark:text-gray-400">
+                    Mumbai Stockist | ISO Certified | Best Price
+                  </p>
                 </div>
               </motion.article>
             ))}
@@ -252,16 +258,25 @@ export default function ProductShowcase() {
           <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-gray-50 to-transparent dark:from-gray-900 pointer-events-none z-10" />
         </div>
 
-        {/* Hidden SEO Content for Indexing */}
+        {/* Hidden SEO Content for Google Indexing */}
         <div className="sr-only">
-          <h3>Complete Steel Products Range:</h3>
+          <h3>Mamta Steel Traders - Complete Steel Products Range Mumbai India</h3>
+          <p>Best Quality Stainless Steel, Carbon Steel, Alloy Steel, Mild Steel Products Supplier Mumbai. ISO Certified Steel Stockist India. Steel Pipes, Tubes, Sheets, Plates, Bars, Flanges, Fittings Manufacturer Mumbai.</p>
+          
+          <h4>Stainless Steel Grades: 202, 303, 304, 304L, 304H, 316, 316L, 316H, 316Ti, 310, 310s, 321, 321H, 317L, 347, 904L</h4>
+          <h4>Carbon Steel Grades: EN1A, EN8, EN9, EN15, EN16, EN18, EN19, EN24, EN25, EN26, EN27, EN28, EN31, EN32</h4>
+          <h4>Alloy Steel Grades: SA387 Gr.5, Gr.9, Gr.11, Gr.12, Gr.22, Gr.91, 16Mo3, C45, EN19, Abrex, Hardox</h4>
+          <h4>Mild Steel Grades: IS2062 E250A, E250BR, E250BO, E250C, E350A, E350BR, E350BO, E350C, E450BR</h4>
+          
           <ul>
             {products.map(product => (
               <li key={product.id}>
-                <strong>{product.title}:</strong> {product.description}
+                <strong>Steel {product.title} Mumbai:</strong> Mamta Steel Traders supplies premium quality {product.title.toLowerCase()} in stainless steel 304, 316, 316L, carbon steel, alloy steel, mild steel grades. Best price steel {product.title.toLowerCase()} Mumbai India stockist supplier manufacturer.
               </li>
             ))}
           </ul>
+          
+          <p>Keywords: Steel Supplier Mumbai, Steel Stockist India, Stainless Steel 304 316 316L Mumbai, Carbon Steel Pipes Mumbai, Steel Sheets Plates Mumbai, Steel Bars Mumbai, Steel Flanges Mumbai, Steel Fittings Mumbai, Best Steel Price Mumbai, ISO Certified Steel Supplier</p>
         </div>
       </div>
     </section>
