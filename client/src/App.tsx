@@ -4,6 +4,7 @@ import { QueryClientProvider } from "@tanstack/react-query";
 import { HelmetProvider } from "react-helmet-async";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { useContactScrollToTop } from "@/hooks/useScrollToTop";
 import Home from "@/pages/Home";
 import About from "@/pages/About";
 import Products from "@/pages/Products";
@@ -30,6 +31,9 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 function Router() {
+  // Enable scroll-to-top behavior for Contact page
+  useContactScrollToTop();
+  
   return (
     <Switch>
       <Route path="/" component={Home} />
