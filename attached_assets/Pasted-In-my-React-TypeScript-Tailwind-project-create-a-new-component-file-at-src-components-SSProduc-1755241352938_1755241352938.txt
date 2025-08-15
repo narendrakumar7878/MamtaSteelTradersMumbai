@@ -1,0 +1,25 @@
+In my React + TypeScript + Tailwind project, create a new component file at `src/components/SSProduct.tsx`.
+
+This component will showcase Mamta Steel Traders' stainless steel, alloy steel, carbon steel, and mild steel products exactly as described in the attached image (replace "New Arise Metal" with "Mamta Steel Traders" everywhere). The content must be **fully SEO optimized** so that if anyone searches for these products or grades on Google, our homepage appears at the top.
+
+Requirements for SSProduct.tsx:
+1. Use semantic HTML tags (`<section>`, `<article>`, `<h1>`, `<h2>`, `<ul>`, `<li>`, `<p>`) for SEO.
+2. Add relevant meta tags, title tags, and schema markup for products (using JSON-LD in `<script type="application/ld+json">`).
+3. Include all product keywords from the image in headings and paragraph text for maximum keyword density, but keep it natural and readable.
+4. Add responsive, modern Tailwind styling with good spacing, typography, and layout to ensure high user engagement.
+5. Replace "New Arise Metal" with "Mamta Steel Traders" prominently.
+6. Add visually appealing product category cards for Stainless Steel, Alloy Steel, Carbon Steel, and Mild Steel with hover effects.
+7. Include a clear call-to-action ("Contact Us for Best Price") at the bottom with a link or button.
+8. Make it mobile-friendly, fast-loading, and accessible (ARIA labels where necessary).
+
+After creating SSProduct.tsx, import and render it in `src/pages/Home.tsx` **above** the `<ProductShowcase />` component.
+
+SEO Details:
+- Add all keywords from the image text into the visible content and SEO meta tags.
+- Optimize headings with product type + grade names (e.g., `<h2>Stainless Steel 304, 316, 316L, 310, 321, 904L Supplier in India</h2>`).
+- Use alt text for any images with relevant keywords.
+- Ensure Google can index the component by avoiding client-only rendering of important text.
+
+Final Goal:
+- This section must make the homepage **rank at the top of Google search results** for any of these products or grades.
+- It should have a professional and modern look that convinces visitors to order directly after viewing it.

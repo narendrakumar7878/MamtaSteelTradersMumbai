@@ -14,10 +14,9 @@ export default function Home() {
         keywords="Mamta Steel Traders, steel manufacturers Mumbai, stainless steel pipes, steel sheets, flanges, industrial steel products"
       />
       <HeroCarousel />
+      
       <ProductShowcase />
-      
       <ContactSection />
-      
       <StatsSection />
       <IndustryServe />
     </>
