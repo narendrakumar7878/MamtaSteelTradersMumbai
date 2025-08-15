@@ -315,6 +315,75 @@ export default function About() {
             </motion.div>
           </div>
         </section>
+
+        {/* Terms and Conditions Section */}
+        <section className="py-16 bg-gray-50">
+          <div className="container mx-auto px-6 lg:px-12">
+            <motion.div 
+              className="max-w-5xl mx-auto"
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={fadeInUp}
+            >
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#0d2b4e] mb-8 text-center">
+                  Terms and Conditions - Steel Supply & Material Delivery Policy
+                </h2>
+                
+                <div className="bg-white rounded-lg p-8 shadow-lg">
+                  <ul className="list-disc list-inside space-y-2 text-gray-700 leading-relaxed text-lg">
+                    <li>
+                      <strong>Credit Policy:</strong> Goods will not be provided on credit to maintain business efficiency and quality steel supplier standards.
+                    </li>
+                    
+                    <li>
+                      <strong>Payment Terms:</strong> 50% payment must be made in advance, and the remaining 50% must be paid on the day of material delivery to ensure smooth operations.
+                    </li>
+                    
+                    <li>
+                      <strong>Material Return Policy:</strong> No returns will be accepted after 5 days from the date the material is delivered to you to maintain inventory management standards.
+                    </li>
+                    
+                    <li>
+                      <strong>Extended Credit Policy:</strong> If our business relationship reaches a turnover of ₹10 crore and mutual trust remains strong, we may provide a 7-day credit period. If the relationship continues positively, the credit period can be extended further based on business partnership strength.
+                    </li>
+                    
+                    <li>
+                      <strong>Material Test Report Policy:</strong> If you require a material test report for quality assurance, please inform us along with your Purchase Order (PO). Test reports will not be provided after material delivery to ensure proper documentation process.
+                    </li>
+                    
+                    <li>
+                      <strong>Delivery & Payment Schedule:</strong> Timely delivery will be ensured from our side, and timely payment is required from your end to maintain business continuity and quality steel supplier relationship.
+                    </li>
+                    
+                    <li>
+                      <strong>Material Delivery Timeline:</strong> Delivery time will depend on your location, but from our side, the material will be prepared as soon as possible after receiving your Purchase Order to ensure customer satisfaction.
+                    </li>
+                    
+                    <li>
+                      <strong>Customer Support:</strong> For any queries regarding steel products, material delivery, payment terms, or quality steel supplier services, you can contact us via call or message for immediate assistance.
+                    </li>
+                    
+                    <li>
+                      <strong>Business Operations:</strong> All these terms are in place for the strength and smooth operation of our business to maintain our position as a reliable quality steel supplier in Mumbai, India.
+                    </li>
+                    
+                    <li>
+                      <strong>Quality Commitment:</strong> Our aim is to deliver the best quality material on time, and these terms and conditions are designed to strengthen our business relationship and ensure customer satisfaction with our steel supply services.
+                    </li>
+                  </ul>
+                  
+                  <div className="mt-8 p-6 bg-gradient-to-r from-[#0d2b4e]/5 to-[#f39c12]/5 rounded-xl border border-[#f39c12]/20">
+                    <p className="text-center font-medium text-[#0d2b4e] text-lg">
+                      <strong>Contact Us:</strong> For any clarifications regarding these terms and conditions, material delivery policy, or quality steel supplier services, please reach out to Mamta Steel Traders - Your trusted steel partner in Mumbai, India.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+        </section>
       </main>
     </>
   );

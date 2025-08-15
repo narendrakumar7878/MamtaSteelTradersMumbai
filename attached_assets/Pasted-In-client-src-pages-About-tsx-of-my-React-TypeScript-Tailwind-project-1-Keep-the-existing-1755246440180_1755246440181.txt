@@ -1,0 +1,26 @@
+In `client/src/pages/About.tsx` of my React + TypeScript + Tailwind project:
+
+1. Keep the existing design and content exactly as it is.
+2. At the very bottom of the page, add a new `<section>` titled "Terms and Conditions".
+3. Inside this section, add the following points (as an unordered list) in professional English:
+
+   - Goods will not be provided on credit.
+   - 50% payment must be made in advance, and the remaining 50% must be paid on the day of material delivery.
+   - No returns will be accepted after 5 days from the date the material is delivered to you.
+   - If our business relationship reaches a turnover of ₹10 crore and mutual trust remains strong, we may provide a 7-day credit period. If the relationship continues positively, the credit period can be extended further.
+   - If you require a material test report, please inform us along with your Purchase Order (PO). Test reports will not be provided after material delivery.
+   - Timely delivery will be ensured, and timely payment is required.
+   - Delivery time will depend on your location, but from our side, the material will be prepared as soon as possible after receiving your PO.
+   - For any queries, you can contact us via call or message.
+   - All these terms are in place for the strength and smooth operation of our business.
+   - Our aim is to deliver the best quality material on time, and these terms and conditions are designed to strengthen our business relationship.
+
+4. Styling:
+   - Use `<section>` with a bold `<h2>` heading for "Terms and Conditions".
+   - Use a `<ul>` with Tailwind classes: `list-disc list-inside space-y-2 text-gray-700 leading-relaxed`.
+   - Add padding (`p-6`), background color (`bg-gray-50`), and rounded corners (`rounded-lg`) so it stands out but blends with the page style.
+   - Ensure the section is responsive for mobile and desktop.
+
+5. SEO:
+   - Use `<h2>` and `<li>` with relevant keywords like “material delivery”, “payment terms”, “credit policy”, “material return policy”, and “quality steel supplier”.
+   - Make sure the text is visible in the initial HTML so it can be indexed by Google.
