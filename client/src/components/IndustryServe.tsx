@@ -1,4 +1,6 @@
+import { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const industries = [
   {
@@ -97,6 +99,52 @@ const cardVariants = {
 };
 
 export default function IndustryServe() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+  const carouselRef = useRef<HTMLDivElement>(null);
+
+  // Auto-play carousel functionality
+  useEffect(() => {
+    if (!isAutoPlaying) return;
+    
+    const interval = setInterval(() => {
+      setCurrentIndex(prev => (prev + 1) % industries.length);
+    }, 4000);
+
+    return () => clearInterval(interval);
+  }, [isAutoPlaying]);
+
+  const goToPrevious = () => {
+    setCurrentIndex(prev => (prev - 1 + industries.length) % industries.length);
+  };
+
+  const goToNext = () => {
+    setCurrentIndex(prev => (prev + 1) % industries.length);
+  };
+
+  const stopAutoplay = () => setIsAutoPlaying(false);
+  const startAutoplay = () => setIsAutoPlaying(true);
+
+  // Get visible items based on screen size
+  const getVisibleItemsCount = () => {
+    if (typeof window === 'undefined') return 4;
+    if (window.innerWidth < 640) return 1;
+    if (window.innerWidth < 768) return 2;
+    if (window.innerWidth < 1024) return 3;
+    return 4;
+  };
+
+  const [visibleItems, setVisibleItems] = useState(getVisibleItemsCount());
+
+  useEffect(() => {
+    const handleResize = () => {
+      setVisibleItems(getVisibleItemsCount());
+    };
+    
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   // SEO-optimized structured data for industries served
   const structuredData = {
     "@context": "https://schema.org",
@@ -157,71 +205,120 @@ export default function IndustryServe() {
             </p>
           </motion.div>
 
-          {/* Industries Grid */}
-          <motion.div 
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8"
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={containerVariants}
-          >
-            {industries.map((industry) => (
-              <motion.article
-                key={industry.id}
-                className="group relative bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden transform transition-all duration-500 hover:shadow-2xl"
-                variants={cardVariants}
-                whileHover={{ 
-                  scale: 1.03, 
-                  y: -8,
-                  transition: { duration: 0.3 }
+          {/* Industries Carousel */}
+          <div className="relative">
+            {/* Carousel Container */}
+            <div className="overflow-hidden">
+              <motion.div 
+                ref={carouselRef}
+                className="flex transition-transform duration-500 ease-in-out gap-4 sm:gap-6"
+                style={{
+                  transform: `translateX(-${(currentIndex * (100 / visibleItems))}%)`
                 }}
-                data-testid={`industry-card-${industry.id}`}
+                onMouseEnter={stopAutoplay}
+                onMouseLeave={startAutoplay}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={containerVariants}
               >
-                {/* Image Container */}
-                <div className="relative h-48 sm:h-52 overflow-hidden">
-                  <img
-                    src={industry.image}
-                    alt={industry.alt}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 group-hover:brightness-110"
-                    loading="lazy"
-                  />
-                  
-                  {/* Gradient Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300" />
-                  
-                  {/* Industry Badge */}
-                  <div className="absolute top-3 left-3 bg-[#f39c12] text-white px-3 py-1 rounded-full text-xs font-semibold transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300">
-                    Steel Solutions
-                  </div>
-                </div>
-
-                {/* Content */}
-                <div className="p-6">
-                  <h3 className="text-xl sm:text-2xl font-bold text-[#0d2b4e] dark:text-blue-400 mb-3 group-hover:text-[#f39c12] transition-colors duration-300 line-clamp-2">
-                    {industry.seoTitle}
-                  </h3>
-                  
-                  <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed line-clamp-4 group-hover:line-clamp-none transition-all duration-300">
-                    {industry.description}
-                  </p>
-                  
-                  {/* SEO Keywords Tags */}
-                  <div className="mt-4 pt-3 border-t border-gray-200 dark:border-gray-700">
-                    <div className="flex flex-wrap gap-1">
-                      {industry.keywords.split(', ').slice(0, 3).map((keyword, index) => (
-                        <span 
-                          key={index}
-                          className="text-xs bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 px-2 py-1 rounded-full"
-                        >
-                          {keyword}
-                        </span>
-                      ))}
+                {industries.map((industry, index) => (
+                  <motion.article
+                    key={industry.id}
+                    className="group relative bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden transform transition-all duration-500 hover:shadow-2xl flex-shrink-0"
+                    style={{
+                      width: `calc(${100 / visibleItems}% - ${(visibleItems - 1) * 1}rem / ${visibleItems})`
+                    }}
+                    variants={cardVariants}
+                    whileHover={{ 
+                      scale: 1.02, 
+                      y: -4,
+                      transition: { duration: 0.3 }
+                    }}
+                    data-testid={`industry-card-${industry.id}`}
+                  >
+                    {/* Image Container - Reduced Height */}
+                    <div className="relative h-32 sm:h-36 md:h-40 overflow-hidden">
+                      <img
+                        src={industry.image}
+                        alt={industry.alt}
+                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 group-hover:brightness-110"
+                        loading="lazy"
+                      />
+                      
+                      {/* Gradient Overlay */}
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300" />
+                      
+                      {/* Industry Badge */}
+                      <div className="absolute top-2 left-2 bg-[#f39c12] text-white px-2 py-1 rounded-full text-xs font-semibold transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300">
+                        Steel Solutions
+                      </div>
                     </div>
-                  </div>
-                </div>
-              </motion.article>
-            ))}
-          </motion.div>
+
+                    {/* Content - Reduced Padding */}
+                    <div className="p-4">
+                      <h3 className="text-sm sm:text-base lg:text-lg font-bold text-[#0d2b4e] dark:text-blue-400 mb-2 group-hover:text-[#f39c12] transition-colors duration-300 line-clamp-2">
+                        {industry.seoTitle}
+                      </h3>
+                      
+                      <p className="text-gray-700 dark:text-gray-300 text-xs sm:text-sm leading-relaxed line-clamp-3 group-hover:line-clamp-4 transition-all duration-300">
+                        {industry.description}
+                      </p>
+                      
+                      {/* SEO Keywords Tags */}
+                      <div className="mt-3 pt-2 border-t border-gray-200 dark:border-gray-700">
+                        <div className="flex flex-wrap gap-1">
+                          {industry.keywords.split(', ').slice(0, 2).map((keyword, keyIndex) => (
+                            <span 
+                              key={keyIndex}
+                              className="text-xs bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 px-2 py-1 rounded-full"
+                            >
+                              {keyword}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  </motion.article>
+                ))}
+              </motion.div>
+            </div>
+
+            {/* Carousel Navigation Controls */}
+            <button
+              onClick={goToPrevious}
+              className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-10 w-10 h-10 sm:w-12 sm:h-12 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-full shadow-lg hover:bg-white hover:shadow-xl dark:hover:bg-gray-700 transition-all duration-300 flex items-center justify-center group"
+              data-testid="carousel-prev-btn"
+              aria-label="Previous industries"
+            >
+              <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6 text-gray-700 dark:text-gray-300 group-hover:text-[#f39c12] transition-colors duration-200" />
+            </button>
+
+            <button
+              onClick={goToNext}
+              className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-10 w-10 h-10 sm:w-12 sm:h-12 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-full shadow-lg hover:bg-white hover:shadow-xl dark:hover:bg-gray-700 transition-all duration-300 flex items-center justify-center group"
+              data-testid="carousel-next-btn"
+              aria-label="Next industries"
+            >
+              <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6 text-gray-700 dark:text-gray-300 group-hover:text-[#f39c12] transition-colors duration-200" />
+            </button>
+
+            {/* Carousel Dots Indicator */}
+            <div className="flex justify-center mt-6 gap-2">
+              {Array.from({ length: Math.ceil(industries.length / visibleItems) }).map((_, index) => (
+                <button
+                  key={index}
+                  onClick={() => setCurrentIndex(index * visibleItems)}
+                  className={`w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-all duration-300 ${
+                    Math.floor(currentIndex / visibleItems) === index
+                      ? 'bg-[#f39c12] scale-125'
+                      : 'bg-gray-300 dark:bg-gray-600 hover:bg-gray-400'
+                  }`}
+                  aria-label={`Go to slide ${index + 1}`}
+                />
+              ))}
+            </div>
+          </div>
 
           {/* Additional SEO Content */}
           <motion.div 
