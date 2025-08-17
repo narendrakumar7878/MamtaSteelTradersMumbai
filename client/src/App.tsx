@@ -24,6 +24,7 @@ import Bars from "@/pages/bars";
 import Flanges from "@/pages/flanges";
 import Fittings from "@/pages/fittings";
 import Fasteners from "@/pages/fasteners";
+import AnglesChannels from "@/pages/AnglesChannels";
 import NotFound from "@/pages/not-found";
 import TopBar from "@/components/TopBar";
 import MainHeader from "@/components/MainHeader";
@@ -52,6 +53,7 @@ function Router() {
       <Route path="/flanges" component={Flanges} />
       <Route path="/fittings" component={Fittings} />
       <Route path="/fasteners" component={Fasteners} />
+      <Route path="/angleschannels" component={AnglesChannels} />
       <Route path="/solutions" component={Solutions} />
       <Route path="/certificate" component={Certificate} />
       <Route path="/contact" component={Contact} />

@@ -33,8 +33,7 @@ export default function Navbar() {
     sheets: false,
     bars: false,
     fittings: false,
-    flanges: false,
-    valves: false
+    flanges: false
   });
   const [location] = useLocation();
 
@@ -49,8 +48,7 @@ export default function Navbar() {
         sheets: false,
         bars: false,
         fittings: false,
-        flanges: false,
-        valves: false
+        flanges: false
       });
     }
   };
@@ -63,8 +61,7 @@ export default function Navbar() {
       sheets: false,
       bars: false,
       fittings: false,
-      flanges: false,
-      valves: false
+      flanges: false
     });
   };
 
@@ -152,24 +149,11 @@ export default function Navbar() {
                     <span className="font-semibold text-navy-primary">Fasteners</span>
                   </Link>
                   
-                  {/* Valves */}
-                  <div className="relative group/submenu">
-                    <div className="px-4 py-3 hover:bg-gray-100 cursor-pointer flex items-center justify-between" data-testid="submenu-valves">
-                      <div className="flex items-center">
-                        <Gauge className="w-4 h-4 mr-3 text-navy-primary" />
-                        <span className="font-semibold text-navy-primary">Valves</span>
-                      </div>
-                      <ChevronDown className="w-3 h-3 -rotate-90 text-gray-400 group-hover/submenu:rotate-0 transition-transform duration-200" />
-                    </div>
-                    {/* Valves Submenu */}
-                    <div className="absolute left-full top-0 bg-white min-w-48 rounded-lg shadow-xl opacity-0 invisible group-hover/submenu:opacity-100 group-hover/submenu:visible transition-all duration-300 transform translate-x-2 group-hover/submenu:translate-x-4 z-60 ml-2">
-                      <div className="py-2">
-                        <div className="px-4 py-2 hover:bg-gray-100 cursor-pointer text-sm text-gray-700 hover:text-navy-primary transition-colors" data-testid="link-valves-placeholder">
-                          Add valves items here
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  {/* Angles & Channels */}
+                  <Link href="/angleschannels" className="px-4 py-3 hover:bg-gray-100 cursor-pointer flex items-center transition-colors duration-200" data-testid="link-angles-channels">
+                    <TrendingUp className="w-4 h-4 mr-3 text-navy-primary" />
+                    <span className="font-semibold text-navy-primary">Angles & Channels</span>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -300,23 +284,11 @@ export default function Navbar() {
                       Fasteners
                     </Link>
                     
-                    {/* Mobile Valves Submenu */}
-                    <div>
-                      <div className="flex items-center justify-between py-2 cursor-pointer" onClick={() => toggleMobileSubmenu('valves')} data-testid="mobile-submenu-valves">
-                        <div className="flex items-center text-sm hover:text-gold-primary">
-                          <Gauge className="w-3 h-3 mr-2" />
-                          Valves
-                        </div>
-                        <ChevronDown className={`w-3 h-3 transition-transform duration-200 ${mobileSubmenus.valves ? 'rotate-180' : ''}`} />
-                      </div>
-                      {mobileSubmenus.valves && (
-                        <div className="ml-5 space-y-1 animate-in slide-in-from-top duration-200">
-                          <div className="py-1 text-xs text-gray-600 hover:text-navy-primary cursor-pointer" data-testid="mobile-link-valves-placeholder">
-                            Add valves items here
-                          </div>
-                        </div>
-                      )}
-                    </div>
+                    {/* Mobile Angles & Channels */}
+                    <Link href="/angleschannels" className="flex items-center py-2 text-sm hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-angles-channels">
+                      <TrendingUp className="w-3 h-3 mr-2" />
+                      Angles & Channels
+                    </Link>
                   </div>
                 )}
               </div>

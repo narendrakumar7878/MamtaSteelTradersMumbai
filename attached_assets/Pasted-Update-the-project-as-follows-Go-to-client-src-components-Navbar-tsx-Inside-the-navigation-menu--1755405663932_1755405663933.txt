@@ -1,0 +1,60 @@
+Update the project as follows:
+
+Go to client/src/components/Navbar.tsx
+
+Inside the navigation menu, find the dropdown under Products.
+
+Replace the menu item "Valves" with "Angles & Channels".
+
+Link this menu item to a new page: /angleschannels.
+
+Create a new file:
+client/src/pages/AnglesChannels.tsx
+
+This page should be fully SEO optimized with modern UI and smooth animations.
+
+Use keywords naturally throughout the page content, such as:
+
+Best SS Angles Supplier Mumbai
+
+Hot Dip Galvanized Angles Stockist India
+
+Top Channels Supplier Mumbai
+
+Premium Quality Angles & Channels India
+
+IS2062 Galvanized Angles and Channels Supplier
+
+Mild Steel Angles & Channels Distributor
+
+Best Structural Channels Manufacturer India
+
+A to Z SS and MS Angles Suppliers Mumbai
+
+Wholesale Galvanized Channels India
+
+Industrial Steel Angles & Channels Supplier
+
+Take the content and specification details from the reference images provided (angles + channels product descriptions, specifications, advantages, characteristics).
+
+Include headings, subheadings, bullet points, meta tags, alt text for images, structured data keywords for SEO.
+
+Keep the content user-friendly but optimized for search engines.
+
+Add modern animations (fade-in, slide-in, hover effects for cards).
+
+Add a hero section with a bold headline like:
+"Best Angles & Channels Supplier in Mumbai – Premium Quality Galvanized Steel"
+
+Below that, add product descriptions, specifications, advantages, characteristics, and a contact CTA button that links to the Contact page (opens from the top of the page, not the bottom).
+
+Make sure the new page:
+
+Has responsive design (mobile + desktop).
+
+Uses semantic HTML tags (<h1>, <h2>, <p>, <ul>, <meta>, etc.) for SEO.
+
+Adds title tag and meta description for SEO:
+
+<title>Best Angles & Channels Supplier in Mumbai | Premium Galvanized Steel</title>
+<meta name="description" content="Leading supplier and stockist of Hot Dip Galvanized Angles & Channels in Mumbai. Premium quality, IS2062 certified, corrosion-resistant steel products for industrial and construction use.">
