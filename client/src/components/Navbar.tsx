@@ -37,8 +37,10 @@ export default function Navbar() {
     pipes: false,
     sheets: false,
     bars: false,
+    coldWorkToolSteels: false,
     fittings: false,
     flanges: false,
+    fasteners: false,
     weldingElectrodes: false,
     galvanized: false,
     pins: false
@@ -55,8 +57,10 @@ export default function Navbar() {
         pipes: false,
         sheets: false,
         bars: false,
+        coldWorkToolSteels: false,
         fittings: false,
         flanges: false,
+        fasteners: false,
         weldingElectrodes: false,
         galvanized: false,
         pins: false
@@ -71,8 +75,10 @@ export default function Navbar() {
       pipes: false,
       sheets: false,
       bars: false,
+      coldWorkToolSteels: false,
       fittings: false,
       flanges: false,
+      fasteners: false,
       weldingElectrodes: false,
       galvanized: false,
       pins: false
@@ -568,23 +574,182 @@ export default function Navbar() {
                 </div>
                 {mobileProductsOpen && (
                   <div className="ml-7 mt-2 space-y-1 animate-in slide-in-from-top duration-200">
-                    {/* Mobile Pipes & Tubes */}
-                    <Link href="/pipes-tubes" className="flex items-center py-2 text-sm hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-pipes-tubes">
-                      <Cylinder className="w-3 h-3 mr-2" />
-                      Pipes & Tubes
-                    </Link>
+                    {/* Mobile Pipes & Tubes with submenu */}
+                    <div className="py-2">
+                      <div className="flex items-center justify-between cursor-pointer" onClick={() => toggleMobileSubmenu('pipes')} data-testid="mobile-submenu-pipes-tubes">
+                        <div className="flex items-center">
+                          <Cylinder className="w-3 h-3 mr-2" />
+                          <span>Pipes & Tubes</span>
+                        </div>
+                        <ChevronDown className={`w-3 h-3 transition-transform duration-200 ${mobileSubmenus.pipes ? 'rotate-180' : ''}`} />
+                      </div>
+                      {mobileSubmenus.pipes && (
+                        <div className="ml-5 mt-1 space-y-1 animate-in slide-in-from-top duration-200">
+                          <Link href="/product/pipes-tubes/stainless-steel-pipes-tubes" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-stainless-steel-pipes">
+                            Stainless Steel Pipes & Tubes
+                          </Link>
+                          <Link href="/product/pipes-tubes/carbon-steel" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-carbon-steel-pipes">
+                            Carbon Steel
+                          </Link>
+                          <Link href="/product/pipes-tubes/alloy-steel-pipe" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-alloy-steel-pipes">
+                            Alloy Steel Pipe
+                          </Link>
+                          <Link href="/product/pipes-tubes/nickel-alloy" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-nickel-alloy-pipes">
+                            Nickel Alloy
+                          </Link>
+                          <Link href="/product/pipes-tubes/inconel" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-inconel-pipes">
+                            Inconel
+                          </Link>
+                          <Link href="/product/pipes-tubes/monel" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-monel-pipes">
+                            Monel
+                          </Link>
+                          <Link href="/product/pipes-tubes/hastelloy" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-hastelloy-pipes">
+                            Hastelloy
+                          </Link>
+                          <Link href="/product/pipes-tubes/incoloy" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-incoloy-pipes">
+                            Incoloy
+                          </Link>
+                          <Link href="/product/pipes-tubes/titanium" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-titanium-pipes">
+                            Titanium
+                          </Link>
+                          <Link href="/product/pipes-tubes/cupro-nickel" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-cupro-nickel-pipes">
+                            Cupro Nickel
+                          </Link>
+                          <Link href="/product/pipes-tubes/tantalum" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-tantalum-pipes">
+                            Tantalum
+                          </Link>
+                          <Link href="/product/pipes-tubes/duplex-super-duplex-pipes" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-duplex-pipes">
+                            Duplex and Super Duplex Pipes
+                          </Link>
+                          <Link href="/product/pipes-tubes/corten-steel" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-corten-steel-pipes">
+                            Corten Steel
+                          </Link>
+                          <Link href="/product/pipes-tubes/efsw-saw-hsaw-lsaw-pipes" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-efsw-pipes">
+                            EFSW/SAW/HSAW/LSAW Pipes
+                          </Link>
+                          <Link href="/product/pipes-tubes/welded-wear-resistant-pipe-ar400" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-welded-wear-resistant-pipes">
+                            Welded Wear Resistant Pipe/AR400 Pipe
+                          </Link>
+                          <Link href="/product/pipes-tubes/plate-welded-pipes" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-plate-welded-pipes">
+                            Plate Welded Pipes
+                          </Link>
+                          <Link href="/product/pipes-tubes/large-od-seamless-pipes" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-large-od-pipes">
+                            Large OD Seamless Pipes
+                          </Link>
+                        </div>
+                      )}
+                    </div>
                     
-                    {/* Mobile Plates & Sheets */}
-                    <Link href="/plates-sheets" className="flex items-center py-2 text-sm hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-plates-sheets">
-                      <RectangleHorizontal className="w-3 h-3 mr-2" />
-                      Plates & Sheets
-                    </Link>
+                    {/* Mobile Plates & Sheets with submenu */}
+                    <div className="py-2">
+                      <div className="flex items-center justify-between cursor-pointer" onClick={() => toggleMobileSubmenu('sheets')} data-testid="mobile-submenu-plates-sheets">
+                        <div className="flex items-center">
+                          <RectangleHorizontal className="w-3 h-3 mr-2" />
+                          <span>Plates & Sheets</span>
+                        </div>
+                        <ChevronDown className={`w-3 h-3 transition-transform duration-200 ${mobileSubmenus.sheets ? 'rotate-180' : ''}`} />
+                      </div>
+                      {mobileSubmenus.sheets && (
+                        <div className="ml-5 mt-1 space-y-1 animate-in slide-in-from-top duration-200">
+                          <Link href="/product/plates-sheets/stainless-steel-plates" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-stainless-steel-plates">
+                            Stainless Steel Plates
+                          </Link>
+                          <Link href="/product/plates-sheets/alloy-steel-plates" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-alloy-steel-plates">
+                            Alloy Steel Plates
+                          </Link>
+                          <Link href="/product/plates-sheets/aluminium-alloy" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-aluminium-alloy-plates">
+                            Aluminium Alloy
+                          </Link>
+                          <Link href="/product/plates-sheets/carbon-steel" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-carbon-steel-plates">
+                            Carbon Steel
+                          </Link>
+                          <Link href="/product/plates-sheets/copper-nickel" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-copper-nickel-plates">
+                            Copper Nickel
+                          </Link>
+                          <Link href="/product/plates-sheets/duplex-super-duplex" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-duplex-plates">
+                            Duplex and Super Duplex
+                          </Link>
+                        </div>
+                      )}
+                    </div>
                     
-                    {/* Mobile Bars */}
-                    <Link href="/bars" className="flex items-center py-2 text-sm hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-bars">
-                      <BarChart3 className="w-3 h-3 mr-2" />
-                      Bars
-                    </Link>
+                    {/* Mobile Round Bars with submenu */}
+                    <div className="py-2">
+                      <div className="flex items-center justify-between cursor-pointer" onClick={() => toggleMobileSubmenu('bars')} data-testid="mobile-submenu-round-bars">
+                        <div className="flex items-center">
+                          <BarChart3 className="w-3 h-3 mr-2" />
+                          <span>Round Bars</span>
+                        </div>
+                        <ChevronDown className={`w-3 h-3 transition-transform duration-200 ${mobileSubmenus.bars ? 'rotate-180' : ''}`} />
+                      </div>
+                      {mobileSubmenus.bars && (
+                        <div className="ml-5 mt-1 space-y-1 animate-in slide-in-from-top duration-200">
+                          <Link href="/product/round-bars/alloy-steel-round" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-alloy-steel-round">
+                            Alloy Steel Round
+                          </Link>
+                          <Link href="/product/round-bars/f11-round-bars" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-f11-round-bars">
+                            F11 Round Bars
+                          </Link>
+                          <Link href="/product/round-bars/f22-round-bars" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-f22-round-bars">
+                            F22 Round Bars
+                          </Link>
+                          <Link href="/product/round-bars/f91-round-bars" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-f91-round-bars">
+                            F91 Round Bars
+                          </Link>
+                          <Link href="/product/round-bars/aluminium-alloy" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-aluminium-alloy-round">
+                            Aluminium Alloy
+                          </Link>
+                          <Link href="/product/round-bars/carbon-steel" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-carbon-steel-round">
+                            Carbon Steel
+                          </Link>
+                          <Link href="/product/round-bars/hot-work-steel" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-hot-work-steel">
+                            Hot Work Steel
+                          </Link>
+                          <Link href="/product/round-bars/copper-nickel" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-copper-nickel-round">
+                            Copper Nickel
+                          </Link>
+                          <Link href="/product/round-bars/en-series" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-en-series">
+                            EN Series
+                          </Link>
+                          <Link href="/product/round-bars/hastelloy" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-hastelloy-round">
+                            Hastelloy
+                          </Link>
+                          <Link href="/product/round-bars/stainless-steel-round-bars" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-stainless-steel-round">
+                            Stainless Steel Round Bars
+                          </Link>
+                          <Link href="/product/round-bars/precipitation-hardening-steel" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-precipitation-hardening">
+                            Precipitation Hardening Steel
+                          </Link>
+                        </div>
+                      )}
+                    </div>
+                    
+                    {/* Mobile Cold Work Tool Steels with submenu */}
+                    <div className="py-2">
+                      <div className="flex items-center justify-between cursor-pointer" onClick={() => toggleMobileSubmenu('coldWorkToolSteels')} data-testid="mobile-submenu-cold-work-tool-steels">
+                        <div className="flex items-center">
+                          <Hammer className="w-3 h-3 mr-2" />
+                          <span>Cold Work Tool Steels</span>
+                        </div>
+                        <ChevronDown className={`w-3 h-3 transition-transform duration-200 ${mobileSubmenus.coldWorkToolSteels ? 'rotate-180' : ''}`} />
+                      </div>
+                      {mobileSubmenus.coldWorkToolSteels && (
+                        <div className="ml-5 mt-1 space-y-1 animate-in slide-in-from-top duration-200">
+                          <Link href="/product/cold-work-tool-steels/aisi-o1-round-bars" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-aisi-o1">
+                            AISI O1 Round Bars
+                          </Link>
+                          <Link href="/product/cold-work-tool-steels/hchcr-d2-round-bars" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-hchcr-d2">
+                            HCHCR-D2 Round Bars
+                          </Link>
+                          <Link href="/product/cold-work-tool-steels/a2-tool-steel" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-a2-tool-steel">
+                            A2 Tool Steel
+                          </Link>
+                          <Link href="/product/cold-work-tool-steels/d3-tool-steel" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-d3-tool-steel">
+                            D3 Tool Steel
+                          </Link>
+                        </div>
+                      )}
+                    </div>
                     
                     {/* Mobile Fittings */}
                     <div className="py-2">
@@ -636,15 +801,45 @@ export default function Navbar() {
                           <Link href="/product/flanges/incoloy" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-incoloy-flanges">
                             Incoloy
                           </Link>
+                          <Link href="/product/flanges/blind-flanges" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-blind-flanges">
+                            Blind Flanges
+                          </Link>
+                          <Link href="/product/flanges/lap-joint-flanges" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-lap-joint-flanges">
+                            Lap Joint Flanges
+                          </Link>
+                          <Link href="/product/flanges/slip-on-flanges" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-slip-on-flanges">
+                            Slip On Flanges
+                          </Link>
+                          <Link href="/product/flanges/socket-weld-flanges" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-socket-weld-flanges">
+                            Socket Weld Flanges
+                          </Link>
+                          <Link href="/product/flanges/threaded-flanges" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-threaded-flanges">
+                            Threaded Flanges
+                          </Link>
+                          <Link href="/product/flanges/weld-neck-flanges" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-weld-neck-flanges">
+                            Weld Neck Flanges
+                          </Link>
                         </div>
                       )}
                     </div>
                     
                     {/* Mobile Fasteners */}
-                    <Link href="/fasteners" className="flex items-center py-2 text-sm hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-fasteners">
-                      <Wrench className="w-3 h-3 mr-2" />
-                      Fasteners
-                    </Link>
+                    <div className="py-2">
+                      <div className="flex items-center justify-between cursor-pointer" onClick={() => toggleMobileSubmenu('fasteners')} data-testid="mobile-submenu-fasteners">
+                        <div className="flex items-center">
+                          <Bolt className="w-3 h-3 mr-2" />
+                          <span>Fasteners</span>
+                        </div>
+                        <ChevronDown className={`w-3 h-3 transition-transform duration-200 ${mobileSubmenus.fasteners ? 'rotate-180' : ''}`} />
+                      </div>
+                      {mobileSubmenus.fasteners && (
+                        <div className="ml-5 mt-1 space-y-1 animate-in slide-in-from-top duration-200">
+                          <Link href="/product/fasteners/high-tensile" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-high-tensile">
+                            High Tensile
+                          </Link>
+                        </div>
+                      )}
+                    </div>
                     
                     {/* Mobile Welding Electrodes */}
                     <div className="py-2">
