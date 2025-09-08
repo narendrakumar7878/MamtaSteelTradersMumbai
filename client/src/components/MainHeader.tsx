@@ -49,11 +49,11 @@ export default function MainHeader() {
               <Button 
                 className="bg-[#f39c12] text-white hover:scale-110 hover:shadow-2xl hover:shadow-orange-300/50 px-6 py-3 font-semibold text-lg tracking-wide transition-all duration-300 shadow-lg"
                 style={{ borderRadius: '30px' }}
-                data-testid="button-get-quote"
+                data-testid="button-contact"
               >
                 <Phone className="w-5 h-5 mr-2" />
                
-                Get Instant Quote
+                Contact
               </Button>
             </Link>
             <div className="flex items-center text-xs text-gray-200 gap-1" data-testid="badge-office-time">
