@@ -210,8 +210,8 @@ function Router() {
       <Route path="/product/round-bars/f91-round-bars" component={F91RoundBars} />
       
       {/* Cold Work Tool Steels Routes */}
-      <Route path="/product/cold-work-tool-steels/aisi-o1-round-bars" component={AISIO1RoundBars} />
-      <Route path="/product/cold-work-tool-steels/hchcr-d2-round-bars" component={HCHCRD2RoundBars} />
+      <Route path="/product/cold-work-tool-steels/o1-tool-steel" component={AISIO1RoundBars} />
+      <Route path="/product/cold-work-tool-steels/d2-tool-steel" component={HCHCRD2RoundBars} />
       <Route path="/product/cold-work-tool-steels/a2-tool-steel" component={A2ToolSteel} />
       <Route path="/product/cold-work-tool-steels/d3-tool-steel" component={D3ToolSteel} />
       

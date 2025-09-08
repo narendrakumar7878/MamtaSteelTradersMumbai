@@ -308,17 +308,17 @@ export default function Navbar() {
                     {/* Cold Work Tool Steels Submenu */}
                     <div className="absolute left-full top-0 bg-white text-gray-800 min-w-80 rounded-lg shadow-xl opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-300 z-60">
                       <div className="py-2">
-                        <Link href="/product/cold-work-tool-steels/aisi-o1-round-bars" className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center text-sm transition-colors duration-200" data-testid="link-aisi-o1">
-                          AISI O1 Round Bars
+                        <Link href="/product/cold-work-tool-steels/o1-tool-steel" className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center text-sm transition-colors duration-200" data-testid="link-aisi-o1">
+                          O1 Tool Steel
                         </Link>
-                        <Link href="/product/cold-work-tool-steels/hchcr-d2-round-bars" className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center text-sm transition-colors duration-200" data-testid="link-hchcr-d2">
-                          HCHCR-D2 Round Bars
+                        <Link href="/product/cold-work-tool-steels/d2-tool-steel" className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center text-sm transition-colors duration-200" data-testid="link-hchcr-d2">
+                          D2 Tool Steel
                         </Link>
-                        <Link href="/product/cold-work-tool-steels/toolox-33-round-bars" className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center text-sm transition-colors duration-200" data-testid="link-toolox-33">
-                          Toolox 33 Round Bars
+                        <Link href="/product/cold-work-tool-steels/a2-tool-steel" className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center text-sm transition-colors duration-200" data-testid="link-a2-tool-steel">
+                          A2 Tool Steel
                         </Link>
-                        <Link href="/product/cold-work-tool-steels/toolox-44-round-bars" className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center text-sm transition-colors duration-200" data-testid="link-toolox-44">
-                          Toolox 44 Round Bars
+                        <Link href="/product/cold-work-tool-steels/d3-tool-steel" className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center text-sm transition-colors duration-200" data-testid="link-d3-tool-steel">
+                          D3 Tool Steel
                         </Link>
                       </div>
                     </div>
@@ -414,24 +414,8 @@ export default function Navbar() {
                         <Link href="/product/welding-electrodes/stainless-steel-electrode" className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center text-sm transition-colors duration-200" data-testid="link-stainless-electrode">
                           Stainless Steel Electrode
                         </Link>
-                        <div className="relative group/sub2">
-                          <div className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center justify-between text-sm transition-colors duration-200" data-testid="submenu-copper-wires">
-                            <span>Copper Wires</span>
-                            <ChevronRight className="w-3 h-3 text-navy-primary" />
-                          </div>
-                          <div className="absolute left-full top-0 bg-white text-gray-800 min-w-60 rounded-lg shadow-xl opacity-0 invisible group-hover/sub2:opacity-100 group-hover/sub2:visible transition-all duration-300 z-70">
-                            <div className="py-2">
-                              <Link href="/product/welding-electrodes/ercuni-wire-copper-nickel" className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center text-xs transition-colors duration-200" data-testid="link-ercuni-wire">
-                                ERCuNi Wire
-                              </Link>
-                            </div>
-                          </div>
-                        </div>
-                        <Link href="/product/welding-electrodes/cobalt-base-electrode" className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center text-sm transition-colors duration-200" data-testid="link-cobalt-base-electrode">
-                          Cobalt Base Electrode
-                        </Link>
-                        <Link href="/product/welding-electrodes/aluminium-wires" className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center text-sm transition-colors duration-200" data-testid="link-aluminium-wires">
-                          Aluminium Wires
+                        <Link href="/product/welding-electrodes/ercuni-wire-copper-nickel" className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center text-sm transition-colors duration-200" data-testid="link-ercuni-wire">
+                          ERCuNi Wire (Copper Nickel)
                         </Link>
                       </div>
                     </div>
@@ -735,11 +719,11 @@ export default function Navbar() {
                       </div>
                       {mobileSubmenus.coldWorkToolSteels && (
                         <div className="ml-5 mt-1 space-y-1 animate-in slide-in-from-top duration-200">
-                          <Link href="/product/cold-work-tool-steels/aisi-o1-round-bars" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-aisi-o1">
-                            AISI O1 Round Bars
+                          <Link href="/product/cold-work-tool-steels/o1-tool-steel" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-aisi-o1">
+                            O1 Tool Steel
                           </Link>
-                          <Link href="/product/cold-work-tool-steels/hchcr-d2-round-bars" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-hchcr-d2">
-                            HCHCR-D2 Round Bars
+                          <Link href="/product/cold-work-tool-steels/d2-tool-steel" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-hchcr-d2">
+                            D2 Tool Steel
                           </Link>
                           <Link href="/product/cold-work-tool-steels/a2-tool-steel" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-a2-tool-steel">
                             A2 Tool Steel
