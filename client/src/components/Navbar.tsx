@@ -537,7 +537,7 @@ export default function Navbar() {
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
           <div className="md:hidden animate-in slide-in-from-top duration-300" data-testid="mobile-menu">
-            <div className="py-4 space-y-2 bg-navy-secondary border-t border-navy-primary">
+            <div className="py-4 space-y-2 bg-navy-secondary border-t border-navy-primary max-h-[80vh] overflow-y-auto">
               <Link href="/" className="flex items-center py-2 px-4 hover:text-gold-primary hover:bg-navy-primary/20 transition-all duration-200" onClick={toggleMobileMenu} data-testid="mobile-link-home">
                 <Home className="w-4 h-4 mr-3" />
                 Home
