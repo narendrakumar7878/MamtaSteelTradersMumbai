@@ -230,16 +230,16 @@ export default function NickelAlloyFlanges() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/contact" className="bg-gold-primary hover:bg-gold-secondary text-navy-primary font-semibold py-3 px-8 rounded-lg transition-colors duration-300" data-testid="cta-contact">
-                  Request Quote
+                  Contact
                 </Link>
                 <div className="flex items-center justify-center space-x-4 text-sm">
                   <div className="flex items-center" data-testid="contact-phone">
                     <Phone className="w-4 h-4 mr-2" />
-                    <a href="tel:+919876543210" className="hover:text-gold-primary transition-colors">+91 98765 43210</a>
+                    <a href="tel:+919819322575" className="hover:text-gold-primary transition-colors">+91 98193 22575</a>
                   </div>
                   <div className="flex items-center" data-testid="contact-email">
                     <Mail className="w-4 h-4 mr-2" />
-                    <a href="mailto:info@mamtasteel.com" className="hover:text-gold-primary transition-colors">info@mamtasteel.com</a>
+                    <a href="mailto:mamtasteeltraders@gmail.com" className="hover:text-gold-primary transition-colors">mamtasteeltraders@gmail.com</a>
                   </div>
                 </div>
               </div>
