@@ -26,6 +26,14 @@ import Fittings from "@/pages/fittings";
 import Fasteners from "@/pages/fasteners";
 import AnglesChannels from "@/pages/AnglesChannels";
 import NotFound from "@/pages/not-found";
+// Product Pages
+import StainlessSteelPipesAndTubes from "@/pages/product/pipes-tubes/stainless-steel-pipes-tubes";
+import CarbonSteelPipes from "@/pages/product/pipes-tubes/carbon-steel";
+import AlloySteelPipes from "@/pages/product/pipes-tubes/alloy-steel-pipe";
+import StainlessSteelPlates from "@/pages/product/plates-sheets/stainless-steel-plates";
+import StainlessSteelRoundBars from "@/pages/product/round-bars/stainless-steel-round-bars";
+import StainlessSteelFlanges from "@/pages/product/flanges/stainless-steel";
+import HighTensileFasteners from "@/pages/product/fasteners/high-tensile";
 import TopBar from "@/components/TopBar";
 import MainHeader from "@/components/MainHeader";
 import Navbar from "@/components/Navbar";
@@ -54,6 +62,16 @@ function Router() {
       <Route path="/fittings" component={Fittings} />
       <Route path="/fasteners" component={Fasteners} />
       <Route path="/angleschannels" component={AnglesChannels} />
+      
+      {/* Product Category Routes */}
+      <Route path="/product/pipes-tubes/stainless-steel-pipes-tubes" component={StainlessSteelPipesAndTubes} />
+      <Route path="/product/pipes-tubes/carbon-steel" component={CarbonSteelPipes} />
+      <Route path="/product/pipes-tubes/alloy-steel-pipe" component={AlloySteelPipes} />
+      <Route path="/product/plates-sheets/stainless-steel-plates" component={StainlessSteelPlates} />
+      <Route path="/product/round-bars/stainless-steel-round-bars" component={StainlessSteelRoundBars} />
+      <Route path="/product/flanges/stainless-steel" component={StainlessSteelFlanges} />
+      <Route path="/product/fasteners/high-tensile" component={HighTensileFasteners} />
+      
       <Route path="/solutions" component={Solutions} />
       <Route path="/certificate" component={Certificate} />
       <Route path="/contact" component={Contact} />
