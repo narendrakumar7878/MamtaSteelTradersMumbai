@@ -197,14 +197,14 @@ export default function IncoloyPipes() {
                   <Phone className="w-6 h-6 text-gold-primary" />
                   <div>
                     <p className="font-semibold">Call Us</p>
-                    <p className="text-blue-100">+91 98765 43210</p>
+                    <p className="text-blue-100">+91 98193 22575</p>
                   </div>
                 </div>
                 <div className="flex items-center justify-center space-x-3" data-testid="contact-email">
                   <Mail className="w-6 h-6 text-gold-primary" />
                   <div>
                     <p className="font-semibold">Email Us</p>
-                    <p className="text-blue-100">info@mamtasteel.com</p>
+                    <p className="text-blue-100">mamtasteeltraders@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center justify-center space-x-3" data-testid="contact-location">
@@ -216,7 +216,7 @@ export default function IncoloyPipes() {
                 </div>
               </div>
               <Link href="/contact" className="bg-gold-primary hover:bg-gold-secondary text-navy-primary font-semibold py-4 px-8 rounded-lg transition-colors duration-300 inline-block" data-testid="cta-contact-button">
-                Get Detailed Quote
+                Contact
               </Link>
             </div>
           </div>
