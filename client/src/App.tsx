@@ -34,6 +34,29 @@ import StainlessSteelPlates from "@/pages/product/plates-sheets/stainless-steel-
 import StainlessSteelRoundBars from "@/pages/product/round-bars/stainless-steel-round-bars";
 import StainlessSteelFlanges from "@/pages/product/flanges/stainless-steel";
 import HighTensileFasteners from "@/pages/product/fasteners/high-tensile";
+
+// Flange Pages
+import CarbonSteelFlanges from "@/pages/product/flanges/carbon-steel";
+import AlloySteelFlanges from "@/pages/product/flanges/alloy-steel";
+import NickelAlloyFlanges from "@/pages/product/flanges/nickel-alloy";
+import InconelFlanges from "@/pages/product/flanges/inconel";
+import IncoloyFlanges from "@/pages/product/flanges/incoloy";
+
+// Fitting Pages
+import ButtweldFittings from "@/pages/product/fittings/buttweld-fittings";
+import ForgedFittings from "@/pages/product/fittings/forged-fittings";
+
+// Welding Electrode Pages
+import StainlessSteelElectrodes from "@/pages/product/welding-electrodes/stainless-steel-electrode";
+import ERCuNiWire from "@/pages/product/welding-electrodes/ercuni-wire-copper-nickel";
+
+// Galvanized Pages
+import HotDipGalvanizedAngles from "@/pages/product/galvanized/hot-dip-galvanized-angles";
+import HotDipGalvanizedChannels from "@/pages/product/galvanized/hot-dip-galvanized-channels";
+
+// Pin Pages
+import PTOPins from "@/pages/product/pins/pto-pins";
+import PipeLinchPin from "@/pages/product/pins/pipe-linch-pin";
 import TopBar from "@/components/TopBar";
 import MainHeader from "@/components/MainHeader";
 import Navbar from "@/components/Navbar";
@@ -69,7 +92,31 @@ function Router() {
       <Route path="/product/pipes-tubes/alloy-steel-pipe" component={AlloySteelPipes} />
       <Route path="/product/plates-sheets/stainless-steel-plates" component={StainlessSteelPlates} />
       <Route path="/product/round-bars/stainless-steel-round-bars" component={StainlessSteelRoundBars} />
+      
+      {/* Flange Routes */}
       <Route path="/product/flanges/stainless-steel" component={StainlessSteelFlanges} />
+      <Route path="/product/flanges/carbon-steel" component={CarbonSteelFlanges} />
+      <Route path="/product/flanges/alloy-steel" component={AlloySteelFlanges} />
+      <Route path="/product/flanges/nickel-alloy" component={NickelAlloyFlanges} />
+      <Route path="/product/flanges/inconel" component={InconelFlanges} />
+      <Route path="/product/flanges/incoloy" component={IncoloyFlanges} />
+      
+      {/* Fitting Routes */}
+      <Route path="/product/fittings/buttweld-fittings" component={ButtweldFittings} />
+      <Route path="/product/fittings/forged-fittings" component={ForgedFittings} />
+      
+      {/* Welding Electrode Routes */}
+      <Route path="/product/welding-electrodes/stainless-steel-electrode" component={StainlessSteelElectrodes} />
+      <Route path="/product/welding-electrodes/ercuni-wire-copper-nickel" component={ERCuNiWire} />
+      
+      {/* Galvanized Routes */}
+      <Route path="/product/galvanized/hot-dip-galvanized-angles" component={HotDipGalvanizedAngles} />
+      <Route path="/product/galvanized/hot-dip-galvanized-channels" component={HotDipGalvanizedChannels} />
+      
+      {/* Pin Routes */}
+      <Route path="/product/pins/pto-pins" component={PTOPins} />
+      <Route path="/product/pins/pipe-linch-pin" component={PipeLinchPin} />
+      
       <Route path="/product/fasteners/high-tensile" component={HighTensileFasteners} />
       
       <Route path="/solutions" component={Solutions} />

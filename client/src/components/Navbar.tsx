@@ -38,7 +38,10 @@ export default function Navbar() {
     sheets: false,
     bars: false,
     fittings: false,
-    flanges: false
+    flanges: false,
+    weldingElectrodes: false,
+    galvanized: false,
+    pins: false
   });
   const [location] = useLocation();
 
@@ -53,7 +56,10 @@ export default function Navbar() {
         sheets: false,
         bars: false,
         fittings: false,
-        flanges: false
+        flanges: false,
+        weldingElectrodes: false,
+        galvanized: false,
+        pins: false
       });
     }
   };
@@ -66,7 +72,10 @@ export default function Navbar() {
       sheets: false,
       bars: false,
       fittings: false,
-      flanges: false
+      flanges: false,
+      weldingElectrodes: false,
+      galvanized: false,
+      pins: false
     });
   };
 
@@ -578,22 +587,127 @@ export default function Navbar() {
                     </Link>
                     
                     {/* Mobile Fittings */}
-                    <Link href="/fittings" className="flex items-center py-2 text-sm hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-fittings">
-                      <Puzzle className="w-3 h-3 mr-2" />
-                      Fittings
-                    </Link>
+                    <div className="py-2">
+                      <div className="flex items-center justify-between cursor-pointer" onClick={() => toggleMobileSubmenu('fittings')} data-testid="mobile-submenu-fittings">
+                        <div className="flex items-center">
+                          <Puzzle className="w-3 h-3 mr-2" />
+                          <span>Fittings</span>
+                        </div>
+                        <ChevronDown className={`w-3 h-3 transition-transform duration-200 ${mobileSubmenus.fittings ? 'rotate-180' : ''}`} />
+                      </div>
+                      {mobileSubmenus.fittings && (
+                        <div className="ml-5 mt-1 space-y-1 animate-in slide-in-from-top duration-200">
+                          <Link href="/product/fittings/buttweld-fittings" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-buttweld-fittings">
+                            Buttweld Fittings
+                          </Link>
+                          <Link href="/product/fittings/forged-fittings" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-forged-fittings">
+                            Forged Fittings
+                          </Link>
+                        </div>
+                      )}
+                    </div>
                     
                     {/* Mobile Flanges */}
-                    <Link href="/flanges" className="flex items-center py-2 text-sm hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-flanges">
-                      <Circle className="w-3 h-3 mr-2" />
-                      Flanges
-                    </Link>
+                    <div className="py-2">
+                      <div className="flex items-center justify-between cursor-pointer" onClick={() => toggleMobileSubmenu('flanges')} data-testid="mobile-submenu-flanges">
+                        <div className="flex items-center">
+                          <Circle className="w-3 h-3 mr-2" />
+                          <span>Flanges</span>
+                        </div>
+                        <ChevronDown className={`w-3 h-3 transition-transform duration-200 ${mobileSubmenus.flanges ? 'rotate-180' : ''}`} />
+                      </div>
+                      {mobileSubmenus.flanges && (
+                        <div className="ml-5 mt-1 space-y-1 animate-in slide-in-from-top duration-200">
+                          <Link href="/product/flanges/stainless-steel" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-stainless-flanges">
+                            Stainless Steel
+                          </Link>
+                          <Link href="/product/flanges/carbon-steel" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-carbon-flanges">
+                            Carbon Steel
+                          </Link>
+                          <Link href="/product/flanges/alloy-steel" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-alloy-flanges">
+                            Alloy Steel
+                          </Link>
+                          <Link href="/product/flanges/nickel-alloy" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-nickel-flanges">
+                            Nickel Alloy
+                          </Link>
+                          <Link href="/product/flanges/inconel" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-inconel-flanges">
+                            Inconel
+                          </Link>
+                          <Link href="/product/flanges/incoloy" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-incoloy-flanges">
+                            Incoloy
+                          </Link>
+                        </div>
+                      )}
+                    </div>
                     
                     {/* Mobile Fasteners */}
                     <Link href="/fasteners" className="flex items-center py-2 text-sm hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-fasteners">
                       <Wrench className="w-3 h-3 mr-2" />
                       Fasteners
                     </Link>
+                    
+                    {/* Mobile Welding Electrodes */}
+                    <div className="py-2">
+                      <div className="flex items-center justify-between cursor-pointer" onClick={() => toggleMobileSubmenu('weldingElectrodes')} data-testid="mobile-submenu-welding-electrodes">
+                        <div className="flex items-center">
+                          <Flashlight className="w-3 h-3 mr-2" />
+                          <span>Welding Electrodes</span>
+                        </div>
+                        <ChevronDown className={`w-3 h-3 transition-transform duration-200 ${mobileSubmenus.weldingElectrodes ? 'rotate-180' : ''}`} />
+                      </div>
+                      {mobileSubmenus.weldingElectrodes && (
+                        <div className="ml-5 mt-1 space-y-1 animate-in slide-in-from-top duration-200">
+                          <Link href="/product/welding-electrodes/stainless-steel-electrode" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-stainless-electrode">
+                            Stainless Steel Electrode
+                          </Link>
+                          <Link href="/product/welding-electrodes/ercuni-wire-copper-nickel" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-ercuni-wire">
+                            ERCuNi Wire
+                          </Link>
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Mobile Galvanized */}
+                    <div className="py-2">
+                      <div className="flex items-center justify-between cursor-pointer" onClick={() => toggleMobileSubmenu('galvanized')} data-testid="mobile-submenu-galvanized">
+                        <div className="flex items-center">
+                          <Gauge className="w-3 h-3 mr-2" />
+                          <span>Galvanized</span>
+                        </div>
+                        <ChevronDown className={`w-3 h-3 transition-transform duration-200 ${mobileSubmenus.galvanized ? 'rotate-180' : ''}`} />
+                      </div>
+                      {mobileSubmenus.galvanized && (
+                        <div className="ml-5 mt-1 space-y-1 animate-in slide-in-from-top duration-200">
+                          <Link href="/product/galvanized/hot-dip-galvanized-angles" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-galvanized-angles">
+                            Hot Dip Galvanized Angles
+                          </Link>
+                          <Link href="/product/galvanized/hot-dip-galvanized-channels" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-galvanized-channels">
+                            Hot Dip Galvanized Channels
+                          </Link>
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Mobile Pins */}
+                    <div className="py-2">
+                      <div className="flex items-center justify-between cursor-pointer" onClick={() => toggleMobileSubmenu('pins')} data-testid="mobile-submenu-pins">
+                        <div className="flex items-center">
+                          <Pin className="w-3 h-3 mr-2" />
+                          <span>Pins</span>
+                        </div>
+                        <ChevronDown className={`w-3 h-3 transition-transform duration-200 ${mobileSubmenus.pins ? 'rotate-180' : ''}`} />
+                      </div>
+                      {mobileSubmenus.pins && (
+                        <div className="ml-5 mt-1 space-y-1 animate-in slide-in-from-top duration-200">
+                          <Link href="/product/pins/pto-pins" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-pto-pins">
+                            PTO Pins
+                          </Link>
+                          <Link href="/product/pins/pipe-linch-pin" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-pipe-linch-pin">
+                            Pipe Linch Pin
+                          </Link>
+                        </div>
+                      )}
+                    </div>
                     
                     {/* Mobile Angles & Channels */}
                     <Link href="/angleschannels" className="flex items-center py-2 text-sm hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-angles-channels">
