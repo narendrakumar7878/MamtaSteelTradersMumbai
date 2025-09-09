@@ -1,20 +1,107 @@
 import ProductSEO from "@/components/ProductSEO";
-import { ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, TrendingUp, Shield, Award } from "lucide-react";
+import { ArrowRight, Phone, Mail, ShoppingCart, Filter, ChevronDown } from "lucide-react";
 import { Link } from "wouter";
 
 export default function AlloySteelRoundBars() {
+  const products = [
+    {
+      id: 1,
+      title: "1.7711 Round Bar",
+      image: "https://textronsteelalloys.com/wp-content/uploads/2024/07/1.7711-Round-Bar-300x300.jpg",
+      alt: "1.7711 Round Bars",
+      link: "/product/round-bars/1-7711-round-bar"
+    },
+    {
+      id: 2,
+      title: "100Cr6 Round Bar",
+      image: "https://textronsteelalloys.com/wp-content/uploads/2019/05/100Cr6-Steel-Round-Bar-52100-300x300.jpg",
+      alt: "100CR6 Bearing Steel Round bar 52100 Exporter suppliers",
+      link: "/product/round-bars/100cr6-round-bar"
+    },
+    {
+      id: 3,
+      title: "15CDV6 Round Bars (1.7734)",
+      image: "https://textronsteelalloys.com/wp-content/uploads/2022/08/15cdv6-round-bar-300x300.jpg",
+      alt: "15CDV6 Round Bars 1.7734",
+      link: "/product/round-bars/15cdv6-round-bars"
+    },
+    {
+      id: 4,
+      title: "16MnCr5 Round Bar",
+      image: "https://textronsteelalloys.com/wp-content/uploads/2019/06/16mncr5-round-bar-300x300.jpg",
+      alt: "16MnCr5 Round Bar Stockist Supplier Manufacturer",
+      link: "/product/round-bars/16mncr5-round-bar"
+    },
+    {
+      id: 5,
+      title: "17CrNiMo6 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/2022/07/18CrNiMo7-6-1.6587-round-bars-300x300.jpg",
+      alt: "17CrNiMo6, 18CrNiMo7-6 / 1.6587 Round bars",
+      link: "/product/round-bars/17crnimo6-round-bars"
+    },
+    {
+      id: 6,
+      title: "18CrNiMo7-6 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/2022/07/18CrNiMo7-6-1.6587-round-bars-300x300.jpg",
+      alt: "17CrNiMo6, 18CrNiMo7-6 / 1.6587 Round bars",
+      link: "/product/round-bars/18crnimo7-6-round-bars"
+    },
+    {
+      id: 7,
+      title: "20MnCr5",
+      image: "https://textronsteelalloys.com/wp-content/uploads/2019/05/20mncr5-Steel-Bars-Manufacturers-Exporters-Suppliers-300x300.jpg",
+      alt: "20MnCr5 Round Bars Suppliers Stockist Manufacturer Exporters",
+      link: "/product/round-bars/20mncr5"
+    },
+    {
+      id: 8,
+      title: "20MnCr5 Round Bar",
+      image: "https://textronsteelalloys.com/wp-content/uploads/2019/07/20mncr5-round-bar-300x300.jpg",
+      alt: "20MnCr5 Round Bar Supplier Stockist",
+      link: "/product/round-bars/20mncr5-round-bar"
+    },
+    {
+      id: 9,
+      title: "20NiCrMo2-2 Round Bars",
+      image: "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=300&h=300&fit=crop&crop=center",
+      alt: "20NiCrMo2-2 Round Bars",
+      link: "/product/round-bars/20nicrmo2-2-round-bars"
+    },
+    {
+      id: 10,
+      title: "25CrMo4 Round Bar",
+      image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=300&h=300&fit=crop&crop=center",
+      alt: "25CrMo4 Round Bar",
+      link: "/product/round-bars/25crmo4-round-bar"
+    },
+    {
+      id: 11,
+      title: "30CrNiMo8 Round Bars",
+      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=300&h=300&fit=crop&crop=center",
+      alt: "30CrNiMo8 Round Bars",
+      link: "/product/round-bars/30crnimo8-round-bars"
+    },
+    {
+      id: 12,
+      title: "34CrNiMo6 Round Bar",
+      image: "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=300&h=300&fit=crop&crop=center",
+      alt: "34CrNiMo6 Round Bar",
+      link: "/product/round-bars/34crnimo6-round-bar"
+    }
+  ];
+
   const specifications = [
-    "ASTM A193 - Standard Specification for Alloy-Steel and Stainless Steel Bolting Materials for High Temperature or High Pressure Service",
-    "ASTM A479 - Standard Specification for Stainless Steel and Heat-Resisting Steel Bars and Shapes for Use in Boilers and Other Pressure Vessels",
+    "ASTM A193 - Standard Specification for Alloy-Steel and Stainless Steel Bolting Materials",
+    "ASTM A479 - Standard Specification for Stainless Steel and Heat-Resisting Steel Bars",
     "ASTM A276 - Standard Specification for Stainless Steel Bars and Shapes",
-    "ASTM A564 - Standard Specification for Hot-Rolled and Cold-Finished Age-Hardening Stainless Steel Bars and Shapes",
+    "DIN Standards - German Industrial Standards for Alloy Steel",
     "Size Range: 6mm to 500mm diameter",
-    "Grades: 4140, 4340, 4130, 8620, 9310, 52100"
+    "Various Grades: 4140, 4340, 4130, 25CrMo4, 34CrNiMo6, etc."
   ];
 
   const applications = [
     "Automotive Components and Drive Shafts",
-    "Aerospace and Defense Applications",
+    "Aerospace and Defense Applications", 
     "Oil and Gas Equipment Manufacturing",
     "Heavy Machinery and Industrial Equipment",
     "High-Strength Fasteners and Bolts",
@@ -23,204 +110,194 @@ export default function AlloySteelRoundBars() {
     "Marine and Offshore Applications"
   ];
 
-  const features = [
-    { icon: Shield, title: "High Strength", desc: "Superior mechanical properties and fatigue resistance" },
-    { icon: TrendingUp, title: "Heat Treatable", desc: "Excellent response to heat treatment and hardening" },
-    { icon: Award, title: "Quality Certified", desc: "Complete Mill Test Certificate with chemical and mechanical properties" },
-    { icon: CheckCircle, title: "Precision Tolerances", desc: "Available in precise dimensional tolerances for critical applications" }
-  ];
-
   return (
     <>
       <ProductSEO
-        title="Alloy Steel Round Bars"
-        description="Premium quality alloy steel round bars in grades 4140, 4340, 4130, 8620. ASTM A193, A479 certified for automotive, aerospace, and heavy machinery applications. Best prices in Mumbai for heat treated alloy steel round bars."
-        keywords="alloy steel round bars, 4140 round bars, 4340 round bars, ASTM A193 bars, heat treated steel bars, Mumbai alloy steel supplier"
-        category="Round Bars"
-        productName="Alloy Steel Round Bars"
-        specifications={specifications}
+        title="Alloy Steel Round Bars - 4140, 4340, 25CrMo4, 34CrNiMo6 | Premium Grade | Mamta Steel Traders"
+        description="High-quality alloy steel round bars in various grades including 4140, 4340, 25CrMo4, 34CrNiMo6. ASTM A193, A479, DIN standards. Complete range for automotive, aerospace, and industrial applications."
+        keywords="alloy steel round bars, 4140 round bars, 4340 round bars, 25CrMo4, 34CrNiMo6, ASTM A193, automotive steel, aerospace steel, industrial steel bars"
         canonicalUrl="/product/round-bars/alloy-steel-round"
       />
 
-      <div className="min-h-screen bg-gray-50">
-        {/* Breadcrumb Navigation */}
-        <nav className="bg-white py-4 border-b border-gray-200" data-testid="breadcrumb-nav">
-          <div className="container mx-auto px-4">
-            <div className="flex items-center space-x-2 text-sm text-gray-600">
-              <Link href="/" className="hover:text-navy-primary transition-colors" data-testid="breadcrumb-home">Home</Link>
-              <ArrowRight className="w-4 h-4" />
-              <Link href="/product" className="hover:text-navy-primary transition-colors" data-testid="breadcrumb-products">Products</Link>
-              <ArrowRight className="w-4 h-4" />
-              <Link href="/product/round-bars" className="hover:text-navy-primary transition-colors" data-testid="breadcrumb-round-bars">Round Bars</Link>
-              <ArrowRight className="w-4 h-4" />
-              <span className="text-navy-primary font-medium" data-testid="breadcrumb-current">Alloy Steel Round Bars</span>
-            </div>
+      <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+        {/* Breadcrumb */}
+        <div className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
+          <div className="container mx-auto px-4 py-4">
+            <nav className="flex items-center space-x-2 text-sm">
+              <Link href="/" className="text-gray-600 dark:text-gray-400 hover:text-navy-primary dark:hover:text-gold-primary transition-colors" data-testid="breadcrumb-home">
+                Home
+              </Link>
+              <ArrowRight className="w-4 h-4 text-gray-400" />
+              <Link href="/products" className="text-gray-600 dark:text-gray-400 hover:text-navy-primary dark:hover:text-gold-primary transition-colors" data-testid="breadcrumb-products">
+                Products
+              </Link>
+              <ArrowRight className="w-4 h-4 text-gray-400" />
+              <Link href="/product/round-bars/round-bars" className="text-gray-600 dark:text-gray-400 hover:text-navy-primary dark:hover:text-gold-primary transition-colors" data-testid="breadcrumb-round-bars">
+                Round Bars
+              </Link>
+              <ArrowRight className="w-4 h-4 text-gray-400" />
+              <span className="text-navy-primary dark:text-gold-primary font-medium" data-testid="breadcrumb-current">Alloy Steel Round Bars</span>
+            </nav>
           </div>
-        </nav>
+        </div>
 
         {/* Hero Section */}
-        <section className="bg-gradient-to-r from-navy-primary to-navy-secondary text-white py-16" data-testid="hero-section">
-          <div className="container mx-auto px-4">
+        <div className="bg-gradient-to-br from-navy-primary via-navy-secondary to-slate-800 text-white relative overflow-hidden">
+          <div className="absolute inset-0 bg-black/20"></div>
+          <div className="container mx-auto px-4 py-20 relative z-10">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="hero-title">
-                Premium Alloy Steel Round Bars
+              <h1 className="text-4xl md:text-6xl font-bold mb-6" data-testid="text-alloy-steel-title">
+                Alloy Steel Round Bars
               </h1>
-              <p className="text-xl md:text-2xl mb-8 text-blue-100" data-testid="hero-subtitle">
-                High-strength alloy steel round bars for automotive, aerospace, and heavy machinery applications
+              <p className="text-xl md:text-2xl mb-8 text-gray-200" data-testid="text-alloy-steel-subtitle">
+                Premium Quality for Demanding Applications
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="/contact" className="bg-gold-primary hover:bg-gold-secondary text-navy-primary font-semibold py-3 px-8 rounded-lg transition-colors duration-300" data-testid="cta-get-quote">
-                  Get Quote Now
+                <Link href="/contact" className="bg-gold-primary hover:bg-gold-secondary text-navy-primary px-8 py-3 rounded-lg font-semibold transition-colors inline-flex items-center justify-center" data-testid="button-contact-alloy-steel">
+                  <Mail className="w-5 h-5 mr-2" />
+                  Get Quote
                 </Link>
-                <a href="tel:+919876543210" className="border-2 border-white text-white hover:bg-white hover:text-navy-primary font-semibold py-3 px-8 rounded-lg transition-colors duration-300" data-testid="cta-call-now">
-                  Call Now: +91 98765 43210
+                <a href="tel:+919967444008" className="border-2 border-white hover:bg-white hover:text-navy-primary px-8 py-3 rounded-lg font-semibold transition-colors inline-flex items-center justify-center" data-testid="button-call-alloy-steel">
+                  <Phone className="w-5 h-5 mr-2" />
+                  Call Now
                 </a>
               </div>
             </div>
           </div>
-        </section>
+        </div>
 
-        {/* Product Features */}
-        <section className="py-16 bg-white" data-testid="features-section">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="features-title">
-              Why Choose Our Alloy Steel Round Bars?
-            </h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {features.map((feature, index) => (
-                <div key={index} className="text-center p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow duration-300" data-testid={`feature-${index}`}>
-                  <feature.icon className="w-12 h-12 text-gold-primary mx-auto mb-4" />
-                  <h3 className="text-xl font-semibold text-navy-primary mb-2">{feature.title}</h3>
-                  <p className="text-gray-600">{feature.desc}</p>
+        {/* Main Content */}
+        <div className="container mx-auto px-4 py-16">
+          <div className="max-w-7xl mx-auto">
+            {/* Results and Sorting Bar */}
+            <div className="flex flex-col md:flex-row justify-between items-center mb-8 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-sm">
+              <div className="mb-4 md:mb-0">
+                <p className="text-gray-600 dark:text-gray-300" data-testid="results-count">
+                  Showing 1–12 of 41 results
+                </p>
+              </div>
+              <div className="flex items-center space-x-4">
+                <select className="border border-gray-300 dark:border-gray-600 rounded-lg px-4 py-2 bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300" data-testid="sort-dropdown">
+                  <option value="menu_order">Default sorting</option>
+                  <option value="popularity">Sort by popularity</option>
+                  <option value="date">Sort by latest</option>
+                  <option value="price">Sort by price: low to high</option>
+                  <option value="price-desc">Sort by price: high to low</option>
+                </select>
+              </div>
+            </div>
+
+            {/* Products Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+              {products.map((product) => (
+                <div key={product.id} className="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300" data-testid={`product-card-${product.id}`}>
+                  <div className="relative group">
+                    <img
+                      src={product.image}
+                      alt={product.alt}
+                      className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
+                      loading="lazy"
+                    />
+                    <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                      <Link
+                        href={product.link}
+                        className="bg-gold-primary hover:bg-gold-secondary text-navy-primary px-6 py-2 rounded-lg font-semibold transition-colors inline-flex items-center"
+                        data-testid={`product-link-${product.id}`}
+                      >
+                        <ShoppingCart className="w-4 h-4 mr-2" />
+                        View Details
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="p-6">
+                    <h3 className="text-xl font-semibold text-slate-800 dark:text-gray-100 mb-2" data-testid={`product-title-${product.id}`}>
+                      <Link href={product.link} className="hover:text-navy-primary dark:hover:text-gold-primary transition-colors">
+                        {product.title}
+                      </Link>
+                    </h3>
+                    <Link
+                      href={product.link}
+                      className="text-navy-primary dark:text-gold-primary hover:underline font-medium"
+                      data-testid={`product-details-${product.id}`}
+                    >
+                      View Specifications →
+                    </Link>
+                  </div>
                 </div>
               ))}
             </div>
-          </div>
-        </section>
 
-        {/* Specifications */}
-        <section className="py-16 bg-gray-50" data-testid="specifications-section">
-          <div className="container mx-auto px-4">
-            <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="specifications-title">
-                Technical Specifications
-              </h2>
-              <div className="grid md:grid-cols-2 gap-12">
-                <div className="bg-white p-8 rounded-lg shadow-md" data-testid="specifications-standards">
-                  <h3 className="text-2xl font-semibold text-navy-primary mb-6">Standards & Grades</h3>
-                  <ul className="space-y-3">
-                    {specifications.map((spec, index) => (
-                      <li key={index} className="flex items-start" data-testid={`spec-${index}`}>
-                        <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" />
-                        <span className="text-gray-700">{spec}</span>
-                      </li>
-                    ))}
-                  </ul>
+            {/* Specifications Grid */}
+            <div className="grid md:grid-cols-2 gap-8 mb-16">
+              {/* Technical Specifications */}
+              <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8">
+                <h3 className="text-2xl font-bold text-slate-800 dark:text-gray-100 mb-6" data-testid="text-specifications-title">
+                  Technical Specifications
+                </h3>
+                <div className="space-y-3">
+                  {specifications.map((spec, index) => (
+                    <div key={index} className="flex items-start">
+                      <div className="w-2 h-2 bg-navy-primary rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                      <span className="text-gray-700 dark:text-gray-300" data-testid={`spec-${index}`}>{spec}</span>
+                    </div>
+                  ))}
                 </div>
-                <div className="bg-white p-8 rounded-lg shadow-md" data-testid="specifications-applications">
-                  <h3 className="text-2xl font-semibold text-navy-primary mb-6">Applications</h3>
-                  <ul className="space-y-3">
-                    {applications.map((app, index) => (
-                      <li key={index} className="flex items-start" data-testid={`app-${index}`}>
-                        <Star className="w-5 h-5 text-gold-primary mr-3 mt-0.5 flex-shrink-0" />
-                        <span className="text-gray-700">{app}</span>
-                      </li>
-                    ))}
-                  </ul>
+              </div>
+
+              {/* Applications */}
+              <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8">
+                <h3 className="text-2xl font-bold text-slate-800 dark:text-gray-100 mb-6" data-testid="text-applications-title">
+                  Key Applications
+                </h3>
+                <div className="space-y-3">
+                  {applications.map((application, index) => (
+                    <div key={index} className="flex items-start">
+                      <div className="w-2 h-2 bg-gold-primary rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                      <span className="text-gray-700 dark:text-gray-300" data-testid={`application-${index}`}>{application}</span>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
-          </div>
-        </section>
 
-        {/* Alloy Steel Grades */}
-        <section className="py-16 bg-white" data-testid="alloy-grades-section">
-          <div className="container mx-auto px-4">
-            <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="alloy-grades-title">
-                Available Alloy Steel Grades
-              </h2>
-              <div className="overflow-x-auto">
-                <table className="w-full bg-white border border-gray-200 rounded-lg shadow-md" data-testid="alloy-table">
-                  <thead className="bg-navy-primary text-white">
-                    <tr>
-                      <th className="px-6 py-4 text-left">Grade</th>
-                      <th className="px-6 py-4 text-left">Carbon (%)</th>
-                      <th className="px-6 py-4 text-left">Alloy Elements</th>
-                      <th className="px-6 py-4 text-left">Typical Applications</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-gray-200">
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-semibold">4140</td>
-                      <td className="px-6 py-4">0.38-0.43</td>
-                      <td className="px-6 py-4">Cr, Mo</td>
-                      <td className="px-6 py-4">Automotive, machinery components</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-semibold">4340</td>
-                      <td className="px-6 py-4">0.38-0.43</td>
-                      <td className="px-6 py-4">Cr, Ni, Mo</td>
-                      <td className="px-6 py-4">Aerospace, high-stress applications</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-semibold">4130</td>
-                      <td className="px-6 py-4">0.28-0.33</td>
-                      <td className="px-6 py-4">Cr, Mo</td>
-                      <td className="px-6 py-4">Aircraft tubing, race car frames</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-semibold">8620</td>
-                      <td className="px-6 py-4">0.18-0.23</td>
-                      <td className="px-6 py-4">Cr, Ni, Mo</td>
-                      <td className="px-6 py-4">Gears, carburized parts</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+            {/* Pagination */}
+            <div className="flex justify-center">
+              <nav className="flex items-center space-x-2">
+                <button className="px-4 py-2 text-gray-500 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors" disabled>
+                  Previous
+                </button>
+                <button className="px-4 py-2 bg-navy-primary text-white rounded-lg">1</button>
+                <button className="px-4 py-2 text-gray-700 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">2</button>
+                <button className="px-4 py-2 text-gray-700 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">3</button>
+                <span className="px-2">...</span>
+                <button className="px-4 py-2 text-gray-700 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">5</button>
+                <button className="px-4 py-2 text-gray-700 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">
+                  Next
+                </button>
+              </nav>
             </div>
-          </div>
-        </section>
 
-        {/* Contact CTA */}
-        <section className="py-16 bg-navy-primary text-white" data-testid="contact-cta-section">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6" data-testid="cta-title">
-                Ready to Order Alloy Steel Round Bars?
-              </h2>
-              <p className="text-xl mb-8 text-blue-100" data-testid="cta-subtitle">
-                Get instant quotes and technical support from our alloy steel specialists
+            {/* Contact Section */}
+            <div className="text-center mt-16">
+              <h3 className="text-2xl font-bold text-slate-800 dark:text-gray-100 mb-4" data-testid="text-contact-title">
+                Need Custom Alloy Steel Solutions?
+              </h3>
+              <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
+                Contact our technical experts for custom specifications and material selection
               </p>
-              <div className="grid md:grid-cols-3 gap-6 mb-8">
-                <div className="flex items-center justify-center space-x-3" data-testid="contact-phone">
-                  <Phone className="w-6 h-6 text-gold-primary" />
-                  <div>
-                    <p className="font-semibold">Call Us</p>
-                    <p className="text-blue-100">+91 98765 43210</p>
-                  </div>
-                </div>
-                <div className="flex items-center justify-center space-x-3" data-testid="contact-email">
-                  <Mail className="w-6 h-6 text-gold-primary" />
-                  <div>
-                    <p className="font-semibold">Email Us</p>
-                    <p className="text-blue-100">info@mamtasteel.com</p>
-                  </div>
-                </div>
-                <div className="flex items-center justify-center space-x-3" data-testid="contact-location">
-                  <MapPin className="w-6 h-6 text-gold-primary" />
-                  <div>
-                    <p className="font-semibold">Visit Us</p>
-                    <p className="text-blue-100">Mumbai, Maharashtra</p>
-                  </div>
-                </div>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Link href="/contact" className="bg-navy-primary hover:bg-navy-secondary text-white px-8 py-3 rounded-lg font-semibold transition-colors inline-flex items-center justify-center" data-testid="button-get-quote">
+                  <Mail className="w-5 h-5 mr-2" />
+                  Get Technical Quote
+                </Link>
+                <a href="tel:+919967444008" className="bg-gold-primary hover:bg-gold-secondary text-navy-primary px-8 py-3 rounded-lg font-semibold transition-colors inline-flex items-center justify-center" data-testid="button-call-expert">
+                  <Phone className="w-5 h-5 mr-2" />
+                  Call Steel Expert
+                </a>
               </div>
-              <Link href="/contact" className="bg-gold-primary hover:bg-gold-secondary text-navy-primary font-semibold py-4 px-8 rounded-lg transition-colors duration-300 inline-block" data-testid="cta-contact-button">
-                Get Detailed Quote
-              </Link>
             </div>
           </div>
-        </section>
+        </div>
       </div>
     </>
   );
