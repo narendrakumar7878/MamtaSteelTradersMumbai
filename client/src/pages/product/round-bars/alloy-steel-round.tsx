@@ -9,84 +9,287 @@ export default function AlloySteelRoundBars() {
       title: "1.7711 Round Bar",
       image: "https://textronsteelalloys.com/wp-content/uploads/2024/07/1.7711-Round-Bar-300x300.jpg",
       alt: "1.7711 Round Bars",
-      link: "/product/round-bars/1-7711-round-bar"
+      link: "/contact"
     },
     {
       id: 2,
       title: "100Cr6 Round Bar",
       image: "https://textronsteelalloys.com/wp-content/uploads/2019/05/100Cr6-Steel-Round-Bar-52100-300x300.jpg",
-      alt: "100CR6 Bearing Steel Round bar 52100 Exporter suppliers",
-      link: "/product/round-bars/100cr6-round-bar"
+      alt: "100CR6 Bearing Steel Round bar 52100",
+      link: "/contact"
     },
     {
       id: 3,
       title: "15CDV6 Round Bars (1.7734)",
       image: "https://textronsteelalloys.com/wp-content/uploads/2022/08/15cdv6-round-bar-300x300.jpg",
       alt: "15CDV6 Round Bars 1.7734",
-      link: "/product/round-bars/15cdv6-round-bars"
+      link: "/contact"
     },
     {
       id: 4,
       title: "16MnCr5 Round Bar",
       image: "https://textronsteelalloys.com/wp-content/uploads/2019/06/16mncr5-round-bar-300x300.jpg",
-      alt: "16MnCr5 Round Bar Stockist Supplier Manufacturer",
-      link: "/product/round-bars/16mncr5-round-bar"
+      alt: "16MnCr5 Round Bar Stockist Supplier",
+      link: "/contact"
     },
     {
       id: 5,
       title: "17CrNiMo6 Round Bars",
       image: "https://textronsteelalloys.com/wp-content/uploads/2022/07/18CrNiMo7-6-1.6587-round-bars-300x300.jpg",
-      alt: "17CrNiMo6, 18CrNiMo7-6 / 1.6587 Round bars",
-      link: "/product/round-bars/17crnimo6-round-bars"
+      alt: "17CrNiMo6 Round bars",
+      link: "/contact"
     },
     {
       id: 6,
       title: "18CrNiMo7-6 Round Bars",
       image: "https://textronsteelalloys.com/wp-content/uploads/2022/07/18CrNiMo7-6-1.6587-round-bars-300x300.jpg",
-      alt: "17CrNiMo6, 18CrNiMo7-6 / 1.6587 Round bars",
-      link: "/product/round-bars/18crnimo7-6-round-bars"
+      alt: "18CrNiMo7-6 / 1.6587 Round bars",
+      link: "/contact"
     },
     {
       id: 7,
-      title: "20MnCr5",
+      title: "20MnCr5 Round Bars",
       image: "https://textronsteelalloys.com/wp-content/uploads/2019/05/20mncr5-Steel-Bars-Manufacturers-Exporters-Suppliers-300x300.jpg",
-      alt: "20MnCr5 Round Bars Suppliers Stockist Manufacturer Exporters",
-      link: "/product/round-bars/20mncr5"
+      alt: "20MnCr5 Round Bars Suppliers Stockist",
+      link: "/contact"
     },
     {
       id: 8,
       title: "20MnCr5 Round Bar",
       image: "https://textronsteelalloys.com/wp-content/uploads/2019/07/20mncr5-round-bar-300x300.jpg",
       alt: "20MnCr5 Round Bar Supplier Stockist",
-      link: "/product/round-bars/20mncr5-round-bar"
+      link: "/contact"
     },
     {
       id: 9,
       title: "20NiCrMo2-2 Round Bars",
-      image: "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=300&h=300&fit=crop&crop=center",
+      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
       alt: "20NiCrMo2-2 Round Bars",
-      link: "/product/round-bars/20nicrmo2-2-round-bars"
+      link: "/contact"
     },
     {
       id: 10,
       title: "25CrMo4 Round Bar",
-      image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=300&h=300&fit=crop&crop=center",
+      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
       alt: "25CrMo4 Round Bar",
-      link: "/product/round-bars/25crmo4-round-bar"
+      link: "/contact"
     },
     {
       id: 11,
       title: "30CrNiMo8 Round Bars",
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=300&h=300&fit=crop&crop=center",
+      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
       alt: "30CrNiMo8 Round Bars",
-      link: "/product/round-bars/30crnimo8-round-bars"
+      link: "/contact"
     },
     {
       id: 12,
+      title: "31CrMoV9 Round Bar",
+      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      alt: "31CrMoV9 Round Bar",
+      link: "/contact"
+    },
+    {
+      id: 13,
       title: "34CrNiMo6 Round Bar",
-      image: "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=300&h=300&fit=crop&crop=center",
+      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
       alt: "34CrNiMo6 Round Bar",
-      link: "/product/round-bars/34crnimo6-round-bar"
+      link: "/contact"
+    },
+    {
+      id: 14,
+      title: "39NiCrMo3 Round Bars / 1.6510",
+      image: "https://textronsteelalloys.com/wp-content/uploads/2024/03/39NiCrMo3-300x300.jpg",
+      alt: "39NiCrMo3 Round Bars / 1.6510 Round Bars",
+      link: "/contact"
+    },
+    {
+      id: 15,
+      title: "40Cr7Al10Mo2 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      alt: "40Cr7Al10Mo2 Round Bars",
+      link: "/contact"
+    },
+    {
+      id: 16,
+      title: "40CrMoV4-6 Round Bar",
+      image: "https://textronsteelalloys.com/wp-content/uploads/2024/07/40CrMoV4-6RoundBar-300x300.jpg",
+      alt: "40CrMoV4-6 Round Bar",
+      link: "/contact"
+    },
+    {
+      id: 17,
+      title: "4140 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/2023/10/SAE-4140-Round-Bars-300x300.jpg",
+      alt: "SAE 4140 AISI 4140 Round Bars EN19 1.7225 42CRMO4",
+      link: "/contact"
+    },
+    {
+      id: 18,
+      title: "41Cr4 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/2022/07/41cr4-round-bars-300x300.jpg",
+      alt: "41Cr4 Round Bars EN18",
+      link: "/contact"
+    },
+    {
+      id: 19,
+      title: "4340 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      alt: "4340 Round Bars High Strength",
+      link: "/contact"
+    },
+    {
+      id: 20,
+      title: "8620 Bright Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/2024/04/Alloy-20-Round-Bar-1-300x300.jpg",
+      alt: "8620 Bright Round Bar",
+      link: "/contact"
+    },
+    {
+      id: 21,
+      title: "905M39 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      alt: "905M39 Round Bars BS 970",
+      link: "/contact"
+    },
+    {
+      id: 22,
+      title: "A193 Grade B7 Round Bar",
+      image: "https://textronsteelalloys.com/wp-content/uploads/2025/02/ASTM-A193-Grade-B7-Round-Bars-300x300.jpg",
+      alt: "ASTM A193 Grade B7 Round Bars",
+      link: "/contact"
+    },
+    {
+      id: 23,
+      title: "AISI 8620 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/2019/06/aisi-8620-case-hardening-round-bar.jpg",
+      alt: "SAE 8620 Round Bars, AISI 8620, 1.6523",
+      link: "/contact"
+    },
+    {
+      id: 24,
+      title: "42CrMo4 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      alt: "42CrMo4 Round Bars EN19",
+      link: "/contact"
+    },
+    {
+      id: 25,
+      title: "EN8 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      alt: "EN8 Carbon Steel Round Bars",
+      link: "/contact"
+    },
+    {
+      id: 26,
+      title: "EN9 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      alt: "EN9 Carbon Steel Round Bars",
+      link: "/contact"
+    },
+    {
+      id: 27,
+      title: "EN19 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      alt: "EN19 Alloy Steel Round Bars",
+      link: "/contact"
+    },
+    {
+      id: 28,
+      title: "EN24 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      alt: "EN24 Alloy Steel Round Bars",
+      link: "/contact"
+    },
+    {
+      id: 29,
+      title: "4130 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      alt: "4130 Chromoly Steel Round Bars",
+      link: "/contact"
+    },
+    {
+      id: 30,
+      title: "4150 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      alt: "4150 Alloy Steel Round Bars",
+      link: "/contact"
+    },
+    {
+      id: 31,
+      title: "4340V Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      alt: "4340V Vacuum Melted Steel Bars",
+      link: "/contact"
+    },
+    {
+      id: 32,
+      title: "8740 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      alt: "8740 Alloy Steel Round Bars",
+      link: "/contact"
+    },
+    {
+      id: 33,
+      title: "9310 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      alt: "9310 Case Hardening Steel Bars",
+      link: "/contact"
+    },
+    {
+      id: 34,
+      title: "12L14 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      alt: "12L14 Free Machining Steel Bars",
+      link: "/contact"
+    },
+    {
+      id: 35,
+      title: "1144 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      alt: "1144 Stress Proof Steel Bars",
+      link: "/contact"
+    },
+    {
+      id: 36,
+      title: "35CrMo Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      alt: "35CrMo Alloy Steel Round Bars",
+      link: "/contact"
+    },
+    {
+      id: 37,
+      title: "SCM440 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      alt: "SCM440 JIS Alloy Steel Bars",
+      link: "/contact"
+    },
+    {
+      id: 38,
+      title: "SNCM420 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      alt: "SNCM420 Case Hardening Steel",
+      link: "/contact"
+    },
+    {
+      id: 39,
+      title: "50CrMo4 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      alt: "50CrMo4 Alloy Steel Round Bars",
+      link: "/contact"
+    },
+    {
+      id: 40,
+      title: "36NiCrMo4 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      alt: "36NiCrMo4 High Tensile Steel Bars",
+      link: "/contact"
+    },
+    {
+      id: 41,
+      title: "38NiCrMo4 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      alt: "38NiCrMo4 High Strength Steel Bars",
+      link: "/contact"
     }
   ];
 
@@ -173,7 +376,7 @@ export default function AlloySteelRoundBars() {
             <div className="flex flex-col md:flex-row justify-between items-center mb-8 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-sm">
               <div className="mb-4 md:mb-0">
                 <p className="text-gray-600 dark:text-gray-300" data-testid="results-count">
-                  Showing 1–12 of 41 results
+                  Showing 1–41 of 41 results
                 </p>
               </div>
               <div className="flex items-center space-x-4">
@@ -260,21 +463,11 @@ export default function AlloySteelRoundBars() {
               </div>
             </div>
 
-            {/* Pagination */}
-            <div className="flex justify-center">
-              <nav className="flex items-center space-x-2">
-                <button className="px-4 py-2 text-gray-500 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors" disabled>
-                  Previous
-                </button>
-                <button className="px-4 py-2 bg-navy-primary text-white rounded-lg">1</button>
-                <button className="px-4 py-2 text-gray-700 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">2</button>
-                <button className="px-4 py-2 text-gray-700 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">3</button>
-                <span className="px-2">...</span>
-                <button className="px-4 py-2 text-gray-700 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">5</button>
-                <button className="px-4 py-2 text-gray-700 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">
-                  Next
-                </button>
-              </nav>
+            {/* All Items Displayed - No Pagination Needed */}
+            <div className="text-center">
+              <p className="text-gray-600 dark:text-gray-300">
+                All 41 Alloy Steel Round Bar products are displayed above
+              </p>
             </div>
 
             {/* Contact Section */}
