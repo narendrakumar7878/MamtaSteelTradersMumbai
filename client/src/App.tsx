@@ -32,6 +32,7 @@ import CarbonSteelPipes from "@/pages/product/pipes-tubes/carbon-steel";
 import AlloySteelPipes from "@/pages/product/pipes-tubes/alloy-steel-pipe";
 import StainlessSteelPlates from "@/pages/product/plates-sheets/stainless-steel-plates";
 import StainlessSteelRoundBars from "@/pages/product/round-bars/stainless-steel-round-bars";
+import RoundBarsMain from "@/pages/product/round-bars/round-bars";
 import StainlessSteelFlanges from "@/pages/product/flanges/stainless-steel";
 import HighTensileFasteners from "@/pages/product/fasteners/high-tensile";
 
@@ -193,6 +194,9 @@ function Router() {
       <Route path="/product/plates-sheets/carbon-steel" component={CarbonSteelPlates} />
       <Route path="/product/plates-sheets/copper-nickel" component={CopperNickelPlates} />
       <Route path="/product/plates-sheets/duplex-super-duplex" component={DuplexSuperDuplexPlates} />
+      
+      {/* Round Bars Main Page Route */}
+      <Route path="/product/round-bars/round-bars" component={RoundBarsMain} />
       
       {/* Additional Round Bars Routes */}
       <Route path="/product/round-bars/alloy-steel-round" component={AlloySteelRound} />
