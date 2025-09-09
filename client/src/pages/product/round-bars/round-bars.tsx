@@ -1,8 +1,52 @@
 import ProductSEO from "@/components/ProductSEO";
 import { ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, TrendingUp, Shield, Award } from "lucide-react";
-import { Link } from "wouter";
+import { Link, useLocation } from "wouter";
+import GenericRoundBarListing from "./GenericRoundBarListing";
 
 export default function RoundBarsMain() {
+  const [, navigate] = useLocation();
+
+  // Define which pages exist vs need generic listing
+  const existingPages = [
+    'alloy-20-round-bars',
+    'alloy-steel-f-series',
+    'alloy-steel-round',
+    'aluminium-alloy',
+    'bronze',
+    'carbon-steel',
+    'cobalt',
+    'copper-nickel',
+    'duplex-super-duplex',
+    'en-series',
+    'hastelloy',
+    'high-speed-steel',
+    'hot-work-steel',
+    'inconel',
+    'monel',
+    'nickel-alloy',
+    'precipitation-hardening-steel',
+    'stainless-steel-round-bars',
+    'titanium'
+  ];
+
+  const handleCategoryClick = (category: any) => {
+    const pageSlug = category.link.split('/').pop();
+    
+    if (existingPages.includes(pageSlug)) {
+      // Navigate to existing page
+      navigate(category.link);
+    } else {
+      // Navigate to generic listing with query params
+      const params = new URLSearchParams({
+        title: category.title,
+        count: category.count,
+        description: category.description,
+        image: category.image
+      });
+      navigate(`/product/round-bars/generic-listing?${params.toString()}`);
+    }
+  };
+
   const roundBarCategories = [
     {
       title: "Alloy 20",
@@ -248,10 +292,10 @@ export default function RoundBarsMain() {
             {/* Round Bar Categories Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               {roundBarCategories.map((category, index) => (
-                <Link
+                <div
                   key={index}
-                  href={category.link}
-                  className="group bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 overflow-hidden"
+                  onClick={() => handleCategoryClick(category)}
+                  className="group bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 overflow-hidden cursor-pointer"
                   data-testid={`card-round-bar-category-${index}`}
                 >
                   <div className="relative overflow-hidden">
@@ -277,7 +321,7 @@ export default function RoundBarsMain() {
                       <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                     </div>
                   </div>
-                </Link>
+                </div>
               ))}
             </div>
           </div>
