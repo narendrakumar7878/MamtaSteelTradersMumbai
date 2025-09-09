@@ -246,6 +246,10 @@ export default function Navbar() {
                     {/* Round Bars Submenu */}
                     <div className="absolute left-full top-0 bg-white text-gray-800 min-w-80 rounded-lg shadow-xl opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-300 z-60">
                       <div className="py-2">
+                        <Link href="/product/round-bars/round-bars" className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center text-sm font-semibold text-navy-primary transition-colors duration-200" data-testid="link-all-round-bars">
+                          All Round Bars
+                        </Link>
+                        <div className="border-t border-gray-200 my-2"></div>
                         <Link href="/product/round-bars/alloy-steel-round" className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center text-sm transition-colors duration-200" data-testid="link-alloy-steel-round">
                           Alloy Steel Round
                         </Link>
@@ -668,6 +672,10 @@ export default function Navbar() {
                       </div>
                       {mobileSubmenus.bars && (
                         <div className="ml-5 mt-1 space-y-1 animate-in slide-in-from-top duration-200">
+                          <Link href="/product/round-bars/round-bars" className="flex items-center py-1 text-xs font-semibold text-navy-primary hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-all-round-bars">
+                            All Round Bars
+                          </Link>
+                          <div className="border-t border-gray-300 my-1"></div>
                           <Link href="/product/round-bars/alloy-steel-round" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-alloy-steel-round">
                             Alloy Steel Round
                           </Link>
