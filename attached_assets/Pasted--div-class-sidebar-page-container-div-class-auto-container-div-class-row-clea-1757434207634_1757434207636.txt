@@ -1,0 +1,171 @@
+<div class="sidebar-page-container">
+    <div class="auto-container">
+        <div class="row clearfix">
+            
+            <!-- sidebar area -->
+			            
+            <!--Content Side-->	
+            <div class="content-side  col-lg-9 col-md-8 col-sm-12 col-xs-12 ">
+                
+                <!--Default Section-->
+                <div class="news-classic">
+                
+                    <!--Blog Post-->
+                    <div class="thm-unit-test">
+						                            <!-- blog post item -->
+                            <div class="kc_clfw"></div><section class="kc-elm kc-css-303578 kc_row"><div class="kc-row-container  kc-container"><div class="kc-wrap-columns"><div class="kc-elm kc-css-2508508 kc_column kc_col-sm-12"><div class="kc-col-container"><div class="kc-elm kc-css-380979 kc_text_block"><div class="woocommerce columns-4">
+<div class="products row clearfix">
+<li class="product-category product first">
+	<a aria-label="Visit product category Alloy 20" href="https://www.textronsteelalloys.com/product-category/round-bars/alloy-20-round-bars/"><img fetchpriority="high" decoding="async" src="https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar8-300x300.jpg" alt="Alloy 20" width="300" height="300" srcset="https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar8-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar8-100x100.jpg 100w" sizes="(max-width: 300px) 100vw, 300px">		<p></p>
+<h2 class="woocommerce-loop-category__title">
+			Alloy 20 <mark class="count">(1)</mark>		</h2>
+</a><p><a aria-label="Visit product category Alloy 20" href="https://www.textronsteelalloys.com/product-category/round-bars/alloy-20-round-bars/">		</a></p></li>
+<li class="product-category product">
+	<a aria-label="Visit product category Alloy Steel F Series" href="https://www.textronsteelalloys.com/product-category/round-bars/alloy-steel-f5-f9-f11-f12-f22-f91/"><img decoding="async" src="https://textronsteelalloys.com/wp-content/uploads/2018/01/F22-Round-Bar-300x300.jpg" alt="Alloy Steel F Series" width="300" height="300" srcset="https://textronsteelalloys.com/wp-content/uploads/2018/01/F22-Round-Bar-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2018/01/F22-Round-Bar-150x150.jpg 150w, https://textronsteelalloys.com/wp-content/uploads/2018/01/F22-Round-Bar-768x768.jpg 768w, https://textronsteelalloys.com/wp-content/uploads/2018/01/F22-Round-Bar-101x101.jpg 101w, https://textronsteelalloys.com/wp-content/uploads/2018/01/F22-Round-Bar-50x50.jpg 50w, https://textronsteelalloys.com/wp-content/uploads/2018/01/F22-Round-Bar-45x45.jpg 45w, https://textronsteelalloys.com/wp-content/uploads/2018/01/F22-Round-Bar-400x400.jpg 400w, https://textronsteelalloys.com/wp-content/uploads/2018/01/F22-Round-Bar-100x100.jpg 100w, https://textronsteelalloys.com/wp-content/uploads/2018/01/F22-Round-Bar.jpg 900w" sizes="(max-width: 300px) 100vw, 300px">		<p></p>
+<h2 class="woocommerce-loop-category__title">
+			Alloy Steel F Series <mark class="count">(6)</mark>		</h2>
+</a><p><a aria-label="Visit product category Alloy Steel F Series" href="https://www.textronsteelalloys.com/product-category/round-bars/alloy-steel-f5-f9-f11-f12-f22-f91/">		</a></p></li>
+<li class="product-category product">
+	<a aria-label="Visit product category Alloy Steel Round" href="https://www.textronsteelalloys.com/product-category/round-bars/alloy-steel-round-bars/"><img decoding="async" src="https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar3-300x300.jpg" alt="Alloy Steel Round" width="300" height="300" srcset="https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar3-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar3-100x100.jpg 100w" sizes="(max-width: 300px) 100vw, 300px">		<p></p>
+<h2 class="woocommerce-loop-category__title">
+			Alloy Steel Round <mark class="count">(41)</mark>		</h2>
+</a><p><a aria-label="Visit product category Alloy Steel Round" href="https://www.textronsteelalloys.com/product-category/round-bars/alloy-steel-round-bars/">		</a></p></li>
+<li class="product-category product last">
+	<a aria-label="Visit product category Aluminium" href="https://www.textronsteelalloys.com/product-category/round-bars/aluminium/"><img loading="lazy" decoding="async" src="https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar11-300x300.jpg" alt="Aluminium" width="300" height="300" srcset="https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar11-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar11-100x100.jpg 100w" sizes="auto, (max-width: 300px) 100vw, 300px">		<p></p>
+<h2 class="woocommerce-loop-category__title">
+			Aluminium <mark class="count">(1)</mark>		</h2>
+</a><p><a aria-label="Visit product category Aluminium" href="https://www.textronsteelalloys.com/product-category/round-bars/aluminium/">		</a></p></li>
+<li class="product-category product first">
+	<a aria-label="Visit product category Aluminium Alloy" href="https://www.textronsteelalloys.com/product-category/round-bars/aluminium-alloy-round-bar/"><img loading="lazy" decoding="async" src="https://textronsteelalloys.com/wp-content/uploads/2018/01/aluminium-alloy-300x300.jpg" alt="Aluminium Alloy" width="300" height="300" srcset="https://textronsteelalloys.com/wp-content/uploads/2018/01/aluminium-alloy-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2018/01/aluminium-alloy-100x100.jpg 100w, https://textronsteelalloys.com/wp-content/uploads/2018/01/aluminium-alloy-150x150.jpg 150w, https://textronsteelalloys.com/wp-content/uploads/2018/01/aluminium-alloy-101x101.jpg 101w, https://textronsteelalloys.com/wp-content/uploads/2018/01/aluminium-alloy-50x50.jpg 50w, https://textronsteelalloys.com/wp-content/uploads/2018/01/aluminium-alloy-45x45.jpg 45w, https://textronsteelalloys.com/wp-content/uploads/2018/01/aluminium-alloy.jpg 360w" sizes="auto, (max-width: 300px) 100vw, 300px">		<p></p>
+<h2 class="woocommerce-loop-category__title">
+			Aluminium Alloy <mark class="count">(6)</mark>		</h2>
+</a><p><a aria-label="Visit product category Aluminium Alloy" href="https://www.textronsteelalloys.com/product-category/round-bars/aluminium-alloy-round-bar/">		</a></p></li>
+<li class="product-category product">
+	<a aria-label="Visit product category Aluminium Bronze" href="https://www.textronsteelalloys.com/product-category/round-bars/aluminium-bronze/"><img loading="lazy" decoding="async" src="https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png" alt="Aluminium Bronze" width="300" height="300">		<p></p>
+<h2 class="woocommerce-loop-category__title">
+			Aluminium Bronze <mark class="count">(2)</mark>		</h2>
+</a><p><a aria-label="Visit product category Aluminium Bronze" href="https://www.textronsteelalloys.com/product-category/round-bars/aluminium-bronze/">		</a></p></li>
+<li class="product-category product">
+	<a aria-label="Visit product category Boron Grades" href="https://www.textronsteelalloys.com/product-category/round-bars/boron-grades/"><img loading="lazy" decoding="async" src="https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png" alt="Boron Grades" width="300" height="300">		<p></p>
+<h2 class="woocommerce-loop-category__title">
+			Boron Grades <mark class="count">(1)</mark>		</h2>
+</a><p><a aria-label="Visit product category Boron Grades" href="https://www.textronsteelalloys.com/product-category/round-bars/boron-grades/">		</a></p></li>
+<li class="product-category product last">
+	<a aria-label="Visit product category Bronze" href="https://www.textronsteelalloys.com/product-category/round-bars/bronze/"><img loading="lazy" decoding="async" src="https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar10-300x300.jpg" alt="Bronze" width="300" height="300" srcset="https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar10-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar10-100x100.jpg 100w" sizes="auto, (max-width: 300px) 100vw, 300px">		<p></p>
+<h2 class="woocommerce-loop-category__title">
+			Bronze <mark class="count">(1)</mark>		</h2>
+</a><p><a aria-label="Visit product category Bronze" href="https://www.textronsteelalloys.com/product-category/round-bars/bronze/">		</a></p></li>
+<li class="product-category product first">
+	<a aria-label="Visit product category Carbon Steel" href="https://www.textronsteelalloys.com/product-category/round-bars/carbon-steel-round-bars/"><img loading="lazy" decoding="async" src="https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar2-300x300.jpg" alt="Carbon Steel" width="300" height="300" srcset="https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar2-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar2-100x100.jpg 100w" sizes="auto, (max-width: 300px) 100vw, 300px">		<p></p>
+<h2 class="woocommerce-loop-category__title">
+			Carbon Steel <mark class="count">(43)</mark>		</h2>
+</a><p><a aria-label="Visit product category Carbon Steel" href="https://www.textronsteelalloys.com/product-category/round-bars/carbon-steel-round-bars/">		</a></p></li>
+<li class="product-category product">
+	<a aria-label="Visit product category Cobalt" href="https://www.textronsteelalloys.com/product-category/round-bars/cobalt/"><img loading="lazy" decoding="async" src="https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png" alt="Cobalt" width="300" height="300">		<p></p>
+<h2 class="woocommerce-loop-category__title">
+			Cobalt <mark class="count">(1)</mark>		</h2>
+</a><p><a aria-label="Visit product category Cobalt" href="https://www.textronsteelalloys.com/product-category/round-bars/cobalt/">		</a></p></li>
+<li class="product-category product">
+	<a aria-label="Visit product category Cold Work Steels" href="https://www.textronsteelalloys.com/product-category/round-bars/cold-work-steels/"><img loading="lazy" decoding="async" src="https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png" alt="Cold Work Steels" width="300" height="300">		<p></p>
+<h2 class="woocommerce-loop-category__title">
+			Cold Work Steels <mark class="count">(4)</mark>		</h2>
+</a><p><a aria-label="Visit product category Cold Work Steels" href="https://www.textronsteelalloys.com/product-category/round-bars/cold-work-steels/">		</a></p></li>
+<li class="product-category product last">
+	<a aria-label="Visit product category Copper Nickel" href="https://www.textronsteelalloys.com/product-category/round-bars/copper-nickel-round-bars/"><img loading="lazy" decoding="async" src="https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar15-300x300.jpg" alt="Copper Nickel" width="300" height="300" srcset="https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar15-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar15-100x100.jpg 100w" sizes="auto, (max-width: 300px) 100vw, 300px">		<p></p>
+<h2 class="woocommerce-loop-category__title">
+			Copper Nickel <mark class="count">(9)</mark>		</h2>
+</a><p><a aria-label="Visit product category Copper Nickel" href="https://www.textronsteelalloys.com/product-category/round-bars/copper-nickel-round-bars/">		</a></p></li>
+<li class="product-category product first">
+	<a aria-label="Visit product category Duplex &amp; Super Duplex" href="https://www.textronsteelalloys.com/product-category/round-bars/duplex-super-duplex-round-bars/"><img loading="lazy" decoding="async" src="https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar13-300x300.jpg" alt="Duplex &amp; Super Duplex" width="300" height="300" srcset="https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar13-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar13-100x100.jpg 100w" sizes="auto, (max-width: 300px) 100vw, 300px">		<p></p>
+<h2 class="woocommerce-loop-category__title">
+			Duplex &amp; Super Duplex <mark class="count">(4)</mark>		</h2>
+</a><p><a aria-label="Visit product category Duplex &amp; Super Duplex" href="https://www.textronsteelalloys.com/product-category/round-bars/duplex-super-duplex-round-bars/">		</a></p></li>
+<li class="product-category product">
+	<a aria-label="Visit product category EN Series" href="https://www.textronsteelalloys.com/product-category/round-bars/en-series/"><img loading="lazy" decoding="async" src="https://textronsteelalloys.com/wp-content/uploads/2018/01/en-series-rods-rounds-bar-en8-en9-300x300.jpg" alt="EN Series" width="300" height="300" srcset="https://textronsteelalloys.com/wp-content/uploads/2018/01/en-series-rods-rounds-bar-en8-en9-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2018/01/en-series-rods-rounds-bar-en8-en9-100x100.jpg 100w, https://textronsteelalloys.com/wp-content/uploads/2018/01/en-series-rods-rounds-bar-en8-en9-150x150.jpg 150w, https://textronsteelalloys.com/wp-content/uploads/2018/01/en-series-rods-rounds-bar-en8-en9-101x101.jpg 101w, https://textronsteelalloys.com/wp-content/uploads/2018/01/en-series-rods-rounds-bar-en8-en9-50x50.jpg 50w, https://textronsteelalloys.com/wp-content/uploads/2018/01/en-series-rods-rounds-bar-en8-en9-45x45.jpg 45w" sizes="auto, (max-width: 300px) 100vw, 300px">		<p></p>
+<h2 class="woocommerce-loop-category__title">
+			EN Series <mark class="count">(28)</mark>		</h2>
+</a><p><a aria-label="Visit product category EN Series" href="https://www.textronsteelalloys.com/product-category/round-bars/en-series/">		</a></p></li>
+<li class="product-category product">
+	<a aria-label="Visit product category Hastelloy" href="https://www.textronsteelalloys.com/product-category/round-bars/hastelloy-round-bars/"><img loading="lazy" decoding="async" src="https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar7-300x300.jpg" alt="Hastelloy" width="300" height="300" srcset="https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar7-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar7-100x100.jpg 100w" sizes="auto, (max-width: 300px) 100vw, 300px">		<p></p>
+<h2 class="woocommerce-loop-category__title">
+			Hastelloy <mark class="count">(3)</mark>		</h2>
+</a><p><a aria-label="Visit product category Hastelloy" href="https://www.textronsteelalloys.com/product-category/round-bars/hastelloy-round-bars/">		</a></p></li>
+<li class="product-category product last">
+	<a aria-label="Visit product category High Speed Steel" href="https://www.textronsteelalloys.com/product-category/round-bars/high-speed-steel/"><img loading="lazy" decoding="async" src="https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png" alt="High Speed Steel" width="300" height="300">		<p></p>
+<h2 class="woocommerce-loop-category__title">
+			High Speed Steel <mark class="count">(3)</mark>		</h2>
+</a><p><a aria-label="Visit product category High Speed Steel" href="https://www.textronsteelalloys.com/product-category/round-bars/high-speed-steel/">		</a></p></li>
+<li class="product-category product first">
+	<a aria-label="Visit product category Hot Work Steel" href="https://www.textronsteelalloys.com/product-category/round-bars/hot-work-steel/"><img loading="lazy" decoding="async" src="https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png" alt="Hot Work Steel" width="300" height="300">		<p></p>
+<h2 class="woocommerce-loop-category__title">
+			Hot Work Steel <mark class="count">(6)</mark>		</h2>
+</a><p><a aria-label="Visit product category Hot Work Steel" href="https://www.textronsteelalloys.com/product-category/round-bars/hot-work-steel/">		</a></p></li>
+<li class="product-category product">
+	<a aria-label="Visit product category Inconel" href="https://www.textronsteelalloys.com/product-category/round-bars/inconel-round-bars/"><img loading="lazy" decoding="async" src="https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar4-300x300.jpg" alt="Inconel" width="300" height="300" srcset="https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar4-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar4-100x100.jpg 100w" sizes="auto, (max-width: 300px) 100vw, 300px">		<p></p>
+<h2 class="woocommerce-loop-category__title">
+			Inconel <mark class="count">(3)</mark>		</h2>
+</a><p><a aria-label="Visit product category Inconel" href="https://www.textronsteelalloys.com/product-category/round-bars/inconel-round-bars/">		</a></p></li>
+<li class="product-category product">
+	<a aria-label="Visit product category Manganese Bronze" href="https://www.textronsteelalloys.com/product-category/round-bars/manganese-bronze/"><img loading="lazy" decoding="async" src="https://textronsteelalloys.com/wp-content/uploads/2018/01/Manganese-Bronze-300x300.jpg" alt="Manganese Bronze" width="300" height="300" srcset="https://textronsteelalloys.com/wp-content/uploads/2018/01/Manganese-Bronze-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2018/01/Manganese-Bronze-150x150.jpg 150w, https://textronsteelalloys.com/wp-content/uploads/2018/01/Manganese-Bronze-101x101.jpg 101w, https://textronsteelalloys.com/wp-content/uploads/2018/01/Manganese-Bronze-50x50.jpg 50w, https://textronsteelalloys.com/wp-content/uploads/2018/01/Manganese-Bronze-45x45.jpg 45w, https://textronsteelalloys.com/wp-content/uploads/2018/01/Manganese-Bronze-400x400.jpg 400w, https://textronsteelalloys.com/wp-content/uploads/2018/01/Manganese-Bronze-100x100.jpg 100w, https://textronsteelalloys.com/wp-content/uploads/2018/01/Manganese-Bronze.jpg 600w" sizes="auto, (max-width: 300px) 100vw, 300px">		<p></p>
+<h2 class="woocommerce-loop-category__title">
+			Manganese Bronze <mark class="count">(2)</mark>		</h2>
+</a><p><a aria-label="Visit product category Manganese Bronze" href="https://www.textronsteelalloys.com/product-category/round-bars/manganese-bronze/">		</a></p></li>
+<li class="product-category product last">
+	<a aria-label="Visit product category Monel" href="https://www.textronsteelalloys.com/product-category/round-bars/monel-round-bars/"><img loading="lazy" decoding="async" src="https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar6-300x300.jpg" alt="Monel" width="300" height="300" srcset="https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar6-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar6-100x100.jpg 100w" sizes="auto, (max-width: 300px) 100vw, 300px">		<p></p>
+<h2 class="woocommerce-loop-category__title">
+			Monel <mark class="count">(2)</mark>		</h2>
+</a><p><a aria-label="Visit product category Monel" href="https://www.textronsteelalloys.com/product-category/round-bars/monel-round-bars/">		</a></p></li>
+<li class="product-category product first">
+	<a aria-label="Visit product category Nickel Alloy Round Bars" href="https://www.textronsteelalloys.com/product-category/round-bars/nickel-alloy-round-bars/"><img loading="lazy" decoding="async" src="https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar12-300x300.jpg" alt="Nickel Alloy Round Bars" width="300" height="300" srcset="https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar12-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar12-100x100.jpg 100w" sizes="auto, (max-width: 300px) 100vw, 300px">		<p></p>
+<h2 class="woocommerce-loop-category__title">
+			Nickel Alloy Round Bars <mark class="count">(5)</mark>		</h2>
+</a><p><a aria-label="Visit product category Nickel Alloy Round Bars" href="https://www.textronsteelalloys.com/product-category/round-bars/nickel-alloy-round-bars/">		</a></p></li>
+<li class="product-category product">
+	<a aria-label="Visit product category Precipitation Hardening Steel" href="https://www.textronsteelalloys.com/product-category/round-bars/precipitation-hardening-stainless-steel/"><img loading="lazy" decoding="async" src="https://textronsteelalloys.com/wp-content/uploads/2018/01/Precipitation-Hardening-SS-300x300.jpg" alt="Precipitation Hardening Steel" width="300" height="300" srcset="https://textronsteelalloys.com/wp-content/uploads/2018/01/Precipitation-Hardening-SS-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2018/01/Precipitation-Hardening-SS-100x100.jpg 100w, https://textronsteelalloys.com/wp-content/uploads/2018/01/Precipitation-Hardening-SS-400x400.jpg 400w, https://textronsteelalloys.com/wp-content/uploads/2018/01/Precipitation-Hardening-SS-150x150.jpg 150w, https://textronsteelalloys.com/wp-content/uploads/2018/01/Precipitation-Hardening-SS-101x101.jpg 101w, https://textronsteelalloys.com/wp-content/uploads/2018/01/Precipitation-Hardening-SS-50x50.jpg 50w, https://textronsteelalloys.com/wp-content/uploads/2018/01/Precipitation-Hardening-SS-45x45.jpg 45w, https://textronsteelalloys.com/wp-content/uploads/2018/01/Precipitation-Hardening-SS.jpg 500w" sizes="auto, (max-width: 300px) 100vw, 300px">		<p></p>
+<h2 class="woocommerce-loop-category__title">
+			Precipitation Hardening Steel <mark class="count">(6)</mark>		</h2>
+</a><p><a aria-label="Visit product category Precipitation Hardening Steel" href="https://www.textronsteelalloys.com/product-category/round-bars/precipitation-hardening-stainless-steel/">		</a></p></li>
+<li class="product-category product">
+	<a aria-label="Visit product category Stainless Steel Round Bars" href="https://www.textronsteelalloys.com/product-category/round-bars/stainless-steel-round-bars/"><img loading="lazy" decoding="async" src="https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar1-300x300.jpg" alt="Stainless Steel Round Bars" width="300" height="300" srcset="https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar1-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar1-100x100.jpg 100w" sizes="auto, (max-width: 300px) 100vw, 300px">		<p></p>
+<h2 class="woocommerce-loop-category__title">
+			Stainless Steel Round Bars <mark class="count">(49)</mark>		</h2>
+</a><p><a aria-label="Visit product category Stainless Steel Round Bars" href="https://www.textronsteelalloys.com/product-category/round-bars/stainless-steel-round-bars/">		</a></p></li>
+<li class="product-category product last">
+	<a aria-label="Visit product category Titanium" href="https://www.textronsteelalloys.com/product-category/round-bars/titanium-round-bars/"><img loading="lazy" decoding="async" src="https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar16-300x300.jpg" alt="Titanium" width="300" height="300" srcset="https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar16-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2018/11/round-bar16-100x100.jpg 100w" sizes="auto, (max-width: 300px) 100vw, 300px">		<p></p>
+<h2 class="woocommerce-loop-category__title">
+			Titanium <mark class="count">(1)</mark>		</h2>
+</a><p><a aria-label="Visit product category Titanium" href="https://www.textronsteelalloys.com/product-category/round-bars/titanium-round-bars/">		</a></p></li>
+<li class="product-category product first">
+	<a aria-label="Visit product category Tool Steel" href="https://www.textronsteelalloys.com/product-category/round-bars/tool-steel/"><img loading="lazy" decoding="async" src="https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png" alt="Tool Steel" width="300" height="300">		<p></p>
+<h2 class="woocommerce-loop-category__title">
+			Tool Steel <mark class="count">(10)</mark>		</h2>
+</a><p><a aria-label="Visit product category Tool Steel" href="https://www.textronsteelalloys.com/product-category/round-bars/tool-steel/">		</a></p></li>
+</div>
+</div>
+</div></div></div></div></div></section>                            <div class="clearfix"></div>
+                            <div itemscope="" itemtype="https://schema.org/Comment" id="comments" class="post-comments comment-area clearfix">
+	 
+     
+    	  
+</div><!-- #comments --><!-- end comments -->
+                                            </div>
+                    
+                    <!--Styled Pagination-->
+                    <div class="styled-pagination">
+                        <div class="inner-container clearfix">
+                            <div class="clearfix text-center">
+                                                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                
+            </div>
+            <!--Content Side-->
+            
+            <!-- sidebar area -->
+										            <!--Sidebar-->
+            
+        </div>
+    </div>
+</div>

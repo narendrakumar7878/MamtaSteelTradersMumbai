@@ -91,6 +91,15 @@ import CopperNickelRound from "@/pages/product/round-bars/copper-nickel";
 import ENSeries from "@/pages/product/round-bars/en-series";
 import HasteloyRound from "@/pages/product/round-bars/hastelloy";
 import PrecipitationHardeningSteel from "@/pages/product/round-bars/precipitation-hardening-steel";
+import Alloy20RoundBars from "@/pages/product/round-bars/alloy-20";
+import DuplexSuperDuplexRoundBars from "@/pages/product/round-bars/duplex-super-duplex";
+import InconelRoundBars from "@/pages/product/round-bars/inconel";
+import TitaniumRoundBars from "@/pages/product/round-bars/titanium";
+import BronzeRoundBars from "@/pages/product/round-bars/bronze";
+import MonelRoundBars from "@/pages/product/round-bars/monel";
+import NickelAlloyRoundBars from "@/pages/product/round-bars/nickel-alloy";
+import CobaltRoundBars from "@/pages/product/round-bars/cobalt";
+import HighSpeedSteelRoundBars from "@/pages/product/round-bars/high-speed-steel";
 
 // F Series Round Bars
 import F11RoundBars from "@/pages/product/round-bars/alloy-steel-f-series/f11-round-bars";
@@ -207,6 +216,15 @@ function Router() {
       <Route path="/product/round-bars/en-series" component={ENSeries} />
       <Route path="/product/round-bars/hastelloy" component={HasteloyRound} />
       <Route path="/product/round-bars/precipitation-hardening-steel" component={PrecipitationHardeningSteel} />
+      <Route path="/product/round-bars/alloy-20" component={Alloy20RoundBars} />
+      <Route path="/product/round-bars/duplex-super-duplex" component={DuplexSuperDuplexRoundBars} />
+      <Route path="/product/round-bars/inconel" component={InconelRoundBars} />
+      <Route path="/product/round-bars/titanium" component={TitaniumRoundBars} />
+      <Route path="/product/round-bars/bronze" component={BronzeRoundBars} />
+      <Route path="/product/round-bars/monel" component={MonelRoundBars} />
+      <Route path="/product/round-bars/nickel-alloy" component={NickelAlloyRoundBars} />
+      <Route path="/product/round-bars/cobalt" component={CobaltRoundBars} />
+      <Route path="/product/round-bars/high-speed-steel" component={HighSpeedSteelRoundBars} />
       
       {/* F Series Round Bars Routes */}
       <Route path="/product/round-bars/f11-round-bars" component={F11RoundBars} />
