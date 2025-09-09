@@ -8,8 +8,7 @@ export default function RoundBarsMain() {
 
   // Define which pages exist vs need generic listing
   const existingPages = [
-    'alloy-20-round-bars',
-    'alloy-steel-f-series',
+    'alloy-20',
     'alloy-steel-round',
     'aluminium-alloy',
     'bronze',
@@ -52,7 +51,7 @@ export default function RoundBarsMain() {
       title: "Alloy 20",
       count: "1",
       image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=300&h=300&fit=crop&crop=center",
-      link: "/product/round-bars/alloy-20-round-bars",
+      link: "/product/round-bars/alloy-20",
       description: "High-performance alloy 20 round bars for corrosive environments"
     },
     {
