@@ -100,6 +100,7 @@ import MonelRoundBars from "@/pages/product/round-bars/monel";
 import NickelAlloyRoundBars from "@/pages/product/round-bars/nickel-alloy";
 import CobaltRoundBars from "@/pages/product/round-bars/cobalt";
 import HighSpeedSteelRoundBars from "@/pages/product/round-bars/high-speed-steel";
+import GenericRoundBarListingWrapper from "@/pages/product/round-bars/GenericRoundBarListingWrapper";
 
 // F Series Round Bars
 import F11RoundBars from "@/pages/product/round-bars/alloy-steel-f-series/f11-round-bars";
@@ -206,6 +207,9 @@ function Router() {
       
       {/* Round Bars Main Page Route */}
       <Route path="/product/round-bars/round-bars" component={RoundBarsMain} />
+      
+      {/* Generic Round Bar Listing Route */}
+      <Route path="/product/round-bars/generic-listing" component={GenericRoundBarListingWrapper} />
       
       {/* Additional Round Bars Routes */}
       <Route path="/product/round-bars/alloy-steel-round" component={AlloySteelRound} />
