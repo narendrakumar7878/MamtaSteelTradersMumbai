@@ -3,24 +3,90 @@ import { ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, TrendingUp, Shield,
 import { Link } from "wouter";
 
 export default function AluminiumAlloyRoundBars() {
+  const aluminiumProducts = [
+    {
+      id: 1,
+      title: "2014 T6 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/2025/05/2014-round-bar-300x300.jpg",
+      alt: "2014 T6 Round Bars Hindalco Jindal",
+      link: "/contact",
+      description: "High strength aluminum alloy with excellent machinability"
+    },
+    {
+      id: 2,
+      title: "2024 T6 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/2025/06/2024-T6-T851-Round-Bars-300x300.jpeg",
+      alt: "2024 T6 T851 Round Bars AMS 4339 4112",
+      link: "/contact",
+      description: "Aerospace grade aluminum with superior strength-to-weight ratio"
+    },
+    {
+      id: 3,
+      title: "5083 H111 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/2019/11/5083-h111-Aluminium-Round-Bar-300x300.jpg",
+      alt: "5083 H111 Aluminium Round Bar Marine Grade",
+      link: "/contact",
+      description: "Marine grade aluminum with excellent corrosion resistance"
+    },
+    {
+      id: 4,
+      title: "6061 T6 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/2025/08/6061-T6-Round-Bars-300x300.jpg",
+      alt: "Aluminium 6061 T6 Round Bars General Purpose",
+      link: "/contact",
+      description: "Most versatile aluminum alloy for general engineering applications"
+    },
+    {
+      id: 5,
+      title: "Aluminium 2024 Round Bars",
+      image: "https://textronsteelalloys.com/wp-content/uploads/2025/04/Aluminium-2024-Round-Bars-300x300.jpeg",
+      alt: "Aluminium 2024 Round Bars Aircraft Grade",
+      link: "/contact",
+      description: "Aircraft structural components with high fatigue resistance"
+    },
+    {
+      id: 6,
+      title: "Aluminium 24345 Round Bar",
+      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      alt: "Aluminium 24345 Round Bar Special Alloy",
+      link: "/contact",
+      description: "Specialized aluminum alloy for specific industrial applications"
+    }
+  ];
+
   const specifications = [
     "ASTM B221 - Standard Specification for Aluminum and Aluminum-Alloy Extruded Bars, Rods, Wire, Profiles, and Tubes",
-    "ASTM B211 - Standard Specification for Aluminum and Aluminum-Alloy Rolled or Extruded Bar, Rod, and Wire",
+    "ASTM B211 - Standard Specification for Aluminum and Aluminum-Alloy Rolled or Extruded Bar, Rod, and Wire", 
+    "ASTM B247 - Standard Specification for Aluminum and Aluminum-Alloy Die Forgings, Hand Forgings, and Rolled Ring Forgings",
+    "ASTM B316/B316M - Standard Specification for Aluminum and Aluminum-Alloy Rivet and Cold-Heading Wire and Rods",
     "EN 573 - Aluminium and aluminium alloys - Chemical composition and form of wrought products",
-    "AA (Aluminum Association) Standards - 2xxx, 6xxx, 7xxx Series",
-    "Diameter Range: 6mm to 500mm",
-    "Alloys: 2014, 2024, 6061, 6063, 6082, 7075, 7050"
+    "EN 755 - Aluminium and aluminium alloys - Extruded rod/bar, tube and profiles",
+    "AA (Aluminum Association) Standards - 2xxx, 5xxx, 6xxx, 7xxx Series",
+    "AMS (Aerospace Material Specifications) - AMS 4339, AMS 4112, AMS 4126",
+    "JIS H4040 - Aluminium and aluminium alloy bars and rods",
+    "IS 737 - Specification for wrought aluminium and aluminium alloy bars, rods and sections",
+    "Diameter Range: 6mm to 500mm diameter",
+    "Tempers: T6, T651, T851, H111, O (Annealed)",
+    "Alloys: 2014, 2024, 5083, 6061, 6063, 6082, 7075, 7050, 24345"
   ];
 
   const applications = [
-    "Aerospace and Aircraft Components",
-    "Automotive Industry Applications",
-    "Marine and Shipbuilding",
-    "Electrical and Electronic Components",
-    "Mechanical Engineering Parts",
-    "Sporting Goods and Equipment",
-    "Architectural and Construction",
-    "Food Processing Equipment"
+    "Aerospace and Aircraft Structural Components",
+    "Defense and Military Applications", 
+    "Automotive Industry - Engine Parts, Chassis Components",
+    "Marine and Shipbuilding - Hull Structures, Deck Fittings",
+    "Railway and Transportation Systems",
+    "Electrical and Electronic Components - Heat Sinks, Conductors",
+    "Mechanical Engineering - Precision Machined Parts",
+    "Oil and Gas Industry - Offshore Equipment",
+    "Chemical and Petrochemical Plants",
+    "Sporting Goods and Recreation Equipment",
+    "Architectural and Construction - Window Frames, Structural Elements",
+    "Food Processing Equipment - Non-contaminating Applications",
+    "Medical Device Components",
+    "Robotics and Automation Systems",
+    "Telecommunications Equipment",
+    "Power Generation Equipment"
   ];
 
   const features = [
@@ -33,12 +99,9 @@ export default function AluminiumAlloyRoundBars() {
   return (
     <>
       <ProductSEO
-        title="Aluminium Alloy Round Bars"
-        description="Premium quality aluminium alloy round bars in grades 2024, 6061, 6082, 7075. ASTM B221, B211 certified for aerospace, automotive, and marine applications. Best prices in Mumbai for aluminum round bars."
-        keywords="aluminium alloy round bars, aluminum round bars, 6061 round bars, 7075 round bars, ASTM B221 bars, aerospace aluminum bars, Mumbai aluminum supplier"
-        category="Round Bars"
-        productName="Aluminium Alloy Round Bars"
-        specifications={specifications}
+        title="Aluminium Alloy Round Bars - 2014, 2024, 5083, 6061 T6 | Aerospace Grade | Mumbai Supplier | Mamta Steel Traders"
+        description="Premium aluminium alloy round bars: 2014 T6, 2024 T6, 5083 H111, 6061 T6. ASTM B221, B211, AMS 4339 certified. Aerospace, marine, automotive applications. Best prices Mumbai. Worldwide shipping available."
+        keywords="aluminium alloy round bars, aluminum round bars, 2014 t6 round bars, 2024 t6 round bars, 6061 t6 round bars, 5083 h111 bars, aerospace aluminum, marine grade aluminum, ASTM B221 bars, ASTM B211 bars, AMS 4339, aircraft aluminum, Mumbai aluminum supplier, India aluminum exporter, lightweight aluminum bars, high strength aluminum alloy, corrosion resistant aluminum"
         canonicalUrl="/product/round-bars/aluminium-alloy"
       />
 
@@ -133,8 +196,124 @@ export default function AluminiumAlloyRoundBars() {
           </div>
         </section>
 
+        {/* Products Grid */}
+        <section className="py-16 bg-gray-50" data-testid="products-grid">
+          <div className="container mx-auto px-4">
+            <div className="max-w-6xl mx-auto">
+              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-4" data-testid="products-title">
+                Our Aluminium Alloy Round Bar Products
+              </h2>
+              <p className="text-lg text-gray-600 text-center mb-12 max-w-3xl mx-auto">
+                Complete range of premium aluminium alloy round bars for aerospace, marine, automotive, and industrial applications. 
+                All grades available with mill test certificates and worldwide shipping.
+              </p>
+              
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+                {aluminiumProducts.map((product) => (
+                  <div key={product.id} className="bg-white rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300 overflow-hidden group" data-testid={`product-${product.id}`}>
+                    <div className="relative overflow-hidden">
+                      <img 
+                        src={product.image} 
+                        alt={product.alt}
+                        className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                        loading="lazy"
+                      />
+                      <div className="absolute top-4 left-4 bg-navy-primary text-white px-3 py-1 rounded-full text-xs font-semibold">
+                        Premium Grade
+                      </div>
+                    </div>
+                    
+                    <div className="p-6">
+                      <h3 className="text-xl font-bold text-navy-primary mb-3" data-testid={`product-title-${product.id}`}>
+                        {product.title}
+                      </h3>
+                      <p className="text-gray-600 mb-4 text-sm leading-relaxed">
+                        {product.description}
+                      </p>
+                      
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center text-sm text-gray-500">
+                          <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
+                          <span>ASTM Certified</span>
+                        </div>
+                        <Link 
+                          href={product.link} 
+                          className="bg-gold-primary hover:bg-gold-secondary text-navy-primary px-4 py-2 rounded-lg font-semibold transition-colors text-sm"
+                          data-testid={`product-cta-${product.id}`}
+                        >
+                          Get Quote
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              
+              {/* Additional Product Info */}
+              <div className="bg-gradient-to-r from-navy-primary to-navy-secondary rounded-2xl p-8 text-white text-center">
+                <h3 className="text-2xl font-bold mb-4">Need Custom Sizes or Special Alloys?</h3>
+                <p className="text-lg text-blue-100 mb-6 max-w-2xl mx-auto">
+                  We can supply custom dimensions, special tempers, and certificate requirements. 
+                  Contact our technical team for detailed specifications and pricing.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <Link href="/contact" className="bg-gold-primary hover:bg-gold-secondary text-navy-primary font-semibold py-3 px-8 rounded-lg transition-colors">
+                    Request Custom Quote
+                  </Link>
+                  <a href="tel:+919967444008" className="border-2 border-white text-white hover:bg-white hover:text-navy-primary font-semibold py-3 px-8 rounded-lg transition-colors">
+                    Call: +91 99674 44008
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* SEO Keywords Section */}
+        <section className="py-16 bg-white" data-testid="seo-section">
+          <div className="container mx-auto px-4">
+            <div className="max-w-6xl mx-auto">
+              <h2 className="text-3xl font-bold text-center text-navy-primary mb-8" data-testid="seo-title">
+                Popular Searches for Aluminium Alloy Round Bars
+              </h2>
+              <div className="grid md:grid-cols-3 gap-8 mb-12">
+                <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+                  <h3 className="font-bold text-navy-primary mb-4">By Alloy Grade</h3>
+                  <div className="flex flex-wrap gap-2">
+                    {["2014 aluminum round bar", "2024 aluminum round bar", "6061 aluminum round bar", "5083 aluminum round bar", "7075 aluminum round bar", "6082 aluminum round bar"].map((keyword, index) => (
+                      <span key={index} className="px-3 py-1 bg-navy-primary text-white text-xs rounded-full">
+                        {keyword}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+                  <h3 className="font-bold text-navy-primary mb-4">By Application</h3>
+                  <div className="flex flex-wrap gap-2">
+                    {["aerospace aluminum bars", "marine aluminum rods", "automotive aluminum", "aircraft aluminum", "lightweight aluminum bars", "structural aluminum"].map((keyword, index) => (
+                      <span key={index} className="px-3 py-1 bg-navy-primary text-white text-xs rounded-full">
+                        {keyword}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+                  <h3 className="font-bold text-navy-primary mb-4">By Location</h3>
+                  <div className="flex flex-wrap gap-2">
+                    {["aluminum bars Mumbai", "aluminum supplier India", "aluminum exporter", "aluminum stockist Mumbai", "aluminum dealer India", "aluminum distributor"].map((keyword, index) => (
+                      <span key={index} className="px-3 py-1 bg-navy-primary text-white text-xs rounded-full">
+                        {keyword}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Aluminium Alloy Grades */}
-        <section className="py-16 bg-white" data-testid="alloy-grades-section">
+        <section className="py-16 bg-gray-50" data-testid="alloy-grades-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="alloy-grades-title">

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "wouter";
 import { 
   Home, 
@@ -45,6 +45,11 @@ export default function Navbar() {
     galvanized: false,
     pins: false
   });
+  // Desktop dropdown states
+  const [isProductsDropdownOpen, setIsProductsDropdownOpen] = useState(false);
+  const [isTechnicalDropdownOpen, setIsTechnicalDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+  const technicalDropdownRef = useRef<HTMLDivElement>(null);
   const [location] = useLocation();
 
   const toggleMobileMenu = () => {
@@ -100,6 +105,49 @@ export default function Navbar() {
     return location === path;
   };
 
+  // Close dropdowns when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setIsProductsDropdownOpen(false);
+      }
+      if (technicalDropdownRef.current && !technicalDropdownRef.current.contains(event.target as Node)) {
+        setIsTechnicalDropdownOpen(false);
+      }
+    };
+
+    const handleEscapeKey = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        setIsProductsDropdownOpen(false);
+        setIsTechnicalDropdownOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener('keydown', handleEscapeKey);
+    
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener('keydown', handleEscapeKey);
+    };
+  }, []);
+
+  // Close dropdown when navigating
+  useEffect(() => {
+    setIsProductsDropdownOpen(false);
+    setIsTechnicalDropdownOpen(false);
+  }, [location]);
+
+  const toggleProductsDropdown = () => {
+    setIsProductsDropdownOpen(!isProductsDropdownOpen);
+    setIsTechnicalDropdownOpen(false); // Close other dropdown
+  };
+
+  const toggleTechnicalDropdown = () => {
+    setIsTechnicalDropdownOpen(!isTechnicalDropdownOpen);
+    setIsProductsDropdownOpen(false); // Close other dropdown
+  };
+
   return (
     <nav className="bg-navy-secondary text-white sticky top-0 z-50 shadow-lg">
       <div className="container mx-auto px-4">
@@ -125,13 +173,22 @@ export default function Navbar() {
             </Link>
             
             {/* Products Dropdown with Nested Submenus */}
-            <div className="relative group">
-              <button className="hover:text-gold-primary transition-colors flex items-center" data-testid="dropdown-products">
+            <div className="relative" ref={dropdownRef}>
+              <button 
+                onClick={toggleProductsDropdown}
+                className="hover:text-gold-primary transition-colors flex items-center" 
+                data-testid="dropdown-products"
+                aria-expanded={isProductsDropdownOpen}
+              >
                 <Settings className="w-4 h-4 mr-2" />
                 Products
-                <ChevronDown className="w-4 h-4 ml-2 group-hover:rotate-180 transition-transform duration-300" />
+                <ChevronDown className={`w-4 h-4 ml-2 transition-transform duration-300 ${isProductsDropdownOpen ? 'rotate-180' : ''}`} />
               </button>
-              <div className="absolute top-full left-0 bg-white text-gray-800 min-w-80 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform group-hover:translate-y-2 z-50">
+              <div className={`absolute top-full left-0 bg-white text-gray-800 min-w-80 rounded-lg shadow-xl transition-all duration-300 transform z-50 ${
+                isProductsDropdownOpen 
+                  ? 'opacity-100 visible translate-y-2' 
+                  : 'opacity-0 invisible translate-y-0'
+              }`}>
                 <div className="py-2">
                   {/* Pipes & Tubes with submenu */}
                   <div className="relative group/sub">
@@ -476,13 +533,22 @@ export default function Navbar() {
             </div>
             
             {/* Technical Info Dropdown */}
-            <div className="relative group">
-              <button className="hover:text-gold-primary transition-colors flex items-center" data-testid="dropdown-technical-info">
+            <div className="relative" ref={technicalDropdownRef}>
+              <button 
+                onClick={toggleTechnicalDropdown}
+                className="hover:text-gold-primary transition-colors flex items-center" 
+                data-testid="dropdown-technical-info"
+                aria-expanded={isTechnicalDropdownOpen}
+              >
                 <FileText className="w-4 h-4 mr-2" />
                 Technical Info
-                <ChevronDown className="w-4 h-4 ml-2 group-hover:rotate-180 transition-transform duration-300" />
+                <ChevronDown className={`w-4 h-4 ml-2 transition-transform duration-300 ${isTechnicalDropdownOpen ? 'rotate-180' : ''}`} />
               </button>
-              <div className="absolute top-full left-0 bg-white text-gray-800 min-w-80 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform group-hover:translate-y-2 z-50">
+              <div className={`absolute top-full left-0 bg-white text-gray-800 min-w-80 rounded-lg shadow-xl transition-all duration-300 transform z-50 ${
+                isTechnicalDropdownOpen 
+                  ? 'opacity-100 visible translate-y-2' 
+                  : 'opacity-0 invisible translate-y-0'
+              }`}>
                 <div className="py-2">
                   <Link href="/technicalInformation" className="px-4 py-3 hover:bg-gray-100 cursor-pointer border-b flex items-center transition-colors duration-200" data-testid="link-technical-information">
                     <BookOpen className="w-4 h-4 mr-3 text-navy-primary" />

@@ -1,0 +1,1983 @@
+<body class="archive tax-product_cat term-aluminium-alloy-round-bar term-171 wp-theme-manufacto wp-child-theme-manufacto-child theme-manufacto kc-css-system woocommerce woocommerce-page woocommerce-js wp-megamenu mega-menu-main-menu cht-in-desktop cht-landscape www_textronsteelalloys_com">
+
+<div class="page-wrapper">
+ 	
+     	
+     	
+    <!-- Main Header-->
+    <header class="main-header fixed-header">
+    	
+        <!--Header Top-->
+    	<div class="header-top">
+        	<div class="auto-container">
+            	<div class="inner-container clearfix">
+                    <div class="top-left">
+                        <ul class="clearfix">
+                            <li>The Steel &amp; Alloys Expert</li>                            <li><a href="javascript:;"><span class="icon fa fa-globe"></span>Mumbai, Maharashtra, India</a></li>                            <li><a href="telto:&lt;a class=&quot;text-orange td-none&quot; href=&quot;tel:+91 9967449008&quot;&gt;+91 9967449008&lt;/a&gt;"><span class="icon fa fa-volume-control-phone"></span> </a><a class="text-orange td-none" href="tel:+91 9967449008">+91 9967449008</a></li>                        </ul>
+                    </div>
+                    
+                    						                            <div class="top-right clearfix">
+                                <ul class="social-icon-one">
+                                    										<li><a href="https://www.facebook.com/textronsteelalloys"><span class="fa fa-facebook"></span></a></li>
+																			<li><a href="https://www.twitter.com/textronsteel"><span class="fa fa-twitter"></span></a></li>
+																			<li><a href="https://plus.google.com/u/0/108983006659811198159"><span class="fa fa-google-plus"></span></a></li>
+																			<li><a href="https://www.linkedin.com/company/textron-steel-&amp;-alloys/"><span class="fa fa-linkedin"></span></a></li>
+																			<li><a href="#"><span class="fa "></span></a></li>
+									                                </ul>
+                            </div>
+                                                            </div>
+            </div>
+        </div>
+        
+    	<!--Header-Upper-->
+        <div class="header-upper">
+        	<div class="auto-container">
+            	<div class="clearfix">
+                	
+                	<div class="pull-left logo-outer">
+                    	                            <div class="logo"><a href="https://www.textronsteelalloys.com/"><img src="http://www.textronsteelalloys.com/wp-content/uploads/2018/12/LOGO-200-x-70-e1544523829685.png" alt="Textron" title="Textron"></a></div>
+                                            </div>
+                    
+                    <div class="pull-right upper-right clearfix">
+                    	                        <!--Info Box-->
+                        <div class="upper-column info-box">
+                        	<div class="icon-box"><span class="flaticon-stamp-1"></span></div>
+                            <ul>
+                            	<li><strong>Office Time</strong></li>
+<li>9:30am - 8:30pm</li>
+                            </ul>
+                        </div>
+                                                
+						                        <!--Info Box-->
+                        <div class="upper-column info-box">
+                        	<div class="icon-box"><span class="flaticon-trophy-2"></span></div>
+                            <ul>
+                            	<li><strong>Great Industrial</strong></li>
+<li>Solution Provider</li>                            </ul>
+                        </div>
+                                                
+						                        <!--Info Box-->
+                        <div class="upper-column info-box">
+                        	<a href="http://www.textronsteelalloys.com/contact-us/" class="order-btn theme-btn">Get a Quote</a>
+                        </div>
+                                            </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!--End Header Upper-->
+        
+        <!--Header Lower-->
+        <div class="header-lower">
+            
+        	<div class="auto-container">
+            	<div class="nav-outer clearfix">
+                    <!-- Main Menu -->
+                    <nav class="main-menu">
+                        <div class="navbar-header">
+                            <!-- Toggle Button -->    	
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        
+                        <div class="navbar-collapse collapse clearfix">
+                            <ul class="navigation clearfix">
+                                <div id="mega-menu-wrap-main_menu" class="mega-menu-wrap"><div class="mega-menu-toggle"><div class="mega-toggle-blocks-left"></div><div class="mega-toggle-blocks-center"></div><div class="mega-toggle-blocks-right"><div class="mega-toggle-block mega-menu-toggle-block mega-toggle-block-1" id="mega-toggle-block-1" tabindex="0"><span class="mega-toggle-label" role="button" aria-expanded="false"><span class="mega-toggle-label-closed">MENU</span><span class="mega-toggle-label-open">MENU</span></span></div></div></div><ul id="mega-menu-main_menu" class="mega-menu max-mega-menu mega-menu-horizontal" data-event="hover_intent" data-effect="slide_up" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="0" data-mobile-force-width="false" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="600" data-unbind="true" data-mobile-state="collapse_all" data-mobile-direction="vertical" data-hover-intent-timeout="300" data-hover-intent-interval="100"><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-home mega-align-bottom-left mega-menu-flyout mega-menu-item-463" id="mega-menu-item-463"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/" tabindex="0">Home</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-current-menu-ancestor mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-hide-arrow mega-menu-parent-item mega-menu-item-1267" id="mega-menu-item-1267"><a class="mega-menu-link" href="#" aria-expanded="false" tabindex="0">Products<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-parent-item mega-menu-item-1319" id="mega-menu-item-1319"><a class="mega-menu-link" href="http://www.textronsteelalloys.com/pipes-tubes/" aria-expanded="false">Pipes &amp; Tubes<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-680" id="mega-menu-item-680"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/stainless-steel-pipes-tubes/">Stainless Steel Pipes &amp; Tubes</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-895" id="mega-menu-item-895"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/carbon-steel-pipes-tubes/">Carbon Steel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-898" id="mega-menu-item-898"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/alloy-steel-pipes-tubes/">Alloy Steel Pipe</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-678" id="mega-menu-item-678"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/nickel-alloy-pipes-tubes/">Nickel Alloy</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-900" id="mega-menu-item-900"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/inconel-pipes-tubes/">Inconel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1217" id="mega-menu-item-1217"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/monel-pipes-tubes/">Monel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1225" id="mega-menu-item-1225"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/hastelloy-pipes-tubes/">Hastelloy</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1216" id="mega-menu-item-1216"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/incoloy-pipes-tubes/">Incoloy</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1226" id="mega-menu-item-1226"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/titanium/">Titanium</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1232" id="mega-menu-item-1232"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/cupro-nickel/">Cupro Nickel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1218" id="mega-menu-item-1218"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/tantalum/">Tantalum</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1233" id="mega-menu-item-1233"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/duplex-and-super-duplex-pipes/">Duplex and Super Duplex Pipes</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1239" id="mega-menu-item-1239"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/corten-steel/">Corten Steel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1240" id="mega-menu-item-1240"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/efsw-saw-hsaw-lsaw-pipes/">EFSW/SAW/HSAW/LSAW Pipes</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1241" id="mega-menu-item-1241"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/welded-wear-resistant-pipe-ar400-pipe/">Welded Wear Resistant Pipe/AR400 Pipe</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1243" id="mega-menu-item-1243"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/plate-welded-pipes/">Plate Welded Pipes</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1242" id="mega-menu-item-1242"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/large-od-seamless-pipes/">Large OD Seamless Pipes</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-parent-item mega-menu-item-1298" id="mega-menu-item-1298"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/plates-sheets/" aria-expanded="false">Plates &amp; Sheets<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1205" id="mega-menu-item-1205"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/plates-sheets/stainless-steel-plates-sheets/">Stainless Steel Plates</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-703" id="mega-menu-item-703"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/plates-sheets/alloy-steel-plates-sheets/">Alloy Steel Plates</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-704" id="mega-menu-item-704"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/plates-sheets/aluminium-alloy/">Aluminium Alloy</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-705" id="mega-menu-item-705"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/plates-sheets/carbon-steel-plates-sheets/">Carbon Steel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-706" id="mega-menu-item-706"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/plates-sheets/copper-nickel/">Copper Nickel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-707" id="mega-menu-item-707"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/plates-sheets/duplex-and-super-duplex-plates-sheets/">Duplex and Super Duplex</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-current-menu-ancestor mega-current-menu-parent mega-current_page_parent mega-current_page_ancestor mega-menu-item-has-children mega-menu-parent-item mega-menu-item-1295" id="mega-menu-item-1295"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/round-bars/" aria-expanded="false">Round Bars<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-902" id="mega-menu-item-902"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/round-bars/alloy-steel-round-bars/">Alloy Steel Round</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-has-description mega-menu-parent-item mega-menu-item-2541" id="mega-menu-item-2541"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/round-bars/alloy-steel-f5-f9-f11-f12-f22-f91/" aria-expanded="false"><span class="mega-description-group"><span class="mega-menu-title">Alloy Steel F Series</span><span class="mega-menu-description">Alloy Steel F Series</span></span><span class="mega-indicator" aria-hidden="true"></span></a>
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2543" id="mega-menu-item-2543"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/f11-round-bars-astm-a182-f11/">F11 Round Bars</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2544" id="mega-menu-item-2544"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/f22-round-bars-astm-a182-f22/">F22 Round Bars</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2542" id="mega-menu-item-2542"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/f91-round-bars-astm-a182-f91/">F91 Round Bars</a></li>		</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-current-menu-item mega-menu-item-1948" id="mega-menu-item-1948"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/round-bars/aluminium-alloy-round-bar/" aria-current="page">Aluminium Alloy</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-714" id="mega-menu-item-714"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/round-bars/carbon-steel-round-bars/">Carbon Steel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-2213" id="mega-menu-item-2213"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/round-bars/hot-work-steel/">Hot Work Steel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1793" id="mega-menu-item-1793"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/round-bars/copper-nickel-round-bars/">Copper Nickel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1794" id="mega-menu-item-1794"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/round-bars/en-series/">EN Series</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-2066" id="mega-menu-item-2066"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/round-bars/hastelloy-round-bars/">Hastelloy</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-712" id="mega-menu-item-712"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/round-bars/stainless-steel-round-bars/">Stainless Steel Round Bars</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1941" id="mega-menu-item-1941"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/round-bars/precipitation-hardening-stainless-steel/">Precipitation Hardening Steel</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-parent-item mega-menu-item-2091" id="mega-menu-item-2091"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/cold-work-tool-steels/" aria-expanded="false">Cold Work Tool Steels<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2505" id="mega-menu-item-2505"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/aisi-o1-round-bars-ohns/">AISI O1 Round Bars</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2093" id="mega-menu-item-2093"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/hchcr-d2-round-bars-stockists-suppliers/">HCHCR-D2 Round Bars</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2510" id="mega-menu-item-2510"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/toolox-33-round-bars/">Toolox 33 Round Bars</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2509" id="mega-menu-item-2509"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/toolox-44-round-bars/">Toolox 44 Round Bars</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-parent-item mega-menu-item-1300" id="mega-menu-item-1300"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/flanges/" aria-expanded="false">Flanges<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-888" id="mega-menu-item-888"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/flanges/stainless-steel/">Stainless Steel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-889" id="mega-menu-item-889"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/flanges/carbon-steel/">Carbon Steel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-668" id="mega-menu-item-668"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/flanges/alloy-steel/">Alloy Steel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-890" id="mega-menu-item-890"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/flanges/nickel-alloy/">Nickel Alloy</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-674" id="mega-menu-item-674"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/flanges/inconel/">Inconel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-673" id="mega-menu-item-673"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/flanges/incoloy/">Incoloy</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-has-description mega-menu-parent-item mega-menu-item-2600" id="mega-menu-item-2600"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/fasteners/" aria-expanded="false"><span class="mega-description-group"><span class="mega-menu-title">Fasteners</span><span class="mega-menu-description">Fasteners</span></span><span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-has-description mega-menu-item-2601" id="mega-menu-item-2601"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/fasteners/high-tensile/"><span class="mega-description-group"><span class="mega-menu-title">High Tensile</span><span class="mega-menu-description">High Tensile</span></span></a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-parent-item mega-menu-item-1296" id="mega-menu-item-1296"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/fittings/" aria-expanded="false">Fittings<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-766" id="mega-menu-item-766"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/fittings/buttweld-fittings/">Buttweld Fittings</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-832" id="mega-menu-item-832"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/fittings/forged-fittings/">Forged Fittings</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-parent-item mega-menu-item-1696" id="mega-menu-item-1696"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/welding-electrodes-suppliers-stockist/" aria-expanded="false">Welding Electrodes<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1702" id="mega-menu-item-1702"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/stainless-steel-welding-electrode/">Stainless Steel Electrode</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-parent-item mega-menu-item-2507" id="mega-menu-item-2507"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/copper-wires/" aria-expanded="false">Copper Wires<span class="mega-indicator" aria-hidden="true"></span></a>
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2508" id="mega-menu-item-2508"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/ercuni-wire-copper-nickel/">ERCuNi Wire</a></li>		</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1706" id="mega-menu-item-1706"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/cobalt-base-welding-electrodes/">Cobalt Base Electrode</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1901" id="mega-menu-item-1901"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/aluminium-wires/">Aluminium Wires</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-parent-item mega-menu-item-1873" id="mega-menu-item-1873"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/galvanized/" aria-expanded="false">Galvanized<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1877" id="mega-menu-item-1877"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/galvanized-angles-supplier-stockiest/">Hot Dip Galvanized Angles</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2013" id="mega-menu-item-2013"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/hot-dip-galvanized-channels/">Hot Dip Galvanized Channels</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-parent-item mega-menu-item-1987" id="mega-menu-item-1987"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pins/" aria-expanded="false">Pins<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1991" id="mega-menu-item-1991"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/pto-pins-exporters-manufacturers/">PTO Pins</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1998" id="mega-menu-item-1998"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/pipe-linch-pin-suppliers-exporters/">Pipe Linch Pin</a></li>	</ul>
+</li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-hide-arrow mega-menu-parent-item mega-menu-item-1297" id="mega-menu-item-1297"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/specialized-products/" aria-expanded="false" tabindex="0">Specialized Products<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-parent-item mega-menu-item-2271" id="mega-menu-item-2271"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/specialized-products/high-tensile-strength/" aria-expanded="false">High Tensile Strength<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2584" id="mega-menu-item-2584"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/evonith-hard-evsl-as07-uttamhard/">EVONITH HARD (EVSL AS07)</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2272" id="mega-menu-item-2272"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/uttamhard-plate-200-bhn-las07/">UTTAMHARD</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2281" id="mega-menu-item-2281"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/sailhard-plates-liner-200-bhn/">SAILHARD</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-parent-item mega-menu-item-2644" id="mega-menu-item-2644"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/specialized-products/cold-rolled/" aria-expanded="false">Cold Rolled<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2645" id="mega-menu-item-2645"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/crca-coils-sheets-jsw-amns-tata/">CRCA Coils</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-parent-item mega-menu-item-1774" id="mega-menu-item-1774"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/hot-rolled-is-2062-plates/" aria-expanded="false">Hot Rolled IS 2062 Plates<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1777" id="mega-menu-item-1777"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/is-2062-plate-hot-rolled-plates-stockist-supplier/">IS 2062 Plates</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2278" id="mega-menu-item-2278"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/is-2062-e250br-plates-supplier/">IS 2062 E250BR</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1783" id="mega-menu-item-1783"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/is-2062-e350-e350c-plate-stockist-supplier/">IS 2062 E350</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2599" id="mega-menu-item-2599"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/is-2062-e350br-plates-jindal-sail-amns/">IS 2062 E350BR Plates</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2277" id="mega-menu-item-2277"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/is-2062-e350c-jsw-jspl-sail-amns-tata-jindal/">IS 2062 E350C</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2484" id="mega-menu-item-2484"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/s355j2n-plates-is-2062-e350c/">S355J2+N Plates</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2585" id="mega-menu-item-2585"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/is2062-e450br-plates-sheets-amns/">IS 2062 E450BR</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-parent-item mega-menu-item-754" id="mega-menu-item-754"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/specialized-products/abrasion-resistant-steel-plates/" aria-expanded="false">Abrasion Resistant Plates<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1918" id="mega-menu-item-1918"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/abrex-450-plates-stockist-supplier/">Abrex 450 Plates</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1787" id="mega-menu-item-1787"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/abrex-500-abrasion-resistant-wear-plates/">Abrex 500 Plates</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2482" id="mega-menu-item-2482"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/nm400-plates-sheets-abrasion-resistant/">NM400 Plates</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2483" id="mega-menu-item-2483"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/nm500-plates-sheets-abrasion-resistant/">NM500 Plates</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2491" id="mega-menu-item-2491"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/rockstar-400-plates-amns/">Rockstar 400 Plates</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2490" id="mega-menu-item-2490"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/rockstar-450-plates-amns/">Rockstar 450 Plates</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2489" id="mega-menu-item-2489"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/rockstar-500-plates-amns/">Rockstar 500 Plates</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1405" id="mega-menu-item-1405"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/industries-we-serve-abrasion-resistant-plates-sheets/">Industries We Serve</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-parent-item mega-menu-item-753" id="mega-menu-item-753"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/specialized-products/16mo3-15mo3-sa-204-plates/" aria-expanded="false">16MO3-15MO3 &amp; SA 204 Plates<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1784" id="mega-menu-item-1784"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/16mo3-plate-sheet-stockist-suppliers-exporter/">16Mo3 Plate</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-parent-item mega-menu-item-758" id="mega-menu-item-758"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/specialized-products/manganese-steel-plates/" aria-expanded="false">Manganese Steel Plates<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2196" id="mega-menu-item-2196"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/x120mn12-sidur-3401-high-manganese-plate/">X120MN12 / SIDUR 3401</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1785" id="mega-menu-item-1785"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/high-manganese-plate-sheet-11-4-stockist-supplier/">High Manganese Plate / Sheets</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-parent-item mega-menu-item-759" id="mega-menu-item-759"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/specialized-products/quenched-tempered-steel-plates/" aria-expanded="false">Quenched &amp; Tempered Plates<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2586" id="mega-menu-item-2586"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/s690ql-plate-jspl-amns-1-8928/">S690QL Plate</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2485" id="mega-menu-item-2485"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/en-10025-6-s690ql-plates-amns-jspl-stockist/">EN10025-6 S690QL</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1786" id="mega-menu-item-1786"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/welten-780e-plates-sheets-high-tensile-yield/">Welten 780E Plates / Sheets</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-parent-item mega-menu-item-756" id="mega-menu-item-756"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/specialized-products/boiler-quality-steel-plates/" aria-expanded="false">Boiler Quality Steel Plates<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1832" id="mega-menu-item-1832"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/is2041-r260-plate-bq-stockist-supplier/">IS2041 R260 Plate</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1825" id="mega-menu-item-1825"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/sa-516-grade-70-plate-stockist-supplier-essar-jspl/">SA 516 Grade 70 Plate</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-parent-item mega-menu-item-1963" id="mega-menu-item-1963"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/specialized-products/chrome-moly-plates/" aria-expanded="false">Chrome Moly Plates<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1984" id="mega-menu-item-1984"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/sa387-a387-grade-5-class-2-plates-sheets/">A387 GRADE 5 CLASS 2</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1964" id="mega-menu-item-1964"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/asme-sa-387-grade-22-cl-2-plate/">A387 GRADE 22 CLASS 2</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1985" id="mega-menu-item-1985"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/astm-a387-asme-sa387-chrome-moly-alloy-plates-stockist-supplier/">A387/SA387 Chrome Moly Plates</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-has-description mega-menu-parent-item mega-menu-item-2591" id="mega-menu-item-2591"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/specialized-products/chequered-plate/" aria-expanded="false"><span class="mega-description-group"><span class="mega-menu-title">Chequered Plate</span><span class="mega-menu-description">Chequered Plate</span></span><span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2592" id="mega-menu-item-2592"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/is-3502-chequered-plates/">IS 3502 Chequered Plates</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1338" id="mega-menu-item-1338"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/tata-structura-yst-355-hollow-sections/">Tata Structura 355</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-757" id="mega-menu-item-757"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/specialized-products/corten-steel-plates/">Corten Steel Plates</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1908" id="mega-menu-item-1908"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/dsq-plates-stockists-supplier-mumbai/">DSQ Plates</a></li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-hide-arrow mega-menu-parent-item mega-menu-item-1372" id="mega-menu-item-1372"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/technical-info/" aria-expanded="false" tabindex="0">Technical Info<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-2323" id="mega-menu-item-2323"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/chemical-composition-400-series-martensitic-ferritic/">Chemical Composition</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-2563" id="mega-menu-item-2563"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/ss-300-200-series-chemical-composition/">SS 300 &amp; 200 Series Chemical Composition</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1379" id="mega-menu-item-1379"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/pipe-specifications-asme-astm-din-jis/">Stainless Steel Pipe Specification</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1571" id="mega-menu-item-1571"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/carbon-steel-alloy-steel-pipe-specifications/">Carbon &amp; Alloy Pipe Specifications</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-2849" id="mega-menu-item-2849"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/ams-standard-material/">AMS Standard Material</a></li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-466" id="mega-menu-item-466"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/about/" tabindex="0">About Us</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-448" id="mega-menu-item-448"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/contact-us/" tabindex="0">Contact Us</a></li></ul></div>                            </ul>
+                        </div>
+                    </nav>
+                    <!-- Main Menu End-->
+                    <div class="outer-box">
+                    	
+                        <!--Search Box-->
+                        <div class="dropdown dropdown-outer">
+                            <button class="search-box-btn dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa fa-search"></span></button>
+                            <ul class="dropdown-menu pull-right search-panel" aria-labelledby="dropdownMenu3">
+                                <li class="panel-outer">
+                                    <div class="form-container">
+                                        <form action="https://www.textronsteelalloys.com/" method="get">
+    <div class="form-group">
+        <input type="search" name="s" value="" placeholder="Search Here" required="">
+        <button type="submit" class="search-btn"><span class="fa fa-search"></span></button>
+    </div>
+</form>                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Header Lower-->
+        
+        <!--Sticky Header-->
+        <div class="sticky-header">
+        	<div class="auto-container clearfix">
+            	<!--Logo-->
+            	<div class="logo pull-left">
+                	                        <a href="https://www.textronsteelalloys.com/" class="img-responsive"><img src="http://www.textronsteelalloys.com/wp-content/uploads/2018/12/LOGO-200-x-70-e1544523829685.png" alt="Textron" title="Textron"></a>
+                                    </div>
+                
+                <!--Right Col-->
+                <div class="right-col pull-right">
+                	<!-- Main Menu -->
+                    <nav class="main-menu">
+                        <div class="navbar-header">
+                            <!-- Toggle Button -->    	
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        
+                        <div class="navbar-collapse collapse clearfix">
+                            <ul class="navigation clearfix">
+                                <div id="mega-menu-wrap-main_menu" class="mega-menu-wrap"><div class="mega-menu-toggle"><div class="mega-toggle-blocks-left"></div><div class="mega-toggle-blocks-center"></div><div class="mega-toggle-blocks-right"><div class="mega-toggle-block mega-menu-toggle-block mega-toggle-block-1" id="mega-toggle-block-1" tabindex="0"><span class="mega-toggle-label" role="button" aria-expanded="false"><span class="mega-toggle-label-closed">MENU</span><span class="mega-toggle-label-open">MENU</span></span></div></div></div><ul id="mega-menu-main_menu" class="mega-menu max-mega-menu mega-menu-horizontal" data-event="hover_intent" data-effect="slide_up" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="0" data-mobile-force-width="false" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="600" data-unbind="true" data-mobile-state="collapse_all" data-mobile-direction="vertical" data-hover-intent-timeout="300" data-hover-intent-interval="100"><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-home mega-align-bottom-left mega-menu-flyout mega-menu-item-463" id="mega-menu-item-463"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/" tabindex="0">Home</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-current-menu-ancestor mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-hide-arrow mega-menu-parent-item mega-menu-item-1267" id="mega-menu-item-1267"><a class="mega-menu-link" href="#" aria-expanded="false" tabindex="0">Products<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-parent-item mega-menu-item-1319" id="mega-menu-item-1319"><a class="mega-menu-link" href="http://www.textronsteelalloys.com/pipes-tubes/" aria-expanded="false">Pipes &amp; Tubes<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-680" id="mega-menu-item-680"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/stainless-steel-pipes-tubes/">Stainless Steel Pipes &amp; Tubes</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-895" id="mega-menu-item-895"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/carbon-steel-pipes-tubes/">Carbon Steel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-898" id="mega-menu-item-898"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/alloy-steel-pipes-tubes/">Alloy Steel Pipe</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-678" id="mega-menu-item-678"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/nickel-alloy-pipes-tubes/">Nickel Alloy</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-900" id="mega-menu-item-900"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/inconel-pipes-tubes/">Inconel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1217" id="mega-menu-item-1217"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/monel-pipes-tubes/">Monel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1225" id="mega-menu-item-1225"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/hastelloy-pipes-tubes/">Hastelloy</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1216" id="mega-menu-item-1216"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/incoloy-pipes-tubes/">Incoloy</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1226" id="mega-menu-item-1226"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/titanium/">Titanium</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1232" id="mega-menu-item-1232"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/cupro-nickel/">Cupro Nickel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1218" id="mega-menu-item-1218"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/tantalum/">Tantalum</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1233" id="mega-menu-item-1233"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/duplex-and-super-duplex-pipes/">Duplex and Super Duplex Pipes</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1239" id="mega-menu-item-1239"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/corten-steel/">Corten Steel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1240" id="mega-menu-item-1240"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/efsw-saw-hsaw-lsaw-pipes/">EFSW/SAW/HSAW/LSAW Pipes</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1241" id="mega-menu-item-1241"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/welded-wear-resistant-pipe-ar400-pipe/">Welded Wear Resistant Pipe/AR400 Pipe</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1243" id="mega-menu-item-1243"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/plate-welded-pipes/">Plate Welded Pipes</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1242" id="mega-menu-item-1242"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pipes-tubes/large-od-seamless-pipes/">Large OD Seamless Pipes</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-parent-item mega-menu-item-1298" id="mega-menu-item-1298"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/plates-sheets/" aria-expanded="false">Plates &amp; Sheets<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1205" id="mega-menu-item-1205"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/plates-sheets/stainless-steel-plates-sheets/">Stainless Steel Plates</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-703" id="mega-menu-item-703"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/plates-sheets/alloy-steel-plates-sheets/">Alloy Steel Plates</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-704" id="mega-menu-item-704"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/plates-sheets/aluminium-alloy/">Aluminium Alloy</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-705" id="mega-menu-item-705"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/plates-sheets/carbon-steel-plates-sheets/">Carbon Steel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-706" id="mega-menu-item-706"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/plates-sheets/copper-nickel/">Copper Nickel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-707" id="mega-menu-item-707"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/plates-sheets/duplex-and-super-duplex-plates-sheets/">Duplex and Super Duplex</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-current-menu-ancestor mega-current-menu-parent mega-current_page_parent mega-current_page_ancestor mega-menu-item-has-children mega-menu-parent-item mega-menu-item-1295" id="mega-menu-item-1295"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/round-bars/" aria-expanded="false">Round Bars<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-902" id="mega-menu-item-902"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/round-bars/alloy-steel-round-bars/">Alloy Steel Round</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-has-description mega-menu-parent-item mega-menu-item-2541" id="mega-menu-item-2541"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/round-bars/alloy-steel-f5-f9-f11-f12-f22-f91/" aria-expanded="false"><span class="mega-description-group"><span class="mega-menu-title">Alloy Steel F Series</span><span class="mega-menu-description">Alloy Steel F Series</span></span><span class="mega-indicator" aria-hidden="true"></span></a>
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2543" id="mega-menu-item-2543"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/f11-round-bars-astm-a182-f11/">F11 Round Bars</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2544" id="mega-menu-item-2544"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/f22-round-bars-astm-a182-f22/">F22 Round Bars</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2542" id="mega-menu-item-2542"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/f91-round-bars-astm-a182-f91/">F91 Round Bars</a></li>		</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-current-menu-item mega-menu-item-1948" id="mega-menu-item-1948"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/round-bars/aluminium-alloy-round-bar/" aria-current="page">Aluminium Alloy</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-714" id="mega-menu-item-714"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/round-bars/carbon-steel-round-bars/">Carbon Steel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-2213" id="mega-menu-item-2213"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/round-bars/hot-work-steel/">Hot Work Steel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1793" id="mega-menu-item-1793"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/round-bars/copper-nickel-round-bars/">Copper Nickel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1794" id="mega-menu-item-1794"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/round-bars/en-series/">EN Series</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-2066" id="mega-menu-item-2066"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/round-bars/hastelloy-round-bars/">Hastelloy</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-712" id="mega-menu-item-712"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/round-bars/stainless-steel-round-bars/">Stainless Steel Round Bars</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1941" id="mega-menu-item-1941"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/round-bars/precipitation-hardening-stainless-steel/">Precipitation Hardening Steel</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-parent-item mega-menu-item-2091" id="mega-menu-item-2091"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/cold-work-tool-steels/" aria-expanded="false">Cold Work Tool Steels<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2505" id="mega-menu-item-2505"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/aisi-o1-round-bars-ohns/">AISI O1 Round Bars</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2093" id="mega-menu-item-2093"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/hchcr-d2-round-bars-stockists-suppliers/">HCHCR-D2 Round Bars</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2510" id="mega-menu-item-2510"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/toolox-33-round-bars/">Toolox 33 Round Bars</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2509" id="mega-menu-item-2509"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/toolox-44-round-bars/">Toolox 44 Round Bars</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-parent-item mega-menu-item-1300" id="mega-menu-item-1300"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/flanges/" aria-expanded="false">Flanges<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-888" id="mega-menu-item-888"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/flanges/stainless-steel/">Stainless Steel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-889" id="mega-menu-item-889"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/flanges/carbon-steel/">Carbon Steel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-668" id="mega-menu-item-668"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/flanges/alloy-steel/">Alloy Steel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-890" id="mega-menu-item-890"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/flanges/nickel-alloy/">Nickel Alloy</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-674" id="mega-menu-item-674"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/flanges/inconel/">Inconel</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-673" id="mega-menu-item-673"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/flanges/incoloy/">Incoloy</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-has-description mega-menu-parent-item mega-menu-item-2600" id="mega-menu-item-2600"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/fasteners/" aria-expanded="false"><span class="mega-description-group"><span class="mega-menu-title">Fasteners</span><span class="mega-menu-description">Fasteners</span></span><span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-has-description mega-menu-item-2601" id="mega-menu-item-2601"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/fasteners/high-tensile/"><span class="mega-description-group"><span class="mega-menu-title">High Tensile</span><span class="mega-menu-description">High Tensile</span></span></a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-parent-item mega-menu-item-1296" id="mega-menu-item-1296"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/fittings/" aria-expanded="false">Fittings<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-766" id="mega-menu-item-766"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/fittings/buttweld-fittings/">Buttweld Fittings</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-832" id="mega-menu-item-832"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/fittings/forged-fittings/">Forged Fittings</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-parent-item mega-menu-item-1696" id="mega-menu-item-1696"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/welding-electrodes-suppliers-stockist/" aria-expanded="false">Welding Electrodes<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1702" id="mega-menu-item-1702"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/stainless-steel-welding-electrode/">Stainless Steel Electrode</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-parent-item mega-menu-item-2507" id="mega-menu-item-2507"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/copper-wires/" aria-expanded="false">Copper Wires<span class="mega-indicator" aria-hidden="true"></span></a>
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2508" id="mega-menu-item-2508"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/ercuni-wire-copper-nickel/">ERCuNi Wire</a></li>		</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1706" id="mega-menu-item-1706"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/cobalt-base-welding-electrodes/">Cobalt Base Electrode</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-1901" id="mega-menu-item-1901"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/aluminium-wires/">Aluminium Wires</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-parent-item mega-menu-item-1873" id="mega-menu-item-1873"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/galvanized/" aria-expanded="false">Galvanized<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1877" id="mega-menu-item-1877"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/galvanized-angles-supplier-stockiest/">Hot Dip Galvanized Angles</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2013" id="mega-menu-item-2013"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/hot-dip-galvanized-channels/">Hot Dip Galvanized Channels</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-parent-item mega-menu-item-1987" id="mega-menu-item-1987"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/pins/" aria-expanded="false">Pins<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1991" id="mega-menu-item-1991"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/pto-pins-exporters-manufacturers/">PTO Pins</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1998" id="mega-menu-item-1998"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/pipe-linch-pin-suppliers-exporters/">Pipe Linch Pin</a></li>	</ul>
+</li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-hide-arrow mega-menu-parent-item mega-menu-item-1297" id="mega-menu-item-1297"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/specialized-products/" aria-expanded="false" tabindex="0">Specialized Products<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-parent-item mega-menu-item-2271" id="mega-menu-item-2271"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/specialized-products/high-tensile-strength/" aria-expanded="false">High Tensile Strength<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2584" id="mega-menu-item-2584"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/evonith-hard-evsl-as07-uttamhard/">EVONITH HARD (EVSL AS07)</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2272" id="mega-menu-item-2272"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/uttamhard-plate-200-bhn-las07/">UTTAMHARD</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2281" id="mega-menu-item-2281"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/sailhard-plates-liner-200-bhn/">SAILHARD</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-parent-item mega-menu-item-2644" id="mega-menu-item-2644"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/specialized-products/cold-rolled/" aria-expanded="false">Cold Rolled<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2645" id="mega-menu-item-2645"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/crca-coils-sheets-jsw-amns-tata/">CRCA Coils</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-parent-item mega-menu-item-1774" id="mega-menu-item-1774"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/hot-rolled-is-2062-plates/" aria-expanded="false">Hot Rolled IS 2062 Plates<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1777" id="mega-menu-item-1777"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/is-2062-plate-hot-rolled-plates-stockist-supplier/">IS 2062 Plates</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2278" id="mega-menu-item-2278"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/is-2062-e250br-plates-supplier/">IS 2062 E250BR</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1783" id="mega-menu-item-1783"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/is-2062-e350-e350c-plate-stockist-supplier/">IS 2062 E350</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2599" id="mega-menu-item-2599"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/is-2062-e350br-plates-jindal-sail-amns/">IS 2062 E350BR Plates</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2277" id="mega-menu-item-2277"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/is-2062-e350c-jsw-jspl-sail-amns-tata-jindal/">IS 2062 E350C</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2484" id="mega-menu-item-2484"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/s355j2n-plates-is-2062-e350c/">S355J2+N Plates</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2585" id="mega-menu-item-2585"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/is2062-e450br-plates-sheets-amns/">IS 2062 E450BR</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-parent-item mega-menu-item-754" id="mega-menu-item-754"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/specialized-products/abrasion-resistant-steel-plates/" aria-expanded="false">Abrasion Resistant Plates<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1918" id="mega-menu-item-1918"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/abrex-450-plates-stockist-supplier/">Abrex 450 Plates</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1787" id="mega-menu-item-1787"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/abrex-500-abrasion-resistant-wear-plates/">Abrex 500 Plates</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2482" id="mega-menu-item-2482"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/nm400-plates-sheets-abrasion-resistant/">NM400 Plates</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2483" id="mega-menu-item-2483"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/nm500-plates-sheets-abrasion-resistant/">NM500 Plates</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2491" id="mega-menu-item-2491"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/rockstar-400-plates-amns/">Rockstar 400 Plates</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2490" id="mega-menu-item-2490"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/rockstar-450-plates-amns/">Rockstar 450 Plates</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2489" id="mega-menu-item-2489"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/rockstar-500-plates-amns/">Rockstar 500 Plates</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1405" id="mega-menu-item-1405"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/industries-we-serve-abrasion-resistant-plates-sheets/">Industries We Serve</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-parent-item mega-menu-item-753" id="mega-menu-item-753"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/specialized-products/16mo3-15mo3-sa-204-plates/" aria-expanded="false">16MO3-15MO3 &amp; SA 204 Plates<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1784" id="mega-menu-item-1784"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/16mo3-plate-sheet-stockist-suppliers-exporter/">16Mo3 Plate</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-parent-item mega-menu-item-758" id="mega-menu-item-758"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/specialized-products/manganese-steel-plates/" aria-expanded="false">Manganese Steel Plates<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2196" id="mega-menu-item-2196"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/x120mn12-sidur-3401-high-manganese-plate/">X120MN12 / SIDUR 3401</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1785" id="mega-menu-item-1785"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/high-manganese-plate-sheet-11-4-stockist-supplier/">High Manganese Plate / Sheets</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-parent-item mega-menu-item-759" id="mega-menu-item-759"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/specialized-products/quenched-tempered-steel-plates/" aria-expanded="false">Quenched &amp; Tempered Plates<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2586" id="mega-menu-item-2586"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/s690ql-plate-jspl-amns-1-8928/">S690QL Plate</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2485" id="mega-menu-item-2485"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/en-10025-6-s690ql-plates-amns-jspl-stockist/">EN10025-6 S690QL</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1786" id="mega-menu-item-1786"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/welten-780e-plates-sheets-high-tensile-yield/">Welten 780E Plates / Sheets</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-parent-item mega-menu-item-756" id="mega-menu-item-756"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/specialized-products/boiler-quality-steel-plates/" aria-expanded="false">Boiler Quality Steel Plates<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1832" id="mega-menu-item-1832"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/is2041-r260-plate-bq-stockist-supplier/">IS2041 R260 Plate</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1825" id="mega-menu-item-1825"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/sa-516-grade-70-plate-stockist-supplier-essar-jspl/">SA 516 Grade 70 Plate</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-parent-item mega-menu-item-1963" id="mega-menu-item-1963"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/specialized-products/chrome-moly-plates/" aria-expanded="false">Chrome Moly Plates<span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1984" id="mega-menu-item-1984"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/sa387-a387-grade-5-class-2-plates-sheets/">A387 GRADE 5 CLASS 2</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1964" id="mega-menu-item-1964"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/asme-sa-387-grade-22-cl-2-plate/">A387 GRADE 22 CLASS 2</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1985" id="mega-menu-item-1985"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/astm-a387-asme-sa387-chrome-moly-alloy-plates-stockist-supplier/">A387/SA387 Chrome Moly Plates</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-has-description mega-menu-parent-item mega-menu-item-2591" id="mega-menu-item-2591"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/specialized-products/chequered-plate/" aria-expanded="false"><span class="mega-description-group"><span class="mega-menu-title">Chequered Plate</span><span class="mega-menu-description">Chequered Plate</span></span><span class="mega-indicator" aria-hidden="true"></span></a>
+	<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-2592" id="mega-menu-item-2592"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/is-3502-chequered-plates/">IS 3502 Chequered Plates</a></li>	</ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1338" id="mega-menu-item-1338"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/tata-structura-yst-355-hollow-sections/">Tata Structura 355</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-757" id="mega-menu-item-757"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/product-category/specialized-products/corten-steel-plates/">Corten Steel Plates</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-1908" id="mega-menu-item-1908"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/dsq-plates-stockists-supplier-mumbai/">DSQ Plates</a></li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-hide-arrow mega-menu-parent-item mega-menu-item-1372" id="mega-menu-item-1372"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/technical-info/" aria-expanded="false" tabindex="0">Technical Info<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-2323" id="mega-menu-item-2323"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/chemical-composition-400-series-martensitic-ferritic/">Chemical Composition</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-2563" id="mega-menu-item-2563"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/ss-300-200-series-chemical-composition/">SS 300 &amp; 200 Series Chemical Composition</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1379" id="mega-menu-item-1379"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/pipe-specifications-asme-astm-din-jis/">Stainless Steel Pipe Specification</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1571" id="mega-menu-item-1571"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/carbon-steel-alloy-steel-pipe-specifications/">Carbon &amp; Alloy Pipe Specifications</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-2849" id="mega-menu-item-2849"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/ams-standard-material/">AMS Standard Material</a></li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-466" id="mega-menu-item-466"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/about/" tabindex="0">About Us</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-448" id="mega-menu-item-448"><a class="mega-menu-link" href="https://www.textronsteelalloys.com/contact-us/" tabindex="0">Contact Us</a></li></ul></div>                            </ul>
+                        </div>
+                    </nav><!-- Main Menu End-->
+                </div>
+                
+            </div>
+        </div>
+        <!--End Sticky Header-->
+    
+    </header>
+    <!--End Main Header -->
+<!--Page Title-->
+<section class="page-title" style="background-image:url(http://www.textronsteelalloys.com/wp-content/uploads/2018/11/Indust.jpg);">
+    <div class="auto-container">
+        <h1>Aluminium Alloy - Textron</h1>
+        <div class="text"></div>
+    </div>
+    <!--Page Info-->
+    <div class="page-info">
+        <div class="auto-container clearfix">
+            
+            <div class="pull-left">
+                <ul class="social-icon-one">
+                    <li class="share">Share on :</li>
+                    						                            								<li><a href="https://www.facebook.com/textronsteelalloys" class="fa fa-facebook"></a></li>
+															<li><a href="https://www.twitter.com/textronsteel" class="fa fa-twitter"></a></li>
+															<li><a href="https://plus.google.com/u/0/108983006659811198159" class="fa fa-google-plus"></a></li>
+															<li><a href="https://www.linkedin.com/company/textron-steel-&amp;-alloys/" class="fa fa-linkedin"></a></li>
+															<li><a href="#" class="fa "></a></li>
+							                   		                	 
+                </ul>
+            </div>
+            
+            <div class="pull-right">
+                <ul class="bread-crumb clearfix"><li><a href="https://www.textronsteelalloys.com/">Home</a></li><li><a href="https://www.textronsteelalloys.com/product-category/round-bars/aluminium-alloy-round-bar/">Aluminium Alloy</a></li></ul>            </div>
+        </div>
+    </div>
+</section>
+<!--End Page Title-->
+
+<!--Sidebar Page Container-->
+<div class="sidebar-page-container">
+    <div class="auto-container">
+        <div class="row clearfix">
+			
+			<!-- sidebar area -->
+			
+			<!-- sidebar area -->
+			
+			<div class=" col-lg-9 col-md-8 col-sm-12 col-xs-12  content-side">
+            	<div class="shop-item-section">
+				                	<div class="items-sorting">
+                        <div class="row clearfix">
+                            <div class="results-column col-lg-8 col-md-6 col-sm-6 col-xs-12">
+                                <p class="woocommerce-result-count">
+	Showing all 6 results</p>
+                            </div>
+                            <div class="select-column pull-right col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                <div class="form-group">
+                                    
+
+
+    <div class="woof_autohide_wrapper">
+                <a href="javascript:void(0);" class="woof_show_auto_form woof_btn_default "></a><br>
+        <!-------------------- inline css for js anim ----------------------->
+        <div class="woof_auto_show woof_overflow_hidden" style="opacity: 0; height: 1px;">
+            <div class="woof_auto_show_indent woof_overflow_hidden">
+                
+            <div data-slug="" class="woof woof_sid woof_sid_auto_shortcode " data-sid="auto_shortcode" data-shortcode="woof sid='auto_shortcode' autohide='1' price_filter='0' " data-redirect="" data-autosubmit="0" data-ajax-redraw="0">
+                                     
+                	
+                <!--- here is possible to drop html code which is never redraws by AJAX ---->
+                
+                <div class="woof_redraw_zone" data-woof-ver="1.3.7.1" data-icheck-skin="flat_blue">
+                                        
+                                            
+                
+
+                
+
+                                
+                
+
+                                <div class="woof_submit_search_form_container">                                <button class="button woof_submit_search_form">Filter</button>
+            </div>
+        
+                                    </div>
+
+            </div>
+
+
+
+                        </div>
+        </div>
+
+    </div>
+<div class="woocommerce woocommerce-page woof_shortcode_output"><div id="woof_results_by_ajax" data-shortcode="woof_products taxonomies=product_cat:171 is_ajax=1 predict_ids_and_continue=1">
+<div class="woof_products_top_panel_content">
+    </div>
+<div class="woof_products_top_panel" style="display: none;"></div><div class="woocommerce-notices-wrapper"></div><form class="woocommerce-ordering" method="get">
+		<select name="orderby" class="orderby" aria-label="Shop order">
+					<option value="menu_order" selected="selected">Default sorting</option>
+					<option value="popularity">Sort by popularity</option>
+					<option value="date">Sort by latest</option>
+					<option value="price">Sort by price: low to high</option>
+					<option value="price-desc">Sort by price: high to low</option>
+			</select>
+	<input type="hidden" name="paged" value="1">
+	</form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                				                
+                
+				        
+                    <div class="products row clearfix">
+        
+                                
+                                
+                            <div class="shop-item col-lg-4 col-md-6 col-sm-6 col-xs-12 post-2924 product type-product status-publish has-post-thumbnail product_cat-aluminium-alloy-round-bar first instock shipping-taxable product-type-simple">
+	<div class="inner-box">
+	     
+     <div class="image">
+        <img width="300" height="300" src="https://textronsteelalloys.com/wp-content/uploads/2025/05/2014-round-bar-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="2014 Round Bars T6 T651 Hindalco Jindal" decoding="async" fetchpriority="high" srcset="https://textronsteelalloys.com/wp-content/uploads/2025/05/2014-round-bar-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2025/05/2014-round-bar-150x150.jpg 150w, https://textronsteelalloys.com/wp-content/uploads/2025/05/2014-round-bar-101x101.jpg 101w, https://textronsteelalloys.com/wp-content/uploads/2025/05/2014-round-bar-50x50.jpg 50w, https://textronsteelalloys.com/wp-content/uploads/2025/05/2014-round-bar-45x45.jpg 45w, https://textronsteelalloys.com/wp-content/uploads/2025/05/2014-round-bar-400x400.jpg 400w, https://textronsteelalloys.com/wp-content/uploads/2025/05/2014-round-bar-100x100.jpg 100w, https://textronsteelalloys.com/wp-content/uploads/2025/05/2014-round-bar.jpg 500w" sizes="(max-width: 300px) 100vw, 300px">        <div class="overlay-box">
+            <ul class="cart-option">
+                <li><a href="https://www.textronsteelalloys.com/2014-t6-round-bars-hindalco-jindal/"><span class="fa fa-shopping-cart"></span>Add to Cart</a></li>
+            </ul>
+        </div>
+    </div>
+     
+             
+        <div class="lower-content">
+            <h3><a href="https://www.textronsteelalloys.com/2014-t6-round-bars-hindalco-jindal/">2014 T6 Round Bars</a></h3>
+            <div class="clearfix">
+                <div class="pull-left">
+                    
+                </div>
+                <div class="pull-right">
+                    <!--Rating-->
+                    <div class="rating">
+                                            </div>
+                </div>
+            </div>
+            
+        </div>
+        
+		</div>
+</div>
+        
+                                
+                            <div class="shop-item col-lg-4 col-md-6 col-sm-6 col-xs-12 post-2930 product type-product status-publish has-post-thumbnail product_cat-aluminium-alloy-round-bar  instock shipping-taxable product-type-simple">
+	<div class="inner-box">
+	     
+     <div class="image">
+        <img width="300" height="300" src="https://textronsteelalloys.com/wp-content/uploads/2025/06/2024-T6-T851-Round-Bars-300x300.jpeg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="2024 T6 T851 Round Bars" decoding="async" srcset="https://textronsteelalloys.com/wp-content/uploads/2025/06/2024-T6-T851-Round-Bars-300x300.jpeg 300w, https://textronsteelalloys.com/wp-content/uploads/2025/06/2024-T6-T851-Round-Bars-150x150.jpeg 150w, https://textronsteelalloys.com/wp-content/uploads/2025/06/2024-T6-T851-Round-Bars-101x101.jpeg 101w, https://textronsteelalloys.com/wp-content/uploads/2025/06/2024-T6-T851-Round-Bars-50x50.jpeg 50w, https://textronsteelalloys.com/wp-content/uploads/2025/06/2024-T6-T851-Round-Bars-45x45.jpeg 45w, https://textronsteelalloys.com/wp-content/uploads/2025/06/2024-T6-T851-Round-Bars-400x400.jpeg 400w, https://textronsteelalloys.com/wp-content/uploads/2025/06/2024-T6-T851-Round-Bars-100x100.jpeg 100w, https://textronsteelalloys.com/wp-content/uploads/2025/06/2024-T6-T851-Round-Bars.jpeg 640w" sizes="(max-width: 300px) 100vw, 300px">        <div class="overlay-box">
+            <ul class="cart-option">
+                <li><a href="https://www.textronsteelalloys.com/2024-t6-round-bars-t851-ams-4339-4112/"><span class="fa fa-shopping-cart"></span>Add to Cart</a></li>
+            </ul>
+        </div>
+    </div>
+     
+             
+        <div class="lower-content">
+            <h3><a href="https://www.textronsteelalloys.com/2024-t6-round-bars-t851-ams-4339-4112/">2024 T6 Round Bars</a></h3>
+            <div class="clearfix">
+                <div class="pull-left">
+                    
+                </div>
+                <div class="pull-right">
+                    <!--Rating-->
+                    <div class="rating">
+                                            </div>
+                </div>
+            </div>
+            
+        </div>
+        
+		</div>
+</div>
+        
+                                
+                            <div class="shop-item col-lg-4 col-md-6 col-sm-6 col-xs-12 post-1924 product type-product status-publish has-post-thumbnail product_cat-aluminium-alloy-round-bar last instock shipping-taxable product-type-simple">
+	<div class="inner-box">
+	     
+     <div class="image">
+        <img width="300" height="300" src="https://textronsteelalloys.com/wp-content/uploads/2019/11/5083-h111-Aluminium-Round-Bar-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="5083-h111-Aluminium-Round-Bar" decoding="async" srcset="https://textronsteelalloys.com/wp-content/uploads/2019/11/5083-h111-Aluminium-Round-Bar-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2019/11/5083-h111-Aluminium-Round-Bar-100x100.jpg 100w, https://textronsteelalloys.com/wp-content/uploads/2019/11/5083-h111-Aluminium-Round-Bar-400x400.jpg 400w, https://textronsteelalloys.com/wp-content/uploads/2019/11/5083-h111-Aluminium-Round-Bar-150x150.jpg 150w, https://textronsteelalloys.com/wp-content/uploads/2019/11/5083-h111-Aluminium-Round-Bar-101x101.jpg 101w, https://textronsteelalloys.com/wp-content/uploads/2019/11/5083-h111-Aluminium-Round-Bar-50x50.jpg 50w, https://textronsteelalloys.com/wp-content/uploads/2019/11/5083-h111-Aluminium-Round-Bar-45x45.jpg 45w, https://textronsteelalloys.com/wp-content/uploads/2019/11/5083-h111-Aluminium-Round-Bar.jpg 500w" sizes="(max-width: 300px) 100vw, 300px">        <div class="overlay-box">
+            <ul class="cart-option">
+                <li><a href="https://www.textronsteelalloys.com/aluminium-5083-h111-round-bar/"><span class="fa fa-shopping-cart"></span>Add to Cart</a></li>
+            </ul>
+        </div>
+    </div>
+     
+             
+        <div class="lower-content">
+            <h3><a href="https://www.textronsteelalloys.com/aluminium-5083-h111-round-bar/">5083 H111</a></h3>
+            <div class="clearfix">
+                <div class="pull-left">
+                    
+                </div>
+                <div class="pull-right">
+                    <!--Rating-->
+                    <div class="rating">
+                                            </div>
+                </div>
+            </div>
+            
+        </div>
+        
+		</div>
+</div>
+        
+                                
+                            <div class="shop-item col-lg-4 col-md-6 col-sm-6 col-xs-12 post-2977 product type-product status-publish has-post-thumbnail product_cat-aluminium-alloy-round-bar first instock shipping-taxable product-type-simple">
+	<div class="inner-box">
+	     
+     <div class="image">
+        <img width="300" height="300" src="https://textronsteelalloys.com/wp-content/uploads/2025/08/6061-T6-Round-Bars-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Aluminium 6061 T6 Round Bars" decoding="async" loading="lazy" srcset="https://textronsteelalloys.com/wp-content/uploads/2025/08/6061-T6-Round-Bars-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2025/08/6061-T6-Round-Bars-150x150.jpg 150w, https://textronsteelalloys.com/wp-content/uploads/2025/08/6061-T6-Round-Bars-101x101.jpg 101w, https://textronsteelalloys.com/wp-content/uploads/2025/08/6061-T6-Round-Bars-50x50.jpg 50w, https://textronsteelalloys.com/wp-content/uploads/2025/08/6061-T6-Round-Bars-45x45.jpg 45w, https://textronsteelalloys.com/wp-content/uploads/2025/08/6061-T6-Round-Bars-400x400.jpg 400w, https://textronsteelalloys.com/wp-content/uploads/2025/08/6061-T6-Round-Bars-100x100.jpg 100w, https://textronsteelalloys.com/wp-content/uploads/2025/08/6061-T6-Round-Bars.jpg 500w" sizes="auto, (max-width: 300px) 100vw, 300px">        <div class="overlay-box">
+            <ul class="cart-option">
+                <li><a href="https://www.textronsteelalloys.com/6061-t6-round-bars/"><span class="fa fa-shopping-cart"></span>Add to Cart</a></li>
+            </ul>
+        </div>
+    </div>
+     
+             
+        <div class="lower-content">
+            <h3><a href="https://www.textronsteelalloys.com/6061-t6-round-bars/">6061 T6 Round Bars</a></h3>
+            <div class="clearfix">
+                <div class="pull-left">
+                    
+                </div>
+                <div class="pull-right">
+                    <!--Rating-->
+                    <div class="rating">
+                                            </div>
+                </div>
+            </div>
+            
+        </div>
+        
+		</div>
+</div>
+        
+                                
+                            <div class="shop-item col-lg-4 col-md-6 col-sm-6 col-xs-12 post-2876 product type-product status-publish has-post-thumbnail product_cat-aluminium-alloy-round-bar  instock shipping-taxable product-type-simple">
+	<div class="inner-box">
+	     
+     <div class="image">
+        <img width="300" height="300" src="https://textronsteelalloys.com/wp-content/uploads/2025/04/Aluminium-2024-Round-Bars-300x300.jpeg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Aluminium 2024 Round Bars" decoding="async" loading="lazy" srcset="https://textronsteelalloys.com/wp-content/uploads/2025/04/Aluminium-2024-Round-Bars-300x300.jpeg 300w, https://textronsteelalloys.com/wp-content/uploads/2025/04/Aluminium-2024-Round-Bars-150x150.jpeg 150w, https://textronsteelalloys.com/wp-content/uploads/2025/04/Aluminium-2024-Round-Bars-101x101.jpeg 101w, https://textronsteelalloys.com/wp-content/uploads/2025/04/Aluminium-2024-Round-Bars-50x50.jpeg 50w, https://textronsteelalloys.com/wp-content/uploads/2025/04/Aluminium-2024-Round-Bars-45x45.jpeg 45w, https://textronsteelalloys.com/wp-content/uploads/2025/04/Aluminium-2024-Round-Bars-400x400.jpeg 400w, https://textronsteelalloys.com/wp-content/uploads/2025/04/Aluminium-2024-Round-Bars-100x100.jpeg 100w, https://textronsteelalloys.com/wp-content/uploads/2025/04/Aluminium-2024-Round-Bars.jpeg 640w" sizes="auto, (max-width: 300px) 100vw, 300px">        <div class="overlay-box">
+            <ul class="cart-option">
+                <li><a href="https://www.textronsteelalloys.com/aluminium-2024-round-bars/"><span class="fa fa-shopping-cart"></span>Add to Cart</a></li>
+            </ul>
+        </div>
+    </div>
+     
+             
+        <div class="lower-content">
+            <h3><a href="https://www.textronsteelalloys.com/aluminium-2024-round-bars/">Aluminium 2024 Round Bars</a></h3>
+            <div class="clearfix">
+                <div class="pull-left">
+                    
+                </div>
+                <div class="pull-right">
+                    <!--Rating-->
+                    <div class="rating">
+                                            </div>
+                </div>
+            </div>
+            
+        </div>
+        
+		</div>
+</div>
+        
+                                
+                            <div class="shop-item col-lg-4 col-md-6 col-sm-6 col-xs-12 post-2941 product type-product status-publish product_cat-aluminium-alloy-round-bar last instock shipping-taxable product-type-simple">
+	<div class="inner-box">
+	     
+     <div class="image">
+        <img width="300" height="300" src="https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png" class="woocommerce-placeholder wp-post-image" alt="Placeholder" decoding="async" loading="lazy" srcset="https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png 300w, https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-100x100.png 100w, https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-400x400.png 400w, https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-150x150.png 150w, https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-768x768.png 768w, https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-1024x1024.png 1024w, https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-101x101.png 101w, https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-50x50.png 50w, https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder.png 1200w" sizes="auto, (max-width: 300px) 100vw, 300px">        <div class="overlay-box">
+            <ul class="cart-option">
+                <li><a href="https://www.textronsteelalloys.com/aluminium-24345-round-bar/"><span class="fa fa-shopping-cart"></span>Add to Cart</a></li>
+            </ul>
+        </div>
+    </div>
+     
+             
+        <div class="lower-content">
+            <h3><a href="https://www.textronsteelalloys.com/aluminium-24345-round-bar/">Aluminium 24345 Round Bar</a></h3>
+            <div class="clearfix">
+                <div class="pull-left">
+                    
+                </div>
+                <div class="pull-right">
+                    <!--Rating-->
+                    <div class="rating">
+                                            </div>
+                </div>
+            </div>
+            
+        </div>
+        
+		</div>
+</div>
+        
+                                
+                    </div>
+        
+                    </div></div>        
+                
+					
+				</div>
+            </div>
+
+            <!-- sidebar area -->
+            				                    <div class="sidebar-side col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                        <aside class="sidebar default-sidebar">
+                            <div id="woocommerce_product_categories-4" class="widget sidebar-widget woocommerce widget_product_categories"><div class="sidebar-title"><h2>Product categories</h2></div><select name="product_cat" id="product_cat" class="dropdown_product_cat select2-hidden-accessible" tabindex="-1" aria-hidden="true">
+	<option value="">Select a category</option>
+	<option class="level-0" value="16mo3-15mo3-sa-204-plates">16MO3-15MO3 &amp; SA 204 Plates&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="abrasion-resistant-steel-plates">Abrasion Resistant Plates&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="alloy-20-round-bars">Alloy 20&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="alloy-steel-f5-f9-f11-f12-f22-f91">Alloy Steel F Series&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="alloy-steel-pipes-tubes">Alloy Steel Pipe&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="alloy-steel-plates-sheets">Alloy Steel Plates&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="alloy-steel-round-bars">Alloy Steel Round&nbsp;&nbsp;(41)</option>
+	<option class="level-0" value="aluminium">Aluminium&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="aluminium-alloy">Aluminium Alloy&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="aluminium-alloy-round-bar" selected="selected">Aluminium Alloy&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="aluminium-bronze">Aluminium Bronze&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="aluminium-wires">Aluminium Wires&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="boiler-quality-steel-plates">Boiler Quality Steel Plates&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="boron-grades">Boron Grades&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="bronze">Bronze&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="carbon-steel-round-bars">Carbon Steel&nbsp;&nbsp;(43)</option>
+	<option class="level-0" value="carbon-steel-pipes-tubes">Carbon Steel&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="carbon-steel-plates-sheets">Carbon Steel&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="chequered-plate">Chequered Plate&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="chrome-moly-plates">Chrome Moly Plates&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="cobalt">Cobalt&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="cobalt-base-welding-electrodes">Cobalt Base Electrode&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="cold-rolled">Cold Rolled&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="cold-work-steels">Cold Work Steels&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="copper-nickel-round-bars">Copper Nickel&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="copper-wires">Copper Wires&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="duplex-super-duplex-round-bars">Duplex &amp; Super Duplex&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="duplex-and-super-duplex-plates-sheets">Duplex and Super Duplex&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="duplex-and-super-duplex-pipes">Duplex and Super Duplex Pipes&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="en-series">EN Series&nbsp;&nbsp;(28)</option>
+	<option class="level-0" value="flanges">Flanges&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="galvanized">Galvanized&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="hastelloy-pipes-tubes">Hastelloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="hastelloy-plates-sheets">Hastelloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="hastelloy-round-bars">Hastelloy&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="hastelloy-buttweld-fittings">Hastelloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="high-speed-steel">High Speed Steel&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="high-tensile">High Tensile&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="high-tensile-strength">High Tensile Strength&nbsp;&nbsp;(13)</option>
+	<option class="level-0" value="hot-rolled-is-2062-plates">Hot Rolled IS 2062 Plates&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="hot-work-steel">Hot Work Steel&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="incoloy-plates-sheets">Incoloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="inconel-plates-sheets">Inconel&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="inconel-round-bars">Inconel&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="inconel-pipes-tubes">Inconel&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="manganese-bronze">Manganese Bronze&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="manganese-steel-plates">Manganese Steel Plates&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="monel-round-bars">Monel&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="nickel-alloy-plates-sheets">Nickel Alloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="nickel-alloy-round-bars">Nickel Alloy Round Bars&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="pins">Pins&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="pipes-tubes">Pipes &amp; Tubes&nbsp;&nbsp;(36)</option>
+	<option class="level-0" value="plates-sheets">Plates &amp; Sheets&nbsp;&nbsp;(54)</option>
+	<option class="level-0" value="precipitation-hardening-stainless-steel">Precipitation Hardening Steel&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="quenched-tempered-steel-plates">Quenched &amp; Tempered Plates&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="round-bars">Round Bars&nbsp;&nbsp;(206)</option>
+	<option class="level-0" value="specialized-products">Specialized Products&nbsp;&nbsp;(45)</option>
+	<option class="level-0" value="stainless-steel">Stainless Steel&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="stainless-steel-welding-electrode">Stainless Steel Electrode&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="stainless-steel-pipes-tubes">Stainless Steel Pipes &amp; Tubes&nbsp;&nbsp;(24)</option>
+	<option class="level-0" value="stainless-steel-plates-sheets">Stainless Steel Plates&nbsp;&nbsp;(25)</option>
+	<option class="level-0" value="stainless-steel-profiles">Stainless Steel Profiles&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="stainless-steel-round-bars">Stainless Steel Round Bars&nbsp;&nbsp;(49)</option>
+	<option class="level-0" value="titanium-round-bars">Titanium&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="titanium-alloys">Titanium Alloys&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="tool-steel">Tool Steel&nbsp;&nbsp;(10)</option>
+</select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-product_cat-container" role="combobox"><span class="select2-selection__rendered" id="select2-product_cat-container" role="textbox" aria-readonly="true" title="Aluminium Alloy&nbsp;&nbsp;(6)"><span class="select2-selection__clear">×</span>Aluminium Alloy&nbsp;&nbsp;(6)</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+</div><div id="rpwe_widget-2" class="widget sidebar-widget rpwe_widget recent-posts-extended"><div class="sidebar-title"><h2><a href="https://www.textronsteelalloys.com/shop/" title="Products">Products</a></h2></div><div class="rpwe-block"><ul class="rpwe-ul"><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/s890ql-plates/" target="_self">S890QL Plates</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/s275jr-plates-sheets-ss400-1-0044-a36/" target="_self">S275JR Plates</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/s960ql-plates-quend-960-1-8933-sheets/" target="_self">S960QL Plates</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/en16-round-bars-605m36/" target="_self">EN16 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/6061-t6-round-bars/" target="_self">6061 T6 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/etg100-round-bars-etg88-free-cutting-steel/" target="_self">ETG100 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/40cr7al10mo2-round-bars/" target="_self">40Cr7Al10Mo2 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/905m39-round-bars-bs-970/" target="_self">905M39 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/1-2799-flat-bars-x2nicomoti1288/" target="_self">1.2799 Flat Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/sum-43-round-bars-jis-g-4804/" target="_self">SUM43 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/scm-420-round-bars-18crmo4-1-7243-aisi-4118/" target="_self">SCM420 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/1-4122-round-bars-x39crmo17-1/" target="_self">1.4122 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/38mnvs6-round-bars-1-1303/" target="_self">38MnVS6 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/t55ni7cr4mo5v1-round-bars/" target="_self">T55Ni7Cr4Mo5V1 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/x46cr13-round-bars-1-4034/" target="_self">X46Cr13 Round Bars</a></h3></li></ul></div><!-- Generated by http://wordpress.org/plugins/recent-posts-widget-extended/ --></div>                                                    </aside>
+                    </div>
+                                		<!--Sidebar-->
+    
+		</div>
+	</div>
+</div>
+	
+	<div class="clearfix"></div>
+	
+	<!--Main Footer-->
+    <footer class="main-footer style-two" style="background-image:url('http://www.textronsteelalloys.com/wp-content/uploads/2018/11/foterneqw.jpg')">
+    				                <div class="auto-container">
+                <!--Widgets Section-->
+                    <div class="widgets-section">
+                        <div class="row clearfix">
+                           <div class="footer-column col-md-3 col-sm-6 col-xs-12"><div id="bunch_about_us-3" class="footer-widget widget_bunch_about_us">      		
+			<div class="logo-widget">
+                <div class="logo">
+                    <a href="https://www.textronsteelalloys.com/"><img src="http://www.textronsteelalloys.com/wp-content/uploads/2018/11/LOGO-PNG-new11.png" alt=""></a>
+                </div>
+                <div class="text">Experience and knowledge of International industrial systems, dedicated to provide the best economical solutions to our valued customers. We Won Many Factory Awards and Certified.</div>
+            
+            	                    <ul class="social-icon-two">
+                        <li class="follow">Follow us :</li>
+						
+			<li><a title="Facebook" href="https://www.facebook.com/textronsteelalloys"><span class="fa fa-facebook"></span></a></li>
+
+			<li><a title="Twitter" href="https://www.twitter.com/textronsteel"><span class="fa fa-twitter"></span></a></li>
+
+			<li><a title="Google Plus" href="https://plus.google.com/u/0/108983006659811198159"><span class="fa fa-google-plus"></span></a></li>
+
+			<li><a title="Linkedin" href="https://www.linkedin.com/company/textron-steel-&amp;-alloys/"><span class="fa fa-linkedin"></span></a></li>
+
+			<li><a title="" href="#"><span class="fa "></span></a></li>
+                    </ul>
+				            </div>
+            
+		</div></div><div class="widget_text footer-column col-md-3 col-sm-6 col-xs-12"><div id="custom_html-4" class="widget_text footer-widget widget_custom_html"><h2>Quick Links</h2><div class="textwidget custom-html-widget"><div class="widget-content">
+<ul class="lisks">         
+<li><a href="http://www.textronsteelalloys.com/">Home</a></li>
+<li><a href="http://www.textronsteelalloys.com/shop/">Products</a></li>
+<li><a href="http://www.textronsteelalloys.com/product-category/specialized-products/">Specialized Products</a></li>
+<li><a href="http://www.textronsteelalloys.com/about/">About us</a></li>
+<li><a href="http://www.textronsteelalloys.com/contact-us/">Contact</a></li>
+	</ul>
+</div></div></div></div><div class="widget_text footer-column col-md-3 col-sm-6 col-xs-12"><div id="custom_html-3" class="widget_text footer-widget widget_custom_html"><h2>Products</h2><div class="textwidget custom-html-widget"><div class="widget-content">
+<ul class="lisks">         
+<li><a href="http://www.textronsteelalloys.com/product-category/flanges/">Flanges</a></li>
+<li><a href="http://www.textronsteelalloys.com/product-category/pipes-tubes/">Pipes &amp; Tubes</a></li>
+<li><a href="http://www.textronsteelalloys.com/product-category/plates-sheets/">Plates &amp; Sheets</a></li>
+<li><a href="http://www.textronsteelalloys.com/product-category/round-bars/">Round Bars</a></li>
+<li><a href="http://www.textronsteelalloys.com/product-category/specialized-products/">Specialized Products</a></li>
+<li><a href="http://www.textronsteelalloys.com/product-category/fittings/">Fittings</a></li></ul>
+</div></div></div></div><div class="widget_text footer-column col-md-3 col-sm-6 col-xs-12"><div id="custom_html-2" class="widget_text footer-widget widget_custom_html"><h2>Contact Details</h2><div class="textwidget custom-html-widget"><p style="color:#fff;"><i class="fa fa-map-marker"> </i> <span style="line-height:27px; margin-left:5px;"> 89/91, Shop No. G-9,</span> <br>
+<span style="margin-left:20px;">Durgadevi Street, 4th Kumbharwada,</span><br>
+<span style="margin-left:20px;">Mumbai – 400004,</span><br>
+<span style="margin-left:20px;"> Maharashtra, India.</span><br></p>
+
+<p style="color:#fff;">
+	<i class="fa fa-phone"></i><a href="tel:022 6610 9269"><span style="margin-left:5px;"> 022 6610 9269</span>
+</a><br>
+<i class="fa fa-phone"></i><a href="tel:+919967449008"><span style="margin-left:5px;"> +91 99674 49008</span>
+</a></p>
+
+<p style="color:#fff;"><i class="fa fa-envelope"></i><a href="mailto:textron.steel.alloys@gmail.com "><span style="margin-left:5px;"> textron.steel.alloys@gmail.com</span></a></p>
+<p style="color:#fff;"><i class="fa fa-envelope"></i><a href="mailto:info@textronsteelalloys.com "><span style="margin-left:5px;"> info@textronsteelalloys.com</span></a></p></div></div></div> 
+                        </div>
+                    </div>
+                </div>
+                            
+                <!--Footer Bottom-->
+        <div class="footer-bottom">
+        	<div class="auto-container">
+            	<div class="copyright">© 2019-20 Textron. All rights Reserved. Developed by <a href="http://www.textronsteelalloys.com/" target="_blank">Textron Steel and Alloys</a></div>
+            </div>
+        </div>
+            </footer>
+    
+</div>    
+<!--End pagewrapper-->
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html" style="display: block;"><span class="icon fa fa-angle-double-up"></span></div>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/manufacto-child\/*","\/wp-content\/themes\/manufacto\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+	<script type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<link rel="stylesheet" id="wc-blocks-style-css" href="https://textronsteelalloys.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-9.8.4" type="text/css" media="all">
+<link rel="stylesheet" id="woof_sections_style-css" href="https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/ext/sections/css/sections.css?ver=1.3.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="woof_tooltip-css-css" href="https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/js/tooltip/css/tooltipster.bundle.min.css?ver=1.3.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="woof_tooltip-css-noir-css" href="https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/js/tooltip/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-noir.min.css?ver=1.3.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="ion.range-slider-css" href="https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/js/ion.range-slider/css/ion.rangeSlider.css?ver=1.3.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="rpwe-style-css" href="https://textronsteelalloys.com/wp-content/plugins/recent-posts-widget-extended/assets/css/rpwe-frontend.css?ver=2.0.2" type="text/css" media="all">
+<link rel="stylesheet" id="woof-front-builder-css-css" href="https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/ext/front_builder/css/front-builder.css?ver=1.3.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="woof-slideout-tab-css-css" href="https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/ext/slideout/css/jquery.tabSlideOut.css?ver=1.3.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="woof-slideout-css-css" href="https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/ext/slideout/css/slideout.css?ver=1.3.7.1" type="text/css" media="all">
+<script type="text/javascript" id="chaty-front-end-js-extra">
+/* <![CDATA[ */
+var chaty_settings = {"ajax_url":"https:\/\/textronsteelalloys.com\/wp-admin\/admin-ajax.php","analytics":"0","capture_analytics":"0","token":"c6b574406f","chaty_widgets":[{"id":0,"identifier":0,"settings":{"cta_type":"simple-view","cta_body":"","cta_head":"","cta_head_bg_color":"","cta_head_text_color":"","show_close_button":0,"position":"right","custom_position":1,"bottom_spacing":"25","side_spacing":"25","icon_view":"vertical","default_state":"open","cta_text":"","cta_text_color":"#333333","cta_bg_color":"#ffffff","show_cta":"all_time","is_pending_mesg_enabled":"off","pending_mesg_count":"","pending_mesg_count_color":"#ffffff","pending_mesg_count_bgcolor":"#dd0000","widget_icon":"chat-bubble","widget_icon_url":"","font_family":"-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif","widget_size":"54","custom_widget_size":"54","is_google_analytics_enabled":0,"close_text":"Hide","widget_color":"#FF6060","widget_icon_color":"#ffffff","widget_rgb_color":"255,96,96","has_custom_css":0,"custom_css":"","widget_token":"9bd69ff672","widget_index":"","attention_effect":""},"triggers":{"has_time_delay":1,"time_delay":"0","exit_intent":0,"has_display_after_page_scroll":0,"display_after_page_scroll":"0","auto_hide_widget":0,"hide_after":0,"show_on_pages_rules":[],"time_diff":0,"has_date_scheduling_rules":0,"date_scheduling_rules":{"start_date_time":"","end_date_time":""},"date_scheduling_rules_timezone":0,"day_hours_scheduling_rules_timezone":0,"has_day_hours_scheduling_rules":[],"day_hours_scheduling_rules":[],"day_time_diff":0,"show_on_direct_visit":0,"show_on_referrer_social_network":0,"show_on_referrer_search_engines":0,"show_on_referrer_google_ads":0,"show_on_referrer_urls":[],"has_show_on_specific_referrer_urls":0,"has_traffic_source":0,"has_countries":0,"countries":[],"has_target_rules":0},"channels":[{"channel":"Email","value":"textron.steel.alloys@gmail.com; info@textronsteelalloys.com","hover_text":"Email Us","chatway_position":"","svg_icon":"<svg width=\"39\" height=\"39\" viewBox=\"0 0 39 39\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><circle class=\"color-element\" cx=\"19.4395\" cy=\"19.4395\" r=\"19.4395\" fill=\"#FF485F\"\/><path d=\"M20.5379 14.2557H1.36919C0.547677 14.2557 0 13.7373 0 12.9597V1.29597C0 0.518387 0.547677 0 1.36919 0H20.5379C21.3594 0 21.9071 0.518387 21.9071 1.29597V12.9597C21.9071 13.7373 21.3594 14.2557 20.5379 14.2557ZM20.5379 12.9597V13.6077V12.9597ZM1.36919 1.29597V12.9597H20.5379V1.29597H1.36919Z\" transform=\"translate(8.48619 12.3117)\" fill=\"white\"\/><path d=\"M10.9659 8.43548C10.829 8.43548 10.692 8.43548 10.5551 8.30588L0.286184 1.17806C0.012346 0.918864 -0.124573 0.530073 0.149265 0.270879C0.423104 0.0116857 0.833862 -0.117911 1.1077 0.141283L10.9659 7.00991L20.8241 0.141283C21.0979 -0.117911 21.5087 0.0116857 21.7825 0.270879C22.0563 0.530073 21.9194 0.918864 21.6456 1.17806L11.3766 8.30588C11.2397 8.43548 11.1028 8.43548 10.9659 8.43548Z\" transform=\"translate(8.47443 12.9478)\" fill=\"white\"\/><path d=\"M9.0906 7.13951C8.95368 7.13951 8.81676 7.13951 8.67984 7.00991L0.327768 1.17806C-0.0829894 0.918864 -0.0829899 0.530073 0.190849 0.270879C0.327768 0.0116855 0.738525 -0.117911 1.14928 0.141282L9.50136 5.97314C9.7752 6.23233 9.91212 6.62112 9.63828 6.88032C9.50136 7.00991 9.36444 7.13951 9.0906 7.13951Z\" transform=\"translate(20.6183 18.7799)\" fill=\"white\"\/><path d=\"M0.696942 7.13951C0.423104 7.13951 0.286185 7.00991 0.149265 6.88032C-0.124573 6.62112 0.012346 6.23233 0.286185 5.97314L8.63826 0.141282C9.04902 -0.117911 9.45977 0.0116855 9.59669 0.270879C9.87053 0.530073 9.73361 0.918864 9.45977 1.17806L1.1077 7.00991C0.970781 7.13951 0.833862 7.13951 0.696942 7.13951Z\" transform=\"translate(8.47443 18.7799)\" fill=\"white\"\/><\/svg>","is_desktop":1,"is_mobile":1,"icon_color":"rgb(255, 143, 72)","icon_rgb_color":"255,143,72","channel_type":"Email","custom_image_url":"","order":"","pre_set_message":"","is_use_web_version":"1","is_open_new_tab":"1","is_default_open":"0","has_welcome_message":"0","emoji_picker":"1","input_placeholder":"Write your message...","chat_welcome_message":"","wp_popup_headline":"","wp_popup_nickname":"","wp_popup_profile":"","wp_popup_head_bg_color":"#4AA485","qr_code_image_url":"","mail_subject":"","channel_account_type":"personal","contact_form_settings":[],"contact_fields":[],"url":"mailto:textron.steel.alloys@gmail.com; info@textronsteelalloys.com","mobile_target":"","desktop_target":"","target":"","is_agent":0,"agent_data":[],"header_text":"","header_sub_text":"","header_bg_color":"","header_text_color":"","widget_token":"9bd69ff672","widget_index":"","click_event":"","viber_url":""},{"channel":"Whatsapp","value":"919967449008","hover_text":"WhatsApp Us","chatway_position":"","svg_icon":"<svg width=\"39\" height=\"39\" viewBox=\"0 0 39 39\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><circle class=\"color-element\" cx=\"19.4395\" cy=\"19.4395\" r=\"19.4395\" fill=\"#49E670\"\/><path d=\"M12.9821 10.1115C12.7029 10.7767 11.5862 11.442 10.7486 11.575C10.1902 11.7081 9.35269 11.8411 6.84003 10.7767C3.48981 9.44628 1.39593 6.25317 1.25634 6.12012C1.11674 5.85403 2.13001e-06 4.39053 2.13001e-06 2.92702C2.13001e-06 1.46351 0.83755 0.665231 1.11673 0.399139C1.39592 0.133046 1.8147 1.01506e-06 2.23348 1.01506e-06C2.37307 1.01506e-06 2.51267 1.01506e-06 2.65226 1.01506e-06C2.93144 1.01506e-06 3.21063 -2.02219e-06 3.35022 0.532183C3.62941 1.19741 4.32736 2.66092 4.32736 2.79397C4.46696 2.92702 4.46696 3.19311 4.32736 3.32616C4.18777 3.59225 4.18777 3.59224 3.90858 3.85834C3.76899 3.99138 3.6294 4.12443 3.48981 4.39052C3.35022 4.52357 3.21063 4.78966 3.35022 5.05576C3.48981 5.32185 4.18777 6.38622 5.16491 7.18449C6.42125 8.24886 7.39839 8.51496 7.81717 8.78105C8.09636 8.91409 8.37554 8.9141 8.65472 8.648C8.93391 8.38191 9.21309 7.98277 9.49228 7.58363C9.77146 7.31754 10.0507 7.1845 10.3298 7.31754C10.609 7.45059 12.2841 8.11582 12.5633 8.38191C12.8425 8.51496 13.1217 8.648 13.1217 8.78105C13.1217 8.78105 13.1217 9.44628 12.9821 10.1115Z\" transform=\"translate(12.9597 12.9597)\" fill=\"#FAFAFA\"\/><path d=\"M0.196998 23.295L0.131434 23.4862L0.323216 23.4223L5.52771 21.6875C7.4273 22.8471 9.47325 23.4274 11.6637 23.4274C18.134 23.4274 23.4274 18.134 23.4274 11.6637C23.4274 5.19344 18.134 -0.1 11.6637 -0.1C5.19344 -0.1 -0.1 5.19344 -0.1 11.6637C-0.1 13.9996 0.624492 16.3352 1.93021 18.2398L0.196998 23.295ZM5.87658 19.8847L5.84025 19.8665L5.80154 19.8788L2.78138 20.8398L3.73978 17.9646L3.75932 17.906L3.71562 17.8623L3.43104 17.5777C2.27704 15.8437 1.55796 13.8245 1.55796 11.6637C1.55796 6.03288 6.03288 1.55796 11.6637 1.55796C17.2945 1.55796 21.7695 6.03288 21.7695 11.6637C21.7695 17.2945 17.2945 21.7695 11.6637 21.7695C9.64222 21.7695 7.76778 21.1921 6.18227 20.039L6.17557 20.0342L6.16817 20.0305L5.87658 19.8847Z\" transform=\"translate(7.7758 7.77582)\" fill=\"white\" stroke=\"white\" stroke-width=\"0.2\"\/><\/svg>","is_desktop":1,"is_mobile":1,"icon_color":"#49E670","icon_rgb_color":"73,230,112","channel_type":"Whatsapp","custom_image_url":"","order":"","pre_set_message":"","is_use_web_version":"1","is_open_new_tab":"1","is_default_open":"0","has_welcome_message":"0","emoji_picker":"1","input_placeholder":"Write your message...","chat_welcome_message":"<p>How can I help you? :)<\/p>","wp_popup_headline":"","wp_popup_nickname":"","wp_popup_profile":"","wp_popup_head_bg_color":"#4AA485","qr_code_image_url":"","mail_subject":"","channel_account_type":"personal","contact_form_settings":[],"contact_fields":[],"url":"https:\/\/web.whatsapp.com\/send?phone=919967449008","mobile_target":"","desktop_target":"_blank","target":"_blank","is_agent":0,"agent_data":[],"header_text":"","header_sub_text":"","header_bg_color":"","header_text_color":"","widget_token":"9bd69ff672","widget_index":"","click_event":"","viber_url":""}]}],"data_analytics_settings":"off","lang":{"whatsapp_label":"WhatsApp Message","hide_whatsapp_form":"Hide WhatsApp Form","emoji_picker":"Show Emojis"},"has_chatway":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/chaty/js/cht-front-script.min.js?ver=3.3.61663842638" id="chaty-front-end-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="wpmm_js-js-extra">
+/* <![CDATA[ */
+var ajax_objects = {"ajaxurl":"https:\/\/textronsteelalloys.com\/wp-admin\/admin-ajax.php","redirecturl":"https:\/\/www.textronsteelalloys.com\/","loadingmessage":"Sending user info, please wait..."};
+var wpmm_object = {"ajax_url":"https:\/\/textronsteelalloys.com\/wp-admin\/admin-ajax.php","wpmm_responsive_breakpoint":"767px","wpmm_disable_mobile":"false"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/wp-megamenu/assets/js/wpmm.js?ver=1.4.2" id="wpmm_js-js"></script>
+<script type="text/javascript" id="rocket-browser-checker-js-after">
+/* <![CDATA[ */
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-extra">
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/(.+\/)?feed\/?.+\/?|\/(?:.+\/)?embed\/|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/wp-admin\/|\/logout\/|\/wp-login.php","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|php|pdf|html|htm","siteUrl":"https:\/\/www.textronsteelalloys.com","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-after">
+/* <![CDATA[ */
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/themes/manufacto/js/bootstrap.min.js?ver=6.8.2" id="bootstrap-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/themes/manufacto/js/jquery.fancybox.js?ver=6.8.2" id="fancybox-pack-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/themes/manufacto/js/owl.js?ver=6.8.2" id="owl-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/themes/manufacto/js/appear.js?ver=6.8.2" id="appear-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/themes/manufacto/js/wow.js?ver=6.8.2" id="wow-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/themes/manufacto/js/isotope.js?ver=6.8.2" id="isotope-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/themes/manufacto/js/map-script.js?ver=6.8.2" id="map-script-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/themes/manufacto/js/script.js?ver=6.8.2" id="manufacto-main-script-js"></script>
+<script type="text/javascript" id="manufacto-main-script-js-after">
+/* <![CDATA[ */
+if( ajaxurl === undefined ) var ajaxurl = "https://textronsteelalloys.com/wp-admin/admin-ajax.php";
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=9.8.4" id="sourcebuster-js-js"></script>
+<script type="text/javascript" id="wc-order-attribution-js-extra">
+/* <![CDATA[ */
+var wc_order_attribution = {"params":{"lifetime":1.0000000000000000818030539140313095458623138256371021270751953125e-5,"session":30,"base64":false,"ajaxurl":"https:\/\/textronsteelalloys.com\/wp-admin\/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=9.8.4" id="wc-order-attribution-js"></script>
+<script type="text/javascript" id="disabled-source-and-content-protection-js-js-extra">
+/* <![CDATA[ */
+var jh_disabled_options_data = {"disabled_click":"1","disabled_ct_u":"1","disabled_f12":"1","disabled_ctst_i":"1","disabled_ctst_j":"1","disabled_ctst_c":"1","disabled_ct_s":"1","disabled_dragging_img":"1","disabled_notifi_status":"","disabled_notifi_text":"You cannot copy content of this Page","disabled_notifi_position":"right center","disabled_ct_p":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/disabled-source-disabled-right-click-and-content-protection/includes/assets/js/protection.js?ver=1.0.0" id="disabled-source-and-content-protection-js-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/wr-megamenu/assets/3rd-party/bs3/bootstrap/js/bootstrap_frontend.min.js?ver=3.0.2" id="wr-bootstrap3-frontend-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/wr-megamenu/assets/js/frontend.js" id="wr-megamenu-site-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-includes/js/hoverIntent.min.js?ver=1.10.2" id="hoverIntent-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/megamenu/js/maxmegamenu.js?ver=3.6.2" id="megamenu-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/kingcomposer/assets/frontend/js/kingcomposer.min.js?ver=2.9.6" id="kc-front-scripts-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/js/tooltip/js/tooltipster.bundle.min.js?ver=1.3.7.1" id="woof_tooltip-js-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/js/icheck/icheck.min.js?ver=1.3.7.1" id="icheck-jquery-js"></script>
+<script type="text/javascript" id="woof_front-js-extra">
+/* <![CDATA[ */
+var woof_filter_titles = {"product_cat":"Product categories"};
+var woof_ext_filter_titles = {"woof_author":"By author","stock":"In stock","onsales":"On sale","byrating":"By rating","woof_text":"By text"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="woof_front-js-before">
+/* <![CDATA[ */
+        const woof_front_nonce = "f77271c90d";
+        var woof_is_permalink =1;
+        var woof_shop_page = "";
+                var woof_m_b_container =".woocommerce-products-header";
+        var woof_really_curr_tax = {};
+        var woof_current_page_link = location.protocol + '//' + location.host + location.pathname;
+        /*lets remove pagination from woof_current_page_link*/
+        woof_current_page_link = woof_current_page_link.replace(/\page\/[0-9]+/, "");
+                var woof_link = 'https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/';
+                    woof_really_curr_tax = {term_id:171, taxonomy: "product_cat"};
+            
+        var woof_ajaxurl = "https://textronsteelalloys.com/wp-admin/admin-ajax.php";
+
+        var woof_lang = {
+        'orderby': "orderby",
+        'date': "date",
+        'perpage': "per page",
+        'pricerange': "price range",
+        'menu_order': "menu order",
+        'popularity': "popularity",
+        'rating': "rating",
+        'price': "price low to high",
+        'price-desc': "price high to low",
+        'clear_all': "Clear All",
+        'list_opener': "Сhild list opener",
+        };
+
+        if (typeof woof_lang_custom == 'undefined') {
+        var woof_lang_custom = {};/*!!important*/
+        }
+
+        var woof_is_mobile = 0;
+        
+
+
+        var woof_show_price_search_button = 0;
+        var woof_show_price_search_type = 0;
+        
+        var woof_show_price_search_type = 0;
+        var swoof_search_slug = "swoof";
+
+        
+        var icheck_skin = {};
+                                icheck_skin.skin = "flat";
+            icheck_skin.color = "blue";
+        
+        var woof_select_type = 'selectwoo';
+
+
+                var woof_current_values = '[]';
+                var woof_lang_loading = "Loading ...";
+
+        
+        var woof_lang_show_products_filter = "show products filter";
+        var woof_lang_hide_products_filter = "hide products filter";
+        var woof_lang_pricerange = "price range";
+
+        var woof_use_beauty_scroll =0;
+
+        var woof_autosubmit =0;
+        var woof_ajaxurl = "https://textronsteelalloys.com/wp-admin/admin-ajax.php";
+        /*var woof_submit_link = "";*/
+        var woof_is_ajax = 0;
+        var woof_ajax_redraw = 0;
+        var woof_ajax_page_num =1;
+        var woof_ajax_first_done = false;
+        var woof_checkboxes_slide_flag = 1;
+
+
+        /*toggles*/
+        var woof_toggle_type = "text";
+
+        var woof_toggle_closed_text = "+";
+        var woof_toggle_opened_text = "-";
+
+        var woof_toggle_closed_image = "https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/img/plus.svg";
+        var woof_toggle_opened_image = "https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/img/minus.svg";
+
+        var woof_save_state_checkbox = 1;
+
+        /*indexes which can be displayed in red buttons panel*/
+                var woof_accept_array = ["min_price", "orderby", "perpage", "woof_author","stock","onsales","byrating","woof_text","min_rating","product_brand","product_visibility","product_cat","product_tag"];
+
+        
+        /*for extensions*/
+
+        var woof_ext_init_functions = null;
+                    woof_ext_init_functions = '{"by_author":"woof_init_author","by_instock":"woof_init_instock","by_onsales":"woof_init_onsales","by_text":"woof_init_text","label":"woof_init_labels","select_radio_check":"woof_init_select_radio_check","step_filter":"woof_step_filter_html_items"}';
+        
+
+        
+        var woof_overlay_skin = "default";
+
+        
+ function woof_js_after_ajax_done() { jQuery(document).trigger('woof_ajax_done'); 
+
+}
+ var woof_front_sd_is_a=1;var woof_front_show_notes=1;var woof_lang_front_builder_del="Are you sure you want to delete this filter-section?";var woof_lang_front_builder_options="Options";var woof_lang_front_builder_option="Option";var woof_lang_front_builder_section_options="Section Options";var woof_lang_front_builder_description="Description";var woof_lang_front_builder_close="Close";var woof_lang_front_builder_suggest="Suggest the feature";var woof_lang_front_builder_good_to_use="good to use in content areas";var woof_lang_front_builder_confirm_sd="Smart Designer item will be created and attached to this filter section and will cancel current type, proceed?";var woof_lang_front_builder_creating="Creating";var woof_lang_front_builder_shortcode="Shortcode";var woof_lang_front_builder_layout="Layout";var woof_lang_front_builder_filter_section="Section options";var woof_lang_front_builder_filter_redrawing="filter redrawing";var woof_lang_front_builder_filter_redrawn="redrawn";var woof_lang_front_builder_filter_redrawn="redrawn";var woof_lang_front_builder_title_top_info="this functionality is only visible for the site administrator";var woof_lang_front_builder_title_top_info_demo="demo mode is activated, and results are visible only to you";;var woof_lang_front_builder_select="+ Add filter section";
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/js/front.js?ver=1.3.7.1" id="woof_front-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/js/html_types/radio.js?ver=1.3.7.1" id="woof_radio_html_items-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/js/html_types/checkbox.js?ver=1.3.7.1" id="woof_checkbox_html_items-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/js/html_types/select.js?ver=1.3.7.1" id="woof_select_html_items-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/js/html_types/mselect.js?ver=1.3.7.1" id="woof_mselect_html_items-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/ext/by_author/js/by_author.js?ver=1.3.7.1" id="woof_by_author_html_items-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/ext/by_instock/js/by_instock.js?ver=1.3.7.1" id="woof_by_instock_html_items-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/ext/by_onsales/js/by_onsales.js?ver=1.3.7.1" id="woof_by_onsales_html_items-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/ext/by_text/assets/js/front.js?ver=1.3.7.1" id="woof_by_text_html_items-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/ext/label/js/html_types/label.js?ver=1.3.7.1" id="woof_label_html_items-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/ext/sections/js/sections.js?ver=1.3.7.1" id="woof_sections_html_items-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/ext/select_radio_check/js/html_types/select_radio_check.js?ver=1.3.7.1" id="woof_select_radio_check_html_items-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/ext/smart_designer/js/front.js?ver=1.3.7.1" id="woof_sd_html_items-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/ext/step_filer/js/step_filter.js?ver=1.3.7.1" id="woof_step_filter_html_items-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js?ver=1.0.9-wc.9.8.4" id="selectWoo-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3-wc.9.8.4" id="select2-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/js/ion.range-slider/js/ion.rangeSlider.min.js?ver=1.3.7.1" id="ion.range-slider-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/js/woof_sid.js?ver=1.3.7.1" id="woof_sid-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/ext/slideout/js/jquery.tabSlideOut.js?ver=1.3.7.1" id="woof-slideout-js-js"></script>
+<script type="text/javascript" src="https://textronsteelalloys.com/wp-content/plugins/woocommerce-products-filter/ext/slideout/js/slideout.js?ver=1.3.7.1" id="woof-slideout-init-js"></script>
+<script type="text/javascript">
+	jQuery('.rpwe-title a').hover(function (event) {
+		var title = jQuery(this).attr('title');
+		title = title.replace('Permalink to ','');
+		jQuery('.rpwe-title a').prop('title', title);
+	});
+</script>
+<!-- WooCommerce JavaScript -->
+<script type="text/javascript">
+jQuery(function($) { 
+
+				jQuery( '.dropdown_product_cat' ).on( 'change', function() {
+					if ( jQuery(this).val() != '' ) {
+						var this_page = '';
+						var home_url  = 'https://www.textronsteelalloys.com/';
+						if ( home_url.indexOf( '?' ) > 0 ) {
+							this_page = home_url + '&product_cat=' + jQuery(this).val();
+						} else {
+							this_page = home_url + '?product_cat=' + jQuery(this).val();
+						}
+						location.href = this_page;
+					} else {
+						location.href = 'https://www.textronsteelalloys.com/shop/';
+					}
+				});
+
+				if ( jQuery().selectWoo ) {
+					var wc_product_cat_select = function() {
+						jQuery( '.dropdown_product_cat' ).selectWoo( {
+							placeholder: 'Select a category',
+							minimumResultsForSearch: 5,
+							width: '100%',
+							allowClear: true,
+							language: {
+								noResults: function() {
+									return 'No matches found';
+								}
+							}
+						} );
+					};
+					wc_product_cat_select();
+				}
+			
+ });
+</script>
+<progress class="readingProgressbar" data-height="6" data-position="top" data-custom-position="" data-foreground="#ff6600" data-background="#000000" value="1100" max="1844" style="background-color: rgb(0, 0, 0); color: rgb(255, 102, 0); height: 6px; top: 0px; bottom: auto; position: fixed; display: block;"></progress>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-130610625-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-130610625-1');
+</script>
+
+
+<div id="woof_html_buffer" class="woof_info_popup" style="display: none;"></div><svg width="39" height="39" viewBox="0 0 39 39" class="hide-cht-svg-bg" fill="none" xmlns="http://www.w3.org/2000/svg"><defs> <linearGradient id="linear-gradient" x1="0.892" y1="0.192" x2="0.128" y2="0.85" gradientUnits="objectBoundingBox"> <stop offset="0" stop-color="#4a64d5"></stop> <stop offset="0.322" stop-color="#9737bd"></stop> <stop offset="0.636" stop-color="#f15540"></stop> <stop offset="1" stop-color="#fecc69"></stop> </linearGradient> <linearGradient id="linear-gradient-insta-dm" x1="0.892" y1="0.192" x2="0.128" y2="0.85" gradientUnits="objectBoundingBox"> <stop offset="0" stop-color="#4A64D5"></stop> <stop offset="0.322" stop-color="#9737BD"></stop> <stop offset="0.636" stop-color="#F15540"></stop> <stop offset="1" stop-color="#FECC69"></stop> </linearGradient></defs></svg><div style="display: none" class="chaty chaty-id-0 chaty-widget-0 chaty-key-0 all_time active" id="chaty-widget-0" data-key="0" data-id="0" data-identifier="0" data-nonce="9bd69ff672"><div class="chaty-widget right-position chaty-no-close-button chaty-open default-open"><div class="chaty-channels"><div class="chaty-channel-list" id="csaas-channels-0"><div class="chaty-channel Email-channel-link" id="Email-0-channel" data-id="Email-0" data-widget="0" data-channel="Email"><a href="mailto:textron.steel.alloys@gmail.com; info@textronsteelalloys.com" target="" rel="nofollow noopener" aria-label="Email" class="chaty-tooltip Email-channel chaty-link chaty-email-channel pos-left" data-form="chaty-form-0-Email" data-hover="Email Us"><span class="chaty-icon channel-icon-Email"><span class="chaty-svg"><svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg"><circle class="color-element" cx="19.4395" cy="19.4395" r="19.4395" fill="#FF485F"></circle><path d="M20.5379 14.2557H1.36919C0.547677 14.2557 0 13.7373 0 12.9597V1.29597C0 0.518387 0.547677 0 1.36919 0H20.5379C21.3594 0 21.9071 0.518387 21.9071 1.29597V12.9597C21.9071 13.7373 21.3594 14.2557 20.5379 14.2557ZM20.5379 12.9597V13.6077V12.9597ZM1.36919 1.29597V12.9597H20.5379V1.29597H1.36919Z" transform="translate(8.48619 12.3117)" fill="white"></path><path d="M10.9659 8.43548C10.829 8.43548 10.692 8.43548 10.5551 8.30588L0.286184 1.17806C0.012346 0.918864 -0.124573 0.530073 0.149265 0.270879C0.423104 0.0116857 0.833862 -0.117911 1.1077 0.141283L10.9659 7.00991L20.8241 0.141283C21.0979 -0.117911 21.5087 0.0116857 21.7825 0.270879C22.0563 0.530073 21.9194 0.918864 21.6456 1.17806L11.3766 8.30588C11.2397 8.43548 11.1028 8.43548 10.9659 8.43548Z" transform="translate(8.47443 12.9478)" fill="white"></path><path d="M9.0906 7.13951C8.95368 7.13951 8.81676 7.13951 8.67984 7.00991L0.327768 1.17806C-0.0829894 0.918864 -0.0829899 0.530073 0.190849 0.270879C0.327768 0.0116855 0.738525 -0.117911 1.14928 0.141282L9.50136 5.97314C9.7752 6.23233 9.91212 6.62112 9.63828 6.88032C9.50136 7.00991 9.36444 7.13951 9.0906 7.13951Z" transform="translate(20.6183 18.7799)" fill="white"></path><path d="M0.696942 7.13951C0.423104 7.13951 0.286185 7.00991 0.149265 6.88032C-0.124573 6.62112 0.012346 6.23233 0.286185 5.97314L8.63826 0.141282C9.04902 -0.117911 9.45977 0.0116855 9.59669 0.270879C9.87053 0.530073 9.73361 0.918864 9.45977 1.17806L1.1077 7.00991C0.970781 7.13951 0.833862 7.13951 0.696942 7.13951Z" transform="translate(8.47443 18.7799)" fill="white"></path></svg></span></span></a></div><div class="chaty-channel Whatsapp-channel-link" id="Whatsapp-0-channel" data-id="Whatsapp-0" data-widget="0" data-channel="Whatsapp"><a href="https://web.whatsapp.com/send?phone=919967449008&amp;text=" target="_blank" rel="nofollow noopener" aria-label="Whatsapp" class="chaty-tooltip Whatsapp-channel chaty-link chaty-whatsapp-channel pos-left" data-form="chaty-form-0-Whatsapp" data-hover="WhatsApp Us"><span class="chaty-icon channel-icon-Whatsapp"><span class="chaty-svg"><svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg"><circle class="color-element" cx="19.4395" cy="19.4395" r="19.4395" fill="#49E670"></circle><path d="M12.9821 10.1115C12.7029 10.7767 11.5862 11.442 10.7486 11.575C10.1902 11.7081 9.35269 11.8411 6.84003 10.7767C3.48981 9.44628 1.39593 6.25317 1.25634 6.12012C1.11674 5.85403 2.13001e-06 4.39053 2.13001e-06 2.92702C2.13001e-06 1.46351 0.83755 0.665231 1.11673 0.399139C1.39592 0.133046 1.8147 1.01506e-06 2.23348 1.01506e-06C2.37307 1.01506e-06 2.51267 1.01506e-06 2.65226 1.01506e-06C2.93144 1.01506e-06 3.21063 -2.02219e-06 3.35022 0.532183C3.62941 1.19741 4.32736 2.66092 4.32736 2.79397C4.46696 2.92702 4.46696 3.19311 4.32736 3.32616C4.18777 3.59225 4.18777 3.59224 3.90858 3.85834C3.76899 3.99138 3.6294 4.12443 3.48981 4.39052C3.35022 4.52357 3.21063 4.78966 3.35022 5.05576C3.48981 5.32185 4.18777 6.38622 5.16491 7.18449C6.42125 8.24886 7.39839 8.51496 7.81717 8.78105C8.09636 8.91409 8.37554 8.9141 8.65472 8.648C8.93391 8.38191 9.21309 7.98277 9.49228 7.58363C9.77146 7.31754 10.0507 7.1845 10.3298 7.31754C10.609 7.45059 12.2841 8.11582 12.5633 8.38191C12.8425 8.51496 13.1217 8.648 13.1217 8.78105C13.1217 8.78105 13.1217 9.44628 12.9821 10.1115Z" transform="translate(12.9597 12.9597)" fill="#FAFAFA"></path><path d="M0.196998 23.295L0.131434 23.4862L0.323216 23.4223L5.52771 21.6875C7.4273 22.8471 9.47325 23.4274 11.6637 23.4274C18.134 23.4274 23.4274 18.134 23.4274 11.6637C23.4274 5.19344 18.134 -0.1 11.6637 -0.1C5.19344 -0.1 -0.1 5.19344 -0.1 11.6637C-0.1 13.9996 0.624492 16.3352 1.93021 18.2398L0.196998 23.295ZM5.87658 19.8847L5.84025 19.8665L5.80154 19.8788L2.78138 20.8398L3.73978 17.9646L3.75932 17.906L3.71562 17.8623L3.43104 17.5777C2.27704 15.8437 1.55796 13.8245 1.55796 11.6637C1.55796 6.03288 6.03288 1.55796 11.6637 1.55796C17.2945 1.55796 21.7695 6.03288 21.7695 11.6637C21.7695 17.2945 17.2945 21.7695 11.6637 21.7695C9.64222 21.7695 7.76778 21.1921 6.18227 20.039L6.17557 20.0342L6.16817 20.0305L5.87658 19.8847Z" transform="translate(7.7758 7.77582)" fill="white" stroke="white" stroke-width="0.2"></path></svg></span></span></a></div></div><div class="chaty-i-trigger csaas-widget-trigger "><div class="chaty-channel chaty-cta-main chaty-tooltip has-on-hover pos-left active" data-widget="0"><span class="on-hover-text"></span><div class="chaty-cta-button"><button type="button" class="open-chaty"><span class="chaty-svg"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="-496.9 507.1 54 54" xml:space="preserve"><style type="text/css">.chaty-sts2-0{fill:#ffffff;}</style><g><circle cx="-469.9" cy="534.1" r="27" fill="#FF6060"></circle></g><path class="chaty-sts2-0" d="M-472.6,522.1h5.3c3,0,6,1.2,8.1,3.4c2.1,2.1,3.4,5.1,3.4,8.1c0,6-4.6,11-10.6,11.5v4.4c0,0.4-0.2,0.7-0.5,0.9   c-0.2,0-0.2,0-0.4,0c-0.2,0-0.5-0.2-0.7-0.4l-4.6-5c-3,0-6-1.2-8.1-3.4s-3.4-5.1-3.4-8.1C-484.1,527.2-478.9,522.1-472.6,522.1z   M-462.9,535.3c1.1,0,1.8-0.7,1.8-1.8c0-1.1-0.7-1.8-1.8-1.8c-1.1,0-1.8,0.7-1.8,1.8C-464.6,534.6-463.9,535.3-462.9,535.3z   M-469.9,535.3c1.1,0,1.8-0.7,1.8-1.8c0-1.1-0.7-1.8-1.8-1.8c-1.1,0-1.8,0.7-1.8,1.8C-471.7,534.6-471,535.3-469.9,535.3z   M-477,535.3c1.1,0,1.8-0.7,1.8-1.8c0-1.1-0.7-1.8-1.8-1.8c-1.1,0-1.8,0.7-1.8,1.8C-478.8,534.6-478.1,535.3-477,535.3z"></path></svg></span><span class="sr-only">Open chaty</span></button><button type="button" class="open-chaty-channel"><span class="sr-only">chaty buttons</span></button></div></div><div class="chaty-channel chaty-cta-close chaty-tooltip pos-left" data-hover="Hide"><div class="chaty-cta-button"><button type="button"><span class="chaty-svg"><svg viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg"><ellipse cx="26" cy="26" rx="26" ry="26" fill="#FF6060"></ellipse><rect width="27.1433" height="3.89857" rx="1.94928" transform="translate(18.35 15.6599) scale(0.998038 1.00196) rotate(45)" fill="#ffffff"></rect><rect width="27.1433" height="3.89857" rx="1.94928" transform="translate(37.5056 18.422) scale(0.998038 1.00196) rotate(135)" fill="#ffffff"></rect></svg></span><span class="sr-only">Hide chaty</span></button></div></div></div></div></div></div><script type="text/javascript"></script><style id="app_ajhbdcgfhlhhmocddefknjjkejcfpbnj_style">html,
+body,
+body *,
+html body *,
+html body.ds *,
+html body div *,
+html body span *,
+html body p *,
+html body h1 *,
+html body h2 *,
+html body h3 *,
+html body h4 *,
+html body h5 *,
+html body h5 *,
+html body h5 *,
+html
+  body
+  *:not(input):not(textarea):not([contenteditable=""]):not(
+    [contenteditable="true"]
+  ) {
+  user-select: text !important;
+  pointer-events: initial !important;
+}
+html body *:not(input):not(textarea)::selection,
+body *:not(input):not(textarea)::selection,
+html body div *:not(input):not(textarea)::selection,
+html body span *:not(input):not(textarea)::selection,
+html body p *:not(input):not(textarea)::selection,
+html body h1 *:not(input):not(textarea)::selection,
+html body h2 *:not(input):not(textarea)::selection,
+html body h3 *:not(input):not(textarea)::selection,
+html body h4 *:not(input):not(textarea)::selection,
+html body h5 *:not(input):not(textarea)::selection {
+  background-color: #3297fd !important;
+  color: #ffffff !important;
+}
+
+/* linkedin */
+/* squize */
+.www_linkedin_com
+  .sa-assessment-flow__card.sa-assessment-quiz
+  .sa-assessment-quiz__scroll-content
+  .sa-assessment-quiz__response
+  .sa-question-multichoice__item.sa-question-basic-multichoice__item
+  .sa-question-multichoice__input.sa-question-basic-multichoice__input.ember-checkbox.ember-view {
+  width: 40px;
+}
+/*linkedin*/
+
+/*instagram*/
+/*wall*/
+.www_instagram_com ._aagw {
+  display: none;
+}
+
+/*developer.box.com*/
+.bp-doc .pdfViewer .page:not(.bp-is-invisible):before {
+  display: none;
+}
+
+/*telegram*/
+.web_telegram_org .emoji-animation-container {
+  display: none;
+}
+
+/*ladno_ru*/
+.ladno_ru [style*="position: absolute; left: 0; right: 0; top: 0; bottom: 0;"] {
+  display: none !important;
+}
+
+/*mycomfyshoes.fr */
+.mycomfyshoes_fr #fader.fade-out {
+  display: none !important;
+}
+
+/*www_mindmeister_com*/
+.www_mindmeister_com .kr-view {
+  z-index: -1 !important;
+}
+
+/*www_newvision_co_ug*/
+.www_newvision_co_ug .v-snack:not(.v-snack--absolute) {
+  z-index: -1 !important;
+}
+
+/*derstarih_com*/
+.derstarih_com .bs-sks {
+  z-index: -1;
+}
+</style><allow-copy-helper><template shadowrootmode="closed"><style>@import url(https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap);</style><style>@import url(https://fonts.googleapis.com/css?family=Poiret+One);</style><style>/* https://codepen.io/nelledejones/pen/gOOPWrK */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root,
+html,
+body {
+  font-family: "Poiret One", "Open Sans", "Helvetica Neue", "Helvetica", "Arial",
+    sans-serif;
+  background: #222;
+  color: white;
+}
+
+.gelatine {
+  animation: gelatine 0.5s infinite;
+}
+@keyframes gelatine {
+  from,
+  to {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    transform: scale(0.95, 1.05);
+  }
+}
+
+.spin {
+  animation: spin 1s infinite linear;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.pulse {
+  animation: pulse 1s infinite ease-in-out alternate;
+}
+@keyframes pulse {
+  from {
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+.flash {
+  animation: flash 500ms ease infinite alternate;
+}
+@keyframes flash {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+
+.hithere {
+  animation: hithere 1s ease infinite;
+}
+@keyframes hithere {
+  30% {
+    transform: scale(1.2);
+  }
+  40%,
+  60% {
+    transform: rotate(-20deg) scale(1.2);
+  }
+  50% {
+    transform: rotate(20deg) scale(1.2);
+  }
+  70% {
+    transform: rotate(0deg) scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.bounce {
+  animation: bounce 2s ease infinite;
+}
+@keyframes bounce {
+  70% {
+    transform: translateY(0%);
+  }
+  80% {
+    transform: translateY(-15%);
+  }
+  90% {
+    transform: translateY(0%);
+  }
+  95% {
+    transform: translateY(-7%);
+  }
+  97% {
+    transform: translateY(0%);
+  }
+  99% {
+    transform: translateY(-3%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+</style><style>.test-bro-bnr {
+  width: 380px;
+  min-height: 360px;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  /* background-color: var(--green);
+  color: var(--black);
+ 
+  text-align: left; */
+}
+.test-bro-bnr .promo-banner {
+  background: linear-gradient(135deg, #7f1aff, #4facfe);
+  padding: 24px;
+  border-radius: 12px;
+  /* было 16px */
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.test-bro-bnr .promo-banner h2 {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.test-bro-bnr .promo-banner h2 .allowcopy,
+.test-bro-bnr .promo-banner h2 .testbro {
+  font-size: 20px;
+}
+
+.test-bro-bnr .promo-banner p {
+  font-size: 15px;
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+
+.test-bro-bnr .promo-banner p a,
+.test-bro-bnr .promo-banner .footer-text a {
+  color: #ffd93d;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.test-bro-bnr .allowcopy {
+  font-size: 15px;
+  color: #ffd93d;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px #000;
+}
+.test-bro-bnr .testbro {
+  font-size: 15px;
+  color: #39ff14 !important;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.test-bro-bnr .gif-placeholder {
+  width: auto;
+  max-width: 100%;
+  height: 140px;
+  background: #ddd;
+  border-radius: 8px;
+  margin: 0 auto 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+  font-size: 14px;
+}
+.test-bro-bnr .gif-placeholder img {
+  max-width: 100%;
+  width: 100%;
+  max-height: 100%;
+}
+.test-bro-bnr .button-group {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.test-bro-bnr .button {
+  padding: 8px 16px;
+  border-radius: 6px;
+  /* было 10px */
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: inline-block;
+}
+
+.test-bro-bnr .try-button {
+  background: linear-gradient(90deg, #39ff14, #bfff00);
+  color: #111;
+  box-shadow: 0 4px 12px rgba(57, 255, 20, 0.6);
+  transform: rotate(-3deg);
+}
+
+.test-bro-bnr .no-thanks {
+  background: #555 !important;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  transform: rotate(4deg);
+}
+
+.test-bro-bnr .button:hover {
+  transform: scale(1.05) rotate(0deg);
+}
+
+.test-bro-bnr .footer-text {
+  font-size: 13px;
+  margin-top: 18px;
+  color: #eee;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.test-bro-bnr p.footer-text {
+  font-size: 13px;
+  margin-top: 14px;
+  color: #eee;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+  .test-bro-bnr .promo-banner {
+    padding: 20px;
+  }
+
+  .test-bro-bnr .button-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+</style><style>/* @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"); */
+
+:host {
+  --yellow: #ffbb09;
+  --yellow-light: #ffc93c;
+  --yellow-lighter: #ffd76f;
+  --black: #000000;
+  --black-light: #111111;
+  --black-lighter: #2a2a2a;
+  --border-gray: #e8e8e8;
+  --text: #666;
+  --white: #ffffff;
+  --font-size: 14px;
+  color: var(--text);
+  font-size: var(--font-size);
+  font-family: "Rubik", sans-serif;
+}
+:host * {
+  font-size: var(--font-size);
+  color: inherit;
+  line-height: 1.25;
+}
+
+/* COMMON */
+:host p {
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 1;
+  margin: 0;
+  padding: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+:host button {
+  font-weight: 600;
+  font-size: 1em;
+  text-transform: uppercase;
+  background-color: var(--yellow-light);
+  border: 1px solid var(--yellow);
+  border-radius: 0.25em;
+  padding: 0.5em 1em;
+  min-width: 8em;
+  margin: 0em 0em;
+  cursor: pointer;
+  display: inline-block;
+}
+:host button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+:host button:not(:disabled):hover {
+  background-color: var(--yellow);
+  border-color: var(--yellow);
+}
+
+:host button.button__rounded {
+  border-radius: 1.05em;
+}
+:host button .loader {
+  width: 1.05em;
+  height: 1.05em;
+}
+.button .loader:before {
+  width: 0.8em;
+  height: 0.8em;
+}
+
+:host a {
+  color: inherit;
+}
+/* END COMMON */
+
+:host .app-help__position {
+  z-index: 2147483647;
+  position: fixed;
+  bottom: 2em;
+  left: 2em;
+}
+
+:host .app-help__btn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6em;
+  border-radius: 0.6em;
+  background-color: var(--yellow);
+  box-shadow: rgb(0 0 0 / 20%) 0px 11px 15px -7px,
+    rgb(0 0 0 / 14%) 0px 24px 38px 3px, rgb(0 0 0 / 12%) 0px 9px 46px 8px;
+}
+:host .app-help__btn svg {
+  fill: var(--black-lighter);
+  width: 2em;
+  height: 2em;
+}
+/* FRAME */
+:host .app-frame {
+  overflow-x: auto;
+  background-color: var(--white);
+  border-radius: 0.4em;
+
+  padding: 0em;
+  box-shadow: rgb(0 0 0 / 20%) 0px 11px 15px -7px,
+    rgb(0 0 0 / 14%) 0px 24px 38px 3px, rgb(0 0 0 / 12%) 0px 9px 46px 8px;
+  width: 400px;
+  max-width: calc(100% - 80px);
+  min-width: 340px;
+  height: 580px;
+  max-height: calc(100% - 80px);
+}
+:host .app-frame_header {
+  height: 4em;
+  border-bottom: 1px solid var(--border-gray);
+}
+:host .app-frame_footer {
+  border-top: 1px solid var(--border-gray);
+  height: calc(4em + 3em);
+}
+:host .app-frame_header,
+:host .app-frame_footer {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+/* END FRAME */
+
+/* HEADER */
+:host .popup_header {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  padding: 0.5em 1em;
+  box-sizing: border-box;
+  color: var(--black-lighter);
+}
+
+:host .popup_header .header_logo {
+  width: 2em;
+  height: 2em;
+  background: var(--yellow);
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
+
+:host .popup_header .header_title {
+  width: 100%;
+  padding: 0 0.5em;
+  margin: 0;
+  font-size: 1.4em;
+}
+
+:host .popup_header .header_actions {
+  display: inline-flex;
+  align-items: center;
+}
+
+:host .popup_header .header_actions svg {
+  fill: currentColor;
+  width: 1.5em;
+  height: 1.5em;
+  cursor: pointer;
+}
+
+:host .popup_header .header_actions svg:hover {
+  fill: var(--black);
+}
+
+:host .popup_header .header_actions svg.close-icon {
+  width: 2em;
+  height: 2em;
+}
+
+:host .popup_header a {
+  display: inline-flex;
+}
+
+/* END HEADER */
+
+/* TEXT FIELD */
+:host .text-field {
+  padding: 0.25em;
+  border-radius: 0.25em;
+  border: 1px solid var(--yellow);
+  outline: none;
+  transition: all 0.1s;
+  background-color: var(--white);
+}
+
+:host .text-field:active,
+:host .text-field:focus {
+  border-color: var(--yellow);
+  outline: 0;
+  box-shadow: 0 0 0 0.2em rgba(255, 187, 9, 0.25);
+}
+:host textarea.text-field {
+  resize: none;
+}
+:host .text-field:read-only {
+}
+:host .text-field:disabled {
+}
+:host .text-field:invalid {
+}
+/* END TEXT FIELD */
+
+:host .app-frame_body {
+  overflow: auto;
+  box-sizing: border-box;
+  padding: 0.5em 1em;
+  height: calc(100% - 4em - 4em - 3em);
+}
+
+/* FIELD */
+:host .field {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5em 0;
+  color: var(--black-lighter);
+}
+:host .field_label {
+  display: inline-block;
+  margin-bottom: 0.25em;
+  font-weight: 400;
+  text-align: left;
+}
+:host .field_input {
+}
+:host .field_help-text {
+  margin-top: 0.25em;
+  font-size: 0.9em;
+}
+:host .field_help-text.error {
+  color: red;
+}
+
+/* END FIELD */
+
+/* BODY */
+:host .first-message {
+  line-height: 1.5;
+  background: var(--yellow-lighter);
+  padding: 0.6em;
+  border-radius: 0.3em;
+  color: var(--black-lighter);
+  font-size: 1em;
+}
+:host .first-message p {
+  font-size: inherit;
+}
+/* END BODY */
+
+/* FOOTER */
+
+:host .app-frame_footer {
+  overflow: visible;
+}
+
+:host .popup_footer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+:host ul.popup_footer {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+:host ul.popup_footer li {
+  padding: 0;
+  margin: 0;
+  flex: 1 0;
+}
+:host ul.popup_footer li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 0.25em;
+  padding: 0.25em;
+  cursor: pointer;
+  transition: 0.4s;
+}
+:host ul.popup_footer li:hover {
+  color: var(--black);
+}
+:host ul.popup_footer li svg {
+  width: 2em;
+  height: 2em;
+  gap: 0.25em;
+}
+:host ul.popup_footer li span {
+  font-size: 0.8em;
+}
+:host ul.popup_footer li svg path {
+  fill: currentColor;
+}
+
+/* END FOOTER */
+
+/* MODAL */
+
+:host .modals {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: #0000009e;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+:host .modals.modals__opened {
+  display: flex;
+}
+:host .modals .modal {
+  z-index: 0;
+  background-color: var(--white);
+  display: none;
+}
+:host .modals .modal.modal__opened {
+  z-index: 1;
+  display: block;
+}
+
+/* Rate */
+:host .rate,
+:host .thank-you {
+  width: 300px;
+
+  height: 400px;
+}
+:host .rate .rate_hero-bg,
+:host .thank-you .thank-you_hero-bg {
+  width: 100%;
+  margin: -2em 0;
+}
+:host .rate .rate_body,
+:host .thank-you .thank-you_body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6em;
+}
+:host .rate .stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3em;
+  margin-bottom: 0px;
+}
+
+:host .rate .stars svg.star {
+  width: 2em;
+  height: 2em;
+  fill: var(--text);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+:host .rate .stars svg.star.fill {
+  fill: var(--yellow-light);
+}
+
+:host .rate .rate-please {
+}
+:host .rate .rate-us-button {
+  margin: 0.6em 0;
+  border-radius: 1em;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 50%;
+    transform: scale(1.2);
+  }
+}
+
+:host .blink {
+  animation: blink 1.5s steps(5, start) infinite;
+}
+
+:host .app-frame_footer .ad-line {
+  height: 3em;
+  overflow: hidden;
+  z-index: 1;
+  padding: 0.1em;
+  border: 1px solid #111;
+  background: #abedd8;
+  border-width: 1px 0 1px 0;
+  box-sizing: border-box;
+}
+/* :host .app-frame_footer .ad-line * {
+  font-size: 10px;
+} */
+
+:host .ad-line p {
+  font-weight: bold;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+:host .ad-line .first-line {
+  font-weight: bolder;
+  white-space: nowrap;
+  text-align: center;
+  color: var(--text);
+}
+:host .ad-line .first-line span {
+  color: var(--black-light);
+}
+:host .ad-line .first-line * {
+  font-size: 1em;
+}
+
+:host .ad-line .second-line {
+  color: #f986b7;
+  font-style: italic;
+}
+
+:host .ad-line .second-line * {
+  font-size: 0.8em;
+}
+
+:host .line-run {
+  display: inline-block;
+  animation: line-run 30s linear infinite;
+}
+
+/* clip */
+:host .ad-line.ad-line__clip {
+  overflow: hidden;
+  background: #2bccc0;
+  margin: 0px -1em 0.3em -1em;
+  padding: 4px;
+}
+
+:host .ad-line.ad-line__clip .first-line {
+  color: var(--black-light);
+}
+
+:host .ad-line.ad-line__clip .first-line span {
+  background: gold;
+}
+
+:host .ad-line.ad-line__clip .second-line {
+  color: #e6e6e6;
+  font-style: italic;
+}
+
+:host .app-help__btn.app-help__notify {
+  border: 2px solid rgb(55, 202, 93);
+}
+
+:host .app-help__btn .app-help-notify {
+  display: none;
+}
+
+:host .app-help__btn.app-help__notify .app-help-notify {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+  background: rgb(55, 202, 93);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* start copy-history notify */
+.copy-history-notify {
+  --gold: gold;
+  --black: #111;
+  --green: #2bccc0;
+  --light-color: #e6e6e6;
+  --white: var(--light-color);
+
+  width: 380px;
+  min-height: 360px;
+  background-color: var(--green);
+  color: var(--black);
+  border-radius: 4px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+}
+.copy-history-notify * {
+  font-size: inherit;
+}
+
+.copy-history-notify h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  color: var(--black);
+}
+
+.copy-history-notify h2 {
+  font-style: italic;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: black;
+}
+
+.copy-history-notify .chn_app-title {
+  background-color: var(--gold);
+  font-weight: bold;
+  color: inherit !important;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.copy-history-notify .chn_app-title:hover {
+  text-decoration: underline;
+}
+
+.copy-history-notify .chn_description-section {
+  margin-top: 15px;
+  color: var(--white);
+  text-align: justify;
+  transform: rotate(-5deg);
+  margin: 8px 0;
+  font-weight: bolder;
+}
+.copy-history-notify .chn_description-section ul {
+  list-style: none;
+}
+
+.copy-history-notify .chn_description-section strong {
+  font-weight: 700;
+}
+
+.copy-history-notify .chn_discover {
+  color: var(--black);
+}
+
+.copy-history-notify .chn_try-btn {
+  background-color: rgb(55, 202, 93);
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  color: var(--white);
+
+  cursor: pointer;
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  text-transform: capitalize;
+  /* margin: 10px 20px -8px 0; */
+
+  transition: all 0.3s;
+  transform: rotate(11deg);
+}
+
+.copy-history-notify button.chn_try-btn:hover {
+  background-color: rgb(55, 202, 93);
+  border: 1px solid var(--white);
+  transform: rotate(9deg);
+}
+
+.copy-history-notify button.chn_close-btn {
+  transition: all 0.3s;
+  transform: rotate(-24deg);
+  text-transform: capitalize;
+  min-width: 80px !important;
+  background: red;
+  border-color: red;
+}
+.copy-history-notify button.chn_close-btn:hover {
+  transform: rotate(-20deg);
+  background: red;
+  border-color: red;
+}
+
+.copy-history-notify .chn_bnts-wrap {
+  display: flex;
+  gap: 8px;
+  padding: 26px 0 0 0;
+}
+/* end copy-history notify */
+
+@keyframes line-run {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+</style><span class="app-help__position app-help__btn hithere "><svg class="app-help-activator" xmlns="http://www.w3.org/2000/svg" width="71" height="97" viewBox="0 0 71 97" fill="none"><path d="M19.5114 0.525818C13.2244 1.68866 7.84794 5.17718 4.07573 10.5964C2.44977 12.9002 0.997252 16.4545 0.34687 19.7456C0.0433588 21.2375 0 24.7041 0 48.2241C0 71.7442 0.0433588 75.2108 0.34687 76.7027C2.25466 86.159 8.75847 93.0922 18.1023 95.6372L20.0534 96.1638H35.5542C51.055 96.1638 51.055 96.1638 52.8977 95.6592C57.7105 94.3428 61.1142 92.3901 64.3661 89.0551C67.3579 85.9835 69.4391 82.1659 70.5881 77.6242C70.9783 76.0445 71 74.7939 71 48.1144V20.2502L70.5231 18.473C67.9215 8.92897 60.724 2.14941 51.4885 0.525818C48.8003 0.0431366 22.0696 0.0431366 19.5114 0.525818ZM29.484 24.1995V36.1569H20.5737H11.6635L11.7502 29.0702C11.8586 21.2595 11.9237 20.8645 13.3328 18.2536C14.1133 16.8275 15.826 15.0064 17.3652 13.9753C17.8855 13.6242 19.0562 13.0976 19.945 12.7905C21.4192 12.3078 21.9395 12.2639 25.5383 12.242H29.484V24.1995ZM59.4015 60.2255C59.4015 66.8515 59.2931 72.9948 59.1847 73.8943C59.033 75.123 58.7295 76.0445 57.9924 77.5364C56.4748 80.6739 53.9166 82.846 50.5347 83.8553C49.494 84.1624 47.6079 84.2063 35.4892 84.2063H21.6577L19.9884 83.6359C19.0779 83.3287 17.9289 82.8241 17.4736 82.5169C15.1105 80.9591 13.1594 78.436 12.3139 75.8909C11.8369 74.4648 11.8153 74.1796 11.7502 61.3225L11.6852 48.2241H35.5325H59.4015V60.2255Z" fill="var(--black-lighter)"></path></svg></span></template></allow-copy-helper></body>
