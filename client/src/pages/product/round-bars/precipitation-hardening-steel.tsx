@@ -1,223 +1,320 @@
-import ProductSEO from "@/components/ProductSEO";
-import { ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, TrendingUp, Shield, Award } from "lucide-react";
 import { Link } from "wouter";
+import ProductSEO from "@/components/ProductSEO";
 
-export default function PrecipitationHardeningSteelRoundBars() {
-  const specifications = [
-    "ASTM A564 - Standard Specification for Hot-Rolled and Cold-Finished Age-Hardening Stainless Steel Bars and Shapes",
-    "ASTM A693 - Standard Specification for Precipitation-Hardening Stainless Steel Plate, Sheet, and Strip",
-    "AMS 5528 - Aerospace Material Specification for Precipitation Hardening Steel",
-    "ASME SA-564 - Hot-Rolled and Cold-Finished Age-Hardening Stainless Steel Bars and Shapes",
-    "Diameter Range: 6mm to 300mm",
-    "Grades: 17-4 PH, 15-5 PH, 17-7 PH, 15-7 Mo, PH 13-8 Mo"
-  ];
+const precipitationHardeningProducts = [
+  {
+    id: 1,
+    name: "17-4 PH Round Bar",
+    image: "https://textronsteelalloys.com/wp-content/uploads/2019/12/17-4PH-Round-Bar-Stockist-Supplier-300x300.jpg",
+    description: "Premium 17-4 PH (630) precipitation hardening stainless steel round bars with excellent strength and corrosion resistance.",
+    specifications: ["17-4 PH", "AISI 630", "High Strength", "Corrosion Resistant"],
+    applications: ["Aerospace components", "Chemical processing", "Nuclear applications", "High-strength fasteners"]
+  },
+  {
+    id: 2,
+    name: "AISI 630 Round Bars (1.4542)",
+    image: "https://textronsteelalloys.com/wp-content/uploads/2022/06/aisi-630-300x300.jpg",
+    description: "High-performance AISI 630 (1.4542, 17-4PH) precipitation hardening stainless steel with superior mechanical properties.",
+    specifications: ["AISI 630", "1.4542", "17-4PH", "PH Stainless Steel"],
+    applications: ["Pump shafts", "Valve components", "Aircraft fittings", "Marine hardware"]
+  },
+  {
+    id: 3,
+    name: "AMS 5629 13-8Mo",
+    image: "https://textronsteelalloys.com/wp-content/uploads/2025/04/AMS-5629-13-8Mo-300x300.jpg",
+    description: "Aerospace-grade AMS 5629 13-8Mo (XM13, 1.4534, UNS S13800) with exceptional strength and toughness for critical applications.",
+    specifications: ["AMS 5629", "13-8Mo", "XM13", "1.4534", "S13800"],
+    applications: ["Aerospace structures", "Landing gear", "Missile components", "High-performance applications"]
+  },
+  {
+    id: 4,
+    name: "AMS 5643 17-4PH",
+    image: "https://textronsteelalloys.com/wp-content/uploads/2025/05/AMS-5643-17-4PH-Round-Bar-300x300.jpg",
+    description: "Aerospace-specification AMS 5643 17-4PH (1.4542, AISI 630) round bars for demanding aerospace and defense applications.",
+    specifications: ["AMS 5643", "17-4PH", "1.4542", "AISI 630"],
+    applications: ["Aerospace fasteners", "Jet engine parts", "Defense applications", "High-stress components"]
+  },
+  {
+    id: 5,
+    name: "AMS 5659 15-5PH",
+    image: "https://textronsteelalloys.com/wp-content/uploads/2025/04/AMS-5659-15-5PH-300x300.jpg",
+    description: "Premium AMS 5659 15-5PH (XM12, UNS S15500, 1.4545) with superior strength-to-weight ratio for aerospace applications.",
+    specifications: ["AMS 5659", "15-5PH", "XM12", "S15500", "1.4545"],
+    applications: ["Aerospace components", "High-strength bolts", "Springs", "Structural parts"]
+  },
+  {
+    id: 6,
+    name: "Inconel X750",
+    image: "https://textronsteelalloys.com/wp-content/uploads/2020/09/inconel-x750-spring-wire-300x300.jpg",
+    description: "High-temperature Inconel X750 precipitation hardening superalloy wire and rods for extreme temperature applications.",
+    specifications: ["Inconel X750", "Superalloy", "High Temperature", "Spring Properties"],
+    applications: ["Gas turbines", "Jet engines", "High-temperature springs", "Nuclear reactors"]
+  }
+];
 
-  const applications = [
-    "Aerospace and Aircraft Components",
-    "Nuclear Power Plant Equipment",
-    "Chemical Processing Equipment",
-    "High-Performance Fasteners",
-    "Medical and Surgical Instruments",
-    "Turbine and Engine Components",
-    "Marine and Offshore Hardware",
-    "Precision Instrumentation"
-  ];
+const keywordSections = [
+  {
+    title: "Precipitation Hardening Applications",
+    keywords: [
+      "Aerospace Component Manufacturing",
+      "High-Strength Fasteners",
+      "Chemical Processing Equipment",
+      "Nuclear Industry Applications",
+      "Marine Hardware Systems",
+      "Oil & Gas Components",
+      "Defense Applications",
+      "Precision Machined Parts"
+    ]
+  },
+  {
+    title: "PH Steel Grades & Standards",
+    keywords: [
+      "17-4PH 15-5PH 13-8Mo",
+      "AISI 630 Steel",
+      "AMS 5643 5659 5629",
+      "1.4542 1.4545 1.4534",
+      "UNS S17400 S15500",
+      "Inconel X750 Superalloy",
+      "Premium PH Steel India",
+      "PH Steel Supplier Mumbai"
+    ]
+  }
+];
 
-  const features = [
-    { icon: Shield, title: "High Strength", desc: "Excellent strength-to-weight ratio through precipitation hardening" },
-    { icon: TrendingUp, title: "Age Hardenable", desc: "Achieves high strength through simple aging heat treatment" },
-    { icon: Award, title: "Aerospace Grade", desc: "Meets stringent aerospace and nuclear industry requirements" },
-    { icon: CheckCircle, title: "Corrosion Resistant", desc: "Combines high strength with excellent corrosion resistance" }
-  ];
-
+export default function PrecipitationHardeningSteel() {
   return (
     <>
       <ProductSEO
-        title="Precipitation Hardening Steel Round Bars"
-        description="Premium quality precipitation hardening steel round bars in grades 17-4 PH, 15-5 PH, 17-7 PH. ASTM A564 certified for aerospace, nuclear, and high-performance applications. Best prices in Mumbai for PH steel round bars."
-        keywords="precipitation hardening steel bars, 17-4 PH round bars, 15-5 PH round bars, ASTM A564 bars, PH steel bars, Mumbai PH steel supplier"
-        category="Round Bars"
-        productName="Precipitation Hardening Steel Round Bars"
-        specifications={specifications}
+        title="Precipitation Hardening Steel - 17-4PH, 15-5PH, 13-8Mo, AMS 5643 | Mamta Steel Traders"
+        description="Premium precipitation hardening steel supplier in Mumbai. 17-4PH, 15-5PH, 13-8Mo, AISI 630, AMS 5643, 5659, 5629 grades for aerospace, chemical, nuclear & high-strength applications. Worldwide delivery with mill certificates."
+        keywords="precipitation hardening steel, 17-4PH 15-5PH 13-8Mo, AISI 630, AMS 5643 5659 5629, PH steel, aerospace grade steel, Mumbai PH steel supplier, high strength stainless steel"
         canonicalUrl="/product/round-bars/precipitation-hardening-steel"
       />
-
-      <div className="min-h-screen bg-gray-50">
-        {/* Breadcrumb Navigation */}
-        <nav className="bg-white py-4 border-b border-gray-200" data-testid="breadcrumb-nav">
-          <div className="container mx-auto px-4">
-            <div className="flex items-center space-x-2 text-sm text-gray-600">
-              <Link href="/" className="hover:text-navy-primary transition-colors" data-testid="breadcrumb-home">Home</Link>
-              <ArrowRight className="w-4 h-4" />
-              <Link href="/product" className="hover:text-navy-primary transition-colors" data-testid="breadcrumb-products">Products</Link>
-              <ArrowRight className="w-4 h-4" />
-              <Link href="/product/round-bars" className="hover:text-navy-primary transition-colors" data-testid="breadcrumb-round-bars">Round Bars</Link>
-              <ArrowRight className="w-4 h-4" />
-              <span className="text-navy-primary font-medium" data-testid="breadcrumb-current">Precipitation Hardening Steel Round Bars</span>
-            </div>
+      
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+        {/* Breadcrumb */}
+        <nav className="bg-white shadow-sm border-b" aria-label="Breadcrumb">
+          <div className="container mx-auto px-4 py-3">
+            <ol className="flex items-center space-x-2 text-sm text-gray-600">
+              <li>
+                <Link href="/" className="hover:text-blue-600 transition-colors" data-testid="breadcrumb-home">
+                  Home
+                </Link>
+              </li>
+              <li className="text-gray-400">/</li>
+              <li>
+                <Link href="/product/round-bars/round-bars" className="hover:text-blue-600 transition-colors" data-testid="breadcrumb-products">
+                  Round Bars
+                </Link>
+              </li>
+              <li className="text-gray-400">/</li>
+              <li className="text-gray-900 font-medium">Precipitation Hardening Steel</li>
+            </ol>
           </div>
         </nav>
 
         {/* Hero Section */}
-        <section className="bg-gradient-to-r from-navy-primary to-navy-secondary text-white py-16" data-testid="hero-section">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="hero-title">
-                Premium Precipitation Hardening Steel Round Bars
-              </h1>
-              <p className="text-xl md:text-2xl mb-8 text-blue-100" data-testid="hero-subtitle">
-                High-strength precipitation hardening steel round bars for aerospace, nuclear, and high-performance applications
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="/contact" className="bg-gold-primary hover:bg-gold-secondary text-navy-primary font-semibold py-3 px-8 rounded-lg transition-colors duration-300" data-testid="cta-get-quote">
-                  Get Quote Now
-                </Link>
-                <a href="tel:+919876543210" className="border-2 border-white text-white hover:bg-white hover:text-navy-primary font-semibold py-3 px-8 rounded-lg transition-colors duration-300" data-testid="cta-call-now">
-                  Call Now: +91 98765 43210
-                </a>
-              </div>
+        <div className="bg-gradient-to-r from-blue-900 via-blue-800 to-indigo-900 text-white py-16">
+          <div className="container mx-auto px-4 text-center">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="hero-title">
+              Precipitation Hardening Steel Round Bars
+            </h1>
+            <p className="text-xl mb-8 text-blue-100 max-w-4xl mx-auto" data-testid="hero-description">
+              Leading supplier of 17-4PH, 15-5PH, 13-8Mo, AISI 630, AMS 5643, 5659, 5629 precipitation hardening steel round bars. 
+              Perfect for aerospace, chemical processing, nuclear, and high-strength applications with exceptional mechanical properties.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link 
+                href="/contact" 
+                className="bg-orange-500 hover:bg-orange-600 px-8 py-3 rounded-lg font-semibold transition-colors" 
+                data-testid="cta-quote"
+              >
+                Get Quote Now
+              </Link>
+              <a 
+                href="tel:+919876543210" 
+                className="bg-transparent border-2 border-white hover:bg-white hover:text-blue-900 px-8 py-3 rounded-lg font-semibold transition-colors" 
+                data-testid="cta-call"
+              >
+                Call: +91 98765 43210
+              </a>
             </div>
           </div>
-        </section>
+        </div>
 
-        {/* Product Features */}
-        <section className="py-16 bg-white" data-testid="features-section">
+        {/* Products Grid */}
+        <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="features-title">
-              Why Choose Our Precipitation Hardening Steel Round Bars?
+            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900" data-testid="products-heading">
+              Precipitation Hardening Steel Products
             </h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {features.map((feature, index) => (
-                <div key={index} className="text-center p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow duration-300" data-testid={`feature-${index}`}>
-                  <feature.icon className="w-12 h-12 text-gold-primary mx-auto mb-4" />
-                  <h3 className="text-xl font-semibold text-navy-primary mb-2">{feature.title}</h3>
-                  <p className="text-gray-600">{feature.desc}</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {precipitationHardeningProducts.map((product) => (
+                <div 
+                  key={product.id}
+                  className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow border"
+                  data-testid={`product-card-${product.id}`}
+                >
+                  <img 
+                    src={product.image} 
+                    alt={product.name}
+                    className="w-full h-48 object-cover"
+                    loading="lazy"
+                  />
+                  <div className="p-6">
+                    <h3 className="text-xl font-semibold mb-3 text-gray-900">
+                      {product.name}
+                    </h3>
+                    <p className="text-gray-600 mb-4 text-sm leading-relaxed">
+                      {product.description}
+                    </p>
+                    <div className="mb-4">
+                      <h4 className="font-medium text-gray-900 mb-2">Specifications:</h4>
+                      <div className="flex flex-wrap gap-2">
+                        {product.specifications.map((spec, index) => (
+                          <span 
+                            key={index}
+                            className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium"
+                          >
+                            {spec}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                    <div className="mb-4">
+                      <h4 className="font-medium text-gray-900 mb-2">Applications:</h4>
+                      <ul className="text-sm text-gray-600 space-y-1">
+                        {product.applications.slice(0, 3).map((app, index) => (
+                          <li key={index} className="flex items-center">
+                            <span className="w-1 h-1 bg-blue-500 rounded-full mr-2"></span>
+                            {app}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <Link 
+                      href="/contact"
+                      className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded font-medium transition-colors text-center block"
+                      data-testid={`quote-button-${product.id}`}
+                    >
+                      Get Quote
+                    </Link>
+                  </div>
                 </div>
               ))}
             </div>
           </div>
         </section>
 
-        {/* Specifications */}
-        <section className="py-16 bg-gray-50" data-testid="specifications-section">
+        {/* Technical Specifications */}
+        <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
-            <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="specifications-title">
-                Technical Specifications
-              </h2>
-              <div className="grid md:grid-cols-2 gap-12">
-                <div className="bg-white p-8 rounded-lg shadow-md" data-testid="specifications-standards">
-                  <h3 className="text-2xl font-semibold text-navy-primary mb-6">Standards & Grades</h3>
-                  <ul className="space-y-3">
-                    {specifications.map((spec, index) => (
-                      <li key={index} className="flex items-start" data-testid={`spec-${index}`}>
-                        <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" />
-                        <span className="text-gray-700">{spec}</span>
-                      </li>
-                    ))}
-                  </ul>
+            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
+              PH Steel Technical Specifications
+            </h2>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+              <div className="bg-white p-8 rounded-lg shadow-lg">
+                <h3 className="text-2xl font-semibold mb-6 text-gray-900">PH Steel Grades</h3>
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="font-semibold text-blue-600 mb-2">ASTM Standards</h4>
+                    <p className="text-gray-600 text-sm">A564, A693 - Precipitation hardening stainless steel bars and forgings</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-blue-600 mb-2">AMS Specifications</h4>
+                    <p className="text-gray-600 text-sm">5643 (17-4PH), 5659 (15-5PH), 5629 (13-8Mo) - Aerospace material specifications</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-blue-600 mb-2">UNS Designations</h4>
+                    <p className="text-gray-600 text-sm">S17400 (17-4PH), S15500 (15-5PH), S13800 (13-8Mo) - Standard designations</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-blue-600 mb-2">Key Properties</h4>
+                    <ul className="text-gray-600 text-sm space-y-1">
+                      <li>• Ultra-high strength</li>
+                      <li>• Excellent corrosion resistance</li>
+                      <li>• Superior toughness</li>
+                      <li>• Heat treatable</li>
+                    </ul>
+                  </div>
                 </div>
-                <div className="bg-white p-8 rounded-lg shadow-md" data-testid="specifications-applications">
-                  <h3 className="text-2xl font-semibold text-navy-primary mb-6">Applications</h3>
-                  <ul className="space-y-3">
-                    {applications.map((app, index) => (
-                      <li key={index} className="flex items-start" data-testid={`app-${index}`}>
-                        <Star className="w-5 h-5 text-gold-primary mr-3 mt-0.5 flex-shrink-0" />
-                        <span className="text-gray-700">{app}</span>
-                      </li>
-                    ))}
-                  </ul>
+              </div>
+              
+              <div className="bg-white p-8 rounded-lg shadow-lg">
+                <h3 className="text-2xl font-semibold mb-6 text-gray-900">Applications & Industries</h3>
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="font-semibold text-orange-600 mb-2">Aerospace Industry</h4>
+                    <p className="text-gray-600 text-sm">Aircraft structures, landing gear, fasteners, jet engine components</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-orange-600 mb-2">Chemical Processing</h4>
+                    <p className="text-gray-600 text-sm">Pump shafts, valve components, reactor vessels, process equipment</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-orange-600 mb-2">Nuclear Applications</h4>
+                    <p className="text-gray-600 text-sm">Nuclear reactor components, fuel handling equipment, control mechanisms</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-orange-600 mb-2">Defense Applications</h4>
+                    <p className="text-gray-600 text-sm">Military vehicles, weapons systems, armor components, missile parts</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* PH Steel Grades */}
-        <section className="py-16 bg-white" data-testid="ph-grades-section">
+        {/* Popular Keywords Sections */}
+        <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
-            <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="ph-grades-title">
-                Available Precipitation Hardening Steel Grades
-              </h2>
-              <div className="overflow-x-auto">
-                <table className="w-full bg-white border border-gray-200 rounded-lg shadow-md" data-testid="ph-table">
-                  <thead className="bg-navy-primary text-white">
-                    <tr>
-                      <th className="px-6 py-4 text-left">PH Grade</th>
-                      <th className="px-6 py-4 text-left">UNS Number</th>
-                      <th className="px-6 py-4 text-left">Yield Strength (MPa)</th>
-                      <th className="px-6 py-4 text-left">Key Applications</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-gray-200">
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-semibold">17-4 PH</td>
-                      <td className="px-6 py-4">S17400</td>
-                      <td className="px-6 py-4">1100-1300</td>
-                      <td className="px-6 py-4">Aerospace, chemical processing</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-semibold">15-5 PH</td>
-                      <td className="px-6 py-4">S15500</td>
-                      <td className="px-6 py-4">1000-1200</td>
-                      <td className="px-6 py-4">Nuclear, high-strength fasteners</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-semibold">17-7 PH</td>
-                      <td className="px-6 py-4">S17700</td>
-                      <td className="px-6 py-4">1400-1600</td>
-                      <td className="px-6 py-4">Springs, high-stress components</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-semibold">PH 13-8 Mo</td>
-                      <td className="px-6 py-4">S13800</td>
-                      <td className="px-6 py-4">1500-1700</td>
-                      <td className="px-6 py-4">Aerospace, ultra-high strength</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
+              Popular PH Steel Searches
+            </h2>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              {keywordSections.map((section, sectionIndex) => (
+                <div key={sectionIndex} className="bg-gray-50 p-8 rounded-lg">
+                  <h3 className="text-xl font-semibold mb-6 text-gray-900">{section.title}</h3>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    {section.keywords.map((keyword, index) => (
+                      <div 
+                        key={index}
+                        className="bg-white p-3 rounded border hover:shadow-md transition-shadow"
+                      >
+                        <span className="text-sm font-medium text-blue-700">{keyword}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </section>
 
         {/* Contact CTA */}
-        <section className="py-16 bg-navy-primary text-white" data-testid="contact-cta-section">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6" data-testid="cta-title">
-                Ready to Order Precipitation Hardening Steel Round Bars?
-              </h2>
-              <p className="text-xl mb-8 text-blue-100" data-testid="cta-subtitle">
-                Get instant quotes and technical support from our PH steel specialists
-              </p>
-              <div className="grid md:grid-cols-3 gap-6 mb-8">
-                <div className="flex items-center justify-center space-x-3" data-testid="contact-phone">
-                  <Phone className="w-6 h-6 text-gold-primary" />
-                  <div>
-                    <p className="font-semibold">Call Us</p>
-                    <p className="text-blue-100">+91 98765 43210</p>
-                  </div>
-                </div>
-                <div className="flex items-center justify-center space-x-3" data-testid="contact-email">
-                  <Mail className="w-6 h-6 text-gold-primary" />
-                  <div>
-                    <p className="font-semibold">Email Us</p>
-                    <p className="text-blue-100">info@mamtasteel.com</p>
-                  </div>
-                </div>
-                <div className="flex items-center justify-center space-x-3" data-testid="contact-location">
-                  <MapPin className="w-6 h-6 text-gold-primary" />
-                  <div>
-                    <p className="font-semibold">Visit Us</p>
-                    <p className="text-blue-100">Mumbai, Maharashtra</p>
-                  </div>
-                </div>
-              </div>
-              <Link href="/contact" className="bg-gold-primary hover:bg-gold-secondary text-navy-primary font-semibold py-4 px-8 rounded-lg transition-colors duration-300 inline-block" data-testid="cta-contact-button">
-                Get Detailed Quote
+        <section className="py-16 bg-gradient-to-r from-blue-900 to-indigo-900 text-white">
+          <div className="container mx-auto px-4 text-center">
+            <h2 className="text-3xl font-bold mb-6">
+              Ready to Order Premium PH Steel?
+            </h2>
+            <p className="text-xl mb-8 text-blue-100 max-w-2xl mx-auto">
+              Get competitive prices, mill test certificates, and worldwide delivery for all precipitation hardening steel grades.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link 
+                href="/contact" 
+                className="bg-orange-500 hover:bg-orange-600 px-8 py-3 rounded-lg font-semibold transition-colors"
+                data-testid="bottom-cta-quote"
+              >
+                Request Quote
               </Link>
+              <a 
+                href="mailto:info@mamtasteel.com" 
+                className="bg-transparent border-2 border-white hover:bg-white hover:text-blue-900 px-8 py-3 rounded-lg font-semibold transition-colors"
+                data-testid="bottom-cta-email"
+              >
+                Email Us
+              </a>
             </div>
           </div>
         </section>

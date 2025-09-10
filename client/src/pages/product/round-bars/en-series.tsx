@@ -1,229 +1,391 @@
-import ProductSEO from "@/components/ProductSEO";
-import { ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, TrendingUp, Shield, Award } from "lucide-react";
 import { Link } from "wouter";
+import ProductSEO from "@/components/ProductSEO";
 
-export default function ENSeriesRoundBars() {
-  const specifications = [
-    "EN 10083 - Steels for quenching and tempering - Technical delivery conditions for special steels",
-    "EN 10025 - Hot rolled products of structural steels - Technical delivery conditions",
-    "EN 10277 - Bright steel products - Technical delivery conditions",
-    "DIN 17200 - Heat treatable steels - Technical delivery conditions",
-    "Diameter Range: 6mm to 500mm",
-    "Grades: EN8, EN9, EN19, EN24, EN31, EN36, EN47"
-  ];
+const enSeriesProducts = [
+  {
+    id: 1,
+    name: "832M13 Round Bar (EN36C)",
+    image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+    description: "Premium 832M13 (EN36C) case hardening steel with excellent core strength and surface hardness for automotive applications.",
+    specifications: ["832M13 Grade", "EN36C", "Case Hardening Steel", "Automotive Grade"],
+    applications: ["Gears", "Shafts", "Automotive components", "Machine parts"]
+  },
+  {
+    id: 2,
+    name: "C55 Round Bars (EN9)",
+    image: "https://textronsteelalloys.com/wp-content/uploads/2024/02/C55-EN9-Round-Bar-JSW-300x300.jpg",
+    description: "High-quality C55 EN9 070M55 carbon steel round bars with excellent machinability and strength for general engineering.",
+    specifications: ["C55 Grade", "EN9", "070M55", "JSW Steel"],
+    applications: ["General engineering", "Machine components", "Shafts", "Pins"]
+  },
+  {
+    id: 3,
+    name: "EN16 Round Bars (605M36)",
+    image: "https://textronsteelalloys.com/wp-content/uploads/2025/08/EN16-Round-Bars-300x300.jpg",
+    description: "Premium EN16 (605M36) case hardening steel round bars with superior hardenability and core toughness.",
+    specifications: ["EN16 Grade", "605M36", "Case Hardening", "High Hardenability"],
+    applications: ["Gears", "Crankshafts", "Heavy duty components", "Machine tools"]
+  },
+  {
+    id: 4,
+    name: "EN18 Round Bars (40Cr4)",
+    image: "https://textronsteelalloys.com/wp-content/uploads/2025/01/EN18-Round-Bars-300x300.jpeg",
+    description: "High-strength EN18 (40Cr4/41Cr4) chromium steel round bars with excellent strength and toughness properties.",
+    specifications: ["EN18 Grade", "40Cr4", "41Cr4", "Chrome Steel"],
+    applications: ["Axles", "Connecting rods", "Bolts", "Heavy machinery"]
+  },
+  {
+    id: 5,
+    name: "EN19 Hex Bar (SAE 4140)",
+    image: "https://textronsteelalloys.com/wp-content/uploads/2024/01/en19-sae-4140-hex-300x300.jpg",
+    description: "Premium EN19 (SAE 4140/42CrMo4) hex bars with excellent hardenability and strength for high-stress applications.",
+    specifications: ["EN19 Grade", "SAE 4140", "709M40", "42CrMo4"],
+    applications: ["High-stress components", "Aerospace parts", "Tool holders", "Machine shafts"]
+  },
+  {
+    id: 6,
+    name: "EN1A Leaded (EN1APb)",
+    image: "https://textronsteelalloys.com/wp-content/uploads/2019/07/en1apb-hex-round-square-en1a-leaded-300x300.jpg",
+    description: "EN1A leaded (EN1APb) free machining steel with superior machinability for high-speed machining operations.",
+    specifications: ["EN1A Leaded", "EN1APb", "Free Machining", "Lead Content"],
+    applications: ["Machined components", "Fasteners", "Screws", "High-speed machining"]
+  },
+  {
+    id: 7,
+    name: "EN1A Non Leaded",
+    image: "https://textronsteelalloys.com/wp-content/uploads/2019/05/EN1a-round-hex-bars-stockist-300x300.jpg",
+    description: "High-quality EN1A non-leaded mild steel round bars with excellent weldability and formability for general applications.",
+    specifications: ["EN1A Grade", "Non-Leaded", "Mild Steel", "Weldable"],
+    applications: ["General fabrication", "Welded structures", "Machined parts", "Construction"]
+  },
+  {
+    id: 8,
+    name: "EN24 Flat Bars (SAE 4340)",
+    image: "https://textronsteelalloys.com/wp-content/uploads/2022/08/EN24-Flat-bar-300x300.jpg",
+    description: "Premium EN24 (SAE 4340/34CrNiMo6) flat bars with exceptional strength, toughness and hardenability properties.",
+    specifications: ["EN24 Grade", "SAE 4340", "34CrNiMo6", "817M40"],
+    applications: ["Aircraft landing gear", "High-strength bolts", "Crankshafts", "Connecting rods"]
+  },
+  {
+    id: 9,
+    name: "EN24 Round Bars (SAE 4340)",
+    image: "https://textronsteelalloys.com/wp-content/uploads/2019/06/en24-alloy-steel-round-bar-300x300.jpg",
+    description: "High-performance EN24 (SAE 4340) alloy steel round bars with superior mechanical properties for critical applications.",
+    specifications: ["EN24 Grade", "SAE 4340", "Alloy Steel", "High Performance"],
+    applications: ["Aerospace components", "High-strength fasteners", "Crankshafts", "Gears"]
+  }
+];
 
-  const applications = [
-    "Automotive Industry Components",
-    "Machine Tool Manufacturing",
-    "General Engineering Applications",
-    "Gear and Shaft Manufacturing",
-    "Hydraulic Components",
-    "Agricultural Equipment",
-    "Construction Machinery",
-    "Industrial Equipment Manufacturing"
-  ];
+const keywordSections = [
+  {
+    title: "EN Series Steel Applications",
+    keywords: [
+      "Automotive Components Manufacturing",
+      "Machine Tool Applications",
+      "Heavy Engineering Parts",
+      "Gears and Shafts Production",
+      "Case Hardening Applications",
+      "High-Strength Fasteners",
+      "Aerospace Components",
+      "General Engineering Parts"
+    ]
+  },
+  {
+    title: "EN Series Grades & Standards",
+    keywords: [
+      "EN8 EN9 EN19 Steel",
+      "EN24 SAE 4340 Steel",
+      "832M13 EN36C Grade",
+      "EN1A Mild Steel",
+      "42CrMo4 Chrome Steel",
+      "605M36 Case Hardening",
+      "Premium EN Series India",
+      "EN Steel Supplier Mumbai"
+    ]
+  }
+];
 
-  const features = [
-    { icon: Shield, title: "European Standard", desc: "Complies with stringent European EN standards for quality" },
-    { icon: TrendingUp, title: "Heat Treatable", desc: "Excellent response to heat treatment for enhanced properties" },
-    { icon: Award, title: "High Quality", desc: "Superior surface finish and dimensional accuracy" },
-    { icon: CheckCircle, title: "Versatile Grades", desc: "Wide range of grades for diverse engineering applications" }
-  ];
-
+export default function ENSeries() {
   return (
     <>
       <ProductSEO
-        title="EN Series Round Bars"
-        description="Premium quality EN series round bars including EN8, EN9, EN19, EN24, EN31. European standard certified for automotive, machinery, and general engineering applications. Best prices in Mumbai for EN steel round bars."
-        keywords="EN series round bars, EN8 round bars, EN19 round bars, EN24 round bars, European standard steel bars, Mumbai EN steel supplier"
-        category="Round Bars"
-        productName="EN Series Round Bars"
-        specifications={specifications}
+        title="EN Series Round Bars - EN8, EN9, EN19, EN24, EN36C Steel | Mamta Steel Traders"
+        description="Premium EN series round bars supplier in Mumbai. EN8, EN9, EN19, EN24 SAE 4340, EN36C, EN1A grades for automotive, aerospace & engineering applications. Worldwide delivery with mill test certificates."
+        keywords="EN series round bars, EN8 EN9 EN19 steel, EN24 SAE 4340, EN36C 832M13, EN1A steel, case hardening steel, alloy steel supplier Mumbai, EN series steel India"
         canonicalUrl="/product/round-bars/en-series"
       />
-
-      <div className="min-h-screen bg-gray-50">
-        {/* Breadcrumb Navigation */}
-        <nav className="bg-white py-4 border-b border-gray-200" data-testid="breadcrumb-nav">
-          <div className="container mx-auto px-4">
-            <div className="flex items-center space-x-2 text-sm text-gray-600">
-              <Link href="/" className="hover:text-navy-primary transition-colors" data-testid="breadcrumb-home">Home</Link>
-              <ArrowRight className="w-4 h-4" />
-              <Link href="/product" className="hover:text-navy-primary transition-colors" data-testid="breadcrumb-products">Products</Link>
-              <ArrowRight className="w-4 h-4" />
-              <Link href="/product/round-bars" className="hover:text-navy-primary transition-colors" data-testid="breadcrumb-round-bars">Round Bars</Link>
-              <ArrowRight className="w-4 h-4" />
-              <span className="text-navy-primary font-medium" data-testid="breadcrumb-current">EN Series Round Bars</span>
-            </div>
+      
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+        {/* Breadcrumb */}
+        <nav className="bg-white shadow-sm border-b" aria-label="Breadcrumb">
+          <div className="container mx-auto px-4 py-3">
+            <ol className="flex items-center space-x-2 text-sm text-gray-600">
+              <li>
+                <Link href="/" className="hover:text-blue-600 transition-colors" data-testid="breadcrumb-home">
+                  Home
+                </Link>
+              </li>
+              <li className="text-gray-400">/</li>
+              <li>
+                <Link href="/product/round-bars/round-bars" className="hover:text-blue-600 transition-colors" data-testid="breadcrumb-products">
+                  Round Bars
+                </Link>
+              </li>
+              <li className="text-gray-400">/</li>
+              <li className="text-gray-900 font-medium">EN Series</li>
+            </ol>
           </div>
         </nav>
 
         {/* Hero Section */}
-        <section className="bg-gradient-to-r from-navy-primary to-navy-secondary text-white py-16" data-testid="hero-section">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="hero-title">
-                Premium EN Series Round Bars
-              </h1>
-              <p className="text-xl md:text-2xl mb-8 text-blue-100" data-testid="hero-subtitle">
-                High-quality European standard EN series round bars for automotive, machinery, and general engineering applications
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="/contact" className="bg-gold-primary hover:bg-gold-secondary text-navy-primary font-semibold py-3 px-8 rounded-lg transition-colors duration-300" data-testid="cta-get-quote">
-                  Get Quote Now
-                </Link>
-                <a href="tel:+919876543210" className="border-2 border-white text-white hover:bg-white hover:text-navy-primary font-semibold py-3 px-8 rounded-lg transition-colors duration-300" data-testid="cta-call-now">
-                  Call Now: +91 98765 43210
-                </a>
-              </div>
+        <div className="bg-gradient-to-r from-blue-900 via-blue-800 to-indigo-900 text-white py-16">
+          <div className="container mx-auto px-4 text-center">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="hero-title">
+              Premium EN Series Round Bars
+            </h1>
+            <p className="text-xl mb-8 text-blue-100 max-w-4xl mx-auto" data-testid="hero-description">
+              Leading supplier of EN8, EN9, EN19, EN24 SAE 4340, EN36C, EN1A steel round bars. 
+              Perfect for automotive, aerospace, machine tools, and general engineering applications with superior mechanical properties.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link 
+                href="/contact" 
+                className="bg-orange-500 hover:bg-orange-600 px-8 py-3 rounded-lg font-semibold transition-colors" 
+                data-testid="cta-quote"
+              >
+                Get Quote Now
+              </Link>
+              <a 
+                href="tel:+919876543210" 
+                className="bg-transparent border-2 border-white hover:bg-white hover:text-blue-900 px-8 py-3 rounded-lg font-semibold transition-colors" 
+                data-testid="cta-call"
+              >
+                Call: +91 98765 43210
+              </a>
             </div>
           </div>
-        </section>
+        </div>
 
-        {/* Product Features */}
-        <section className="py-16 bg-white" data-testid="features-section">
+        {/* Products Grid */}
+        <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="features-title">
-              Why Choose Our EN Series Round Bars?
+            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900" data-testid="products-heading">
+              EN Series Steel Products
             </h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {features.map((feature, index) => (
-                <div key={index} className="text-center p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow duration-300" data-testid={`feature-${index}`}>
-                  <feature.icon className="w-12 h-12 text-gold-primary mx-auto mb-4" />
-                  <h3 className="text-xl font-semibold text-navy-primary mb-2">{feature.title}</h3>
-                  <p className="text-gray-600">{feature.desc}</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {enSeriesProducts.map((product) => (
+                <div 
+                  key={product.id}
+                  className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow border"
+                  data-testid={`product-card-${product.id}`}
+                >
+                  <img 
+                    src={product.image} 
+                    alt={product.name}
+                    className="w-full h-48 object-cover"
+                    loading="lazy"
+                  />
+                  <div className="p-6">
+                    <h3 className="text-xl font-semibold mb-3 text-gray-900">
+                      {product.name}
+                    </h3>
+                    <p className="text-gray-600 mb-4 text-sm leading-relaxed">
+                      {product.description}
+                    </p>
+                    <div className="mb-4">
+                      <h4 className="font-medium text-gray-900 mb-2">Specifications:</h4>
+                      <div className="flex flex-wrap gap-2">
+                        {product.specifications.map((spec, index) => (
+                          <span 
+                            key={index}
+                            className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium"
+                          >
+                            {spec}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                    <div className="mb-4">
+                      <h4 className="font-medium text-gray-900 mb-2">Applications:</h4>
+                      <ul className="text-sm text-gray-600 space-y-1">
+                        {product.applications.slice(0, 3).map((app, index) => (
+                          <li key={index} className="flex items-center">
+                            <span className="w-1 h-1 bg-blue-500 rounded-full mr-2"></span>
+                            {app}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <Link 
+                      href="/contact"
+                      className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded font-medium transition-colors text-center block"
+                      data-testid={`quote-button-${product.id}`}
+                    >
+                      Get Quote
+                    </Link>
+                  </div>
                 </div>
               ))}
             </div>
           </div>
         </section>
 
-        {/* Specifications */}
-        <section className="py-16 bg-gray-50" data-testid="specifications-section">
+        {/* Technical Specifications */}
+        <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
-            <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="specifications-title">
-                Technical Specifications
-              </h2>
-              <div className="grid md:grid-cols-2 gap-12">
-                <div className="bg-white p-8 rounded-lg shadow-md" data-testid="specifications-standards">
-                  <h3 className="text-2xl font-semibold text-navy-primary mb-6">Standards & Grades</h3>
-                  <ul className="space-y-3">
-                    {specifications.map((spec, index) => (
-                      <li key={index} className="flex items-start" data-testid={`spec-${index}`}>
-                        <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" />
-                        <span className="text-gray-700">{spec}</span>
-                      </li>
-                    ))}
-                  </ul>
+            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
+              EN Series Technical Specifications
+            </h2>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+              <div className="bg-white p-8 rounded-lg shadow-lg">
+                <h3 className="text-2xl font-semibold mb-6 text-gray-900">EN Series Grades</h3>
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="font-semibold text-blue-600 mb-2">BS Standards</h4>
+                    <p className="text-gray-600 text-sm">BS 970 - British Standard for wrought steels for mechanical and allied engineering purposes</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-blue-600 mb-2">SAE Equivalents</h4>
+                    <p className="text-gray-600 text-sm">EN24 ≡ SAE 4340, EN19 ≡ SAE 4140 - American equivalent grades</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-blue-600 mb-2">DIN Standards</h4>
+                    <p className="text-gray-600 text-sm">EN19 ≡ 42CrMo4, EN24 ≡ 34CrNiMo6 - German standard equivalents</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-blue-600 mb-2">Key Properties</h4>
+                    <ul className="text-gray-600 text-sm space-y-1">
+                      <li>• Excellent hardenability</li>
+                      <li>• Superior strength-to-weight ratio</li>
+                      <li>• Good machinability</li>
+                      <li>• High fatigue resistance</li>
+                    </ul>
+                  </div>
                 </div>
-                <div className="bg-white p-8 rounded-lg shadow-md" data-testid="specifications-applications">
-                  <h3 className="text-2xl font-semibold text-navy-primary mb-6">Applications</h3>
-                  <ul className="space-y-3">
-                    {applications.map((app, index) => (
-                      <li key={index} className="flex items-start" data-testid={`app-${index}`}>
-                        <Star className="w-5 h-5 text-gold-primary mr-3 mt-0.5 flex-shrink-0" />
-                        <span className="text-gray-700">{app}</span>
-                      </li>
-                    ))}
-                  </ul>
+              </div>
+              
+              <div className="bg-white p-8 rounded-lg shadow-lg">
+                <h3 className="text-2xl font-semibold mb-6 text-gray-900">Applications & Industries</h3>
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="font-semibold text-orange-600 mb-2">Automotive Industry</h4>
+                    <p className="text-gray-600 text-sm">Crankshafts, connecting rods, gears, axles, and transmission components</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-orange-600 mb-2">Aerospace Applications</h4>
+                    <p className="text-gray-600 text-sm">Aircraft landing gear, high-strength fasteners, and critical structural components</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-orange-600 mb-2">Machine Tools</h4>
+                    <p className="text-gray-600 text-sm">Machine shafts, tool holders, spindles, and precision machinery parts</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-orange-600 mb-2">General Engineering</h4>
+                    <p className="text-gray-600 text-sm">Heavy machinery components, pins, bolts, and general fabrication</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* EN Series Grades */}
-        <section className="py-16 bg-white" data-testid="en-grades-section">
+        {/* EN Series Comparison Table */}
+        <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
-            <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="en-grades-title">
-                Available EN Series Grades
-              </h2>
-              <div className="overflow-x-auto">
-                <table className="w-full bg-white border border-gray-200 rounded-lg shadow-md" data-testid="en-table">
-                  <thead className="bg-navy-primary text-white">
-                    <tr>
-                      <th className="px-6 py-4 text-left">EN Grade</th>
-                      <th className="px-6 py-4 text-left">Equivalent AISI</th>
-                      <th className="px-6 py-4 text-left">Carbon (%)</th>
-                      <th className="px-6 py-4 text-left">Typical Applications</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-gray-200">
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-semibold">EN8</td>
-                      <td className="px-6 py-4">1040</td>
-                      <td className="px-6 py-4">0.36-0.44</td>
-                      <td className="px-6 py-4">General engineering, shafts, bolts</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-semibold">EN9</td>
-                      <td className="px-6 py-4">1055</td>
-                      <td className="px-6 py-4">0.50-0.60</td>
-                      <td className="px-6 py-4">Springs, hand tools, agricultural implements</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-semibold">EN19</td>
-                      <td className="px-6 py-4">4140</td>
-                      <td className="px-6 py-4">0.36-0.44</td>
-                      <td className="px-6 py-4">High tensile applications, gears</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-semibold">EN24</td>
-                      <td className="px-6 py-4">4340</td>
-                      <td className="px-6 py-4">0.36-0.44</td>
-                      <td className="px-6 py-4">High strength components, aerospace</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-semibold">EN31</td>
-                      <td className="px-6 py-4">52100</td>
-                      <td className="px-6 py-4">0.90-1.05</td>
-                      <td className="px-6 py-4">Bearing steel, ball and roller bearings</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
+              EN Series Steel Comparison
+            </h2>
+            <div className="overflow-x-auto">
+              <table className="w-full bg-white border border-gray-200 rounded-lg shadow-lg">
+                <thead className="bg-blue-600 text-white">
+                  <tr>
+                    <th className="px-6 py-4 text-left">EN Grade</th>
+                    <th className="px-6 py-4 text-left">SAE Equivalent</th>
+                    <th className="px-6 py-4 text-left">Carbon %</th>
+                    <th className="px-6 py-4 text-left">Key Properties</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-200">
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 font-semibold">EN8</td>
+                    <td className="px-6 py-4">SAE 1040</td>
+                    <td className="px-6 py-4">0.36-0.44%</td>
+                    <td className="px-6 py-4">Good strength, machinability</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 font-semibold">EN9</td>
+                    <td className="px-6 py-4">SAE 1055</td>
+                    <td className="px-6 py-4">0.50-0.60%</td>
+                    <td className="px-6 py-4">High strength, wear resistant</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 font-semibold">EN19</td>
+                    <td className="px-6 py-4">SAE 4140</td>
+                    <td className="px-6 py-4">0.36-0.44%</td>
+                    <td className="px-6 py-4">High strength, good hardenability</td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4 font-semibold">EN24</td>
+                    <td className="px-6 py-4">SAE 4340</td>
+                    <td className="px-6 py-4">0.36-0.44%</td>
+                    <td className="px-6 py-4">Ultra-high strength, toughness</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        {/* Popular Keywords Sections */}
+        <section className="py-16 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
+              Popular EN Series Searches
+            </h2>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              {keywordSections.map((section, sectionIndex) => (
+                <div key={sectionIndex} className="bg-white p-8 rounded-lg shadow-lg">
+                  <h3 className="text-xl font-semibold mb-6 text-gray-900">{section.title}</h3>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    {section.keywords.map((keyword, index) => (
+                      <div 
+                        key={index}
+                        className="bg-gray-50 p-3 rounded border hover:shadow-md transition-shadow"
+                      >
+                        <span className="text-sm font-medium text-blue-700">{keyword}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </section>
 
         {/* Contact CTA */}
-        <section className="py-16 bg-navy-primary text-white" data-testid="contact-cta-section">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6" data-testid="cta-title">
-                Ready to Order EN Series Round Bars?
-              </h2>
-              <p className="text-xl mb-8 text-blue-100" data-testid="cta-subtitle">
-                Get instant quotes and technical support from our EN steel specialists
-              </p>
-              <div className="grid md:grid-cols-3 gap-6 mb-8">
-                <div className="flex items-center justify-center space-x-3" data-testid="contact-phone">
-                  <Phone className="w-6 h-6 text-gold-primary" />
-                  <div>
-                    <p className="font-semibold">Call Us</p>
-                    <p className="text-blue-100">+91 98765 43210</p>
-                  </div>
-                </div>
-                <div className="flex items-center justify-center space-x-3" data-testid="contact-email">
-                  <Mail className="w-6 h-6 text-gold-primary" />
-                  <div>
-                    <p className="font-semibold">Email Us</p>
-                    <p className="text-blue-100">info@mamtasteel.com</p>
-                  </div>
-                </div>
-                <div className="flex items-center justify-center space-x-3" data-testid="contact-location">
-                  <MapPin className="w-6 h-6 text-gold-primary" />
-                  <div>
-                    <p className="font-semibold">Visit Us</p>
-                    <p className="text-blue-100">Mumbai, Maharashtra</p>
-                  </div>
-                </div>
-              </div>
-              <Link href="/contact" className="bg-gold-primary hover:bg-gold-secondary text-navy-primary font-semibold py-4 px-8 rounded-lg transition-colors duration-300 inline-block" data-testid="cta-contact-button">
-                Get Detailed Quote
+        <section className="py-16 bg-gradient-to-r from-blue-900 to-indigo-900 text-white">
+          <div className="container mx-auto px-4 text-center">
+            <h2 className="text-3xl font-bold mb-6">
+              Ready to Order Premium EN Series Steel?
+            </h2>
+            <p className="text-xl mb-8 text-blue-100 max-w-2xl mx-auto">
+              Get competitive prices, mill test certificates, and worldwide delivery for all EN series grades.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link 
+                href="/contact" 
+                className="bg-orange-500 hover:bg-orange-600 px-8 py-3 rounded-lg font-semibold transition-colors"
+                data-testid="bottom-cta-quote"
+              >
+                Request Quote
               </Link>
+              <a 
+                href="mailto:info@mamtasteel.com" 
+                className="bg-transparent border-2 border-white hover:bg-white hover:text-blue-900 px-8 py-3 rounded-lg font-semibold transition-colors"
+                data-testid="bottom-cta-email"
+              >
+                Email Us
+              </a>
             </div>
           </div>
         </section>

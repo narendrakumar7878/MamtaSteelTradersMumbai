@@ -1,223 +1,320 @@
-import ProductSEO from "@/components/ProductSEO";
-import { ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, TrendingUp, Shield, Award } from "lucide-react";
 import { Link } from "wouter";
+import ProductSEO from "@/components/ProductSEO";
 
-export default function HotWorkSteelRoundBars() {
-  const specifications = [
-    "ASTM A681 - Standard Specification for Tool Steels",
-    "DIN 1.2344 / H13 - Hot Work Tool Steel Standard",
-    "JIS SKD61 - Japanese Industrial Standard for Hot Work Tool Steel",
-    "AISI H11, H13 - Tool Steel Classification",
-    "Diameter Range: 10mm to 500mm",
-    "Grades: H11, H13, H21, H22, H26, 1.2344, 1.2343"
-  ];
+const hotWorkProducts = [
+  {
+    id: 1,
+    name: "1.2714 Flat Bars",
+    image: "https://textronsteelalloys.com/wp-content/uploads/2025/01/1.2714-Flat-Bar-300x300.webp",
+    description: "Premium 55NiCrMoV7 hot work tool steel flat bars with excellent high-temperature strength and thermal conductivity.",
+    specifications: ["DIN 1.2714", "55NiCrMoV7", "High thermal conductivity", "Forging dies applications"],
+    applications: ["Die casting dies", "Forging tools", "Extrusion tools", "Hot shear blades"]
+  },
+  {
+    id: 2,
+    name: "H11 Round Bars",
+    image: "https://textronsteelalloys.com/wp-content/uploads/2022/05/h13-Tool-Bars-300x300.jpg",
+    description: "AISI H11 (DIN 1.2343) premium hot work tool steel with superior toughness and thermal shock resistance.",
+    specifications: ["AISI H11", "DIN 1.2343", "Thermal shock resistant", "Die casting applications"],
+    applications: ["Aluminum die casting", "Brass die casting", "Forging dies", "Hot forming tools"]
+  },
+  {
+    id: 3,
+    name: "H13 Flat Bars",
+    image: "https://textronsteelalloys.com/wp-content/uploads/2022/07/H13-FLAT-BARS-300x300.jpg",
+    description: "H13 (DIN 1.2344) SKD61 flat bars - premium hot work tool steel with excellent hardenability and toughness.",
+    specifications: ["AISI H13", "DIN 1.2344", "SKD61", "X40CrMoV5-1", "T20813"],
+    applications: ["Die casting dies", "Extrusion dies", "Forging tools", "Hot work applications"]
+  },
+  {
+    id: 4,
+    name: "H13 Round Bars",
+    image: "https://textronsteelalloys.com/wp-content/uploads/2022/07/H13-300x300.jpg",
+    description: "Premium H13 round bars (DIN 1.2344) with exceptional thermal fatigue resistance and high-temperature strength.",
+    specifications: ["AISI H13", "DIN 1.2344", "SKD61", "X40CrMoV5-1", "Superior thermal fatigue resistance"],
+    applications: ["Aluminum die casting", "Zinc die casting", "Plastic molding", "Hot forging dies"]
+  },
+  {
+    id: 5,
+    name: "H21 Round Bars",
+    image: "https://textronsteelalloys.com/wp-content/uploads/2022/07/h21-round-bars-300x300.jpg",
+    description: "AISI H21 (DIN 1.2581) SKD5 premium tungsten hot work steel with excellent high-temperature performance.",
+    specifications: ["AISI H21", "DIN 1.2581", "SKD5", "X30WCrV93", "T20821"],
+    applications: ["Hot extrusion dies", "Forging dies", "Hot stamping tools", "High-temperature applications"]
+  },
+  {
+    id: 6,
+    name: "S7 Round Bars",
+    image: "https://textronsteelalloys.com/wp-content/uploads/2023/10/S7-Round-Bars-300x300.jpg",
+    description: "S7 (DIN 1.2357) shock-resistant tool steel with outstanding impact toughness and wear resistance.",
+    specifications: ["AISI S7", "DIN 1.2357", "Shock resistant", "High impact toughness"],
+    applications: ["Punches", "Dies", "Hammers", "High impact tooling"]
+  }
+];
 
-  const applications = [
-    "Die Casting Dies and Molds",
-    "Hot Forging Dies",
-    "Extrusion Dies and Tools",
-    "Hot Stamping Dies",
-    "Injection Molding Tools",
-    "Metal Forming Dies",
-    "Hot Work Punches and Mandrels",
-    "Heat Treatment Fixtures"
-  ];
+const keywordSections = [
+  {
+    title: "Hot Work Tool Steel Applications",
+    keywords: [
+      "Die Casting Dies Manufacturing",
+      "Aluminum Die Casting Tools", 
+      "Forging Dies Production",
+      "Extrusion Dies Manufacturing",
+      "Hot Forming Tools",
+      "Plastic Injection Molding Dies",
+      "Hot Stamping Dies",
+      "Thermal Shock Resistant Steel"
+    ]
+  },
+  {
+    title: "Industry Standards & Grades",
+    keywords: [
+      "AISI H11 H13 H21 Steel",
+      "DIN 1.2343 1.2344 Tool Steel", 
+      "SKD61 Hot Work Steel",
+      "JIS SKD5 Tool Steel",
+      "X40CrMoV5-1 Grade",
+      "55NiCrMoV7 Tool Steel",
+      "Premium Tool Steel India",
+      "Hot Work Steel Stockist Mumbai"
+    ]
+  }
+];
 
-  const features = [
-    { icon: Shield, title: "Heat Resistant", desc: "Excellent resistance to thermal fatigue and heat checking" },
-    { icon: TrendingUp, title: "High Hardness", desc: "Maintains hardness and strength at elevated temperatures" },
-    { icon: Award, title: "Tool Steel Quality", desc: "Premium quality tool steel for demanding applications" },
-    { icon: CheckCircle, title: "Thermal Stability", desc: "Superior dimensional stability during thermal cycling" }
-  ];
-
+export default function HotWorkSteel() {
   return (
     <>
       <ProductSEO
-        title="Hot Work Steel Round Bars"
-        description="Premium quality hot work tool steel round bars in grades H11, H13, 1.2344. ASTM A681, DIN standards certified for die casting, forging, and hot work applications. Best prices in Mumbai for hot work steel bars."
-        keywords="hot work steel round bars, H13 round bars, H11 round bars, 1.2344 round bars, ASTM A681 bars, die steel bars, Mumbai tool steel supplier"
-        category="Round Bars"
-        productName="Hot Work Steel Round Bars"
-        specifications={specifications}
+        title="Hot Work Steel Round Bars - H11, H13, H21, S7 Tool Steel | Mamta Steel Traders"
+        description="Premium hot work steel round bars supplier in Mumbai. AISI H11, H13, H21, S7, DIN 1.2343, 1.2344, 1.2581 tool steel for die casting, forging dies & extrusion tools. Worldwide delivery with mill test certificates."
+        keywords="hot work steel, H11 steel, H13 steel, H21 steel, S7 steel, DIN 1.2343, DIN 1.2344, SKD61, die casting steel, forging die steel, tool steel supplier Mumbai, hot work tool steel India"
         canonicalUrl="/product/round-bars/hot-work-steel"
       />
-
-      <div className="min-h-screen bg-gray-50">
-        {/* Breadcrumb Navigation */}
-        <nav className="bg-white py-4 border-b border-gray-200" data-testid="breadcrumb-nav">
-          <div className="container mx-auto px-4">
-            <div className="flex items-center space-x-2 text-sm text-gray-600">
-              <Link href="/" className="hover:text-navy-primary transition-colors" data-testid="breadcrumb-home">Home</Link>
-              <ArrowRight className="w-4 h-4" />
-              <Link href="/product" className="hover:text-navy-primary transition-colors" data-testid="breadcrumb-products">Products</Link>
-              <ArrowRight className="w-4 h-4" />
-              <Link href="/product/round-bars" className="hover:text-navy-primary transition-colors" data-testid="breadcrumb-round-bars">Round Bars</Link>
-              <ArrowRight className="w-4 h-4" />
-              <span className="text-navy-primary font-medium" data-testid="breadcrumb-current">Hot Work Steel Round Bars</span>
-            </div>
+      
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+        {/* Breadcrumb */}
+        <nav className="bg-white shadow-sm border-b" aria-label="Breadcrumb">
+          <div className="container mx-auto px-4 py-3">
+            <ol className="flex items-center space-x-2 text-sm text-gray-600">
+              <li>
+                <Link href="/" className="hover:text-blue-600 transition-colors" data-testid="breadcrumb-home">
+                  Home
+                </Link>
+              </li>
+              <li className="text-gray-400">/</li>
+              <li>
+                <Link href="/product/round-bars/round-bars" className="hover:text-blue-600 transition-colors" data-testid="breadcrumb-products">
+                  Round Bars
+                </Link>
+              </li>
+              <li className="text-gray-400">/</li>
+              <li className="text-gray-900 font-medium">Hot Work Steel</li>
+            </ol>
           </div>
         </nav>
 
         {/* Hero Section */}
-        <section className="bg-gradient-to-r from-navy-primary to-navy-secondary text-white py-16" data-testid="hero-section">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="hero-title">
-                Premium Hot Work Steel Round Bars
-              </h1>
-              <p className="text-xl md:text-2xl mb-8 text-blue-100" data-testid="hero-subtitle">
-                High-performance hot work tool steel round bars for die casting, forging, and high-temperature applications
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="/contact" className="bg-gold-primary hover:bg-gold-secondary text-navy-primary font-semibold py-3 px-8 rounded-lg transition-colors duration-300" data-testid="cta-get-quote">
-                  Get Quote Now
-                </Link>
-                <a href="tel:+919876543210" className="border-2 border-white text-white hover:bg-white hover:text-navy-primary font-semibold py-3 px-8 rounded-lg transition-colors duration-300" data-testid="cta-call-now">
-                  Call Now: +91 98765 43210
-                </a>
-              </div>
+        <div className="bg-gradient-to-r from-blue-900 via-blue-800 to-indigo-900 text-white py-16">
+          <div className="container mx-auto px-4 text-center">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="hero-title">
+              Premium Hot Work Steel Round Bars
+            </h1>
+            <p className="text-xl mb-8 text-blue-100 max-w-4xl mx-auto" data-testid="hero-description">
+              Leading supplier of AISI H11, H13, H21, S7 and DIN 1.2343, 1.2344, 1.2581 hot work tool steel round bars. 
+              Perfect for die casting dies, forging tools, extrusion dies and high-temperature applications with superior thermal shock resistance.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link 
+                href="/contact" 
+                className="bg-orange-500 hover:bg-orange-600 px-8 py-3 rounded-lg font-semibold transition-colors" 
+                data-testid="cta-quote"
+              >
+                Get Quote Now
+              </Link>
+              <a 
+                href="tel:+919876543210" 
+                className="bg-transparent border-2 border-white hover:bg-white hover:text-blue-900 px-8 py-3 rounded-lg font-semibold transition-colors" 
+                data-testid="cta-call"
+              >
+                Call: +91 98765 43210
+              </a>
             </div>
           </div>
-        </section>
+        </div>
 
-        {/* Product Features */}
-        <section className="py-16 bg-white" data-testid="features-section">
+        {/* Products Grid */}
+        <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="features-title">
-              Why Choose Our Hot Work Steel Round Bars?
+            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900" data-testid="products-heading">
+              Hot Work Steel Products
             </h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {features.map((feature, index) => (
-                <div key={index} className="text-center p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow duration-300" data-testid={`feature-${index}`}>
-                  <feature.icon className="w-12 h-12 text-gold-primary mx-auto mb-4" />
-                  <h3 className="text-xl font-semibold text-navy-primary mb-2">{feature.title}</h3>
-                  <p className="text-gray-600">{feature.desc}</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {hotWorkProducts.map((product) => (
+                <div 
+                  key={product.id}
+                  className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow border"
+                  data-testid={`product-card-${product.id}`}
+                >
+                  <img 
+                    src={product.image} 
+                    alt={product.name}
+                    className="w-full h-48 object-cover"
+                    loading="lazy"
+                  />
+                  <div className="p-6">
+                    <h3 className="text-xl font-semibold mb-3 text-gray-900">
+                      {product.name}
+                    </h3>
+                    <p className="text-gray-600 mb-4 text-sm leading-relaxed">
+                      {product.description}
+                    </p>
+                    <div className="mb-4">
+                      <h4 className="font-medium text-gray-900 mb-2">Specifications:</h4>
+                      <div className="flex flex-wrap gap-2">
+                        {product.specifications.map((spec, index) => (
+                          <span 
+                            key={index}
+                            className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium"
+                          >
+                            {spec}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                    <div className="mb-4">
+                      <h4 className="font-medium text-gray-900 mb-2">Applications:</h4>
+                      <ul className="text-sm text-gray-600 space-y-1">
+                        {product.applications.slice(0, 3).map((app, index) => (
+                          <li key={index} className="flex items-center">
+                            <span className="w-1 h-1 bg-blue-500 rounded-full mr-2"></span>
+                            {app}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <Link 
+                      href="/contact"
+                      className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded font-medium transition-colors text-center block"
+                      data-testid={`quote-button-${product.id}`}
+                    >
+                      Get Quote
+                    </Link>
+                  </div>
                 </div>
               ))}
             </div>
           </div>
         </section>
 
-        {/* Specifications */}
-        <section className="py-16 bg-gray-50" data-testid="specifications-section">
+        {/* Technical Specifications */}
+        <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
-            <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="specifications-title">
-                Technical Specifications
-              </h2>
-              <div className="grid md:grid-cols-2 gap-12">
-                <div className="bg-white p-8 rounded-lg shadow-md" data-testid="specifications-standards">
-                  <h3 className="text-2xl font-semibold text-navy-primary mb-6">Standards & Grades</h3>
-                  <ul className="space-y-3">
-                    {specifications.map((spec, index) => (
-                      <li key={index} className="flex items-start" data-testid={`spec-${index}`}>
-                        <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" />
-                        <span className="text-gray-700">{spec}</span>
-                      </li>
-                    ))}
-                  </ul>
+            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
+              Technical Specifications & Standards
+            </h2>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+              <div className="bg-white p-8 rounded-lg shadow-lg">
+                <h3 className="text-2xl font-semibold mb-6 text-gray-900">Hot Work Steel Grades</h3>
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="font-semibold text-blue-600 mb-2">AISI Standards</h4>
+                    <p className="text-gray-600 text-sm">H11, H13, H21, S7 - Premium hot work tool steels</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-blue-600 mb-2">DIN Standards</h4>
+                    <p className="text-gray-600 text-sm">1.2343, 1.2344, 1.2581, 1.2357 - European specifications</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-blue-600 mb-2">JIS Standards</h4>
+                    <p className="text-gray-600 text-sm">SKD5, SKD61 - Japanese industrial standards</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-blue-600 mb-2">Key Properties</h4>
+                    <ul className="text-gray-600 text-sm space-y-1">
+                      <li>• High thermal conductivity</li>
+                      <li>• Excellent thermal shock resistance</li>
+                      <li>• Superior hardenability</li>
+                      <li>• High-temperature strength retention</li>
+                    </ul>
+                  </div>
                 </div>
-                <div className="bg-white p-8 rounded-lg shadow-md" data-testid="specifications-applications">
-                  <h3 className="text-2xl font-semibold text-navy-primary mb-6">Applications</h3>
-                  <ul className="space-y-3">
-                    {applications.map((app, index) => (
-                      <li key={index} className="flex items-start" data-testid={`app-${index}`}>
-                        <Star className="w-5 h-5 text-gold-primary mr-3 mt-0.5 flex-shrink-0" />
-                        <span className="text-gray-700">{app}</span>
-                      </li>
-                    ))}
-                  </ul>
+              </div>
+              
+              <div className="bg-white p-8 rounded-lg shadow-lg">
+                <h3 className="text-2xl font-semibold mb-6 text-gray-900">Applications & Industries</h3>
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="font-semibold text-orange-600 mb-2">Die Casting Industry</h4>
+                    <p className="text-gray-600 text-sm">Aluminum, zinc, and brass die casting dies with superior thermal fatigue resistance</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-orange-600 mb-2">Forging Applications</h4>
+                    <p className="text-gray-600 text-sm">Hot forging dies, upset forging tools, and closed-die forging applications</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-orange-600 mb-2">Extrusion Tools</h4>
+                    <p className="text-gray-600 text-sm">Hot extrusion dies for aluminum, brass, and other non-ferrous metals</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-orange-600 mb-2">Plastic Industry</h4>
+                    <p className="text-gray-600 text-sm">Injection molding dies, blow molding tools, and thermoforming dies</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Hot Work Steel Grades */}
-        <section className="py-16 bg-white" data-testid="hot-work-grades-section">
+        {/* Popular Keywords Sections */}
+        <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
-            <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="hot-work-grades-title">
-                Available Hot Work Steel Grades
-              </h2>
-              <div className="overflow-x-auto">
-                <table className="w-full bg-white border border-gray-200 rounded-lg shadow-md" data-testid="hot-work-table">
-                  <thead className="bg-navy-primary text-white">
-                    <tr>
-                      <th className="px-6 py-4 text-left">Grade</th>
-                      <th className="px-6 py-4 text-left">Standard</th>
-                      <th className="px-6 py-4 text-left">Working Temp (°C)</th>
-                      <th className="px-6 py-4 text-left">Typical Applications</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-gray-200">
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-semibold">H11</td>
-                      <td className="px-6 py-4">AISI H11</td>
-                      <td className="px-6 py-4">Up to 550°C</td>
-                      <td className="px-6 py-4">Aluminum die casting dies</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-semibold">H13</td>
-                      <td className="px-6 py-4">AISI H13</td>
-                      <td className="px-6 py-4">Up to 600°C</td>
-                      <td className="px-6 py-4">Die casting dies, forging dies</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-semibold">1.2344</td>
-                      <td className="px-6 py-4">DIN 1.2344</td>
-                      <td className="px-6 py-4">Up to 600°C</td>
-                      <td className="px-6 py-4">Hot work tools, extrusion dies</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-semibold">H21</td>
-                      <td className="px-6 py-4">AISI H21</td>
-                      <td className="px-6 py-4">Up to 650°C</td>
-                      <td className="px-6 py-4">Brass extrusion dies, hot shear blades</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
+              Popular Hot Work Steel Searches
+            </h2>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              {keywordSections.map((section, sectionIndex) => (
+                <div key={sectionIndex} className="bg-gray-50 p-8 rounded-lg">
+                  <h3 className="text-xl font-semibold mb-6 text-gray-900">{section.title}</h3>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    {section.keywords.map((keyword, index) => (
+                      <div 
+                        key={index}
+                        className="bg-white p-3 rounded border hover:shadow-md transition-shadow"
+                      >
+                        <span className="text-sm font-medium text-blue-700">{keyword}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </section>
 
         {/* Contact CTA */}
-        <section className="py-16 bg-navy-primary text-white" data-testid="contact-cta-section">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6" data-testid="cta-title">
-                Ready to Order Hot Work Steel Round Bars?
-              </h2>
-              <p className="text-xl mb-8 text-blue-100" data-testid="cta-subtitle">
-                Get instant quotes and technical support from our hot work steel specialists
-              </p>
-              <div className="grid md:grid-cols-3 gap-6 mb-8">
-                <div className="flex items-center justify-center space-x-3" data-testid="contact-phone">
-                  <Phone className="w-6 h-6 text-gold-primary" />
-                  <div>
-                    <p className="font-semibold">Call Us</p>
-                    <p className="text-blue-100">+91 98765 43210</p>
-                  </div>
-                </div>
-                <div className="flex items-center justify-center space-x-3" data-testid="contact-email">
-                  <Mail className="w-6 h-6 text-gold-primary" />
-                  <div>
-                    <p className="font-semibold">Email Us</p>
-                    <p className="text-blue-100">info@mamtasteel.com</p>
-                  </div>
-                </div>
-                <div className="flex items-center justify-center space-x-3" data-testid="contact-location">
-                  <MapPin className="w-6 h-6 text-gold-primary" />
-                  <div>
-                    <p className="font-semibold">Visit Us</p>
-                    <p className="text-blue-100">Mumbai, Maharashtra</p>
-                  </div>
-                </div>
-              </div>
-              <Link href="/contact" className="bg-gold-primary hover:bg-gold-secondary text-navy-primary font-semibold py-4 px-8 rounded-lg transition-colors duration-300 inline-block" data-testid="cta-contact-button">
-                Get Detailed Quote
+        <section className="py-16 bg-gradient-to-r from-blue-900 to-indigo-900 text-white">
+          <div className="container mx-auto px-4 text-center">
+            <h2 className="text-3xl font-bold mb-6">
+              Ready to Order Premium Hot Work Steel?
+            </h2>
+            <p className="text-xl mb-8 text-blue-100 max-w-2xl mx-auto">
+              Get competitive prices, mill test certificates, and worldwide delivery for all hot work tool steel grades.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link 
+                href="/contact" 
+                className="bg-orange-500 hover:bg-orange-600 px-8 py-3 rounded-lg font-semibold transition-colors"
+                data-testid="bottom-cta-quote"
+              >
+                Request Quote
               </Link>
+              <a 
+                href="mailto:info@mamtasteel.com" 
+                className="bg-transparent border-2 border-white hover:bg-white hover:text-blue-900 px-8 py-3 rounded-lg font-semibold transition-colors"
+                data-testid="bottom-cta-email"
+              >
+                Email Us
+              </a>
             </div>
           </div>
         </section>
