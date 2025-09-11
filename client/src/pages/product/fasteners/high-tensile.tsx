@@ -9,8 +9,50 @@ export default function HighTensileFasteners() {
     "ASTM A325 - Structural Bolts, Steel, Heat Treated",
     "ASTM A490 - Heat Treated Steel Structural Bolts",
     "ISO 898-1 - Property Classes 8.8, 10.9, 12.9",
-    "Size Range: M6 to M100 | 1/4\" to 4\"",
-    "Length: Up to 1000mm"
+    "DIN Standards - DIN 912, DIN 933, DIN 931, DIN 6912",
+    "Size Range: M3 to M100 | 1/8\" to 4\"",
+    "Length: Up to 6000mm",
+    "Thread Pitch: Coarse and Fine Thread Available",
+    "Surface Finish: Plain, Zinc Plated, Hot Dip Galvanized"
+  ];
+
+  const productCategories = [
+    {
+      name: "Hex Head Bolts",
+      description: "High tensile hexagon head bolts in various grades",
+      grades: ["8.8", "10.9", "12.9", "B7", "B16"],
+      image: "https://5.imimg.com/data5/SELLER/Default/2023/3/291916365/PS/WK/TN/31502840/stainless-steel-fasteners-250x250.jpg"
+    },
+    {
+      name: "Socket Head Cap Screws",
+      description: "Allen key socket head cap screws for precision applications",
+      grades: ["12.9", "A4-80", "A2-70"],
+      image: "https://5.imimg.com/data5/SELLER/Default/2024/12/470522801/FX/AD/VP/69800097/stainless-steel-fasteners-manufacturers-250x250.jpg"
+    },
+    {
+      name: "Stud Bolts",
+      description: "Fully threaded stud bolts for flange applications",
+      grades: ["B7", "B16", "L7", "316L"],
+      image: "https://5.imimg.com/data5/SELLER/Default/2024/1/379246059/XC/CD/CI/4256871/ss-foundation-bolt-250x250.webp"
+    },
+    {
+      name: "Hex Nuts",
+      description: "High strength hex nuts matching bolt grades",
+      grades: ["2H", "2HM", "A4-80", "A2-70"],
+      image: "https://5.imimg.com/data5/SELLER/Default/2023/9/347650627/GC/SP/JQ/1566860/industrial-metal-fasteners-250x250.jpg"
+    },
+    {
+      name: "Washers",
+      description: "Hardened washers for high tensile applications",
+      grades: ["HV300", "A4", "A2", "Carbon Steel"],
+      image: "https://5.imimg.com/data5/SELLER/Default/2022/12/RZ/CM/AZ/1437532/ss-fasteners-250x250.jpg"
+    },
+    {
+      name: "U-Bolts",
+      description: "Heavy duty U-bolts for structural applications",
+      grades: ["8.8", "10.9", "316L", "304L"],
+      image: "https://5.imimg.com/data5/SELLER/Default/2024/3/396905667/GJ/DV/UM/549408/super-duplex-steel-2507-fasteners-250x250.jpg"
+    }
   ];
 
   const applications = [
@@ -34,9 +76,9 @@ export default function HighTensileFasteners() {
   return (
     <>
       <ProductSEO
-        title="High Tensile Fasteners"
-        description="Premium quality high tensile fasteners in grades B7, B16, 8.8, 10.9, 12.9. ASTM A193, A320, A325 certified bolts, nuts, washers. Best prices from Mumbai supplier."
-        keywords="high tensile fasteners, B7 bolts, B16 bolts, ASTM A193, A320, A325, structural bolts, property class 8.8, 10.9, 12.9, Mumbai fastener supplier"
+        title="High Tensile Fasteners - SS 316L, 304, Duplex Steel Bolts, Nuts & Washers | Mumbai Supplier"
+        description="Premium high tensile fasteners manufacturer in Mumbai. SS 316L, 304, Duplex steel bolts, nuts, washers. ASTM A193 B7/B16, ISO 898 Grade 8.8/10.9/12.9. Best prices & quality."
+        keywords="high tensile fasteners, stainless steel fasteners, SS 316L bolts, SS 304 fasteners, duplex steel fasteners, ASTM A193 B7 bolts, B16 bolts, ISO 898 fasteners, hex head bolts, socket head cap screws, stud bolts, hex nuts, washers, U-bolts, Mumbai fastener supplier, high tensile bolts manufacturer, stainless steel nuts supplier, marine grade fasteners, food grade fasteners, chemical resistant fasteners"
         category="Fasteners"
         productName="High Tensile Fasteners"
         specifications={specifications}
@@ -99,6 +141,49 @@ export default function HighTensileFasteners() {
           </div>
         </section>
 
+        {/* Product Categories Grid */}
+        <section className="py-16 bg-white" data-testid="product-categories-section">
+          <div className="container mx-auto px-4">
+            <div className="max-w-6xl mx-auto">
+              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-4" data-testid="categories-title">
+                High Tensile Fastener Categories
+              </h2>
+              <p className="text-center text-gray-600 mb-12 text-lg">
+                Complete range of high strength fasteners for critical applications
+              </p>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {productCategories.map((category, index) => (
+                  <div key={index} className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden border border-gray-200" data-testid={`category-${index}`}>
+                    <img 
+                      src={category.image} 
+                      alt={category.name}
+                      className="w-full h-48 object-cover"
+                      loading="lazy"
+                    />
+                    <div className="p-6">
+                      <h3 className="text-xl font-semibold text-navy-primary mb-2">{category.name}</h3>
+                      <p className="text-gray-600 mb-4">{category.description}</p>
+                      <div className="mb-4">
+                        <h4 className="text-sm font-medium text-gray-700 mb-2">Available Grades:</h4>
+                        <div className="flex flex-wrap gap-2">
+                          {category.grades.map((grade, gradeIndex) => (
+                            <span key={gradeIndex} className="bg-gold-primary/20 text-navy-primary px-2 py-1 rounded text-xs font-medium">
+                              {grade}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                      <Link href="/contact" className="text-gold-primary hover:text-gold-secondary font-medium text-sm">
+                        Get Quote →
+                      </Link>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Specifications */}
         <section className="py-16 bg-gray-50" data-testid="specifications-section">
           <div className="container mx-auto px-4">
@@ -149,6 +234,7 @@ export default function HighTensileFasteners() {
                       <th className="px-6 py-4 text-left">Tensile Strength (MPa)</th>
                       <th className="px-6 py-4 text-left">Yield Strength (MPa)</th>
                       <th className="px-6 py-4 text-left">Hardness (HRC)</th>
+                      <th className="px-6 py-4 text-left">Applications</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-gray-200">
@@ -157,27 +243,68 @@ export default function HighTensileFasteners() {
                       <td className="px-6 py-4">800 min</td>
                       <td className="px-6 py-4">640 min</td>
                       <td className="px-6 py-4">23-34</td>
+                      <td className="px-6 py-4">General structural</td>
                     </tr>
                     <tr className="hover:bg-gray-50">
                       <td className="px-6 py-4 font-medium">Class 10.9</td>
                       <td className="px-6 py-4">1000 min</td>
                       <td className="px-6 py-4">900 min</td>
                       <td className="px-6 py-4">32-39</td>
+                      <td className="px-6 py-4">Heavy machinery</td>
                     </tr>
                     <tr className="hover:bg-gray-50">
                       <td className="px-6 py-4 font-medium">Class 12.9</td>
                       <td className="px-6 py-4">1200 min</td>
                       <td className="px-6 py-4">1080 min</td>
                       <td className="px-6 py-4">39-44</td>
+                      <td className="px-6 py-4">Aerospace, Critical</td>
                     </tr>
                     <tr className="hover:bg-gray-50">
                       <td className="px-6 py-4 font-medium">ASTM A193 B7</td>
                       <td className="px-6 py-4">860 min</td>
                       <td className="px-6 py-4">720 min</td>
                       <td className="px-6 py-4">23-35</td>
+                      <td className="px-6 py-4">Pressure vessels</td>
+                    </tr>
+                    <tr className="hover:bg-gray-50">
+                      <td className="px-6 py-4 font-medium">ASTM A193 B16</td>
+                      <td className="px-6 py-4">700 min</td>
+                      <td className="px-6 py-4">520 min</td>
+                      <td className="px-6 py-4">22-32</td>
+                      <td className="px-6 py-4">High temp service</td>
+                    </tr>
+                    <tr className="hover:bg-gray-50">
+                      <td className="px-6 py-4 font-medium">SS 316L A4-80</td>
+                      <td className="px-6 py-4">800 min</td>
+                      <td className="px-6 py-4">600 min</td>
+                      <td className="px-6 py-4">-</td>
+                      <td className="px-6 py-4">Marine, Chemical</td>
                     </tr>
                   </tbody>
                 </table>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Popular Search Keywords */}
+        <section className="py-16 bg-white" data-testid="keywords-section">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto text-center">
+              <h2 className="text-3xl md:text-4xl font-bold text-navy-primary mb-8" data-testid="keywords-title">
+                Popular Fastener Searches
+              </h2>
+              <div className="flex flex-wrap justify-center gap-3">
+                {[
+                  "SS 316L Bolts", "SS 304 Fasteners", "Duplex Steel Fasteners", "Marine Grade Bolts",
+                  "Food Grade Fasteners", "Chemical Resistant Bolts", "High Tensile Nuts", "Stainless Steel Washers",
+                  "ASTM A193 B7 Bolts", "ASTM A193 B16 Bolts", "ISO 898 Grade 8.8", "ISO 898 Grade 10.9",
+                  "Hex Head Bolts", "Socket Head Cap Screws", "Stud Bolts", "U-Bolts", "Foundation Bolts"
+                ].map((keyword, index) => (
+                  <span key={index} className="bg-gray-100 px-4 py-2 rounded-full text-sm font-medium text-navy-primary border border-gray-200 hover:shadow-md transition-shadow">
+                    {keyword}
+                  </span>
+                ))}
               </div>
             </div>
           </div>
