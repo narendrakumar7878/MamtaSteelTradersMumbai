@@ -437,6 +437,18 @@ export default function Navbar() {
                         <Link href="/product/fasteners/high-tensile" className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center text-sm transition-colors duration-200" data-testid="link-high-tensile">
                           High Tensile
                         </Link>
+                        <Link href="/product/fasteners/ss-bolts" className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center text-sm transition-colors duration-200" data-testid="link-ss-bolts">
+                          Stainless Steel Bolts
+                        </Link>
+                        <Link href="/product/fasteners/ss-nuts" className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center text-sm transition-colors duration-200" data-testid="link-ss-nuts">
+                          Stainless Steel Nuts
+                        </Link>
+                        <Link href="/product/fasteners/ss-screws" className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center text-sm transition-colors duration-200" data-testid="link-ss-screws">
+                          Stainless Steel Screws
+                        </Link>
+                        <Link href="/product/fasteners/ss-washers" className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center text-sm transition-colors duration-200" data-testid="link-ss-washers">
+                          Stainless Steel Washers
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -902,6 +914,18 @@ export default function Navbar() {
                         <div className="ml-5 mt-1 space-y-1 animate-in slide-in-from-top duration-200">
                           <Link href="/product/fasteners/high-tensile" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-high-tensile">
                             High Tensile
+                          </Link>
+                          <Link href="/product/fasteners/ss-bolts" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-ss-bolts">
+                            Stainless Steel Bolts
+                          </Link>
+                          <Link href="/product/fasteners/ss-nuts" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-ss-nuts">
+                            Stainless Steel Nuts
+                          </Link>
+                          <Link href="/product/fasteners/ss-screws" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-ss-screws">
+                            Stainless Steel Screws
+                          </Link>
+                          <Link href="/product/fasteners/ss-washers" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-ss-washers">
+                            Stainless Steel Washers
                           </Link>
                         </div>
                       )}
