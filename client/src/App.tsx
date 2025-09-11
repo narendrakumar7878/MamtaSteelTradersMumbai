@@ -35,6 +35,10 @@ import StainlessSteelRoundBars from "@/pages/product/round-bars/stainless-steel-
 import RoundBarsMain from "@/pages/product/round-bars/round-bars";
 import StainlessSteelFlanges from "@/pages/product/flanges/stainless-steel";
 import HighTensileFasteners from "@/pages/product/fasteners/high-tensile";
+import StainlessSteelBolts from "@/pages/product/fasteners/ss-bolts";
+import StainlessSteelNuts from "@/pages/product/fasteners/ss-nuts";
+import StainlessSteelScrews from "@/pages/product/fasteners/ss-screws";
+import StainlessSteelWashers from "@/pages/product/fasteners/ss-washers";
 
 // Flange Pages
 import CarbonSteelFlanges from "@/pages/product/flanges/carbon-steel";
@@ -182,6 +186,10 @@ function Router() {
       <Route path="/product/pins/pipe-linch-pin" component={PipeLinchPin} />
       
       <Route path="/product/fasteners/high-tensile" component={HighTensileFasteners} />
+      <Route path="/product/fasteners/ss-bolts" component={StainlessSteelBolts} />
+      <Route path="/product/fasteners/ss-nuts" component={StainlessSteelNuts} />
+      <Route path="/product/fasteners/ss-screws" component={StainlessSteelScrews} />
+      <Route path="/product/fasteners/ss-washers" component={StainlessSteelWashers} />
       
       {/* Additional Pipe & Tubes Routes */}
       <Route path="/product/pipes-tubes/nickel-alloy" component={NickelAlloyPipes} />
