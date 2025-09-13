@@ -233,32 +233,7 @@ export default function ButtweldFittings() {
     }
   ];
 
-  const faqs = [
-    {
-      question: "What is the difference between long radius and short radius elbows?",
-      answer: "Long radius elbows have a centerline radius of 1.5 times the pipe diameter, while short radius elbows have a radius equal to the pipe diameter. Long radius elbows are preferred for most applications due to lower pressure drop."
-    },
-    {
-      question: "What materials are available for buttweld fittings?",
-      answer: "We offer stainless steel (304, 316L, 321, 347), carbon steel (A234 WPB), alloy steel (P5, P9, P11, P22, P91), duplex steel (2205, 2507), and nickel alloys (Inconel, Monel, Hastelloy)."
-    },
-    {
-      question: "What standards do your buttweld fittings comply with?",
-      answer: "Our fittings comply with ASME B16.9, ASTM A403, ASTM A234, MSS SP-43, DIN 2605, and JIS B2313 standards with full material traceability and test certificates."
-    },
-    {
-      question: "What is the maximum size available in buttweld fittings?",
-      answer: "We manufacture buttweld fittings up to 72\" (1800mm) diameter in various wall thicknesses from Schedule 5S to XXS."
-    },
-    {
-      question: "Do you provide test certificates with buttweld fittings?",
-      answer: "Yes, we provide EN 10204/3.1B mill test certificates, PMI reports, dimensional reports, and hydrostatic test certificates with all our fittings."
-    },
-    {
-      question: "What is the delivery time for buttweld fittings?",
-      answer: "Standard sizes are available from stock for immediate delivery. Special sizes and materials typically require 2-4 weeks depending on specifications."
-    }
-  ];
+  
 
   return (
     <>
@@ -563,26 +538,7 @@ export default function ButtweldFittings() {
           </div>
         </section>
 
-        {/* FAQ Section */}
-        <section className="py-16 bg-white dark:bg-gray-800" data-testid="faq-section">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary dark:text-white mb-12" data-testid="faq-title">
-                Frequently Asked Questions
-              </h2>
-              <div className="space-y-6">
-                {faqs.map((faq, index) => (
-                  <div key={index} className="bg-gray-50 dark:bg-gray-700 rounded-lg border border-gray-200 dark:border-gray-600 overflow-hidden" data-testid={`faq-${index}`}>
-                    <div className="p-6">
-                      <h3 className="text-lg font-semibold text-navy-primary dark:text-white mb-3">{faq.question}</h3>
-                      <p className="text-gray-700 dark:text-gray-300">{faq.answer}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
+        
 
         {/* Why Choose Us */}
         <section className="py-16 bg-gradient-to-r from-blue-600 to-navy-primary text-white" data-testid="why-choose-section">
