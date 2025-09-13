@@ -354,48 +354,7 @@ export default function HotDipGalvanizedAngles() {
     "Madurai", "Raipur", "Kota", "Chandigarh", "Guwahati", "Solapur", "Hubli-Dharwad"
   ];
 
-  const faqs = [
-    {
-      question: "What is the difference between hot-dip galvanizing and cold galvanizing?",
-      answer: "Hot-dip galvanizing involves immersing steel in molten zinc at 450°C, creating a metallurgically bonded coating that's much thicker (85+ microns) and more durable. Cold galvanizing is spray/brush applied zinc-rich paint with thinner coating (25-50 microns) and shorter life. Hot-dip provides 50+ years protection vs 5-10 years for cold galvanizing."
-    },
-    {
-      question: "What coating thickness can I expect on galvanized angles?",
-      answer: "As per ASTM A123 and IS 4759 standards, galvanized angles have minimum coating thickness of 85 microns (610 g/m²). For thickness 5mm and above, we provide 85-100 microns coating. Thicker sections get proportionally thicker coating for enhanced protection."
-    },
-    {
-      question: "How long do galvanized angles last in different environments?",
-      answer: "In rural environments: 50+ years, Urban areas: 25-40 years, Industrial areas: 15-25 years, Marine/coastal: 20-30 years. The zinc coating corrodes sacrificially at predictable rates - typically 1 micron per year in rural areas and 2-5 microns per year in harsh environments."
-    },
-    {
-      question: "Can galvanized angles be welded after galvanizing?",
-      answer: "Yes, but requires proper ventilation due to zinc fumes. Remove galvanizing from weld area, weld the steel, then apply zinc-rich primer or zinc spray to restore protection. For structures requiring extensive welding, consider galvanizing after fabrication."
-    },
-    {
-      question: "What sizes of galvanized angles are readily available?",
-      answer: "We stock sizes from 20x20x3mm to 200x200x20mm in 6-meter standard lengths. Common sizes like 25x25x3mm, 40x40x5mm, 50x50x5mm, 75x75x6mm, 100x100x8mm are available ex-stock. Custom lengths up to 12 meters can be arranged."
-    },
-    {
-      question: "What is the weight difference between galvanized and black angles?",
-      answer: "Galvanized angles are approximately 3-5% heavier than black angles due to zinc coating. For example, 50x50x5mm black angle weighs 3.77 kg/m while galvanized weighs about 3.85-3.90 kg/m. The coating adds 610-700 g/m² surface area coverage."
-    },
-    {
-      question: "Are your galvanized angles suitable for structural applications?",
-      answer: "Yes, our galvanized angles are manufactured from IS 2062 structural steel with grades E250, E300, E350, E410. They maintain full structural properties after galvanizing and are suitable for load-bearing applications in construction, transmission towers, and industrial structures."
-    },
-    {
-      question: "How do you ensure quality of galvanized coating?",
-      answer: "We follow strict quality control: Chemical composition testing, coating thickness measurement, salt spray testing (500+ hours), adhesion testing, visual inspection, and provide Mill Test Certificates as per EN 10204/3.1B. Each batch is tested and certified."
-    },
-    {
-      question: "Can you supply galvanized angles for marine applications?",
-      answer: "Yes, we provide marine-grade galvanized angles with enhanced coating thickness (100+ microns) for coastal and marine environments. These are specially processed for maximum corrosion resistance in high-chloride environments and saltwater exposure."
-    },
-    {
-      question: "What are your delivery timelines for galvanized angles?",
-      answer: "Stock sizes: Same day to 3 days, Standard sizes: 1-2 weeks, Custom sizes/lengths: 2-4 weeks depending on quantity. We maintain ready stock of common sizes in Mumbai and can arrange pan-India delivery through our logistics network."
-    }
-  ];
+  
 
   return (
     <>
@@ -742,26 +701,7 @@ export default function HotDipGalvanizedAngles() {
           </div>
         </section>
 
-        {/* FAQ Section */}
-        <section className="py-16 bg-white dark:bg-gray-800" data-testid="faq-section">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary dark:text-white mb-12" data-testid="faq-title">
-                Frequently Asked Questions
-              </h2>
-              <div className="space-y-6">
-                {faqs.map((faq, index) => (
-                  <div key={index} className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-600 overflow-hidden shadow-lg" data-testid={`faq-${index}`}>
-                    <div className="p-6">
-                      <h3 className="text-lg font-semibold text-navy-primary dark:text-white mb-3">{faq.question}</h3>
-                      <p className="text-gray-700 dark:text-gray-300">{faq.answer}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
+        
 
         {/* Cities We Supply */}
         <section className="py-16 bg-gray-50 dark:bg-gray-900" data-testid="cities-section">
