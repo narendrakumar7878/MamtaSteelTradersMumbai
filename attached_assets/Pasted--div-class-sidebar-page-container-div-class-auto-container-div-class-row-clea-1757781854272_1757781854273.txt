@@ -1,0 +1,302 @@
+<div class="sidebar-page-container">
+    <div class="auto-container">
+        <div class="row clearfix">
+			
+            <!-- sidebar area -->
+						
+            <div class=" col-lg-9 col-md-8 col-sm-12 col-xs-12  content-side">
+                <div class="shop-single">
+                	<div class="product-details">
+						                                                            <div class="woocommerce-notices-wrapper"></div><div id="product-1874" class="post-1874 product type-product status-publish has-post-thumbnail product_cat-galvanized first instock shipping-taxable product-type-simple">
+	<div class="basic-details">
+    	<div class="row clearfix">
+            <div class="image-column col-md-6 col-sm-6 col-xs-12">
+            	<figure class="image-box">
+					<div class="woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-4 images" data-columns="4" style="opacity: 1; transition: opacity 0.25s ease-in-out;">
+	<div class="woocommerce-product-gallery__wrapper">
+		<div data-thumb="https://textronsteelalloys.com/wp-content/uploads/2019/08/hot-dip-galvanized-angles-is2062-100x100.jpg" data-thumb-alt="hot-dip-galvanized-angles-is2062" data-thumb-srcset="https://textronsteelalloys.com/wp-content/uploads/2019/08/hot-dip-galvanized-angles-is2062-100x100.jpg 100w, https://textronsteelalloys.com/wp-content/uploads/2019/08/hot-dip-galvanized-angles-is2062-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2019/08/hot-dip-galvanized-angles-is2062-400x400.jpg 400w, https://textronsteelalloys.com/wp-content/uploads/2019/08/hot-dip-galvanized-angles-is2062-150x150.jpg 150w, https://textronsteelalloys.com/wp-content/uploads/2019/08/hot-dip-galvanized-angles-is2062-101x101.jpg 101w, https://textronsteelalloys.com/wp-content/uploads/2019/08/hot-dip-galvanized-angles-is2062-50x50.jpg 50w, https://textronsteelalloys.com/wp-content/uploads/2019/08/hot-dip-galvanized-angles-is2062-45x45.jpg 45w, https://textronsteelalloys.com/wp-content/uploads/2019/08/hot-dip-galvanized-angles-is2062.jpg 500w" data-thumb-sizes="(max-width: 100px) 100vw, 100px" class="woocommerce-product-gallery__image"><a href="https://textronsteelalloys.com/wp-content/uploads/2019/08/hot-dip-galvanized-angles-is2062.jpg"><img width="400" height="400" src="https://textronsteelalloys.com/wp-content/uploads/2019/08/hot-dip-galvanized-angles-is2062-400x400.jpg" class="wp-post-image" alt="hot-dip-galvanized-angles-is2062" data-caption="" data-src="https://textronsteelalloys.com/wp-content/uploads/2019/08/hot-dip-galvanized-angles-is2062.jpg" data-large_image="https://textronsteelalloys.com/wp-content/uploads/2019/08/hot-dip-galvanized-angles-is2062.jpg" data-large_image_width="500" data-large_image_height="500" decoding="async" fetchpriority="high" srcset="https://textronsteelalloys.com/wp-content/uploads/2019/08/hot-dip-galvanized-angles-is2062-400x400.jpg 400w, https://textronsteelalloys.com/wp-content/uploads/2019/08/hot-dip-galvanized-angles-is2062-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2019/08/hot-dip-galvanized-angles-is2062-100x100.jpg 100w, https://textronsteelalloys.com/wp-content/uploads/2019/08/hot-dip-galvanized-angles-is2062-150x150.jpg 150w, https://textronsteelalloys.com/wp-content/uploads/2019/08/hot-dip-galvanized-angles-is2062-101x101.jpg 101w, https://textronsteelalloys.com/wp-content/uploads/2019/08/hot-dip-galvanized-angles-is2062-50x50.jpg 50w, https://textronsteelalloys.com/wp-content/uploads/2019/08/hot-dip-galvanized-angles-is2062-45x45.jpg 45w, https://textronsteelalloys.com/wp-content/uploads/2019/08/hot-dip-galvanized-angles-is2062.jpg 500w" sizes="(max-width: 400px) 100vw, 400px"></a></div>	</div>
+</div>
+        		</figure>
+            </div>
+            <div class="info-column col-md-6 col-sm-6 col-xs-12">
+        
+                                
+                <div class="details-header">
+                    <h4 itemprop="name" class="product_title entry-title">Hot Dip Galvanized Angles</h4>                    <div class="rating">
+                                            </div>
+                    <div class="item-price"><p class="price"></p>
+</div>
+                </div>
+
+                <div class="text"><div class="woocommerce-product-details__short-description">
+	<p><strong><span style="color: #000000;">Hot Dip Galvanized Angles, Galvanized Angles, IS2062 Angles, IS2062 Galvanized Angles, Galvanized Angles in Mumbai, Wholesaler of Galvanized Angles</span></strong></p>
+</div>
+</div>
+                <div class="other-options clearfix">
+                                    </div>
+        
+            </div><!-- .summary -->
+    	</div>
+    </div>
+	
+	<div class="woocommerce-tabs wc-tabs-wrapper">
+		<ul class="tabs wc-tabs">
+							<li class="description_tab active">
+					<a href="#tab-description" aria-selected="true" tabindex="0">Description</a>
+				</li>
+					</ul>
+					<div class="panel entry-content wc-tab" id="tab-description" style="">
+				
+	<h2>Description</h2>
+
+<h2 style="text-align: center;"><span style="color: #ff6600;"><strong>Hot Dip Galvanized Angles</strong></span></h2>
+<p>&nbsp;</p>
+<p>Hot Dip Galvanized Angles, is a <strong>Mild Steel Angle</strong> that has been hot dipped in a zinc rich galvanizing process. Galvanized Steel Angle is ideal for all general fabrication and repairs where greater strength and very good corrosion resistance is required.</p>
+<p><span style="color: #000000;">Galvanized angles has very widely use with tower, communication tower, railway and highway protection, lamp posts, Marine structures, construction steel structure component, ancillary facilities of substation, light industry, etc.</span></p>
+<p>M/s <a href="https://www.textronsteelalloys.com/"><strong>Textron Steel and Alloys</strong></a> is Major Stockiest, Supplier, Wholesaler of Hot Dip <a href="https://www.textronsteelalloys.com/product-category/galvanized/">Galvanized</a> Angles for Structural Purpose.</p>
+<p>&nbsp;</p>
+<h4><span style="color: #ff6600;"><strong>Finish:</strong></span></h4>
+<ul>
+<li>•&nbsp; Hot Dipped Galvanized</li>
+</ul>
+<p>&nbsp;</p>
+<h4><span style="color: #ff6600;"><strong>Length :</strong></span></h4>
+<ul>
+<li>•&nbsp; 6 Meter</li>
+</ul>
+<p>&nbsp;</p>
+<h4><span style="color: #ff6600;"><strong>Specifications :</strong></span></h4>
+<ul>
+<li>•&nbsp; 25 x 25 x 3MM</li>
+<li>•&nbsp; 25 x 25 x 5MM</li>
+<li>•&nbsp; 32 x 32 x 3MM</li>
+<li>•&nbsp; 35 x 35 x 5MM</li>
+<li>•&nbsp; 37 x 37 x 3MM</li>
+<li>•&nbsp; 40 x 40 x 5MM</li>
+<li>•&nbsp; 40 x 40 x 6MM</li>
+<li>•&nbsp; 50 x 50 x 5MM</li>
+<li>•&nbsp; 50 x 50 x 6MM</li>
+<li>•&nbsp; 65 x 65 x 6MM</li>
+<li>•&nbsp; 75 x 75 x 6MM</li>
+<li>•&nbsp; 75 x 75 x 8MM</li>
+<li>•&nbsp; 75 x 75 x 10MM</li>
+<li>•&nbsp; 90 x 90 x 10MM</li>
+<li>•&nbsp; 100 x 100 x 10MM</li>
+<li>•&nbsp; 130 x 130 x 10MM</li>
+<li>•&nbsp; 150 x 150 x 16MM</li>
+<li>•&nbsp; 150 x 150 x 20MM</li>
+</ul>
+<p>&nbsp;</p>
+<h4><span style="color: #ff6600;"><strong>Characteristics:</strong></span></h4>
+<ul>
+<li><span style="color: #000000;">•&nbsp; Welding = Good</span></li>
+<li><span style="color: #000000;">•&nbsp; Machining / Grinding = Good</span></li>
+<li><span style="color: #000000;">•&nbsp; Bending / Forming = Fair</span></li>
+<li><span style="color: #000000;">•&nbsp; Wear Resistance = Fair</span></li>
+<li><span style="color: #000000;">•&nbsp; Corrosion Resistance = Excellent</span></li>
+</ul>
+<p>&nbsp;</p>
+<h4><span style="color: #ff6600;"><strong>Advantages of Galvanized Materials :</strong></span></h4>
+<p><span style="color: #000000;"><strong>Lowest first cost</strong>. Galvanizing is lower in first cost than any other commonly specified protective coatings for steel.</span></p>
+<p><span style="color: #000000;"><strong>Less maintenance/Lowest long term cost</strong>. Galvanizing is almost invariably cheapest in the long term because it lasts longer and needs less maintenance</span></p>
+<p><span style="color: #000000;"><strong>Long life</strong>. The life expectancy of galvanized coatings on typical structural members is far in excess of 50 years in most rural environments, and 20 to 25 years plus, even in severe urban and coastal exposure.</span></p>
+<p><span style="color: #000000;"><strong>Reliability</strong>. Galvanizing is carried out as per International Standard 2629/2633/6745/4759 with minimum thickness of 86 microns.</span></p>
+<p><span style="color: #000000;"><strong>Toughest coating</strong>. A galvanized coating has a unique metallurgical structure which gives outstanding resistance to mechanical damage in transport, erection and service.</span></p>
+<p><span style="color: #000000;"><strong>Ease of inspection</strong>. Galvanized coatings are assessed readily by eye, and simple non-destructive thickness testing methods can be used.</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h4><span style="color: #ff6600;"><strong>Cities we Supply our Hot Dip Galvanized Angles to :</strong></span></h4>
+<p><span style="color: #000000;">Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jammu and Kashmir, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal, Hyderabad, Itanagar, Dispur, Patna, Raipur, Panaji, Gandhinagar, Chandigarh, Shimla, Srinagar, Jammu&nbsp;, Ranchi, Bengaluru, Thiruvananthapuram, Bhopal, Mumbai, Imphal, Shillong, Aizawl, Kohima, Bhubaneswar, Chandigarh, Jaipur, JajPur, Gangtok, Chennai, Agartala, Lucknow, Dehradun, Kolkata, Visakhapatnam, Vijayawada, Guntur, Nellore and Tirupati, Visakhapatnam, Vijayawada, Guntur, Nellore and Tirupati, Guwahati, Tezpur, Dibrugarh, Silchar and North Lakhimpur, Gaya, Biharsharif, Darbhanga and Bhagalpur, Bilaspur, Korba, Durg-Bhilainagar, Raigarh and Rajnandgaon, Vasco-da-Gama, Ponda, Margao, Mapusa and Goa Velha, Ahmedabad, Surat, Rajkot, Junagadh and Vadodara, Faridabad, Gurgaon, Sonipat, Panipat and Ambala, Dharamshala, Mandi, Solan, Bilaspur and Chamba, Anantnag, Leh, Udhampur, Ramnagar and Baramulla, Bokaro Steel City, Jamshedpur, Deoghar, Hazaribagh and Dhanbad, Mysore, Davangere, Mangalore, Hubli-Dharwad and Belgaum, Kochi, Kozhikode, Thrissur and Malappuram, Indore, Gwalior, Jabalpur, Ujjain and Sagar, Pune, Nagpur, Nashik, Aurangabad and Solapur, Bishnupur, Ukhrul, Tamenglong, Chandel and Senapati, Cherrapunji, Tura, Jowai, Baghmara and Nongpoh, Lunglei, Serchhip, Champhai, Tuipang and Mamit, Tuensang, Zunheboto, Mokokchung, Kiphire Sadar and Phek, Rourkela, Cuttack, Brahmapur, Puri and Sambalpur, Amritsar, Jalandhar, Ludhiana, Patiala and Kapurthala, Bikaner, Jaisalmer, Jodhpur, Udaipur and Ajmer, Bikaner, Jaisalmer, Jodhpur, Udaipur and Ajmer, Tiruchirappalli, Madurai, Erode, Vellore and Coimbatore, Warangal, Nizamabad, Karimnagar, Adilabad and Khammam, Warangal, Nizamabad, Karimnagar, Adilabad and Khammam, Noida, Varanasi, Allahabad, Agra and Kanpur, Haridwar, Roorkee, Rishikesh, Kashipur and Haldwani, Darjeeling, Siliguri, Asansol, Howrah and Durgapur, Andaman and Nicobar Islands, Chandigarh, Dadra and Nagar Haveli, Daman and Diu, Lakshadweep, NCT of Delhi, Puducherry, Port Blair, Chandigarh, Silvassa, Daman, Kavaratti, New Delhi.</span></p>
+			</div>
+			</div>
+
+
+	<div class="related-projects">
+
+		<div class="sec-title">
+			<h2>Related Products</h2>
+		</div>
+
+		<div class="products row clearfix">
+			<div class="row1 clearfix">	
+			
+				<div class="shop-item col-lg-4 col-md-6 col-sm-6 col-xs-12 post-2138 product type-product status-publish has-post-thumbnail product_cat-galvanized first instock shipping-taxable product-type-simple">
+	<div class="inner-box">
+	     
+     <div class="image">
+        <img width="300" height="300" src="https://textronsteelalloys.com/wp-content/uploads/2021/01/g-i-pipe-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="G I PIPE galvanized iron pipe" decoding="async" srcset="https://textronsteelalloys.com/wp-content/uploads/2021/01/g-i-pipe-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2021/01/g-i-pipe-100x100.jpg 100w, https://textronsteelalloys.com/wp-content/uploads/2021/01/g-i-pipe-400x400.jpg 400w, https://textronsteelalloys.com/wp-content/uploads/2021/01/g-i-pipe-150x150.jpg 150w, https://textronsteelalloys.com/wp-content/uploads/2021/01/g-i-pipe-101x101.jpg 101w, https://textronsteelalloys.com/wp-content/uploads/2021/01/g-i-pipe-50x50.jpg 50w, https://textronsteelalloys.com/wp-content/uploads/2021/01/g-i-pipe-45x45.jpg 45w, https://textronsteelalloys.com/wp-content/uploads/2021/01/g-i-pipe.jpg 500w" sizes="(max-width: 300px) 100vw, 300px">        <div class="overlay-box">
+            <ul class="cart-option">
+                <li><a href="https://www.textronsteelalloys.com/gi-pipes-galvanized-iron-pipes/"><span class="fa fa-shopping-cart"></span>Add to Cart</a></li>
+            </ul>
+        </div>
+    </div>
+     
+             
+        <div class="lower-content">
+            <h3><a href="https://www.textronsteelalloys.com/gi-pipes-galvanized-iron-pipes/">G. I. Pipes</a></h3>
+            <div class="clearfix">
+                <div class="pull-left">
+                    
+                </div>
+                <div class="pull-right">
+                    <!--Rating-->
+                    <div class="rating">
+                                            </div>
+                </div>
+            </div>
+            
+        </div>
+        
+		</div>
+</div>
+
+			
+				<div class="shop-item col-lg-4 col-md-6 col-sm-6 col-xs-12 post-2011 product type-product status-publish has-post-thumbnail product_cat-galvanized  instock shipping-taxable product-type-simple">
+	<div class="inner-box">
+	     
+     <div class="image">
+        <img width="300" height="300" src="https://textronsteelalloys.com/wp-content/uploads/2020/09/Hot-Dip-Galvanized-Channels-Stockist-Supplier-Mumbai-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="HOT DIP GALVANIZED CHANNELS" decoding="async" srcset="https://textronsteelalloys.com/wp-content/uploads/2020/09/Hot-Dip-Galvanized-Channels-Stockist-Supplier-Mumbai-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2020/09/Hot-Dip-Galvanized-Channels-Stockist-Supplier-Mumbai-100x100.jpg 100w, https://textronsteelalloys.com/wp-content/uploads/2020/09/Hot-Dip-Galvanized-Channels-Stockist-Supplier-Mumbai-400x400.jpg 400w, https://textronsteelalloys.com/wp-content/uploads/2020/09/Hot-Dip-Galvanized-Channels-Stockist-Supplier-Mumbai-150x150.jpg 150w, https://textronsteelalloys.com/wp-content/uploads/2020/09/Hot-Dip-Galvanized-Channels-Stockist-Supplier-Mumbai-101x101.jpg 101w, https://textronsteelalloys.com/wp-content/uploads/2020/09/Hot-Dip-Galvanized-Channels-Stockist-Supplier-Mumbai-50x50.jpg 50w, https://textronsteelalloys.com/wp-content/uploads/2020/09/Hot-Dip-Galvanized-Channels-Stockist-Supplier-Mumbai-45x45.jpg 45w, https://textronsteelalloys.com/wp-content/uploads/2020/09/Hot-Dip-Galvanized-Channels-Stockist-Supplier-Mumbai.jpg 640w" sizes="(max-width: 300px) 100vw, 300px">        <div class="overlay-box">
+            <ul class="cart-option">
+                <li><a href="https://www.textronsteelalloys.com/hot-dip-galvanized-channels/"><span class="fa fa-shopping-cart"></span>Add to Cart</a></li>
+            </ul>
+        </div>
+    </div>
+     
+             
+        <div class="lower-content">
+            <h3><a href="https://www.textronsteelalloys.com/hot-dip-galvanized-channels/">Hot Dip Galvanized Channels</a></h3>
+            <div class="clearfix">
+                <div class="pull-left">
+                    
+                </div>
+                <div class="pull-right">
+                    <!--Rating-->
+                    <div class="rating">
+                                            </div>
+                </div>
+            </div>
+            
+        </div>
+        
+		</div>
+</div>
+
+			
+				<div class="shop-item col-lg-4 col-md-6 col-sm-6 col-xs-12 post-2630 product type-product status-publish has-post-thumbnail product_cat-galvanized last instock shipping-taxable product-type-simple">
+	<div class="inner-box">
+	     
+     <div class="image">
+        <img width="300" height="300" src="https://textronsteelalloys.com/wp-content/uploads/2024/04/gp-coil-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="GP Coil / Galvanized Plain Coils" decoding="async" loading="lazy" srcset="https://textronsteelalloys.com/wp-content/uploads/2024/04/gp-coil-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2024/04/gp-coil-150x150.jpg 150w, https://textronsteelalloys.com/wp-content/uploads/2024/04/gp-coil-101x101.jpg 101w, https://textronsteelalloys.com/wp-content/uploads/2024/04/gp-coil-50x50.jpg 50w, https://textronsteelalloys.com/wp-content/uploads/2024/04/gp-coil-45x45.jpg 45w, https://textronsteelalloys.com/wp-content/uploads/2024/04/gp-coil-400x400.jpg 400w, https://textronsteelalloys.com/wp-content/uploads/2024/04/gp-coil-100x100.jpg 100w, https://textronsteelalloys.com/wp-content/uploads/2024/04/gp-coil.jpg 500w" sizes="auto, (max-width: 300px) 100vw, 300px">        <div class="overlay-box">
+            <ul class="cart-option">
+                <li><a href="https://www.textronsteelalloys.com/gp-coils-galvanised-plane-coil/"><span class="fa fa-shopping-cart"></span>Add to Cart</a></li>
+            </ul>
+        </div>
+    </div>
+     
+             
+        <div class="lower-content">
+            <h3><a href="https://www.textronsteelalloys.com/gp-coils-galvanised-plane-coil/">GP Coils</a></h3>
+            <div class="clearfix">
+                <div class="pull-left">
+                    
+                </div>
+                <div class="pull-right">
+                    <!--Rating-->
+                    <div class="rating">
+                                            </div>
+                </div>
+            </div>
+            
+        </div>
+        
+		</div>
+</div>
+
+			            </div>
+
+		</div>
+
+	</div>
+
+</div><!-- #product-1874 -->
+                                                                        </div>
+                </div>
+            </div>
+		
+        	<!-- sidebar area -->
+												<div class="sidebar-side col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                		<aside class="sidebar default-sidebar">
+							<div id="woocommerce_product_categories-4" class="widget sidebar-widget woocommerce widget_product_categories"><div class="sidebar-title"><h2>Product categories</h2></div><select name="product_cat" id="product_cat" class="dropdown_product_cat select2-hidden-accessible" tabindex="-1" aria-hidden="true">
+	<option value="">Select a category</option>
+	<option class="level-0" value="16mo3-15mo3-sa-204-plates">16MO3-15MO3 &amp; SA 204 Plates&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="abrasion-resistant-steel-plates">Abrasion Resistant Plates&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="alloy-20-round-bars">Alloy 20&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="alloy-steel-f5-f9-f11-f12-f22-f91">Alloy Steel F Series&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="alloy-steel-pipes-tubes">Alloy Steel Pipe&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="alloy-steel-plates-sheets">Alloy Steel Plates&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="alloy-steel-round-bars">Alloy Steel Round&nbsp;&nbsp;(41)</option>
+	<option class="level-0" value="aluminium">Aluminium&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="aluminium-alloy">Aluminium Alloy&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="aluminium-alloy-round-bar">Aluminium Alloy&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="aluminium-bronze">Aluminium Bronze&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="aluminium-wires">Aluminium Wires&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="boiler-quality-steel-plates">Boiler Quality Steel Plates&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="boron-grades">Boron Grades&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="bronze">Bronze&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="carbon-steel-pipes-tubes">Carbon Steel&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="carbon-steel-round-bars">Carbon Steel&nbsp;&nbsp;(43)</option>
+	<option class="level-0" value="carbon-steel-plates-sheets">Carbon Steel&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="chequered-plate">Chequered Plate&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="chrome-moly-plates">Chrome Moly Plates&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="cobalt">Cobalt&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="cobalt-base-welding-electrodes">Cobalt Base Electrode&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="cold-rolled">Cold Rolled&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="cold-work-steels">Cold Work Steels&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="copper-nickel-round-bars">Copper Nickel&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="copper-wires">Copper Wires&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="duplex-super-duplex-round-bars">Duplex &amp; Super Duplex&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="duplex-and-super-duplex-plates-sheets">Duplex and Super Duplex&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="duplex-and-super-duplex-pipes">Duplex and Super Duplex Pipes&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="en-series">EN Series&nbsp;&nbsp;(28)</option>
+	<option class="level-0" value="flanges">Flanges&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="galvanized" selected="selected">Galvanized&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="hastelloy-pipes-tubes">Hastelloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="hastelloy-plates-sheets">Hastelloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="hastelloy-round-bars">Hastelloy&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="hastelloy-buttweld-fittings">Hastelloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="high-speed-steel">High Speed Steel&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="high-tensile">High Tensile&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="high-tensile-strength">High Tensile Strength&nbsp;&nbsp;(13)</option>
+	<option class="level-0" value="hot-rolled-is-2062-plates">Hot Rolled IS 2062 Plates&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="hot-work-steel">Hot Work Steel&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="incoloy-plates-sheets">Incoloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="inconel-plates-sheets">Inconel&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="inconel-pipes-tubes">Inconel&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="inconel-round-bars">Inconel&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="manganese-bronze">Manganese Bronze&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="manganese-steel-plates">Manganese Steel Plates&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="monel-round-bars">Monel&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="nickel-alloy-plates-sheets">Nickel Alloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="nickel-alloy-round-bars">Nickel Alloy Round Bars&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="pins">Pins&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="pipes-tubes">Pipes &amp; Tubes&nbsp;&nbsp;(36)</option>
+	<option class="level-0" value="plates-sheets">Plates &amp; Sheets&nbsp;&nbsp;(54)</option>
+	<option class="level-0" value="precipitation-hardening-stainless-steel">Precipitation Hardening Steel&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="quenched-tempered-steel-plates">Quenched &amp; Tempered Plates&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="round-bars">Round Bars&nbsp;&nbsp;(206)</option>
+	<option class="level-0" value="specialized-products">Specialized Products&nbsp;&nbsp;(45)</option>
+	<option class="level-0" value="stainless-steel">Stainless Steel&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="stainless-steel-welding-electrode">Stainless Steel Electrode&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="stainless-steel-pipes-tubes">Stainless Steel Pipes &amp; Tubes&nbsp;&nbsp;(24)</option>
+	<option class="level-0" value="stainless-steel-plates-sheets">Stainless Steel Plates&nbsp;&nbsp;(25)</option>
+	<option class="level-0" value="stainless-steel-profiles">Stainless Steel Profiles&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="stainless-steel-round-bars">Stainless Steel Round Bars&nbsp;&nbsp;(49)</option>
+	<option class="level-0" value="titanium-round-bars">Titanium&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="titanium-alloys">Titanium Alloys&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="tool-steel">Tool Steel&nbsp;&nbsp;(10)</option>
+</select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-product_cat-container" role="combobox"><span class="select2-selection__rendered" id="select2-product_cat-container" role="textbox" aria-readonly="true" title="Galvanized&nbsp;&nbsp;(4)"><span class="select2-selection__clear">×</span>Galvanized&nbsp;&nbsp;(4)</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+</div><div id="rpwe_widget-2" class="widget sidebar-widget rpwe_widget recent-posts-extended"><div class="sidebar-title"><h2><a href="https://www.textronsteelalloys.com/shop/" title="Products">Products</a></h2></div><div class="rpwe-block"><ul class="rpwe-ul"><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/s890ql-plates/" target="_self">S890QL Plates</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/s275jr-plates-sheets-ss400-1-0044-a36/" target="_self">S275JR Plates</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/s960ql-plates-quend-960-1-8933-sheets/" target="_self">S960QL Plates</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/en16-round-bars-605m36/" target="_self">EN16 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/6061-t6-round-bars/" target="_self">6061 T6 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/etg100-round-bars-etg88-free-cutting-steel/" target="_self">ETG100 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/40cr7al10mo2-round-bars/" target="_self">40Cr7Al10Mo2 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/905m39-round-bars-bs-970/" target="_self">905M39 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/1-2799-flat-bars-x2nicomoti1288/" target="_self">1.2799 Flat Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/sum-43-round-bars-jis-g-4804/" target="_self">SUM43 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/scm-420-round-bars-18crmo4-1-7243-aisi-4118/" target="_self">SCM420 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/1-4122-round-bars-x39crmo17-1/" target="_self">1.4122 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/38mnvs6-round-bars-1-1303/" target="_self">38MnVS6 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/t55ni7cr4mo5v1-round-bars/" target="_self">T55Ni7Cr4Mo5V1 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/x46cr13-round-bars-1-4034/" target="_self">X46Cr13 Round Bars</a></h3></li></ul></div><!-- Generated by http://wordpress.org/plugins/recent-posts-widget-extended/ --></div>                                                    </aside>
+                    </div>
+									</div>
+	</div>
+</div>

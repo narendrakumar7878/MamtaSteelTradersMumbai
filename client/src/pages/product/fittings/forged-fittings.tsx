@@ -341,40 +341,7 @@ export default function ForgedFittings() {
     }
   ];
 
-  const faqs = [
-    {
-      question: "What is the difference between socket weld and threaded forged fittings?",
-      answer: "Socket weld fittings provide a permanent, high-strength connection through welding and are preferred for high-pressure applications. Threaded fittings offer removable connections using NPT or BSP threads, suitable for maintenance-friendly systems and lower pressures."
-    },
-    {
-      question: "What pressure classes are available in forged fittings?",
-      answer: "Forged fittings are available in pressure classes 2000#, 3000#, 6000#, and 9000#, corresponding to working pressures of 138, 207, 414, and 620 Bar respectively. Higher pressure classes are typically available only in socket weld configuration."
-    },
-    {
-      question: "What materials are commonly used for forged fittings?",
-      answer: "Common materials include carbon steel (A105), stainless steel (304, 316L, 321, 347), alloy steel (F11, F22, F91), duplex steel (2205, 2507), and nickel alloys (Inconel, Monel, Hastelloy) depending on application requirements."
-    },
-    {
-      question: "What is the maximum size available in forged fittings?",
-      answer: "Forged fittings are typically available up to 4\" (100mm) diameter. For larger sizes, buttweld fittings are preferred due to manufacturing constraints and economic considerations."
-    },
-    {
-      question: "What standards do forged fittings comply with?",
-      answer: "Our forged fittings comply with ASME B16.11, ASTM A105/A182, BS 3799, MSS SP-79/83/95, and other international standards with full material traceability and test certificates."
-    },
-    {
-      question: "What testing is performed on forged fittings?",
-      answer: "Each fitting undergoes hydrostatic testing, dimensional inspection, PMI testing, and material certification. Additional tests like impact testing, intergranular corrosion testing may be performed as per specification requirements."
-    },
-    {
-      question: "Can you provide custom forged fittings?",
-      answer: "Yes, we manufacture custom forged fittings according to customer drawings and specifications. Our engineering team can assist with design optimization and material selection for specific applications."
-    },
-    {
-      question: "What is the delivery time for forged fittings?",
-      answer: "Standard materials and sizes are typically available from stock. Custom materials or special dimensions require 3-6 weeks depending on complexity and quantity."
-    }
-  ];
+  
 
   return (
     <>
@@ -741,26 +708,7 @@ export default function ForgedFittings() {
           </div>
         </section>
 
-        {/* FAQ Section */}
-        <section className="py-16 bg-gray-50 dark:bg-gray-900" data-testid="faq-section">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary dark:text-white mb-12" data-testid="faq-title">
-                Frequently Asked Questions
-              </h2>
-              <div className="space-y-6">
-                {faqs.map((faq, index) => (
-                  <div key={index} className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-600 overflow-hidden shadow-lg" data-testid={`faq-${index}`}>
-                    <div className="p-6">
-                      <h3 className="text-lg font-semibold text-navy-primary dark:text-white mb-3">{faq.question}</h3>
-                      <p className="text-gray-700 dark:text-gray-300">{faq.answer}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
+        
 
         {/* Why Choose Us */}
         <section className="py-16 bg-gradient-to-r from-blue-600 to-navy-primary text-white" data-testid="why-choose-section">
@@ -774,7 +722,7 @@ export default function ForgedFittings() {
                   <div className="w-16 h-16 bg-gold-primary rounded-full mx-auto mb-4 flex items-center justify-center">
                     <Factory className="w-8 h-8 text-navy-primary" />
                   </div>
-                  <h3 className="text-xl font-semibold mb-2">25+ Years Experience</h3>
+                  <h3 className="text-xl font-semibold mb-2">10+ Years Experience</h3>
                   <p className="text-blue-100">Trusted manufacturer & supplier in steel industry</p>
                 </div>
                 <div className="text-center">
@@ -795,7 +743,7 @@ export default function ForgedFittings() {
                   <div className="w-16 h-16 bg-gold-primary rounded-full mx-auto mb-4 flex items-center justify-center">
                     <Users className="w-8 h-8 text-navy-primary" />
                   </div>
-                  <h3 className="text-xl font-semibold mb-2">10000+ Clients</h3>
+                  <h3 className="text-xl font-semibold mb-2">1000+ Clients</h3>
                   <p className="text-blue-100">Serving satisfied customers worldwide</p>
                 </div>
               </div>
