@@ -388,48 +388,6 @@ export default function PTOPins() {
     "Doraha", "Chandigarh", "Panipat", "Ambala", "Hisar", "Karnal", "Kurukshetra", "Sonipat"
   ];
 
-  const faqs = [
-    {
-      question: "What is the difference between PTO pins and regular linch pins?",
-      answer: "PTO pins are specifically designed for power take-off applications with quick-release wire lock mechanisms and higher shear strength ratings. They feature integrated spring wire systems for easy one-handed operation. Regular linch pins are simpler designs for general wheel and component retention applications with basic cotter pin mechanisms."
-    },
-    {
-      question: "What sizes and specifications of PTO lock pins are available?",
-      answer: "We manufacture PTO lock pins from 6mm to 64mm diameter (1/4\" to 2-1/2\") with lengths ranging from 25mm to 500mm. Common sizes include 8mm, 10mm, 12mm, 14mm, 16mm, and 20mm diameters. Materials include mild steel, stainless steel, and alloy steel with various finishes like zinc plating and galvanizing."
-    },
-    {
-      question: "How do I determine the correct PTO pin size for my tractor or equipment?",
-      answer: "Measure the hole diameter in your PTO shaft or implement connection point. The pin diameter should match this hole size exactly. Measure the thickness of material to be pinned to determine required length. Allow extra length for proper wire lock engagement. Check your equipment manual for OEM specifications and part numbers."
-    },
-    {
-      question: "What materials are used for manufacturing PTO lock pins and why?",
-      answer: "We use mild steel 1018 for standard applications, stainless steel 304/316 for corrosive environments, alloy steel 4140 for heavy duty applications, and spring steel 1095 for wire mechanisms. These materials provide optimal strength-to-weight ratio, corrosion resistance, and spring properties required for reliable agricultural and industrial use."
-    },
-    {
-      question: "Are your PTO pins suitable for heavy duty and industrial applications?",
-      answer: "Yes, our heavy duty PTO pins are designed for industrial applications with shear strengths up to 200kN. We manufacture pins in alloy steel 4140 with special heat treatment, hardened construction, and certified testing. These are suitable for construction equipment, mining machinery, and heavy industrial applications."
-    },
-    {
-      question: "What is the price range for PTO lock pins and bulk order discounts?",
-      answer: "PTO lock pins range from ₹7 for small 6mm pins to ₹400 for large custom pins. Standard 8-14mm pins cost ₹10-35 per piece. Bulk order discounts available: 10% for 1000+ pieces, 15% for 5000+ pieces, 20% for 10,000+ pieces. Custom sizes and specifications may have different pricing based on requirements."
-    },
-    {
-      question: "Do you supply custom PTO pins with special specifications?",
-      answer: "Yes, we manufacture custom PTO pins to customer drawings and specifications including special materials, dimensions, coatings, head configurations, and threading. Custom pins are available for unique applications with minimum order quantities starting from 100 pieces. Please provide technical drawings for quotation."
-    },
-    {
-      question: "What quality certifications and testing do your PTO pins have?",
-      answer: "Our PTO pins are manufactured to ASTM A193, ISO 898-1, and SAE J715 standards. We provide material test certificates, dimensional inspection reports, proof load test certificates, and shear strength test reports. Quality certifications include ISO 9001:2015 and third-party inspection services available."
-    },
-    {
-      question: "Can PTO lock pins be used for marine and outdoor applications?",
-      answer: "Yes, we offer marine grade PTO pins in stainless steel 316 with superior corrosion resistance for saltwater environments. Standard zinc plated pins provide 500+ hours salt spray test resistance for outdoor applications. Special marine coatings and passivation treatments available for extreme marine conditions."
-    },
-    {
-      question: "What are your delivery timelines and shipping options for PTO pins?",
-      answer: "Standard sizes available ex-stock for same day dispatch from Mumbai. Custom sizes typically require 1-2 weeks for small quantities, 2-4 weeks for large orders. We ship pan-India through courier, transport, and cargo services. Express delivery available for urgent requirements. International shipping available for export orders."
-    }
-  ];
 
   return (
     <>
@@ -807,22 +765,41 @@ export default function PTOPins() {
           </div>
         </section>
 
-        {/* FAQ Section */}
-        <section className="py-16 bg-white dark:bg-gray-800" data-testid="faq-section">
+        {/* Product Range Section */}
+        <section className="py-16 bg-white dark:bg-gray-800" data-testid="product-range-section">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary dark:text-white mb-12" data-testid="faq-title">
-                Frequently Asked Questions About PTO Lock Pins
+            <div className="max-w-6xl mx-auto text-center">
+              <h2 className="text-3xl md:text-4xl font-bold text-navy-primary dark:text-white mb-12" data-testid="product-range-title">
+                Complete Range of Pipe Linch Pins & PTO Lock Pins
               </h2>
-              <div className="space-y-6">
-                {faqs.map((faq, index) => (
-                  <div key={index} className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-600 overflow-hidden shadow-lg" data-testid={`faq-${index}`}>
-                    <div className="p-6">
-                      <h3 className="text-lg font-semibold text-navy-primary dark:text-white mb-3">{faq.question}</h3>
-                      <p className="text-gray-700 dark:text-gray-300">{faq.answer}</p>
-                    </div>
+              <div className="bg-gradient-to-r from-blue-50 to-indigo-100 dark:from-blue-900/20 dark:to-indigo-900/20 p-8 rounded-lg border border-blue-200 dark:border-blue-700">
+                <h3 className="text-2xl font-bold text-navy-primary dark:text-white mb-6">Our Product Portfolio</h3>
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 text-left">
+                  <div className="space-y-3">
+                    <h4 className="text-lg font-semibold text-blue-800 dark:text-blue-200">Pipe Linch Pins</h4>
+                    <p className="text-gray-700 dark:text-gray-300">High-quality pipe linch pins for secure connections in agricultural and industrial applications.</p>
                   </div>
-                ))}
+                  <div className="space-y-3">
+                    <h4 className="text-lg font-semibold text-blue-800 dark:text-blue-200">Linch Pins & Shaft Pins</h4>
+                    <p className="text-gray-700 dark:text-gray-300">Standard and heavy-duty linch pins, shaft pins for machinery and equipment connections.</p>
+                  </div>
+                  <div className="space-y-3">
+                    <h4 className="text-lg font-semibold text-blue-800 dark:text-blue-200">PTO Pins & Shaft Locking Pins</h4>
+                    <p className="text-gray-700 dark:text-gray-300">Quick-release PTO pins and shaft locking pins with wire lock mechanisms for easy operation.</p>
+                  </div>
+                  <div className="space-y-3">
+                    <h4 className="text-lg font-semibold text-blue-800 dark:text-blue-200">Pipe Clips</h4>
+                    <p className="text-gray-700 dark:text-gray-300">Durable pipe clips for securing and supporting pipes in various industrial applications.</p>
+                  </div>
+                  <div className="space-y-3">
+                    <h4 className="text-lg font-semibold text-blue-800 dark:text-blue-200">Retaining Pins</h4>
+                    <p className="text-gray-700 dark:text-gray-300">Precision retaining pins for holding components in position with reliable performance.</p>
+                  </div>
+                  <div className="space-y-3">
+                    <h4 className="text-lg font-semibold text-blue-800 dark:text-blue-200">Custom Solutions</h4>
+                    <p className="text-gray-700 dark:text-gray-300">Custom manufactured pins and clips as per customer specifications and drawings.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

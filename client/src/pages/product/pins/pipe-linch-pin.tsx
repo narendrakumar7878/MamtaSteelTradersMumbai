@@ -340,48 +340,6 @@ export default function PipeLinchPin() {
     "Saharanpur", "Gorakhpur", "Bikaner", "Amravati", "Noida", "Jamshedpur", "Bhilai Nagar"
   ];
 
-  const faqs = [
-    {
-      question: "What is the difference between PTO pins and regular linch pins?",
-      answer: "PTO pins are specifically designed for power take-off applications with higher shear strength requirements. They feature integrated wire lock mechanisms for quick release and are made from higher grade materials like ASTM A193 Grade B7 steel. Regular linch pins are for general purpose applications with standard carbon steel construction."
-    },
-    {
-      question: "What sizes of PTO pins and snapper pins are available?",
-      answer: "We stock PTO pins from 1/4 inch (6.35mm) to 1-1/2 inch (38.10mm) diameter with lengths ranging from 2-1/2 inch to 12 inch. Common sizes include 3/8\", 1/2\", 5/8\", 3/4\", and 1\" diameters. Custom sizes and lengths are available on request."
-    },
-    {
-      question: "How do I determine the correct PTO pin size for my equipment?",
-      answer: "Measure the hole diameter where the pin will be inserted and the thickness of material to be pinned. The pin diameter should match the hole size, and pin length should be sufficient to pass through with adequate engagement of the wire lock mechanism. Check your equipment manual for specific recommendations."
-    },
-    {
-      question: "What materials are PTO pins made from and why?",
-      answer: "PTO pins are made from low carbon steel 1018 for standard duty, spring steel 1095 for wire mechanisms, and alloy steel 4140 for heavy duty applications. These materials provide the required shear strength, toughness, and spring properties for reliable operation in demanding agricultural and industrial environments."
-    },
-    {
-      question: "Are your PTO pins suitable for marine and outdoor applications?",
-      answer: "Yes, our PTO pins feature zinc plating with yellow chromate coating providing 500+ hours salt spray test resistance. For severe marine environments, we also offer stainless steel versions and special marine-grade coatings for maximum corrosion protection."
-    },
-    {
-      question: "What is the working load limit vs shear strength of PTO pins?",
-      answer: "Working load limit is typically 20% of ultimate shear strength for safety. For example, a 1/2\" PTO pin has 8,000 lbs shear strength but 1,600 lbs working load limit. This safety factor accounts for dynamic loading, fatigue, and environmental conditions in actual use."
-    },
-    {
-      question: "Can PTO pins be used in place of clevis pins and cotter pins?",
-      answer: "Yes, PTO pins with wire lock mechanisms can replace clevis pin and cotter pin combinations in most applications. They offer faster installation/removal, eliminate lost cotter pins, and provide more secure engagement. However, verify load requirements and space constraints for your specific application."
-    },
-    {
-      question: "Do you supply custom PTO pins for special applications?",
-      answer: "Yes, we manufacture custom PTO pins to customer specifications including special materials, dimensions, coatings, and head configurations. Custom pins are available for unique applications with minimum order quantities. Please provide drawings or specifications for quotation."
-    },
-    {
-      question: "What quality certifications do your PTO pins have?",
-      answer: "Our PTO pins are manufactured to ISO 2340, ASTM A193, and SAE J715 standards. We provide material test certificates, dimensional inspection reports, and proof load test certificates. Quality system certifications include ISO 9001:2015 and third-party inspection services are available."
-    },
-    {
-      question: "What are your delivery timelines for PTO pins and bulk orders?",
-      answer: "Standard sizes are available ex-stock for immediate delivery. Custom sizes typically require 2-4 weeks depending on specifications and quantities. We maintain ready inventory in Mumbai and can arrange same-day dispatch for urgent requirements across India."
-    }
-  ];
 
   return (
     <>
@@ -738,22 +696,41 @@ export default function PipeLinchPin() {
           </div>
         </section>
 
-        {/* FAQ Section */}
-        <section className="py-16 bg-white dark:bg-gray-800" data-testid="faq-section">
+        {/* Product Range Section */}
+        <section className="py-16 bg-white dark:bg-gray-800" data-testid="product-range-section">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary dark:text-white mb-12" data-testid="faq-title">
-                Frequently Asked Questions About PTO Pins
+            <div className="max-w-6xl mx-auto text-center">
+              <h2 className="text-3xl md:text-4xl font-bold text-navy-primary dark:text-white mb-12" data-testid="product-range-title">
+                Complete Range of Pipe Linch Pins & PTO Lock Pins
               </h2>
-              <div className="space-y-6">
-                {faqs.map((faq, index) => (
-                  <div key={index} className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-600 overflow-hidden shadow-lg" data-testid={`faq-${index}`}>
-                    <div className="p-6">
-                      <h3 className="text-lg font-semibold text-navy-primary dark:text-white mb-3">{faq.question}</h3>
-                      <p className="text-gray-700 dark:text-gray-300">{faq.answer}</p>
-                    </div>
+              <div className="bg-gradient-to-r from-blue-50 to-indigo-100 dark:from-blue-900/20 dark:to-indigo-900/20 p-8 rounded-lg border border-blue-200 dark:border-blue-700">
+                <h3 className="text-2xl font-bold text-navy-primary dark:text-white mb-6">Our Product Portfolio</h3>
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 text-left">
+                  <div className="space-y-3">
+                    <h4 className="text-lg font-semibold text-blue-800 dark:text-blue-200">Pipe Linch Pins</h4>
+                    <p className="text-gray-700 dark:text-gray-300">High-quality pipe linch pins for secure connections in agricultural and industrial applications.</p>
                   </div>
-                ))}
+                  <div className="space-y-3">
+                    <h4 className="text-lg font-semibold text-blue-800 dark:text-blue-200">Linch Pins & Shaft Pins</h4>
+                    <p className="text-gray-700 dark:text-gray-300">Standard and heavy-duty linch pins, shaft pins for machinery and equipment connections.</p>
+                  </div>
+                  <div className="space-y-3">
+                    <h4 className="text-lg font-semibold text-blue-800 dark:text-blue-200">PTO Pins & Shaft Locking Pins</h4>
+                    <p className="text-gray-700 dark:text-gray-300">Quick-release PTO pins and shaft locking pins with wire lock mechanisms for easy operation.</p>
+                  </div>
+                  <div className="space-y-3">
+                    <h4 className="text-lg font-semibold text-blue-800 dark:text-blue-200">Pipe Clips</h4>
+                    <p className="text-gray-700 dark:text-gray-300">Durable pipe clips for securing and supporting pipes in various industrial applications.</p>
+                  </div>
+                  <div className="space-y-3">
+                    <h4 className="text-lg font-semibold text-blue-800 dark:text-blue-200">Retaining Pins</h4>
+                    <p className="text-gray-700 dark:text-gray-300">Precision retaining pins for holding components in position with reliable performance.</p>
+                  </div>
+                  <div className="space-y-3">
+                    <h4 className="text-lg font-semibold text-blue-800 dark:text-blue-200">Custom Solutions</h4>
+                    <p className="text-gray-700 dark:text-gray-300">Custom manufactured pins and clips as per customer specifications and drawings.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
