@@ -1,0 +1,177 @@
+Skip to content
+
+
+
+SteelTradeConnect
+
+Files
+Commands
+Search
+Packager files
+Config files
+/
+
+10m
+ • 
+10 minutes ago
+import ProductSEO from "@/components/ProductSEO";
+import { ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, TrendingUp, Shield, Award } from "lucide-react";
+import { Link } from "wouter";
+
+export default function D2ToolSteel() {
+  const specifications = [
+    "ASTM A681 - Standard Specification for Tool Steels",
+    "DIN 1.2379 - Cold Work Tool Steel Standard",
+    "JIS SKD11 - Japanese Industrial Standard for Cold Work Tool Steel",
+    "AISI D2 - Tool Steel Classification",
+    "Available Forms: Round bars, flats, plates, blocks",
+    "Size Range: 6mm to 500mm diameter for round bars"
+  ];
+
+  const applications = [
+    "Stamping and Blanking Dies",
+    "Cold Forming Dies and Tools",
+    "Thread Rolling Dies",
+    "Drawing Dies for Wire and Tube",
+    "Slitting Knives and Shear Blades",
+    "Forming Rolls and Punches",
+    "Measuring Tools and Gauges",
+    "Woodworking Tools"
+  ];
+
+  const features = [
+    { icon: Shield, title: "High Wear Resistance", desc: "Excellent abrasion resistance due to high chromium carbide content" },
+    { icon: TrendingUp, title: "Deep Hardening", desc: "Through-hardening capability for large sections" },
+    { icon: Award, title: "Dimensional Stability", desc: "Minimal distortion during heat treatment processes" },
+    { icon: CheckCircle, title: "Machinability", desc: "Good machinability in annealed condition" }
+  ];
+
+  const properties = [
+    {
+      property: "Carbon Content",
+      value: "1.40-1.60%",
+      description: "High carbon for maximum hardness"
+    },
+    {
+      property: "Chromium Content",
+      value: "11.00-13.00%",
+      description: "Forms wear-resistant carbides"
+    },
+    {
+      property: "Hardness (HRC)",
+      value: "58-62",
+      description: "After proper heat treatment"
+    },
+    {
+      property: "Working Hardness",
+      value: "58-62 HRC",
+      description: "Typical working hardness range"
+    }
+  ];
+
+  return (
+    <>
+      <ProductSEO
+        title="D2 Tool Steel"
+        description="Premium quality D2 tool steel with high wear resistance and dimensional stability. ASTM A681, DIN 1.2379 certified for stamping dies, blanking tools, and cold forming applications. Best prices in Mumbai for D2 tool steel."
+Saved your changes before starting work
+you are good website designer and seo developer i want my this component
+client/src/pages/product/cold-work-tool-steels/a2-tool-steel.tsx
+adding content attche content full seo code and responsive for mobile and all devices Cold Work Tool Steels - Stockist, Suppliers, Dealers, Traders and https://www.textronsteelalloys.com/aisi-o1-round-bars-ohns/ use this websites reference all content seo
+
+second client/src/pages/product/cold-work-tool-steels/d2-tool-steel.tsx isme bhi add karna h https://www.textronsteelalloys.com/hchcr-d2-round-bars-stockists-suppliers/
+
+Just now
+Checkpoint made
+just now
+•
+Free
+Saved your changes before starting work
+
+Scroll to latest
+www.textronsteelalloys.com/aisi-o1-round-bars-ohns/
+www.textronsteelalloys.com/hchcr-d2-round-bars-stockists-suppliers/
+you are good website designer and seo developer i want my this component
+client/src/pages/product/cold-work-tool-steels/a2-tool-steel.tsx
+adding content attche content full seo code and responsive for mobile and all devices Cold Work Tool Steels - Stockist, Suppliers, Dealers, Traders and https://www.textronsteelalloys.com/aisi-o1-round-bars-ohns/ use this websites reference all content seo
+
+second client/src/pages/product/cold-work-tool-steels/d2-tool-steel.tsx isme bhi add karna h https://www.textronsteelalloys.com/hchcr-d2-round-bars-stockists-suppliers/
+
+Build
+Loading... - Replit
+Pasted-AISI-O1-Round-Bars-AISI-O1-Round-Bars-AISI-01-Round-Bars-UNS-T31501-Round-Bars-DIN-1-2510--1757835703687_1757835703689.txt
+AISI O1 Round Bars
+AISI O1 Round Bars
+
+AISI 01 Round Bars
+
+UNS T31501 Round Bars
+
+DIN 1.2510 Round Bars
+
+OHNS Round Bars
+
+Description
+Description
+AISI O1 Round Bars
+ 
+
+AISI O1 Round Bars is a general purpose oil-hardening tool steel is a versatile manganese-chromium-tungsten steel suitable for a wide variety of cold-work applications.
+
+AISI O1 / 01 Steel is a high quality Cold work tool steel, It belong to the high quality high carbon alloy tool steel. Oil Quenched & Tempered Hardenss is 28-34 HRc. AISI O1 / 01 steel Annealing delivery hardenss less than 250HB.
+
+AISI O1 is equivalent of DIN 2510 Tool Steel is the oil-hardening, “non-shrinking” tool steel, good cutting edge retention; high harden ability and dimensional stability during heat treatment.
+
+ 
+
+ 
+
+Chemical Composition of AISI O1 Round Bars :
+Element	Min.	Max.
+C	0.85	0.95
+Si	0.20	0.40
+Mn	1.00	1.30
+P	–	0.015
+S	–	0.010
+Cr	0.50	0.60
+W	0.55	0.60
+ 
+
+ 
+
+ 
+
+Applications of O1 / 01 Round Bars :
+Good machinability, good dimensional stability plus a combination of high surface hardness and moderate toughness after hardening and tempering combine to give a steel suitable for the manufacture of tooling with good tool-life and production economy. AISI 01 can be supplied in various finishes including hot-rolled, pre-machined, fine-machined and precision ground.
+
+01 / O1 Steels are mainly used for short run tooling for cold forming dies, blanking dies, and cutting tools operating at ambient temper.
+
+O1 / 01 Tool Steel typical applications include medium run dies, intricate press tools, drawing punches, broaches, bushings, lathe centres, chuck jaws, master cavity sinking hobs, paper cutting machine knives, plug gauges, thread gauges and precision measuring tools. Also commonly used in applications such as cams, cloth cutting knives, cold taps, reamers, collets, cutting hobs, strip slitting cutters, trimmer dies, tube expander rolls, plastic moulds and woodworking knives ature.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Heat treatment Related to O1 / 01 :
+Annealing of O1 / 01 Tool steel – Slowly heated to 740-760 ℃（1364-1400℃） and allow enough times, let the steel to be thoroughly heated, Then cool slowly in the furnace. The o1 tool steel will get MAX 250 HB （Brinell hardness）.
+
+Hardening of O1 / 01 Tool steel – O1 steels should be heated uniformly to 780-820°C (1436-1508°F) until completely heated through. If needed, the steels can be preheated at 300-500°C (572-932°F). About 30 min/per 25 mm of ruling section is to be provided and then the steels should be immediately quenched in oil.
+
+Tempering of O1 / 01 Tool steel – Tempering of O1 steels is performed at 100-350°C (212-662°F), Soak well at the selected temperature and soak for at least one hour per 25mm of total thickness. Get Rockwell C hardness of 55 to 64.
+
+Temperature [℃] 100 150 200 250 300 350
+
+Hardness [HRc] 64-63 63-62 62-61 60-59 58-57 56-55
+
+ 
+
+ 
+
+People also search as :
+aisi o1 chemical composition, aisi o1 tool steel, aisi o1 equivalent, aisi o1 steel, aisi o1 mechanical properties, aisi o1 datasheet, material aisi o1, aisi 01 equivalent, aisi 01 chemical composition, aisi 01 tool steel equivalent, aisi 01 steel equivalent, aisi 01 material equivalent, aisi 01 tensile strength etc.
+
+ 
