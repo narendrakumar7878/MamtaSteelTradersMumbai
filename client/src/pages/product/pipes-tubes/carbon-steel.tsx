@@ -225,6 +225,128 @@ export default function CarbonSteelPipes() {
           </div>
         </section>
 
+        {/* Detailed Product Description */}
+        <section className="py-16 bg-gray-50" data-testid="detailed-description-section">
+          <div className="container mx-auto px-4">
+            <div className="max-w-6xl mx-auto">
+              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="description-title">
+                Carbon Steel Pipes: Comprehensive Technical Overview
+              </h2>
+              
+              <div className="grid lg:grid-cols-2 gap-12">
+                {/* Technical Description */}
+                <div className="bg-white p-8 rounded-lg shadow-md" data-testid="technical-description">
+                  <h3 className="text-2xl font-semibold text-navy-primary mb-6">ASTM A106 Grade B Technical Details</h3>
+                  <div className="prose prose-gray max-w-none">
+                    <p className="text-gray-700 mb-4">
+                      <strong>ASTM A106 Grade B</strong> is a seamless carbon steel pipe material specifically designed for high-temperature 
+                      service applications. It is commonly used in Industrial Plants, Power Plants, Refineries and Chemical plants. 
+                      ASTM A106 comes in three grades A, B, and C, with Grade B being the most widely used due to its excellent 
+                      balance of strength, ductility, and cost-effectiveness.
+                    </p>
+                    
+                    <p className="text-gray-700 mb-4">
+                      ASTM A106 Grade B pipes are manufactured through seamless process using hot-finished or cold-drawn methods. 
+                      NPS 1-1/2″ and under may be either hot finished or cold drawn, while NPS 2″ and larger are typically hot finished. 
+                      The manufacturing process ensures uniform mechanical properties and excellent resistance to high-temperature service conditions.
+                    </p>
+                    
+                    <p className="text-gray-700 mb-4">
+                      When specified, these carbon steel pipes may undergo normalizing or stress relief heat treatment to optimize their 
+                      mechanical properties and relieve residual stresses from manufacturing. The pipes are designed to handle operating 
+                      temperatures up to 427°C (800°F) and pressures up to 6000 PSI, making them ideal for steam lines and pressure vessel applications.
+                    </p>
+                    
+                    <h4 className="text-lg font-semibold text-navy-primary mt-6 mb-3">Manufacturing Excellence</h4>
+                    <p className="text-gray-700 mb-4">
+                      Our company is one of the pioneers in Manufacturing, Stocking and Supplying of ASTM A106 Grade B Carbon Steel Pipes, 
+                      available at market leading prices. We maintain a ready stock inventory of more than 50,000 Metric Tons to ensure 
+                      immediate delivery for urgent requirements.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Scope and Applications */}
+                <div className="bg-white p-8 rounded-lg shadow-md" data-testid="scope-applications">
+                  <h3 className="text-2xl font-semibold text-navy-primary mb-6">Scope & Applications</h3>
+                  <div className="prose prose-gray max-w-none">
+                    <p className="text-gray-700 mb-4">
+                      <strong>ASTM A106 Seamless Pressure Pipe</strong> (also covered in ASME specifications as SA 106) is the standard 
+                      specification for seamless carbon steel nominal wall pipe for high-temperature service. These pipes are suitable 
+                      for bending, flanging and similar forming operations.
+                    </p>
+                    
+                    <div className="bg-blue-50 p-4 rounded-lg mb-4">
+                      <h4 className="text-lg font-semibold text-navy-primary mb-2">Manufacturing Standards:</h4>
+                      <ul className="text-gray-700 space-y-1">
+                        <li>• NPS 1-1/2″ and under may be either hot finished or cold drawn</li>
+                        <li>• NPS 2″ and larger shall be hot finished unless otherwise specified</li>
+                        <li>• Suitable for bending, curling and similar forming processes</li>
+                      </ul>
+                    </div>
+                    
+                    <h4 className="text-lg font-semibold text-navy-primary mt-6 mb-3">Key Applications</h4>
+                    <div className="grid grid-cols-1 gap-2">
+                      <div className="flex items-center">
+                        <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
+                        <span className="text-gray-700">High-temperature steam lines and boiler applications</span>
+                      </div>
+                      <div className="flex items-center">
+                        <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
+                        <span className="text-gray-700">Power generation plants and refineries</span>
+                      </div>
+                      <div className="flex items-center">
+                        <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
+                        <span className="text-gray-700">Chemical processing and petrochemical industries</span>
+                      </div>
+                      <div className="flex items-center">
+                        <CheckCircle className="w-4 h-4 text-green-500 mr-2" />
+                        <span className="text-gray-700">Industrial piping systems and pressure vessels</span>
+                      </div>
+                    </div>
+                    
+                    <div className="mt-6 p-4 bg-gold-50 rounded-lg">
+                      <p className="text-gray-700 text-sm">
+                        <strong>Quality Assurance:</strong> All pipes come with Mill Test Certificate (MTC) and are tested 
+                        for hydrostatic pressure and non-destructive examination (NDE) as per international standards.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              {/* Global Supply Information */}
+              <div className="mt-12 bg-white p-8 rounded-lg shadow-md" data-testid="global-supply-info">
+                <h3 className="text-2xl font-semibold text-navy-primary mb-6">Global Supply & Distribution Network</h3>
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div>
+                    <h4 className="text-lg font-semibold text-navy-primary mb-4">Major Supply Destinations</h4>
+                    <p className="text-gray-700 mb-3">
+                      We supply Carbon Steel A106 Grade B Seamless Pipes to major industrial cities across India and globally:
+                    </p>
+                    <div className="text-sm text-gray-600 leading-relaxed">
+                      Mumbai, Delhi, Chennai, Kolkata, Bengaluru, Hyderabad, Pune, Ahmedabad, Surat, Vadodara, 
+                      Coimbatore, Nashik, Rajkot, Kanpur, Indore, Jaipur, Lucknow, Bhopal, Visakhapatnam, 
+                      Thiruvananthapuram, and other major industrial centers.
+                    </div>
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-semibold text-navy-primary mb-4">International Export Markets</h4>
+                    <p className="text-gray-700 mb-3">
+                      Our export network covers over 50 countries including:
+                    </p>
+                    <div className="text-sm text-gray-600 leading-relaxed">
+                      UAE, Saudi Arabia, Qatar, Kuwait, Oman, Turkey, Singapore, Malaysia, Thailand, Indonesia, 
+                      Bangladesh, Sri Lanka, South Korea, Japan, Australia, Canada, USA, UK, Germany, France, 
+                      Italy, Netherlands, Brazil, Mexico, and many more.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Chemical Composition & Mechanical Properties */}
         <section className="py-16 bg-white" data-testid="technical-specs-section">
           <div className="container mx-auto px-4">
