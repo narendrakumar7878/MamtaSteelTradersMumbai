@@ -1,5 +1,5 @@
 import ProductSEO from "@/components/ProductSEO";
-import { ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, TrendingUp, Shield, Award } from "lucide-react";
+import { ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, TrendingUp, Shield, Award, ExternalLink } from "lucide-react";
 import { Link } from "wouter";
 
 export default function CarbonSteelPipes() {
@@ -28,6 +28,44 @@ export default function CarbonSteelPipes() {
     { icon: TrendingUp, title: "Temperature Resistant", desc: "Operating temperature up to 400°C" },
     { icon: Award, title: "API Certified", desc: "API 5L certified for oil and gas applications" },
     { icon: CheckCircle, title: "Multiple Grades", desc: "Wide range of carbon steel grades available" }
+  ];
+
+  const products = [
+    {
+      name: "A106 Grade B",
+      image: "https://textronsteelalloys.com/wp-content/uploads/2018/12/carbon-300x300.jpg",
+      alt: "ASTM A106 Grade B Carbon Steel Seamless Pipe",
+      description: "High-temperature service seamless carbon steel pipes. Most commonly used grade for industrial applications.",
+      applications: ["Power Plants", "Refineries", "High-Temperature Steam Lines"]
+    },
+    {
+      name: "A333 Grade 6 Pipes",
+      image: "https://textronsteelalloys.com/wp-content/uploads/2022/06/a333-gr6-seamless-pipe-300x300.jpg",
+      alt: "A333 Grade 6 Seamless Pipe JSL MSL 3.1 MTC",
+      description: "Low-temperature carbon steel seamless pipes designed for cryogenic applications.",
+      applications: ["Cryogenic Storage", "LNG Plants", "Low-Temperature Processing"]
+    },
+    {
+      name: "AISI 4130 / SAE 4130",
+      image: "https://textronsteelalloys.com/wp-content/uploads/2022/07/aisi-sae-4130-1.7218-25CRMO-300x300.jpg",
+      alt: "AISI 4130 SAE 4130 1.7218 25CrMo4 Seamless Pipes Tubes",
+      description: "Chromium-molybdenum alloy steel pipes with excellent strength and toughness properties.",
+      applications: ["Aerospace", "Automotive", "Oil & Gas Drilling"]
+    },
+    {
+      name: "API 5L PSL-1 / PSL-2 Pipes",
+      image: "https://textronsteelalloys.com/wp-content/uploads/2019/01/api-5l-x52-psl-1-2-seamless-pipe-300x300.jpg",
+      alt: "API 5L Seamless Pipe Tube Stockist Supplier",
+      description: "Line pipes for oil and gas transmission systems meeting API 5L specifications.",
+      applications: ["Oil Pipelines", "Gas Transmission", "Offshore Applications"]
+    },
+    {
+      name: "ASTM A53 Grade B",
+      image: "https://textronsteelalloys.com/wp-content/uploads/2018/12/carbon-300x300.jpg",
+      alt: "ASTM A53 Grade B Welded and Seamless Steel Pipe",
+      description: "Standard specification for welded and seamless steel pipe for general structural and pressure applications.",
+      applications: ["Water Lines", "Gas Distribution", "Structural Applications"]
+    }
   ];
 
   return (
@@ -75,6 +113,60 @@ export default function CarbonSteelPipes() {
                 <a href="tel:+919876543210" className="border-2 border-white text-white hover:bg-white hover:text-navy-primary font-semibold py-3 px-8 rounded-lg transition-colors duration-300" data-testid="cta-call-now">
                   Call Now: +91 98765 43210
                 </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Product Gallery */}
+        <section className="py-16 bg-gray-50" data-testid="product-gallery-section">
+          <div className="container mx-auto px-4">
+            <div className="max-w-6xl mx-auto">
+              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-4" data-testid="gallery-title">
+                Our Carbon Steel Pipe Products
+              </h2>
+              <p className="text-lg text-gray-600 text-center mb-12 max-w-3xl mx-auto" data-testid="gallery-subtitle">
+                Complete range of carbon steel pipes including ASTM A106, A333, AISI 4130, and API 5L grades. 
+                Each product is manufactured to the highest quality standards with full Mill Test Certificates.
+              </p>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {products.map((product, index) => (
+                  <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300" data-testid={`product-card-${index}`}>
+                    <div className="aspect-square overflow-hidden">
+                      <img 
+                        src={product.image} 
+                        alt={product.alt}
+                        className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                        loading="lazy"
+                        width="300"
+                        height="300"
+                        data-testid={`product-image-${index}`}
+                      />
+                    </div>
+                    <div className="p-6">
+                      <h3 className="text-xl font-semibold text-navy-primary mb-3" data-testid={`product-name-${index}`}>
+                        {product.name}
+                      </h3>
+                      <p className="text-gray-600 mb-4 text-sm leading-relaxed" data-testid={`product-description-${index}`}>
+                        {product.description}
+                      </p>
+                      <div className="mb-4">
+                        <h4 className="text-sm font-semibold text-navy-primary mb-2">Applications:</h4>
+                        <div className="flex flex-wrap gap-1">
+                          {product.applications.map((app, appIndex) => (
+                            <span key={appIndex} className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full" data-testid={`product-app-${index}-${appIndex}`}>
+                              {app}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                      <Link href="/contact" className="inline-flex items-center text-gold-primary hover:text-gold-secondary font-semibold text-sm transition-colors" data-testid={`product-cta-${index}`}>
+                        Get Quote
+                        <ExternalLink className="w-4 h-4 ml-1" />
+                      </Link>
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
