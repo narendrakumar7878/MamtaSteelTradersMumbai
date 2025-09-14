@@ -243,7 +243,7 @@ export default function StainlessSteelFlanges() {
     <>
       <ProductSEO
         title="Best Stainless Steel Flanges Supplier Mumbai - SS 304, 316L Flanges | Mamta Steel Traders"
-        description="Leading stainless steel flanges manufacturer & supplier in Mumbai, India. Best prices on SS 304, 304L, 316, 316L flanges. All sizes 1/2\" to 60\" NB, pressure classes 150# to 2500#. ASME B16.5 certified. Contact Mamta Steel Traders for competitive quotes."
+        description="Leading stainless steel flanges manufacturer & supplier in Mumbai, India. Best prices on SS 304, 304L, 316, 316L flanges. All sizes 1/2 inch to 60 inch NB, pressure classes 150# to 2500#. ASME B16.5 certified. Contact Mamta Steel Traders for competitive quotes."
         keywords="stainless steel flanges, SS flanges supplier Mumbai, best price flanges Mumbai, stainless steel flanges manufacturer India, SS 304 flanges, SS 316L flanges, ASME B16.5 flanges, weld neck flanges, slip on flanges, all size flanges Mumbai, stainless steel flanges exporter, Mamta Steel Traders, flanges by grade, flanges by size, best stainless steel flanges prices"
         category="Flanges"
         productName="Stainless Steel Flanges - All Grades & Sizes"
@@ -503,7 +503,7 @@ export default function StainlessSteelFlanges() {
                           <td className="px-3 py-2">{comp.C}</td>
                           <td className="px-3 py-2">{comp.Cr}</td>
                           <td className="px-3 py-2">{comp.Ni}</td>
-                          <td className="px-3 py-2">{comp.Mo || '-'}</td>
+                          <td className="px-3 py-2">{(comp as any).Mo || '-'}</td>
                         </tr>
                       ))}
                     </tbody>
