@@ -1,0 +1,226 @@
+<div class="auto-container">
+        <div class="row clearfix">
+			
+            <!-- sidebar area -->
+						
+            <div class=" col-lg-9 col-md-8 col-sm-12 col-xs-12  content-side">
+                <div class="shop-single">
+                	<div class="product-details">
+						                                                            <div class="woocommerce-notices-wrapper"></div><div id="product-2500" class="post-2500 product type-product status-publish has-post-thumbnail product_cat-copper-wires first instock shipping-taxable product-type-simple">
+	<div class="basic-details">
+    	<div class="row clearfix">
+            <div class="image-column col-md-6 col-sm-6 col-xs-12">
+            	<figure class="image-box">
+					<div class="woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-4 images" data-columns="4" style="opacity: 1; transition: opacity 0.25s ease-in-out;">
+	<div class="woocommerce-product-gallery__wrapper">
+		<div data-thumb="https://textronsteelalloys.com/wp-content/uploads/2024/02/ERCuNi-Wire-TIG-MIG-100x100.jpg" data-thumb-alt="ERCuNi Wires in TIG MIG" data-thumb-srcset="https://textronsteelalloys.com/wp-content/uploads/2024/02/ERCuNi-Wire-TIG-MIG-100x100.jpg 100w, https://textronsteelalloys.com/wp-content/uploads/2024/02/ERCuNi-Wire-TIG-MIG-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2024/02/ERCuNi-Wire-TIG-MIG-150x150.jpg 150w, https://textronsteelalloys.com/wp-content/uploads/2024/02/ERCuNi-Wire-TIG-MIG-101x101.jpg 101w, https://textronsteelalloys.com/wp-content/uploads/2024/02/ERCuNi-Wire-TIG-MIG-50x50.jpg 50w, https://textronsteelalloys.com/wp-content/uploads/2024/02/ERCuNi-Wire-TIG-MIG-45x45.jpg 45w, https://textronsteelalloys.com/wp-content/uploads/2024/02/ERCuNi-Wire-TIG-MIG-400x400.jpg 400w, https://textronsteelalloys.com/wp-content/uploads/2024/02/ERCuNi-Wire-TIG-MIG.jpg 500w" data-thumb-sizes="(max-width: 100px) 100vw, 100px" class="woocommerce-product-gallery__image"><a href="https://textronsteelalloys.com/wp-content/uploads/2024/02/ERCuNi-Wire-TIG-MIG.jpg"><img width="400" height="400" src="https://textronsteelalloys.com/wp-content/uploads/2024/02/ERCuNi-Wire-TIG-MIG-400x400.jpg" class="wp-post-image" alt="ERCuNi Wires in TIG MIG" data-caption="" data-src="https://textronsteelalloys.com/wp-content/uploads/2024/02/ERCuNi-Wire-TIG-MIG.jpg" data-large_image="https://textronsteelalloys.com/wp-content/uploads/2024/02/ERCuNi-Wire-TIG-MIG.jpg" data-large_image_width="500" data-large_image_height="500" decoding="async" fetchpriority="high" srcset="https://textronsteelalloys.com/wp-content/uploads/2024/02/ERCuNi-Wire-TIG-MIG-400x400.jpg 400w, https://textronsteelalloys.com/wp-content/uploads/2024/02/ERCuNi-Wire-TIG-MIG-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2024/02/ERCuNi-Wire-TIG-MIG-150x150.jpg 150w, https://textronsteelalloys.com/wp-content/uploads/2024/02/ERCuNi-Wire-TIG-MIG-101x101.jpg 101w, https://textronsteelalloys.com/wp-content/uploads/2024/02/ERCuNi-Wire-TIG-MIG-50x50.jpg 50w, https://textronsteelalloys.com/wp-content/uploads/2024/02/ERCuNi-Wire-TIG-MIG-45x45.jpg 45w, https://textronsteelalloys.com/wp-content/uploads/2024/02/ERCuNi-Wire-TIG-MIG-100x100.jpg 100w, https://textronsteelalloys.com/wp-content/uploads/2024/02/ERCuNi-Wire-TIG-MIG.jpg 500w" sizes="(max-width: 400px) 100vw, 400px"></a></div>	</div>
+</div>
+        		</figure>
+            </div>
+            <div class="info-column col-md-6 col-sm-6 col-xs-12">
+        
+                                
+                <div class="details-header">
+                    <h4 itemprop="name" class="product_title entry-title">ERCuNi Wire</h4>                    <div class="rating">
+                                            </div>
+                    <div class="item-price"><p class="price"></p>
+</div>
+                </div>
+
+                <div class="text"><div class="woocommerce-product-details__short-description">
+	<p><strong><span style="color: #000000;">ERCuNi Wire</span></strong></p>
+<p><strong><span style="color: #000000;">ERCuNi MIG Wire – 0.8 / 0.9 / 1.0 / 1.2 /1.6 / 2.0 mm</span></strong></p>
+<p><strong><span style="color: #000000;">ERCuNi TIG Wire – 1.6 / 2.0 / 2.4 / 3.2 / 4.0 / 4.8 / 6.4 / 8.0 / 9.5 mm</span></strong></p>
+<p><span style="color: #000000;"><strong> AWS A5.7 / A5.7M : 2007 &amp; AWS A5.8 / A5.8M : 2004</strong></span></p>
+</div>
+</div>
+                <div class="other-options clearfix">
+                                    </div>
+        
+            </div><!-- .summary -->
+    	</div>
+    </div>
+	
+	<div class="woocommerce-tabs wc-tabs-wrapper">
+		<ul class="tabs wc-tabs">
+							<li class="description_tab active">
+					<a href="#tab-description" aria-selected="true" tabindex="0">Description</a>
+				</li>
+					</ul>
+					<div class="panel entry-content wc-tab" id="tab-description" style="">
+				
+	<h2>Description</h2>
+
+<h3 style="text-align: center;"><span style="color: #ff6600;"><strong>ERCuNi MIG / TIG Wire</strong></span></h3>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><strong>ERCuNi Wire</strong> is used for gas metal and gas tungsten arc welding. Can also be used by oxy-fuel welding of 70/30, 80/20, and 90/10 copper nickel alloys.</span></p>
+<p><span style="color: #000000;"> ERCuNi Copper Nickel Alloy Welding Wire is especially good for seawater corrosion resistance. It is particularly suitable for the welding and hard facing of copper-nickel such as machinery, desalting of seawater, ship-building, oil refinery, and food processing industries. This copper-nickel alloy wire is also suitable for welding of nonferrous alloys, dissimilar steel materials.</span></p>
+<p><span style="color: #000000;">This alloy can be used for dissimilar welding applications welding various copper-nickel alloys to nickel alloys and various other copper-nickel alloys.&nbsp;ERCuNi is occasionally used for overlay on carbon steel, but can only be used after applying a layer of ERNi-1 first.</span></p>
+<p>&nbsp;</p>
+<p>MIG Size (mm): 0.8 / 0.9 / 1.0 / 1.20 / 1.60 / 2.0</p>
+<p>TIG Size (mm): 1.6 / 2.0 / 2.4 / 3.2 / 4.0 / 4.8 / 6.4 / 8.0 / 9.5</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h4><span style="color: #ff6600;"><strong>Chemical Composition of ERCuNi Weld Wires :</strong></span></h4>
+<table style="width: 250px; border-style: double; border-color: #000000;" width="250">
+<tbody>
+<tr>
+<td style="border-style: double; border-color: #000000; text-align: center;" width="46"><span style="color: #000000;">Cu</span></td>
+<td style="border-style: double; border-color: #000000; text-align: center;" width="64"><span style="color: #000000;">bal.</span></td>
+</tr>
+<tr>
+<td style="border-style: double; border-color: #000000; text-align: center;"><span style="color: #000000;">Fe</span></td>
+<td style="border-style: double; border-color: #000000; text-align: center;"><span style="color: #000000;">0.40 – 0.70</span></td>
+</tr>
+<tr>
+<td style="border-style: double; border-color: #000000; text-align: center;"><span style="color: #000000;">Mn</span></td>
+<td style="border-style: double; border-color: #000000; text-align: center;"><span style="color: #000000;">0.50 – 1.50</span></td>
+</tr>
+<tr>
+<td style="border-style: double; border-color: #000000; text-align: center;"><span style="color: #000000;">Ni</span></td>
+<td style="border-style: double; border-color: #000000; text-align: center;"><span style="color: #000000;">29.00 – 32.00</span></td>
+</tr>
+<tr>
+<td style="border-style: double; border-color: #000000; text-align: center;"><span style="color: #000000;">P</span></td>
+<td style="border-style: double; border-color: #000000; text-align: center;"><span style="color: #000000;">0.020</span></td>
+</tr>
+<tr>
+<td style="border-style: double; border-color: #000000; text-align: center;"><span style="color: #000000;">Pb</span></td>
+<td style="border-style: double; border-color: #000000; text-align: center;"><span style="color: #000000;">0.020</span></td>
+</tr>
+<tr>
+<td style="border-style: double; border-color: #000000; text-align: center;"><span style="color: #000000;">Si</span></td>
+<td style="border-style: double; border-color: #000000; text-align: center;"><span style="color: #000000;">0.25</span></td>
+</tr>
+<tr>
+<td style="border-style: double; border-color: #000000; text-align: center;"><span style="color: #000000;">C</span></td>
+<td style="border-style: double; border-color: #000000; text-align: center;"><span style="color: #000000;">0.040</span></td>
+</tr>
+<tr>
+<td style="border-style: double; border-color: #000000; text-align: center;"><span style="color: #000000;">Ti</span></td>
+<td style="border-style: double; border-color: #000000; text-align: center;"><span style="color: #000000;">0.20 – 0.50</span></td>
+</tr>
+<tr>
+<td style="border-style: double; border-color: #000000; text-align: center;"><span style="color: #000000;">S</span></td>
+<td style="border-style: double; border-color: #000000; text-align: center;"><span style="color: #000000;">0.010</span></td>
+</tr>
+<tr>
+<td style="border-style: double; border-color: #000000; text-align: center;"><span style="color: #000000;">Others</span></td>
+<td style="border-style: double; border-color: #000000; text-align: center;"><span style="color: #000000;">0.50</span></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h4><span style="color: #ff6600;"><strong>ERCuNi Copper-Nickel Alloy Welding Wire Features :</strong></span></h4>
+<ul>
+<li><span style="color: #000000;">• Higher resistance than copper</span></li>
+<li><span style="color: #000000;"> • High tensile strength</span></li>
+<li><span style="color: #000000;"> • Good bending proof performance</span></li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h4><span style="color: #ff6600;"><strong> Applications of ERCuNi Wire :</strong></span></h4>
+<p><span style="color: #000000;">AWS A5.7 ERCuNi is used in Desalination plant, Evaporators and etc in salt and seawater processing system,etc</span></p>
+<p><span style="color: #000000;">Ideally suited for offshore applications because of its good resistance to the corrosion in seawater. It is also suitable for chemical process equipments, oil refineries, food industries, etc.</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>ERCuNi is used for gas metal and gas tungsten arc welding. Can also be used by oxy-fuel welding of 70/30, 80/20, and 90/10 copper nickel alloys. A barrier layer of nickel alloy 610 is recommended prior to overlaying steel with GMAW weld process.</p>
+<p>ERCuNi is a solid wire for TIG welding, available in bright finish, gives smooth flow, stable arc and spatter free under optimum welding conditions. It is for joining and surfacing of wrought and cast alloys of similar composition as well as 80/20 and 90/10 alloys. Ideally suited for offshore applications because of its good resistance to the corrosion in seawater. It is also suitable for chemical process equipments, oil refineries, food industries, etc.</p>
+<p>&nbsp;</p>
+<h4><span style="color: #ff6600;"><strong>Other Products available with us</strong></span></h4>
+<p>TIG &amp; MIG Welding &amp; Brazing Rods /Wires of Copper &amp; Copper based Alloys</p>
+<p>( AWS A5.7/A5.7M:2007 &amp; AWS A5.8/A5.8M:2004 )</p>
+<p>&nbsp;</p>
+<p>Copper – (Low Alloyed) AWS : ERCu</p>
+<p>Copper – Zinc (brass) AWS : RbCuZn –A, RbCuZn –B, RbCuZn –C, RbCuZn –D</p>
+<p>Copper – Nickel (AWS: ERCuNi)</p>
+<p>Copper -Silicon (Silicon Bronze) –AWS: ERCuSi-A</p>
+<p>Copper -Tin (incl. phosphor bronze) –AWS: ERCuSn-A</p>
+<p>Copper- Aluminium (aluminium bronze) – AWS: ERCuAl-A1 / ERCuAl-A2 / ERCuAl-A3 / ERCuAlNi</p>
+<p>Copper –Manganese – AWS: ERCuMnNiAl / B CuP-2 / CuCrZr</p>
+<p>Copper Nickel Alloy – CuNi1,CuNi2,CuNi6, CuNi10,CuNi15,CuNi20,CuNi23 Mn</p>
+			</div>
+			</div>
+
+</div><!-- #product-2500 -->
+                                                                        </div>
+                </div>
+            </div>
+		
+        	<!-- sidebar area -->
+												<div class="sidebar-side col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                		<aside class="sidebar default-sidebar">
+							<div id="woocommerce_product_categories-4" class="widget sidebar-widget woocommerce widget_product_categories"><div class="sidebar-title"><h2>Product categories</h2></div><select name="product_cat" id="product_cat" class="dropdown_product_cat select2-hidden-accessible" tabindex="-1" aria-hidden="true">
+	<option value="">Select a category</option>
+	<option class="level-0" value="16mo3-15mo3-sa-204-plates">16MO3-15MO3 &amp; SA 204 Plates&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="abrasion-resistant-steel-plates">Abrasion Resistant Plates&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="alloy-20-round-bars">Alloy 20&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="alloy-steel-f5-f9-f11-f12-f22-f91">Alloy Steel F Series&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="alloy-steel-pipes-tubes">Alloy Steel Pipe&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="alloy-steel-plates-sheets">Alloy Steel Plates&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="alloy-steel-round-bars">Alloy Steel Round&nbsp;&nbsp;(41)</option>
+	<option class="level-0" value="aluminium">Aluminium&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="aluminium-alloy">Aluminium Alloy&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="aluminium-alloy-round-bar">Aluminium Alloy&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="aluminium-bronze">Aluminium Bronze&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="aluminium-wires">Aluminium Wires&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="boiler-quality-steel-plates">Boiler Quality Steel Plates&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="boron-grades">Boron Grades&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="bronze">Bronze&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="carbon-steel-pipes-tubes">Carbon Steel&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="carbon-steel-round-bars">Carbon Steel&nbsp;&nbsp;(43)</option>
+	<option class="level-0" value="carbon-steel-plates-sheets">Carbon Steel&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="chequered-plate">Chequered Plate&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="chrome-moly-plates">Chrome Moly Plates&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="cobalt">Cobalt&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="cobalt-base-welding-electrodes">Cobalt Base Electrode&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="cold-rolled">Cold Rolled&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="cold-work-steels">Cold Work Steels&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="copper-nickel-round-bars">Copper Nickel&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="copper-wires" selected="selected">Copper Wires&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="duplex-super-duplex-round-bars">Duplex &amp; Super Duplex&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="duplex-and-super-duplex-plates-sheets">Duplex and Super Duplex&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="duplex-and-super-duplex-pipes">Duplex and Super Duplex Pipes&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="en-series">EN Series&nbsp;&nbsp;(28)</option>
+	<option class="level-0" value="flanges">Flanges&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="galvanized">Galvanized&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="hastelloy-pipes-tubes">Hastelloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="hastelloy-plates-sheets">Hastelloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="hastelloy-round-bars">Hastelloy&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="hastelloy-buttweld-fittings">Hastelloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="high-speed-steel">High Speed Steel&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="high-tensile">High Tensile&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="high-tensile-strength">High Tensile Strength&nbsp;&nbsp;(13)</option>
+	<option class="level-0" value="hot-rolled-is-2062-plates">Hot Rolled IS 2062 Plates&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="hot-work-steel">Hot Work Steel&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="incoloy-plates-sheets">Incoloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="inconel-plates-sheets">Inconel&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="inconel-pipes-tubes">Inconel&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="inconel-round-bars">Inconel&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="manganese-bronze">Manganese Bronze&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="manganese-steel-plates">Manganese Steel Plates&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="monel-round-bars">Monel&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="nickel-alloy-plates-sheets">Nickel Alloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="nickel-alloy-round-bars">Nickel Alloy Round Bars&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="pins">Pins&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="pipes-tubes">Pipes &amp; Tubes&nbsp;&nbsp;(36)</option>
+	<option class="level-0" value="plates-sheets">Plates &amp; Sheets&nbsp;&nbsp;(54)</option>
+	<option class="level-0" value="precipitation-hardening-stainless-steel">Precipitation Hardening Steel&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="quenched-tempered-steel-plates">Quenched &amp; Tempered Plates&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="round-bars">Round Bars&nbsp;&nbsp;(206)</option>
+	<option class="level-0" value="specialized-products">Specialized Products&nbsp;&nbsp;(45)</option>
+	<option class="level-0" value="stainless-steel">Stainless Steel&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="stainless-steel-welding-electrode">Stainless Steel Electrode&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="stainless-steel-pipes-tubes">Stainless Steel Pipes &amp; Tubes&nbsp;&nbsp;(24)</option>
+	<option class="level-0" value="stainless-steel-plates-sheets">Stainless Steel Plates&nbsp;&nbsp;(25)</option>
+	<option class="level-0" value="stainless-steel-profiles">Stainless Steel Profiles&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="stainless-steel-round-bars">Stainless Steel Round Bars&nbsp;&nbsp;(49)</option>
+	<option class="level-0" value="titanium-round-bars">Titanium&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="titanium-alloys">Titanium Alloys&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="tool-steel">Tool Steel&nbsp;&nbsp;(10)</option>
+</select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-product_cat-container" role="combobox"><span class="select2-selection__rendered" id="select2-product_cat-container" role="textbox" aria-readonly="true" title="Copper Wires&nbsp;&nbsp;(1)"><span class="select2-selection__clear">×</span>Copper Wires&nbsp;&nbsp;(1)</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+</div><div id="rpwe_widget-2" class="widget sidebar-widget rpwe_widget recent-posts-extended"><div class="sidebar-title"><h2><a href="https://www.textronsteelalloys.com/shop/" title="Products">Products</a></h2></div><div class="rpwe-block"><ul class="rpwe-ul"><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/s890ql-plates/" target="_self">S890QL Plates</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/s275jr-plates-sheets-ss400-1-0044-a36/" target="_self">S275JR Plates</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/s960ql-plates-quend-960-1-8933-sheets/" target="_self">S960QL Plates</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/en16-round-bars-605m36/" target="_self">EN16 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/6061-t6-round-bars/" target="_self">6061 T6 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/etg100-round-bars-etg88-free-cutting-steel/" target="_self">ETG100 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/40cr7al10mo2-round-bars/" target="_self">40Cr7Al10Mo2 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/905m39-round-bars-bs-970/" target="_self">905M39 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/1-2799-flat-bars-x2nicomoti1288/" target="_self">1.2799 Flat Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/sum-43-round-bars-jis-g-4804/" target="_self">SUM43 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/scm-420-round-bars-18crmo4-1-7243-aisi-4118/" target="_self">SCM420 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/1-4122-round-bars-x39crmo17-1/" target="_self">1.4122 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/38mnvs6-round-bars-1-1303/" target="_self">38MnVS6 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/t55ni7cr4mo5v1-round-bars/" target="_self">T55Ni7Cr4Mo5V1 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/x46cr13-round-bars-1-4034/" target="_self">X46Cr13 Round Bars</a></h3></li></ul></div><!-- Generated by http://wordpress.org/plugins/recent-posts-widget-extended/ --></div>                                                    </aside>
+                    </div>
+									</div>
+	</div>
