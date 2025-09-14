@@ -1,0 +1,354 @@
+<div class="sidebar-page-container">
+    <div class="auto-container">
+        <div class="row clearfix">
+			
+            <!-- sidebar area -->
+						
+            <div class=" col-lg-9 col-md-8 col-sm-12 col-xs-12  content-side">
+                <div class="shop-single">
+                	<div class="product-details">
+						                                                            <div class="woocommerce-notices-wrapper"></div><div id="product-1099" class="post-1099 product type-product status-publish has-post-thumbnail product_cat-alloy-steel-pipes-tubes product_cat-carbon-steel-pipes-tubes product_cat-pipes-tubes first instock shipping-taxable product-type-simple">
+	<div class="basic-details">
+    	<div class="row clearfix">
+            <div class="image-column col-md-6 col-sm-6 col-xs-12">
+            	<figure class="image-box">
+					<div class="woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-4 images" data-columns="4" style="opacity: 1; transition: opacity 0.25s ease-in-out;">
+	<div class="woocommerce-product-gallery__wrapper">
+		<div data-thumb="https://textronsteelalloys.com/wp-content/uploads/2018/12/carbon-100x100.jpg" data-thumb-alt="carbon-steel-a106-grade-b-seamless-pipe" data-thumb-srcset="https://textronsteelalloys.com/wp-content/uploads/2018/12/carbon-100x100.jpg 100w, https://textronsteelalloys.com/wp-content/uploads/2018/12/carbon-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2018/12/carbon-400x400.jpg 400w, https://textronsteelalloys.com/wp-content/uploads/2018/12/carbon.jpg 1000w" data-thumb-sizes="(max-width: 100px) 100vw, 100px" class="woocommerce-product-gallery__image"><a href="https://textronsteelalloys.com/wp-content/uploads/2018/12/carbon.jpg"><img width="400" height="400" src="https://textronsteelalloys.com/wp-content/uploads/2018/12/carbon-400x400.jpg" class="wp-post-image" alt="carbon-steel-a106-grade-b-seamless-pipe" data-caption="" data-src="https://textronsteelalloys.com/wp-content/uploads/2018/12/carbon.jpg" data-large_image="https://textronsteelalloys.com/wp-content/uploads/2018/12/carbon.jpg" data-large_image_width="1000" data-large_image_height="1000" decoding="async" fetchpriority="high" srcset="https://textronsteelalloys.com/wp-content/uploads/2018/12/carbon-400x400.jpg 400w, https://textronsteelalloys.com/wp-content/uploads/2018/12/carbon-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2018/12/carbon-100x100.jpg 100w, https://textronsteelalloys.com/wp-content/uploads/2018/12/carbon.jpg 1000w" sizes="(max-width: 400px) 100vw, 400px"></a></div>	</div>
+</div>
+        		</figure>
+            </div>
+            <div class="info-column col-md-6 col-sm-6 col-xs-12">
+        
+                                
+                <div class="details-header">
+                    <h4 itemprop="name" class="product_title entry-title">A106 Grade B</h4>                    <div class="rating">
+                                            </div>
+                    <div class="item-price"><p class="price"></p>
+</div>
+                </div>
+
+                <div class="text"><div class="woocommerce-product-details__short-description">
+	<p><span style="color: #000000;"><strong>Stockist, Manufacturer, Stockholder, Distributor, Exporter and Supplier of A106 Grade B Carbon Steel Seamless Pipes based in India. High Quality A106 Carbon Steel Seamless Pipes and Tubes at Competitive Price. A106 grade B Carbon Steel Pipes and Tubes Ready Stock Inventory of more than 50000 Metric Ton.</strong></span></p>
+</div>
+</div>
+                <div class="other-options clearfix">
+                                    </div>
+        
+            </div><!-- .summary -->
+    	</div>
+    </div>
+	
+	<div class="woocommerce-tabs wc-tabs-wrapper">
+		<ul class="tabs wc-tabs">
+							<li class="description_tab active">
+					<a href="#tab-description" aria-selected="true" tabindex="0">Description</a>
+				</li>
+					</ul>
+					<div class="panel entry-content wc-tab" id="tab-description" style="">
+				
+	<h2>Description</h2>
+
+<h2 style="text-align: center;"></h2>
+<h2 style="text-align: center;"><span style="color: #ff6600;"><strong>ASTM A106 Grade B Seamless Pipes &amp; Tubes.</strong></span></h2>
+<p><span style="color: #000000;"><strong>Textron Steel &amp; Alloys</strong> is one of the pioneers in Manufacturing, Stocking and Supplying of&nbsp;<strong>ASTM A106 Grade B Carbon Steel Pipes</strong>, which is available in market leading prices to our clients. All forged <strong>ASTM A106 GR. B Carbon Steel Seamless Pipes</strong> should be solution annealed according to the heat treatment section to restore the ferrite – austenite equilibrium.</span></p>
+<p><span style="color: #000000;">The weld metallurgy of&nbsp;ASME SA 106 GR. B Carbon Steel Welded Pipes, as with other ferrite – austenitic stainless steels, has a ferrite structure during solidification. And when the weld metal temperature of&nbsp;ASTM A106 GR. B Carbon Steel EFW Pipes&nbsp;is in the 2100 Degree F to 2640 Degree F (1150 Degree C to 1450 Degree C) range, it is possible for the HAZ to increase its ferrite content.</span></p>
+<p><span style="color: #000000;">It is the cooling of the high temp ferrite of ASME SA 106 GR. B Carbon Steel ERW Pipes that allows retransformation into austenite, yielding a ferrite – austenite weld structure.</span></p>
+<p><span style="color: #000000;">Cooling rates of&nbsp;ASTM A106 GR. B Carbon Steel Round Pipes are extremely important as getting the weld area too hot, or using too much weld energy, leads to cooling rates being too slow, allowing the formation of embrittling sigma phase in the heat affected zone. Conversely, if not enough weld energy is used in&nbsp;ASME SA 106 GR. B Carbon Steel Square Pipes, then the cooling rates are too fast, leading to too much ferrite in the weld metal and a fragile weld joint.</span></p>
+<p><span style="color: #000000;"><strong>ASTM A106 Grade B</strong> is a mild steel pipe material commonly used in Industrial Plants, Power Plants, Refineries and Chemical plants.</span></p>
+<p><span style="color: #000000;">Which is typically seamless and comes in three grades A, B, and C with grade B being the most commonly used grade.</span></p>
+<p>&nbsp;</p>
+<h5><span style="color: #ff6600;"><strong>Scope :</strong></span></h5>
+<p><span style="color: #000000;">ASTM A106 Seamless Pressure Pipe (also covered in ASME specifications as S/A 106) is the standard specification for seamless carbon steel nominal wall pipe for high-temperature service. Suitable for bending, flanging and similar forming operations.</span></p>
+<p><span style="color: #000000;">NPS 1-1/2″ and under may be either hot finished or cold drawn. NPS 2″ and larger shall be hot finished unless otherwise specified.</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h5><strong><span style="color: #ff6600;">ASTM A106 (ASME SA106) Grade B Chemical Composition(%) / Chemistry :</span></strong></h5>
+<table class="data-table" style="width: 600px; border-color: #575757; border-style: solid;">
+<tbody>
+<tr bgcolor="#CCCCCC">
+<td style="border-style: solid; border-color: #575757; text-align: center;" height="30"><strong><span style="color: #000000;">&nbsp;C</span></strong></td>
+<td style="border-style: solid; border-color: #575757; text-align: center;" height="30"><strong><span style="color: #000000;">&nbsp;Si</span></strong></td>
+<td style="border-style: solid; border-color: #575757; text-align: center;" height="30"><strong><span style="color: #000000;">&nbsp;Mn</span></strong></td>
+<td style="border-style: solid; border-color: #575757; text-align: center;" height="30"><strong><span style="color: #000000;">&nbsp;P/S</span></strong></td>
+<td style="border-style: solid; border-color: #575757; text-align: center;" height="30"><strong><span style="color: #000000;">&nbsp;Cr</span></strong></td>
+<td style="border-style: solid; border-color: #575757; text-align: center;" height="30"><strong><span style="color: #000000;">&nbsp;Mo</span></strong></td>
+<td style="border-style: solid; border-color: #575757; text-align: center;" height="30"><strong><span style="color: #000000;">&nbsp;Ni</span></strong></td>
+<td style="border-style: solid; border-color: #575757; text-align: center;" height="30"><strong><span style="color: #000000;">&nbsp;Cu</span></strong></td>
+<td style="border-style: solid; border-color: #575757; text-align: center;" height="30"><strong><span style="color: #000000;">&nbsp;V</span></strong></td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td style="border-style: solid; border-color: #575757; text-align: center;" height="30"><span style="color: #000000;">&nbsp;max</span></td>
+<td style="border-style: solid; border-color: #575757; text-align: center;" height="30"><span style="color: #000000;">&nbsp;min</span></td>
+<td style="border-style: solid; border-color: #575757; text-align: center;" height="30"><span style="color: #000000;">&nbsp;req</span></td>
+<td style="border-style: solid; border-color: #575757; text-align: center;" height="30"><span style="color: #000000;">&nbsp;max</span></td>
+<td style="border-style: solid; border-color: #575757; text-align: center;" height="30"><span style="color: #000000;">&nbsp;max</span></td>
+<td style="border-style: solid; border-color: #575757; text-align: center;" height="30"><span style="color: #000000;">&nbsp;max</span></td>
+<td style="border-style: solid; border-color: #575757; text-align: center;" height="30"><span style="color: #000000;">&nbsp;max</span></td>
+<td style="border-style: solid; border-color: #575757; text-align: center;" height="30"><span style="color: #000000;">&nbsp;max</span></td>
+<td style="border-style: solid; border-color: #575757; text-align: center;" height="30"><span style="color: #000000;">&nbsp;max</span></td>
+</tr>
+<tr bgcolor="#F9FAFB">
+<td style="border-style: solid; border-color: #575757; text-align: center;" height="30"><span style="color: #000000;">&nbsp;0.30</span></td>
+<td style="border-style: solid; border-color: #575757; text-align: center;" height="30"><span style="color: #000000;">&nbsp;0.10</span></td>
+<td style="border-style: solid; border-color: #575757; text-align: center;" height="30"><span style="color: #000000;">&nbsp;0.29 – 1.06</span></td>
+<td style="border-style: solid; border-color: #575757; text-align: center;" height="30"><span style="color: #000000;">&nbsp;0.035</span></td>
+<td style="border-style: solid; border-color: #575757; text-align: center;" height="30"><span style="color: #000000;">&nbsp;0.40</span></td>
+<td style="border-style: solid; border-color: #575757; text-align: center;" height="30"><span style="color: #000000;">&nbsp;0.15</span></td>
+<td style="border-style: solid; border-color: #575757; text-align: center;" height="30"><span style="color: #000000;">&nbsp;0.40</span></td>
+<td style="border-style: solid; border-color: #575757; text-align: center;" height="30"><span style="color: #000000;">&nbsp;0.40</span></td>
+<td style="border-style: solid; border-color: #575757; text-align: center;" height="30"><span style="color: #000000;">&nbsp;0.08</span></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h5></h5>
+<h5><strong><span style="color: #ff6600;">ASTM A106 (ASME SA106) Mechanical Properties :</span></strong></h5>
+<table class="data-table" style="width: 600px; border-style: solid; border-color: #575757;">
+<tbody>
+<tr bgcolor="#CCCCCC">
+<td style="text-align: center; border-style: solid; border-color: #575757;" height="30"><strong><span style="color: #000000;">&nbsp;Tensile Strength</span></strong></td>
+<td style="text-align: center; border-style: solid; border-color: #575757;" height="30"><strong><span style="color: #000000;">&nbsp;Yield Strength</span></strong></td>
+<td style="text-align: center; border-style: solid; border-color: #575757;" height="30"><strong><span style="color: #000000;">&nbsp;Elongation</span></strong></td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td style="text-align: center; border-style: solid; border-color: #575757;" height="30"><span style="color: #000000;">&nbsp;min (MPa)</span></td>
+<td style="text-align: center; border-style: solid; border-color: #575757;" height="30"><span style="color: #000000;">&nbsp;min (MPa)</span></td>
+<td style="text-align: center; border-style: solid; border-color: #575757;" height="30"><span style="color: #000000;">&nbsp;min (%)</span></td>
+</tr>
+<tr bgcolor="#F9FAFB">
+<td style="text-align: center; border-style: solid; border-color: #575757;" height="30"><span style="color: #000000;">&nbsp;415</span></td>
+<td style="text-align: center; border-style: solid; border-color: #575757;" height="30"><span style="color: #000000;">&nbsp;240</span></td>
+<td style="text-align: center; border-style: solid; border-color: #575757;" height="30"><span style="color: #000000;">&nbsp;30/16.5</span></td>
+</tr>
+</tbody>
+</table>
+<h5></h5>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h5><span style="color: #ff6600;"><strong>Descriptions :</strong></span></h5>
+<p><span style="color: #000000;">Textron Steel and Alloys Supply, Stocks a full range of A106 Grade B Seamless carbon steel pipe.</span></p>
+<p><span style="color: #000000;">1. Standards: ASTM A106 (ASME SA106)</span><br>
+<span style="color: #000000;">2. Products mainly used: apply to bending, curling and similar forming process.</span><br>
+<span style="color: #000000;">3. The main products of steel / steel grade: Gr.A; Gr.B; Gr.C.</span><br>
+<span style="color: #000000;">4. Specifications: diameter: 10.3 to 114.3 mm thickness: 0.8 to 12 mm Length: 6 m above, and, in accordance with customer demand, supply and other specifications of steel pipe.</span><br>
+<span style="color: #000000;">5. Chemical composition and mechanical properties</span><br>
+<span style="color: #000000;">6. JIS Number and Corresponding Foreign Standards</span></p>
+<p>&nbsp;</p>
+<h5><span style="color: #ff6600;"><strong>ASTM A106 Seamless Pipe Specifications :</strong></span></h5>
+<p><span style="color: #000000;">In Stock A106 / SA106</span></p>
+<p><span style="color: #000000;">» <strong>Grade –&nbsp;</strong> B</span></p>
+<p><span style="color: #000000;">» <strong>Sizes</strong> –&nbsp; ½” to 8”</span></p>
+<p><span style="color: #000000;">» <strong>Schedules –</strong> 40(STD) and 80(XH)</span></p>
+<p>&nbsp;</p>
+<h5><strong><span style="color: #ff6600;">Marking on the pipe :</span></strong></h5>
+<p><span style="color: #000000;">» Manufacturer’s name or brand.</span></p>
+<p><span style="color: #000000;">» Length of pipe.</span></p>
+<p><span style="color: #000000;">» A106 A, A 106 B or A 106 C.</span></p>
+<p><span style="color: #000000;">» NPS Size</span></p>
+<p><span style="color: #000000;">» Wall thickness or designated Schedule</span></p>
+<p><span style="color: #000000;">» Hydrostatic test pressures and/or NDE</span></p>
+<p><span style="color: #000000;">» Heat Number</span></p>
+<p>&nbsp;</p>
+<h5><span style="color: #ff6600;"><strong>ASTM A106 Gr. B Carbon Steel Seamless Pipes Popular Searches :</strong></span></h5>
+<p><span style="color: #000000;">ASTM A106 Grade B Carbon Steel Pipe. Carbon Steel A106 Seamless Pipes, A106 Carbon Steel Pipes Suppliers, ASTM A106 Grade B Carbon Steel Seamless Pipe Exporter in Turkey, ASTM A106 Carbon Steel Seamless Pipe, Carbon Steel A106 Seamless Pipes Dealer in Egypt, ASTM A106 Grade B Seamless Pipes Suppliers in Mumbai, India, Carbon Steel A106 Gr B Seamless Pipe, A106 Carbon Steel Seamless Pipes, Carbon Steel A106 Grade B Cold Drawn Seamless Pipes Stockholder in Singapore, ASTM A106 Grade B Carbon Steel Welded Pipe Distributors in Malaysia, A106 Grade B Carbon Steel Rectangular Pipes in Oman, Carbon Steel A106 ERW Pipes Suppliers, Carbon Steel A106 Pipes in Qatar, A106 Gr B Carbon Steel Welded Pipes Stockist in Indonesia, Seamless Carbon Steel Grade B A106 Pipes in Jordan, A106 Mild Steel Seamless Pipes in South Africa, Carbon Steel A106 Square Pipes Suppliers in Italy, We are india’s most trusted Manufacturer, Suppliers &amp; Exporter of ASTM A106 Grade B Carbon Steel Seamless Pipes, ASTM A106 Carbon Steel Grade B Seamless Pipes are Available in Different Dimensions and Specifications in India</span></p>
+<p>&nbsp;</p>
+<h5><span style="color: #ff6600;"><strong>Carbon Steel A106 Grade B Seamless Pipes Supplied to :</strong></span></h5>
+<p><span style="color: #000000;">Pimpri-Chinchwad, Ernakulam, Hyderabad, Riyadh, Bengaluru, Vadodara, Sydney, Rajkot, Lahore, Geoje-si, Jakarta, Kolkata, Gimhae-si, Vung Tau, Karachi, Istanbul, Manama, Kuwait City, Howrah, Hanoi, Hong Kong, New Delhi, Calgary, Ranchi, Muscat, Mumbai, Moscow, Kuala Lumpur, Nashik, Nagpur, Coimbatore, Mexico City, Santiago, Abu Dhabi, Haryana, Edmonton, Los Angeles, Faridabad, Seoul, Madrid, Sharjah, Bhopal, Thane, La Victoria, Pune, Dubai, Chiyoda, Doha, Al Jubail, Milan, Chennai, </span><span style="color: #000000;">Toronto, Brisbane, Petaling Jaya, Jaipur, Navi Mumbai, Atyrau, Jeddah, Secunderabad, Kanpur, Gurgaon, Bangkok, Indore, Rio de Janeiro, Montreal, Al Khobar, London, Baroda, Granada, Ankara, Caracas, Dammam, Surat, Ludhiana, Bogota, Courbevoie, Melbourne, Noida, Tehran, Perth, Jamshedpur, Algiers, Cairo, Chandigarh, Dallas, Busan, Ho Chi Minh City, Singapore, Aberdeen, Thiruvananthapuram, Ahmedabad, Houston, Ulsan, Visakhapatnam, Colombo, New York, Lagos, Ahvaz, Port-of-Spain</span></p>
+<p>&nbsp;</p>
+<h5><span style="color: #ff6600;"><strong>ASTM A106 Gr.B Carbon Steel Pipe Exporter to :</strong></span></h5>
+<p><span style="color: #000000;">Belgium, Qatar, Slovakia, Kazakhstan, Ghana, Turkey, South Africa, Azerbaijan, Oman, Belarus, Gambia, Saudi Arabia, Ukraine, Bangladesh, Zimbabwe, New Zealand, Thailand, Gabon, India, Tibet, Australia, Nigeria, Angola, Sri Lanka, Libya, Hong Kong, Canada, Namibia, Norway, Puerto Rico, Yemen, Romania, Mongolia, Brazil, Costa Rica, South Korea, Finland, Lithuania, Italy, Mexico, Kuwait, Switzerland, Bhutan, Bulgaria, Nepal, Singapore, China, Kenya, Croatia, Japan, Sweden, Trinidad &amp; Tobago, </span><span style="color: #000000;">Tunisia, Egypt, France, Taiwan, Poland, Macau, Israel, Serbia, Malaysia, Germany, Venezuela, Poland, Peru, Mexico, United Kingdom, Austria, Portugal, Ecuador, Nigeria, Chile, Czech Republic, Afghanistan, Ireland, Philippines, Iran, Chile, Netherlands, Colombia, Russia, Lebanon, Indonesia, Morocco, Greece, Spain, United Arab Emirates, Jordan, Bolivia, Pakistan, United States, Iraq, Iran, Bahrain, Algeria, Argentina, Hungary, Denmark, Estonia, Vietnam</span></p>
+			</div>
+			</div>
+
+
+	<div class="related-projects">
+
+		<div class="sec-title">
+			<h2>Related Products</h2>
+		</div>
+
+		<div class="products row clearfix">
+			<div class="row1 clearfix">	
+			
+				<div class="shop-item col-lg-4 col-md-6 col-sm-6 col-xs-12 post-930 product type-product status-publish has-post-thumbnail product_cat-pipes-tubes product_cat-stainless-steel-pipes-tubes first instock shipping-taxable product-type-simple">
+	<div class="inner-box">
+	     
+     <div class="image">
+        <img width="300" height="300" src="https://textronsteelalloys.com/wp-content/uploads/2018/11/po-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="SS Pipe" decoding="async" srcset="https://textronsteelalloys.com/wp-content/uploads/2018/11/po-300x300.png 300w, https://textronsteelalloys.com/wp-content/uploads/2018/11/po-100x100.png 100w, https://textronsteelalloys.com/wp-content/uploads/2018/11/po-400x400.png 400w, https://textronsteelalloys.com/wp-content/uploads/2018/11/po.png 1000w" sizes="(max-width: 300px) 100vw, 300px">        <div class="overlay-box">
+            <ul class="cart-option">
+                <li><a href="https://www.textronsteelalloys.com/astm-a312-sa312-tp-321/"><span class="fa fa-shopping-cart"></span>Add to Cart</a></li>
+            </ul>
+        </div>
+    </div>
+     
+             
+        <div class="lower-content">
+            <h3><a href="https://www.textronsteelalloys.com/astm-a312-sa312-tp-321/">ASTM A312 / SA312 TP 321</a></h3>
+            <div class="clearfix">
+                <div class="pull-left">
+                    
+                </div>
+                <div class="pull-right">
+                    <!--Rating-->
+                    <div class="rating">
+                                            </div>
+                </div>
+            </div>
+            
+        </div>
+        
+		</div>
+</div>
+
+			
+				<div class="shop-item col-lg-4 col-md-6 col-sm-6 col-xs-12 post-928 product type-product status-publish has-post-thumbnail product_cat-pipes-tubes product_cat-stainless-steel-pipes-tubes  instock shipping-taxable product-type-simple">
+	<div class="inner-box">
+	     
+     <div class="image">
+        <img width="300" height="300" src="https://textronsteelalloys.com/wp-content/uploads/2018/11/p-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="SS 317L Seamless Pipe Stockist Supplier" decoding="async" srcset="https://textronsteelalloys.com/wp-content/uploads/2018/11/p-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2018/11/p-100x100.jpg 100w, https://textronsteelalloys.com/wp-content/uploads/2018/11/p-400x400.jpg 400w, https://textronsteelalloys.com/wp-content/uploads/2018/11/p.jpg 1000w" sizes="(max-width: 300px) 100vw, 300px">        <div class="overlay-box">
+            <ul class="cart-option">
+                <li><a href="https://www.textronsteelalloys.com/astm-a312-sa312-tp-317l/"><span class="fa fa-shopping-cart"></span>Add to Cart</a></li>
+            </ul>
+        </div>
+    </div>
+     
+             
+        <div class="lower-content">
+            <h3><a href="https://www.textronsteelalloys.com/astm-a312-sa312-tp-317l/">SS 317L Seamless Pipe</a></h3>
+            <div class="clearfix">
+                <div class="pull-left">
+                    
+                </div>
+                <div class="pull-right">
+                    <!--Rating-->
+                    <div class="rating">
+                                            </div>
+                </div>
+            </div>
+            
+        </div>
+        
+		</div>
+</div>
+
+			
+				<div class="shop-item col-lg-4 col-md-6 col-sm-6 col-xs-12 post-924 product type-product status-publish has-post-thumbnail product_cat-pipes-tubes product_cat-stainless-steel-pipes-tubes last instock shipping-taxable product-type-simple">
+	<div class="inner-box">
+	     
+     <div class="image">
+        <img width="300" height="300" src="https://textronsteelalloys.com/wp-content/uploads/2018/11/po-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="SS Pipe" decoding="async" loading="lazy" srcset="https://textronsteelalloys.com/wp-content/uploads/2018/11/po-300x300.png 300w, https://textronsteelalloys.com/wp-content/uploads/2018/11/po-100x100.png 100w, https://textronsteelalloys.com/wp-content/uploads/2018/11/po-400x400.png 400w, https://textronsteelalloys.com/wp-content/uploads/2018/11/po.png 1000w" sizes="auto, (max-width: 300px) 100vw, 300px">        <div class="overlay-box">
+            <ul class="cart-option">
+                <li><a href="https://www.textronsteelalloys.com/astm-a312-sa312-tp-304/"><span class="fa fa-shopping-cart"></span>Add to Cart</a></li>
+            </ul>
+        </div>
+    </div>
+     
+             
+        <div class="lower-content">
+            <h3><a href="https://www.textronsteelalloys.com/astm-a312-sa312-tp-304/">ASTM A312 / SA312 TP 304</a></h3>
+            <div class="clearfix">
+                <div class="pull-left">
+                    
+                </div>
+                <div class="pull-right">
+                    <!--Rating-->
+                    <div class="rating">
+                                            </div>
+                </div>
+            </div>
+            
+        </div>
+        
+		</div>
+</div>
+
+			            </div>
+
+		</div>
+
+	</div>
+
+</div><!-- #product-1099 -->
+                                                                        </div>
+                </div>
+            </div>
+		
+        	<!-- sidebar area -->
+												<div class="sidebar-side col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                		<aside class="sidebar default-sidebar">
+							<div id="woocommerce_product_categories-4" class="widget sidebar-widget woocommerce widget_product_categories"><div class="sidebar-title"><h2>Product categories</h2></div><select name="product_cat" id="product_cat" class="dropdown_product_cat select2-hidden-accessible" tabindex="-1" aria-hidden="true">
+	<option value="">Select a category</option>
+	<option class="level-0" value="16mo3-15mo3-sa-204-plates">16MO3-15MO3 &amp; SA 204 Plates&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="abrasion-resistant-steel-plates">Abrasion Resistant Plates&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="alloy-20-round-bars">Alloy 20&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="alloy-steel-f5-f9-f11-f12-f22-f91">Alloy Steel F Series&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="alloy-steel-pipes-tubes">Alloy Steel Pipe&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="alloy-steel-plates-sheets">Alloy Steel Plates&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="alloy-steel-round-bars">Alloy Steel Round&nbsp;&nbsp;(41)</option>
+	<option class="level-0" value="aluminium">Aluminium&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="aluminium-alloy">Aluminium Alloy&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="aluminium-alloy-round-bar">Aluminium Alloy&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="aluminium-bronze">Aluminium Bronze&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="aluminium-wires">Aluminium Wires&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="boiler-quality-steel-plates">Boiler Quality Steel Plates&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="boron-grades">Boron Grades&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="bronze">Bronze&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="carbon-steel-pipes-tubes" selected="selected">Carbon Steel&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="carbon-steel-round-bars">Carbon Steel&nbsp;&nbsp;(43)</option>
+	<option class="level-0" value="carbon-steel-plates-sheets">Carbon Steel&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="chequered-plate">Chequered Plate&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="chrome-moly-plates">Chrome Moly Plates&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="cobalt">Cobalt&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="cobalt-base-welding-electrodes">Cobalt Base Electrode&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="cold-rolled">Cold Rolled&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="cold-work-steels">Cold Work Steels&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="copper-nickel-round-bars">Copper Nickel&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="copper-wires">Copper Wires&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="duplex-super-duplex-round-bars">Duplex &amp; Super Duplex&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="duplex-and-super-duplex-plates-sheets">Duplex and Super Duplex&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="duplex-and-super-duplex-pipes">Duplex and Super Duplex Pipes&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="en-series">EN Series&nbsp;&nbsp;(28)</option>
+	<option class="level-0" value="flanges">Flanges&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="galvanized">Galvanized&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="hastelloy-pipes-tubes">Hastelloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="hastelloy-plates-sheets">Hastelloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="hastelloy-round-bars">Hastelloy&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="hastelloy-buttweld-fittings">Hastelloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="high-speed-steel">High Speed Steel&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="high-tensile">High Tensile&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="high-tensile-strength">High Tensile Strength&nbsp;&nbsp;(13)</option>
+	<option class="level-0" value="hot-rolled-is-2062-plates">Hot Rolled IS 2062 Plates&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="hot-work-steel">Hot Work Steel&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="incoloy-plates-sheets">Incoloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="inconel-plates-sheets">Inconel&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="inconel-pipes-tubes">Inconel&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="inconel-round-bars">Inconel&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="manganese-bronze">Manganese Bronze&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="manganese-steel-plates">Manganese Steel Plates&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="monel-round-bars">Monel&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="nickel-alloy-plates-sheets">Nickel Alloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="nickel-alloy-round-bars">Nickel Alloy Round Bars&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="pins">Pins&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="pipes-tubes">Pipes &amp; Tubes&nbsp;&nbsp;(36)</option>
+	<option class="level-0" value="plates-sheets">Plates &amp; Sheets&nbsp;&nbsp;(54)</option>
+	<option class="level-0" value="precipitation-hardening-stainless-steel">Precipitation Hardening Steel&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="quenched-tempered-steel-plates">Quenched &amp; Tempered Plates&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="round-bars">Round Bars&nbsp;&nbsp;(206)</option>
+	<option class="level-0" value="specialized-products">Specialized Products&nbsp;&nbsp;(45)</option>
+	<option class="level-0" value="stainless-steel">Stainless Steel&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="stainless-steel-welding-electrode">Stainless Steel Electrode&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="stainless-steel-pipes-tubes">Stainless Steel Pipes &amp; Tubes&nbsp;&nbsp;(24)</option>
+	<option class="level-0" value="stainless-steel-plates-sheets">Stainless Steel Plates&nbsp;&nbsp;(25)</option>
+	<option class="level-0" value="stainless-steel-profiles">Stainless Steel Profiles&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="stainless-steel-round-bars">Stainless Steel Round Bars&nbsp;&nbsp;(49)</option>
+	<option class="level-0" value="titanium-round-bars">Titanium&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="titanium-alloys">Titanium Alloys&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="tool-steel">Tool Steel&nbsp;&nbsp;(10)</option>
+</select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-product_cat-container" role="combobox"><span class="select2-selection__rendered" id="select2-product_cat-container" role="textbox" aria-readonly="true" title="Carbon Steel&nbsp;&nbsp;(5)"><span class="select2-selection__clear">×</span>Carbon Steel&nbsp;&nbsp;(5)</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+</div><div id="rpwe_widget-2" class="widget sidebar-widget rpwe_widget recent-posts-extended"><div class="sidebar-title"><h2><a href="https://www.textronsteelalloys.com/shop/" title="Products">Products</a></h2></div><div class="rpwe-block"><ul class="rpwe-ul"><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/s890ql-plates/" target="_self">S890QL Plates</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/s275jr-plates-sheets-ss400-1-0044-a36/" target="_self">S275JR Plates</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/s960ql-plates-quend-960-1-8933-sheets/" target="_self">S960QL Plates</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/en16-round-bars-605m36/" target="_self">EN16 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/6061-t6-round-bars/" target="_self">6061 T6 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/etg100-round-bars-etg88-free-cutting-steel/" target="_self">ETG100 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/40cr7al10mo2-round-bars/" target="_self">40Cr7Al10Mo2 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/905m39-round-bars-bs-970/" target="_self">905M39 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/1-2799-flat-bars-x2nicomoti1288/" target="_self">1.2799 Flat Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/sum-43-round-bars-jis-g-4804/" target="_self">SUM43 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/scm-420-round-bars-18crmo4-1-7243-aisi-4118/" target="_self">SCM420 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/1-4122-round-bars-x39crmo17-1/" target="_self">1.4122 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/38mnvs6-round-bars-1-1303/" target="_self">38MnVS6 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/t55ni7cr4mo5v1-round-bars/" target="_self">T55Ni7Cr4Mo5V1 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/x46cr13-round-bars-1-4034/" target="_self">X46Cr13 Round Bars</a></h3></li></ul></div><!-- Generated by http://wordpress.org/plugins/recent-posts-widget-extended/ --></div>                                                    </aside>
+                    </div>
+									</div>
+	</div>
+</div>
