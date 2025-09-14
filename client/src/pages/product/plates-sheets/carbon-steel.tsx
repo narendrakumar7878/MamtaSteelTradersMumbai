@@ -398,6 +398,206 @@ export default function CarbonSteelPlates() {
           </div>
         </section>
 
+        {/* Grade-Specific Details */}
+        <section className="py-16 bg-white dark:bg-gray-800" data-testid="grade-details-section">
+          <div className="container mx-auto px-4">
+            <div className="max-w-6xl mx-auto">
+              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary dark:text-white mb-4" data-testid="grade-details-title">
+                Detailed Carbon Steel Grade Specifications
+              </h2>
+              <p className="text-xl text-gray-600 dark:text-gray-300 text-center mb-12 max-w-4xl mx-auto">
+                In-depth technical specifications, chemical composition, and mechanical properties for each carbon steel grade.
+              </p>
+
+              {/* A36 Grade Details */}
+              <div className="mb-12 bg-gray-50 dark:bg-gray-700 p-8 rounded-lg">
+                <h3 className="text-2xl font-semibold text-navy-primary dark:text-white mb-6" data-testid="a36-details">ASTM A36 - Structural Carbon Steel</h3>
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div>
+                    <h4 className="text-lg font-semibold text-navy-primary dark:text-white mb-4">Chemical Composition (%)</h4>
+                    <div className="overflow-x-auto">
+                      <table className="w-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded">
+                        <thead className="bg-navy-primary text-white">
+                          <tr>
+                            <th className="px-4 py-2 text-left">Element</th>
+                            <th className="px-4 py-2 text-left">Max %</th>
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-gray-200 dark:divide-gray-600">
+                          <tr><td className="px-4 py-2 dark:text-gray-300">Carbon (C)</td><td className="px-4 py-2 dark:text-gray-300">0.25</td></tr>
+                          <tr><td className="px-4 py-2 dark:text-gray-300">Manganese (Mn)</td><td className="px-4 py-2 dark:text-gray-300">0.80-1.20</td></tr>
+                          <tr><td className="px-4 py-2 dark:text-gray-300">Silicon (Si)</td><td className="px-4 py-2 dark:text-gray-300">0.40</td></tr>
+                          <tr><td className="px-4 py-2 dark:text-gray-300">Phosphorus (P)</td><td className="px-4 py-2 dark:text-gray-300">0.04</td></tr>
+                          <tr><td className="px-4 py-2 dark:text-gray-300">Sulfur (S)</td><td className="px-4 py-2 dark:text-gray-300">0.05</td></tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-semibold text-navy-primary dark:text-white mb-4">Mechanical Properties</h4>
+                    <ul className="space-y-2 text-gray-700 dark:text-gray-300">
+                      <li><strong>Tensile Strength:</strong> 400-550 MPa</li>
+                      <li><strong>Yield Strength:</strong> 250 MPa min</li>
+                      <li><strong>Elongation:</strong> 20% min (in 200mm)</li>
+                      <li><strong>Hardness:</strong> 119-162 HB</li>
+                    </ul>
+                    <h4 className="text-lg font-semibold text-navy-primary dark:text-white mb-2 mt-4">Applications</h4>
+                    <p className="text-gray-700 dark:text-gray-300">General structural construction, buildings, bridges, transmission towers, and non-critical pressure vessel applications.</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* C45 Grade Details */}
+              <div className="mb-12 bg-gray-50 dark:bg-gray-700 p-8 rounded-lg">
+                <h3 className="text-2xl font-semibold text-navy-primary dark:text-white mb-6" data-testid="c45-details">C45 - Medium Carbon Steel</h3>
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div>
+                    <h4 className="text-lg font-semibold text-navy-primary dark:text-white mb-4">Chemical Composition (%)</h4>
+                    <div className="overflow-x-auto">
+                      <table className="w-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded">
+                        <thead className="bg-navy-primary text-white">
+                          <tr>
+                            <th className="px-4 py-2 text-left">Element</th>
+                            <th className="px-4 py-2 text-left">Range %</th>
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-gray-200 dark:divide-gray-600">
+                          <tr><td className="px-4 py-2 dark:text-gray-300">Carbon (C)</td><td className="px-4 py-2 dark:text-gray-300">0.42-0.50</td></tr>
+                          <tr><td className="px-4 py-2 dark:text-gray-300">Manganese (Mn)</td><td className="px-4 py-2 dark:text-gray-300">0.50-0.80</td></tr>
+                          <tr><td className="px-4 py-2 dark:text-gray-300">Silicon (Si)</td><td className="px-4 py-2 dark:text-gray-300">0.15-0.40</td></tr>
+                          <tr><td className="px-4 py-2 dark:text-gray-300">Phosphorus (P)</td><td className="px-4 py-2 dark:text-gray-300">0.045 max</td></tr>
+                          <tr><td className="px-4 py-2 dark:text-gray-300">Sulfur (S)</td><td className="px-4 py-2 dark:text-gray-300">0.045 max</td></tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-semibold text-navy-primary dark:text-white mb-4">Mechanical Properties</h4>
+                    <ul className="space-y-2 text-gray-700 dark:text-gray-300">
+                      <li><strong>Tensile Strength:</strong> 630-780 MPa</li>
+                      <li><strong>Yield Strength:</strong> 355 MPa min</li>
+                      <li><strong>Elongation:</strong> 14% min</li>
+                      <li><strong>Hardness:</strong> 170-210 HB</li>
+                    </ul>
+                    <h4 className="text-lg font-semibold text-navy-primary dark:text-white mb-2 mt-4">Applications</h4>
+                    <p className="text-gray-700 dark:text-gray-300">Machinery components, gears, shafts, pins, and general engineering applications requiring higher strength.</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* EN19 Grade Details */}
+              <div className="mb-12 bg-gray-50 dark:bg-gray-700 p-8 rounded-lg">
+                <h3 className="text-2xl font-semibold text-navy-primary dark:text-white mb-6" data-testid="en19-details">EN19 - High Strength Alloy Steel</h3>
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div>
+                    <h4 className="text-lg font-semibold text-navy-primary dark:text-white mb-4">Chemical Composition (%)</h4>
+                    <div className="overflow-x-auto">
+                      <table className="w-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded">
+                        <thead className="bg-navy-primary text-white">
+                          <tr>
+                            <th className="px-4 py-2 text-left">Element</th>
+                            <th className="px-4 py-2 text-left">Range %</th>
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-gray-200 dark:divide-gray-600">
+                          <tr><td className="px-4 py-2 dark:text-gray-300">Carbon (C)</td><td className="px-4 py-2 dark:text-gray-300">0.36-0.44</td></tr>
+                          <tr><td className="px-4 py-2 dark:text-gray-300">Manganese (Mn)</td><td className="px-4 py-2 dark:text-gray-300">0.45-0.70</td></tr>
+                          <tr><td className="px-4 py-2 dark:text-gray-300">Silicon (Si)</td><td className="px-4 py-2 dark:text-gray-300">0.10-0.40</td></tr>
+                          <tr><td className="px-4 py-2 dark:text-gray-300">Chromium (Cr)</td><td className="px-4 py-2 dark:text-gray-300">1.00-1.40</td></tr>
+                          <tr><td className="px-4 py-2 dark:text-gray-300">Molybdenum (Mo)</td><td className="px-4 py-2 dark:text-gray-300">0.25-0.35</td></tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-semibold text-navy-primary dark:text-white mb-4">Mechanical Properties</h4>
+                    <ul className="space-y-2 text-gray-700 dark:text-gray-300">
+                      <li><strong>Tensile Strength:</strong> 850-1000 MPa</li>
+                      <li><strong>Yield Strength:</strong> 585 MPa min</li>
+                      <li><strong>Elongation:</strong> 12% min</li>
+                      <li><strong>Hardness:</strong> 248-302 HB</li>
+                    </ul>
+                    <h4 className="text-lg font-semibold text-navy-primary dark:text-white mb-2 mt-4">Applications</h4>
+                    <p className="text-gray-700 dark:text-gray-300">High stress automotive components, connecting rods, bolts, studs, and critical machinery parts.</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* 50CrV4 Grade Details */}
+              <div className="mb-12 bg-gray-50 dark:bg-gray-700 p-8 rounded-lg">
+                <h3 className="text-2xl font-semibold text-navy-primary dark:text-white mb-6" data-testid="50crv4-details">50CrV4 - Spring Steel</h3>
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div>
+                    <h4 className="text-lg font-semibold text-navy-primary dark:text-white mb-4">Chemical Composition (%)</h4>
+                    <div className="overflow-x-auto">
+                      <table className="w-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded">
+                        <thead className="bg-navy-primary text-white">
+                          <tr>
+                            <th className="px-4 py-2 text-left">Element</th>
+                            <th className="px-4 py-2 text-left">Range %</th>
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-gray-200 dark:divide-gray-600">
+                          <tr><td className="px-4 py-2 dark:text-gray-300">Carbon (C)</td><td className="px-4 py-2 dark:text-gray-300">0.47-0.54</td></tr>
+                          <tr><td className="px-4 py-2 dark:text-gray-300">Manganese (Mn)</td><td className="px-4 py-2 dark:text-gray-300">0.70-1.10</td></tr>
+                          <tr><td className="px-4 py-2 dark:text-gray-300">Silicon (Si)</td><td className="px-4 py-2 dark:text-gray-300">0.15-0.40</td></tr>
+                          <tr><td className="px-4 py-2 dark:text-gray-300">Chromium (Cr)</td><td className="px-4 py-2 dark:text-gray-300">0.90-1.20</td></tr>
+                          <tr><td className="px-4 py-2 dark:text-gray-300">Vanadium (V)</td><td className="px-4 py-2 dark:text-gray-300">0.10-0.25</td></tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-semibold text-navy-primary dark:text-white mb-4">Mechanical Properties</h4>
+                    <ul className="space-y-2 text-gray-700 dark:text-gray-300">
+                      <li><strong>Tensile Strength:</strong> 1200-1400 MPa</li>
+                      <li><strong>Yield Strength:</strong> 1000 MPa min</li>
+                      <li><strong>Elongation:</strong> 8% min</li>
+                      <li><strong>Hardness:</strong> 360-430 HB</li>
+                    </ul>
+                    <h4 className="text-lg font-semibold text-navy-primary dark:text-white mb-2 mt-4">Applications</h4>
+                    <p className="text-gray-700 dark:text-gray-300">Automotive springs, valve springs, railway springs, and high-performance spring applications requiring excellent fatigue resistance.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Dedicated Applications Section */}
+        <section className="py-16 bg-gray-50 dark:bg-gray-900" data-testid="applications-section">
+          <div className="container mx-auto px-4">
+            <div className="max-w-6xl mx-auto">
+              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary dark:text-white mb-4" data-testid="applications-title">
+                Carbon Steel Applications by Industry
+              </h2>
+              <p className="text-xl text-gray-600 dark:text-gray-300 text-center mb-12 max-w-4xl mx-auto">
+                Comprehensive applications across multiple industries for various carbon steel grades and specifications.
+              </p>
+              
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {applications.map((application, index) => (
+                  <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow" data-testid={`application-${index}`}>
+                    <div className="flex items-start">
+                      <div className="bg-navy-primary text-white p-2 rounded-lg mr-4 flex-shrink-0">
+                        <Star className="w-5 h-5" />
+                      </div>
+                      <div>
+                        <h3 className="font-semibold text-navy-primary dark:text-white mb-2">{application}</h3>
+                        <div className="text-sm text-gray-600 dark:text-gray-300">
+                          {index < 5 && <span className="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded-full text-xs mr-2">Structural</span>}
+                          {index >= 5 && index < 10 && <span className="inline-block bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 px-2 py-1 rounded-full text-xs mr-2">Industrial</span>}
+                          {index >= 10 && <span className="inline-block bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 px-2 py-1 rounded-full text-xs mr-2">Specialized</span>}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Company Quality Standards */}
         <section className="py-16 bg-white dark:bg-gray-800" data-testid="company-quality-section">
           <div className="container mx-auto px-4">
