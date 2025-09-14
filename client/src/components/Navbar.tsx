@@ -493,6 +493,9 @@ export default function Navbar() {
                         <Link href="/product/welding-electrodes/ercuni-wire-copper-nickel" className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center text-sm transition-colors duration-200" data-testid="link-ercuni-wire">
                           ERCuNi Wire (Copper Nickel)
                         </Link>
+                        <Link href="/product/welding-electrodes/aluminiumwire" className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center text-sm transition-colors duration-200" data-testid="link-aluminium-wire">
+                          Aluminum Welding Wire
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -947,6 +950,9 @@ export default function Navbar() {
                           </Link>
                           <Link href="/product/welding-electrodes/ercuni-wire-copper-nickel" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-ercuni-wire">
                             ERCuNi Wire
+                          </Link>
+                          <Link href="/product/welding-electrodes/aluminiumwire" className="flex items-center py-1 text-xs hover:text-gold-primary" onClick={toggleMobileMenu} data-testid="mobile-link-aluminium-wire">
+                            Aluminum Wire
                           </Link>
                         </div>
                       )}

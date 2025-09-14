@@ -54,6 +54,7 @@ import ForgedFittings from "@/pages/product/fittings/forged-fittings";
 // Welding Electrode Pages
 import StainlessSteelElectrodes from "@/pages/product/welding-electrodes/stainless-steel-electrode";
 import ERCuNiWire from "@/pages/product/welding-electrodes/ercuni-wire-copper-nickel";
+import AluminiumWire from "@/pages/product/welding-electrodes/aluminiumwire";
 
 // Galvanized Pages
 import HotDipGalvanizedAngles from "@/pages/product/galvanized/hot-dip-galvanized-angles";
@@ -176,6 +177,7 @@ function Router() {
       {/* Welding Electrode Routes */}
       <Route path="/product/welding-electrodes/stainless-steel-electrode" component={StainlessSteelElectrodes} />
       <Route path="/product/welding-electrodes/ercuni-wire-copper-nickel" component={ERCuNiWire} />
+      <Route path="/product/welding-electrodes/aluminiumwire" component={AluminiumWire} />
       
       {/* Galvanized Routes */}
       <Route path="/product/galvanized/hot-dip-galvanized-angles" component={HotDipGalvanizedAngles} />
