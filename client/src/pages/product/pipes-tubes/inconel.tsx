@@ -1,41 +1,53 @@
 import ProductSEO from "@/components/ProductSEO";
-import { ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, TrendingUp, Shield, Award } from "lucide-react";
+import { ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, TrendingUp, Shield, Award, Thermometer, Cog, Settings, Zap } from "lucide-react";
 import { Link } from "wouter";
 
 export default function InconelPipes() {
   const specifications = [
-    "ASTM B167 - Standard Specification for Nickel-Chromium-Iron Alloys",
-    "ASTM B517 - Standard Specification for Welded Inconel Pipe",
-    "ASTM B163 - Standard Specification for Seamless Inconel Tube",
-    "ASME SB-167 - Nickel-Chromium-Iron Alloys Seamless Pipe",
-    "Size Range: 1/8\" to 48\" NB in Schedule 5S, 10S, 40S, 80S, 160S, XXS",
-    "Grades: Inconel 600, 601, 625, 686, 718, 725, 750, 825"
+    "ASTM B444 - Inconel 625 Seamless Pipe & Tube",
+    "ASTM B704 - Inconel 625 Welded Pipe",
+    "ASTM B705 - Inconel 625 Welded Tube",
+    "ASTM B775 - Inconel 625 Seamless Tube",
+    "ASME SB-444 - Inconel 625 Seamless Pipe & Tube",
+    "UNS N06625 / Werkstoff Nr. 2.4856",
+    "Size Range: 1/2\" to 8\" NB in Schedule 10, 40, 80, 160",
+    "Custom Sizes: Up to 150 NB available",
+    "Form: Seamless / ERW / Welded / Fabricated / LSAW",
+    "End: Plain End, Beveled End, Threaded"
   ];
 
   const applications = [
-    "Aerospace Engine Components",
-    "Gas Turbine Applications",
-    "Nuclear Reactor Internals",
     "Chemical Processing Equipment",
-    "Heat Treatment Furnaces",
-    "Marine Engineering",
+    "Aerospace and Marine Engineering",
     "Pollution Control Equipment",
-    "High Temperature Heat Exchangers"
+    "Nuclear Reactors",
+    "Seawater Components",
+    "Flare Stacks",
+    "Aircraft Ducting Systems",
+    "Jet Engine Exhaust Systems",
+    "Turbine Shroud Rings",
+    "Engine Thrust-Reverser Systems",
+    "Specialized Seawater Equipment",
+    "Heat Exchangers"
   ];
 
   const features = [
-    { icon: Shield, title: "Oxidation Resistant", desc: "Excellent resistance to high temperature oxidation and scaling" },
-    { icon: TrendingUp, title: "High Strength", desc: "Superior mechanical properties at elevated temperatures" },
-    { icon: Award, title: "Aerospace Grade", desc: "Meets stringent aerospace and nuclear industry standards" },
-    { icon: CheckCircle, title: "Multiple Grades", desc: "Comprehensive range of Inconel alloy compositions" }
+    { icon: Shield, title: "Corrosion Resistant", desc: "Exceptional resistance to corrosion and oxidation in harsh environments" },
+    { icon: Thermometer, title: "High Temperature", desc: "Operational temperature range from cryogenic to 2,000°F (1,093°C)" },
+    { icon: TrendingUp, title: "High Strength", desc: "Excellent fatigue strength and toughness from cryogenic to 1800°F" },
+    { icon: Award, title: "Quality Certified", desc: "ASTM B444, B704, B705 certified with Mill Test Certificate" },
+    { icon: CheckCircle, title: "Non-Magnetic", desc: "Non-magnetic properties suitable for specialized applications" },
+    { icon: Cog, title: "Easy Fabrication", desc: "Excellent weldability and formability characteristics" },
+    { icon: Settings, title: "Custom Sizes", desc: "Available in custom dimensions and specifications" },
+    { icon: Zap, title: "Fatigue Resistant", desc: "Very high fatigue strength for demanding applications" }
   ];
 
   return (
     <>
       <ProductSEO
-        title="Inconel Pipes & Tubes"
-        description="Premium quality Inconel pipes and tubes in grades 600, 625, 718, 825. ASTM B167, B517 certified for aerospace and high-temperature applications. Best prices in Mumbai for seamless and welded Inconel pipes."
-        keywords="Inconel pipes, Inconel tubes, Inconel 625 pipes, Inconel 718 pipes, ASTM B167, ASTM B517, aerospace pipes, Mumbai Inconel supplier"
+        title="Inconel 625 Pipes & Tubes - ASTM B444 Certified Supplier Mumbai"
+        description="Leading manufacturer and supplier of Inconel 625 Seamless, ERW & Welded Pipes & Tubes. UNS N06625, ASTM B444, B704, B705 certified. Size range 1/2 inch to 8 inch NB. Best prices for aerospace, chemical processing, marine applications in Mumbai."
+        keywords="Inconel 625 pipes, Inconel 625 tubes, UNS N06625, ASTM B444, seamless pipes, welded pipes, ERW pipes, aerospace pipes, chemical processing, Mumbai supplier, India exporter, Werkstoff 2.4856"
         category="Pipes & Tubes"
         productName="Inconel Pipes & Tubes"
         specifications={specifications}
@@ -63,10 +75,10 @@ export default function InconelPipes() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="hero-title">
-                Premium Inconel Pipes & Tubes
+                Premium Inconel 625 Pipes & Tubes
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100" data-testid="hero-subtitle">
-                High-performance Inconel alloy pipes for aerospace, nuclear, and extreme temperature applications
+                High-performance Inconel 625 (UNS N06625) pipes for aerospace, chemical processing, marine, and extreme temperature applications
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/contact" className="bg-gold-primary hover:bg-gold-secondary text-navy-primary font-semibold py-3 px-8 rounded-lg transition-colors duration-300" data-testid="cta-get-quote">
@@ -84,9 +96,9 @@ export default function InconelPipes() {
         <section className="py-16 bg-white" data-testid="features-section">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="features-title">
-              Why Choose Our Inconel Pipes?
+              Why Choose Our Inconel 625 Pipes?
             </h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {features.map((feature, index) => (
                 <div key={index} className="text-center p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow duration-300" data-testid={`feature-${index}`}>
                   <feature.icon className="w-12 h-12 text-gold-primary mx-auto mb-4" />
@@ -138,45 +150,166 @@ export default function InconelPipes() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="inconel-grades-title">
-                Available Inconel Grades
+                Inconel 625 Technical Specifications
               </h2>
               <div className="overflow-x-auto">
-                <table className="w-full bg-white border border-gray-200 rounded-lg shadow-md" data-testid="inconel-table">
-                  <thead className="bg-navy-primary text-white">
-                    <tr>
-                      <th className="px-6 py-4 text-left">Inconel Grade</th>
-                      <th className="px-6 py-4 text-left">UNS Number</th>
-                      <th className="px-6 py-4 text-left">Max Temp (°F)</th>
-                      <th className="px-6 py-4 text-left">Key Applications</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-gray-200">
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-semibold">Inconel 600</td>
-                      <td className="px-6 py-4">N06600</td>
-                      <td className="px-6 py-4">2150°F</td>
-                      <td className="px-6 py-4">Heat treatment, nuclear steam generator</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-semibold">Inconel 625</td>
-                      <td className="px-6 py-4">N06625</td>
-                      <td className="px-6 py-4">1800°F</td>
-                      <td className="px-6 py-4">Aerospace, marine, chemical processing</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-semibold">Inconel 718</td>
-                      <td className="px-6 py-4">N07718</td>
-                      <td className="px-6 py-4">1300°F</td>
-                      <td className="px-6 py-4">Gas turbine engines, rocket motors</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-semibold">Inconel 825</td>
-                      <td className="px-6 py-4">N08825</td>
-                      <td className="px-6 py-4">1600°F</td>
-                      <td className="px-6 py-4">Chemical processing, pollution control</td>
-                    </tr>
-                  </tbody>
-                </table>
+                <div className="space-y-8">
+                  <div>
+                    <h3 className="text-2xl font-semibold text-navy-primary mb-6">Chemical Composition of Inconel 625</h3>
+                    <div className="overflow-x-auto">
+                      <table className="w-full bg-white border border-gray-200 rounded-lg shadow-md">
+                        <thead className="bg-navy-primary text-white">
+                          <tr>
+                            <th className="px-4 py-3 text-left text-sm font-medium">Element</th>
+                            <th className="px-4 py-3 text-left text-sm font-medium">Ni</th>
+                            <th className="px-4 py-3 text-left text-sm font-medium">Fe</th>
+                            <th className="px-4 py-3 text-left text-sm font-medium">C</th>
+                            <th className="px-4 py-3 text-left text-sm font-medium">Mn</th>
+                            <th className="px-4 py-3 text-left text-sm font-medium">Si</th>
+                            <th className="px-4 py-3 text-left text-sm font-medium">Cr</th>
+                            <th className="px-4 py-3 text-left text-sm font-medium">Mo</th>
+                            <th className="px-4 py-3 text-left text-sm font-medium">Nb + Ta</th>
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-gray-200">
+                          <tr className="hover:bg-gray-50">
+                            <td className="px-4 py-3 font-semibold text-sm">Composition %</td>
+                            <td className="px-4 py-3 text-sm">58.0 min</td>
+                            <td className="px-4 py-3 text-sm">5.0 max</td>
+                            <td className="px-4 py-3 text-sm">0.10 max</td>
+                            <td className="px-4 py-3 text-sm">0.50 max</td>
+                            <td className="px-4 py-3 text-sm">0.50 max</td>
+                            <td className="px-4 py-3 text-sm">20.0-23.0</td>
+                            <td className="px-4 py-3 text-sm">8.0-10.0</td>
+                            <td className="px-4 py-3 text-sm">3.15-4.15</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  
+                  <div>
+                    <h3 className="text-2xl font-semibold text-navy-primary mb-6">Mechanical & Physical Properties</h3>
+                    <div className="grid md:grid-cols-2 gap-6">
+                      <div className="bg-white p-6 rounded-lg border border-gray-200">
+                        <h4 className="text-lg font-semibold text-navy-primary mb-4">Physical Properties</h4>
+                        <ul className="space-y-2">
+                          <li className="flex justify-between"><span>Density:</span><span className="font-medium">8.4 g/cm³</span></li>
+                          <li className="flex justify-between"><span>Melting Point:</span><span className="font-medium">1350°C (2460°F)</span></li>
+                          <li className="flex justify-between"><span>Magnetic Properties:</span><span className="font-medium">Non-magnetic</span></li>
+                        </ul>
+                      </div>
+                      <div className="bg-white p-6 rounded-lg border border-gray-200">
+                        <h4 className="text-lg font-semibold text-navy-primary mb-4">Mechanical Properties</h4>
+                        <ul className="space-y-2">
+                          <li className="flex justify-between"><span>Tensile Strength:</span><span className="font-medium">930 MPa</span></li>
+                          <li className="flex justify-between"><span>Yield Strength:</span><span className="font-medium">517 MPa</span></li>
+                          <li className="flex justify-between"><span>Elongation:</span><span className="font-medium">42.5%</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div>
+                    <h3 className="text-2xl font-semibold text-navy-primary mb-6">Available Stock Sizes</h3>
+                    <div className="overflow-x-auto">
+                      <table className="w-full bg-white border border-gray-200 rounded-lg shadow-md">
+                        <thead className="bg-navy-primary text-white">
+                          <tr>
+                            <th className="px-4 py-3 text-left text-sm font-medium">Size (NB)</th>
+                            <th className="px-4 py-3 text-left text-sm font-medium">Schedule 10</th>
+                            <th className="px-4 py-3 text-left text-sm font-medium">Schedule 40</th>
+                            <th className="px-4 py-3 text-left text-sm font-medium">Schedule 80</th>
+                            <th className="px-4 py-3 text-left text-sm font-medium">Schedule 160</th>
+                            <th className="px-4 py-3 text-left text-sm font-medium">Form</th>
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-gray-200">
+                          <tr className="hover:bg-gray-50">
+                            <td className="px-4 py-3 font-medium text-sm">1/2\"</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">Seamless, Welded, ERW</td>
+                          </tr>
+                          <tr className="hover:bg-gray-50">
+                            <td className="px-4 py-3 font-medium text-sm">1\"</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">Seamless, Welded, ERW</td>
+                          </tr>
+                          <tr className="hover:bg-gray-50">
+                            <td className="px-4 py-3 font-medium text-sm">2\"</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">Seamless, Welded, ERW</td>
+                          </tr>
+                          <tr className="hover:bg-gray-50">
+                            <td className="px-4 py-3 font-medium text-sm">3\"</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">Seamless, Welded, ERW</td>
+                          </tr>
+                          <tr className="hover:bg-gray-50">
+                            <td className="px-4 py-3 font-medium text-sm">4\"</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">Seamless, Welded, ERW</td>
+                          </tr>
+                          <tr className="hover:bg-gray-50">
+                            <td className="px-4 py-3 font-medium text-sm">6\"</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">Seamless, Welded, ERW</td>
+                          </tr>
+                          <tr className="hover:bg-gray-50">
+                            <td className="px-4 py-3 font-medium text-sm">8\"</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">✓</td>
+                            <td className="px-4 py-3 text-sm">Seamless, Welded, ERW</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  
+                  <div>
+                    <h3 className="text-2xl font-semibold text-navy-primary mb-6">International Standards & Certifications</h3>
+                    <div className="grid md:grid-cols-2 gap-6">
+                      <div className="bg-white p-6 rounded-lg border border-gray-200">
+                        <h4 className="text-lg font-semibold text-navy-primary mb-4">ASTM Standards</h4>
+                        <ul className="space-y-2">
+                          <li className="flex items-start"><CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" /><span className="text-sm">ASTM B444 - Seamless Pipes</span></li>
+                          <li className="flex items-start"><CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" /><span className="text-sm">ASTM B704 - Welded Pipes</span></li>
+                          <li className="flex items-start"><CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" /><span className="text-sm">ASTM B705 - Welded Tubes</span></li>
+                          <li className="flex items-start"><CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" /><span className="text-sm">ASTM B775 - Seamless Tubes</span></li>
+                        </ul>
+                      </div>
+                      <div className="bg-white p-6 rounded-lg border border-gray-200">
+                        <h4 className="text-lg font-semibold text-navy-primary mb-4">International Standards</h4>
+                        <ul className="space-y-2">
+                          <li className="flex items-start"><CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" /><span className="text-sm">ISO 6207</span></li>
+                          <li className="flex items-start"><CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" /><span className="text-sm">DIN 17751</span></li>
+                          <li className="flex items-start"><CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" /><span className="text-sm">BS 3074NA21</span></li>
+                          <li className="flex items-start"><CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" /><span className="text-sm">WERKSTOFF Nr 2.4856</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -187,10 +320,10 @@ export default function InconelPipes() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6" data-testid="cta-title">
-                Ready to Order Inconel Pipes?
+                Ready to Order Inconel 625 Pipes?
               </h2>
               <p className="text-xl mb-8 text-blue-100" data-testid="cta-subtitle">
-                Get instant quotes and technical support from our Inconel alloy specialists
+                Get instant quotes and technical support from our Inconel 625 specialists
               </p>
               <div className="grid md:grid-cols-3 gap-6 mb-8">
                 <div className="flex items-center justify-center space-x-3" data-testid="contact-phone">
