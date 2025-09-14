@@ -4,12 +4,16 @@ import { Link } from "wouter";
 
 export default function CopperNickelPlates() {
   const specifications = [
-    "ASTM B122 - Standard Specification for Copper-Nickel-Tin Alloy, Copper-Nickel-Zinc Alloy (Nickel Silver), and Copper-Nickel Alloy Plate, Sheet, Strip, and Rolled Bar",
-    "ASTM B171 - Standard Specification for Copper-Nickel-Zinc Alloy (Nickel-Silver) and Copper-Nickel Rod and Bar",
-    "ASTM B432 - Standard Specification for Copper and Copper Alloy Clad Steel Plate",
+    "ASTM B122 - Standard Specification for Copper-Nickel Alloy Plate, Sheet, Strip, and Rolled Bar",
     "ASME SB-122 - Copper-Nickel Alloy Plate, Sheet, Strip, and Rolled Bar",
-    "Thickness Range: 0.5mm to 100mm",
-    "Alloys: 90/10 CuNi (C70600), 70/30 CuNi (C71500), CuNi 80/20"
+    "Thickness Range: 0.3mm to 200mm (Custom sizes available)",
+    "Width Range: 1000mm to 2500mm",
+    "Length: Single Random, Double Random & Cut Length",
+    "Alloys: 90/10 CuNi (C70600), 70/30 CuNi (C71500), CuNi 80/20, CuNi10Fe1Mn",
+    "Supply Condition: Hot Rolled, Cold Rolled, Annealed",
+    "Surface Finish: Bright, Mill Finish, Polished",
+    "Material Traceability: Complete mill test certificates",
+    "Quality Standards: ISO certified manufacturing"
   ];
 
   const applications = [
@@ -20,7 +24,13 @@ export default function CopperNickelPlates() {
     "Marine Propulsion Systems",
     "Coastal Power Plant Equipment",
     "Aquaculture and Fish Farming",
-    "Chemical Processing Equipment"
+    "Chemical Processing Equipment",
+    "Construction Industry Applications",
+    "Industrial Manufacturing Components",
+    "Pressure Vessels and Tanks",
+    "Power Generation Equipment",
+    "Petrochemical Industry Components",
+    "Water Treatment Plants"
   ];
 
   const features = [
@@ -34,8 +44,8 @@ export default function CopperNickelPlates() {
     <>
       <ProductSEO
         title="Copper Nickel Plates & Sheets"
-        description="Premium quality copper nickel plates and sheets in 90/10 and 70/30 compositions. ASTM B122 certified for marine, seawater, and offshore applications. Best prices in Mumbai for CuNi plates and sheets."
-        keywords="copper nickel plates, CuNi plates, 90/10 copper nickel, 70/30 copper nickel, ASTM B122 plates, marine plates, Mumbai copper nickel supplier"
+        description="Premium quality copper nickel plates and sheets from ₹300-₹1800/kg in 90/10 and 70/30 compositions. ASTM B122 certified supplier in Mumbai for marine, seawater, and offshore applications. Available in all standard sizes with ISO certification."
+        keywords="copper nickel plates, CuNi plates, 90/10 copper nickel, 70/30 copper nickel, ASTM B122 plates, marine plates, Mumbai copper nickel supplier, CuNi10Fe1Mn, copper nickel sheet price, cupro nickel plates, UNS C70600, UNS C71500"
         category="Plates & Sheets"
         productName="Copper Nickel Plates & Sheets"
         specifications={specifications}
@@ -66,7 +76,7 @@ export default function CopperNickelPlates() {
                 Premium Copper Nickel Plates & Sheets
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100" data-testid="hero-subtitle">
-                High-performance copper-nickel alloy plates for marine, offshore, and seawater applications
+                High-performance copper-nickel alloy plates starting from ₹300/kg for marine, offshore, and industrial applications
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/contact" className="bg-gold-primary hover:bg-gold-secondary text-navy-primary font-semibold py-3 px-8 rounded-lg transition-colors duration-300" data-testid="cta-get-quote">
@@ -133,6 +143,58 @@ export default function CopperNickelPlates() {
           </div>
         </section>
 
+        {/* Pricing Section */}
+        <section className="py-16 bg-gradient-to-b from-blue-50 to-white" data-testid="pricing-section">
+          <div className="container mx-auto px-4">
+            <div className="max-w-6xl mx-auto">
+              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="pricing-title">
+                Copper Nickel Plate Pricing
+              </h2>
+              <div className="grid md:grid-cols-3 gap-8 mb-12">
+                <div className="bg-white p-8 rounded-lg shadow-lg border-t-4 border-gold-primary" data-testid="pricing-basic">
+                  <h3 className="text-2xl font-bold text-navy-primary mb-4">90/10 CuNi</h3>
+                  <p className="text-4xl font-bold text-gold-primary mb-2">₹850-1150</p>
+                  <p className="text-gray-600 mb-6">per kg</p>
+                  <ul className="space-y-3 mb-8">
+                    <li className="flex items-center"><CheckCircle className="w-5 h-5 text-green-500 mr-2" />Standard marine grade</li>
+                    <li className="flex items-center"><CheckCircle className="w-5 h-5 text-green-500 mr-2" />Thickness: 0.3-12mm</li>
+                    <li className="flex items-center"><CheckCircle className="w-5 h-5 text-green-500 mr-2" />UNS C70600 certified</li>
+                    <li className="flex items-center"><CheckCircle className="w-5 h-5 text-green-500 mr-2" />ASTM B122, ASME SB-122</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-8 rounded-lg shadow-lg border-t-4 border-navy-primary" data-testid="pricing-premium">
+                  <h3 className="text-2xl font-bold text-navy-primary mb-4">70/30 CuNi</h3>
+                  <p className="text-4xl font-bold text-navy-primary mb-2">₹1150-1450</p>
+                  <p className="text-gray-600 mb-6">per kg</p>
+                  <ul className="space-y-3 mb-8">
+                    <li className="flex items-center"><CheckCircle className="w-5 h-5 text-green-500 mr-2" />High nickel content</li>
+                    <li className="flex items-center"><CheckCircle className="w-5 h-5 text-green-500 mr-2" />Thickness: 2-200mm</li>
+                    <li className="flex items-center"><CheckCircle className="w-5 h-5 text-green-500 mr-2" />UNS C71500 grade</li>
+                    <li className="flex items-center"><CheckCircle className="w-5 h-5 text-green-500 mr-2" />Superior corrosion resistance</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-8 rounded-lg shadow-lg border-t-4 border-green-500" data-testid="pricing-specialty">
+                  <h3 className="text-2xl font-bold text-navy-primary mb-4">Special Grades</h3>
+                  <p className="text-4xl font-bold text-green-600 mb-2">₹300-1800</p>
+                  <p className="text-gray-600 mb-6">per kg</p>
+                  <ul className="space-y-3 mb-8">
+                    <li className="flex items-center"><CheckCircle className="w-5 h-5 text-green-500 mr-2" />CuNi10Fe1Mn variants</li>
+                    <li className="flex items-center"><CheckCircle className="w-5 h-5 text-green-500 mr-2" />Custom compositions</li>
+                    <li className="flex items-center"><CheckCircle className="w-5 h-5 text-green-500 mr-2" />All thickness ranges</li>
+                    <li className="flex items-center"><CheckCircle className="w-5 h-5 text-green-500 mr-2" />Volume discounts available</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="text-center">
+                <p className="text-gray-600 mb-4">*Prices are indicative and depend on thickness, finish, quantity and MTC requirements. GSM: 70-500+ available</p>
+                <Link href="/contact" className="bg-gold-primary hover:bg-gold-secondary text-navy-primary font-semibold py-3 px-8 rounded-lg transition-colors duration-300" data-testid="pricing-cta">
+                  Get Current Price Quote
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Copper Nickel Alloys */}
         <section className="py-16 bg-white" data-testid="alloy-grades-section">
           <div className="container mx-auto px-4">
@@ -147,6 +209,7 @@ export default function CopperNickelPlates() {
                       <th className="px-6 py-4 text-left">Alloy</th>
                       <th className="px-6 py-4 text-left">UNS Number</th>
                       <th className="px-6 py-4 text-left">Composition</th>
+                      <th className="px-6 py-4 text-left">Price Range</th>
                       <th className="px-6 py-4 text-left">Typical Applications</th>
                     </tr>
                   </thead>
@@ -154,29 +217,62 @@ export default function CopperNickelPlates() {
                     <tr className="hover:bg-gray-50">
                       <td className="px-6 py-4 font-semibold">90/10 CuNi</td>
                       <td className="px-6 py-4">C70600</td>
-                      <td className="px-6 py-4">90% Cu, 10% Ni, 1.4% Fe</td>
+                      <td className="px-6 py-4">Bal Cu, 10% Ni, 1.4% Fe</td>
+                      <td className="px-6 py-4 text-green-600 font-semibold">₹850-1150/kg</td>
                       <td className="px-6 py-4">Seawater cooling systems, condensers</td>
                     </tr>
                     <tr className="hover:bg-gray-50">
                       <td className="px-6 py-4 font-semibold">70/30 CuNi</td>
                       <td className="px-6 py-4">C71500</td>
-                      <td className="px-6 py-4">70% Cu, 30% Ni, 0.5% Fe</td>
+                      <td className="px-6 py-4">Bal Cu, 30% Ni, 0.5% Fe</td>
+                      <td className="px-6 py-4 text-green-600 font-semibold">₹1150-1450/kg</td>
                       <td className="px-6 py-4">High velocity seawater, marine hardware</td>
                     </tr>
                     <tr className="hover:bg-gray-50">
                       <td className="px-6 py-4 font-semibold">80/20 CuNi</td>
                       <td className="px-6 py-4">C71000</td>
-                      <td className="px-6 py-4">80% Cu, 20% Ni</td>
+                      <td className="px-6 py-4">Bal Cu, 20% Ni</td>
+                      <td className="px-6 py-4 text-green-600 font-semibold">₹950-1250/kg</td>
                       <td className="px-6 py-4">Moderate seawater applications</td>
                     </tr>
                     <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-semibold">CuNi 10Fe</td>
+                      <td className="px-6 py-4 font-semibold">CuNi10Fe1Mn</td>
                       <td className="px-6 py-4">C70600</td>
                       <td className="px-6 py-4">Bal Cu, 10% Ni, 1.4% Fe, 0.7% Mn</td>
+                      <td className="px-6 py-4 text-green-600 font-semibold">₹950-1400/kg</td>
                       <td className="px-6 py-4">Enhanced erosion resistance</td>
+                    </tr>
+                    <tr className="hover:bg-gray-50">
+                      <td className="px-6 py-4 font-semibold">CuNi30Mn1Fe</td>
+                      <td className="px-6 py-4">C71500</td>
+                      <td className="px-6 py-4">Bal Cu, 30% Ni, 1% Mn, 1% Fe</td>
+                      <td className="px-6 py-4 text-green-600 font-semibold">₹1300-1800/kg</td>
+                      <td className="px-6 py-4">High-stress marine environments</td>
                     </tr>
                   </tbody>
                 </table>
+              </div>
+              <div className="mt-8 grid md:grid-cols-2 gap-8">
+                <div className="bg-blue-50 p-6 rounded-lg">
+                  <h4 className="text-xl font-semibold text-navy-primary mb-4">Available Sizes & Forms</h4>
+                  <ul className="space-y-2 text-gray-700">
+                    <li>• <strong>Thickness:</strong> 0.3mm to 200mm</li>
+                    <li>• <strong>Width:</strong> 1000mm, 1250mm, 1500mm, 2000mm, 2500mm</li>
+                    <li>• <strong>Length:</strong> Single Random, Double Random & Cut Length</li>
+                    <li>• <strong>Shape:</strong> Rectangular, Square, Custom Shapes</li>
+                    <li>• <strong>Surface:</strong> Bright, Mill Finish, Hot Rolled, Cold Rolled</li>
+                  </ul>
+                </div>
+                <div className="bg-green-50 p-6 rounded-lg">
+                  <h4 className="text-xl font-semibold text-navy-primary mb-4">Quality Certifications</h4>
+                  <ul className="space-y-2 text-gray-700">
+                    <li>• <strong>ISO Certified:</strong> Quality management system</li>
+                    <li>• <strong>Mill Test Certificate:</strong> With every shipment</li>
+                    <li>• <strong>Third Party Inspection:</strong> Available on request</li>
+                    <li>• <strong>Material Traceability:</strong> Complete documentation</li>
+                    <li>• <strong>GST Compliant:</strong> All tax documentation provided</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
