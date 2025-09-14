@@ -1,0 +1,445 @@
+<div class="sidebar-page-container">
+    <div class="auto-container">
+        <div class="row clearfix">
+			
+			<!-- sidebar area -->
+			
+			<!-- sidebar area -->
+			
+			<div class=" col-lg-9 col-md-8 col-sm-12 col-xs-12  content-side">
+            	<div class="shop-item-section">
+				                	<div class="items-sorting">
+                        <div class="row clearfix">
+                            <div class="results-column col-lg-8 col-md-6 col-sm-6 col-xs-12">
+                                <p class="woocommerce-result-count">
+	Showing all 9 results</p>
+                            </div>
+                            <div class="select-column pull-right col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                <div class="form-group">
+                                    
+
+
+    <div class="woof_autohide_wrapper">
+                <a href="javascript:void(0);" class="woof_show_auto_form woof_btn_default "></a><br>
+        <!-------------------- inline css for js anim ----------------------->
+        <div class="woof_auto_show woof_overflow_hidden" style="opacity: 0; height: 1px;">
+            <div class="woof_auto_show_indent woof_overflow_hidden">
+                
+            <div data-slug="" class="woof woof_sid woof_sid_auto_shortcode " data-sid="auto_shortcode" data-shortcode="woof sid='auto_shortcode' autohide='1' price_filter='0' " data-redirect="" data-autosubmit="0" data-ajax-redraw="0">
+                                     
+                	
+                <!--- here is possible to drop html code which is never redraws by AJAX ---->
+                
+                <div class="woof_redraw_zone" data-woof-ver="1.3.7.1" data-icheck-skin="flat_blue">
+                                        
+                                            
+                
+
+                
+
+                                
+                
+
+                                <div class="woof_submit_search_form_container">                                <button class="button woof_submit_search_form">Filter</button>
+            </div>
+        
+                                    </div>
+
+            </div>
+
+
+
+                        </div>
+        </div>
+
+    </div>
+<div class="woocommerce woocommerce-page woof_shortcode_output"><div id="woof_results_by_ajax" data-shortcode="woof_products taxonomies=product_cat:81 is_ajax=1 predict_ids_and_continue=1">
+<div class="woof_products_top_panel_content">
+    </div>
+<div class="woof_products_top_panel" style="display: none;"></div><div class="woocommerce-notices-wrapper"></div><form class="woocommerce-ordering" method="get">
+		<select name="orderby" class="orderby" aria-label="Shop order">
+					<option value="menu_order" selected="selected">Default sorting</option>
+					<option value="popularity">Sort by popularity</option>
+					<option value="date">Sort by latest</option>
+					<option value="price">Sort by price: low to high</option>
+					<option value="price-desc">Sort by price: high to low</option>
+			</select>
+	<input type="hidden" name="paged" value="1">
+	</form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                				                
+                
+				        
+                    <div class="products row clearfix">
+        
+                                
+                                
+                            <div class="shop-item col-lg-4 col-md-6 col-sm-6 col-xs-12 post-1812 product type-product status-publish has-post-thumbnail product_cat-alloy-steel-plates-sheets product_cat-carbon-steel-plates-sheets first instock shipping-taxable product-type-simple">
+	<div class="inner-box">
+	     
+     <div class="image">
+        <img width="300" height="300" src="https://textronsteelalloys.com/wp-content/uploads/2019/07/50crv4-en47-plate-sheet-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="50crv4-en47-plate-sheet-stockist-supplier" decoding="async" fetchpriority="high" srcset="https://textronsteelalloys.com/wp-content/uploads/2019/07/50crv4-en47-plate-sheet-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2019/07/50crv4-en47-plate-sheet-100x100.jpg 100w, https://textronsteelalloys.com/wp-content/uploads/2019/07/50crv4-en47-plate-sheet-400x400.jpg 400w, https://textronsteelalloys.com/wp-content/uploads/2019/07/50crv4-en47-plate-sheet-150x150.jpg 150w, https://textronsteelalloys.com/wp-content/uploads/2019/07/50crv4-en47-plate-sheet-101x101.jpg 101w, https://textronsteelalloys.com/wp-content/uploads/2019/07/50crv4-en47-plate-sheet-50x50.jpg 50w, https://textronsteelalloys.com/wp-content/uploads/2019/07/50crv4-en47-plate-sheet-45x45.jpg 45w, https://textronsteelalloys.com/wp-content/uploads/2019/07/50crv4-en47-plate-sheet.jpg 500w" sizes="(max-width: 300px) 100vw, 300px">        <div class="overlay-box">
+            <ul class="cart-option">
+                <li><a href="https://www.textronsteelalloys.com/50crv4-sheet-en47-spring-steel-suppliers-stockist/"><span class="fa fa-shopping-cart"></span>Add to Cart</a></li>
+            </ul>
+        </div>
+    </div>
+     
+             
+        <div class="lower-content">
+            <h3><a href="https://www.textronsteelalloys.com/50crv4-sheet-en47-spring-steel-suppliers-stockist/">50CrV4 Sheet</a></h3>
+            <div class="clearfix">
+                <div class="pull-left">
+                    
+                </div>
+                <div class="pull-right">
+                    <!--Rating-->
+                    <div class="rating">
+                                            </div>
+                </div>
+            </div>
+            
+        </div>
+        
+		</div>
+</div>
+        
+                                
+                            <div class="shop-item col-lg-4 col-md-6 col-sm-6 col-xs-12 post-1353 product type-product status-publish has-post-thumbnail product_cat-carbon-steel-plates-sheets  instock shipping-taxable product-type-simple">
+	<div class="inner-box">
+	     
+     <div class="image">
+        <img width="300" height="300" src="https://textronsteelalloys.com/wp-content/uploads/2018/12/a283-grade-c-plate-carbon-steel-15-1000-2000mm.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="a283-grade-c-plate-stockist-supplier" decoding="async" srcset="https://textronsteelalloys.com/wp-content/uploads/2018/12/a283-grade-c-plate-carbon-steel-15-1000-2000mm.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2018/12/a283-grade-c-plate-carbon-steel-15-1000-2000mm-100x100.jpg 100w" sizes="(max-width: 300px) 100vw, 300px">        <div class="overlay-box">
+            <ul class="cart-option">
+                <li><a href="https://www.textronsteelalloys.com/a283-grade-c-plate-stockist-suppliers-exporter/"><span class="fa fa-shopping-cart"></span>Add to Cart</a></li>
+            </ul>
+        </div>
+    </div>
+     
+             
+        <div class="lower-content">
+            <h3><a href="https://www.textronsteelalloys.com/a283-grade-c-plate-stockist-suppliers-exporter/">A283 Grade C Plate</a></h3>
+            <div class="clearfix">
+                <div class="pull-left">
+                    
+                </div>
+                <div class="pull-right">
+                    <!--Rating-->
+                    <div class="rating">
+                                            </div>
+                </div>
+            </div>
+            
+        </div>
+        
+		</div>
+</div>
+        
+                                
+                            <div class="shop-item col-lg-4 col-md-6 col-sm-6 col-xs-12 post-2735 product type-product status-publish has-post-thumbnail product_cat-carbon-steel-plates-sheets last instock shipping-taxable product-type-simple">
+	<div class="inner-box">
+	     
+     <div class="image">
+        <img width="300" height="300" src="https://textronsteelalloys.com/wp-content/uploads/2024/09/ASTM-A36-PLATE-SHEET-MUMBAI-INDIA-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="ASTM A36 PLATE SHEET MUMBAI JSW EVONITH" decoding="async" srcset="https://textronsteelalloys.com/wp-content/uploads/2024/09/ASTM-A36-PLATE-SHEET-MUMBAI-INDIA-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2024/09/ASTM-A36-PLATE-SHEET-MUMBAI-INDIA-150x150.jpg 150w, https://textronsteelalloys.com/wp-content/uploads/2024/09/ASTM-A36-PLATE-SHEET-MUMBAI-INDIA-768x768.jpg 768w, https://textronsteelalloys.com/wp-content/uploads/2024/09/ASTM-A36-PLATE-SHEET-MUMBAI-INDIA-101x101.jpg 101w, https://textronsteelalloys.com/wp-content/uploads/2024/09/ASTM-A36-PLATE-SHEET-MUMBAI-INDIA-50x50.jpg 50w, https://textronsteelalloys.com/wp-content/uploads/2024/09/ASTM-A36-PLATE-SHEET-MUMBAI-INDIA-45x45.jpg 45w, https://textronsteelalloys.com/wp-content/uploads/2024/09/ASTM-A36-PLATE-SHEET-MUMBAI-INDIA-400x400.jpg 400w, https://textronsteelalloys.com/wp-content/uploads/2024/09/ASTM-A36-PLATE-SHEET-MUMBAI-INDIA-100x100.jpg 100w, https://textronsteelalloys.com/wp-content/uploads/2024/09/ASTM-A36-PLATE-SHEET-MUMBAI-INDIA.jpg 899w" sizes="(max-width: 300px) 100vw, 300px">        <div class="overlay-box">
+            <ul class="cart-option">
+                <li><a href="https://www.textronsteelalloys.com/astm-a36-plate-sheet-jsw-evonith/"><span class="fa fa-shopping-cart"></span>Add to Cart</a></li>
+            </ul>
+        </div>
+    </div>
+     
+             
+        <div class="lower-content">
+            <h3><a href="https://www.textronsteelalloys.com/astm-a36-plate-sheet-jsw-evonith/">ASTM A36 Steel Plate</a></h3>
+            <div class="clearfix">
+                <div class="pull-left">
+                    
+                </div>
+                <div class="pull-right">
+                    <!--Rating-->
+                    <div class="rating">
+                                            </div>
+                </div>
+            </div>
+            
+        </div>
+        
+		</div>
+</div>
+        
+                                
+                            <div class="shop-item col-lg-4 col-md-6 col-sm-6 col-xs-12 post-1601 product type-product status-publish has-post-thumbnail product_cat-carbon-steel-plates-sheets first instock shipping-taxable product-type-simple">
+	<div class="inner-box">
+	     
+     <div class="image">
+        <img width="300" height="300" src="https://textronsteelalloys.com/wp-content/uploads/2019/03/C45-Plate-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Carbon Steel C45 Plate Sheet UVSL make mumbai" decoding="async" loading="lazy" srcset="https://textronsteelalloys.com/wp-content/uploads/2019/03/C45-Plate-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2019/03/C45-Plate-150x150.jpg 150w, https://textronsteelalloys.com/wp-content/uploads/2019/03/C45-Plate-101x101.jpg 101w, https://textronsteelalloys.com/wp-content/uploads/2019/03/C45-Plate-50x50.jpg 50w, https://textronsteelalloys.com/wp-content/uploads/2019/03/C45-Plate-45x45.jpg 45w, https://textronsteelalloys.com/wp-content/uploads/2019/03/C45-Plate-400x400.jpg 400w, https://textronsteelalloys.com/wp-content/uploads/2019/03/C45-Plate-100x100.jpg 100w, https://textronsteelalloys.com/wp-content/uploads/2019/03/C45-Plate.jpg 504w" sizes="auto, (max-width: 300px) 100vw, 300px">        <div class="overlay-box">
+            <ul class="cart-option">
+                <li><a href="https://www.textronsteelalloys.com/carbon-steel-c45-plates-sheets-coils-stockist-suppliers/"><span class="fa fa-shopping-cart"></span>Add to Cart</a></li>
+            </ul>
+        </div>
+    </div>
+     
+             
+        <div class="lower-content">
+            <h3><a href="https://www.textronsteelalloys.com/carbon-steel-c45-plates-sheets-coils-stockist-suppliers/">C45 Plates | Sheets</a></h3>
+            <div class="clearfix">
+                <div class="pull-left">
+                    
+                </div>
+                <div class="pull-right">
+                    <!--Rating-->
+                    <div class="rating">
+                                            </div>
+                </div>
+            </div>
+            
+        </div>
+        
+		</div>
+</div>
+        
+                                
+                            <div class="shop-item col-lg-4 col-md-6 col-sm-6 col-xs-12 post-1347 product type-product status-publish has-post-thumbnail product_cat-alloy-steel-plates-sheets product_cat-carbon-steel-plates-sheets  instock shipping-taxable product-type-simple">
+	<div class="inner-box">
+	     
+     <div class="image">
+        <img width="300" height="300" src="https://textronsteelalloys.com/wp-content/uploads/2018/12/en19-plate-sheet-mumbai-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="en19-plate-sheet-stockist-supplier-mumbai" decoding="async" loading="lazy" srcset="https://textronsteelalloys.com/wp-content/uploads/2018/12/en19-plate-sheet-mumbai-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2018/12/en19-plate-sheet-mumbai-100x100.jpg 100w, https://textronsteelalloys.com/wp-content/uploads/2018/12/en19-plate-sheet-mumbai-400x400.jpg 400w, https://textronsteelalloys.com/wp-content/uploads/2018/12/en19-plate-sheet-mumbai.jpg 1296w" sizes="auto, (max-width: 300px) 100vw, 300px">        <div class="overlay-box">
+            <ul class="cart-option">
+                <li><a href="https://www.textronsteelalloys.com/en19-steel-plates-sheet-stockist-supplier-exporter/"><span class="fa fa-shopping-cart"></span>Add to Cart</a></li>
+            </ul>
+        </div>
+    </div>
+     
+             
+        <div class="lower-content">
+            <h3><a href="https://www.textronsteelalloys.com/en19-steel-plates-sheet-stockist-supplier-exporter/">EN19 Plates</a></h3>
+            <div class="clearfix">
+                <div class="pull-left">
+                    
+                </div>
+                <div class="pull-right">
+                    <!--Rating-->
+                    <div class="rating">
+                                            </div>
+                </div>
+            </div>
+            
+        </div>
+        
+		</div>
+</div>
+        
+                                
+                            <div class="shop-item col-lg-4 col-md-6 col-sm-6 col-xs-12 post-1810 product type-product status-publish has-post-thumbnail product_cat-carbon-steel-plates-sheets last instock shipping-taxable product-type-simple">
+	<div class="inner-box">
+	     
+     <div class="image">
+        <img width="300" height="300" src="https://textronsteelalloys.com/wp-content/uploads/2019/07/EN42G-EN42-PLATE-SHEET-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="en42g-en42-plate-sheet-stock-suppliers" decoding="async" loading="lazy" srcset="https://textronsteelalloys.com/wp-content/uploads/2019/07/EN42G-EN42-PLATE-SHEET-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2019/07/EN42G-EN42-PLATE-SHEET-100x100.jpg 100w, https://textronsteelalloys.com/wp-content/uploads/2019/07/EN42G-EN42-PLATE-SHEET-150x150.jpg 150w, https://textronsteelalloys.com/wp-content/uploads/2019/07/EN42G-EN42-PLATE-SHEET-101x101.jpg 101w, https://textronsteelalloys.com/wp-content/uploads/2019/07/EN42G-EN42-PLATE-SHEET-50x50.jpg 50w, https://textronsteelalloys.com/wp-content/uploads/2019/07/EN42G-EN42-PLATE-SHEET-45x45.jpg 45w, https://textronsteelalloys.com/wp-content/uploads/2019/07/EN42G-EN42-PLATE-SHEET.jpg 400w" sizes="auto, (max-width: 300px) 100vw, 300px">        <div class="overlay-box">
+            <ul class="cart-option">
+                <li><a href="https://www.textronsteelalloys.com/en42g-sheet-plates-exporter-supplier-stockist/"><span class="fa fa-shopping-cart"></span>Add to Cart</a></li>
+            </ul>
+        </div>
+    </div>
+     
+             
+        <div class="lower-content">
+            <h3><a href="https://www.textronsteelalloys.com/en42g-sheet-plates-exporter-supplier-stockist/">EN42G Sheet</a></h3>
+            <div class="clearfix">
+                <div class="pull-left">
+                    
+                </div>
+                <div class="pull-right">
+                    <!--Rating-->
+                    <div class="rating">
+                                            </div>
+                </div>
+            </div>
+            
+        </div>
+        
+		</div>
+</div>
+        
+                                
+                            <div class="shop-item col-lg-4 col-md-6 col-sm-6 col-xs-12 post-2928 product type-product status-publish product_cat-carbon-steel-plates-sheets first instock shipping-taxable product-type-simple">
+	<div class="inner-box">
+	     
+     <div class="image">
+        <img width="300" height="300" src="https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png" class="woocommerce-placeholder wp-post-image" alt="Placeholder" decoding="async" loading="lazy" srcset="https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png 300w, https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-100x100.png 100w, https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-400x400.png 400w, https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-150x150.png 150w, https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-768x768.png 768w, https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-1024x1024.png 1024w, https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-101x101.png 101w, https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-50x50.png 50w, https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder.png 1200w" sizes="auto, (max-width: 300px) 100vw, 300px">        <div class="overlay-box">
+            <ul class="cart-option">
+                <li><a href="https://www.textronsteelalloys.com/en42j-strips-coils-c80-cr-ht/"><span class="fa fa-shopping-cart"></span>Add to Cart</a></li>
+            </ul>
+        </div>
+    </div>
+     
+             
+        <div class="lower-content">
+            <h3><a href="https://www.textronsteelalloys.com/en42j-strips-coils-c80-cr-ht/">EN42J Strips</a></h3>
+            <div class="clearfix">
+                <div class="pull-left">
+                    
+                </div>
+                <div class="pull-right">
+                    <!--Rating-->
+                    <div class="rating">
+                                            </div>
+                </div>
+            </div>
+            
+        </div>
+        
+		</div>
+</div>
+        
+                                
+                            <div class="shop-item col-lg-4 col-md-6 col-sm-6 col-xs-12 post-2581 product type-product status-publish has-post-thumbnail product_cat-carbon-steel-plates-sheets  instock shipping-taxable product-type-simple">
+	<div class="inner-box">
+	     
+     <div class="image">
+        <img width="300" height="300" src="https://textronsteelalloys.com/wp-content/uploads/2024/04/EN8-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="EN8 Plates &amp; Sheets" decoding="async" loading="lazy" srcset="https://textronsteelalloys.com/wp-content/uploads/2024/04/EN8-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2024/04/EN8-150x150.jpg 150w, https://textronsteelalloys.com/wp-content/uploads/2024/04/EN8-101x101.jpg 101w, https://textronsteelalloys.com/wp-content/uploads/2024/04/EN8-50x50.jpg 50w, https://textronsteelalloys.com/wp-content/uploads/2024/04/EN8-45x45.jpg 45w, https://textronsteelalloys.com/wp-content/uploads/2024/04/EN8-400x400.jpg 400w, https://textronsteelalloys.com/wp-content/uploads/2024/04/EN8-100x100.jpg 100w, https://textronsteelalloys.com/wp-content/uploads/2024/04/EN8.jpg 500w" sizes="auto, (max-width: 300px) 100vw, 300px">        <div class="overlay-box">
+            <ul class="cart-option">
+                <li><a href="https://www.textronsteelalloys.com/en8-plate-sae-1045-c45-ck45/"><span class="fa fa-shopping-cart"></span>Add to Cart</a></li>
+            </ul>
+        </div>
+    </div>
+     
+             
+        <div class="lower-content">
+            <h3><a href="https://www.textronsteelalloys.com/en8-plate-sae-1045-c45-ck45/">EN8 Plate</a></h3>
+            <div class="clearfix">
+                <div class="pull-left">
+                    
+                </div>
+                <div class="pull-right">
+                    <!--Rating-->
+                    <div class="rating">
+                                            </div>
+                </div>
+            </div>
+            
+        </div>
+        
+		</div>
+</div>
+        
+                                
+                            <div class="shop-item col-lg-4 col-md-6 col-sm-6 col-xs-12 post-2997 product type-product status-publish has-post-thumbnail product_cat-carbon-steel-plates-sheets last instock shipping-taxable product-type-simple">
+	<div class="inner-box">
+	     
+     <div class="image">
+        <img width="300" height="300" src="https://textronsteelalloys.com/wp-content/uploads/2025/08/S275JR-Plates-Sheets-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="S275JR Plates Sheets" decoding="async" loading="lazy" srcset="https://textronsteelalloys.com/wp-content/uploads/2025/08/S275JR-Plates-Sheets-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2025/08/S275JR-Plates-Sheets-150x150.jpg 150w, https://textronsteelalloys.com/wp-content/uploads/2025/08/S275JR-Plates-Sheets-101x101.jpg 101w, https://textronsteelalloys.com/wp-content/uploads/2025/08/S275JR-Plates-Sheets-50x50.jpg 50w, https://textronsteelalloys.com/wp-content/uploads/2025/08/S275JR-Plates-Sheets-45x45.jpg 45w, https://textronsteelalloys.com/wp-content/uploads/2025/08/S275JR-Plates-Sheets-400x400.jpg 400w, https://textronsteelalloys.com/wp-content/uploads/2025/08/S275JR-Plates-Sheets-100x100.jpg 100w, https://textronsteelalloys.com/wp-content/uploads/2025/08/S275JR-Plates-Sheets.jpg 640w" sizes="auto, (max-width: 300px) 100vw, 300px">        <div class="overlay-box">
+            <ul class="cart-option">
+                <li><a href="https://www.textronsteelalloys.com/s275jr-plates-sheets-ss400-1-0044-a36/"><span class="fa fa-shopping-cart"></span>Add to Cart</a></li>
+            </ul>
+        </div>
+    </div>
+     
+             
+        <div class="lower-content">
+            <h3><a href="https://www.textronsteelalloys.com/s275jr-plates-sheets-ss400-1-0044-a36/">S275JR Plates</a></h3>
+            <div class="clearfix">
+                <div class="pull-left">
+                    
+                </div>
+                <div class="pull-right">
+                    <!--Rating-->
+                    <div class="rating">
+                                            </div>
+                </div>
+            </div>
+            
+        </div>
+        
+		</div>
+</div>
+        
+                                
+                    </div>
+        
+                    </div></div>        
+                
+					
+				</div>
+            </div>
+
+            <!-- sidebar area -->
+            				                    <div class="sidebar-side col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                        <aside class="sidebar default-sidebar">
+                            <div id="woocommerce_product_categories-4" class="widget sidebar-widget woocommerce widget_product_categories"><div class="sidebar-title"><h2>Product categories</h2></div><select name="product_cat" id="product_cat" class="dropdown_product_cat select2-hidden-accessible" tabindex="-1" aria-hidden="true">
+	<option value="">Select a category</option>
+	<option class="level-0" value="16mo3-15mo3-sa-204-plates">16MO3-15MO3 &amp; SA 204 Plates&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="abrasion-resistant-steel-plates">Abrasion Resistant Plates&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="alloy-20-round-bars">Alloy 20&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="alloy-steel-f5-f9-f11-f12-f22-f91">Alloy Steel F Series&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="alloy-steel-pipes-tubes">Alloy Steel Pipe&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="alloy-steel-plates-sheets">Alloy Steel Plates&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="alloy-steel-round-bars">Alloy Steel Round&nbsp;&nbsp;(41)</option>
+	<option class="level-0" value="aluminium">Aluminium&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="aluminium-alloy">Aluminium Alloy&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="aluminium-alloy-round-bar">Aluminium Alloy&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="aluminium-bronze">Aluminium Bronze&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="aluminium-wires">Aluminium Wires&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="boiler-quality-steel-plates">Boiler Quality Steel Plates&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="boron-grades">Boron Grades&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="bronze">Bronze&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="carbon-steel-round-bars">Carbon Steel&nbsp;&nbsp;(43)</option>
+	<option class="level-0" value="carbon-steel-pipes-tubes">Carbon Steel&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="carbon-steel-plates-sheets" selected="selected">Carbon Steel&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="chequered-plate">Chequered Plate&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="chrome-moly-plates">Chrome Moly Plates&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="cobalt">Cobalt&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="cobalt-base-welding-electrodes">Cobalt Base Electrode&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="cold-rolled">Cold Rolled&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="cold-work-steels">Cold Work Steels&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="copper-nickel-round-bars">Copper Nickel&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="copper-wires">Copper Wires&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="duplex-super-duplex-round-bars">Duplex &amp; Super Duplex&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="duplex-and-super-duplex-plates-sheets">Duplex and Super Duplex&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="duplex-and-super-duplex-pipes">Duplex and Super Duplex Pipes&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="en-series">EN Series&nbsp;&nbsp;(28)</option>
+	<option class="level-0" value="flanges">Flanges&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="galvanized">Galvanized&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="hastelloy-pipes-tubes">Hastelloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="hastelloy-plates-sheets">Hastelloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="hastelloy-round-bars">Hastelloy&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="hastelloy-buttweld-fittings">Hastelloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="high-speed-steel">High Speed Steel&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="high-tensile">High Tensile&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="high-tensile-strength">High Tensile Strength&nbsp;&nbsp;(13)</option>
+	<option class="level-0" value="hot-rolled-is-2062-plates">Hot Rolled IS 2062 Plates&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="hot-work-steel">Hot Work Steel&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="incoloy-plates-sheets">Incoloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="inconel-plates-sheets">Inconel&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="inconel-round-bars">Inconel&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="inconel-pipes-tubes">Inconel&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="manganese-bronze">Manganese Bronze&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="manganese-steel-plates">Manganese Steel Plates&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="monel-round-bars">Monel&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="nickel-alloy-plates-sheets">Nickel Alloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="nickel-alloy-round-bars">Nickel Alloy Round Bars&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="pins">Pins&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="pipes-tubes">Pipes &amp; Tubes&nbsp;&nbsp;(36)</option>
+	<option class="level-0" value="plates-sheets">Plates &amp; Sheets&nbsp;&nbsp;(54)</option>
+	<option class="level-0" value="precipitation-hardening-stainless-steel">Precipitation Hardening Steel&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="quenched-tempered-steel-plates">Quenched &amp; Tempered Plates&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="round-bars">Round Bars&nbsp;&nbsp;(206)</option>
+	<option class="level-0" value="specialized-products">Specialized Products&nbsp;&nbsp;(45)</option>
+	<option class="level-0" value="stainless-steel">Stainless Steel&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="stainless-steel-welding-electrode">Stainless Steel Electrode&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="stainless-steel-pipes-tubes">Stainless Steel Pipes &amp; Tubes&nbsp;&nbsp;(24)</option>
+	<option class="level-0" value="stainless-steel-plates-sheets">Stainless Steel Plates&nbsp;&nbsp;(25)</option>
+	<option class="level-0" value="stainless-steel-profiles">Stainless Steel Profiles&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="stainless-steel-round-bars">Stainless Steel Round Bars&nbsp;&nbsp;(49)</option>
+	<option class="level-0" value="titanium-round-bars">Titanium&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="titanium-alloys">Titanium Alloys&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="tool-steel">Tool Steel&nbsp;&nbsp;(10)</option>
+</select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-product_cat-container" role="combobox"><span class="select2-selection__rendered" id="select2-product_cat-container" role="textbox" aria-readonly="true" title="Carbon Steel&nbsp;&nbsp;(9)"><span class="select2-selection__clear">×</span>Carbon Steel&nbsp;&nbsp;(9)</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+</div><div id="rpwe_widget-2" class="widget sidebar-widget rpwe_widget recent-posts-extended"><div class="sidebar-title"><h2><a href="https://www.textronsteelalloys.com/shop/" title="Products">Products</a></h2></div><div class="rpwe-block"><ul class="rpwe-ul"><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/s890ql-plates/" target="_self">S890QL Plates</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/s960ql-plates-quend-960-1-8933-sheets/" target="_self">S960QL Plates</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/en16-round-bars-605m36/" target="_self">EN16 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/6061-t6-round-bars/" target="_self">6061 T6 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/etg100-round-bars-etg88-free-cutting-steel/" target="_self">ETG100 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/40cr7al10mo2-round-bars/" target="_self">40Cr7Al10Mo2 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/905m39-round-bars-bs-970/" target="_self">905M39 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/1-2799-flat-bars-x2nicomoti1288/" target="_self">1.2799 Flat Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/sum-43-round-bars-jis-g-4804/" target="_self">SUM43 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/scm-420-round-bars-18crmo4-1-7243-aisi-4118/" target="_self">SCM420 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/1-4122-round-bars-x39crmo17-1/" target="_self">1.4122 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/38mnvs6-round-bars-1-1303/" target="_self">38MnVS6 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/t55ni7cr4mo5v1-round-bars/" target="_self">T55Ni7Cr4Mo5V1 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/x46cr13-round-bars-1-4034/" target="_self">X46Cr13 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/x5crnicunb16-4-round-bars-1-4542/" target="_self">X5CrNiCuNb16-4 Round Bars</a></h3></li></ul></div><!-- Generated by http://wordpress.org/plugins/recent-posts-widget-extended/ --></div>                                                    </aside>
+                    </div>
+                                		<!--Sidebar-->
+    
+		</div>
+	</div>
+</div>
