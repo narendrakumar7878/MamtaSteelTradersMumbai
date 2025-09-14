@@ -1,0 +1,289 @@
+<div class="sidebar-page-container">
+    <div class="auto-container">
+        <div class="row clearfix">
+			
+            <!-- sidebar area -->
+						
+            <div class=" col-lg-9 col-md-8 col-sm-12 col-xs-12  content-side">
+                <div class="shop-single">
+                	<div class="product-details">
+						                                                            <div class="woocommerce-notices-wrapper"></div><div id="product-1703" class="post-1703 product type-product status-publish has-post-thumbnail product_cat-stainless-steel-welding-electrode first instock shipping-taxable product-type-simple">
+	<div class="basic-details">
+    	<div class="row clearfix">
+            <div class="image-column col-md-6 col-sm-6 col-xs-12">
+            	<figure class="image-box">
+					<div class="woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-4 images" data-columns="4" style="opacity: 1; transition: opacity 0.25s ease-in-out;">
+	<div class="woocommerce-product-gallery__wrapper">
+		<div data-thumb="https://textronsteelalloys.com/wp-content/uploads/2019/06/e307-16-welding-electrodes-100x100.png" data-thumb-alt="e307-16-welding-electrode-stockist" data-thumb-srcset="https://textronsteelalloys.com/wp-content/uploads/2019/06/e307-16-welding-electrodes-100x100.png 100w, https://textronsteelalloys.com/wp-content/uploads/2019/06/e307-16-welding-electrodes-150x150.png 150w, https://textronsteelalloys.com/wp-content/uploads/2019/06/e307-16-welding-electrodes-300x300.png 300w, https://textronsteelalloys.com/wp-content/uploads/2019/06/e307-16-welding-electrodes-101x101.png 101w, https://textronsteelalloys.com/wp-content/uploads/2019/06/e307-16-welding-electrodes.png 370w, https://textronsteelalloys.com/wp-content/uploads/2019/06/e307-16-welding-electrodes-50x50.png 50w, https://textronsteelalloys.com/wp-content/uploads/2019/06/e307-16-welding-electrodes-45x45.png 45w" data-thumb-sizes="(max-width: 100px) 100vw, 100px" class="woocommerce-product-gallery__image"><a href="https://textronsteelalloys.com/wp-content/uploads/2019/06/e307-16-welding-electrodes.png"><img width="370" height="370" src="https://textronsteelalloys.com/wp-content/uploads/2019/06/e307-16-welding-electrodes.png" class="wp-post-image" alt="e307-16-welding-electrode-stockist" data-caption="" data-src="https://textronsteelalloys.com/wp-content/uploads/2019/06/e307-16-welding-electrodes.png" data-large_image="https://textronsteelalloys.com/wp-content/uploads/2019/06/e307-16-welding-electrodes.png" data-large_image_width="370" data-large_image_height="370" decoding="async" fetchpriority="high" srcset="https://textronsteelalloys.com/wp-content/uploads/2019/06/e307-16-welding-electrodes.png 370w, https://textronsteelalloys.com/wp-content/uploads/2019/06/e307-16-welding-electrodes-150x150.png 150w, https://textronsteelalloys.com/wp-content/uploads/2019/06/e307-16-welding-electrodes-300x300.png 300w, https://textronsteelalloys.com/wp-content/uploads/2019/06/e307-16-welding-electrodes-101x101.png 101w, https://textronsteelalloys.com/wp-content/uploads/2019/06/e307-16-welding-electrodes-50x50.png 50w, https://textronsteelalloys.com/wp-content/uploads/2019/06/e307-16-welding-electrodes-45x45.png 45w, https://textronsteelalloys.com/wp-content/uploads/2019/06/e307-16-welding-electrodes-100x100.png 100w" sizes="(max-width: 370px) 100vw, 370px"></a></div>	</div>
+</div>
+        		</figure>
+            </div>
+            <div class="info-column col-md-6 col-sm-6 col-xs-12">
+        
+                                
+                <div class="details-header">
+                    <h4 itemprop="name" class="product_title entry-title">E307-16</h4>                    <div class="rating">
+                                            </div>
+                    <div class="item-price"><p class="price"></p>
+</div>
+                </div>
+
+                <div class="text"><div class="woocommerce-product-details__short-description">
+	<p><strong><span style="color: #000000;">Stainless Steel E307-16 Welding Electrodes, SS E307-16 Welding Electrode, AWS A5.4, E307-16 Welding Electrode Stockist,&nbsp;E307-16 Welding Electrode Suppliers,&nbsp;E307-16 Welding Electrode Exporters,&nbsp;Stainless Steel E307-16 Welding Electrodes Stockist,&nbsp;Stainless Steel E307-16 Welding Electrodes Suppliers,&nbsp;Stainless Steel E307-16 Welding Electrodes Exporters, E307-16 2.50mm, E307-16 3.15mm, E307-16 4.00 MM, E-307-16 5.00 mm.</span></strong></p>
+</div>
+</div>
+                <div class="other-options clearfix">
+                                    </div>
+        
+            </div><!-- .summary -->
+    	</div>
+    </div>
+	
+	<div class="woocommerce-tabs wc-tabs-wrapper">
+		<ul class="tabs wc-tabs">
+							<li class="description_tab active">
+					<a href="#tab-description" aria-selected="true" tabindex="0">Description</a>
+				</li>
+					</ul>
+					<div class="panel entry-content wc-tab" id="tab-description" style="">
+				
+	<h2>Description</h2>
+
+<h4 style="text-align: center;"><strong><span style="color: #ff6600;">Stainless Steel E307-16 Welding Electrodes</span></strong></h4>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><strong>Stainless Steel E307-16 <a href="http://www.textronsteelalloys.com/welding-electrodes-suppliers-stockist/">Welding Electrodes</a></strong> gives a full austenite structure containing 4-5% Mn. Weld metal is highly resistant to impact, wearing and hot cracking. It is suitable for forming a buffer layer for hard facing and joining of armor steel plates that are low hardenable and work-hardening austenitic Mn steel. It can also be used for dissimilar joining C-Mn steels with austenitic and ferritic stainless steels. Typical applications include stainless steel piping in refineries and chemical plants.</span></p>
+<p><span style="color: #000000;">Welding of 14% Mn steel, steel Armour, hardenable steel and generally all hard-to-weld steels. Joining of wear plates to each other and to their supports. Joining of stainless steels to carbon steels. Building up of rails and buttering layers before hardfacing on 14%Mn steel or on steels of unknown composition or on carbon steels. Extensively used in steel making public works, mining carrying and dredging.</span></p>
+<p><strong>Textron Steel and Alloys</strong> is the Largest Stockist, Suppliers, Exporters of AWS 5.4 Stainless Steel E307-16 Welding Electrodes from Mumbai, Maharashtra, India.</p>
+<p>&nbsp;</p>
+<h5><span style="color: #ff6600;"><strong>Classification :</strong></span></h5>
+<ul>
+<li><span style="color: #000000;">•&nbsp; AWS A5.4 E307-16</span></li>
+<li><span style="color: #000000;">•&nbsp; JIS Z3221 ES307-16</span></li>
+</ul>
+<p>&nbsp;</p>
+<h5><span style="color: #ff6600;"><strong>SS E307-16 electrode Specifications:</strong></span></h5>
+<ul>
+<li><span style="color: #000000;">•&nbsp; Size- 2.5 mm to 5.0 mm and custom sizes&nbsp;</span></li>
+<li><span style="color: #000000;">•&nbsp; Current type- AC and DC&nbsp;</span></li>
+<li><span style="color: #000000;">•&nbsp; Hardness- 50-56 (520- 620)</span></li>
+<li><span style="color: #000000;">•&nbsp; Types- round&nbsp;</span></li>
+<li><span style="color: #000000;">•&nbsp; Grade- AWS A5.4 E307-16</span></li>
+</ul>
+<p>&nbsp;</p>
+<h5><span style="color: #ff6600;"><strong>Features of SS electrodes:</strong></span></h5>
+<ul>
+<li><span style="color: #000000;">•&nbsp; Sound gas shielding&nbsp;</span></li>
+<li><span style="color: #000000;">•&nbsp; Good arc properties&nbsp;</span></li>
+<li><span style="color: #000000;">•&nbsp; High arc voltage</span></li>
+<li><span style="color: #000000;">•&nbsp; Electrical conductivity</span></li>
+<li><span style="color: #000000;">•&nbsp; Ease of removing slag&nbsp;</span></li>
+<li><span style="color: #000000;">•&nbsp; High formation of hydrogen&nbsp;</span></li>
+<li><span style="color: #000000;">•&nbsp; Good root pass&nbsp;</span></li>
+<li><span style="color: #000000;">•&nbsp; Weldable for down and upward position</span></li>
+</ul>
+<p>&nbsp;</p>
+<h5><span style="color: #ff6600;"><strong>Stainless Steel E307-16 Welding Electrode Chemical Composition (All Weld Metal), weight % :</strong></span></h5>
+<table style="width: 600px;" border="1" width="600">
+<tbody>
+<tr>
+<td style="text-align: center; border-style: double; border-color: #000000; background-color: #f0f0f0;" width="67"><span style="color: #000000;"><strong>C</strong></span></td>
+<td style="text-align: center; border-style: double; border-color: #000000; background-color: #f0f0f0;" width="67"><span style="color: #000000;"><strong>Mn</strong></span></td>
+<td style="text-align: center; border-style: double; border-color: #000000; background-color: #f0f0f0;" width="67"><span style="color: #000000;"><strong>Si</strong></span></td>
+<td style="text-align: center; border-style: double; border-color: #000000; background-color: #f0f0f0;" width="67"><span style="color: #000000;"><strong>Ni</strong></span></td>
+<td style="text-align: center; border-style: double; border-color: #000000; background-color: #f0f0f0;" width="67"><span style="color: #000000;"><strong>Cr</strong></span></td>
+<td style="text-align: center; border-style: double; border-color: #000000; background-color: #f0f0f0;" width="67"><span style="color: #000000;"><strong>Mo</strong></span></td>
+</tr>
+<tr>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">0.05</span></td>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">5.66</span></td>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">0.68</span></td>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">9.73</span></td>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">19.87</span></td>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">0.98</span></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h5><span style="color: #ff6600;"><strong>Stainless Steel E307-16 Welding Electrode Typical Mechanical Properties :</strong></span></h5>
+<table style="width: 600px;" border="1" width="600">
+<tbody>
+<tr>
+<td style="text-align: center; background-color: #f0f0f0; border-style: double; border-color: #000000;" width="177"><strong>Tensile Strength </strong><strong>N/mm2&nbsp;(ksi)</strong></td>
+<td style="text-align: center; border-style: double; border-color: #000000;" width="64">640 (93)</td>
+</tr>
+<tr>
+<td style="text-align: center; background-color: #f0f0f0; border-style: double; border-color: #000000;"><strong>Elongation&nbsp;</strong><strong>%</strong></td>
+<td style="text-align: center; border-style: double; border-color: #000000;">46</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h5><span style="color: #ff6600;"><strong>Operating Data :</strong></span></h5>
+<table style="width: 600px;" border="1" width="600">
+<tbody>
+<tr>
+<td style="text-align: center; background-color: #f0f0f0; border-style: double; border-color: #000000;" width="101"><strong><span style="color: #000000;">Diameter</span></strong></td>
+<td style="text-align: center; background-color: #f0f0f0; border-style: double; border-color: #000000;" width="64"><strong><span style="color: #000000;">Length</span></strong></td>
+<td style="text-align: center; background-color: #f0f0f0; border-style: double; border-color: #000000;" width="64"><strong><span style="color: #000000;">AC/DC+</span></strong></td>
+</tr>
+<tr>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">Ø 2.5 mm</span></td>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">350 mm</span></td>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">50 – 80</span></td>
+</tr>
+<tr>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">Ø 3.15 mm</span></td>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">350 mm</span></td>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">80 -110</span></td>
+</tr>
+<tr>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">Ø 4.0 mm</span></td>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">350 mm</span></td>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">100 – 135</span></td>
+</tr>
+<tr>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">Ø 5.0 mm</span></td>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">350 mm</span></td>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">140 – 480</span></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h5><span style="color: #ff6600;"><strong>Top Features :</strong></span></h5>
+<ul>
+<li><span style="color: #000000;">•&nbsp; A rutile- basic all position 5%Mn-alloyed stainless steel electrode</span></li>
+<li><span style="color: #000000;">•&nbsp; Especially developed for steels difficult to weld, such as Armour plates and austenitic high Mn-steels</span></li>
+<li><span style="color: #000000;">•&nbsp; Often used as a buffer layer in hardfacing applications</span></li>
+<li><span style="color: #000000;">•&nbsp; Weldable on AC and DC+ polarity</span></li>
+</ul>
+<p>&nbsp;</p>
+<h5><span style="color: #ff6600;"><strong>Typical Applications :</strong></span></h5>
+<ul>
+<li><span style="color: #000000;">•&nbsp; Steels difficult to weld such as: armour plate and austenitic Mn−steel</span></li>
+<li><span style="color: #000000;">•&nbsp; Often used for buffer layers in hardfacing applications</span></li>
+</ul>
+<p>&nbsp;</p>
+<h5><span style="color: #ff6600;"><strong>Dimension &amp; Weight Specifications of Electrodes :</strong></span></h5>
+<table style="width: 600px;" border="1" width="600">
+<tbody>
+<tr>
+<td style="text-align: center; background-color: #f0f0f0; border-style: double; border-color: #000000;" width="154"><strong><span style="color: #000000;">Diameter in mm</span></strong></td>
+<td style="text-align: center; border-style: double; border-color: #000000;" width="64"><span style="color: #000000;">Ø 5.0</span></td>
+<td style="text-align: center; border-style: double; border-color: #000000;" width="64"><span style="color: #000000;">Ø 4.0</span></td>
+<td style="text-align: center; border-style: double; border-color: #000000;" width="64"><span style="color: #000000;">Ø 3.15</span></td>
+<td style="text-align: center; border-style: double; border-color: #000000;" width="64"><span style="color: #000000;">Ø 2.5</span></td>
+</tr>
+<tr>
+<td style="text-align: center; background-color: #f0f0f0; border-style: double; border-color: #000000;"><strong><span style="color: #000000;">Length in mm</span></strong></td>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">350</span></td>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">350</span></td>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">350</span></td>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">350</span></td>
+</tr>
+<tr>
+<td style="text-align: center; background-color: #f0f0f0; border-style: double; border-color: #000000;"><strong><span style="color: #000000;">Wt. Per Box Kgs</span></strong></td>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">2.00</span></td>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">2.00</span></td>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">2.00</span></td>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">2.00</span></td>
+</tr>
+<tr>
+<td style="text-align: center; background-color: #f0f0f0; border-style: double; border-color: #000000;"><strong><span style="color: #000000;">Wt. Per Cartoon Kgs</span></strong></td>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">10.00</span></td>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">10.00</span></td>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">10.00</span></td>
+<td style="text-align: center; border-style: double; border-color: #000000;"><span style="color: #000000;">10.00</span></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h5><span style="color: #ff6600;"><strong>Cities we deliver our SS E307-16 Welding Electrodes to :</strong></span></h5>
+<p><span style="color: #000000;">Kuala Lumpur, New York, Thane, Al Jubail, Muscat, Busan, Mexico City, Geoje-si, Moscow, Calgary, Sharjah, La Victoria, Melbourne, Riyadh, Bhopal, Al Khobar, Montreal, Madrid, Colombo, Los Angeles, Chandigarh, Surat, Petaling Jaya, Indore, Kuwait City, Ahvaz, Seoul, Rajkot, Vadodara, Houston, Nashik, Visakhapatnam, Toronto, Ankara, Jamshedpur, Edmonton, Tehran, Singapore, Cairo, Dammam, Vung Tau, Dallas, Ernakulam, Ho Chi Minh City, Bangkok, Baroda, Perth, Istanbul, Mumbai, Thiruvananthapuram, Jaipur, Bogota, Milan, Abu Dhabi, Kolkata, Coimbatore, Ludhiana, Howrah, Pimpri-Chinchwad, Haryana, Bengaluru, Jeddah, Ahmedabad, Rio de Janeiro, Navi Mumbai, Gimhae-si, Atyrau, Sydney, Doha, Hanoi, Caracas, Algiers, Gurgaon, Secunderabad, Santiago, Jakarta, Courbevoie, New Delhi, Hong Kong, Dubai, Ranchi, Faridabad, Port-of-Spain, Chennai, London, Lahore, Ulsan, Aberdeen, Kanpur, Brisbane, Granada, Chiyoda, Manama, Pune, Hyderabad, Nagpur, Noida, Karachi, Lagos.</span></p>
+<p>&nbsp;</p>
+<h5><span style="color: #ff6600;"><strong>Countries we deliver our SS E307-16 Welding Electrodes to :</strong></span></h5>
+<p><span style="color: #000000;">Estonia, Portugal, Oman, Trinidad &amp; Tobago,Tunisia, United Kingdom, Iran, Bhutan, United States, Vietnam, Chile, Iran, Azerbaijan, Taiwan, Poland, Italy, Mexico, Ireland, Chile, Gabon, Belgium, France, Ecuador, Lebanon, Canada, Namibia, Brazil, Germany, Norway, Angola, Pakistan, Turkey, Philippines, Nigeria, Belarus, New Zealand, Puerto Rico, Iraq, Hong Kong, Mongolia, Czech Republic, Mexico, Japan, Sri Lanka, Nepal, Finland, Malaysia, South Africa, Spain, Ukraine, Argentina, Afghanistan, Venezuela, Slovakia, Russia, Gambia, Singapore, Austria, Saudi Arabia, Bolivia, Israel, Netherlands, Switzerland, Greece, Indonesia, United Arab Emirates, China, Nigeria, Tibet, Croatia, Kuwait, Poland, Morocco, Kazakhstan, Libya, Romania, Colombia, Bahrain, Bulgaria, Yemen, Zimbabwe, Bangladesh, South Korea, Macau, Ghana, Jordan, Kenya, Australia, Qatar, Egypt, Denmark, Lithuania, Sweden, India, Costa Rica, Algeria, Hungary, Serbia, Thailand, Peru.</span></p>
+			</div>
+			</div>
+
+</div><!-- #product-1703 -->
+                                                                        </div>
+                </div>
+            </div>
+		
+        	<!-- sidebar area -->
+												<div class="sidebar-side col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                		<aside class="sidebar default-sidebar">
+							<div id="woocommerce_product_categories-4" class="widget sidebar-widget woocommerce widget_product_categories"><div class="sidebar-title"><h2>Product categories</h2></div><select name="product_cat" id="product_cat" class="dropdown_product_cat select2-hidden-accessible" tabindex="-1" aria-hidden="true">
+	<option value="">Select a category</option>
+	<option class="level-0" value="16mo3-15mo3-sa-204-plates">16MO3-15MO3 &amp; SA 204 Plates&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="abrasion-resistant-steel-plates">Abrasion Resistant Plates&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="alloy-20-round-bars">Alloy 20&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="alloy-steel-f5-f9-f11-f12-f22-f91">Alloy Steel F Series&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="alloy-steel-pipes-tubes">Alloy Steel Pipe&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="alloy-steel-plates-sheets">Alloy Steel Plates&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="alloy-steel-round-bars">Alloy Steel Round&nbsp;&nbsp;(41)</option>
+	<option class="level-0" value="aluminium">Aluminium&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="aluminium-alloy">Aluminium Alloy&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="aluminium-alloy-round-bar">Aluminium Alloy&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="aluminium-bronze">Aluminium Bronze&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="aluminium-wires">Aluminium Wires&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="boiler-quality-steel-plates">Boiler Quality Steel Plates&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="boron-grades">Boron Grades&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="bronze">Bronze&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="carbon-steel-round-bars">Carbon Steel&nbsp;&nbsp;(43)</option>
+	<option class="level-0" value="carbon-steel-pipes-tubes">Carbon Steel&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="carbon-steel-plates-sheets">Carbon Steel&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="chequered-plate">Chequered Plate&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="chrome-moly-plates">Chrome Moly Plates&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="cobalt">Cobalt&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="cobalt-base-welding-electrodes">Cobalt Base Electrode&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="cold-rolled">Cold Rolled&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="cold-work-steels">Cold Work Steels&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="copper-nickel-round-bars">Copper Nickel&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="copper-wires">Copper Wires&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="duplex-super-duplex-round-bars">Duplex &amp; Super Duplex&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="duplex-and-super-duplex-plates-sheets">Duplex and Super Duplex&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="duplex-and-super-duplex-pipes">Duplex and Super Duplex Pipes&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="en-series">EN Series&nbsp;&nbsp;(28)</option>
+	<option class="level-0" value="flanges">Flanges&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="galvanized">Galvanized&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="hastelloy-pipes-tubes">Hastelloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="hastelloy-plates-sheets">Hastelloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="hastelloy-round-bars">Hastelloy&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="hastelloy-buttweld-fittings">Hastelloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="high-speed-steel">High Speed Steel&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="high-tensile">High Tensile&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="high-tensile-strength">High Tensile Strength&nbsp;&nbsp;(13)</option>
+	<option class="level-0" value="hot-rolled-is-2062-plates">Hot Rolled IS 2062 Plates&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="hot-work-steel">Hot Work Steel&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="incoloy-plates-sheets">Incoloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="inconel-plates-sheets">Inconel&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="inconel-round-bars">Inconel&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="inconel-pipes-tubes">Inconel&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="manganese-bronze">Manganese Bronze&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="manganese-steel-plates">Manganese Steel Plates&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="monel-round-bars">Monel&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="nickel-alloy-plates-sheets">Nickel Alloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="nickel-alloy-round-bars">Nickel Alloy Round Bars&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="pins">Pins&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="pipes-tubes">Pipes &amp; Tubes&nbsp;&nbsp;(36)</option>
+	<option class="level-0" value="plates-sheets">Plates &amp; Sheets&nbsp;&nbsp;(54)</option>
+	<option class="level-0" value="precipitation-hardening-stainless-steel">Precipitation Hardening Steel&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="quenched-tempered-steel-plates">Quenched &amp; Tempered Plates&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="round-bars">Round Bars&nbsp;&nbsp;(206)</option>
+	<option class="level-0" value="specialized-products">Specialized Products&nbsp;&nbsp;(45)</option>
+	<option class="level-0" value="stainless-steel">Stainless Steel&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="stainless-steel-welding-electrode" selected="selected">Stainless Steel Electrode&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="stainless-steel-pipes-tubes">Stainless Steel Pipes &amp; Tubes&nbsp;&nbsp;(24)</option>
+	<option class="level-0" value="stainless-steel-plates-sheets">Stainless Steel Plates&nbsp;&nbsp;(25)</option>
+	<option class="level-0" value="stainless-steel-profiles">Stainless Steel Profiles&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="stainless-steel-round-bars">Stainless Steel Round Bars&nbsp;&nbsp;(49)</option>
+	<option class="level-0" value="titanium-round-bars">Titanium&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="titanium-alloys">Titanium Alloys&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="tool-steel">Tool Steel&nbsp;&nbsp;(10)</option>
+</select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-product_cat-container" role="combobox"><span class="select2-selection__rendered" id="select2-product_cat-container" role="textbox" aria-readonly="true" title="Stainless Steel Electrode&nbsp;&nbsp;(1)"><span class="select2-selection__clear">×</span>Stainless Steel Electrode&nbsp;&nbsp;(1)</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+</div><div id="rpwe_widget-2" class="widget sidebar-widget rpwe_widget recent-posts-extended"><div class="sidebar-title"><h2><a href="https://www.textronsteelalloys.com/shop/" title="Products">Products</a></h2></div><div class="rpwe-block"><ul class="rpwe-ul"><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/s890ql-plates/" target="_self">S890QL Plates</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/s275jr-plates-sheets-ss400-1-0044-a36/" target="_self">S275JR Plates</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/s960ql-plates-quend-960-1-8933-sheets/" target="_self">S960QL Plates</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/en16-round-bars-605m36/" target="_self">EN16 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/6061-t6-round-bars/" target="_self">6061 T6 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/etg100-round-bars-etg88-free-cutting-steel/" target="_self">ETG100 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/40cr7al10mo2-round-bars/" target="_self">40Cr7Al10Mo2 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/905m39-round-bars-bs-970/" target="_self">905M39 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/1-2799-flat-bars-x2nicomoti1288/" target="_self">1.2799 Flat Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/sum-43-round-bars-jis-g-4804/" target="_self">SUM43 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/scm-420-round-bars-18crmo4-1-7243-aisi-4118/" target="_self">SCM420 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/1-4122-round-bars-x39crmo17-1/" target="_self">1.4122 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/38mnvs6-round-bars-1-1303/" target="_self">38MnVS6 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/t55ni7cr4mo5v1-round-bars/" target="_self">T55Ni7Cr4Mo5V1 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/x46cr13-round-bars-1-4034/" target="_self">X46Cr13 Round Bars</a></h3></li></ul></div><!-- Generated by http://wordpress.org/plugins/recent-posts-widget-extended/ --></div>                                                    </aside>
+                    </div>
+									</div>
+	</div>
+</div>
