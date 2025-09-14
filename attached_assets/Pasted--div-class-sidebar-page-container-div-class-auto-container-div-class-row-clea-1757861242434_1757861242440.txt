@@ -1,0 +1,568 @@
+<div class="sidebar-page-container">
+    <div class="auto-container">
+        <div class="row clearfix">
+			
+            <!-- sidebar area -->
+						
+            <div class=" col-lg-9 col-md-8 col-sm-12 col-xs-12  content-side">
+                <div class="shop-single">
+                	<div class="product-details">
+						                                                            <div class="woocommerce-notices-wrapper"></div><div id="product-1406" class="post-1406 product type-product status-publish has-post-thumbnail product_cat-inconel-pipes-tubes first instock shipping-taxable product-type-simple">
+	<div class="basic-details">
+    	<div class="row clearfix">
+            <div class="image-column col-md-6 col-sm-6 col-xs-12">
+            	<figure class="image-box">
+					<div class="woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-4 images" data-columns="4" style="opacity: 1; transition: opacity 0.25s ease-in-out;">
+	<div class="woocommerce-product-gallery__wrapper">
+		<div data-thumb="https://textronsteelalloys.com/wp-content/uploads/2018/12/inconel-625-pipe-stockist-mumbai-100x100.jpg" data-thumb-alt="inconel-625-uns-n06625-pipe-stockist-mumbai-textron-tube-pipe" data-thumb-srcset="https://textronsteelalloys.com/wp-content/uploads/2018/12/inconel-625-pipe-stockist-mumbai-100x100.jpg 100w, https://textronsteelalloys.com/wp-content/uploads/2018/12/inconel-625-pipe-stockist-mumbai-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2018/12/inconel-625-pipe-stockist-mumbai.jpg 400w" data-thumb-sizes="(max-width: 100px) 100vw, 100px" class="woocommerce-product-gallery__image"><a href="https://textronsteelalloys.com/wp-content/uploads/2018/12/inconel-625-pipe-stockist-mumbai.jpg"><img width="400" height="400" src="https://textronsteelalloys.com/wp-content/uploads/2018/12/inconel-625-pipe-stockist-mumbai-400x400.jpg" class="wp-post-image" alt="inconel-625-uns-n06625-pipe-stockist-mumbai-textron-tube-pipe" data-caption="" data-src="https://textronsteelalloys.com/wp-content/uploads/2018/12/inconel-625-pipe-stockist-mumbai.jpg" data-large_image="https://textronsteelalloys.com/wp-content/uploads/2018/12/inconel-625-pipe-stockist-mumbai.jpg" data-large_image_width="400" data-large_image_height="400" decoding="async" fetchpriority="high" srcset="https://textronsteelalloys.com/wp-content/uploads/2018/12/inconel-625-pipe-stockist-mumbai.jpg 400w, https://textronsteelalloys.com/wp-content/uploads/2018/12/inconel-625-pipe-stockist-mumbai-300x300.jpg 300w, https://textronsteelalloys.com/wp-content/uploads/2018/12/inconel-625-pipe-stockist-mumbai-100x100.jpg 100w" sizes="(max-width: 400px) 100vw, 400px"></a></div>	</div>
+</div>
+        		</figure>
+            </div>
+            <div class="info-column col-md-6 col-sm-6 col-xs-12">
+        
+                                
+                <div class="details-header">
+                    <h4 itemprop="name" class="product_title entry-title">Inconel 625 Pipe &amp; Tube</h4>                    <div class="rating">
+                                            </div>
+                    <div class="item-price"><p class="price"></p>
+</div>
+                </div>
+
+                <div class="text"><div class="woocommerce-product-details__short-description">
+	<p><strong><span style="color: #000000;">Inconel 625 Seamless Pipe &amp; Tube, Inconel 625 Welded Pipe &amp; Tube, Inconel DIN 2.4856 Welded Pipes, Inconel Alloy 625 EFW Tubing Leading Manufacturers, ASME SB-444 Seamless Pipes, Inconel 625 Seamless Pipes Exporter, Inconel 625 ASME SB-775 Welded Tubes, Inconel 625 UNS N06625 Pipes Suppliers, ASME SB-775 Inconel 625 Seamless Pipes Manufacturer, Inconel 625 ASME SB-725 Round Pipes, Inconel 625 Polished Pipes, ASME SB-444 Pipes, Inconel Black Round Tubes Exporter, Inconel 625 werkstoff nr. 2.4856, ASTM B444 Inconel 625 Seamless Pipe / Welded / ERW Pipes &amp; Tubes Manufacturer, Exporter &amp; Suppliers in India.</span></strong></p>
+</div>
+</div>
+                <div class="other-options clearfix">
+                                    </div>
+        
+            </div><!-- .summary -->
+    	</div>
+    </div>
+	
+	<div class="woocommerce-tabs wc-tabs-wrapper">
+		<ul class="tabs wc-tabs">
+							<li class="description_tab active">
+					<a href="#tab-description" aria-selected="true" tabindex="0">Description</a>
+				</li>
+					</ul>
+					<div class="panel entry-content wc-tab" id="tab-description" style="">
+				
+	<h2>Description</h2>
+
+<h2></h2>
+<h2 style="text-align: center;"><span style="font-size: 24px;"><span style="color: #ff6600;"><strong>Inconel 625 / Alloy 625 Nickel / UNS N06625&nbsp;</strong></span><span style="color: #ff6600;"><strong>Seamless</strong></span><span style="color: #ff6600;"><strong>&nbsp;Pipe &amp; Tube</strong></span></span></h2>
+<p>&nbsp;</p>
+<h3><span style="color: #ff6600;"><strong>Inconel 625 Pipe Seamless, ERW &amp; Welded – UNS N06625 :</strong></span></h3>
+<p><span style="color: #000000;">Inconel&nbsp;is a family of&nbsp;<strong>Austenitic&nbsp;Nickel Chromium based&nbsp;Super Alloys</strong>. Inconel 625 High Strength, Nickel based alloy, Inconel 625 exhibits <strong>Excellent Corrosion Resistance, Oxidation Resistance and Toughness.</strong> It has very high fatigue Strength, is nonmagnetic, and offers an operational temperature range from cryogenic to 2,000°F (1,093°C).</span></p>
+<p><span style="color: #000000;"><a href="http://www.textronsteelalloys.com/inconel-625-nickel-pipe-tube-stockist-supplier-exporter/"><strong>Alloy 625 Nickel Seamless Pipe</strong></a> is made from a <strong>Nickel Chromium Molybdenum Alloys</strong> with an addition of <strong>Niobium</strong>. High strength and toughness from cryogenic temperatures to 1800 F. Good oxidation resistance, exceptional fatigue strength, and good resistance to many corrosives.</span></p>
+<p><span style="color: #000000;"><a href="http://www.textronsteelalloys.com/"><strong>Textron Steel &amp; Alloys</strong></a> is a prestigious organization that is relatively engaged in offering a wide range of <strong><a href="http://www.textronsteelalloys.com/inconel-625-nickel-pipe-tube-stockist-supplier-exporter/">Inconel 625</a> <a href="http://www.textronsteelalloys.com/pipes-tubes/">Pipes and Tubes</a></strong>. These WNR 2.4856 Pipes and Tubes is a Nickel-based Super Alloy that holds resistance to higher temperatures and elevated strength properties. It as well demonstrates remarkable protection in opposition to corrosion and oxidation.</span></p>
+<p><span style="color: #000000;">We <strong>Textron Steel and Alloys</strong> are leading Manufacturers, Stockist, Supplier and Exporters of High Quality Inconel 625 Seamless, Welded &amp; ERW Pipes and Tubes, ASTM B444 Inconel 625 Seamless Pipe &amp; Tubes using high quality raw materials. We also offer these <strong>Seamless, ERW &amp; Welded Pipes &amp; Tubes</strong> in different specifications. These Pipes &amp; Tubes are widely used in various applications industry like <strong>Oil and Gas, Petrochemical, Medicine, Food, Paper, Machinery, Natural Gas</strong> etc. The Inconel 625 Seamless Pipes ASTM B444 UNS N06625 are Manufactured to sustain very high pressure and product warranty. We can meet most ASME, ASTM, and other specifications, and can cross-reference to most international standards.</span></p>
+<p><span style="color: #000000;">Product and technology applications of these <a href="http://www.textronsteelalloys.com/inconel-625-nickel-pipe-tube-stockist-supplier-exporter/"><strong>UNS N06625 Pipes and Tubes</strong></a> include: Pollution control equipment, Heat exchangers, Jet engine parts, Pressure valves, and more. As a Manufacturer, Supplier, Stockiest and Exporter, we offer these <a href="http://www.textronsteelalloys.com/inconel-625-nickel-pipe-tube-stockist-supplier-exporter/">Inconel Alloy 625 Seamless pipes and tubes</a> in custom made sizes and thicknesses, as per the exact demands of our esteemed clients. We offer the same in international and national quality of standards at cost-effective rates to our patrons.</span></p>
+<p>&nbsp;</p>
+<h3><span style="color: #ff6600;"><strong>Specifications of Inconel Alloy 625 Pipes &amp; Tubes:</strong></span></h3>
+<table style="width: 830px; border-style: solid; border-color: #575757;" width="830">
+<tbody>
+<tr>
+<td style="border-style: solid; border-color: #575757; text-align: center; background-color: #cccccc;" width="68"><strong>Size</strong></td>
+<td style="border-style: solid; border-color: #575757; text-align: center; background-color: #cccccc;" width="11"><strong>:</strong></td>
+<td style="border-style: solid; border-color: #575757;" width="571">&nbsp; 15 NB to 150 NB IN</td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #575757; text-align: center; background-color: #cccccc;"><strong>Type</strong></td>
+<td style="border-style: solid; border-color: #575757; text-align: center; background-color: #cccccc;"><strong>:</strong></td>
+<td style="border-style: solid; border-color: #575757;">&nbsp; Seamless / ERW / Welded / Fabricated / LSAW Pipes</td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #575757; text-align: center; background-color: #cccccc;"><strong>Standards</strong></td>
+<td style="border-style: solid; border-color: #575757; text-align: center; background-color: #cccccc;"><strong>:</strong></td>
+<td style="border-style: solid; border-color: #575757;">&nbsp; ASME SB-444 ASME S B-444 ASME SB-775 ASME SB-725, UNS N06625 / Werkstoff Nr. 2.4856</td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #575757; text-align: center; background-color: #cccccc;"><strong>End</strong></td>
+<td style="border-style: solid; border-color: #575757; text-align: center; background-color: #cccccc;"><strong>:</strong></td>
+<td style="border-style: solid; border-color: #575757;">&nbsp; Plain End, Beveled End, Treaded.</td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #575757; text-align: center; background-color: #cccccc;"><strong>Length</strong></td>
+<td style="border-style: solid; border-color: #575757; text-align: center; background-color: #cccccc;"><strong>:</strong></td>
+<td style="border-style: solid; border-color: #575757;">&nbsp; Single Random, Double Random &amp; Cut Length.</td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #575757; text-align: center; background-color: #cccccc;"><strong>Form</strong></td>
+<td style="border-style: solid; border-color: #575757; text-align: center; background-color: #cccccc;"><strong>:</strong></td>
+<td style="border-style: solid; border-color: #575757;">&nbsp; Round, Square, Rectangular, Hydraulic Etc.</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<table style="width: 830px; border-style: solid; border-color: #575757;" width="830">
+<tbody>
+<tr>
+<td style="text-align: center; border-color: #575757; border-style: solid; background-color: #cccccc;" width="64"><strong>STANDARD</strong></td>
+<td style="text-align: center; border-color: #575757; border-style: solid; background-color: #cccccc;" width="64"><strong>WERKSTOFF NR.</strong></td>
+<td style="text-align: center; border-color: #575757; border-style: solid; background-color: #cccccc;" width="64"><strong>UNS</strong></td>
+<td style="text-align: center; border-color: #575757; border-style: solid; background-color: #cccccc;" width="64"><strong>JIS</strong></td>
+<td style="text-align: center; border-color: #575757; border-style: solid; background-color: #cccccc;" width="64"><strong>AFNOR</strong></td>
+<td style="text-align: center; border-color: #575757; border-style: solid; background-color: #cccccc;" width="64"><strong>BS</strong></td>
+<td style="text-align: center; border-color: #575757; border-style: solid; background-color: #cccccc;" width="64"><strong>GOST</strong></td>
+<td style="text-align: center; border-color: #575757; border-style: solid; background-color: #cccccc;" width="64"><strong>EN</strong></td>
+<td style="text-align: center; border-color: #575757; border-style: solid; background-color: #cccccc;" width="46"><strong>OR</strong></td>
+</tr>
+<tr>
+<td style="text-align: center; border-color: #575757; border-style: solid;">Inconel 625</td>
+<td style="text-align: center; border-color: #575757; border-style: solid;">2.4856</td>
+<td style="text-align: center; border-color: #575757; border-style: solid;">N06625</td>
+<td style="text-align: center; border-color: #575757; border-style: solid;">NCF 625</td>
+<td style="text-align: center; border-color: #575757; border-style: solid;">NC22DNB4M</td>
+<td style="text-align: center; border-color: #575757; border-style: solid;">NA 21</td>
+<td style="text-align: center; border-color: #575757; border-style: solid;">ХН75МБТЮ</td>
+<td style="text-align: center; border-color: #575757; border-style: solid;">NiCr22Mo9Nb</td>
+<td style="text-align: center; border-color: #575757; border-style: solid;">ЭИ602</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h3><span style="color: #ff6600;"><strong>ASTM Specifications :</strong></span></h3>
+<p><span style="color: #000000;">ASTM (American Society for Testing and Materials) for various products made out of <a href="http://www.textronsteelalloys.com/inconel-625-nickel-pipe-tube-stockist-supplier-exporter/">Inconel 625</a> Grade are as follow:</span></p>
+<table style="width: 830px; border-color: #000000; border-style: groove;" width="830">
+<tbody>
+<tr>
+<td style="background-color: #cccccc; text-align: center; border-color: #575757; border-style: inset;" width="64"><strong>Pipe Seamless</strong></td>
+<td style="background-color: #cccccc; text-align: center; border-color: #575757; border-style: inset;" width="64"><strong>Pipe Welded</strong></td>
+<td style="background-color: #cccccc; text-align: center; border-color: #575757; border-style: inset;" width="64"><strong>Tube Seamless</strong></td>
+<td style="background-color: #cccccc; text-align: center; border-color: #575757; border-style: inset;" width="90"><strong>Tube Welded</strong></td>
+<td style="background-color: #cccccc; text-align: center; border-color: #575757; border-style: inset;" width="81"><strong>Sheet/Plate</strong></td>
+<td style="background-color: #cccccc; text-align: center; border-color: #575757; border-style: inset;" width="64"><strong>Bar</strong></td>
+<td style="background-color: #cccccc; text-align: center; border-color: #575757; border-style: inset;" width="64"><strong>Forging</strong></td>
+<td style="background-color: #cccccc; text-align: center; border-color: #575757; border-style: inset;" width="64"><strong>Fitting</strong></td>
+<td style="background-color: #cccccc; text-align: center; border-color: #575757; border-style: inset;" width="64"><strong>Wire</strong></td>
+</tr>
+<tr>
+<td style="text-align: center; border-color: #575757; border-style: inset;">B444</td>
+<td style="text-align: center; border-color: #575757; border-style: inset;">B705</td>
+<td style="text-align: center; border-color: #575757; border-style: inset;">B444</td>
+<td style="text-align: center; border-color: #575757; border-style: inset;">B704</td>
+<td style="text-align: center; border-color: #575757; border-style: inset;">B443</td>
+<td style="text-align: center; border-color: #575757; border-style: inset;">B446</td>
+<td style="text-align: center; border-color: #575757; border-style: inset;">–</td>
+<td style="text-align: center; border-color: #575757; border-style: inset;">–</td>
+<td style="text-align: center; border-color: #575757; border-style: inset;">–</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h3><span style="color: #ff6600;"><strong>Markets for Inconel 625 Include :</strong></span></h3>
+<p><span style="color: #000000;">• Marine</span></p>
+<p><span style="color: #000000;">• Nuclear</span></p>
+<p><span style="color: #000000;">• Chemical Processing</span></p>
+<p><span style="color: #000000;">• Aerospace</span></p>
+<p>&nbsp;</p>
+<h3><span style="color: #ff6600;"><strong>Applications of Inconel 625 Pipes &amp; Tubes :</strong></span></h3>
+<p><span style="color: #000000;">Typical applications include Chemical Processing, Aerospace and Marine Engineering, Pollution Control Equipment, and Nuclear Reactors.</span></p>
+<p>• Seawater components</p>
+<p>• Flare stacks</p>
+<p>• Aircraft ducting systems</p>
+<p>• Fabrication with Inconel 625</p>
+<p>• Specialized seawater equipment</p>
+<p>• Chemical process equipment</p>
+<p>• Turbine shroud rings</p>
+<p>• Engine thrust-reverser systems</p>
+<p>• Jet engine exhausts systems</p>
+<p>&nbsp;</p>
+<h3><span style="color: #ff6600;"><strong>Stock Size Range:</strong></span></h3>
+<p><span style="color: #000000;">• OD: 1/2″ through 8″ NB</span></p>
+<p><span style="color: #000000;">• Wall Thickness: Schedule 10, Schedule 40, Schedule 80</span></p>
+<p><span style="color: #000000;">• Specifications:&nbsp;ASTM B444, ASME SB444</span></p>
+<p>&nbsp;</p>
+<h3><span style="color: #ff6600;"><strong>Ready Stock Available :</strong></span></h3>
+<table style="width: 830px; border-style: solid; border-color: #575757;" width="830">
+<tbody>
+<tr>
+<td style="text-align: right;" width="164">Inconel 625 1/2″ NB Pipe</td>
+<td style="text-align: center;" width="81">Schedule 10</td>
+<td style="text-align: center;" width="81">Schedule 40</td>
+<td style="text-align: center;" width="81">Schedule 80</td>
+<td style="text-align: center;" width="88">Schedule 160</td>
+<td style="text-align: center;" width="168">Seamless, Welded &amp; ERW</td>
+</tr>
+<tr>
+<td style="text-align: right;">Inconel 625 3/4″ NB Pipe</td>
+<td style="text-align: center;">Schedule 10</td>
+<td style="text-align: center;">Schedule 40</td>
+<td style="text-align: center;">Schedule 80</td>
+<td style="text-align: center;">Schedule 160</td>
+<td style="text-align: center;">Seamless, Welded &amp; ERW</td>
+</tr>
+<tr>
+<td style="text-align: right;">Inconel 625 1″ NB Pipe</td>
+<td style="text-align: center;">Schedule 10</td>
+<td style="text-align: center;">Schedule 40</td>
+<td style="text-align: center;">Schedule 80</td>
+<td style="text-align: center;">Schedule 160</td>
+<td style="text-align: center;">Seamless, Welded &amp; ERW</td>
+</tr>
+<tr>
+<td style="text-align: right;">Inconel 625 1-1/4″ NB Pipe</td>
+<td style="text-align: center;">Schedule 10</td>
+<td style="text-align: center;">Schedule 40</td>
+<td style="text-align: center;">Schedule 80</td>
+<td style="text-align: center;">Schedule 160</td>
+<td style="text-align: center;">Seamless, Welded &amp; ERW</td>
+</tr>
+<tr>
+<td style="text-align: right;">Inconel 625 1-1/2″ NB Pipe</td>
+<td style="text-align: center;">Schedule 10</td>
+<td style="text-align: center;">Schedule 40</td>
+<td style="text-align: center;">Schedule 80</td>
+<td style="text-align: center;">Schedule 160</td>
+<td style="text-align: center;">Seamless, Welded &amp; ERW</td>
+</tr>
+<tr>
+<td style="text-align: right;">Inconel 625 2″ NB Pipe</td>
+<td style="text-align: center;">Schedule 10</td>
+<td style="text-align: center;">Schedule 40</td>
+<td style="text-align: center;">Schedule 80</td>
+<td style="text-align: center;">Schedule 160</td>
+<td style="text-align: center;">Seamless, Welded &amp; ERW</td>
+</tr>
+<tr>
+<td style="text-align: right;">Inconel 625 2-1/2″ NB Pipe</td>
+<td style="text-align: center;">Schedule 10</td>
+<td style="text-align: center;">Schedule 40</td>
+<td style="text-align: center;">Schedule 80</td>
+<td style="text-align: center;">Schedule 160</td>
+<td style="text-align: center;">Seamless, Welded &amp; ERW</td>
+</tr>
+<tr>
+<td style="text-align: right;">Inconel 625 3″ NB Pipe</td>
+<td style="text-align: center;">Schedule 10</td>
+<td style="text-align: center;">Schedule 40</td>
+<td style="text-align: center;">Schedule 80</td>
+<td style="text-align: center;">Schedule 160</td>
+<td style="text-align: center;">Seamless, Welded &amp; ERW</td>
+</tr>
+<tr>
+<td style="text-align: right;">Inconel 625 4″ NB Pipe</td>
+<td style="text-align: center;">Schedule 10</td>
+<td style="text-align: center;">Schedule 40</td>
+<td style="text-align: center;">Schedule 80</td>
+<td style="text-align: center;">Schedule 160</td>
+<td style="text-align: center;">Seamless, Welded &amp; ERW</td>
+</tr>
+<tr>
+<td style="text-align: right;">Inconel 625 6″ NB Pipe</td>
+<td style="text-align: center;">Schedule 10</td>
+<td style="text-align: center;">Schedule 40</td>
+<td style="text-align: center;">Schedule 80</td>
+<td style="text-align: center;">Schedule 160</td>
+<td style="text-align: center;">Seamless, Welded &amp; ERW</td>
+</tr>
+<tr>
+<td style="text-align: right;">Inconel 625 8″ NB Pipe</td>
+<td style="text-align: center;">Schedule 10</td>
+<td style="text-align: center;">Schedule 40</td>
+<td style="text-align: center;">Schedule 80</td>
+<td style="text-align: center;">Schedule 160</td>
+<td style="text-align: center;">Seamless, Welded &amp; ERW</td>
+</tr>
+<tr>
+<td style="text-align: right;">Inconel 625 10″ NB Pipe</td>
+<td style="text-align: center;">Schedule 10</td>
+<td style="text-align: center;">Schedule 40</td>
+<td style="text-align: center;">Schedule 80</td>
+<td style="text-align: center;">Schedule 160</td>
+<td style="text-align: center;">Seamless, Welded &amp; ERW</td>
+</tr>
+<tr>
+<td style="text-align: right;">Inconel 625 12″ NB Pipe</td>
+<td style="text-align: center;">Schedule 10</td>
+<td style="text-align: center;">Schedule 40</td>
+<td style="text-align: center;">Schedule 80</td>
+<td style="text-align: center;">Schedule 160</td>
+<td style="text-align: center;">Seamless, Welded &amp; ERW</td>
+</tr>
+<tr>
+<td style="text-align: right;">Inconel 625 14″ NB Pipe</td>
+<td style="text-align: center;">Schedule 10</td>
+<td style="text-align: center;">Schedule 40</td>
+<td style="text-align: center;">Schedule 80</td>
+<td style="text-align: center;">Schedule 160</td>
+<td style="text-align: center;">Seamless, Welded &amp; ERW</td>
+</tr>
+<tr>
+<td style="text-align: right;">Inconel 625 16″ NB Pipe</td>
+<td style="text-align: center;">Schedule 10</td>
+<td style="text-align: center;">Schedule 40</td>
+<td style="text-align: center;">Schedule 80</td>
+<td style="text-align: center;">Schedule 160</td>
+<td style="text-align: center;">Seamless, Welded &amp; ERW</td>
+</tr>
+<tr>
+<td style="text-align: right;">Inconel 625 18″ NB Pipe</td>
+<td style="text-align: center;">Schedule 10</td>
+<td style="text-align: center;">Schedule 40</td>
+<td style="text-align: center;">Schedule 80</td>
+<td style="text-align: center;">Schedule 160</td>
+<td style="text-align: center;">Seamless, Welded &amp; ERW</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h3><span style="color: #ff6600;"><strong>Chemical Composition / Chemistry of 625 Inconel Grade:</strong></span></h3>
+<table style="width: 830px; border-style: solid; border-color: #575757;" width="830">
+<tbody>
+<tr>
+<td style="text-align: center; background-color: #cccccc; border-style: solid; border-color: #575757;" width="64"><strong>Ni</strong></td>
+<td style="text-align: center; background-color: #cccccc; border-style: solid; border-color: #575757;" width="64"><strong>Fe</strong></td>
+<td style="text-align: center; background-color: #cccccc; border-style: solid; border-color: #575757;" width="64"><strong>C</strong></td>
+<td style="text-align: center; background-color: #cccccc; border-style: solid; border-color: #575757;" width="64"><strong>Mn</strong></td>
+<td style="text-align: center; background-color: #cccccc; border-style: solid; border-color: #575757;" width="64"><strong>Si</strong></td>
+<td style="text-align: center; background-color: #cccccc; border-style: solid; border-color: #575757;" width="64"><strong>Cr2</strong></td>
+<td style="text-align: center; background-color: #cccccc; border-style: solid; border-color: #575757;" width="64"><strong>Mo</strong></td>
+<td style="text-align: center; background-color: #cccccc; border-style: solid; border-color: #575757;" width="64"><strong>Co</strong></td>
+<td style="text-align: center; background-color: #cccccc; border-style: solid; border-color: #575757;" width="61"><strong>Al</strong></td>
+<td style="text-align: center; background-color: #cccccc; border-style: solid; border-color: #575757;" width="64"><strong>Ti</strong></td>
+<td style="text-align: center; background-color: #cccccc; border-style: solid; border-color: #575757;" width="64"><strong>Nb + Ta</strong></td>
+<td style="text-align: center; background-color: #cccccc; border-style: solid; border-color: #575757;" width="64"><strong>P</strong></td>
+<td style="text-align: center; background-color: #cccccc; border-style: solid; border-color: #575757;" width="64"><strong>S</strong></td>
+</tr>
+<tr>
+<td style="text-align: center; border-style: solid; border-color: #575757;">58.0 min</td>
+<td style="text-align: center; border-style: solid; border-color: #575757;">5.0 max</td>
+<td style="text-align: center; border-style: solid; border-color: #575757;">0.10 max</td>
+<td style="text-align: center; border-style: solid; border-color: #575757;">0.50 max</td>
+<td style="text-align: center; border-style: solid; border-color: #575757;">0.50 max</td>
+<td style="text-align: center; border-style: solid; border-color: #575757;">20.0-23.0</td>
+<td style="text-align: center; border-style: solid; border-color: #575757;">8.0-10.0</td>
+<td style="text-align: center; border-style: solid; border-color: #575757;">1.0 max</td>
+<td style="text-align: center; border-style: solid; border-color: #575757;">0.40 max</td>
+<td style="text-align: center; border-style: solid; border-color: #575757;">0.40 max</td>
+<td style="text-align: center; border-style: solid; border-color: #575757;">3.15–4.15</td>
+<td style="text-align: center; border-style: solid; border-color: #575757;">0.015 max</td>
+<td style="text-align: center; border-style: solid; border-color: #575757;">0.015 max</td>
+</tr>
+</tbody>
+</table>
+<h3></h3>
+<p>&nbsp;</p>
+<h3><span style="color: #ff6600;"><strong>Mechanical &amp; Physical Properties :</strong></span></h3>
+<table style="width: 800px; border-style: solid; border-color: #575757;" width="800">
+<tbody>
+<tr>
+<td style="text-align: center; border-style: solid; border-color: #575757; background-color: #cccccc;" width="179"><strong>Density</strong></td>
+<td style="text-align: center; border-style: solid; border-color: #575757;" width="162">8.4 &nbsp;g/cm3</td>
+</tr>
+<tr>
+<td style="text-align: center; border-style: solid; border-color: #575757; background-color: #cccccc;"><strong>Melting Point</strong></td>
+<td style="text-align: center; border-style: solid; border-color: #575757;">1350 °C (2460 °F)</td>
+</tr>
+<tr>
+<td style="text-align: center; border-style: solid; border-color: #575757; background-color: #cccccc;"><strong>Tensile Strength</strong></td>
+<td style="text-align: center; border-style: solid; border-color: #575757;">Psi – 1,35,000 , MPa – 930</td>
+</tr>
+<tr>
+<td style="text-align: center; border-style: solid; border-color: #575757; background-color: #cccccc;"><strong>Yield Strength (0.2%Offset)</strong></td>
+<td style="text-align: center; border-style: solid; border-color: #575757;">Psi – 75,000 , MPa – 517</td>
+</tr>
+<tr>
+<td style="text-align: center; border-style: solid; border-color: #575757; background-color: #cccccc;"><strong>Elongation</strong></td>
+<td style="text-align: center; border-style: solid; border-color: #575757;">0.425</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h3><span style="color: #ff6600;"><strong>Inconel 625 Pipe for All Applications :</strong></span></h3>
+<p><span style="color: #000000;"><strong>Textron Steel and Alloys</strong> offers Inconel 625 seamless pipe in standard sizes up to 8” NB. We can also provide Inconel pipe in larger “custom” sizes that are fabricated to order (welded, with 100% x-ray inspection). Our Inconel 625 pipe meets a variety of national and international specifications, including:</span></p>
+<p><span style="color: #000000;">» ASTM B444</span></p>
+<p><span style="color: #000000;">» ASTM B751</span></p>
+<p><span style="color: #000000;">» ASTM B829</span></p>
+<p><span style="color: #000000;">» ASTM B704</span></p>
+<p><span style="color: #000000;">» ASTM B705</span></p>
+<p><span style="color: #000000;">» ASTM B755</span></p>
+<p><span style="color: #000000;">» AMS 5581</span></p>
+<p><span style="color: #000000;">» ISO 6207</span></p>
+<p><span style="color: #000000;">» and many others (see table below)</span></p>
+<p><strong><span style="color: #000000;">We also offer Inconel 625 Alloy&nbsp;wire,&nbsp;bar,&nbsp;sheet, plate,&nbsp;tube,&nbsp;fittings,&nbsp;flanges,&nbsp;forgings, and&nbsp;welding rod.</span></strong></p>
+<p>&nbsp;</p>
+<h3><span style="color: #ff6600;"><strong>Specifications :</strong></span></h3>
+<p>Specifications and Certifications include :</p>
+<p><span style="color: #000000;">» </span>AMS: 5599, 5666</p>
+<p><span style="color: #000000;">» </span>MS: 5837</p>
+<p><span style="color: #000000;">» </span>ASME: SB 443 Gr 1, SB 446 Gr 1</p>
+<p><span style="color: #000000;">» </span>ASTM: B 443 Gr 1, B 446 Gr 1</p>
+<p><span style="color: #000000;">» </span>EN: 2.4856</p>
+<p><span style="color: #000000;">» </span>ISO: 15156-3</p>
+<p><span style="color: #000000;">» </span>NACE: MR0175-3</p>
+<p><span style="color: #000000;">» </span>UNS: N06625</p>
+<p><span style="color: #000000;">» </span>Werkstoff: 2.4856</p>
+<p>&nbsp;</p>
+<h3><span style="color: #ff6600;">​<strong>Inconel 625 Pipe :</strong></span></h3>
+<table style="width: 830px; border-style: solid; border-color: #575757;" width="830">
+<tbody>
+<tr>
+<td style="border-style: solid; border-color: #575757; text-align: center; background-color: #cccccc;" width="185"><strong>UNS :</strong></td>
+<td style="border-style: solid; border-color: #575757;" width="525">&nbsp; N06625</td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #575757; text-align: center; background-color: #cccccc;"><strong>Specifications :</strong></td>
+<td style="border-style: solid; border-color: #575757;">&nbsp; ASTM B444, ASTM B751, ASTM B829, ASTM B775, ASTM B705, ASTM B704, AMS 5581</td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #575757; text-align: center; background-color: #cccccc;"><strong>International Specifications:</strong></td>
+<td style="border-style: solid; border-color: #575757;">&nbsp; ISO 6207, VdTüV 499, BS 3074NA21, DIN 17751, WERKSTOFF Nr 2.4856</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h3><span style="color: #ff6600;"><strong>Cities We Deliver Inconel 625 Seamless, Welded, ERW Pipes &amp; Tubes To :</strong></span></h3>
+<p><span style="color: #000000;">Kuwait City, Doha, Pune, Houston, Rajkot, Lahore, Al Jubail, Rio de Janeiro, Sydney, Moscow, Jakarta, Chiyoda, Baroda, Faridabad, Chennai, Algiers, Mumbai, Istanbul, Calgary, Hyderabad, Petaling Jaya, Hanoi, Navi Mumbai, Coimbatore, Perth, Brisbane, Secunderabad, Edmonton, Singapore, Gurgaon, Ulsan, Port-of-Spain, Manama, Jamshedpur, Dammam, Milan, Cairo, Vung Tau, Atyrau, Bhopal, Dallas, Santiago, Ernakulam, Kuala Lumpur, Riyadh, Melbourne, Gimhae-si, Ankara, Hong Kong, Bangkok, Nagpur, Kolkata, Thane, Busan, Ranchi, Nashik, Geoje-si, Jeddah, Seoul, Howrah, New Delhi, Noida, Colombo, London, Pimpri-Chinchwad, Granada, Bogota, Abu Dhabi, Kanpur, New York, Muscat, Thiruvananthapuram, Surat, Haryana, Montreal, Ahmedabad, Los Angeles, Ludhiana, Ahvaz, La Victoria, Ho Chi Minh City, Dubai, Jaipur, Mexico City, Karachi, Lagos, Aberdeen, Chandigarh, Indore, Madrid, Vadodara, Bengaluru, Al Khobar, Sharjah, Visakhapatnam, Tehran, Caracas, Toronto, Courbevoie</span></p>
+<p>&nbsp;</p>
+<h3><span style="color: #ff6600;"><strong>Countries We Deliver Inconel 625 Alloy Welded, ERW &amp; Seamless Pipes &amp; Tubes To :</strong></span></h3>
+<p><span style="color: #000000;">Peru, Greece, Egypt, Chile, Denmark, Romania, United States, South Africa, Lithuania, Thailand, France, Tibet, Qatar, Mexico, Trinidad &amp; Tobago, Tunisia, Bangladesh, United Kingdom, Ireland, Hong Kong, Switzerland, Czech Republic, Norway, Nigeria, Italy, Jordan, Canada, Malaysia, Turkey, Algeria, Lebanon, New Zealand, Gambia, Puerto Rico, Ecuador, Oman, Germany, Kuwait, Kenya, Philippines, Bahrain, Bhutan, Brazil, Sweden, Spain, Chile, Gabon, Serbia, Belarus, Pakistan, Saudi Arabia, Iraq, Sri Lanka, Colombia, Taiwan, Finland, Bulgaria, Indonesia, Singapore, South Korea, Azerbaijan, Poland, Israel, Costa Rica, Bolivia, Poland, Angola, Morocco, Zimbabwe, Nigeria, Austria, Ghana, Libya, Australia, Estonia, Hungary, Vietnam, Mexico, United Arab Emirates, Mongolia, Afghanistan, Namibia, Iran, Croatia, Russia, Kazakhstan, China, Iran, Ukraine, India, Nepal, Portugal, Netherlands, Japan, Yemen, Argentina, Belgium, Macau, Venezuela, Slovakia</span></p>
+<p>&nbsp;</p>
+<h3><span style="color: #ff6600;"><strong>Other Available Products Of Inconel 625 Pipes &amp; Tubing :</strong></span></h3>
+<table style="width: 830px; border-style: solid; border-color: #575757;">
+<tbody>
+<tr>
+<td style="border-style: solid; border-color: #575757; text-align: center;" width="332">625 Inconel EFW Tubing Stockiest in India</td>
+<td style="border-style: solid; border-color: #575757; text-align: center;" width="320">Inconel 625 Seamless Pipes</td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #575757; text-align: center;">Inconel 625 JIS SUS Cold Rolled Coiled Tubing</td>
+<td style="border-style: solid; border-color: #575757; text-align: center;">625 Inconel Seamless Tubing</td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #575757; text-align: center;">ASTM SB775 Inconel 625 Tubing</td>
+<td style="border-style: solid; border-color: #575757; text-align: center;">ASTM SB775 Inconel Welded Pipes</td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #575757; text-align: center;">625 Austenitic Inconel Pipes &amp; Tubes</td>
+<td style="border-style: solid; border-color: #575757; text-align: center;">SB 444 Inconel Welded Tubes Suppliers</td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #575757; text-align: center;">625 Inconel LSAW Pipes Dealers</td>
+<td style="border-style: solid; border-color: #575757; text-align: center;">ASTM SB 444 Inconel 625 ERW Pipes Manufacturer</td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #575757; text-align: center;">ASTM SB-444 Inconel Capillary Tube</td>
+<td style="border-style: solid; border-color: #575757; text-align: center;">SB725 Rectangular Seamless Pipes Manufacturer</td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #575757; text-align: center;">Inconel 625 U Shaped Tubing Stockholder</td>
+<td style="border-style: solid; border-color: #575757; text-align: center;">625 Inconel Rectangular Tubes</td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #575757; text-align: center;">625 Inconel Hydraulic Tubes Suppliers</td>
+<td style="border-style: solid; border-color: #575757; text-align: center;">Inconel 625 ERW Tubes Distributors</td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #575757; text-align: center;">Inconel Electric Resistance Welding Pipes Suppliers</td>
+<td style="border-style: solid; border-color: #575757; text-align: center;">UNS N06625 Inconel 625 Coiled Seamless Tubing</td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #575757; text-align: center;">625 Inconel ASTM SB725 Welded Tubing</td>
+<td style="border-style: solid; border-color: #575757; text-align: center;">Top Quality Inconel 625 Heat Ex-changer Tubes</td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #575757; text-align: center;">Inconel ASME SB775 Seamless Tubing</td>
+<td style="border-style: solid; border-color: #575757; text-align: center;">Inconel 625 DIN 2.4856 Round Tubing Exporter</td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #575757; text-align: center;">625 Inconel ASME SB444 Welded Tubes Exporter</td>
+<td style="border-style: solid; border-color: #575757; text-align: center;">ASTM SB-444 Inconel Square Seamless Pipes</td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #575757; text-align: center;">Inconel 625 Instrumentation Tubes Exporter</td>
+<td style="border-style: solid; border-color: #575757; text-align: center;">ASME Inconel Electric Fusion Welding Pipes</td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #575757; text-align: center;">Alloy 625 Seamless Pipe Textron Steel Stockist</td>
+<td style="border-style: solid; border-color: #575757; text-align: center;">Alloy 625 Welded Pipe, ERW Pipe</td>
+</tr>
+</tbody>
+</table>
+			</div>
+			</div>
+
+</div><!-- #product-1406 -->
+                                                                        </div>
+                </div>
+            </div>
+		
+        	<!-- sidebar area -->
+												<div class="sidebar-side col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                		<aside class="sidebar default-sidebar">
+							<div id="woocommerce_product_categories-4" class="widget sidebar-widget woocommerce widget_product_categories"><div class="sidebar-title"><h2>Product categories</h2></div><select name="product_cat" id="product_cat" class="dropdown_product_cat select2-hidden-accessible" tabindex="-1" aria-hidden="true">
+	<option value="">Select a category</option>
+	<option class="level-0" value="16mo3-15mo3-sa-204-plates">16MO3-15MO3 &amp; SA 204 Plates&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="abrasion-resistant-steel-plates">Abrasion Resistant Plates&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="alloy-20-round-bars">Alloy 20&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="alloy-steel-f5-f9-f11-f12-f22-f91">Alloy Steel F Series&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="alloy-steel-pipes-tubes">Alloy Steel Pipe&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="alloy-steel-plates-sheets">Alloy Steel Plates&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="alloy-steel-round-bars">Alloy Steel Round&nbsp;&nbsp;(41)</option>
+	<option class="level-0" value="aluminium">Aluminium&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="aluminium-alloy">Aluminium Alloy&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="aluminium-alloy-round-bar">Aluminium Alloy&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="aluminium-bronze">Aluminium Bronze&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="aluminium-wires">Aluminium Wires&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="boiler-quality-steel-plates">Boiler Quality Steel Plates&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="boron-grades">Boron Grades&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="bronze">Bronze&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="carbon-steel-pipes-tubes">Carbon Steel&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="carbon-steel-round-bars">Carbon Steel&nbsp;&nbsp;(43)</option>
+	<option class="level-0" value="carbon-steel-plates-sheets">Carbon Steel&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="chequered-plate">Chequered Plate&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="chrome-moly-plates">Chrome Moly Plates&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="cobalt">Cobalt&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="cobalt-base-welding-electrodes">Cobalt Base Electrode&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="cold-rolled">Cold Rolled&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="cold-work-steels">Cold Work Steels&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="copper-nickel-round-bars">Copper Nickel&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="copper-wires">Copper Wires&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="duplex-super-duplex-round-bars">Duplex &amp; Super Duplex&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="duplex-and-super-duplex-plates-sheets">Duplex and Super Duplex&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="duplex-and-super-duplex-pipes">Duplex and Super Duplex Pipes&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="en-series">EN Series&nbsp;&nbsp;(28)</option>
+	<option class="level-0" value="flanges">Flanges&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="galvanized">Galvanized&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="hastelloy-pipes-tubes">Hastelloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="hastelloy-plates-sheets">Hastelloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="hastelloy-round-bars">Hastelloy&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="hastelloy-buttweld-fittings">Hastelloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="high-speed-steel">High Speed Steel&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="high-tensile">High Tensile&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="high-tensile-strength">High Tensile Strength&nbsp;&nbsp;(13)</option>
+	<option class="level-0" value="hot-rolled-is-2062-plates">Hot Rolled IS 2062 Plates&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="hot-work-steel">Hot Work Steel&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="incoloy-plates-sheets">Incoloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="inconel-plates-sheets">Inconel&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="inconel-pipes-tubes" selected="selected">Inconel&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="inconel-round-bars">Inconel&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="manganese-bronze">Manganese Bronze&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="manganese-steel-plates">Manganese Steel Plates&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="monel-round-bars">Monel&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="nickel-alloy-plates-sheets">Nickel Alloy&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="nickel-alloy-round-bars">Nickel Alloy Round Bars&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="pins">Pins&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="pipes-tubes">Pipes &amp; Tubes&nbsp;&nbsp;(36)</option>
+	<option class="level-0" value="plates-sheets">Plates &amp; Sheets&nbsp;&nbsp;(54)</option>
+	<option class="level-0" value="precipitation-hardening-stainless-steel">Precipitation Hardening Steel&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="quenched-tempered-steel-plates">Quenched &amp; Tempered Plates&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="round-bars">Round Bars&nbsp;&nbsp;(206)</option>
+	<option class="level-0" value="specialized-products">Specialized Products&nbsp;&nbsp;(45)</option>
+	<option class="level-0" value="stainless-steel">Stainless Steel&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="stainless-steel-welding-electrode">Stainless Steel Electrode&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="stainless-steel-pipes-tubes">Stainless Steel Pipes &amp; Tubes&nbsp;&nbsp;(24)</option>
+	<option class="level-0" value="stainless-steel-plates-sheets">Stainless Steel Plates&nbsp;&nbsp;(25)</option>
+	<option class="level-0" value="stainless-steel-profiles">Stainless Steel Profiles&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="stainless-steel-round-bars">Stainless Steel Round Bars&nbsp;&nbsp;(49)</option>
+	<option class="level-0" value="titanium-round-bars">Titanium&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="titanium-alloys">Titanium Alloys&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="tool-steel">Tool Steel&nbsp;&nbsp;(10)</option>
+</select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-product_cat-container" role="combobox"><span class="select2-selection__rendered" id="select2-product_cat-container" role="textbox" aria-readonly="true" title="Inconel&nbsp;&nbsp;(1)"><span class="select2-selection__clear">×</span>Inconel&nbsp;&nbsp;(1)</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+</div><div id="rpwe_widget-2" class="widget sidebar-widget rpwe_widget recent-posts-extended"><div class="sidebar-title"><h2><a href="https://www.textronsteelalloys.com/shop/" title="Products">Products</a></h2></div><div class="rpwe-block"><ul class="rpwe-ul"><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/s890ql-plates/" target="_self">S890QL Plates</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/s275jr-plates-sheets-ss400-1-0044-a36/" target="_self">S275JR Plates</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/s960ql-plates-quend-960-1-8933-sheets/" target="_self">S960QL Plates</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/en16-round-bars-605m36/" target="_self">EN16 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/6061-t6-round-bars/" target="_self">6061 T6 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/etg100-round-bars-etg88-free-cutting-steel/" target="_self">ETG100 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/40cr7al10mo2-round-bars/" target="_self">40Cr7Al10Mo2 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/905m39-round-bars-bs-970/" target="_self">905M39 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/1-2799-flat-bars-x2nicomoti1288/" target="_self">1.2799 Flat Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/sum-43-round-bars-jis-g-4804/" target="_self">SUM43 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/scm-420-round-bars-18crmo4-1-7243-aisi-4118/" target="_self">SCM420 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/1-4122-round-bars-x39crmo17-1/" target="_self">1.4122 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/38mnvs6-round-bars-1-1303/" target="_self">38MnVS6 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/t55ni7cr4mo5v1-round-bars/" target="_self">T55Ni7Cr4Mo5V1 Round Bars</a></h3></li><li class="rpwe-li rpwe-clearfix"><h3 class="rpwe-title"><a href="https://www.textronsteelalloys.com/x46cr13-round-bars-1-4034/" target="_self">X46Cr13 Round Bars</a></h3></li></ul></div><!-- Generated by http://wordpress.org/plugins/recent-posts-widget-extended/ --></div>                                                    </aside>
+                    </div>
+									</div>
+	</div>
+</div>

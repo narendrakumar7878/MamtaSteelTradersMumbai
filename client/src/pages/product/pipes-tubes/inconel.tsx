@@ -1,6 +1,7 @@
 import ProductSEO from "@/components/ProductSEO";
-import { ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, TrendingUp, Shield, Award, Thermometer, Cog, Settings, Zap } from "lucide-react";
+import { ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, TrendingUp, Shield, Award, Thermometer, Cog, Settings, Zap, Package, Layers, Target } from "lucide-react";
 import { Link } from "wouter";
+import inconel625Image from "@assets/generated_images/Inconel_625_pipes_tubes_2b6a0f7c.png";
 
 export default function InconelPipes() {
   const specifications = [
@@ -45,9 +46,9 @@ export default function InconelPipes() {
   return (
     <>
       <ProductSEO
-        title="Inconel 625 Pipes & Tubes - ASTM B444 Certified Supplier Mumbai"
-        description="Leading manufacturer and supplier of Inconel 625 Seamless, ERW & Welded Pipes & Tubes. UNS N06625, ASTM B444, B704, B705 certified. Size range 1/2 inch to 8 inch NB. Best prices for aerospace, chemical processing, marine applications in Mumbai."
-        keywords="Inconel 625 pipes, Inconel 625 tubes, UNS N06625, ASTM B444, seamless pipes, welded pipes, ERW pipes, aerospace pipes, chemical processing, Mumbai supplier, India exporter, Werkstoff 2.4856"
+        title="Inconel 625 Seamless Pipes & Tubes | UNS N06625 | ASTM B444 Certified Supplier"
+        description="Leading manufacturer of Inconel 625 Seamless, ERW & Welded Pipes & Tubes. ASTM B444, B704, B705, B775 certified. UNS N06625, Werkstoff 2.4856. Size 15 NB to 150 NB. Aerospace, chemical processing, marine applications. Mumbai supplier, India exporter."
+        keywords="Inconel 625 pipes, Inconel 625 tubes, UNS N06625, ASTM B444, ASME SB-444, seamless pipes, welded pipes, ERW pipes, aerospace pipes, chemical processing, marine engineering, Mumbai supplier, India exporter, Werkstoff 2.4856, nickel alloy pipes, high temperature pipes"
         category="Pipes & Tubes"
         productName="Inconel Pipes & Tubes"
         specifications={specifications}
@@ -70,23 +71,55 @@ export default function InconelPipes() {
           </div>
         </nav>
 
-        {/* Hero Section */}
+        {/* Hero Section with Product Image */}
         <section className="bg-gradient-to-r from-navy-primary to-navy-secondary text-white py-16" data-testid="hero-section">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="hero-title">
-                Premium Inconel 625 Pipes & Tubes
-              </h1>
-              <p className="text-xl md:text-2xl mb-8 text-blue-100" data-testid="hero-subtitle">
-                High-performance Inconel 625 (UNS N06625) pipes for aerospace, chemical processing, marine, and extreme temperature applications
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="/contact" className="bg-gold-primary hover:bg-gold-secondary text-navy-primary font-semibold py-3 px-8 rounded-lg transition-colors duration-300" data-testid="cta-get-quote">
-                  Get Quote Now
-                </Link>
-                <a href="tel:+919876543210" className="border-2 border-white text-white hover:bg-white hover:text-navy-primary font-semibold py-3 px-8 rounded-lg transition-colors duration-300" data-testid="cta-call-now">
-                  Call Now: +91 98765 43210
-                </a>
+            <div className="max-w-7xl mx-auto">
+              <div className="grid lg:grid-cols-2 gap-12 items-center">
+                <div className="text-center lg:text-left">
+                  <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6" data-testid="hero-title">
+                    Inconel 625 Seamless Pipes & Tubes
+                  </h1>
+                  <div className="mb-6">
+                    <span className="inline-block bg-gold-primary text-navy-primary px-4 py-2 rounded-full text-sm font-semibold mb-2">
+                      UNS N06625 | ASTM B444 Certified
+                    </span>
+                  </div>
+                  <p className="text-xl md:text-2xl mb-8 text-blue-100" data-testid="hero-subtitle">
+                    High-performance Inconel 625 seamless, ERW & welded pipes for aerospace, chemical processing, marine applications, and extreme temperature environments
+                  </p>
+                  <div className="grid grid-cols-2 gap-4 mb-8 text-sm">
+                    <div className="bg-white/10 rounded-lg p-3 text-center">
+                      <div className="font-semibold">Size Range</div>
+                      <div className="text-blue-200">15 NB to 150 NB</div>
+                    </div>
+                    <div className="bg-white/10 rounded-lg p-3 text-center">
+                      <div className="font-semibold">Temperature</div>
+                      <div className="text-blue-200">Up to 2,000°F</div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                    <Link href="/contact" className="bg-gold-primary hover:bg-gold-secondary text-navy-primary font-semibold py-3 px-8 rounded-lg transition-colors duration-300" data-testid="cta-get-quote">
+                      Get Quote Now
+                    </Link>
+                    <a href="tel:+919819322575" className="border-2 border-white text-white hover:bg-white hover:text-navy-primary font-semibold py-3 px-8 rounded-lg transition-colors duration-300" data-testid="cta-call-now">
+                      Call Now: +91 98193 22575
+                    </a>
+                  </div>
+                </div>
+                <div className="relative" data-testid="hero-image">
+                  <img 
+                    src={inconel625Image} 
+                    alt="Inconel 625 Seamless Pipes and Tubes - UNS N06625 ASTM B444 High Performance Alloy" 
+                    className="w-full h-auto rounded-lg shadow-2xl" 
+                    loading="eager"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>
+                  <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm rounded-lg p-3">
+                    <div className="text-navy-primary text-sm font-semibold">Inconel 625 Pipes & Tubes</div>
+                    <div className="text-gray-600 text-xs">Seamless | ERW | Welded</div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
