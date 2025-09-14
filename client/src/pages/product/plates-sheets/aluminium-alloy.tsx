@@ -1,43 +1,105 @@
 import ProductSEO from "@/components/ProductSEO";
-import { ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, TrendingUp, Shield, Award } from "lucide-react";
+import { ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, TrendingUp, Shield, Award, Zap, Settings, Users, Globe } from "lucide-react";
 import { Link } from "wouter";
 
 export default function AluminiumAlloyPlates() {
   const specifications = [
     "ASTM B209 - Standard Specification for Aluminum and Aluminum-Alloy Sheet and Plate",
-    "ASTM B221 - Standard Specification for Aluminum and Aluminum-Alloy Extruded Bars, Rods, Wire, Profiles, and Tubes",
+    "ASTM B221 - Standard Specification for Aluminum and Aluminum-Alloy Extruded Bars, Rods, Wire, Profiles, and Tubes", 
+    "AMS-QQ-A-250/4 - Aerospace Material Specification for High-Strength Applications",
     "AA (Aluminum Association) Standards - 1xxx, 3xxx, 5xxx, 6xxx, 7xxx Series",
     "EN 485 - Aluminium and aluminium alloys - Sheet, strip and plate",
+    "DIN, MIL-Spec, QQ, DFARS and SAE Standards",
     "Thickness Range: 0.5mm to 200mm",
-    "Alloys: 1100, 3003, 5052, 5083, 6061, 6063, 7075"
+    "Alloys: 1100, 2024, 3003, 5052, 5083, 6061, 6063, 7075"
   ];
 
   const applications = [
-    "Aerospace and Aircraft Components",
-    "Marine and Shipbuilding Applications",
-    "Automotive Body Panels and Parts",
-    "Building and Construction Cladding",
-    "Food Processing Equipment",
-    "Chemical Processing Industry",
-    "Transportation and Railway Components",
-    "Electronic and Electrical Enclosures"
+    "Aircraft fuselage and wing tension members",
+    "Commercial & military aircraft structures",
+    "Critical aircraft components and fuselage skins", 
+    "Shear webs and ribs for aerospace applications",
+    "Marine and shipbuilding applications",
+    "Automotive body panels and parts",
+    "Building and construction cladding",
+    "Food processing equipment",
+    "Chemical processing industry",
+    "Transportation and railway components",
+    "Electronic and electrical enclosures",
+    "Truck wheels and crew machine products",
+    "Veterinary and orthopedic braces",
+    "Scientific instruments and rivets"
   ];
 
   const features = [
-    { icon: Shield, title: "Corrosion Resistant", desc: "Natural oxide layer provides excellent corrosion protection" },
-    { icon: TrendingUp, title: "Lightweight", desc: "One-third the weight of steel with excellent strength-to-weight ratio" },
-    { icon: Award, title: "Aerospace Grade", desc: "Meets stringent aerospace and marine industry standards" },
-    { icon: CheckCircle, title: "Formable", desc: "Excellent formability and machinability for complex shapes" }
+    { icon: Shield, title: "Corrosion Resistant", desc: "Natural oxide layer provides excellent corrosion protection in marine environments" },
+    { icon: TrendingUp, title: "Lightweight", desc: "One-third the weight of steel with exceptional strength-to-weight ratio" },
+    { icon: Award, title: "Aerospace Grade", desc: "Meets stringent aerospace, military and marine industry standards" },
+    { icon: CheckCircle, title: "Excellent Formability", desc: "Superior formability and machinability for complex shapes and precision components" },
+    { icon: Zap, title: "High Fatigue Resistance", desc: "Excellent fatigue resistance especially in thick plate form for critical applications" },
+    { icon: Settings, title: "Heat Treatable", desc: "Available in various tempers including T3, T4, T6, T8 and annealed state" },
+    { icon: Users, title: "Industry Approved", desc: "Approved by major aerospace and defense contractors worldwide" },
+    { icon: Globe, title: "DFARS Compliant", desc: "Defense Federal Acquisition Regulation Supplement compliant materials" }
+  ];
+
+  // Chemical composition data for 2024 T351
+  const chemicalComposition = [
+    { element: "Si", min: "–", max: "0.50" },
+    { element: "Fe", min: "–", max: "0.50" },
+    { element: "Cu", min: "3.80", max: "4.90" },
+    { element: "Mn", min: "0.30", max: "0.90" },
+    { element: "Mg", min: "1.20", max: "1.80" },
+    { element: "Cr", min: "–", max: "0.10" },
+    { element: "Zn", min: "–", max: "0.25" },
+    { element: "Ti", min: "–", max: "0.15" },
+    { element: "V", min: "–", max: "0.05" },
+    { element: "Zr", min: "–", max: "0.05" },
+    { element: "Other Each", min: "–", max: "0.05" },
+    { element: "Other Total", min: "–", max: "0.05" }
+  ];
+
+  // Product gallery data
+  const productImages = [
+    {
+      src: "https://textronsteelalloys.com/wp-content/uploads/2025/05/2024-T351-Plates-Sheets-300x300.webp",
+      alt: "2024 T351 Plates Sheets AMS QQ-A-250/4, ASTM B209",
+      title: "2024 T351 Aluminum Plates",
+      description: "High-strength 2024 T351 aluminum plates for aerospace applications"
+    },
+    {
+      src: "https://textronsteelalloys.com/wp-content/uploads/2019/07/Aluminum-Sheet-5052-h32-300x300.jpg", 
+      alt: "5052-h32-sheet-stockist-supplier",
+      title: "5052-H32 Aluminum Sheet",
+      description: "Marine grade 5052-H32 aluminum sheets with excellent corrosion resistance"
+    },
+    {
+      src: "https://textronsteelalloys.com/wp-content/uploads/2025/05/Aluminium-5083-300x300.jpeg",
+      alt: "Aluminium 5083 Temper O, H111, H112, H116", 
+      title: "5083 Aluminum Plates",
+      description: "5083 aluminum plates in various tempers for marine and structural applications"
+    },
+    {
+      src: "https://textronsteelalloys.com/wp-content/uploads/2019/07/6061-t6-plate-Aluminium-Plates-Sheets-Exporters-Suppliers-300x300.jpg",
+      alt: "6061-t6-plate-sheet",
+      title: "6061 T6 Aluminum Plates", 
+      description: "Versatile 6061 T6 aluminum plates for general engineering applications"
+    },
+    {
+      src: "https://textronsteelalloys.com/wp-content/uploads/2019/07/7075-plate-t6-t651-aluminum-300x300.jpg",
+      alt: "7075-PLATE-T6-T651-STOCKIST",
+      title: "7075 T6/T651 Aluminum Plates",
+      description: "Ultra-high strength 7075 aluminum plates for aerospace and defense applications"
+    }
   ];
 
   return (
     <>
       <ProductSEO
-        title="Aluminium Alloy Plates & Sheets"
-        description="Premium quality aluminium alloy plates and sheets in grades 1100, 3003, 5052, 6061, 7075. ASTM B209 certified for aerospace, marine, automotive, and construction applications. Best prices in Mumbai for aluminium alloy plates."
-        keywords="aluminium alloy plates, aluminum plates, 6061 aluminum plates, 7075 aluminum plates, ASTM B209 plates, aerospace aluminum, Mumbai aluminum supplier"
+        title="Aluminium Alloy Plates & Sheets | 2024 T351, 5052, 6061, 7075 | ASTM B209, AMS-QQ-A-250/4 | DFARS Compliant"
+        description="Premium aluminium alloy plates & sheets in aerospace grades 2024 T351, 5052-H32, 6061-T6, 7075-T651. ASTM B209, AMS-QQ-A-250/4, DFARS compliant. For aircraft fuselage, wing tension members, marine applications. Heat treatable aluminum with excellent fatigue resistance. Best prices from Mumbai supplier."
+        keywords="aluminium alloy plates, 2024 T351 plates, aluminum plates ASTM B209, AMS-QQ-A-250/4 plates, DFARS aluminum, aerospace aluminum plates, 5052 H32 sheets, 6061 T6 plates, 7075 T651 plates, aircraft fuselage plates, wing tension members, marine aluminum, heat treatable aluminum, aluminum chemical composition, aluminum alloy supplier Mumbai, aluminum plates manufacturer, aluminum sheets exporter, aerospace grade aluminum, military specification aluminum, aluminum fatigue resistance, aluminum corrosion resistance"
         category="Plates & Sheets"
-        productName="Aluminium Alloy Plates & Sheets"
+        productName="Aluminium Alloy Plates & Sheets - 2024 T351, 5052, 6061, 7075"
         specifications={specifications}
         canonicalUrl="/product/plates-sheets/aluminium-alloy"
       />
