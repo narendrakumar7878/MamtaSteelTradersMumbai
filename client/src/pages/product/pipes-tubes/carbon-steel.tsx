@@ -225,6 +225,154 @@ export default function CarbonSteelPipes() {
           </div>
         </section>
 
+        {/* Chemical Composition & Mechanical Properties */}
+        <section className="py-16 bg-white" data-testid="technical-specs-section">
+          <div className="container mx-auto px-4">
+            <div className="max-w-6xl mx-auto">
+              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="technical-specs-title">
+                ASTM A106 Grade B - Chemical Composition & Mechanical Properties
+              </h2>
+              
+              {/* Chemical Composition Table */}
+              <div className="bg-gray-50 p-8 rounded-lg shadow-md mb-8" data-testid="chemical-composition-section">
+                <h3 className="text-2xl font-semibold text-navy-primary mb-6">Chemical Composition (%)</h3>
+                <div className="overflow-x-auto">
+                  <table className="w-full bg-white border border-gray-200 rounded-lg shadow-sm" data-testid="chemical-composition-table">
+                    <thead className="bg-navy-primary text-white">
+                      <tr>
+                        <th className="px-4 py-3 text-left">Element</th>
+                        <th className="px-4 py-3 text-center">C</th>
+                        <th className="px-4 py-3 text-center">Si</th>
+                        <th className="px-4 py-3 text-center">Mn</th>
+                        <th className="px-4 py-3 text-center">P/S</th>
+                        <th className="px-4 py-3 text-center">Cr</th>
+                        <th className="px-4 py-3 text-center">Mo</th>
+                        <th className="px-4 py-3 text-center">Ni</th>
+                        <th className="px-4 py-3 text-center">Cu</th>
+                        <th className="px-4 py-3 text-center">V</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-gray-200">
+                      <tr className="hover:bg-gray-50">
+                        <td className="px-4 py-3 font-medium">Max/Min/Req</td>
+                        <td className="px-4 py-3 text-center">0.30 max</td>
+                        <td className="px-4 py-3 text-center">0.10 min</td>
+                        <td className="px-4 py-3 text-center">0.29-1.06</td>
+                        <td className="px-4 py-3 text-center">0.035 max</td>
+                        <td className="px-4 py-3 text-center">0.40 max</td>
+                        <td className="px-4 py-3 text-center">0.15 max</td>
+                        <td className="px-4 py-3 text-center">0.40 max</td>
+                        <td className="px-4 py-3 text-center">0.40 max</td>
+                        <td className="px-4 py-3 text-center">0.08 max</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              {/* Mechanical Properties Table */}
+              <div className="bg-gray-50 p-8 rounded-lg shadow-md mb-8" data-testid="mechanical-properties-section">
+                <h3 className="text-2xl font-semibold text-navy-primary mb-6">Mechanical Properties</h3>
+                <div className="overflow-x-auto">
+                  <table className="w-full bg-white border border-gray-200 rounded-lg shadow-sm" data-testid="mechanical-properties-table">
+                    <thead className="bg-navy-primary text-white">
+                      <tr>
+                        <th className="px-6 py-4 text-left">Property</th>
+                        <th className="px-6 py-4 text-center">Minimum Value</th>
+                        <th className="px-6 py-4 text-center">Unit</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-gray-200">
+                      <tr className="hover:bg-gray-50">
+                        <td className="px-6 py-4 font-medium">Tensile Strength</td>
+                        <td className="px-6 py-4 text-center">415</td>
+                        <td className="px-6 py-4 text-center">MPa</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="px-6 py-4 font-medium">Yield Strength</td>
+                        <td className="px-6 py-4 text-center">240</td>
+                        <td className="px-6 py-4 text-center">MPa</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="px-6 py-4 font-medium">Elongation</td>
+                        <td className="px-6 py-4 text-center">30/16.5</td>
+                        <td className="px-6 py-4 text-center">%</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              {/* Additional Specifications */}
+              <div className="grid md:grid-cols-2 gap-8">
+                <div className="bg-gray-50 p-6 rounded-lg shadow-md" data-testid="a106-specifications-section">
+                  <h3 className="text-xl font-semibold text-navy-primary mb-4">ASTM A106 Seamless Pipe Specifications</h3>
+                  <ul className="space-y-2 text-gray-700">
+                    <li className="flex items-start" data-testid="spec-standard">
+                      <CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" />
+                      <span><strong>Standard:</strong> ASTM A106 (ASME SA106)</span>
+                    </li>
+                    <li className="flex items-start" data-testid="spec-grades">
+                      <CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" />
+                      <span><strong>Grades:</strong> A, B, C (Grade B most common)</span>
+                    </li>
+                    <li className="flex items-start" data-testid="spec-sizes">
+                      <CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" />
+                      <span><strong>Sizes:</strong> ½" to 8" NB</span>
+                    </li>
+                    <li className="flex items-start" data-testid="spec-schedules">
+                      <CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" />
+                      <span><strong>Schedules:</strong> 40 (STD) and 80 (XH)</span>
+                    </li>
+                    <li className="flex items-start" data-testid="spec-dimensions">
+                      <CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" />
+                      <span><strong>Diameter:</strong> 10.3 to 114.3 mm</span>
+                    </li>
+                    <li className="flex items-start" data-testid="spec-thickness">
+                      <CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" />
+                      <span><strong>Thickness:</strong> 0.8 to 12 mm</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="bg-gray-50 p-6 rounded-lg shadow-md" data-testid="pipe-marking-section">
+                  <h3 className="text-xl font-semibold text-navy-primary mb-4">Pipe Marking Standards</h3>
+                  <ul className="space-y-2 text-gray-700">
+                    <li className="flex items-start" data-testid="marking-manufacturer">
+                      <Star className="w-4 h-4 text-gold-primary mr-2 mt-1 flex-shrink-0" />
+                      <span>Manufacturer's name or brand</span>
+                    </li>
+                    <li className="flex items-start" data-testid="marking-length">
+                      <Star className="w-4 h-4 text-gold-primary mr-2 mt-1 flex-shrink-0" />
+                      <span>Length of pipe</span>
+                    </li>
+                    <li className="flex items-start" data-testid="marking-grade">
+                      <Star className="w-4 h-4 text-gold-primary mr-2 mt-1 flex-shrink-0" />
+                      <span>A106 A, A106 B or A106 C</span>
+                    </li>
+                    <li className="flex items-start" data-testid="marking-size">
+                      <Star className="w-4 h-4 text-gold-primary mr-2 mt-1 flex-shrink-0" />
+                      <span>NPS Size</span>
+                    </li>
+                    <li className="flex items-start" data-testid="marking-schedule">
+                      <Star className="w-4 h-4 text-gold-primary mr-2 mt-1 flex-shrink-0" />
+                      <span>Wall thickness or designated Schedule</span>
+                    </li>
+                    <li className="flex items-start" data-testid="marking-test">
+                      <Star className="w-4 h-4 text-gold-primary mr-2 mt-1 flex-shrink-0" />
+                      <span>Hydrostatic test pressures and/or NDE</span>
+                    </li>
+                    <li className="flex items-start" data-testid="marking-heat">
+                      <Star className="w-4 h-4 text-gold-primary mr-2 mt-1 flex-shrink-0" />
+                      <span>Heat Number</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Pressure Rating Table */}
         <section className="py-16 bg-white" data-testid="pressure-rating-section">
           <div className="container mx-auto px-4">
