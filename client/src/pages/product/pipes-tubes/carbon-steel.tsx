@@ -347,6 +347,251 @@ export default function CarbonSteelPipes() {
           </div>
         </section>
 
+        {/* Individual Product Variants */}
+        <section className="py-16 bg-white" data-testid="product-variants-section">
+          <div className="container mx-auto px-4">
+            <div className="max-w-6xl mx-auto">
+              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="variants-title">
+                Carbon Steel Pipe Product Variants
+              </h2>
+              
+              <div className="space-y-12">
+                {/* A106 Grade B Detailed */}
+                <div className="bg-gray-50 p-8 rounded-lg shadow-md" data-testid="a106-grade-b-variant">
+                  <div className="grid lg:grid-cols-3 gap-8">
+                    <div className="lg:col-span-2">
+                      <h3 className="text-2xl font-semibold text-navy-primary mb-4">ASTM A106 Grade B Seamless Pipes</h3>
+                      <p className="text-gray-700 mb-4">
+                        The most widely used grade of seamless carbon steel pipe for high-temperature service. ASTM A106 Grade B 
+                        offers excellent mechanical properties and is suitable for bending, flanging, and similar forming operations.
+                      </p>
+                      <div className="grid md:grid-cols-2 gap-4 mb-4">
+                        <div>
+                          <h4 className="font-semibold text-navy-primary mb-2">Key Specifications:</h4>
+                          <ul className="text-sm text-gray-700 space-y-1">
+                            <li>• Standard: ASTM A106 / ASME SA106</li>
+                            <li>• Size Range: ½" to 8" NB</li>
+                            <li>• Schedules: 40 (STD), 80 (XH)</li>
+                            <li>• Manufacturing: Hot finished or cold drawn</li>
+                          </ul>
+                        </div>
+                        <div>
+                          <h4 className="font-semibold text-navy-primary mb-2">Applications:</h4>
+                          <ul className="text-sm text-gray-700 space-y-1">
+                            <li>• High-temperature steam lines</li>
+                            <li>• Power plant boiler tubes</li>
+                            <li>• Refinery process piping</li>
+                            <li>• Chemical plant pressure piping</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex items-center justify-center">
+                      <img 
+                        src="https://textronsteelalloys.com/wp-content/uploads/2018/12/carbon-300x300.jpg" 
+                        alt="ASTM A106 Grade B Carbon Steel Seamless Pipe"
+                        className="w-48 h-48 object-cover rounded-lg shadow-sm"
+                        loading="lazy"
+                        width="300"
+                        height="300"
+                        data-testid="a106-product-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                {/* A333 Grade 6 */}
+                <div className="bg-gray-50 p-8 rounded-lg shadow-md" data-testid="a333-grade-6-variant">
+                  <div className="grid lg:grid-cols-3 gap-8">
+                    <div className="lg:col-span-2">
+                      <h3 className="text-2xl font-semibold text-navy-primary mb-4">ASTM A333 Grade 6 Low-Temperature Pipes</h3>
+                      <p className="text-gray-700 mb-4">
+                        Seamless carbon steel pipes specifically designed for low-temperature service applications. A333 Grade 6 
+                        maintains excellent impact toughness at sub-zero temperatures, making it ideal for cryogenic applications.
+                      </p>
+                      <div className="grid md:grid-cols-2 gap-4 mb-4">
+                        <div>
+                          <h4 className="font-semibold text-navy-primary mb-2">Key Features:</h4>
+                          <ul className="text-sm text-gray-700 space-y-1">
+                            <li>• Low-temperature impact toughness</li>
+                            <li>• Seamless construction</li>
+                            <li>• Normalized or normalized and tempered</li>
+                            <li>• Full MTC and impact test reports</li>
+                          </ul>
+                        </div>
+                        <div>
+                          <h4 className="font-semibold text-navy-primary mb-2">Applications:</h4>
+                          <ul className="text-sm text-gray-700 space-y-1">
+                            <li>• LNG (Liquefied Natural Gas) plants</li>
+                            <li>• Cryogenic storage systems</li>
+                            <li>• Low-temperature process piping</li>
+                            <li>• Refrigeration systems</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex items-center justify-center">
+                      <img 
+                        src="https://textronsteelalloys.com/wp-content/uploads/2022/06/a333-gr6-seamless-pipe-300x300.jpg" 
+                        alt="A333 Grade 6 Seamless Pipe JSL MSL 3.1 MTC"
+                        className="w-48 h-48 object-cover rounded-lg shadow-sm"
+                        loading="lazy"
+                        width="300"
+                        height="300"
+                        data-testid="a333-product-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                {/* AISI 4130 */}
+                <div className="bg-gray-50 p-8 rounded-lg shadow-md" data-testid="aisi-4130-variant">
+                  <div className="grid lg:grid-cols-3 gap-8">
+                    <div className="lg:col-span-2">
+                      <h3 className="text-2xl font-semibold text-navy-primary mb-4">AISI 4130 / SAE 4130 Alloy Steel Pipes</h3>
+                      <p className="text-gray-700 mb-4">
+                        Chromium-molybdenum alloy steel pipes offering superior strength and toughness properties. AISI 4130 provides 
+                        excellent weldability and is heat treatable to achieve various mechanical property combinations.
+                      </p>
+                      <div className="grid md:grid-cols-2 gap-4 mb-4">
+                        <div>
+                          <h4 className="font-semibold text-navy-primary mb-2">Alloy Composition:</h4>
+                          <ul className="text-sm text-gray-700 space-y-1">
+                            <li>• Chromium: 0.80-1.10%</li>
+                            <li>• Molybdenum: 0.15-0.25%</li>
+                            <li>• Carbon: 0.28-0.33%</li>
+                            <li>• Heat treatable for various properties</li>
+                          </ul>
+                        </div>
+                        <div>
+                          <h4 className="font-semibold text-navy-primary mb-2">Applications:</h4>
+                          <ul className="text-sm text-gray-700 space-y-1">
+                            <li>• Aerospace structural components</li>
+                            <li>• Automotive drive shafts</li>
+                            <li>• Oil & gas drilling equipment</li>
+                            <li>• High-stress pressure applications</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex items-center justify-center">
+                      <img 
+                        src="https://textronsteelalloys.com/wp-content/uploads/2022/07/aisi-sae-4130-1.7218-25CRMO-300x300.jpg" 
+                        alt="AISI 4130 SAE 4130 1.7218 25CrMo4 Seamless Pipes Tubes"
+                        className="w-48 h-48 object-cover rounded-lg shadow-sm"
+                        loading="lazy"
+                        width="300"
+                        height="300"
+                        data-testid="aisi-4130-product-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                {/* API 5L */}
+                <div className="bg-gray-50 p-8 rounded-lg shadow-md" data-testid="api-5l-variant">
+                  <div className="grid lg:grid-cols-3 gap-8">
+                    <div className="lg:col-span-2">
+                      <h3 className="text-2xl font-semibold text-navy-primary mb-4">API 5L PSL-1 / PSL-2 Line Pipes</h3>
+                      <p className="text-gray-700 mb-4">
+                        Specification for line pipe used in oil and gas transmission systems. API 5L pipes are designed to handle 
+                        the transportation of gas, water, and oil in the natural gas and oil industries.
+                      </p>
+                      <div className="grid md:grid-cols-2 gap-4 mb-4">
+                        <div>
+                          <h4 className="font-semibold text-navy-primary mb-2">Grade Options:</h4>
+                          <ul className="text-sm text-gray-700 space-y-1">
+                            <li>• API 5L Grade B</li>
+                            <li>• API 5L X42, X46, X52</li>
+                            <li>• API 5L X56, X60, X65, X70</li>
+                            <li>• PSL-1 and PSL-2 specifications</li>
+                          </ul>
+                        </div>
+                        <div>
+                          <h4 className="font-semibold text-navy-primary mb-2">Applications:</h4>
+                          <ul className="text-sm text-gray-700 space-y-1">
+                            <li>• Oil transmission pipelines</li>
+                            <li>• Natural gas distribution</li>
+                            <li>• Offshore pipeline systems</li>
+                            <li>• Cross-country transmission lines</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex items-center justify-center">
+                      <img 
+                        src="https://textronsteelalloys.com/wp-content/uploads/2019/01/api-5l-x52-psl-1-2-seamless-pipe-300x300.jpg" 
+                        alt="API 5L Seamless Pipe Tube Stockist Supplier"
+                        className="w-48 h-48 object-cover rounded-lg shadow-sm"
+                        loading="lazy"
+                        width="300"
+                        height="300"
+                        data-testid="api-5l-product-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                {/* ASTM A53 Grade B */}
+                <div className="bg-gray-50 p-8 rounded-lg shadow-md" data-testid="a53-grade-b-variant">
+                  <div className="grid lg:grid-cols-3 gap-8">
+                    <div className="lg:col-span-2">
+                      <h3 className="text-2xl font-semibold text-navy-primary mb-4">ASTM A53 Grade B Steel Pipes</h3>
+                      <p className="text-gray-700 mb-4">
+                        Standard specification for pipe, steel, black and hot-dipped, zinc-coated, welded and seamless. 
+                        A53 Grade B is suitable for general structural and pressure applications in water, gas, and steam service.
+                      </p>
+                      <div className="grid md:grid-cols-2 gap-4 mb-4">
+                        <div>
+                          <h4 className="font-semibold text-navy-primary mb-2">Manufacturing Types:</h4>
+                          <ul className="text-sm text-gray-700 space-y-1">
+                            <li>• Seamless (Type S)</li>
+                            <li>• Electric Resistance Welded (Type E)</li>
+                            <li>• Furnace Welded (Type F)</li>
+                            <li>• Black or galvanized finish</li>
+                          </ul>
+                        </div>
+                        <div>
+                          <h4 className="font-semibold text-navy-primary mb-2">Applications:</h4>
+                          <ul className="text-sm text-gray-700 space-y-1">
+                            <li>• Water distribution systems</li>
+                            <li>• Gas distribution networks</li>
+                            <li>• General structural applications</li>
+                            <li>• Steam lines (moderate temperature)</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex items-center justify-center">
+                      <img 
+                        src="https://textronsteelalloys.com/wp-content/uploads/2018/12/carbon-300x300.jpg" 
+                        alt="ASTM A53 Grade B Welded and Seamless Steel Pipe"
+                        className="w-48 h-48 object-cover rounded-lg shadow-sm"
+                        loading="lazy"
+                        width="300"
+                        height="300"
+                        data-testid="a53-product-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* CTA for Product Variants */}
+              <div className="mt-12 text-center bg-navy-primary p-8 rounded-lg" data-testid="variants-cta">
+                <h3 className="text-2xl font-bold text-white mb-4">Need Specific Grade Information?</h3>
+                <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
+                  Our technical team can help you select the right carbon steel pipe grade for your specific application. 
+                  Contact us for detailed specifications, pricing, and availability.
+                </p>
+                <Link href="/contact" className="bg-gold-primary hover:bg-gold-secondary text-navy-primary font-semibold py-3 px-8 rounded-lg transition-colors duration-300 inline-block" data-testid="variants-contact-button">
+                  Get Technical Consultation
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Chemical Composition & Mechanical Properties */}
         <section className="py-16 bg-white" data-testid="technical-specs-section">
           <div className="container mx-auto px-4">
