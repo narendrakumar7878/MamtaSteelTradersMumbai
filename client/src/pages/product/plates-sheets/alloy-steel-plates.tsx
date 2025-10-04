@@ -168,7 +168,7 @@ export default function AlloySteelPlates() {
                   "name": "Mamta Steel",
                   "contactPoint": {
                     "@type": "ContactPoint",
-                    "telephone": "+91-9819322576",
+                    "telephone": "+91 9819322576",
                     "contactType": "sales"
                   }
                 }
@@ -450,7 +450,7 @@ export default function AlloySteelPlates() {
             <div className="flex flex-wrap justify-center gap-4">
               <Button size="lg" className="bg-orange-600 hover:bg-orange-700" data-testid="button-cta-call">
                 <Phone className="mr-2 h-5 w-5" />
-                Call +91-9819322576
+                Call +91 9819322576
               </Button>
               <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-blue-900" data-testid="button-cta-email">
                 <Mail className="mr-2 h-5 w-5" />

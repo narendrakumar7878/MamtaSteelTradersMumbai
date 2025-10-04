@@ -41,7 +41,7 @@ export default function ProductSEO({
         "postalCode": "400001",
         "addressCountry": "IN"
       },
-      "telephone": "+91-9819322576",
+      "telephone": "+91 9819322576",
       "email": "mamtasteeltraders@gmail.com"
     },
     "brand": {

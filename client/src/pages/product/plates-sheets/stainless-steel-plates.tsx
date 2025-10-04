@@ -291,7 +291,7 @@ export default function StainlessSteelPlates() {
                   "name": "Mamta Steel",
                   "contactPoint": {
                     "@type": "ContactPoint",
-                    "telephone": "+91-9819322576",
+                    "telephone": "+91 9819322576",
                     "contactType": "sales"
                   }
                 }
