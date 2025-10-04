@@ -1,5 +1,6 @@
 import ProductSEO from "@/components/ProductSEO";
 import { ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, TrendingUp, Shield, Award, Wrench, Package, Target } from "lucide-react";
+import ss_nots_bolts_mamta_steel_traders_img from "@/assets/SS NOTS BOLTS MAMTA STEEL TRADERS.jpg";
 import { Link } from "wouter";
 
 export default function StainlessSteelWashers() {
@@ -24,7 +25,7 @@ export default function StainlessSteelWashers() {
       standards: ["DIN 125", "ISO 7089", "ASME B18.22.1"],
       applications: ["General assembly", "Structural", "Marine", "Chemical processing"],
       features: ["Even load distribution", "Surface protection", "Prevents embedment"],
-      image: "https://5.imimg.com/data5/SELLER/Default/2023/3/291916365/PS/WK/TN/31502840/stainless-steel-fasteners-250x250.jpg"
+      image: ss_nots_bolts_mamta_steel_traders_img
     },
     {
       name: "Spring Washers (Lock Washers)",
@@ -35,7 +36,7 @@ export default function StainlessSteelWashers() {
       standards: ["DIN 127", "ISO 7980", "ASME B18.21.1"],
       applications: ["Vibrating machinery", "Automotive", "Electronics", "Dynamic loads"],
       features: ["Vibration resistance", "Preload maintenance", "Self-energizing"],
-      image: "https://5.imimg.com/data5/SELLER/Default/2024/12/470522801/FX/AD/VP/69800097/stainless-steel-fasteners-manufacturers-250x250.jpg"
+      image: ss_nots_bolts_mamta_steel_traders_img
     },
     {
       name: "Lock Washers (Toothed)",
@@ -46,7 +47,7 @@ export default function StainlessSteelWashers() {
       standards: ["DIN 6797", "ISO 6798", "Custom"],
       applications: ["Electronics", "Control panels", "Sheet metal", "Electrical connections"],
       features: ["Positive locking", "Torque transmission", "Anti-rotation"],
-      image: "https://5.imimg.com/data5/SELLER/Default/2024/1/379246059/XC/CD/CI/4256871/ss-foundation-bolt-250x250.webp"
+      image: ss_nots_bolts_mamta_steel_traders_img
     },
     {
       name: "Fender Washers (Large Diameter)",
@@ -57,7 +58,7 @@ export default function StainlessSteelWashers() {
       standards: ["ASME B18.22.1", "Custom specifications"],
       applications: ["Roofing", "Signage", "Thin materials", "Repair applications"],
       features: ["Large bearing surface", "Prevents pull-through", "Even stress distribution"],
-      image: "https://5.imimg.com/data5/SELLER/Default/2024/3/396905667/GJ/DV/UM/549408/super-duplex-steel-2507-fasteners-250x250.jpg"
+      image: ss_nots_bolts_mamta_steel_traders_img
     },
     {
       name: "Belleville Washers (Disc Springs)",
@@ -68,7 +69,7 @@ export default function StainlessSteelWashers() {
       standards: ["DIN 2093", "ISO 19690", "ASME B18.21.2"],
       applications: ["Pressure vessels", "Valve assemblies", "Precision equipment", "Preload applications"],
       features: ["High spring rate", "Space efficient", "Predictable deflection"],
-      image: "https://5.imimg.com/data5/SELLER/Default/2023/9/347650627/GC/SP/JQ/1566860/industrial-metal-fasteners-250x250.jpg"
+      image: ss_nots_bolts_mamta_steel_traders_img
     },
     {
       name: "Wave Washers",
@@ -79,7 +80,7 @@ export default function StainlessSteelWashers() {
       standards: ["DIN 137", "Custom specifications"],
       applications: ["Electronics", "Bearings", "Automotive", "Precision instruments"],
       features: ["Continuous contact", "Low spring rate", "Smooth operation"],
-      image: "https://5.imimg.com/data5/SELLER/Default/2022/12/RZ/CM/AZ/1437532/ss-fasteners-250x250.jpg"
+      image: ss_nots_bolts_mamta_steel_traders_img
     }
   ];
 

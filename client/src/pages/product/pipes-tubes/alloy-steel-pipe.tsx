@@ -1,5 +1,6 @@
 import ProductSEO from "@/components/ProductSEO";
 import { ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, TrendingUp, Shield, Award } from "lucide-react";
+import ss_pipe_mamta_steel_traders_img from "@/assets/SS PIPE MAMTA STEEL TRADERS.jpg";
 import { Link } from "wouter";
 
 export default function AlloySteelPipes() {
@@ -175,7 +176,7 @@ export default function AlloySteelPipes() {
                 <div className="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300" data-testid="gallery-a106">
                   <div className="aspect-square mb-4 overflow-hidden rounded-lg">
                     <img 
-                      src="https://textronsteelalloys.com/wp-content/uploads/2018/12/carbon-300x300.jpg" 
+                      src={ss_pipe_mamta_steel_traders_img} 
                       alt="A106 Grade B Carbon Steel Seamless Pipe"
                       className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                       loading="lazy"
@@ -197,7 +198,7 @@ export default function AlloySteelPipes() {
                 <div className="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300" data-testid="gallery-aisi-4130">
                   <div className="aspect-square mb-4 overflow-hidden rounded-lg">
                     <img 
-                      src="https://textronsteelalloys.com/wp-content/uploads/2022/07/aisi-sae-4130-1.7218-25CRMO-300x300.jpg" 
+                      src={ss_pipe_mamta_steel_traders_img} 
                       alt="AISI 4130 SAE 4130 Seamless Pipes Tubes"
                       className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                       loading="lazy"
@@ -219,7 +220,7 @@ export default function AlloySteelPipes() {
                 <div className="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300" data-testid="gallery-p5">
                   <div className="aspect-square mb-4 overflow-hidden rounded-lg">
                     <img 
-                      src="https://textronsteelalloys.com/wp-content/uploads/2018/12/pipes-300x300.jpg" 
+                      src={ss_pipe_mamta_steel_traders_img} 
                       alt="ASTM A335 Grade P5 Alloy Seamless Pipe Tube"
                       className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                       loading="lazy"
@@ -241,7 +242,7 @@ export default function AlloySteelPipes() {
                 <div className="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300" data-testid="gallery-p9">
                   <div className="aspect-square mb-4 overflow-hidden rounded-lg">
                     <img 
-                      src="https://textronsteelalloys.com/wp-content/uploads/2018/12/p1-300x300.jpg" 
+                      src={ss_pipe_mamta_steel_traders_img} 
                       alt="ASTM A335 Grade P9 Alloy Steel Seamless Pipe"
                       className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                       loading="lazy"
@@ -263,7 +264,7 @@ export default function AlloySteelPipes() {
                 <div className="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300" data-testid="gallery-p91">
                   <div className="aspect-square mb-4 overflow-hidden rounded-lg">
                     <img 
-                      src="https://textronsteelalloys.com/wp-content/uploads/2018/12/high-1-300x300.jpg" 
+                      src={ss_pipe_mamta_steel_traders_img} 
                       alt="ASTM A335 Grade P91 High Temperature Alloy Steel Pipe"
                       className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                       loading="lazy"
@@ -285,7 +286,7 @@ export default function AlloySteelPipes() {
                 <div className="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300" data-testid="gallery-p22">
                   <div className="aspect-square mb-4 overflow-hidden rounded-lg">
                     <img 
-                      src="https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png" 
+                      src={ss_pipe_mamta_steel_traders_img} 
                       alt="ASTM A335 Grade P22 Alloy Steel Pipe"
                       className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                       loading="lazy"
@@ -596,7 +597,7 @@ export default function AlloySteelPipes() {
                     </div>
                     <div className="flex items-center justify-center">
                       <img 
-                        src="https://textronsteelalloys.com/wp-content/uploads/2018/12/pipes-300x300.jpg" 
+                        src={ss_pipe_mamta_steel_traders_img} 
                         alt="ASTM A335 Grade P5 Alloy Seamless Pipe Tube"
                         className="w-48 h-48 object-cover rounded-lg shadow-sm"
                         loading="lazy"
@@ -640,7 +641,7 @@ export default function AlloySteelPipes() {
                     </div>
                     <div className="flex items-center justify-center">
                       <img 
-                        src="https://textronsteelalloys.com/wp-content/uploads/2018/12/p1-300x300.jpg" 
+                        src={ss_pipe_mamta_steel_traders_img} 
                         alt="ASTM A335 Grade P9 Alloy Steel Seamless Pipe"
                         className="w-48 h-48 object-cover rounded-lg shadow-sm"
                         loading="lazy"
@@ -684,7 +685,7 @@ export default function AlloySteelPipes() {
                     </div>
                     <div className="flex items-center justify-center">
                       <img 
-                        src="https://textronsteelalloys.com/wp-content/uploads/2018/12/high-1-300x300.jpg" 
+                        src={ss_pipe_mamta_steel_traders_img} 
                         alt="ASTM A335 Grade P91 High Temperature Alloy Steel Pipe"
                         className="w-48 h-48 object-cover rounded-lg shadow-sm"
                         loading="lazy"
@@ -728,7 +729,7 @@ export default function AlloySteelPipes() {
                     </div>
                     <div className="flex items-center justify-center">
                       <img 
-                        src="https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png" 
+                        src={ss_pipe_mamta_steel_traders_img} 
                         alt="ASTM A335 Grade P22 Alloy Steel Pipe"
                         className="w-48 h-48 object-cover rounded-lg shadow-sm"
                         loading="lazy"
@@ -772,7 +773,7 @@ export default function AlloySteelPipes() {
                     </div>
                     <div className="flex items-center justify-center">
                       <img 
-                        src="https://textronsteelalloys.com/wp-content/uploads/2022/07/aisi-sae-4130-1.7218-25CRMO-300x300.jpg" 
+                        src={ss_pipe_mamta_steel_traders_img} 
                         alt="AISI 4130 SAE 4130 Seamless Pipes Tubes"
                         className="w-48 h-48 object-cover rounded-lg shadow-sm"
                         loading="lazy"

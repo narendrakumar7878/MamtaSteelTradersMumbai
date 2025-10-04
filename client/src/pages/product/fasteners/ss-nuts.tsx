@@ -1,5 +1,6 @@
 import ProductSEO from "@/components/ProductSEO";
 import { ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, TrendingUp, Shield, Award, Wrench, Package, Target, Settings } from "lucide-react";
+import ss_nots_bolts_mamta_steel_traders_img from "@/assets/SS NOTS BOLTS MAMTA STEEL TRADERS.jpg";
 import { Link } from "wouter";
 
 export default function StainlessSteelNuts() {
@@ -24,7 +25,7 @@ export default function StainlessSteelNuts() {
       standards: ["DIN 934", "ISO 4032", "ANSI B18.2.2"],
       applications: ["General machinery", "Structural", "Marine", "Chemical"],
       features: ["Standard height", "Chamfered edges", "Machine threads"],
-      image: "https://5.imimg.com/data5/SELLER/Default/2023/3/291916365/PS/WK/TN/31502840/stainless-steel-fasteners-250x250.jpg"
+      image: ss_nots_bolts_mamta_steel_traders_img
     },
     {
       name: "Nyloc Nuts (Lock Nuts)",
@@ -34,7 +35,7 @@ export default function StainlessSteelNuts() {
       standards: ["DIN 985", "ISO 7040", "ANSI B18.2.27"],
       applications: ["Automotive", "Aerospace", "Vibrating machinery", "Critical joints"],
       features: ["Nylon insert", "Reusable", "Temperature resistant"],
-      image: "https://5.imimg.com/data5/SELLER/Default/2024/12/470522801/FX/AD/VP/69800097/stainless-steel-fasteners-manufacturers-250x250.jpg"
+      image: ss_nots_bolts_mamta_steel_traders_img
     },
     {
       name: "Flange Nuts",
@@ -44,7 +45,7 @@ export default function StainlessSteelNuts() {
       standards: ["DIN 6923", "ISO 4161", "JIS B1190"],
       applications: ["Sheet metal", "Thin materials", "HVAC", "Electronics"],
       features: ["Integrated washer", "No separate washer needed", "Even load distribution"],
-      image: "https://5.imimg.com/data5/SELLER/Default/2024/1/379246059/XC/CD/CI/4256871/ss-foundation-bolt-250x250.webp"
+      image: ss_nots_bolts_mamta_steel_traders_img
     },
     {
       name: "Square Nuts",
@@ -54,7 +55,7 @@ export default function StainlessSteelNuts() {
       standards: ["DIN 557", "ISO 4036", "ANSI B18.2.13"],
       applications: ["Furniture", "Wood construction", "Channel fittings", "T-slots"],
       features: ["Four-sided grip", "Prevents rotation", "Large bearing surface"],
-      image: "https://5.imimg.com/data5/SELLER/Default/2024/3/396905667/GJ/DV/UM/549408/super-duplex-steel-2507-fasteners-250x250.jpg"
+      image: ss_nots_bolts_mamta_steel_traders_img
     },
     {
       name: "Weld Nuts",
@@ -64,7 +65,7 @@ export default function StainlessSteelNuts() {
       standards: ["DIN 929", "ISO 4161", "AWS D1.3"],
       applications: ["Sheet metal assembly", "Automotive", "Appliances", "Enclosures"],
       features: ["Welding projections", "Permanent attachment", "Flush mounting"],
-      image: "https://5.imimg.com/data5/SELLER/Default/2023/9/347650627/GC/SP/JQ/1566860/industrial-metal-fasteners-250x250.jpg"
+      image: ss_nots_bolts_mamta_steel_traders_img
     },
     {
       name: "Thin Nuts (Jam Nuts)",
@@ -74,7 +75,7 @@ export default function StainlessSteelNuts() {
       standards: ["DIN 439", "ISO 4035", "ANSI B18.2.2"],
       applications: ["Lock nuts", "Space constraints", "Fine adjustment", "Double nutting"],
       features: ["Reduced height", "Space saving", "Lock nut function"],
-      image: "https://5.imimg.com/data5/SELLER/Default/2022/12/RZ/CM/AZ/1437532/ss-fasteners-250x250.jpg"
+      image: ss_nots_bolts_mamta_steel_traders_img
     }
   ];
 

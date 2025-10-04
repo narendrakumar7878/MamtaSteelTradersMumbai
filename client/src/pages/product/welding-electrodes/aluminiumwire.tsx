@@ -1,5 +1,6 @@
 import ProductSEO from "@/components/ProductSEO";
 import { ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, TrendingUp, Shield, Award, Zap, Settings } from "lucide-react";
+import aluminium_mamta_steel_traders_img from "@/assets/ALUMINIUM MAMTA STEEL TRADERS.jpg";
 import { Link } from "wouter";
 import { useState } from "react";
 
@@ -22,7 +23,7 @@ export default function AluminiumWire() {
     {
       id: 1,
       title: "ER5356 Aluminum TIG/MIG Wire",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: aluminium_mamta_steel_traders_img,
       alt: "ER5356 Aluminum TIG MIG Wire Filler Rods",
       description: "5% magnesium aluminum filler metal with excellent corrosion resistance and high shear strength",
       awsClass: "ER5356",
@@ -40,7 +41,7 @@ export default function AluminiumWire() {
     {
       id: 2,
       title: "ER1100 Aluminum TIG/MIG Wire",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2022/12/ER1100-300x300.jpg",
+      image: aluminium_mamta_steel_traders_img,
       alt: "ER1100 Aluminum TIG MIG Wire Al99",
       description: "99% pure aluminum filler metal for welding commercially pure aluminum",
       awsClass: "ER1100",
@@ -58,7 +59,7 @@ export default function AluminiumWire() {
     {
       id: 3,
       title: "ER4043 Aluminum TIG/MIG Wire",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: aluminium_mamta_steel_traders_img,
       alt: "ER4043 Aluminum TIG MIG Wire Filler Rods",
       description: "Silicon-aluminum filler metal with excellent fluidity and crater filling characteristics",
       awsClass: "ER4043",
@@ -76,7 +77,7 @@ export default function AluminiumWire() {
     {
       id: 4,
       title: "ERCuAl-A1 Aluminum Bronze Wire",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2024/04/ERCuAl-A1-Wire-TIG-MIG-300x300.jpeg",
+      image: aluminium_mamta_steel_traders_img,
       alt: "ERCuAl-A1 Aluminum Bronze TIG MIG Wire C61000",
       description: "Aluminum bronze wire with excellent strength and corrosion resistance",
       awsClass: "ERCuAl-A1",
@@ -94,7 +95,7 @@ export default function AluminiumWire() {
     {
       id: 5,
       title: "ERCuAl-A2 Aluminum Bronze Wire",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2024/04/ERCuAl-A2-Wire-300x300.jpeg",
+      image: aluminium_mamta_steel_traders_img,
       alt: "ERCuAl-A2 Aluminum Bronze TIG MIG Wire C61800",
       description: "High strength aluminum bronze for demanding applications",
       awsClass: "ERCuAl-A2",
@@ -112,7 +113,7 @@ export default function AluminiumWire() {
     {
       id: 6,
       title: "ERCuAl-A3 Aluminum Bronze Wire",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2024/04/ERCuAl-A3-Wire-TIG-MIG-300x300.jpeg",
+      image: aluminium_mamta_steel_traders_img,
       alt: "ERCuAl-A3 Aluminum Bronze TIG MIG Wire C62400",
       description: "Premium aluminum bronze with maximum strength and durability",
       awsClass: "ERCuAl-A3",
@@ -130,7 +131,7 @@ export default function AluminiumWire() {
     {
       id: 7,
       title: "ERCuSi-A Silicon Bronze Wire",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2024/04/ERCUSI-A-300x300.jpg",
+      image: aluminium_mamta_steel_traders_img,
       alt: "ERCuSi-A Silicon Bronze TIG MIG Wire",
       description: "Silicon bronze wire for general purpose welding and brazing",
       awsClass: "ERCuSi-A",
@@ -148,7 +149,7 @@ export default function AluminiumWire() {
     {
       id: 8,
       title: "General Purpose Aluminum Alloy Wire",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2019/09/aluminium-alloy-tig-mig-wire-300x300.jpg",
+      image: aluminium_mamta_steel_traders_img,
       alt: "General Purpose Aluminum Alloy TIG MIG Wire",
       description: "Multi-purpose aluminum welding wire for various applications",
       awsClass: "Multiple Classifications",

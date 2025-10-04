@@ -1,5 +1,6 @@
 import ProductSEO from "@/components/ProductSEO";
 import { ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, TrendingUp, Shield, Award, Zap, Settings, Users, Globe } from "lucide-react";
+import ss_plate_mamta_steel_traders_img from "@/assets/SS PLATE  MAMTA STEEL TRADERS.jpg";
 import { Link } from "wouter";
 
 export default function AluminiumAlloyPlates() {
@@ -61,31 +62,31 @@ export default function AluminiumAlloyPlates() {
   // Product gallery data
   const productImages = [
     {
-      src: "https://textronsteelalloys.com/wp-content/uploads/2025/05/2024-T351-Plates-Sheets-300x300.webp",
+      src: ss_plate_mamta_steel_traders_img,
       alt: "2024 T351 Plates Sheets AMS QQ-A-250/4, ASTM B209",
       title: "2024 T351 Aluminum Plates",
       description: "High-strength 2024 T351 aluminum plates for aerospace applications"
     },
     {
-      src: "https://textronsteelalloys.com/wp-content/uploads/2019/07/Aluminum-Sheet-5052-h32-300x300.jpg", 
+      src: ss_plate_mamta_steel_traders_img, 
       alt: "5052-h32-sheet-stockist-supplier",
       title: "5052-H32 Aluminum Sheet",
       description: "Marine grade 5052-H32 aluminum sheets with excellent corrosion resistance"
     },
     {
-      src: "https://textronsteelalloys.com/wp-content/uploads/2025/05/Aluminium-5083-300x300.jpeg",
+      src: ss_plate_mamta_steel_traders_img,
       alt: "Aluminium 5083 Temper O, H111, H112, H116", 
       title: "5083 Aluminum Plates",
       description: "5083 aluminum plates in various tempers for marine and structural applications"
     },
     {
-      src: "https://textronsteelalloys.com/wp-content/uploads/2019/07/6061-t6-plate-Aluminium-Plates-Sheets-Exporters-Suppliers-300x300.jpg",
+      src: ss_plate_mamta_steel_traders_img,
       alt: "6061-t6-plate-sheet",
       title: "6061 T6 Aluminum Plates", 
       description: "Versatile 6061 T6 aluminum plates for general engineering applications"
     },
     {
-      src: "https://textronsteelalloys.com/wp-content/uploads/2019/07/7075-plate-t6-t651-aluminum-300x300.jpg",
+      src: ss_plate_mamta_steel_traders_img,
       alt: "7075-PLATE-T6-T651-STOCKIST",
       title: "7075 T6/T651 Aluminum Plates",
       description: "Ultra-high strength 7075 aluminum plates for aerospace and defense applications"

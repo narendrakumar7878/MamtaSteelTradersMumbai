@@ -1,5 +1,6 @@
 import ProductSEO from "@/components/ProductSEO";
 import { ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, TrendingUp, Shield, Award, Zap, Settings, Users, Globe } from "lucide-react";
+import ss_plate_mamta_steel_traders_img from "@/assets/SS PLATE  MAMTA STEEL TRADERS.jpg";
 import { Link } from "wouter";
 
 export default function CarbonSteelPlates() {
@@ -46,7 +47,7 @@ export default function CarbonSteelPlates() {
   // Product gallery data for carbon steel products
   const carbonSteelProducts = [
     {
-      src: "https://textronsteelalloys.com/wp-content/uploads/2019/07/50crv4-en47-plate-sheet-300x300.jpg",
+      src: ss_plate_mamta_steel_traders_img,
       alt: "50CrV4 EN47 Spring Steel Plate Sheet",
       title: "50CrV4 Sheet (EN47 Spring Steel)",
       description: "High-quality spring steel plates for automotive and machinery applications",
@@ -54,7 +55,7 @@ export default function CarbonSteelPlates() {
       applications: ["Spring Manufacturing", "Automotive Components", "Machinery Parts"]
     },
     {
-      src: "https://textronsteelalloys.com/wp-content/uploads/2018/12/a283-grade-c-plate-carbon-steel-15-1000-2000mm.jpg",
+      src: ss_plate_mamta_steel_traders_img,
       alt: "A283 Grade C Carbon Steel Plate",
       title: "A283 Grade C Plate",
       description: "Low to intermediate tensile strength carbon steel plates for general use",
@@ -62,7 +63,7 @@ export default function CarbonSteelPlates() {
       applications: ["General Fabrication", "Structural Components", "Tanks"]
     },
     {
-      src: "https://textronsteelalloys.com/wp-content/uploads/2024/09/ASTM-A36-PLATE-SHEET-MUMBAI-INDIA-300x300.jpg",
+      src: ss_plate_mamta_steel_traders_img,
       alt: "ASTM A36 Steel Plate Sheet Mumbai JSW Evonith",
       title: "ASTM A36 Steel Plate",
       description: "Most widely used structural carbon steel for construction and fabrication",
@@ -70,7 +71,7 @@ export default function CarbonSteelPlates() {
       applications: ["Structural Construction", "Bridges", "Buildings"]
     },
     {
-      src: "https://textronsteelalloys.com/wp-content/uploads/2019/03/C45-Plate-300x300.jpg",
+      src: ss_plate_mamta_steel_traders_img,
       alt: "Carbon Steel C45 Plate Sheet",
       title: "C45 Plates | Sheets",
       description: "Medium carbon steel with good strength and machinability",
@@ -78,7 +79,7 @@ export default function CarbonSteelPlates() {
       applications: ["Machinery Parts", "Shafts", "Gears"]
     },
     {
-      src: "https://textronsteelalloys.com/wp-content/uploads/2018/12/en19-plate-sheet-mumbai-300x300.jpg",
+      src: ss_plate_mamta_steel_traders_img,
       alt: "EN19 Steel Plate Sheet",
       title: "EN19 Plates",
       description: "Alloy steel with excellent strength and toughness properties",

@@ -1,5 +1,6 @@
 import ProductSEO from "@/components/ProductSEO";
 import { ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, TrendingUp, Shield, Award, Wrench, Package, Target, Settings } from "lucide-react";
+import ss_nots_bolts_mamta_steel_traders_img from "@/assets/SS NOTS BOLTS MAMTA STEEL TRADERS.jpg";
 import { Link } from "wouter";
 
 export default function StainlessSteelBolts() {
@@ -23,7 +24,7 @@ export default function StainlessSteelBolts() {
       sizes: "M3-M100, 1/8\"-4\"",
       standards: ["DIN 933", "ISO 4017", "ANSI B18.2.1"],
       applications: ["Structural", "Machinery", "Marine", "Chemical"],
-      image: "https://5.imimg.com/data5/SELLER/Default/2023/3/291916365/PS/WK/TN/31502840/stainless-steel-fasteners-250x250.jpg"
+      image: ss_nots_bolts_mamta_steel_traders_img
     },
     {
       name: "Socket Head Cap Screws",
@@ -32,7 +33,7 @@ export default function StainlessSteelBolts() {
       sizes: "M3-M48, #4-2\"",
       standards: ["DIN 912", "ISO 4762", "ASME B18.3.1M"],
       applications: ["Precision machinery", "Aerospace", "Medical devices"],
-      image: "https://5.imimg.com/data5/SELLER/Default/2024/12/470522801/FX/AD/VP/69800097/stainless-steel-fasteners-manufacturers-250x250.jpg"
+      image: ss_nots_bolts_mamta_steel_traders_img
     },
     {
       name: "Flange Bolts",
@@ -41,7 +42,7 @@ export default function StainlessSteelBolts() {
       sizes: "M5-M20, 3/16\"-3/4\"",
       standards: ["DIN 6921", "ISO 4162", "JIS B1189"],
       applications: ["Automotive", "Electronics", "HVAC systems"],
-      image: "https://5.imimg.com/data5/SELLER/Default/2024/1/379246059/XC/CD/CI/4256871/ss-foundation-bolt-250x250.webp"
+      image: ss_nots_bolts_mamta_steel_traders_img
     },
     {
       name: "U-Bolts",
@@ -50,7 +51,7 @@ export default function StainlessSteelBolts() {
       sizes: "M6-M48, 1/4\"-2\"",
       standards: ["ASTM A193", "DIN 3570", "Custom"],
       applications: ["Pipe clamps", "Marine rigging", "Construction"],
-      image: "https://5.imimg.com/data5/SELLER/Default/2024/3/396905667/GJ/DV/UM/549408/super-duplex-steel-2507-fasteners-250x250.jpg"
+      image: ss_nots_bolts_mamta_steel_traders_img
     },
     {
       name: "Foundation Bolts (Anchor Bolts)",
@@ -59,7 +60,7 @@ export default function StainlessSteelBolts() {
       sizes: "M12-M100, 1/2\"-4\"",
       standards: ["ASTM A193", "ASTM A320", "DIN 529"],
       applications: ["Building foundations", "Equipment mounting", "Bridge construction"],
-      image: "https://5.imimg.com/data5/SELLER/Default/2023/9/347650627/GC/SP/JQ/1566860/industrial-metal-fasteners-250x250.jpg"
+      image: ss_nots_bolts_mamta_steel_traders_img
     },
     {
       name: "J-Bolts",
@@ -68,7 +69,7 @@ export default function StainlessSteelBolts() {
       sizes: "M8-M48, 5/16\"-2\"",
       standards: ["Custom", "DIN 3570", "ASTM A193"],
       applications: ["Concrete anchoring", "Structural securing", "Foundation work", "Equipment mounting"],
-      image: "https://5.imimg.com/data5/SELLER/Default/2022/12/RZ/CM/AZ/1437532/ss-fasteners-250x250.jpg"
+      image: ss_nots_bolts_mamta_steel_traders_img
     }
   ];
 

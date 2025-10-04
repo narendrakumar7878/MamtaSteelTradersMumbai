@@ -1,5 +1,6 @@
 import ProductSEO from "@/components/ProductSEO";
 import { ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, TrendingUp, Shield, Award } from "lucide-react";
+import ss_nots_bolts_mamta_steel_traders_img from "@/assets/SS NOTS BOLTS MAMTA STEEL TRADERS.jpg";
 import { Link } from "wouter";
 
 export default function HighTensileFasteners() {
@@ -21,37 +22,37 @@ export default function HighTensileFasteners() {
       name: "Hex Head Bolts",
       description: "High tensile hexagon head bolts in various grades",
       grades: ["8.8", "10.9", "12.9", "B7", "B16"],
-      image: "https://5.imimg.com/data5/SELLER/Default/2023/3/291916365/PS/WK/TN/31502840/stainless-steel-fasteners-250x250.jpg"
+      image: ss_nots_bolts_mamta_steel_traders_img
     },
     {
       name: "Socket Head Cap Screws",
       description: "Allen key socket head cap screws for precision applications",
       grades: ["12.9", "A4-80", "A2-70"],
-      image: "https://5.imimg.com/data5/SELLER/Default/2024/12/470522801/FX/AD/VP/69800097/stainless-steel-fasteners-manufacturers-250x250.jpg"
+      image: ss_nots_bolts_mamta_steel_traders_img
     },
     {
       name: "Stud Bolts",
       description: "Fully threaded stud bolts for flange applications",
       grades: ["B7", "B16", "L7", "316L"],
-      image: "https://5.imimg.com/data5/SELLER/Default/2024/1/379246059/XC/CD/CI/4256871/ss-foundation-bolt-250x250.webp"
+      image: ss_nots_bolts_mamta_steel_traders_img
     },
     {
       name: "Hex Nuts",
       description: "High strength hex nuts matching bolt grades",
       grades: ["2H", "2HM", "A4-80", "A2-70"],
-      image: "https://5.imimg.com/data5/SELLER/Default/2023/9/347650627/GC/SP/JQ/1566860/industrial-metal-fasteners-250x250.jpg"
+      image: ss_nots_bolts_mamta_steel_traders_img
     },
     {
       name: "Washers",
       description: "Hardened washers for high tensile applications",
       grades: ["HV300", "A4", "A2", "Carbon Steel"],
-      image: "https://5.imimg.com/data5/SELLER/Default/2022/12/RZ/CM/AZ/1437532/ss-fasteners-250x250.jpg"
+      image: ss_nots_bolts_mamta_steel_traders_img
     },
     {
       name: "U-Bolts",
       description: "Heavy duty U-bolts for structural applications",
       grades: ["8.8", "10.9", "316L", "304L"],
-      image: "https://5.imimg.com/data5/SELLER/Default/2024/3/396905667/GJ/DV/UM/549408/super-duplex-steel-2507-fasteners-250x250.jpg"
+      image: ss_nots_bolts_mamta_steel_traders_img
     }
   ];
 

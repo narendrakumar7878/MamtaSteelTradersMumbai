@@ -1,10 +1,16 @@
 import { useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import ssPipeImg from "@/assets/SS PIPE MAMTA STEEL TRADERS.jpg";
+import ssPlateImg from "@/assets/SS PLATE  MAMTA STEEL TRADERS.jpg";
+import ssFlangeImg from "@/assets/SS FLANGE  MAMTA STEEL TRADERS.jpg";
+import ssRoundBarImg from "@/assets/SS ROUND BAR  MAMTA STEEL TRADERS.jpg";
+import ssFittingImg from "@/assets/SS FORGE FITTING  MAMTA STEEL TRADERS.jpg";
+import ssRodImg from "@/assets/SS ROD  MAMTA STEEL TRADERS.jpg";
 
 const slides = [
   {
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080&q=80",
+    image: ssPipeImg,
     title: "Premium Stainless Steel Pipes & Tubes",
     description: "High-quality stainless steel pipes and tubes, available in all grades for industrial and commercial use. ISO-certified manufacturing with global supply.",
     alt: "Stainless Steel Pipes and Tubes",
@@ -14,7 +20,7 @@ const slides = [
     ]
   },
   {
-    image: "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080&q=80",
+    image: ssPlateImg,
     title: "Industrial Steel Plates & Sheets",
     description: "Premium MS/SS plates, checkered sheets, and hot-rolled steel sheets for construction, manufacturing, and structural applications with superior durability.",
     alt: "Industrial Steel Plates and Sheets",
@@ -24,7 +30,7 @@ const slides = [
     ]
   },
   {
-    image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080&q=80",
+    image: ssFlangeImg,
     title: "High-Pressure Steel Flanges & Fittings",
     description: "Precision-engineered weld neck, slip-on, threaded flanges and pipe fittings in ANSI, DIN, and JIS standards for critical industrial applications.",
     alt: "Steel Flanges and Pipe Fittings",
@@ -34,7 +40,7 @@ const slides = [
     ]
   },
   {
-    image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080&q=80",
+    image: ssRoundBarImg,
     title: "Structural Steel Bars & Rounds",
     description: "High-tensile strength steel bars, round bars, and reinforcement bars for construction, engineering, and manufacturing projects with certified quality.",
     alt: "Steel Bars and Round Bars",
@@ -44,7 +50,7 @@ const slides = [
     ]
   },
   {
-    image: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080&q=80",
+    image: ssFittingImg,
     title: "Industrial Steel Valves & Components",
     description: "Gate valves, ball valves, and industrial steel components for oil & gas, petrochemical, and power generation industries with full traceability.",
     alt: "Industrial Steel Valves",
@@ -54,7 +60,7 @@ const slides = [
     ]
   },
   {
-    image: "https://images.unsplash.com/photo-1565043666747-69f6646db940?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080&q=80",
+    image: ssRodImg,
     title: "Welding Electrodes & Steel Tools",
     description: "Professional-grade welding electrodes, cutting tools, and specialized steel tools for fabrication, construction, and industrial maintenance applications.",
     alt: "Welding Electrodes and Steel Tools",

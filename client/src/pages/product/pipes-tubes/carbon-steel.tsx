@@ -1,5 +1,6 @@
 import ProductSEO from "@/components/ProductSEO";
 import { ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, TrendingUp, Shield, Award, ExternalLink } from "lucide-react";
+import ss_pipe_mamta_steel_traders_img from "@/assets/SS PIPE MAMTA STEEL TRADERS.jpg";
 import { Link } from "wouter";
 
 export default function CarbonSteelPipes() {
@@ -33,35 +34,35 @@ export default function CarbonSteelPipes() {
   const products = [
     {
       name: "A106 Grade B",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2018/12/carbon-300x300.jpg",
+      image: ss_pipe_mamta_steel_traders_img,
       alt: "ASTM A106 Grade B Carbon Steel Seamless Pipe",
       description: "High-temperature service seamless carbon steel pipes. Most commonly used grade for industrial applications.",
       applications: ["Power Plants", "Refineries", "High-Temperature Steam Lines"]
     },
     {
       name: "A333 Grade 6 Pipes",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2022/06/a333-gr6-seamless-pipe-300x300.jpg",
+      image: ss_pipe_mamta_steel_traders_img,
       alt: "A333 Grade 6 Seamless Pipe JSL MSL 3.1 MTC",
       description: "Low-temperature carbon steel seamless pipes designed for cryogenic applications.",
       applications: ["Cryogenic Storage", "LNG Plants", "Low-Temperature Processing"]
     },
     {
       name: "AISI 4130 / SAE 4130",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2022/07/aisi-sae-4130-1.7218-25CRMO-300x300.jpg",
+      image: ss_pipe_mamta_steel_traders_img,
       alt: "AISI 4130 SAE 4130 1.7218 25CrMo4 Seamless Pipes Tubes",
       description: "Chromium-molybdenum alloy steel pipes with excellent strength and toughness properties.",
       applications: ["Aerospace", "Automotive", "Oil & Gas Drilling"]
     },
     {
       name: "API 5L PSL-1 / PSL-2 Pipes",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2019/01/api-5l-x52-psl-1-2-seamless-pipe-300x300.jpg",
+      image: ss_pipe_mamta_steel_traders_img,
       alt: "API 5L Seamless Pipe Tube Stockist Supplier",
       description: "Line pipes for oil and gas transmission systems meeting API 5L specifications.",
       applications: ["Oil Pipelines", "Gas Transmission", "Offshore Applications"]
     },
     {
       name: "ASTM A53 Grade B",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2018/12/carbon-300x300.jpg",
+      image: ss_pipe_mamta_steel_traders_img,
       alt: "ASTM A53 Grade B Welded and Seamless Steel Pipe",
       description: "Standard specification for welded and seamless steel pipe for general structural and pressure applications.",
       applications: ["Water Lines", "Gas Distribution", "Structural Applications"]
@@ -388,7 +389,7 @@ export default function CarbonSteelPipes() {
                     </div>
                     <div className="flex items-center justify-center">
                       <img 
-                        src="https://textronsteelalloys.com/wp-content/uploads/2018/12/carbon-300x300.jpg" 
+                        src={ss_pipe_mamta_steel_traders_img} 
                         alt="ASTM A106 Grade B Carbon Steel Seamless Pipe"
                         className="w-48 h-48 object-cover rounded-lg shadow-sm"
                         loading="lazy"
@@ -432,7 +433,7 @@ export default function CarbonSteelPipes() {
                     </div>
                     <div className="flex items-center justify-center">
                       <img 
-                        src="https://textronsteelalloys.com/wp-content/uploads/2022/06/a333-gr6-seamless-pipe-300x300.jpg" 
+                        src={ss_pipe_mamta_steel_traders_img} 
                         alt="A333 Grade 6 Seamless Pipe JSL MSL 3.1 MTC"
                         className="w-48 h-48 object-cover rounded-lg shadow-sm"
                         loading="lazy"
@@ -476,7 +477,7 @@ export default function CarbonSteelPipes() {
                     </div>
                     <div className="flex items-center justify-center">
                       <img 
-                        src="https://textronsteelalloys.com/wp-content/uploads/2022/07/aisi-sae-4130-1.7218-25CRMO-300x300.jpg" 
+                        src={ss_pipe_mamta_steel_traders_img} 
                         alt="AISI 4130 SAE 4130 1.7218 25CrMo4 Seamless Pipes Tubes"
                         className="w-48 h-48 object-cover rounded-lg shadow-sm"
                         loading="lazy"
@@ -520,7 +521,7 @@ export default function CarbonSteelPipes() {
                     </div>
                     <div className="flex items-center justify-center">
                       <img 
-                        src="https://textronsteelalloys.com/wp-content/uploads/2019/01/api-5l-x52-psl-1-2-seamless-pipe-300x300.jpg" 
+                        src={ss_pipe_mamta_steel_traders_img} 
                         alt="API 5L Seamless Pipe Tube Stockist Supplier"
                         className="w-48 h-48 object-cover rounded-lg shadow-sm"
                         loading="lazy"
@@ -564,7 +565,7 @@ export default function CarbonSteelPipes() {
                     </div>
                     <div className="flex items-center justify-center">
                       <img 
-                        src="https://textronsteelalloys.com/wp-content/uploads/2018/12/carbon-300x300.jpg" 
+                        src={ss_pipe_mamta_steel_traders_img} 
                         alt="ASTM A53 Grade B Welded and Seamless Steel Pipe"
                         className="w-48 h-48 object-cover rounded-lg shadow-sm"
                         loading="lazy"

@@ -1,19 +1,26 @@
 import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
+import ssPipeImg from "@/assets/SS PIPE MAMTA STEEL TRADERS.jpg";
+import ssTubesImg from "@/assets/SS TUBES MAMTA STEEL TRADERS.jpg";
+import ssPlateImg from "@/assets/SS PLATE  MAMTA STEEL TRADERS.jpg";
+import ssRoundBarImg from "@/assets/SS ROUND BAR  MAMTA STEEL TRADERS.jpg";
+import ssFittingImg from "@/assets/SS FORGE FITTING  MAMTA STEEL TRADERS.jpg";
+import ssFlangeImg from "@/assets/SS FLANGE  MAMTA STEEL TRADERS.jpg";
+import ssCoilImg from "@/assets/SS COIL MAMTA STEEL TRADERS.jpg";
 
 // Product images configuration - easily changeable
 const PRODUCT_IMAGES = {
-  pipes: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400",
-  tubes: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400",
-  sheets: "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400",
-  plates: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400",
-  roundBars: "https://images.unsplash.com/photo-1565001969194-ca0b2d2b3fb4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400",
-  flatBars: "https://images.unsplash.com/photo-1513828583688-c52646db42da?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400",
-  squareBars: "https://images.unsplash.com/photo-1581092916314-f86b1c5cc3da?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400",
-  hollowBars: "https://images.unsplash.com/photo-1581092916314-f86b1c5cc3da?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400",
-  forgedBars: "https://images.unsplash.com/photo-1609081219090-a6d81d3085bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400",
-  fittings: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400",
-  flanges: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400"
+  pipes: ssPipeImg,
+  tubes: ssTubesImg,
+  sheets: ssPlateImg,
+  plates: ssPlateImg,
+  roundBars: ssRoundBarImg,
+  flatBars: ssRoundBarImg,
+  squareBars: ssRoundBarImg,
+  hollowBars: ssRoundBarImg,
+  forgedBars: ssRoundBarImg,
+  fittings: ssFittingImg,
+  flanges: ssFlangeImg
 };
 
 const products = [

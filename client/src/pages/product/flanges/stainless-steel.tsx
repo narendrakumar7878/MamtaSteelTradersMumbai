@@ -1,5 +1,6 @@
 import ProductSEO from "@/components/ProductSEO";
 import { ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, TrendingUp, Shield, Award, Zap, Settings, Users, Factory, Globe } from "lucide-react";
+import ss_round_bar_mamta_steel_traders_img from "@/assets/SS ROUND BAR  MAMTA STEEL TRADERS.jpg";
 import { Link } from "wouter";
 import { useState } from "react";
 
@@ -85,7 +86,7 @@ export default function StainlessSteelFlanges() {
       sizes: "1/2\" to 60\" NB",
       pressureClass: "150# to 2500#",
       features: ["Full penetration weld", "Excellent stress distribution", "High strength"],
-      image: "https://textronsteelalloys.com/wp-content/uploads/2013/06/k-300x300.jpg"
+      image: ss_round_bar_mamta_steel_traders_img
     },
     {
       type: "Slip On Flanges", 
@@ -93,7 +94,7 @@ export default function StainlessSteelFlanges() {
       sizes: "1/2\" to 24\" NB",
       pressureClass: "150# to 600#",
       features: ["Easy installation", "Lower cost", "Good for low pressure"],
-      image: "https://textronsteelalloys.com/wp-content/uploads/2013/06/k-300x300.jpg"
+      image: ss_round_bar_mamta_steel_traders_img
     },
     {
       type: "Socket Weld Flanges",
@@ -101,7 +102,7 @@ export default function StainlessSteelFlanges() {
       sizes: "1/2\" to 3\" NB",
       pressureClass: "3000# to 9000#",
       features: ["High pressure capability", "Small bore applications", "Smooth bore"],
-      image: "https://textronsteelalloys.com/wp-content/uploads/2013/06/k-300x300.jpg"
+      image: ss_round_bar_mamta_steel_traders_img
     },
     {
       type: "Threaded Flanges",
@@ -109,7 +110,7 @@ export default function StainlessSteelFlanges() {
       sizes: "1/2\" to 4\" NB",
       pressureClass: "150# to 300#",
       features: ["No welding required", "Easy maintenance", "Quick installation"],
-      image: "https://textronsteelalloys.com/wp-content/uploads/2013/06/k-300x300.jpg"
+      image: ss_round_bar_mamta_steel_traders_img
     },
     {
       type: "Blind Flanges",
@@ -117,7 +118,7 @@ export default function StainlessSteelFlanges() {
       sizes: "1/2\" to 60\" NB", 
       pressureClass: "150# to 2500#",
       features: ["Complete closure", "Pressure testing", "Easy access"],
-      image: "https://textronsteelalloys.com/wp-content/uploads/2013/06/k-300x300.jpg"
+      image: ss_round_bar_mamta_steel_traders_img
     },
     {
       type: "Lap Joint Flanges",
@@ -125,7 +126,7 @@ export default function StainlessSteelFlanges() {
       sizes: "1/2\" to 24\" NB",
       pressureClass: "150# to 600#", 
       features: ["Easy alignment", "Cost effective", "Stub end compatibility"],
-      image: "https://textronsteelalloys.com/wp-content/uploads/2013/06/k-300x300.jpg"
+      image: ss_round_bar_mamta_steel_traders_img
     }
   ];
 

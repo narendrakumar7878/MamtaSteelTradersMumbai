@@ -1,11 +1,12 @@
 import { Link } from "wouter";
 import ProductSEO from "@/components/ProductSEO";
+import ss_round_bar_mamta_steel_traders_img from "@/assets/SS ROUND BAR  MAMTA STEEL TRADERS.jpg";
 
 const stainlessSteelProducts = [
   {
     id: 1,
     name: "1.4122 Round Bars (X39CrMo17-1)",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2025/07/1.4122-Round-Bars-300x300.jpg",
+    image: ss_round_bar_mamta_steel_traders_img,
     description: "Premium 1.4122 (X39CrMo17-1) martensitic stainless steel round bars with excellent hardness and corrosion resistance.",
     specifications: ["1.4122 Grade", "X39CrMo17-1", "Martensitic SS", "High Hardness"],
     applications: ["Cutlery", "Surgical instruments", "Valve components", "Pump shafts"]
@@ -13,7 +14,7 @@ const stainlessSteelProducts = [
   {
     id: 2,
     name: "316L Urea Grade (1.4435)",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2022/08/EN-1.4435-Round-Bars-316l-urea-grade-300x300.jpg",
+    image: ss_round_bar_mamta_steel_traders_img,
     description: "High-quality 1.4435 (316L Urea Grade) with enhanced corrosion resistance for urea and chemical processing applications.",
     specifications: ["1.4435 Grade", "316L UG", "Urea Grade", "Enhanced Corrosion Resistant"],
     applications: ["Urea plants", "Chemical processing", "Fertilizer industry", "Process equipment"]
@@ -21,7 +22,7 @@ const stainlessSteelProducts = [
   {
     id: 3,
     name: "904L Round Bar (1.4539)",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2024/01/ss-904l-1.4539-300x300.jpg",
+    image: ss_round_bar_mamta_steel_traders_img,
     description: "Super austenitic 904L (1.4539, N08904) stainless steel round bars with superior corrosion resistance in acids.",
     specifications: ["904L Grade", "1.4539", "N08904", "Super Austenitic"],
     applications: ["Chemical processing", "Pharmaceuticals", "Oil & gas", "Pulp & paper"]
@@ -29,7 +30,7 @@ const stainlessSteelProducts = [
   {
     id: 4,
     name: "17-7PH Wire",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2025/02/17-7PH-Spring-Wire-Steel-300x300.jpg",
+    image: ss_round_bar_mamta_steel_traders_img,
     description: "High-strength 17-7PH precipitation hardening stainless steel wire with excellent spring properties and corrosion resistance.",
     specifications: ["17-7PH Grade", "Spring Steel", "High Strength", "Corrosion Resistant"],
     applications: ["Springs", "Wire forms", "Fasteners", "Aerospace components"]
@@ -37,7 +38,7 @@ const stainlessSteelProducts = [
   {
     id: 5,
     name: "304Cu2 Wire",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2025/01/304CU2-Wire-300x300.jpg",
+    image: ss_round_bar_mamta_steel_traders_img,
     description: "Premium 304Cu2 austenitic stainless steel wire with copper addition for enhanced deep drawing properties.",
     specifications: ["304Cu2 Grade", "Copper Modified", "Deep Drawing", "Austenitic SS"],
     applications: ["Deep drawing", "Wire forms", "Kitchen appliances", "Automotive parts"]
@@ -45,7 +46,7 @@ const stainlessSteelProducts = [
   {
     id: 6,
     name: "317L Round Bar",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2018/01/ss317-300x300.jpg",
+    image: ss_round_bar_mamta_steel_traders_img,
     description: "High-performance 317L stainless steel round bars with enhanced molybdenum content for superior corrosion resistance.",
     specifications: ["317L Grade", "High Molybdenum", "Corrosion Resistant", "Austenitic SS"],
     applications: ["Chemical processing", "Marine applications", "Pulp & paper", "Pharmaceuticals"]
@@ -53,7 +54,7 @@ const stainlessSteelProducts = [
   {
     id: 7,
     name: "416 Round Bars (1.4005)",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2025/01/416RoundBar-300x300.jpg",
+    image: ss_round_bar_mamta_steel_traders_img,
     description: "Free machining 416 (1.4005, X12CrS13) martensitic stainless steel round bars with excellent machinability.",
     specifications: ["416 Grade", "1.4005", "X12CrS13", "Free Machining"],
     applications: ["Machined components", "Valve parts", "Pump components", "Fasteners"]
@@ -61,7 +62,7 @@ const stainlessSteelProducts = [
   {
     id: 8,
     name: "430F Round Bars (S43020)",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2024/03/430f-300x300.jpg",
+    image: ss_round_bar_mamta_steel_traders_img,
     description: "Premium 430F (S43020, 1.4105) ferritic stainless steel round bars with superior machinability and magnetic properties.",
     specifications: ["430F Grade", "S43020", "1.4105", "Ferritic SS"],
     applications: ["Automotive parts", "Appliance components", "Hardware", "Machined parts"]
@@ -69,7 +70,7 @@ const stainlessSteelProducts = [
   {
     id: 9,
     name: "A286 Round Bar",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2019/12/a286-nickel-alloy-round-bars-300x300.jpg",
+    image: ss_round_bar_mamta_steel_traders_img,
     description: "High-temperature A286 (660) precipitation hardening stainless steel round bars for aerospace and high-temperature applications.",
     specifications: ["A286 Grade", "Alloy 660", "High Temperature", "Aerospace Grade"],
     applications: ["Aerospace components", "Gas turbines", "High-temperature fasteners", "Jet engine parts"]

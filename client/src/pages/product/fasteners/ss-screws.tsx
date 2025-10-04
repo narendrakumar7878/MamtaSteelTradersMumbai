@@ -1,5 +1,6 @@
 import ProductSEO from "@/components/ProductSEO";
 import { ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, TrendingUp, Shield, Award, Wrench, Package, Target } from "lucide-react";
+import ss_nots_bolts_mamta_steel_traders_img from "@/assets/SS NOTS BOLTS MAMTA STEEL TRADERS.jpg";
 import { Link } from "wouter";
 
 export default function StainlessSteelScrews() {
@@ -24,7 +25,7 @@ export default function StainlessSteelScrews() {
       applications: ["Precision machinery", "Aerospace", "Medical devices", "Automotive"],
       driveType: "Hex Allen Key",
       headStyle: "Cylindrical",
-      image: "https://5.imimg.com/data5/SELLER/Default/2024/12/470522801/FX/AD/VP/69800097/stainless-steel-fasteners-manufacturers-250x250.jpg"
+      image: ss_nots_bolts_mamta_steel_traders_img
     },
     {
       name: "Socket Button Head Screws",
@@ -35,7 +36,7 @@ export default function StainlessSteelScrews() {
       applications: ["Electronics", "Furniture", "Decorative", "Automotive trim"],
       driveType: "Hex Allen Key",
       headStyle: "Low Profile Button",
-      image: "https://5.imimg.com/data5/SELLER/Default/2023/3/291916365/PS/WK/TN/31502840/stainless-steel-fasteners-250x250.jpg"
+      image: ss_nots_bolts_mamta_steel_traders_img
     },
     {
       name: "Countersunk Head Screws",
@@ -46,7 +47,7 @@ export default function StainlessSteelScrews() {
       applications: ["Furniture", "Architectural", "Marine hardware", "Electronics enclosures"],
       driveType: "Hex Allen, Phillips",
       headStyle: "Flat Countersunk",
-      image: "https://5.imimg.com/data5/SELLER/Default/2024/1/379246059/XC/CD/CI/4256871/ss-foundation-bolt-250x250.webp"
+      image: ss_nots_bolts_mamta_steel_traders_img
     },
     {
       name: "Wood Screws",
@@ -57,7 +58,7 @@ export default function StainlessSteelScrews() {
       applications: ["Outdoor furniture", "Marine decking", "Construction", "Cabinetry"],
       driveType: "Phillips, Slotted, Torx",
       headStyle: "Pan, Flat, Round",
-      image: "https://5.imimg.com/data5/SELLER/Default/2024/3/396905667/GJ/DV/UM/549408/super-duplex-steel-2507-fasteners-250x250.jpg"
+      image: ss_nots_bolts_mamta_steel_traders_img
     },
     {
       name: "Self-Tapping Screws",
@@ -68,7 +69,7 @@ export default function StainlessSteelScrews() {
       applications: ["HVAC", "Automotive", "Electronics", "Sheet metal assembly"],
       driveType: "Phillips, Hex, Torx",
       headStyle: "Pan, Flat, Hex",
-      image: "https://5.imimg.com/data5/SELLER/Default/2023/9/347650627/GC/SP/JQ/1566860/industrial-metal-fasteners-250x250.jpg"
+      image: ss_nots_bolts_mamta_steel_traders_img
     },
     {
       name: "Thumb Screws",
@@ -79,7 +80,7 @@ export default function StainlessSteelScrews() {
       applications: ["Laboratory equipment", "Food processing", "Access panels", "Adjustment screws"],
       driveType: "Hand Operation",
       headStyle: "Knurled Thumb",
-      image: "https://5.imimg.com/data5/SELLER/Default/2022/12/RZ/CM/AZ/1437532/ss-fasteners-250x250.jpg"
+      image: ss_nots_bolts_mamta_steel_traders_img
     }
   ];
 

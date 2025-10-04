@@ -1,11 +1,12 @@
 import { Link } from "wouter";
 import ProductSEO from "@/components/ProductSEO";
+import mamta_steel_traders000_img from "@/assets/MAMTA STEEL TRADERS000.jpg";
 
 const hastelloyProducts = [
   {
     id: 1,
     name: "Hastelloy B2 Round Bars",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2024/03/Hastelloy-B2-Round-Bars-300x300.png",
+    image: mamta_steel_traders000_img,
     description: "Premium Hastelloy B2 (UNS N10665, DIN 2.4617) round bars with excellent resistance to hydrochloric acid and reducing environments.",
     specifications: ["Hastelloy B2", "UNS N10665", "DIN 2.4617", "Molybdenum Based"],
     applications: ["Chemical processing", "Hydrochloric acid service", "Reducing environments", "Heat exchangers"]
@@ -13,7 +14,7 @@ const hastelloyProducts = [
   {
     id: 2,
     name: "Hastelloy C22 Round Bars",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2024/03/2.4602-300x300.jpg",
+    image: mamta_steel_traders000_img,
     description: "High-performance Hastelloy C22 (Alloy 22, N06022, DIN 2.4602) with superior corrosion resistance in oxidizing and reducing environments.",
     specifications: ["Hastelloy C22", "Alloy 22", "N06022", "DIN 2.4602"],
     applications: ["Chemical processing", "Pollution control", "Waste treatment", "Pharmaceutical industry"]
@@ -21,7 +22,7 @@ const hastelloyProducts = [
   {
     id: 3,
     name: "Hastelloy C276 Round Bar",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2020/12/Hastelloy-C276-Round-Bar-300x300.jpg",
+    image: mamta_steel_traders000_img,
     description: "Premium Hastelloy C276 nickel-molybdenum-chromium alloy with exceptional corrosion resistance in severe chemical environments.",
     specifications: ["Hastelloy C276", "Nickel Alloy", "Chemical Resistant", "High Temperature"],
     applications: ["Chemical processing", "Flue gas desulfurization", "Pollution control", "Pharmaceutical equipment"]

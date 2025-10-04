@@ -1,293 +1,294 @@
 import ProductSEO from "@/components/ProductSEO";
 import { ArrowRight, Phone, Mail, ShoppingCart, Filter, ChevronDown } from "lucide-react";
 import { Link } from "wouter";
+import alloys_steel_mamta_steel_traders_img from "@/assets/ALLOYS STEEL  MAMTA STEEL TRADERS.jpg";
 
 export default function AlloySteelRoundBars() {
   const products = [
     {
       id: 1,
       title: "1.7711 Round Bar",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2024/07/1.7711-Round-Bar-300x300.jpg",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "1.7711 Round Bars",
       link: "/contact"
     },
     {
       id: 2,
       title: "100Cr6 Round Bar",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2019/05/100Cr6-Steel-Round-Bar-52100-300x300.jpg",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "100CR6 Bearing Steel Round bar 52100",
       link: "/contact"
     },
     {
       id: 3,
       title: "15CDV6 Round Bars (1.7734)",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2022/08/15cdv6-round-bar-300x300.jpg",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "15CDV6 Round Bars 1.7734",
       link: "/contact"
     },
     {
       id: 4,
       title: "16MnCr5 Round Bar",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2019/06/16mncr5-round-bar-300x300.jpg",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "16MnCr5 Round Bar Stockist Supplier",
       link: "/contact"
     },
     {
       id: 5,
       title: "17CrNiMo6 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2022/07/18CrNiMo7-6-1.6587-round-bars-300x300.jpg",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "17CrNiMo6 Round bars",
       link: "/contact"
     },
     {
       id: 6,
       title: "18CrNiMo7-6 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2022/07/18CrNiMo7-6-1.6587-round-bars-300x300.jpg",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "18CrNiMo7-6 / 1.6587 Round bars",
       link: "/contact"
     },
     {
       id: 7,
       title: "20MnCr5 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2019/05/20mncr5-Steel-Bars-Manufacturers-Exporters-Suppliers-300x300.jpg",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "20MnCr5 Round Bars Suppliers Stockist",
       link: "/contact"
     },
     {
       id: 8,
       title: "20MnCr5 Round Bar",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2019/07/20mncr5-round-bar-300x300.jpg",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "20MnCr5 Round Bar Supplier Stockist",
       link: "/contact"
     },
     {
       id: 9,
       title: "20NiCrMo2-2 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "20NiCrMo2-2 Round Bars",
       link: "/contact"
     },
     {
       id: 10,
       title: "25CrMo4 Round Bar",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "25CrMo4 Round Bar",
       link: "/contact"
     },
     {
       id: 11,
       title: "30CrNiMo8 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "30CrNiMo8 Round Bars",
       link: "/contact"
     },
     {
       id: 12,
       title: "31CrMoV9 Round Bar",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "31CrMoV9 Round Bar",
       link: "/contact"
     },
     {
       id: 13,
       title: "34CrNiMo6 Round Bar",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "34CrNiMo6 Round Bar",
       link: "/contact"
     },
     {
       id: 14,
       title: "39NiCrMo3 Round Bars / 1.6510",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2024/03/39NiCrMo3-300x300.jpg",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "39NiCrMo3 Round Bars / 1.6510 Round Bars",
       link: "/contact"
     },
     {
       id: 15,
       title: "40Cr7Al10Mo2 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "40Cr7Al10Mo2 Round Bars",
       link: "/contact"
     },
     {
       id: 16,
       title: "40CrMoV4-6 Round Bar",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2024/07/40CrMoV4-6RoundBar-300x300.jpg",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "40CrMoV4-6 Round Bar",
       link: "/contact"
     },
     {
       id: 17,
       title: "4140 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2023/10/SAE-4140-Round-Bars-300x300.jpg",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "SAE 4140 AISI 4140 Round Bars EN19 1.7225 42CRMO4",
       link: "/contact"
     },
     {
       id: 18,
       title: "41Cr4 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2022/07/41cr4-round-bars-300x300.jpg",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "41Cr4 Round Bars EN18",
       link: "/contact"
     },
     {
       id: 19,
       title: "4340 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "4340 Round Bars High Strength",
       link: "/contact"
     },
     {
       id: 20,
       title: "8620 Bright Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2024/04/Alloy-20-Round-Bar-1-300x300.jpg",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "8620 Bright Round Bar",
       link: "/contact"
     },
     {
       id: 21,
       title: "905M39 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "905M39 Round Bars BS 970",
       link: "/contact"
     },
     {
       id: 22,
       title: "A193 Grade B7 Round Bar",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2025/02/ASTM-A193-Grade-B7-Round-Bars-300x300.jpg",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "ASTM A193 Grade B7 Round Bars",
       link: "/contact"
     },
     {
       id: 23,
       title: "AISI 8620 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2019/06/aisi-8620-case-hardening-round-bar.jpg",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "SAE 8620 Round Bars, AISI 8620, 1.6523",
       link: "/contact"
     },
     {
       id: 24,
       title: "42CrMo4 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "42CrMo4 Round Bars EN19",
       link: "/contact"
     },
     {
       id: 25,
       title: "EN8 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "EN8 Carbon Steel Round Bars",
       link: "/contact"
     },
     {
       id: 26,
       title: "EN9 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "EN9 Carbon Steel Round Bars",
       link: "/contact"
     },
     {
       id: 27,
       title: "EN19 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "EN19 Alloy Steel Round Bars",
       link: "/contact"
     },
     {
       id: 28,
       title: "EN24 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "EN24 Alloy Steel Round Bars",
       link: "/contact"
     },
     {
       id: 29,
       title: "4130 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "4130 Chromoly Steel Round Bars",
       link: "/contact"
     },
     {
       id: 30,
       title: "4150 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "4150 Alloy Steel Round Bars",
       link: "/contact"
     },
     {
       id: 31,
       title: "4340V Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "4340V Vacuum Melted Steel Bars",
       link: "/contact"
     },
     {
       id: 32,
       title: "8740 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "8740 Alloy Steel Round Bars",
       link: "/contact"
     },
     {
       id: 33,
       title: "9310 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "9310 Case Hardening Steel Bars",
       link: "/contact"
     },
     {
       id: 34,
       title: "12L14 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "12L14 Free Machining Steel Bars",
       link: "/contact"
     },
     {
       id: 35,
       title: "1144 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "1144 Stress Proof Steel Bars",
       link: "/contact"
     },
     {
       id: 36,
       title: "35CrMo Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "35CrMo Alloy Steel Round Bars",
       link: "/contact"
     },
     {
       id: 37,
       title: "SCM440 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "SCM440 JIS Alloy Steel Bars",
       link: "/contact"
     },
     {
       id: 38,
       title: "SNCM420 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "SNCM420 Case Hardening Steel",
       link: "/contact"
     },
     {
       id: 39,
       title: "50CrMo4 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "50CrMo4 Alloy Steel Round Bars",
       link: "/contact"
     },
     {
       id: 40,
       title: "36NiCrMo4 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "36NiCrMo4 High Tensile Steel Bars",
       link: "/contact"
     },
     {
       id: 41,
       title: "38NiCrMo4 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "38NiCrMo4 High Strength Steel Bars",
       link: "/contact"
     }

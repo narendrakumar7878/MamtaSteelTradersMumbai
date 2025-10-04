@@ -1,5 +1,6 @@
 import ProductSEO from "@/components/ProductSEO";
 import { ArrowRight, Phone, Mail, MapPin, Star, CheckCircle, TrendingUp, Shield, Award } from "lucide-react";
+import aluminium_mamta_steel_traders_img from "@/assets/ALUMINIUM MAMTA STEEL TRADERS.jpg";
 import { Link } from "wouter";
 
 export default function AluminiumAlloyRoundBars() {
@@ -7,7 +8,7 @@ export default function AluminiumAlloyRoundBars() {
     {
       id: 1,
       title: "2014 T6 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2025/05/2014-round-bar-300x300.jpg",
+      image: aluminium_mamta_steel_traders_img,
       alt: "2014 T6 Round Bars Hindalco Jindal",
       link: "/contact",
       description: "High strength aluminum alloy with excellent machinability"
@@ -15,7 +16,7 @@ export default function AluminiumAlloyRoundBars() {
     {
       id: 2,
       title: "2024 T6 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2025/06/2024-T6-T851-Round-Bars-300x300.jpeg",
+      image: aluminium_mamta_steel_traders_img,
       alt: "2024 T6 T851 Round Bars AMS 4339 4112",
       link: "/contact",
       description: "Aerospace grade aluminum with superior strength-to-weight ratio"
@@ -23,7 +24,7 @@ export default function AluminiumAlloyRoundBars() {
     {
       id: 3,
       title: "5083 H111 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2019/11/5083-h111-Aluminium-Round-Bar-300x300.jpg",
+      image: aluminium_mamta_steel_traders_img,
       alt: "5083 H111 Aluminium Round Bar Marine Grade",
       link: "/contact",
       description: "Marine grade aluminum with excellent corrosion resistance"
@@ -31,7 +32,7 @@ export default function AluminiumAlloyRoundBars() {
     {
       id: 4,
       title: "6061 T6 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2025/08/6061-T6-Round-Bars-300x300.jpg",
+      image: aluminium_mamta_steel_traders_img,
       alt: "Aluminium 6061 T6 Round Bars General Purpose",
       link: "/contact",
       description: "Most versatile aluminum alloy for general engineering applications"
@@ -39,7 +40,7 @@ export default function AluminiumAlloyRoundBars() {
     {
       id: 5,
       title: "Aluminium 2024 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2025/04/Aluminium-2024-Round-Bars-300x300.jpeg",
+      image: aluminium_mamta_steel_traders_img,
       alt: "Aluminium 2024 Round Bars Aircraft Grade",
       link: "/contact",
       description: "Aircraft structural components with high fatigue resistance"
@@ -47,7 +48,7 @@ export default function AluminiumAlloyRoundBars() {
     {
       id: 6,
       title: "Aluminium 24345 Round Bar",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: aluminium_mamta_steel_traders_img,
       alt: "Aluminium 24345 Round Bar Special Alloy",
       link: "/contact",
       description: "Specialized aluminum alloy for specific industrial applications"

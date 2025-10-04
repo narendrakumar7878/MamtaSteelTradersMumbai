@@ -1,11 +1,12 @@
 import { Link } from "wouter";
 import ProductSEO from "@/components/ProductSEO";
+import mamta_steel_traders000_img from "@/assets/MAMTA STEEL TRADERS000.jpg";
 
 const enSeriesProducts = [
   {
     id: 1,
     name: "832M13 Round Bar (EN36C)",
-    image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+    image: mamta_steel_traders000_img,
     description: "Premium 832M13 (EN36C) case hardening steel with excellent core strength and surface hardness for automotive applications.",
     specifications: ["832M13 Grade", "EN36C", "Case Hardening Steel", "Automotive Grade"],
     applications: ["Gears", "Shafts", "Automotive components", "Machine parts"]
@@ -13,7 +14,7 @@ const enSeriesProducts = [
   {
     id: 2,
     name: "C55 Round Bars (EN9)",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2024/02/C55-EN9-Round-Bar-JSW-300x300.jpg",
+    image: mamta_steel_traders000_img,
     description: "High-quality C55 EN9 070M55 carbon steel round bars with excellent machinability and strength for general engineering.",
     specifications: ["C55 Grade", "EN9", "070M55", "JSW Steel"],
     applications: ["General engineering", "Machine components", "Shafts", "Pins"]
@@ -21,7 +22,7 @@ const enSeriesProducts = [
   {
     id: 3,
     name: "EN16 Round Bars (605M36)",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2025/08/EN16-Round-Bars-300x300.jpg",
+    image: mamta_steel_traders000_img,
     description: "Premium EN16 (605M36) case hardening steel round bars with superior hardenability and core toughness.",
     specifications: ["EN16 Grade", "605M36", "Case Hardening", "High Hardenability"],
     applications: ["Gears", "Crankshafts", "Heavy duty components", "Machine tools"]
@@ -29,7 +30,7 @@ const enSeriesProducts = [
   {
     id: 4,
     name: "EN18 Round Bars (40Cr4)",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2025/01/EN18-Round-Bars-300x300.jpeg",
+    image: mamta_steel_traders000_img,
     description: "High-strength EN18 (40Cr4/41Cr4) chromium steel round bars with excellent strength and toughness properties.",
     specifications: ["EN18 Grade", "40Cr4", "41Cr4", "Chrome Steel"],
     applications: ["Axles", "Connecting rods", "Bolts", "Heavy machinery"]
@@ -37,7 +38,7 @@ const enSeriesProducts = [
   {
     id: 5,
     name: "EN19 Hex Bar (SAE 4140)",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2024/01/en19-sae-4140-hex-300x300.jpg",
+    image: mamta_steel_traders000_img,
     description: "Premium EN19 (SAE 4140/42CrMo4) hex bars with excellent hardenability and strength for high-stress applications.",
     specifications: ["EN19 Grade", "SAE 4140", "709M40", "42CrMo4"],
     applications: ["High-stress components", "Aerospace parts", "Tool holders", "Machine shafts"]
@@ -45,7 +46,7 @@ const enSeriesProducts = [
   {
     id: 6,
     name: "EN1A Leaded (EN1APb)",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2019/07/en1apb-hex-round-square-en1a-leaded-300x300.jpg",
+    image: mamta_steel_traders000_img,
     description: "EN1A leaded (EN1APb) free machining steel with superior machinability for high-speed machining operations.",
     specifications: ["EN1A Leaded", "EN1APb", "Free Machining", "Lead Content"],
     applications: ["Machined components", "Fasteners", "Screws", "High-speed machining"]
@@ -53,7 +54,7 @@ const enSeriesProducts = [
   {
     id: 7,
     name: "EN1A Non Leaded",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2019/05/EN1a-round-hex-bars-stockist-300x300.jpg",
+    image: mamta_steel_traders000_img,
     description: "High-quality EN1A non-leaded mild steel round bars with excellent weldability and formability for general applications.",
     specifications: ["EN1A Grade", "Non-Leaded", "Mild Steel", "Weldable"],
     applications: ["General fabrication", "Welded structures", "Machined parts", "Construction"]
@@ -61,7 +62,7 @@ const enSeriesProducts = [
   {
     id: 8,
     name: "EN24 Flat Bars (SAE 4340)",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2022/08/EN24-Flat-bar-300x300.jpg",
+    image: mamta_steel_traders000_img,
     description: "Premium EN24 (SAE 4340/34CrNiMo6) flat bars with exceptional strength, toughness and hardenability properties.",
     specifications: ["EN24 Grade", "SAE 4340", "34CrNiMo6", "817M40"],
     applications: ["Aircraft landing gear", "High-strength bolts", "Crankshafts", "Connecting rods"]
@@ -69,7 +70,7 @@ const enSeriesProducts = [
   {
     id: 9,
     name: "EN24 Round Bars (SAE 4340)",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2019/06/en24-alloy-steel-round-bar-300x300.jpg",
+    image: mamta_steel_traders000_img,
     description: "High-performance EN24 (SAE 4340) alloy steel round bars with superior mechanical properties for critical applications.",
     specifications: ["EN24 Grade", "SAE 4340", "Alloy Steel", "High Performance"],
     applications: ["Aerospace components", "High-strength fasteners", "Crankshafts", "Gears"]

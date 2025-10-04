@@ -1,5 +1,6 @@
 import ProductSEO from "@/components/ProductSEO";
 import { ArrowRight, Phone, Mail, ShoppingCart, ArrowLeft, FileText, CheckCircle, Settings, Zap } from "lucide-react";
+import alloys_steel_mamta_steel_traders_img from "@/assets/ALLOYS STEEL  MAMTA STEEL TRADERS.jpg";
 import { Link } from "wouter";
 
 export default function F22RoundBars() {
@@ -145,7 +146,7 @@ export default function F22RoundBars() {
                 </div>
                 <div className="relative">
                   <img
-                    src="https://textronsteelalloys.com/wp-content/uploads/2024/03/F22-Round-Bar-400x400.jpg"
+                    src={alloys_steel_mamta_steel_traders_img}
                     alt="F22 Round Bars ASTM A182 F22"
                     className="w-full rounded-xl shadow-2xl"
                     loading="lazy"

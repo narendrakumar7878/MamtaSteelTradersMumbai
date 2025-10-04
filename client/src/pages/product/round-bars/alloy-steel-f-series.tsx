@@ -1,48 +1,49 @@
 import ProductSEO from "@/components/ProductSEO";
 import { ArrowRight, Phone, Mail, ShoppingCart, ArrowLeft } from "lucide-react";
 import { Link } from "wouter";
+import alloys_steel_mamta_steel_traders_img from "@/assets/ALLOYS STEEL  MAMTA STEEL TRADERS.jpg";
 
 export default function AlloySteelFSeries() {
   const products = [
     {
       id: 1,
       title: "1.7380 Round Bars (F22)",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "1.7380 Round Bars F22",
       link: "/contact"
     },
     {
       id: 2,
       title: "9Cr1Mo Round Bar (F91)",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "9Cr1Mo Round Bar T91 P91 F91",
       link: "/contact"
     },
     {
       id: 3,
       title: "F11 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2024/03/F11-Round-Bar-300x300.jpg",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "F11 Round Bars, ASTM A182 F11 Round Bars",
       link: "/contact"
     },
     {
       id: 4,
       title: "F22 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2024/03/F22-Round-Bar-300x300.jpg",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "ASTM A182 F22 Round Bars",
       link: "/contact"
     },
     {
       id: 5,
       title: "F91 Round Bars",
-      image: "https://textronsteelalloys.com/wp-content/uploads/2024/03/ASTMA182F91RoundBars-300x300.jpg",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "ASTM A182 F91 Round Bars",
       link: "/contact"
     },
     {
       id: 6,
       title: "X10CrMoVNb9-1 Round Bar",
-      image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+      image: alloys_steel_mamta_steel_traders_img,
       alt: "X10CrMoVNb9-1 Round Bar 1.4903",
       link: "/contact"
     }

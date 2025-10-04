@@ -1,11 +1,12 @@
 import { Link } from "wouter";
 import ProductSEO from "@/components/ProductSEO";
+import mamta_steel_traders000_img from "@/assets/MAMTA STEEL TRADERS000.jpg";
 
 const hotWorkProducts = [
   {
     id: 1,
     name: "1.2714 Flat Bars",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2025/01/1.2714-Flat-Bar-300x300.webp",
+    image: mamta_steel_traders000_img,
     description: "Premium 55NiCrMoV7 hot work tool steel flat bars with excellent high-temperature strength and thermal conductivity.",
     specifications: ["DIN 1.2714", "55NiCrMoV7", "High thermal conductivity", "Forging dies applications"],
     applications: ["Die casting dies", "Forging tools", "Extrusion tools", "Hot shear blades"]
@@ -13,7 +14,7 @@ const hotWorkProducts = [
   {
     id: 2,
     name: "H11 Round Bars",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2022/05/h13-Tool-Bars-300x300.jpg",
+    image: mamta_steel_traders000_img,
     description: "AISI H11 (DIN 1.2343) premium hot work tool steel with superior toughness and thermal shock resistance.",
     specifications: ["AISI H11", "DIN 1.2343", "Thermal shock resistant", "Die casting applications"],
     applications: ["Aluminum die casting", "Brass die casting", "Forging dies", "Hot forming tools"]
@@ -21,7 +22,7 @@ const hotWorkProducts = [
   {
     id: 3,
     name: "H13 Flat Bars",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2022/07/H13-FLAT-BARS-300x300.jpg",
+    image: mamta_steel_traders000_img,
     description: "H13 (DIN 1.2344) SKD61 flat bars - premium hot work tool steel with excellent hardenability and toughness.",
     specifications: ["AISI H13", "DIN 1.2344", "SKD61", "X40CrMoV5-1", "T20813"],
     applications: ["Die casting dies", "Extrusion dies", "Forging tools", "Hot work applications"]
@@ -29,7 +30,7 @@ const hotWorkProducts = [
   {
     id: 4,
     name: "H13 Round Bars",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2022/07/H13-300x300.jpg",
+    image: mamta_steel_traders000_img,
     description: "Premium H13 round bars (DIN 1.2344) with exceptional thermal fatigue resistance and high-temperature strength.",
     specifications: ["AISI H13", "DIN 1.2344", "SKD61", "X40CrMoV5-1", "Superior thermal fatigue resistance"],
     applications: ["Aluminum die casting", "Zinc die casting", "Plastic molding", "Hot forging dies"]
@@ -37,7 +38,7 @@ const hotWorkProducts = [
   {
     id: 5,
     name: "H21 Round Bars",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2022/07/h21-round-bars-300x300.jpg",
+    image: mamta_steel_traders000_img,
     description: "AISI H21 (DIN 1.2581) SKD5 premium tungsten hot work steel with excellent high-temperature performance.",
     specifications: ["AISI H21", "DIN 1.2581", "SKD5", "X30WCrV93", "T20821"],
     applications: ["Hot extrusion dies", "Forging dies", "Hot stamping tools", "High-temperature applications"]
@@ -45,7 +46,7 @@ const hotWorkProducts = [
   {
     id: 6,
     name: "S7 Round Bars",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2023/10/S7-Round-Bars-300x300.jpg",
+    image: mamta_steel_traders000_img,
     description: "S7 (DIN 1.2357) shock-resistant tool steel with outstanding impact toughness and wear resistance.",
     specifications: ["AISI S7", "DIN 1.2357", "Shock resistant", "High impact toughness"],
     applications: ["Punches", "Dies", "Hammers", "High impact tooling"]

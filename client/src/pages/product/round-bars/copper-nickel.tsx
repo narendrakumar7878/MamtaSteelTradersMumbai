@@ -1,11 +1,12 @@
 import { Link } from "wouter";
 import ProductSEO from "@/components/ProductSEO";
+import copper_mamta_steel_traders_img from "@/assets/COPPER MAMTA STEEL TRADERS.jpg";
 
 const copperNickelProducts = [
   {
     id: 1,
     name: "C14500 Tellurium Copper",
-    image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+    image: copper_mamta_steel_traders_img,
     description: "High-performance tellurium copper with excellent machinability and thermal conductivity for electrical and electronic applications.",
     specifications: ["C14500 Grade", "Tellurium Enhanced", "High Machinability", "Excellent Thermal Properties"],
     applications: ["Electrical components", "Electronic parts", "Heat exchangers", "Machined components"]
@@ -13,7 +14,7 @@ const copperNickelProducts = [
   {
     id: 2,
     name: "C15000 Zirconium Copper",
-    image: "https://textronsteelalloys.com/wp-content/uploads/woocommerce-placeholder-300x300.png",
+    image: copper_mamta_steel_traders_img,
     description: "Premium CuZr zirconium copper round bars with superior strength and electrical conductivity for demanding applications.",
     specifications: ["C15000 Grade", "Zirconium Copper", "High Strength", "Excellent Conductivity"],
     applications: ["Spot welding electrodes", "Seam welding wheels", "Electrical contacts", "Resistance welding"]
@@ -21,7 +22,7 @@ const copperNickelProducts = [
   {
     id: 3,
     name: "C17510 Beryllium Copper",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2025/06/C17510-300x300.jpg",
+    image: copper_mamta_steel_traders_img,
     description: "High-strength beryllium copper with exceptional spring properties and corrosion resistance for critical applications.",
     specifications: ["C17510 Grade", "Beryllium Copper", "High Strength", "Spring Properties"],
     applications: ["Springs", "Electrical contacts", "Non-sparking tools", "Aerospace components"]
@@ -29,7 +30,7 @@ const copperNickelProducts = [
   {
     id: 4,
     name: "C18150 Chromium Zirconium Copper",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2019/11/C18150-Chromium-Zirconium-Copper-300x300.jpg",
+    image: copper_mamta_steel_traders_img,
     description: "Premium chromium zirconium copper with excellent thermal and electrical properties for industrial applications.",
     specifications: ["C18150 Grade", "Chromium Zirconium", "High Conductivity", "Thermal Stability"],
     applications: ["Electrical contacts", "Heat sinks", "Electronic components", "Industrial equipment"]
@@ -37,7 +38,7 @@ const copperNickelProducts = [
   {
     id: 5,
     name: "C70600 Copper Nickel (90/10)",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2025/06/C70600-Copper-Nickel-Round-Bars-300x300.jpg",
+    image: copper_mamta_steel_traders_img,
     description: "C70600 copper nickel 90/10 round bars with excellent corrosion resistance and marine applications suitability.",
     specifications: ["C70600 Grade", "Cu-Ni 90/10", "Marine Grade", "Corrosion Resistant"],
     applications: ["Marine equipment", "Heat exchangers", "Condensers", "Seawater systems"]
@@ -45,7 +46,7 @@ const copperNickelProducts = [
   {
     id: 6,
     name: "C93200 Round Bar (SAE660)",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2024/07/C93200RoundBar-300x300.jpg",
+    image: copper_mamta_steel_traders_img,
     description: "High-strength C93200 bronze round bars with excellent wear resistance and bearing properties for heavy-duty applications.",
     specifications: ["C93200 Grade", "SAE660", "High Strength", "Wear Resistant"],
     applications: ["Bearings", "Bushings", "Gears", "Heavy machinery"]
@@ -53,7 +54,7 @@ const copperNickelProducts = [
   {
     id: 7,
     name: "Cu-Ni 70/30",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2019/06/copper-nickel-70-30-round-bar-300x300.jpg",
+    image: copper_mamta_steel_traders_img,
     description: "Premium copper nickel 70/30 round bars with superior corrosion resistance for marine and chemical industries.",
     specifications: ["Cu-Ni 70/30", "High Nickel Content", "Corrosion Resistant", "Marine Grade"],
     applications: ["Marine piping", "Heat exchangers", "Chemical processing", "Offshore platforms"]
@@ -61,7 +62,7 @@ const copperNickelProducts = [
   {
     id: 8,
     name: "Cu-Ni 90/10",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2019/06/copper-nickel-90-10-round-bar-300x300.jpg",
+    image: copper_mamta_steel_traders_img,
     description: "High-quality copper nickel 90/10 round bars with excellent seawater corrosion resistance and thermal properties.",
     specifications: ["Cu-Ni 90/10", "Seawater Resistant", "Thermal Stability", "Marine Applications"],
     applications: ["Seawater piping", "Marine condensers", "Heat exchangers", "Desalination plants"]
@@ -69,7 +70,7 @@ const copperNickelProducts = [
   {
     id: 9,
     name: "SAE660 Round Bar",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2024/07/SAE660ROUNDBAR-300x300.jpg",
+    image: copper_mamta_steel_traders_img,
     description: "Premium SAE660 bronze round bars with exceptional bearing properties and wear resistance for industrial applications.",
     specifications: ["SAE660 Grade", "C93200 Equivalent", "Bearing Bronze", "High Load Capacity"],
     applications: ["Heavy-duty bearings", "Industrial bushings", "Wear plates", "Machine components"]

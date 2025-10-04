@@ -1,11 +1,12 @@
 import { Link } from "wouter";
 import ProductSEO from "@/components/ProductSEO";
+import mamta_steel_traders000_img from "@/assets/MAMTA STEEL TRADERS000.jpg";
 
 const precipitationHardeningProducts = [
   {
     id: 1,
     name: "17-4 PH Round Bar",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2019/12/17-4PH-Round-Bar-Stockist-Supplier-300x300.jpg",
+    image: mamta_steel_traders000_img,
     description: "Premium 17-4 PH (630) precipitation hardening stainless steel round bars with excellent strength and corrosion resistance.",
     specifications: ["17-4 PH", "AISI 630", "High Strength", "Corrosion Resistant"],
     applications: ["Aerospace components", "Chemical processing", "Nuclear applications", "High-strength fasteners"]
@@ -13,7 +14,7 @@ const precipitationHardeningProducts = [
   {
     id: 2,
     name: "AISI 630 Round Bars (1.4542)",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2022/06/aisi-630-300x300.jpg",
+    image: mamta_steel_traders000_img,
     description: "High-performance AISI 630 (1.4542, 17-4PH) precipitation hardening stainless steel with superior mechanical properties.",
     specifications: ["AISI 630", "1.4542", "17-4PH", "PH Stainless Steel"],
     applications: ["Pump shafts", "Valve components", "Aircraft fittings", "Marine hardware"]
@@ -21,7 +22,7 @@ const precipitationHardeningProducts = [
   {
     id: 3,
     name: "AMS 5629 13-8Mo",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2025/04/AMS-5629-13-8Mo-300x300.jpg",
+    image: mamta_steel_traders000_img,
     description: "Aerospace-grade AMS 5629 13-8Mo (XM13, 1.4534, UNS S13800) with exceptional strength and toughness for critical applications.",
     specifications: ["AMS 5629", "13-8Mo", "XM13", "1.4534", "S13800"],
     applications: ["Aerospace structures", "Landing gear", "Missile components", "High-performance applications"]
@@ -29,7 +30,7 @@ const precipitationHardeningProducts = [
   {
     id: 4,
     name: "AMS 5643 17-4PH",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2025/05/AMS-5643-17-4PH-Round-Bar-300x300.jpg",
+    image: mamta_steel_traders000_img,
     description: "Aerospace-specification AMS 5643 17-4PH (1.4542, AISI 630) round bars for demanding aerospace and defense applications.",
     specifications: ["AMS 5643", "17-4PH", "1.4542", "AISI 630"],
     applications: ["Aerospace fasteners", "Jet engine parts", "Defense applications", "High-stress components"]
@@ -37,7 +38,7 @@ const precipitationHardeningProducts = [
   {
     id: 5,
     name: "AMS 5659 15-5PH",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2025/04/AMS-5659-15-5PH-300x300.jpg",
+    image: mamta_steel_traders000_img,
     description: "Premium AMS 5659 15-5PH (XM12, UNS S15500, 1.4545) with superior strength-to-weight ratio for aerospace applications.",
     specifications: ["AMS 5659", "15-5PH", "XM12", "S15500", "1.4545"],
     applications: ["Aerospace components", "High-strength bolts", "Springs", "Structural parts"]
@@ -45,7 +46,7 @@ const precipitationHardeningProducts = [
   {
     id: 6,
     name: "Inconel X750",
-    image: "https://textronsteelalloys.com/wp-content/uploads/2020/09/inconel-x750-spring-wire-300x300.jpg",
+    image: mamta_steel_traders000_img,
     description: "High-temperature Inconel X750 precipitation hardening superalloy wire and rods for extreme temperature applications.",
     specifications: ["Inconel X750", "Superalloy", "High Temperature", "Spring Properties"],
     applications: ["Gas turbines", "Jet engines", "High-temperature springs", "Nuclear reactors"]
