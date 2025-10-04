@@ -136,20 +136,20 @@ export default function Footer() {
                   Prakash Pramar
                 </p>
                 <a
-                  href="tel:+919619342876"
+                  href="tel:+919819322576"
                   className="text-blue-400 text-sm hover:text-blue-300 hover:underline transition-all duration-200 transform hover:scale-105"
                   data-testid="contact-phone-1"
                 >
-                  +91 9619342876
+                  +91 9819322576
                 </a>
               </div>
               <div className="transform transition-all duration-200 hover:translate-x-1">
                 <a
-                  href="tel:+919867059210"
+                  href="tel:+919819322576"
                   className="text-blue-400 text-sm hover:text-blue-300 hover:underline transition-all duration-200 transform hover:scale-105"
                   data-testid="contact-phone-2"
                 >
-                  +91 9867059210
+                  +91 9819322576
                 </a>
               </div>
               <div className="transform transition-all duration-200 hover:translate-x-1">

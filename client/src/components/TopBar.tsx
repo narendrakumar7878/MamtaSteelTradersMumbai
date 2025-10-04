@@ -33,12 +33,12 @@ export default function TopBar() {
               mamtasteeltraders@gmail.com
             </a>
             <button 
-              onClick={() => handlePhoneClick("+919819322575")}
+              onClick={() => handlePhoneClick("+919819322576")}
               className="flex items-center hover:text-gold-primary transition-colors cursor-pointer"
               data-testid="button-phone"
             >
               <Phone className="w-4 h-4 mr-2" />
-              +91 98193 22575
+              +91 9819322576
             </button>
           </div>
         </div>
