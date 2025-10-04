@@ -158,8 +158,8 @@ export default function ERCuNiWire() {
                 <Link href="/contact" className="bg-gold-primary hover:bg-gold-secondary text-navy-primary font-semibold py-3 px-8 rounded-lg transition-colors duration-300" data-testid="cta-get-quote">
                   Get Quote Now
                 </Link>
-                <a href="tel:+919876543210" className="border-2 border-white text-white hover:bg-white hover:text-navy-primary font-semibold py-3 px-8 rounded-lg transition-colors duration-300" data-testid="cta-call-now">
-                  Call Now: +91 98765 43210
+                <a href="tel:+919819322576" className="border-2 border-white text-white hover:bg-white hover:text-navy-primary font-semibold py-3 px-8 rounded-lg transition-colors duration-300" data-testid="cta-call-now">
+                  Call Now: +91 9819322576
                 </a>
               </div>
             </div>
@@ -539,11 +539,11 @@ export default function ERCuNiWire() {
                 <div className="flex items-center justify-center space-x-4 text-sm">
                   <div className="flex items-center" data-testid="contact-phone">
                     <Phone className="w-4 h-4 mr-2" />
-                    <a href="tel:+919876543210" className="hover:text-gold-primary transition-colors">+91 98765 43210</a>
+                    <a href="tel:+919819322576" className="hover:text-gold-primary transition-colors">+91 9819322576</a>
                   </div>
                   <div className="flex items-center" data-testid="contact-email">
                     <Mail className="w-4 h-4 mr-2" />
-                    <a href="mailto:info@mamtasteel.com" className="hover:text-gold-primary transition-colors">info@mamtasteel.com</a>
+                    <a href="mailto:mamtasteeltraders@gmail.com" className="hover:text-gold-primary transition-colors">mamtasteeltraders@gmail.com</a>
                   </div>
                 </div>
               </div>

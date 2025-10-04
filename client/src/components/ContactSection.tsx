@@ -6,7 +6,7 @@ const directors = [
   {
     name: "Prakash Pramar",
     title: "Managing Director",
-    phone: "+91 98193 22576"
+    phone: "+91 9819322576"
   },
   {
     name: "Naresh Parmar", 

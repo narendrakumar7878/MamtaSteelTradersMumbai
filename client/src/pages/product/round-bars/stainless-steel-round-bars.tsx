@@ -156,11 +156,11 @@ export default function StainlessSteelRoundBars() {
                 Get Quote Now
               </Link>
               <a 
-                href="tel:+919876543210" 
+                href="tel:+919819322576" 
                 className="bg-transparent border-2 border-white hover:bg-white hover:text-blue-900 px-8 py-3 rounded-lg font-semibold transition-colors" 
                 data-testid="cta-call"
               >
-                Call: +91 98765 43210
+                Call: +91 9819322576
               </a>
             </div>
           </div>
@@ -333,7 +333,7 @@ export default function StainlessSteelRoundBars() {
                 Request Quote
               </Link>
               <a 
-                href="mailto:info@mamtasteel.com" 
+                href="mailto:mamtasteeltraders@gmail.com" 
                 className="bg-transparent border-2 border-white hover:bg-white hover:text-blue-900 px-8 py-3 rounded-lg font-semibold transition-colors"
                 data-testid="bottom-cta-email"
               >

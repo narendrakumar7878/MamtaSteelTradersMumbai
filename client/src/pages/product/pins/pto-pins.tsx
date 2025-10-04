@@ -437,7 +437,7 @@ export default function PTOPins() {
                 </Link>
                 <a href="tel:+919819322576" className="border-2 border-white text-white hover:bg-white hover:text-navy-primary font-semibold py-4 px-8 rounded-lg transition-colors duration-300 inline-flex items-center" data-testid="cta-call-now">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call: +91 98193 22576
+                  Call: +91 9819322576
                 </a>
               </div>
             </div>
@@ -890,13 +890,13 @@ export default function PTOPins() {
                 </Link>
                 <a href="https://wa.me/919819322576" target="_blank" rel="noopener noreferrer" className="border-2 border-white text-white hover:bg-white hover:text-navy-primary font-semibold py-4 px-8 rounded-lg transition-colors duration-300 inline-flex items-center" data-testid="cta-whatsapp">
                   <Phone className="w-5 h-5 mr-2" />
-                  WhatsApp: +91 98193 22576
+                  WhatsApp: +91 9819322576
                 </a>
               </div>
               <div className="grid md:grid-cols-3 gap-6 text-sm">
                 <div className="flex items-center justify-center" data-testid="contact-phone">
                   <Phone className="w-4 h-4 mr-2" />
-                  <a href="tel:+919819322576" className="hover:text-gold-primary transition-colors">+91 98193 22576</a>
+                  <a href="tel:+919819322576" className="hover:text-gold-primary transition-colors">+91 9819322576</a>
                 </div>
                 <div className="flex items-center justify-center" data-testid="contact-email">
                   <Mail className="w-4 h-4 mr-2" />

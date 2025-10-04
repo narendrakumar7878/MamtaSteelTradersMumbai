@@ -264,7 +264,7 @@ export default function AluminiumWire() {
                 <Link href="/contact" className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-200 flex items-center" data-testid="button-get-quote">
                   Get Quote <ArrowRight className="ml-2 w-5 h-5" />
                 </Link>
-                <a href="tel:+919967449008" className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-3 rounded-lg font-semibold transition-colors duration-200 flex items-center" data-testid="button-call-now">
+                <a href="tel:+919819322576" className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-3 rounded-lg font-semibold transition-colors duration-200 flex items-center" data-testid="button-call-now">
                   <Phone className="mr-2 w-5 h-5" />
                   Call Now
                 </a>
@@ -457,11 +457,11 @@ export default function AluminiumWire() {
               <Link href="/contact" className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-200 flex items-center" data-testid="button-contact-us">
                 Contact Us <ArrowRight className="ml-2 w-5 h-5" />
               </Link>
-              <a href="mailto:textron.steel.alloys@gmail.com" className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-3 rounded-lg font-semibold transition-colors duration-200 flex items-center" data-testid="button-email-us">
+              <a href="mailto:mamtasteeltraders@gmail.com" className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-3 rounded-lg font-semibold transition-colors duration-200 flex items-center" data-testid="button-email-us">
                 <Mail className="mr-2 w-5 h-5" />
                 Email Us
               </a>
-              <a href="tel:+919967449008" className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-3 rounded-lg font-semibold transition-colors duration-200 flex items-center" data-testid="button-call-direct">
+              <a href="tel:+919819322576" className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-3 rounded-lg font-semibold transition-colors duration-200 flex items-center" data-testid="button-call-direct">
                 <Phone className="mr-2 w-5 h-5" />
                 +91 99674 49008
               </a>

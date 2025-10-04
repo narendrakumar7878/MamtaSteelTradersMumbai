@@ -284,7 +284,7 @@ export default function StainlessSteelFlanges() {
                 <Link href="/contact" className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-200 flex items-center" data-testid="button-get-quote">
                   Get Best Price Quote <ArrowRight className="ml-2 w-5 h-5" />
                 </Link>
-                <a href="tel:+919193225757" className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-3 rounded-lg font-semibold transition-colors duration-200 flex items-center" data-testid="button-call-now">
+                <a href="tel:+919819322576" className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-3 rounded-lg font-semibold transition-colors duration-200 flex items-center" data-testid="button-call-now">
                   <Phone className="mr-2 w-5 h-5" />
                   Call: +91 91932 25757
                 </a>

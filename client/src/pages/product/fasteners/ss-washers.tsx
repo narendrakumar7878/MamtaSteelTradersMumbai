@@ -434,14 +434,14 @@ export default function StainlessSteelWashers() {
                   <Phone className="w-6 h-6 text-gold-primary" />
                   <div>
                     <p className="font-semibold">Call Us</p>
-                    <p className="text-blue-100">+91 98765 43210</p>
+                    <p className="text-blue-100">+91 9819322576</p>
                   </div>
                 </div>
                 <div className="flex items-center justify-center space-x-3" data-testid="contact-email">
                   <Mail className="w-6 h-6 text-gold-primary" />
                   <div>
                     <p className="font-semibold">Email Us</p>
-                    <p className="text-blue-100">info@mamtasteel.com</p>
+                    <p className="text-blue-100">mamtasteeltraders@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center justify-center space-x-3" data-testid="contact-location">

@@ -72,8 +72,8 @@ export default function MonelPipes() {
                 <Link href="/contact" className="bg-gold-primary hover:bg-gold-secondary text-navy-primary font-semibold py-3 px-8 rounded-lg transition-colors duration-300" data-testid="cta-get-quote">
                   Get Quote Now
                 </Link>
-                <a href="tel:+919876543210" className="border-2 border-white text-white hover:bg-white hover:text-navy-primary font-semibold py-3 px-8 rounded-lg transition-colors duration-300" data-testid="cta-call-now">
-                  Call Now: +91 98765 43210
+                <a href="tel:+919819322576" className="border-2 border-white text-white hover:bg-white hover:text-navy-primary font-semibold py-3 px-8 rounded-lg transition-colors duration-300" data-testid="cta-call-now">
+                  Call Now: +91 9819322576
                 </a>
               </div>
             </div>
@@ -197,7 +197,7 @@ export default function MonelPipes() {
                   <Phone className="w-6 h-6 text-gold-primary" />
                   <div>
                     <p className="font-semibold">Call Us</p>
-                    <p className="text-blue-100">+91 98193 22575</p>
+                    <p className="text-blue-100">+91 9819322576</p>
                   </div>
                 </div>
                 <div className="flex items-center justify-center space-x-3" data-testid="contact-email">
