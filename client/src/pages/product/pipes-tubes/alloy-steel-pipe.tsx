@@ -74,7 +74,7 @@ export default function AlloySteelPipes() {
                   Get Quote Now
                 </Link>
                 <a href="tel:+919876543210" className="border-2 border-white text-white hover:bg-white hover:text-navy-primary font-semibold py-3 px-8 rounded-lg transition-colors duration-300" data-testid="cta-call-now">
-                  Call Now: +91 98765 43210
+                  Call Now: +91 9819322576
                 </a>
               </div>
             </div>
