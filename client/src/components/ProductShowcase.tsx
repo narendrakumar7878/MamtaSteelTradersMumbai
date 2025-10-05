@@ -185,11 +185,11 @@ export default function ProductShowcase() {
         </motion.div>
 
         {/* Infinite Scrolling Carousel */}
-        <div className="max-w-[100vw] mx-auto overflow-hidden px-4 sm:px-6 lg:px-8">
-          <div className="relative overflow-hidden">
+        <div className="w-full overflow-hidden">
+          <div className="relative overflow-hidden mx-4 sm:mx-6 lg:mx-8">
             <div 
               ref={carouselRef}
-              className="flex gap-2 sm:gap-3 md:gap-4 lg:gap-5 pb-6 sm:pb-8 overflow-x-auto min-w-0"
+              className="flex gap-2 sm:gap-3 md:gap-4 lg:gap-5 pb-6 sm:pb-8 overflow-x-auto"
               onMouseEnter={stopAutoplay}
               onMouseLeave={startAutoplay}
               style={{ 
@@ -201,7 +201,7 @@ export default function ProductShowcase() {
               {[...products, ...products].map((product, index) => (
                 <motion.article
                   key={`${product.id}-${index}`}
-                  className="flex-shrink-0 w-[clamp(15rem,70vw,20rem)] sm:w-[clamp(16rem,45vw,18rem)] md:w-[clamp(17rem,35vw,19rem)] lg:w-[clamp(18rem,28vw,20rem)] xl:w-[21rem] bg-white dark:bg-gray-800 rounded-lg sm:rounded-xl shadow-lg overflow-hidden group cursor-pointer transform transition-all duration-500"
+                  className="flex-shrink-0 w-[240px] sm:w-[260px] md:w-[280px] lg:w-[300px] xl:w-[320px] bg-white dark:bg-gray-800 rounded-lg sm:rounded-xl shadow-lg overflow-hidden group cursor-pointer transform transition-all duration-500"
                   whileHover={{ 
                     scale: 1.03, 
                     y: -8,
