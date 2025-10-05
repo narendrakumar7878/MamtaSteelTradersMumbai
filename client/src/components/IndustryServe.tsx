@@ -182,14 +182,14 @@ export default function IndustryServe() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       
       <section 
-        className="py-20 bg-gradient-to-b from-white to-gray-50 dark:from-gray-800 dark:to-gray-900"
+        className="px-3 sm:px-4 lg:px-6 py-8 sm:py-12 lg:py-16 xl:py-20 bg-gradient-to-b from-white to-gray-50 dark:from-gray-800 dark:to-gray-900"
         aria-labelledby="industries-heading"
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
           
           {/* SEO-Optimized Section Header */}
           <motion.div 
-            className="text-center mb-16"
+            className="text-center mb-8 sm:mb-12 lg:mb-16"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
@@ -197,16 +197,16 @@ export default function IndustryServe() {
           >
             <h2 
               id="industries-heading"
-              className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-6 leading-tight"
+              className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6 leading-tight px-2 sm:px-0"
             >
               <span className="text-[#0d2b4e]">Industries We Serve</span> - 
               <span className="text-[#f39c12]"> Steel Solutions Provider Mumbai</span>
             </h2>
-            <p className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 max-w-5xl mx-auto leading-relaxed mb-4">
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-gray-700 dark:text-gray-300 max-w-5xl mx-auto leading-relaxed mb-3 sm:mb-4 px-2 sm:px-4">
               Mamta Steel Traders - Leading Steel Supplier for Construction, Automotive, Manufacturing, Food Processing, 
               Pharmaceutical, Chemical, Water Treatment & Aerospace Industries in Mumbai, India
             </p>
-            <p className="text-lg text-gray-600 dark:text-gray-400 max-w-4xl mx-auto">
+            <p className="text-xs sm:text-sm md:text-base lg:text-lg text-gray-600 dark:text-gray-400 max-w-4xl mx-auto px-2 sm:px-4">
               Premium Quality Stainless Steel, Carbon Steel, Alloy Steel & Mild Steel Products for All Industrial Applications
             </p>
           </motion.div>
@@ -293,7 +293,7 @@ export default function IndustryServe() {
             {/* Carousel Navigation Controls */}
             <button
               onClick={goToPrevious}
-              className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-10 w-10 h-10 sm:w-12 sm:h-12 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-full shadow-lg hover:bg-white hover:shadow-xl dark:hover:bg-gray-700 transition-all duration-300 flex items-center justify-center group"
+              className="absolute left-2 sm:left-3 md:left-4 top-1/2 -translate-y-1/2 z-10 min-w-[44px] min-h-[44px] w-11 h-11 sm:w-12 sm:h-12 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-full shadow-lg hover:bg-white hover:shadow-xl dark:hover:bg-gray-700 transition-all duration-300 flex items-center justify-center group"
               data-testid="carousel-prev-btn"
               aria-label="Previous industries"
             >
@@ -302,7 +302,7 @@ export default function IndustryServe() {
 
             <button
               onClick={goToNext}
-              className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-10 w-10 h-10 sm:w-12 sm:h-12 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-full shadow-lg hover:bg-white hover:shadow-xl dark:hover:bg-gray-700 transition-all duration-300 flex items-center justify-center group"
+              className="absolute right-2 sm:right-3 md:right-4 top-1/2 -translate-y-1/2 z-10 min-w-[44px] min-h-[44px] w-11 h-11 sm:w-12 sm:h-12 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-full shadow-lg hover:bg-white hover:shadow-xl dark:hover:bg-gray-700 transition-all duration-300 flex items-center justify-center group"
               data-testid="carousel-next-btn"
               aria-label="Next industries"
             >
@@ -310,45 +310,51 @@ export default function IndustryServe() {
             </button>
 
             {/* Carousel Dots Indicator */}
-            <div className="flex justify-center mt-6 gap-2">
+            <div className="flex justify-center mt-4 sm:mt-6 gap-1 sm:gap-2">
               {Array.from({ length: Math.ceil(industries.length / visibleItems) }).map((_, index) => (
                 <button
                   key={index}
                   onClick={() => setCurrentIndex(index * visibleItems)}
-                  className={`w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-all duration-300 ${
+                  className={`min-w-[44px] min-h-[44px] p-3 rounded-full transition-all duration-300 flex items-center justify-center ${
+                    Math.floor(currentIndex / visibleItems) === index
+                      ? 'bg-[#f39c12]/20'
+                      : 'bg-transparent'
+                  }`}
+                  aria-label={`Go to slide ${index + 1}`}
+                >
+                  <span className={`w-2 h-2 sm:w-3 sm:h-3 rounded-full block ${
                     Math.floor(currentIndex / visibleItems) === index
                       ? 'bg-[#f39c12] scale-125'
                       : 'bg-gray-300 dark:bg-gray-600 hover:bg-gray-400'
-                  }`}
-                  aria-label={`Go to slide ${index + 1}`}
-                />
+                  }`} />
+                </button>
               ))}
             </div>
           </div>
 
           {/* Additional SEO Content */}
           <motion.div 
-            className="mt-16 bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg"
+            className="mt-8 sm:mt-12 lg:mt-16 bg-white dark:bg-gray-800 rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-8 shadow-lg"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
             variants={cardVariants}
           >
-            <h3 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-6">
+            <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-center text-gray-900 dark:text-white mb-4 sm:mb-6">
               Why Choose Mamta Steel Traders for Your Industry?
             </h3>
-            <div className="grid md:grid-cols-3 gap-6 text-center">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 text-center">
               <div>
-                <h4 className="text-xl font-semibold text-[#0d2b4e] dark:text-blue-400 mb-2">ISO Certified Quality</h4>
-                <p className="text-gray-600 dark:text-gray-400">All steel products meet international quality standards and certifications</p>
+                <h4 className="text-base sm:text-lg lg:text-xl font-semibold text-[#0d2b4e] dark:text-blue-400 mb-2">ISO Certified Quality</h4>
+                <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">All steel products meet international quality standards and certifications</p>
               </div>
               <div>
-                <h4 className="text-xl font-semibold text-[#0d2b4e] dark:text-blue-400 mb-2">Mumbai Stockist</h4>
-                <p className="text-gray-600 dark:text-gray-400">Large inventory and quick delivery across Mumbai and India</p>
+                <h4 className="text-base sm:text-lg lg:text-xl font-semibold text-[#0d2b4e] dark:text-blue-400 mb-2">Mumbai Stockist</h4>
+                <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">Large inventory and quick delivery across Mumbai and India</p>
               </div>
               <div>
-                <h4 className="text-xl font-semibold text-[#0d2b4e] dark:text-blue-400 mb-2">Best Pricing</h4>
-                <p className="text-gray-600 dark:text-gray-400">Competitive rates for bulk orders and regular supplies</p>
+                <h4 className="text-base sm:text-lg lg:text-xl font-semibold text-[#0d2b4e] dark:text-blue-400 mb-2">Best Pricing</h4>
+                <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">Competitive rates for bulk orders and regular supplies</p>
               </div>
             </div>
           </motion.div>

@@ -184,20 +184,19 @@ export default function HeroCarousel() {
               loading={index === 0 ? "eager" : "lazy"}
             />
             <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
-            <div className="relative z-10 container mx-auto px-4 h-full flex items-center">
+            <div className="relative z-10 container mx-auto px-3 sm:px-4 lg:px-6 h-full flex items-center">
               <div className="text-white max-w-3xl">
-                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-orange-400 leading-tight" data-testid={`slide-title-${index}`}>
+                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-3 sm:mb-4 md:mb-6 text-orange-400 leading-tight" data-testid={`slide-title-${index}`}>
                   {slide.title}
                 </h1>
-                <p className="text-lg sm:text-xl md:text-2xl mb-8 text-gray-100 leading-relaxed max-w-2xl" data-testid={`slide-description-${index}`}>
+                <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-4 sm:mb-6 md:mb-8 text-gray-100 leading-relaxed max-w-2xl" data-testid={`slide-description-${index}`}>
                   {slide.description}
                 </p>
-                <div className="flex flex-col sm:flex-row gap-4">
+                <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                   {slide.buttons.map((button, buttonIndex) => (
                     <Button
                       key={buttonIndex}
-                      size="lg"
-                      className={`px-8 py-4 text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg ${
+                      className={`min-h-[44px] px-4 sm:px-6 md:px-8 py-3 sm:py-3.5 md:py-4 text-sm sm:text-base md:text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg ${
                         button.primary 
                           ? 'bg-orange-500 hover:bg-orange-600 text-white border-2 border-orange-500 hover:border-orange-600' 
                           : 'bg-transparent border-2 border-white text-white hover:bg-white hover:text-gray-900'
@@ -218,38 +217,44 @@ export default function HeroCarousel() {
       <button
         onClick={prevSlide}
         disabled={isTransitioning}
-        className="absolute left-2 md:left-6 top-1/2 -translate-y-1/2 bg-black/60 hover:bg-black/80 text-white p-3 md:p-4 rounded-full transition-all duration-300 transform hover:scale-110 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg z-20"
+        className="absolute left-2 sm:left-3 md:left-6 top-1/2 -translate-y-1/2 bg-black/60 hover:bg-black/80 text-white min-w-[44px] min-h-[44px] p-2 sm:p-3 md:p-4 rounded-full transition-all duration-300 transform hover:scale-110 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg z-20 flex items-center justify-center"
         data-testid="carousel-prev"
         aria-label="Previous slide"
       >
-        <ChevronLeft className="w-6 h-6 md:w-8 md:h-8" />
+        <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8" />
       </button>
       
       <button
         onClick={nextSlide}
         disabled={isTransitioning}
-        className="absolute right-2 md:right-6 top-1/2 -translate-y-1/2 bg-black/60 hover:bg-black/80 text-white p-3 md:p-4 rounded-full transition-all duration-300 transform hover:scale-110 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg z-20"
+        className="absolute right-2 sm:right-3 md:right-6 top-1/2 -translate-y-1/2 bg-black/60 hover:bg-black/80 text-white min-w-[44px] min-h-[44px] p-2 sm:p-3 md:p-4 rounded-full transition-all duration-300 transform hover:scale-110 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg z-20 flex items-center justify-center"
         data-testid="carousel-next"
         aria-label="Next slide"
       >
-        <ChevronRight className="w-6 h-6 md:w-8 md:h-8" />
+        <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8" />
       </button>
       
       {/* Pagination Dots */}
-      <div className="absolute bottom-4 md:bottom-8 left-1/2 -translate-x-1/2 flex space-x-3 z-20">
+      <div className="absolute bottom-4 sm:bottom-6 md:bottom-8 left-1/2 -translate-x-1/2 flex space-x-2 sm:space-x-3 z-20">
         {slides.map((_, index) => (
           <button
             key={index}
             onClick={() => goToSlide(index)}
             disabled={isTransitioning}
-            className={`w-3 h-3 md:w-4 md:h-4 rounded-full transition-all duration-300 transform hover:scale-125 disabled:cursor-not-allowed ${
+            className={`min-w-[44px] min-h-[44px] p-3 rounded-full transition-all duration-300 transform hover:scale-125 disabled:cursor-not-allowed flex items-center justify-center ${
               index === currentSlide 
-                ? 'bg-orange-500 shadow-lg ring-2 ring-white/50' 
-                : 'bg-white/60 hover:bg-white/80'
+                ? 'bg-orange-500/20 shadow-lg' 
+                : 'bg-transparent'
             }`}
             data-testid={`carousel-dot-${index}`}
             aria-label={`Go to slide ${index + 1}`}
-          />
+          >
+            <span className={`w-2 h-2 sm:w-3 sm:h-3 md:w-4 md:h-4 rounded-full block ${
+              index === currentSlide 
+                ? 'bg-orange-500 ring-2 ring-white/50' 
+                : 'bg-white/60 hover:bg-white/80'
+            }`} />
+          </button>
         ))}
       </div>
 

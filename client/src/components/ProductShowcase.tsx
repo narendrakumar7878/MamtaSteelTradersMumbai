@@ -155,13 +155,13 @@ export default function ProductShowcase() {
 
   return (
     <section 
-      className="py-20 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800"
+      className="px-3 sm:px-4 lg:px-6 py-8 sm:py-12 lg:py-16 xl:py-20 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800"
       aria-labelledby="products-heading"
     >
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="max-w-7xl mx-auto">
         {/* SEO-Optimized Section Header */}
         <motion.div 
-          className="text-center mb-16"
+          className="text-center mb-8 sm:mb-12 lg:mb-16"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
@@ -169,17 +169,17 @@ export default function ProductShowcase() {
         >
           <h2 
             id="products-heading"
-            className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-6 leading-tight"
+            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6 leading-tight px-2 sm:px-0"
           >
             Premium Quality{" "}
             <span className="text-[#f39c12]">Steel Products</span>{" "}
             & Materials
           </h2>
-          <p className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 max-w-5xl mx-auto leading-relaxed mb-4">
+          <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-gray-700 dark:text-gray-300 max-w-5xl mx-auto leading-relaxed mb-3 sm:mb-4 px-2 sm:px-4">
             Comprehensive Range of Stainless Steel, Carbon Steel, Alloy Steel & Mild Steel Products - 
             Pipes, Tubes, Sheets, Plates, Bars, Flanges, Fittings & More
           </p>
-          <p className="text-lg text-gray-600 dark:text-gray-400 max-w-4xl mx-auto">
+          <p className="text-xs sm:text-sm md:text-base lg:text-lg text-gray-600 dark:text-gray-400 max-w-4xl mx-auto px-2 sm:px-4">
             Manufacturing & Supply Excellence Since Years | ISO Certified | Premium Quality Assurance
           </p>
         </motion.div>
@@ -188,7 +188,7 @@ export default function ProductShowcase() {
         <div className="relative overflow-hidden">
           <div 
             ref={carouselRef}
-            className="flex gap-4 sm:gap-6 lg:gap-8 pb-8 overflow-x-hidden"
+            className="flex gap-3 sm:gap-4 md:gap-6 lg:gap-8 pb-6 sm:pb-8 overflow-x-hidden"
             onMouseEnter={stopAutoplay}
             onMouseLeave={startAutoplay}
             style={{ 
@@ -201,7 +201,7 @@ export default function ProductShowcase() {
             {[...products, ...products].map((product, index) => (
               <motion.article
                 key={`${product.id}-${index}`}
-                className="flex-shrink-0 w-[300px] sm:w-[320px] lg:w-[350px] bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden group cursor-pointer transform transition-all duration-500"
+                className="flex-shrink-0 w-[280px] sm:w-[300px] md:w-[320px] lg:w-[350px] bg-white dark:bg-gray-800 rounded-lg sm:rounded-xl shadow-lg overflow-hidden group cursor-pointer transform transition-all duration-500"
                 whileHover={{ 
                   scale: 1.03, 
                   y: -8,
@@ -209,7 +209,7 @@ export default function ProductShowcase() {
                 }}
                 data-testid={`product-card-${product.id}`}
               >
-                <div className="relative overflow-hidden h-48 sm:h-52">
+                <div className="relative overflow-hidden h-40 sm:h-48 md:h-52">
                   <img 
                     src={product.image} 
                     alt={`${product.title} - Premium quality stainless steel, carbon steel, alloy steel ${product.title.toLowerCase()} supplier Mamta Steel Traders Mumbai India`}
@@ -218,41 +218,41 @@ export default function ProductShowcase() {
                   />
                   
                   {/* Hover Description Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-end p-4">
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-end p-3 sm:p-4">
                     <div className="text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                      <p className="text-sm leading-relaxed line-clamp-4">
+                      <p className="text-xs sm:text-sm leading-relaxed line-clamp-3 sm:line-clamp-4">
                         {product.description.substring(0, 200)}...
                       </p>
                     </div>
                   </div>
                   
                   {/* Premium Quality Badge */}
-                  <div className="absolute top-3 right-3 transform translate-x-full group-hover:translate-x-0 transition-transform duration-300">
-                    <span className="bg-[#f39c12] text-white px-2 py-1 rounded-full text-xs font-semibold">
+                  <div className="absolute top-2 sm:top-3 right-2 sm:right-3 transform translate-x-full group-hover:translate-x-0 transition-transform duration-300">
+                    <span className="bg-[#f39c12] text-white px-1.5 sm:px-2 py-0.5 sm:py-1 rounded-full text-[10px] sm:text-xs font-semibold">
                       Premium Quality
                     </span>
                   </div>
                 </div>
                 
-                <div className="p-4">
-                  <h3 className="text-xl sm:text-2xl font-bold text-[#0d2b4e] dark:text-blue-400 mb-3 group-hover:text-[#f39c12] transition-colors duration-300">
+                <div className="p-3 sm:p-4">
+                  <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-[#0d2b4e] dark:text-blue-400 mb-2 sm:mb-3 group-hover:text-[#f39c12] transition-colors duration-300">
                     Steel {product.title}
                   </h3>
                   
                   {/* SEO Keywords Tags */}
-                  <div className="flex flex-wrap gap-1 mb-3">
-                    <span className="text-xs bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 px-2 py-1 rounded-full">
+                  <div className="flex flex-wrap gap-1 mb-2 sm:mb-3">
+                    <span className="text-[10px] sm:text-xs bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 px-1.5 sm:px-2 py-0.5 sm:py-1 rounded-full">
                       304, 316, 316L
                     </span>
-                    <span className="text-xs bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-300 px-2 py-1 rounded-full">
+                    <span className="text-[10px] sm:text-xs bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-300 px-1.5 sm:px-2 py-0.5 sm:py-1 rounded-full">
                       IS 2062
                     </span>
-                    <span className="text-xs bg-purple-50 dark:bg-purple-900/20 text-purple-700 dark:text-purple-300 px-2 py-1 rounded-full">
+                    <span className="text-[10px] sm:text-xs bg-purple-50 dark:bg-purple-900/20 text-purple-700 dark:text-purple-300 px-1.5 sm:px-2 py-0.5 sm:py-1 rounded-full">
                       ASTM, ASME
                     </span>
                   </div>
                   
-                  <p className="text-xs text-gray-500 dark:text-gray-400">
+                  <p className="text-[10px] sm:text-xs text-gray-500 dark:text-gray-400">
                     Mumbai Stockist | ISO Certified | Best Price
                   </p>
                 </div>
