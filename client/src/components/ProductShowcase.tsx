@@ -155,13 +155,13 @@ export default function ProductShowcase() {
 
   return (
     <section 
-      className="py-8 sm:py-12 lg:py-16 xl:py-20 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 overflow-hidden"
+      className="py-8 sm:py-12 lg:py-16 xl:py-20 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 overflow-x-hidden"
       aria-labelledby="products-heading"
     >
-      <div className="w-full max-w-full mx-auto px-2 sm:px-3 lg:px-4 xl:px-6">
+      <div className="w-full mx-auto">
         {/* SEO-Optimized Section Header */}
         <motion.div 
-          className="text-center mb-8 sm:mb-12 lg:mb-16"
+          className="text-center mb-8 sm:mb-12 lg:mb-16 px-4 sm:px-6 lg:px-8"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
@@ -169,17 +169,17 @@ export default function ProductShowcase() {
         >
           <h2 
             id="products-heading"
-            className="text-2xl sm:text-2xl lg:text-heading xl:text-heading font-bold text-gray-900 dark:text-white mb-4 sm:mb-6 leading-tight px-2 sm:px-0"
+            className="text-2xl sm:text-2xl lg:text-heading xl:text-heading font-bold text-gray-900 dark:text-white mb-4 sm:mb-6 leading-tight"
           >
             Premium Quality{" "}
             <span className="text-[#f39c12]">Steel Products</span>{" "}
             & Materials
           </h2>
-          <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-gray-700 dark:text-gray-300 max-w-5xl mx-auto leading-relaxed mb-3 sm:mb-4 px-2 sm:px-4">
+          <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-gray-700 dark:text-gray-300 max-w-5xl mx-auto leading-relaxed mb-3 sm:mb-4">
             Comprehensive Range of Stainless Steel, Carbon Steel, Alloy Steel & Mild Steel Products - 
             Pipes, Tubes, Sheets, Plates, Bars, Flanges, Fittings & More
           </p>
-          <p className="text-xs sm:text-sm md:text-base lg:text-lg text-gray-600 dark:text-gray-400 max-w-4xl mx-auto px-2 sm:px-4">
+          <p className="text-xs sm:text-sm md:text-base lg:text-lg text-gray-600 dark:text-gray-400 max-w-4xl mx-auto">
             Manufacturing & Supply Excellence Since Years | ISO Certified | Premium Quality Assurance
           </p>
         </motion.div>
@@ -188,7 +188,7 @@ export default function ProductShowcase() {
         <div className="relative overflow-hidden w-full">
           <div 
             ref={carouselRef}
-            className="flex gap-3 sm:gap-4 md:gap-6 lg:gap-8 pb-6 sm:pb-8 overflow-x-auto"
+            className="flex gap-3 sm:gap-4 md:gap-5 lg:gap-6 pb-6 sm:pb-8 overflow-x-auto px-4 sm:px-6 lg:px-8"
             onMouseEnter={stopAutoplay}
             onMouseLeave={startAutoplay}
             style={{ 
@@ -200,7 +200,7 @@ export default function ProductShowcase() {
             {[...products, ...products].map((product, index) => (
               <motion.article
                 key={`${product.id}-${index}`}
-                className="flex-shrink-0 w-[280px] sm:w-[300px] md:w-[320px] lg:w-[350px] bg-white dark:bg-gray-800 rounded-lg sm:rounded-xl shadow-lg overflow-hidden group cursor-pointer transform transition-all duration-500"
+                className="flex-shrink-0 w-[260px] sm:w-[280px] md:w-[300px] lg:w-[320px] xl:w-[340px] bg-white dark:bg-gray-800 rounded-lg sm:rounded-xl shadow-lg overflow-hidden group cursor-pointer transform transition-all duration-500"
                 whileHover={{ 
                   scale: 1.03, 
                   y: -8,
@@ -260,8 +260,8 @@ export default function ProductShowcase() {
           </div>
           
           {/* Gradient overlays for infinite effect */}
-          <div className="absolute left-0 top-0 bottom-0 w-12 sm:w-16 md:w-20 bg-gradient-to-r from-gray-50 to-transparent dark:from-gray-900 pointer-events-none z-10" />
-          <div className="absolute right-0 top-0 bottom-0 w-12 sm:w-16 md:w-20 bg-gradient-to-l from-gray-50 to-transparent dark:from-gray-900 pointer-events-none z-10" />
+          <div className="absolute left-0 top-0 bottom-0 w-8 sm:w-12 md:w-16 bg-gradient-to-r from-gray-50 to-transparent dark:from-gray-900 pointer-events-none z-10" />
+          <div className="absolute right-0 top-0 bottom-0 w-8 sm:w-12 md:w-16 bg-gradient-to-l from-gray-50 to-transparent dark:from-gray-900 pointer-events-none z-10" />
         </div>
 
         {/* Hidden SEO Content for Google Indexing */}
