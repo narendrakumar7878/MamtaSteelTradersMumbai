@@ -85,7 +85,7 @@ export default function InconelRoundBars() {
           <div className="absolute inset-0 bg-black/20"></div>
           <div className="container mx-auto px-4 py-20 relative z-10">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6" data-testid="text-inconel-title">
+              <h1 className="text-heading font-bold mb-6" data-testid="text-inconel-title">
                 Inconel Round Bars
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-gray-200" data-testid="text-inconel-subtitle">
@@ -132,7 +132,7 @@ export default function InconelRoundBars() {
             {/* Overview Section */}
             <div className="grid lg:grid-cols-2 gap-12 mb-16">
               <div>
-                <h2 className="text-3xl md:text-4xl font-bold text-slate-800 dark:text-gray-100 mb-6" data-testid="text-overview-title">
+                <h2 className="text-2xl font-bold text-slate-800 dark:text-gray-100 mb-6" data-testid="text-overview-title">
                   Inconel Round Bars Overview
                 </h2>
                 <p className="text-lg text-gray-600 dark:text-gray-300 mb-6" data-testid="text-overview-description">

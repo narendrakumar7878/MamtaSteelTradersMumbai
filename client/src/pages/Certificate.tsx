@@ -41,7 +41,7 @@ export default function Certificate() {
         <div className="container mx-auto px-3 sm:px-4 lg:px-6">
           {/* Hero Section */}
           <div className="text-center mb-8 sm:mb-12 lg:mb-16">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-800 mb-4 sm:mb-6" data-testid="text-certificate-title">
+            <h1 className="text-2xl sm:text-2xl lg:text-heading font-bold text-slate-800 mb-4 sm:mb-6" data-testid="text-certificate-title">
               Certificates & Quality Standards
             </h1>
             <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto px-4" data-testid="text-certificate-subtitle">
@@ -80,7 +80,7 @@ export default function Certificate() {
           {/* Quality Commitment */}
           <div className="bg-blue-50 rounded-lg p-6 sm:p-8 lg:p-12">
             <div className="text-center mb-6 sm:mb-8">
-              <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-slate-800 mb-3 sm:mb-4" data-testid="text-quality-title">
+              <h2 className="text-xl sm:text-2xl lg:text-2xl font-bold text-slate-800 mb-3 sm:mb-4" data-testid="text-quality-title">
                 Our Quality Commitment
               </h2>
               <p className="text-sm sm:text-base text-gray-600 max-w-2xl mx-auto px-4" data-testid="text-quality-description">

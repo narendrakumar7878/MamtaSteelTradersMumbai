@@ -37,7 +37,7 @@ export default function NickelAlloyRoundBars() {
         <div className="bg-gradient-to-br from-navy-primary via-navy-secondary to-slate-800 text-white relative overflow-hidden">
           <div className="container mx-auto px-4 py-16 relative z-10">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">Nickel Alloy Round Bars</h1>
+              <h1 className="text-heading md:text-heading font-bold mb-6">Nickel Alloy Round Bars</h1>
               <p className="text-xl mb-8 text-gray-200">High-Performance Alloys for Demanding Applications</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/contact" className="bg-gold-primary hover:bg-gold-secondary text-navy-primary px-8 py-3 rounded-lg font-semibold transition-colors inline-flex items-center justify-center">
@@ -73,7 +73,7 @@ export default function NickelAlloyRoundBars() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 mb-16">
               <div>
-                <h2 className="text-3xl font-bold text-slate-800 dark:text-gray-100 mb-6">Nickel Alloy Round Bars Overview</h2>
+                <h2 className="text-2xl font-bold text-slate-800 dark:text-gray-100 mb-6">Nickel Alloy Round Bars Overview</h2>
                 <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
                   Nickel alloy round bars offer exceptional performance in high-temperature and corrosive environments. 
                   These premium alloys are essential for aerospace, chemical processing, and nuclear applications.

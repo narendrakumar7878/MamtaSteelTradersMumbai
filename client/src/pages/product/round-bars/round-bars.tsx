@@ -239,7 +239,7 @@ export default function RoundBarsMain() {
           <div className="absolute inset-0 bg-black/20"></div>
           <div className="container mx-auto px-4 py-20 relative z-10">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6" data-testid="text-round-bars-title">
+              <h1 className="text-heading font-bold mb-6" data-testid="text-round-bars-title">
                 Round Bars
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-gray-200" data-testid="text-round-bars-subtitle">
@@ -280,7 +280,7 @@ export default function RoundBarsMain() {
         <div className="container mx-auto px-4 py-16">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-800 dark:text-gray-100 mb-6" data-testid="text-introduction-title">
+              <h2 className="text-2xl font-bold text-slate-800 dark:text-gray-100 mb-6" data-testid="text-introduction-title">
                 Comprehensive Range of Round Bars
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-300 max-w-4xl mx-auto" data-testid="text-introduction-description">
@@ -331,7 +331,7 @@ export default function RoundBarsMain() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-slate-800 dark:text-gray-100 mb-6" data-testid="text-applications-title">
+                <h2 className="text-2xl font-bold text-slate-800 dark:text-gray-100 mb-6" data-testid="text-applications-title">
                   Industry Applications
                 </h2>
                 <p className="text-lg text-gray-600 dark:text-gray-300" data-testid="text-applications-description">
@@ -372,7 +372,7 @@ export default function RoundBarsMain() {
         <div className="bg-gradient-to-r from-navy-primary to-navy-secondary py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-8" data-testid="text-quality-title">
+              <h2 className="text-2xl font-bold text-white mb-8" data-testid="text-quality-title">
                 Quality Certifications & Standards
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -406,7 +406,7 @@ export default function RoundBarsMain() {
         <div className="bg-gray-100 dark:bg-gray-800 py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-800 dark:text-gray-100 mb-6" data-testid="text-contact-title">
+              <h2 className="text-2xl font-bold text-slate-800 dark:text-gray-100 mb-6" data-testid="text-contact-title">
                 Need Custom Round Bar Solutions?
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-300 mb-8" data-testid="text-contact-description">

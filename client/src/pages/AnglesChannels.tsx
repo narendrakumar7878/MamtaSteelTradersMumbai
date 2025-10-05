@@ -44,7 +44,7 @@ export default function AnglesChannels() {
           >
             {/* Header Section */}
             <header className="text-center mb-16">
-              <h1 className="text-4xl md:text-5xl font-bold text-[#0d2b4e] mb-6">
+              <h1 className="text-heading md:text-heading font-bold text-[#0d2b4e] mb-6">
                 <strong>Steel Angles & Channels</strong>
               </h1>
               
@@ -75,7 +75,7 @@ export default function AnglesChannels() {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="mb-16"
             >
-              <h2 className="text-3xl font-bold text-[#0d2b4e] mb-8 text-center">
+              <h2 className="text-2xl font-bold text-[#0d2b4e] mb-8 text-center">
                 Types of <strong>Steel Angles & Channels</strong>
               </h2>
               
@@ -137,7 +137,7 @@ export default function AnglesChannels() {
               transition={{ duration: 0.6, delay: 0.6 }}
               className="mb-16"
             >
-              <h2 className="text-3xl font-bold text-[#0d2b4e] mb-8 text-center">
+              <h2 className="text-2xl font-bold text-[#0d2b4e] mb-8 text-center">
                 Materials & <strong>Steel Grades</strong>
               </h2>
               
@@ -187,7 +187,7 @@ export default function AnglesChannels() {
               transition={{ duration: 0.6, delay: 0.8 }}
               className="mb-16"
             >
-              <h2 className="text-3xl font-bold text-[#0d2b4e] mb-8 text-center">
+              <h2 className="text-2xl font-bold text-[#0d2b4e] mb-8 text-center">
                 <strong>Applications</strong> & Industries
               </h2>
               
@@ -231,7 +231,7 @@ export default function AnglesChannels() {
               transition={{ duration: 0.6, delay: 1.0 }}
               className="mb-16"
             >
-              <h2 className="text-3xl font-bold text-[#0d2b4e] mb-8 text-center">
+              <h2 className="text-2xl font-bold text-[#0d2b4e] mb-8 text-center">
                 <strong>Standards</strong> & Certifications
               </h2>
               
@@ -264,7 +264,7 @@ export default function AnglesChannels() {
               transition={{ duration: 0.6, delay: 1.2 }}
               className="mb-16"
             >
-              <h2 className="text-3xl font-bold text-[#0d2b4e] mb-8 text-center">
+              <h2 className="text-2xl font-bold text-[#0d2b4e] mb-8 text-center">
                 <strong>Technical Specifications</strong>
               </h2>
               
@@ -321,7 +321,7 @@ export default function AnglesChannels() {
               className="text-center"
             >
               <div className="bg-gradient-to-r from-[#0d2b4e] to-[#1a3e72] rounded-2xl p-12 text-white">
-                <h2 className="text-3xl md:text-4xl font-bold mb-6">
+                <h2 className="text-2xl font-bold mb-6">
                   Need <strong>Steel Angles & Channels</strong>?
                 </h2>
                 <p className="text-xl mb-8 opacity-90 max-w-3xl mx-auto">

@@ -372,7 +372,7 @@ export default function HotDipGalvanizedChannels() {
         <section className="bg-gradient-to-r from-navy-primary to-navy-secondary text-white py-20" data-testid="hero-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto text-center">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6" data-testid="hero-title">
+              <h1 className="text-heading font-bold mb-6" data-testid="hero-title">
                 Hot Dip Galvanized Channels Manufacturer Mumbai
               </h1>
               <p className="text-xl md:text-2xl mb-4 text-blue-100" data-testid="hero-subtitle">
@@ -398,7 +398,7 @@ export default function HotDipGalvanizedChannels() {
         {/* Key Features */}
         <section className="py-16 bg-white dark:bg-gray-800" data-testid="features-section">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary dark:text-white mb-12" data-testid="features-title">
+            <h2 className="text-2xl font-bold text-center text-navy-primary dark:text-white mb-12" data-testid="features-title">
               Why Choose Our Hot Dip Galvanized Channels?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -417,7 +417,7 @@ export default function HotDipGalvanizedChannels() {
         <section className="py-16 bg-gray-50 dark:bg-gray-900" data-testid="channel-sizes-section">
           <div className="container mx-auto px-4">
             <div className="max-w-7xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary dark:text-white mb-12" data-testid="sizes-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary dark:text-white mb-12" data-testid="sizes-title">
                 Complete Channel Sizes & Specifications Chart
               </h2>
               <div className="overflow-x-auto">
@@ -463,7 +463,7 @@ export default function HotDipGalvanizedChannels() {
         <section className="py-16 bg-white dark:bg-gray-800" data-testid="channel-types-section">
           <div className="container mx-auto px-4">
             <div className="max-w-7xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary dark:text-white mb-12" data-testid="channel-types-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary dark:text-white mb-12" data-testid="channel-types-title">
                 Complete Range of Galvanized Channels Available
               </h2>
               <div className="grid lg:grid-cols-2 gap-8">
@@ -508,7 +508,7 @@ export default function HotDipGalvanizedChannels() {
         <section className="py-16 bg-gray-50 dark:bg-gray-900" data-testid="advantages-section">
           <div className="container mx-auto px-4">
             <div className="max-w-7xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary dark:text-white mb-12" data-testid="advantages-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary dark:text-white mb-12" data-testid="advantages-title">
                 Why Hot Dip Galvanizing is the Best Protection for Channels
               </h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -540,7 +540,7 @@ export default function HotDipGalvanizedChannels() {
         <section className="py-16 bg-white dark:bg-gray-800" data-testid="manufacturing-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary dark:text-white mb-12" data-testid="manufacturing-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary dark:text-white mb-12" data-testid="manufacturing-title">
                 Our Hot Dip Galvanizing Process for Channels
               </h2>
               <div className="grid md:grid-cols-2 gap-8">
@@ -572,7 +572,7 @@ export default function HotDipGalvanizedChannels() {
         <section className="py-16 bg-gray-50 dark:bg-gray-900" data-testid="applications-section">
           <div className="container mx-auto px-4">
             <div className="max-w-7xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary dark:text-white mb-12" data-testid="applications-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary dark:text-white mb-12" data-testid="applications-title">
                 Industry Applications & Use Cases for Galvanized Channels
               </h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
@@ -617,7 +617,7 @@ export default function HotDipGalvanizedChannels() {
         <section className="py-16 bg-white dark:bg-gray-800" data-testid="testing-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary dark:text-white mb-12" data-testid="testing-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary dark:text-white mb-12" data-testid="testing-title">
                 Quality Testing & Certification for Galvanized Channels
               </h2>
               <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-600 overflow-hidden">
@@ -672,7 +672,7 @@ export default function HotDipGalvanizedChannels() {
         <section className="py-16 bg-gray-50 dark:bg-gray-900" data-testid="specifications-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary dark:text-white mb-12" data-testid="specifications-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary dark:text-white mb-12" data-testid="specifications-title">
                 Technical Specifications & Standards for Galvanized Channels
               </h2>
               <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-600 overflow-hidden">
@@ -698,7 +698,7 @@ export default function HotDipGalvanizedChannels() {
         <section className="py-16 bg-white dark:bg-gray-800" data-testid="cities-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary dark:text-white mb-12" data-testid="cities-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary dark:text-white mb-12" data-testid="cities-title">
                 Cities We Supply Hot Dip Galvanized Channels
               </h2>
               <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-600 p-6">
@@ -725,7 +725,7 @@ export default function HotDipGalvanizedChannels() {
         <section className="py-16 bg-gradient-to-r from-blue-600 to-navy-primary text-white" data-testid="why-choose-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center mb-12" data-testid="why-choose-title">
+              <h2 className="text-2xl font-bold text-center mb-12" data-testid="why-choose-title">
                 Why Choose Mamta Steel Traders for Galvanized Channels?
               </h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -766,7 +766,7 @@ export default function HotDipGalvanizedChannels() {
         <section className="py-16 bg-gradient-to-r from-navy-primary to-navy-secondary text-white" data-testid="cta-section">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6" data-testid="cta-title">
+              <h2 className="text-2xl font-bold mb-6" data-testid="cta-title">
                 Ready to Order Premium Hot Dip Galvanized Channels?
               </h2>
               <p className="text-xl mb-8 text-blue-100" data-testid="cta-subtitle">

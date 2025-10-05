@@ -169,7 +169,7 @@ export default function ProductShowcase() {
         >
           <h2 
             id="products-heading"
-            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6 leading-tight px-2 sm:px-0"
+            className="text-2xl sm:text-2xl lg:text-heading xl:text-heading font-bold text-gray-900 dark:text-white mb-4 sm:mb-6 leading-tight px-2 sm:px-0"
           >
             Premium Quality{" "}
             <span className="text-[#f39c12]">Steel Products</span>{" "}

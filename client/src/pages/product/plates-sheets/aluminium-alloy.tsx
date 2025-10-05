@@ -125,7 +125,7 @@ export default function AluminiumAlloyPlates() {
         <section className="bg-gradient-to-r from-navy-primary to-navy-secondary text-white py-16" data-testid="hero-section">
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto text-center">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6" data-testid="hero-title">
+              <h1 className="text-heading font-bold mb-6" data-testid="hero-title">
                 Premium Aluminium Alloy Plates & Sheets
               </h1>
               <p className="text-lg md:text-xl mb-4 text-blue-100" data-testid="hero-subtitle">
@@ -167,7 +167,7 @@ export default function AluminiumAlloyPlates() {
         {/* Product Gallery */}
         <section className="py-16 bg-white dark:bg-gray-800" data-testid="product-gallery-section">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary dark:text-white mb-4" data-testid="gallery-title">
+            <h2 className="text-2xl font-bold text-center text-navy-primary dark:text-white mb-4" data-testid="gallery-title">
               Aluminium Alloy Products Gallery
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 text-center mb-12 max-w-3xl mx-auto">
@@ -203,7 +203,7 @@ export default function AluminiumAlloyPlates() {
         {/* Product Features */}
         <section className="py-16 bg-gray-50 dark:bg-gray-900" data-testid="features-section">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary dark:text-white mb-4" data-testid="features-title">
+            <h2 className="text-2xl font-bold text-center text-navy-primary dark:text-white mb-4" data-testid="features-title">
               Why Choose Our Aluminium Alloy Plates?
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 text-center mb-12 max-w-4xl mx-auto">
@@ -226,7 +226,7 @@ export default function AluminiumAlloyPlates() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-navy-primary mb-4" data-testid="aluminum-2024-title">
+                <h2 className="text-2xl font-bold text-navy-primary mb-4" data-testid="aluminum-2024-title">
                   Aluminium 2024 T351 Plates & Sheets
                 </h2>
                 <p className="text-xl text-gray-600 max-w-4xl mx-auto">
@@ -291,7 +291,7 @@ export default function AluminiumAlloyPlates() {
         <section className="py-16 bg-gray-50" data-testid="chemical-composition-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-4" data-testid="chemical-composition-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-4" data-testid="chemical-composition-title">
                 Aluminium 2024 Chemical Composition
               </h2>
               <p className="text-xl text-gray-600 text-center mb-12">
@@ -333,7 +333,7 @@ export default function AluminiumAlloyPlates() {
         <section className="py-16 bg-white" data-testid="specifications-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="specifications-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="specifications-title">
                 Technical Specifications
               </h2>
               <div className="grid md:grid-cols-2 gap-12">
@@ -398,7 +398,7 @@ export default function AluminiumAlloyPlates() {
         <section className="py-16 bg-white" data-testid="alloy-grades-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="alloy-grades-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="alloy-grades-title">
                 Available Aluminium Alloy Grades
               </h2>
               <div className="overflow-x-auto">
@@ -453,7 +453,7 @@ export default function AluminiumAlloyPlates() {
         <section className="py-16 bg-white" data-testid="company-quality-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-4" data-testid="company-quality-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-4" data-testid="company-quality-title">
                 Leading Aluminum Alloy Supplier & Manufacturer
               </h2>
               <p className="text-xl text-gray-600 text-center mb-12 max-w-4xl mx-auto">
@@ -544,7 +544,7 @@ export default function AluminiumAlloyPlates() {
         <section className="py-16 bg-navy-primary text-white" data-testid="contact-cta-section">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6" data-testid="cta-title">
+              <h2 className="text-2xl font-bold mb-6" data-testid="cta-title">
                 Ready to Order Aluminium Alloy Plates?
               </h2>
               <p className="text-xl mb-8 text-blue-100" data-testid="cta-subtitle">

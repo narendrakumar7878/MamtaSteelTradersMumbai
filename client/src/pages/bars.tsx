@@ -44,7 +44,7 @@ export default function Bars() {
           >
             {/* Header Section */}
             <header className="text-center mb-16">
-              <h1 className="text-4xl md:text-5xl font-bold text-[#0d2b4e] mb-6">
+              <h1 className="text-heading md:text-heading font-bold text-[#0d2b4e] mb-6">
                 <strong>Round Bar</strong>
               </h1>
               
@@ -60,7 +60,7 @@ export default function Bars() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="bg-white rounded-xl shadow-lg p-8 mb-12"
             >
-              <h2 className="text-3xl font-bold text-[#0d2b4e] mb-6">
+              <h2 className="text-2xl font-bold text-[#0d2b4e] mb-6">
                 <strong>User Industries:</strong>
               </h2>
               
@@ -78,7 +78,7 @@ export default function Bars() {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="bg-white rounded-xl shadow-lg p-8 mb-12"
             >
-              <h2 className="text-3xl font-bold text-[#0d2b4e] mb-8">
+              <h2 className="text-2xl font-bold text-[#0d2b4e] mb-8">
                 <strong>Stainless & Duplex Steel</strong>
               </h2>
 
@@ -130,7 +130,7 @@ export default function Bars() {
               transition={{ duration: 0.6, delay: 0.6 }}
               className="bg-white rounded-xl shadow-lg p-8 mb-12"
             >
-              <h2 className="text-3xl font-bold text-[#0d2b4e] mb-8">
+              <h2 className="text-2xl font-bold text-[#0d2b4e] mb-8">
                 <strong>Nickel & Copper Alloy</strong>
               </h2>
 
@@ -351,7 +351,7 @@ export default function Bars() {
               transition={{ duration: 0.6, delay: 1.3 }}
               className="bg-white rounded-xl shadow-lg p-8 mb-12"
             >
-              <h2 className="text-3xl font-bold text-[#0d2b4e] mb-8">
+              <h2 className="text-2xl font-bold text-[#0d2b4e] mb-8">
                 <strong>Titanium Round Bar</strong>
               </h2>
 
@@ -427,7 +427,7 @@ export default function Bars() {
               transition={{ duration: 0.6, delay: 1.4 }}
               className="bg-white rounded-xl shadow-lg p-8 mb-12"
             >
-              <h2 className="text-3xl font-bold text-[#0d2b4e] mb-8">
+              <h2 className="text-2xl font-bold text-[#0d2b4e] mb-8">
                 <strong>Tantalum Bar</strong>
               </h2>
 
@@ -485,7 +485,7 @@ export default function Bars() {
               className="text-center"
             >
               <div className="bg-gradient-to-r from-[#1a3e72] to-[#0d2b4e] rounded-xl p-8 text-white">
-                <h2 className="text-3xl font-bold mb-4">Need Custom Round Bars?</h2>
+                <h2 className="text-2xl font-bold mb-4">Need Custom Round Bars?</h2>
                 <p className="text-lg mb-8 opacity-90">
                   Get high-quality <strong>round bars</strong> in various materials and grades manufactured to your exact specifications. Available in stainless steel, duplex steel, nickel alloys, and specialty materials.
                 </p>

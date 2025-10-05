@@ -55,7 +55,7 @@ export default function AmsStandardMaterial() {
                 </div>
               </motion.div>
               
-              <h1 className="text-4xl md:text-5xl font-bold text-[#0d2b4e] mb-6">
+              <h1 className="text-heading md:text-heading font-bold text-[#0d2b4e] mb-6">
                 <strong>AMS Standard Material</strong>
               </h1>
             </header>

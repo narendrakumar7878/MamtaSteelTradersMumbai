@@ -476,7 +476,7 @@ export default function ChemicalComposition() {
                 </div>
               </motion.div>
               
-              <h1 className="text-4xl md:text-5xl font-bold text-[#0d2b4e] mb-6">
+              <h1 className="text-heading md:text-heading font-bold text-[#0d2b4e] mb-6">
                 Chemical Composition of Stainless Steel Grades
               </h1>
               
@@ -498,7 +498,7 @@ export default function ChemicalComposition() {
               <header className="mb-8">
                 <div className="flex items-center space-x-3 mb-4">
                   <Shield className="w-8 h-8 text-[#f39c12]" />
-                  <h2 id="martensitic-steel-heading" className="text-3xl md:text-4xl font-bold text-[#0d2b4e]">
+                  <h2 id="martensitic-steel-heading" className="text-2xl font-bold text-[#0d2b4e]">
                     Chemical Composition of Martensitic Steel Grade
                   </h2>
                 </div>
@@ -594,7 +594,7 @@ export default function ChemicalComposition() {
               <header className="mb-8">
                 <div className="flex items-center space-x-3 mb-4">
                   <Atom className="w-8 h-8 text-[#f39c12]" />
-                  <h2 id="ferritic-steel-heading" className="text-3xl md:text-4xl font-bold text-[#0d2b4e]">
+                  <h2 id="ferritic-steel-heading" className="text-2xl font-bold text-[#0d2b4e]">
                     Chemical Composition of Ferritic Steel Grade
                   </h2>
                 </div>
@@ -694,7 +694,7 @@ export default function ChemicalComposition() {
               <header className="mb-8">
                 <div className="flex items-center space-x-3 mb-4">
                   <BeakerIcon className="w-8 h-8 text-[#f39c12]" />
-                  <h2 id="ferritic-martensitic-steel-heading" className="text-3xl md:text-4xl font-bold text-[#0d2b4e]">
+                  <h2 id="ferritic-martensitic-steel-heading" className="text-2xl font-bold text-[#0d2b4e]">
                     Chemical Composition of Ferritic + Martensitic Steel
                   </h2>
                 </div>
@@ -782,7 +782,7 @@ export default function ChemicalComposition() {
               <header className="mb-8">
                 <div className="flex items-center space-x-3 mb-6">
                   <Shield className="w-8 h-8 text-[#f39c12]" />
-                  <h2 id="standards-applications-heading" className="text-3xl md:text-4xl font-bold text-[#0d2b4e]">
+                  <h2 id="standards-applications-heading" className="text-2xl font-bold text-[#0d2b4e]">
                     Standards & Applications
                   </h2>
                 </div>
@@ -897,7 +897,7 @@ export default function ChemicalComposition() {
                         <Shield className="w-6 h-6 text-white" />
                       </div>
                     </div>
-                    <h2 id="cta-heading" className="text-3xl md:text-4xl font-bold mb-4">
+                    <h2 id="cta-heading" className="text-2xl font-bold mb-4">
                       Need Detailed Chemical Analysis Reports?
                     </h2>
                   </motion.div>

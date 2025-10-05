@@ -148,7 +148,7 @@ export default function ERCuNiWire() {
         <section className="bg-gradient-to-r from-navy-primary to-navy-secondary text-white py-16" data-testid="hero-section">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="hero-title">
+              <h1 className="text-heading md:text-heading font-bold mb-6" data-testid="hero-title">
                 ERCuNi Wire - Premium Copper Nickel Welding Wire
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100" data-testid="hero-subtitle">
@@ -169,7 +169,7 @@ export default function ERCuNiWire() {
         {/* Product Features */}
         <section className="py-16 bg-white" data-testid="features-section">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="features-title">
+            <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="features-title">
               Why Choose Mamta Steel Traders ERCuNi Wire?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -188,7 +188,7 @@ export default function ERCuNiWire() {
         <section className="py-16 bg-gray-50" data-testid="composition-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="composition-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="composition-title">
                 Chemical Composition
               </h2>
               <div className="overflow-x-auto">
@@ -217,7 +217,7 @@ export default function ERCuNiWire() {
         <section className="py-16 bg-white" data-testid="product-description-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="description-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="description-title">
                 ERCuNi Copper-Nickel Welding Wire
               </h2>
               <div className="bg-gradient-to-br from-gray-50 to-white rounded-lg shadow-lg border border-gray-200 p-8">
@@ -245,7 +245,7 @@ export default function ERCuNiWire() {
         <section className="py-16 bg-gray-50" data-testid="wire-sizes-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="sizes-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="sizes-title">
                 Available MIG & TIG Wire Sizes
               </h2>
               <div className="grid lg:grid-cols-2 gap-8">
@@ -295,7 +295,7 @@ export default function ERCuNiWire() {
         <section className="py-16 bg-white" data-testid="ercuni-features-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="ercuni-features-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="ercuni-features-title">
                 ERCuNi Wire Features & Benefits
               </h2>
               <div className="grid md:grid-cols-1 gap-4">
@@ -316,7 +316,7 @@ export default function ERCuNiWire() {
         <section className="py-16 bg-gray-50" data-testid="specifications-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="specifications-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="specifications-title">
                 Technical Specifications
               </h2>
               <div className="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
@@ -342,7 +342,7 @@ export default function ERCuNiWire() {
         <section className="py-16 bg-white" data-testid="applications-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="applications-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="applications-title">
                 ERCuNi Wire Applications
               </h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
@@ -365,7 +365,7 @@ export default function ERCuNiWire() {
         <section className="py-16 bg-gray-50" data-testid="related-products-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="related-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="related-title">
                 Other Copper & Copper-Based Alloy Products
               </h2>
               <div className="bg-white rounded-lg shadow-lg border border-gray-200 overflow-hidden">
@@ -393,7 +393,7 @@ export default function ERCuNiWire() {
         <section className="py-16 bg-white" data-testid="delivery-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="delivery-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="delivery-title">
                 Worldwide Delivery Coverage
               </h2>
               <div className="grid lg:grid-cols-2 gap-8">
@@ -465,7 +465,7 @@ export default function ERCuNiWire() {
         <section className="py-16 bg-gray-50" data-testid="specs-summary-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="specs-summary-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="specs-summary-title">
                 ERCuNi Wire Technical Summary
               </h2>
               <div className="grid lg:grid-cols-3 gap-8">
@@ -526,7 +526,7 @@ export default function ERCuNiWire() {
         <section className="py-16 bg-gradient-to-r from-navy-primary to-navy-secondary text-white" data-testid="cta-section">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6" data-testid="cta-title">
+              <h2 className="text-2xl font-bold mb-6" data-testid="cta-title">
                 Ready to Order ERCuNi Copper-Nickel Wire?
               </h2>
               <p className="text-xl mb-8 text-blue-100" data-testid="cta-subtitle">

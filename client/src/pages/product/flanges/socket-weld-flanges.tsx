@@ -85,7 +85,7 @@ export default function SocketWeldFlanges() {
         <section className="bg-gradient-to-r from-navy-primary to-navy-secondary text-white py-16" data-testid="hero-section">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="hero-title">
+              <h1 className="text-heading md:text-heading font-bold mb-6" data-testid="hero-title">
                 Premium Socket Weld Flanges
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100" data-testid="hero-subtitle">
@@ -106,7 +106,7 @@ export default function SocketWeldFlanges() {
         {/* Product Features */}
         <section className="py-16 bg-white" data-testid="features-section">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="features-title">
+            <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="features-title">
               Why Choose Our Socket Weld Flanges?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -125,7 +125,7 @@ export default function SocketWeldFlanges() {
         <section className="py-16 bg-gray-50" data-testid="installation-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="installation-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="installation-title">
                 Socket Weld Installation Process
               </h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -147,7 +147,7 @@ export default function SocketWeldFlanges() {
         <section className="py-16 bg-white" data-testid="specifications-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="specifications-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="specifications-title">
                 Technical Specifications
               </h2>
               <div className="grid md:grid-cols-2 gap-12">
@@ -182,7 +182,7 @@ export default function SocketWeldFlanges() {
         <section className="py-16 bg-gray-50" data-testid="size-matrix-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="size-matrix-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="size-matrix-title">
                 Size and Pressure Class Matrix
               </h2>
               <div className="overflow-x-auto">
@@ -264,7 +264,7 @@ export default function SocketWeldFlanges() {
         <section className="py-16 bg-navy-primary text-white" data-testid="contact-cta-section">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6" data-testid="cta-title">
+              <h2 className="text-2xl font-bold mb-6" data-testid="cta-title">
                 Ready to Order Socket Weld Flanges?
               </h2>
               <p className="text-xl mb-8 text-blue-100" data-testid="cta-subtitle">

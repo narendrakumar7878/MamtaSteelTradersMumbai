@@ -54,7 +54,7 @@ export default function ContactSection() {
           viewport={{ once: true }}
         >
           <h1 
-            className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4"
+            className="text-2xl lg:text-heading font-bold mb-4"
             style={{ color: '#1a3e72' }}
             data-testid="contact-heading"
           >

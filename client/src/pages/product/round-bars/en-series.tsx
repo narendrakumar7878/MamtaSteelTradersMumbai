@@ -141,7 +141,7 @@ export default function ENSeries() {
         {/* Hero Section */}
         <div className="bg-gradient-to-r from-blue-900 via-blue-800 to-indigo-900 text-white py-16">
           <div className="container mx-auto px-4 text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="hero-title">
+            <h1 className="text-heading md:text-heading font-bold mb-6" data-testid="hero-title">
               Premium EN Series Round Bars
             </h1>
             <p className="text-xl mb-8 text-blue-100 max-w-4xl mx-auto" data-testid="hero-description">
@@ -170,7 +170,7 @@ export default function ENSeries() {
         {/* Products Grid */}
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900" data-testid="products-heading">
+            <h2 className="text-2xl font-bold text-center mb-12 text-gray-900" data-testid="products-heading">
               EN Series Steel Products
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -234,7 +234,7 @@ export default function ENSeries() {
         {/* Technical Specifications */}
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
+            <h2 className="text-2xl font-bold text-center mb-12 text-gray-900">
               EN Series Technical Specifications
             </h2>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -293,7 +293,7 @@ export default function ENSeries() {
         {/* EN Series Comparison Table */}
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
+            <h2 className="text-2xl font-bold text-center mb-12 text-gray-900">
               EN Series Steel Comparison
             </h2>
             <div className="overflow-x-auto">
@@ -340,7 +340,7 @@ export default function ENSeries() {
         {/* Popular Keywords Sections */}
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
+            <h2 className="text-2xl font-bold text-center mb-12 text-gray-900">
               Popular EN Series Searches
             </h2>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -366,7 +366,7 @@ export default function ENSeries() {
         {/* Contact CTA */}
         <section className="py-16 bg-gradient-to-r from-blue-900 to-indigo-900 text-white">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl font-bold mb-6">
+            <h2 className="text-2xl font-bold mb-6">
               Ready to Order Premium EN Series Steel?
             </h2>
             <p className="text-xl mb-8 text-blue-100 max-w-2xl mx-auto">

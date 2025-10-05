@@ -329,7 +329,7 @@ export default function SS300And200SeriesChemicalComposition() {
                 </div>
               </motion.div>
               
-              <h1 className="text-4xl md:text-5xl font-bold text-[#0d2b4e] mb-6">
+              <h1 className="text-heading md:text-heading font-bold text-[#0d2b4e] mb-6">
                 SS 300 & 200 Series Chemical Composition
               </h1>
               
@@ -348,7 +348,7 @@ export default function SS300And200SeriesChemicalComposition() {
             >
               <div className="flex items-center space-x-3 mb-8">
                 <FlaskConical className="w-7 h-7 text-[#f39c12]" />
-                <h2 className="text-3xl font-bold text-[#0d2b4e]">300 Series Austenitic Stainless Steel</h2>
+                <h2 className="text-2xl font-bold text-[#0d2b4e]">300 Series Austenitic Stainless Steel</h2>
               </div>
               
               <div className="grid gap-6">
@@ -398,7 +398,7 @@ export default function SS300And200SeriesChemicalComposition() {
             >
               <div className="flex items-center space-x-3 mb-8">
                 <Target className="w-7 h-7 text-[#f39c12]" />
-                <h2 className="text-3xl font-bold text-[#0d2b4e]">200 Series Austenitic Stainless Steel</h2>
+                <h2 className="text-2xl font-bold text-[#0d2b4e]">200 Series Austenitic Stainless Steel</h2>
               </div>
               
               <div className="grid gap-6">
@@ -446,7 +446,7 @@ export default function SS300And200SeriesChemicalComposition() {
               transition={{ duration: 0.6, delay: 0.9 }}
               className="bg-white rounded-xl shadow-lg p-8 mb-12"
             >
-              <h2 className="text-3xl font-bold text-[#0d2b4e] mb-6 text-center">Series Comparison & Applications</h2>
+              <h2 className="text-2xl font-bold text-[#0d2b4e] mb-6 text-center">Series Comparison & Applications</h2>
               
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
@@ -485,7 +485,7 @@ export default function SS300And200SeriesChemicalComposition() {
               <header className="mb-8">
                 <div className="flex items-center space-x-3 mb-4">
                   <Database className="w-8 h-8 text-[#f39c12]" />
-                  <h2 id="comprehensive-composition-heading" className="text-3xl md:text-4xl font-bold text-[#0d2b4e]">
+                  <h2 id="comprehensive-composition-heading" className="text-2xl font-bold text-[#0d2b4e]">
                     SS 200 & 300 Series Chemical Composition
                   </h2>
                 </div>
@@ -569,7 +569,7 @@ export default function SS300And200SeriesChemicalComposition() {
               <header className="mb-8">
                 <div className="flex items-center space-x-3 mb-6">
                   <FlaskConical className="w-8 h-8 text-[#f39c12]" />
-                  <h2 id="technical-properties-heading" className="text-3xl md:text-4xl font-bold text-[#0d2b4e]">
+                  <h2 id="technical-properties-heading" className="text-2xl font-bold text-[#0d2b4e]">
                     Technical Properties & Industrial Applications
                   </h2>
                 </div>
@@ -698,7 +698,7 @@ export default function SS300And200SeriesChemicalComposition() {
                         <Target className="w-6 h-6 text-white" />
                       </div>
                     </div>
-                    <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                    <h2 className="text-2xl font-bold mb-4">
                       Need Grade Selection Assistance?
                     </h2>
                   </motion.div>

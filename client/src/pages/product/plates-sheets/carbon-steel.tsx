@@ -152,7 +152,7 @@ export default function CarbonSteelPlates() {
         <section className="bg-gradient-to-r from-navy-primary to-navy-secondary text-white py-16" data-testid="hero-section">
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto text-center">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6" data-testid="hero-title">
+              <h1 className="text-heading font-bold mb-6" data-testid="hero-title">
                 Premium Carbon Steel Plates & Sheets
               </h1>
               <p className="text-lg md:text-xl mb-4 text-blue-100" data-testid="hero-subtitle">
@@ -198,7 +198,7 @@ export default function CarbonSteelPlates() {
         {/* Product Gallery */}
         <section className="py-16 bg-white dark:bg-gray-800" data-testid="product-gallery-section">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary dark:text-white mb-4" data-testid="gallery-title">
+            <h2 className="text-2xl font-bold text-center text-navy-primary dark:text-white mb-4" data-testid="gallery-title">
               Carbon Steel Products Gallery
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 text-center mb-12 max-w-3xl mx-auto">
@@ -247,7 +247,7 @@ export default function CarbonSteelPlates() {
         {/* Product Features */}
         <section className="py-16 bg-gray-50 dark:bg-gray-900" data-testid="features-section">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary dark:text-white mb-4" data-testid="features-title">
+            <h2 className="text-2xl font-bold text-center text-navy-primary dark:text-white mb-4" data-testid="features-title">
               Why Choose Our Carbon Steel Plates?
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 text-center mb-12 max-w-4xl mx-auto">
@@ -269,7 +269,7 @@ export default function CarbonSteelPlates() {
         <section className="py-16 bg-white dark:bg-gray-800" data-testid="specifications-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary dark:text-white mb-4" data-testid="specifications-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary dark:text-white mb-4" data-testid="specifications-title">
                 Technical Specifications
               </h2>
               <p className="text-xl text-gray-600 dark:text-gray-300 text-center mb-12 max-w-4xl mx-auto">
@@ -333,7 +333,7 @@ export default function CarbonSteelPlates() {
         <section className="py-16 bg-gray-50 dark:bg-gray-900" data-testid="carbon-grades-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary dark:text-white mb-4" data-testid="carbon-grades-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary dark:text-white mb-4" data-testid="carbon-grades-title">
                 Available Carbon Steel Grades
               </h2>
               <p className="text-xl text-gray-600 dark:text-gray-300 text-center mb-12 max-w-4xl mx-auto">
@@ -403,7 +403,7 @@ export default function CarbonSteelPlates() {
         <section className="py-16 bg-white dark:bg-gray-800" data-testid="grade-details-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary dark:text-white mb-4" data-testid="grade-details-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary dark:text-white mb-4" data-testid="grade-details-title">
                 Detailed Carbon Steel Grade Specifications
               </h2>
               <p className="text-xl text-gray-600 dark:text-gray-300 text-center mb-12 max-w-4xl mx-auto">
@@ -569,7 +569,7 @@ export default function CarbonSteelPlates() {
         <section className="py-16 bg-gray-50 dark:bg-gray-900" data-testid="applications-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary dark:text-white mb-4" data-testid="applications-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary dark:text-white mb-4" data-testid="applications-title">
                 Carbon Steel Applications by Industry
               </h2>
               <p className="text-xl text-gray-600 dark:text-gray-300 text-center mb-12 max-w-4xl mx-auto">
@@ -603,7 +603,7 @@ export default function CarbonSteelPlates() {
         <section className="py-16 bg-white dark:bg-gray-800" data-testid="company-quality-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary dark:text-white mb-4" data-testid="company-quality-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary dark:text-white mb-4" data-testid="company-quality-title">
                 Leading Carbon Steel Supplier & Manufacturer
               </h2>
               <p className="text-xl text-gray-600 dark:text-gray-300 text-center mb-12 max-w-4xl mx-auto">
@@ -690,7 +690,7 @@ export default function CarbonSteelPlates() {
         <section className="py-16 bg-navy-primary text-white" data-testid="contact-cta-section">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6" data-testid="cta-title">
+              <h2 className="text-2xl font-bold mb-6" data-testid="cta-title">
                 Ready to Order Carbon Steel Plates?
               </h2>
               <p className="text-xl mb-8 text-blue-100" data-testid="cta-subtitle">

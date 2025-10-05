@@ -272,7 +272,7 @@ export default function StainlessSteelFlanges() {
         <div className="bg-gradient-to-r from-blue-900 via-blue-800 to-blue-700 text-white py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="text-main-heading">
+              <h1 className="text-heading md:text-heading font-bold mb-6" data-testid="text-main-heading">
                 Best Stainless Steel Flanges Supplier in Mumbai
               </h1>
               <p className="text-xl mb-4 text-blue-100" data-testid="text-hero-subtitle">
@@ -297,7 +297,7 @@ export default function StainlessSteelFlanges() {
         {/* Key Features */}
         <div className="py-16 bg-gray-50 dark:bg-gray-800">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-features-heading">
+            <h2 className="text-2xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-features-heading">
               Why Choose Mamta Steel Traders for SS Flanges?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -315,7 +315,7 @@ export default function StainlessSteelFlanges() {
         {/* Stainless Steel Grades */}
         <div className="py-16">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-grades-heading">
+            <h2 className="text-2xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-grades-heading">
               Stainless Steel Flanges by Grade
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
@@ -369,7 +369,7 @@ export default function StainlessSteelFlanges() {
         {/* Flange Types */}
         <div className="py-16 bg-gray-50 dark:bg-gray-800">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-flange-types-heading">
+            <h2 className="text-2xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-flange-types-heading">
               Stainless Steel Flange Types Available
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -419,7 +419,7 @@ export default function StainlessSteelFlanges() {
         {/* Size Chart */}
         <div className="py-16">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-sizes-heading">
+            <h2 className="text-2xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-sizes-heading">
               Available Flange Sizes - All Standard Dimensions
             </h2>
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
@@ -449,7 +449,7 @@ export default function StainlessSteelFlanges() {
         {/* Pressure Class Chart */}
         <div className="py-16 bg-gray-50 dark:bg-gray-800">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-pressure-heading">
+            <h2 className="text-2xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-pressure-heading">
               Pressure Class & Temperature Ratings
             </h2>
             <div className="overflow-x-auto">
@@ -480,7 +480,7 @@ export default function StainlessSteelFlanges() {
         {/* Chemical Composition */}
         <div className="py-16">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-composition-heading">
+            <h2 className="text-2xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-composition-heading">
               Chemical Composition & Mechanical Properties
             </h2>
             <div className="grid lg:grid-cols-2 gap-8">
@@ -531,7 +531,7 @@ export default function StainlessSteelFlanges() {
         {/* Applications */}
         <div className="py-16 bg-gray-50 dark:bg-gray-800">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-applications-heading">
+            <h2 className="text-2xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-applications-heading">
               Industrial Applications
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
@@ -550,7 +550,7 @@ export default function StainlessSteelFlanges() {
         {/* Testing & Certification */}
         <div className="py-16">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-testing-heading">
+            <h2 className="text-2xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-testing-heading">
               Quality Testing & Certifications
             </h2>
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8">
@@ -572,7 +572,7 @@ export default function StainlessSteelFlanges() {
         {/* Service Areas */}
         <div className="py-16 bg-gray-50 dark:bg-gray-800">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-service-areas-heading">
+            <h2 className="text-2xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-service-areas-heading">
               We Supply Across India
             </h2>
             <div className="bg-white dark:bg-gray-700 rounded-lg shadow-lg p-6">
@@ -605,7 +605,7 @@ export default function StainlessSteelFlanges() {
         {/* Call to Action */}
         <div className="py-16 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl font-bold mb-6" data-testid="text-cta-heading">
+            <h2 className="text-2xl font-bold mb-6" data-testid="text-cta-heading">
               Get Best Prices on Stainless Steel Flanges
             </h2>
             <p className="text-xl mb-4 text-blue-100" data-testid="text-cta-subtitle">

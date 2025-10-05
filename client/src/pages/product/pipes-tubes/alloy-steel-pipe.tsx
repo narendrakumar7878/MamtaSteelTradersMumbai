@@ -64,7 +64,7 @@ export default function AlloySteelPipes() {
         <section className="bg-gradient-to-r from-navy-primary to-navy-secondary text-white py-16" data-testid="hero-section">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="hero-title">
+              <h1 className="text-heading md:text-heading font-bold mb-6" data-testid="hero-title">
                 Premium Alloy Steel Pipes
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100" data-testid="hero-subtitle">
@@ -88,7 +88,7 @@ export default function AlloySteelPipes() {
             <div className="max-w-6xl mx-auto">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div>
-                  <h2 className="text-3xl md:text-4xl font-bold text-navy-primary mb-6" data-testid="seo-title">
+                  <h2 className="text-2xl font-bold text-navy-primary mb-6" data-testid="seo-title">
                     Professional ASTM A335 Alloy Steel Pipes Manufacturer & Stockist
                   </h2>
                   <p className="text-gray-700 mb-6">
@@ -167,7 +167,7 @@ export default function AlloySteelPipes() {
         <section className="py-16 bg-white" data-testid="product-gallery-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="gallery-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="gallery-title">
                 Our Alloy Steel Pipe Products
               </h2>
               
@@ -323,7 +323,7 @@ export default function AlloySteelPipes() {
         {/* Product Features */}
         <section className="py-16 bg-white" data-testid="features-section">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="features-title">
+            <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="features-title">
               Why Choose Our Alloy Steel Pipes?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -342,7 +342,7 @@ export default function AlloySteelPipes() {
         <section className="py-16 bg-gray-50" data-testid="specifications-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="specifications-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="specifications-title">
                 Technical Specifications
               </h2>
               <div className="grid md:grid-cols-2 gap-12">
@@ -377,7 +377,7 @@ export default function AlloySteelPipes() {
         <section className="py-16 bg-white" data-testid="enhanced-technical-specs-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="enhanced-specs-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="enhanced-specs-title">
                 ASTM A335 Chemical Composition & Mechanical Properties
               </h2>
               
@@ -560,7 +560,7 @@ export default function AlloySteelPipes() {
         <section className="py-16 bg-gray-50" data-testid="product-variants-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="variants-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="variants-title">
                 Individual Alloy Steel Pipe Grades
               </h2>
               
@@ -805,7 +805,7 @@ export default function AlloySteelPipes() {
         <section className="py-16 bg-navy-primary text-white" data-testid="contact-cta-section">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6" data-testid="cta-title">
+              <h2 className="text-2xl font-bold mb-6" data-testid="cta-title">
                 Need High-Temperature Alloy Steel Pipes?
               </h2>
               <p className="text-xl mb-8 text-blue-100" data-testid="cta-subtitle">

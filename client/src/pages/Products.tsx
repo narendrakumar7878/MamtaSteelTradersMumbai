@@ -35,7 +35,7 @@ export default function Products() {
         <div className="container mx-auto px-3 sm:px-4 lg:px-6">
           {/* Hero Section */}
           <div className="text-center mb-8 sm:mb-12 lg:mb-16">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-800 mb-4 sm:mb-6" data-testid="text-products-title">
+            <h1 className="text-2xl sm:text-2xl lg:text-heading font-bold text-slate-800 mb-4 sm:mb-6" data-testid="text-products-title">
               Our Steel Products
             </h1>
             <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto px-4" data-testid="text-products-subtitle">
@@ -63,7 +63,7 @@ export default function Products() {
                   />
                 </div>
                 <div className={index % 2 === 1 ? 'lg:col-start-1 lg:row-start-1' : ''}>
-                  <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-slate-800 mb-3 sm:mb-4" data-testid={`product-title-${index}`}>
+                  <h2 className="text-xl sm:text-2xl lg:text-2xl font-bold text-slate-800 mb-3 sm:mb-4" data-testid={`product-title-${index}`}>
                     {category.title}
                   </h2>
                   <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6" data-testid={`product-description-${index}`}>
@@ -94,7 +94,7 @@ export default function Products() {
 
           {/* CTA Section */}
           <div className="bg-blue-50 rounded-lg p-6 sm:p-8 lg:p-12 text-center mt-8 sm:mt-12 lg:mt-16">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-slate-800 mb-3 sm:mb-4" data-testid="text-cta-title">
+            <h2 className="text-xl sm:text-2xl lg:text-2xl font-bold text-slate-800 mb-3 sm:mb-4" data-testid="text-cta-title">
               Need Custom Steel Solutions?
             </h2>
             <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 px-4" data-testid="text-cta-description">

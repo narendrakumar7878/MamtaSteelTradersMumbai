@@ -277,7 +277,7 @@ export default function StainlessSteelPipesAndTubes() {
         <section className="bg-gradient-to-r from-navy-primary to-navy-secondary text-white py-16" data-testid="hero-section">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6" data-testid="hero-title">
+              <h1 className="text-heading font-bold mb-6" data-testid="hero-title">
                 Stainless Steel Pipes & Tubes Stockist & Suppliers from Mumbai India
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100" data-testid="hero-subtitle">
@@ -316,7 +316,7 @@ export default function StainlessSteelPipesAndTubes() {
         {/* Product Showcase - 24 Products */}
         <section className="py-16 bg-white" data-testid="products-showcase">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="products-title">
+            <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="products-title">
               Complete Range of Stainless Steel Pipes & Tubes
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-12">
@@ -350,7 +350,7 @@ export default function StainlessSteelPipesAndTubes() {
         {/* Product Features */}
         <section className="py-16 bg-gray-50" data-testid="features-section">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="features-title">
+            <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="features-title">
               Why Choose Our Stainless Steel Pipes & Tubes?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -368,7 +368,7 @@ export default function StainlessSteelPipesAndTubes() {
         {/* SS 304 Detailed Specifications */}
         <section className="py-16 bg-white" data-testid="ss304-specifications">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="ss304-title">
+            <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="ss304-title">
               SS 304 Pipes & Tubes - Detailed Specifications
             </h2>
             
@@ -467,7 +467,7 @@ export default function StainlessSteelPipesAndTubes() {
         {/* Ready Stock Inventory */}
         <section className="py-16 bg-gray-50" data-testid="ready-stock-section">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="ready-stock-title">
+            <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="ready-stock-title">
               Ready Stock Available - SS 304/304L Pipes & Tubes
             </h2>
             <div className="bg-white p-8 rounded-lg shadow-md">
@@ -508,7 +508,7 @@ export default function StainlessSteelPipesAndTubes() {
         <section className="py-16 bg-white" data-testid="specifications-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="specifications-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="specifications-title">
                 Complete Technical Specifications
               </h2>
               <div className="grid md:grid-cols-2 gap-12">
@@ -542,7 +542,7 @@ export default function StainlessSteelPipesAndTubes() {
         {/* Available Grades */}
         <section className="py-16 bg-gray-50" data-testid="grades-section">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="grades-title">
+            <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="grades-title">
               Complete Range of Stainless Steel Grades Available
             </h2>
             <div className="bg-white p-8 rounded-lg shadow-md">
@@ -580,7 +580,7 @@ export default function StainlessSteelPipesAndTubes() {
         {/* Product Features & Benefits */}
         <section className="py-16 bg-white" data-testid="benefits-section">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="benefits-title">
+            <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="benefits-title">
               Product Features & Benefits
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -652,7 +652,7 @@ export default function StainlessSteelPipesAndTubes() {
         <section className="py-16 bg-gray-50" data-testid="size-chart-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="size-chart-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="size-chart-title">
                 Comprehensive Size Chart & Weight Table
               </h2>
               <div className="overflow-x-auto">
@@ -761,7 +761,7 @@ export default function StainlessSteelPipesAndTubes() {
         {/* Testing & Certification */}
         <section className="py-16 bg-white" data-testid="testing-section">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="testing-title">
+            <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="testing-title">
               Testing & Certification Services
             </h2>
             <div className="grid md:grid-cols-2 gap-12">
@@ -840,7 +840,7 @@ export default function StainlessSteelPipesAndTubes() {
         {/* Why Choose Us */}
         <section className="py-16 bg-gray-50" data-testid="why-choose-section">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="why-choose-title">
+            <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="why-choose-title">
               Why Choose Mamta Steel Traders?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -882,7 +882,7 @@ export default function StainlessSteelPipesAndTubes() {
         <section className="py-16 bg-navy-primary text-white" data-testid="contact-cta-section">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6" data-testid="cta-title">
+              <h2 className="text-2xl font-bold mb-6" data-testid="cta-title">
                 Ready to Order Stainless Steel Pipes & Tubes?
               </h2>
               <p className="text-xl mb-8 text-blue-100" data-testid="cta-subtitle">

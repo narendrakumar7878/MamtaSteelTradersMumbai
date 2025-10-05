@@ -153,7 +153,7 @@ export default function StainlessSteelPipeSpecification() {
                 </div>
               </motion.div>
               
-              <h1 className="text-4xl md:text-5xl font-bold text-[#0d2b4e] mb-6">
+              <h1 className="text-heading md:text-heading font-bold text-[#0d2b4e] mb-6">
                 Stainless Steel Pipe Specifications
               </h1>
               
@@ -224,7 +224,7 @@ export default function StainlessSteelPipeSpecification() {
             >
               <div className="flex items-center space-x-3 mb-8">
                 <Settings className="w-7 h-7 text-[#f39c12]" />
-                <h2 className="text-3xl font-bold text-[#0d2b4e]">Material Grade Specifications</h2>
+                <h2 className="text-2xl font-bold text-[#0d2b4e]">Material Grade Specifications</h2>
               </div>
               
               <div className="grid gap-6">
@@ -278,7 +278,7 @@ export default function StainlessSteelPipeSpecification() {
               transition={{ duration: 0.6, delay: 1.0 }}
               className="bg-white rounded-xl shadow-lg p-8 mb-12"
             >
-              <h2 className="text-3xl font-bold text-[#0d2b4e] mb-6 text-center">Quality Assurance & Testing</h2>
+              <h2 className="text-2xl font-bold text-[#0d2b4e] mb-6 text-center">Quality Assurance & Testing</h2>
               
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
@@ -318,7 +318,7 @@ export default function StainlessSteelPipeSpecification() {
             >
               <div className="bg-white rounded-xl shadow-lg overflow-hidden">
                 <div className="bg-gradient-to-r from-[#1a3e72] to-[#0d2b4e] p-6 text-center">
-                  <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">
+                  <h1 className="text-2xl font-bold text-white mb-2">
                     <strong>Stainless Steel Pipes & Tubes Specifications</strong> – ASTM / ASME, German (EN), NF, JIS Standards
                   </h1>
                   <p className="text-lg text-gray-200">

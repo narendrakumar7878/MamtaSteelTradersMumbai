@@ -124,9 +124,9 @@ export default function F22RoundBars() {
             <div className="max-w-6xl mx-auto">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div>
-                  <h1 className="text-4xl md:text-6xl font-bold mb-6" data-testid="text-f22-title">
+                  <h1 className="text-heading font-bold mb-6" data-testid="text-f22-title">
                     F22 Round Bars
-                    <span className="block text-2xl md:text-3xl text-gold-primary font-normal mt-2">
+                    <span className="block text-2xl md:text-2xl text-gold-primary font-normal mt-2">
                       ASTM A182 F22 Alloy Steel Forged Bars
                     </span>
                   </h1>
@@ -183,7 +183,7 @@ export default function F22RoundBars() {
 
             {/* Product Description */}
             <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 mb-16">
-              <h2 className="text-3xl font-bold text-slate-800 dark:text-gray-100 mb-6" data-testid="text-description-title">
+              <h2 className="text-2xl font-bold text-slate-800 dark:text-gray-100 mb-6" data-testid="text-description-title">
                 F22 Round Bars / ASTM A182 F22
               </h2>
               <div className="prose prose-lg max-w-none text-gray-700 dark:text-gray-300">
@@ -308,7 +308,7 @@ export default function F22RoundBars() {
             {/* Applications */}
             <div className="bg-gradient-to-r from-navy-primary to-navy-secondary rounded-xl p-8 text-white mb-16">
               <div className="max-w-4xl mx-auto">
-                <h3 className="text-2xl md:text-3xl font-bold mb-8 text-center" data-testid="text-applications-title">
+                <h3 className="text-2xl md:text-2xl font-bold mb-8 text-center" data-testid="text-applications-title">
                   Applications of F22 Round Bars
                 </h3>
                 <div className="grid md:grid-cols-2 gap-6">

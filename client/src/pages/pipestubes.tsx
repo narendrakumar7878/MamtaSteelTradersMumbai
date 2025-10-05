@@ -135,7 +135,7 @@ export default function Pipestubes() {
           >
             {/* Header Section */}
             <header className="text-center mb-16">
-              <h1 className="text-4xl md:text-5xl font-bold text-[#0d2b4e] mb-6">
+              <h1 className="text-heading md:text-heading font-bold text-[#0d2b4e] mb-6">
                 <strong>Pipes & Tubes – Stainless Steel, Carbon Steel, Alloy Steel and More</strong>
               </h1>
               
@@ -191,7 +191,7 @@ export default function Pipestubes() {
               transition={{ duration: 0.6, delay: 0.8 }}
               className="mt-16 bg-white rounded-xl shadow-lg p-8"
             >
-              <h2 className="text-3xl font-bold text-[#0d2b4e] mb-6 text-center">
+              <h2 className="text-2xl font-bold text-[#0d2b4e] mb-6 text-center">
                 <strong>Our Pipe & Tube Capabilities</strong>
               </h2>
               

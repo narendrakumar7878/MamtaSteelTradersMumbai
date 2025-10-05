@@ -77,7 +77,7 @@ export default function InconelPipes() {
             <div className="max-w-7xl mx-auto">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="text-center lg:text-left">
-                  <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6" data-testid="hero-title">
+                  <h1 className="text-heading md:text-heading lg:text-heading font-bold mb-6" data-testid="hero-title">
                     Inconel 625 Seamless Pipes & Tubes
                   </h1>
                   <div className="mb-6">
@@ -128,7 +128,7 @@ export default function InconelPipes() {
         {/* Product Features */}
         <section className="py-16 bg-white" data-testid="features-section">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="features-title">
+            <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="features-title">
               Why Choose Our Inconel 625 Pipes?
             </h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -147,7 +147,7 @@ export default function InconelPipes() {
         <section className="py-16 bg-gray-50" data-testid="specifications-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="specifications-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="specifications-title">
                 Technical Specifications
               </h2>
               <div className="grid md:grid-cols-2 gap-12">
@@ -182,7 +182,7 @@ export default function InconelPipes() {
         <section className="py-16 bg-white" data-testid="inconel-grades-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="inconel-grades-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="inconel-grades-title">
                 Inconel 625 Technical Specifications
               </h2>
               <div className="overflow-x-auto">
@@ -352,7 +352,7 @@ export default function InconelPipes() {
         <section className="py-16 bg-navy-primary text-white" data-testid="contact-cta-section">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6" data-testid="cta-title">
+              <h2 className="text-2xl font-bold mb-6" data-testid="cta-title">
                 Ready to Order Inconel 625 Pipes?
               </h2>
               <p className="text-xl mb-8 text-blue-100" data-testid="cta-subtitle">

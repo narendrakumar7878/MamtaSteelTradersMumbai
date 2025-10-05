@@ -198,7 +198,7 @@ export default function AlloySteelPlates() {
         <section className="bg-gradient-to-r from-blue-900 via-blue-800 to-blue-900 text-white py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="heading-hero">
+              <h1 className="text-heading md:text-heading font-bold mb-6" data-testid="heading-hero">
                 Premium Alloy Steel Plates & Sheets
               </h1>
               <p className="text-xl mb-8 text-blue-100" data-testid="text-hero-description">
@@ -223,7 +223,7 @@ export default function AlloySteelPlates() {
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4" data-testid="heading-features">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4" data-testid="heading-features">
                 Why Choose Our Alloy Steel Plates?
               </h2>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto" data-testid="text-features-description">
@@ -249,7 +249,7 @@ export default function AlloySteelPlates() {
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4" data-testid="heading-grades">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4" data-testid="heading-grades">
                 Alloy Steel Plate Grades
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto" data-testid="text-grades-description">
@@ -326,7 +326,7 @@ export default function AlloySteelPlates() {
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4" data-testid="heading-composition-table">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4" data-testid="heading-composition-table">
                 Chemical Composition Reference
               </h2>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto" data-testid="text-composition-table-description">
@@ -384,7 +384,7 @@ export default function AlloySteelPlates() {
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4" data-testid="heading-applications">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4" data-testid="heading-applications">
                 Applications & Industries
               </h2>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto" data-testid="text-applications-description">
@@ -441,7 +441,7 @@ export default function AlloySteelPlates() {
         {/* Call to Action */}
         <section className="py-16 bg-blue-900 text-white">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl font-bold mb-4" data-testid="heading-cta">
+            <h2 className="text-2xl font-bold mb-4" data-testid="heading-cta">
               Ready to Source Premium Alloy Steel Plates?
             </h2>
             <p className="text-xl text-blue-100 mb-8" data-testid="text-cta-description">

@@ -186,7 +186,7 @@ export default function HeroCarousel() {
             <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
             <div className="relative z-10 container mx-auto px-3 sm:px-4 lg:px-6 h-full flex items-center">
               <div className="text-white max-w-3xl">
-                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-3 sm:mb-4 md:mb-6 text-orange-400 leading-tight" data-testid={`slide-title-${index}`}>
+                <h1 className="text-2xl sm:text-2xl lg:text-heading xl:text-heading font-bold mb-3 sm:mb-4 md:mb-6 text-orange-400 leading-tight" data-testid={`slide-title-${index}`}>
                   {slide.title}
                 </h1>
                 <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-4 sm:mb-6 md:mb-8 text-gray-100 leading-relaxed max-w-2xl" data-testid={`slide-description-${index}`}>

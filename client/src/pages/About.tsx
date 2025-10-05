@@ -63,7 +63,7 @@ export default function About() {
               variants={staggerContainer}
             >
               <motion.h1 
-                className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold bg-gradient-to-r from-[#0d2b4e] to-[#f39c12] bg-clip-text text-transparent mb-4 sm:mb-6 lg:mb-8"
+                className="text-2xl sm:text-heading md:text-heading lg:text-heading xl:text-7xl font-bold bg-gradient-to-r from-[#0d2b4e] to-[#f39c12] bg-clip-text text-transparent mb-4 sm:mb-6 lg:mb-8"
                 variants={fadeInUp}
               >
                 About Industry
@@ -106,17 +106,17 @@ export default function About() {
                     <div className="absolute inset-0 bg-gradient-to-br from-[#f39c12]/20 to-transparent rounded-xl sm:rounded-2xl"></div>
                     <div className="relative z-10">
                       <Factory className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 text-[#f39c12] mb-4 sm:mb-5 lg:mb-6" />
-                      <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 sm:mb-5 lg:mb-6">Our Industrial Excellence</h2>
+                      <h2 className="text-xl sm:text-2xl lg:text-2xl font-bold mb-4 sm:mb-5 lg:mb-6">Our Industrial Excellence</h2>
                       <p className="text-sm sm:text-base text-blue-100 leading-relaxed mb-4 sm:mb-5 lg:mb-6">
                         Since Mamta Steel Traders was set up with a vision of excelling in the field of Manufacturing, Supplying and Fulfilling the demand of the dynamic metal market and the customers involved.
                       </p>
                       <div className="grid grid-cols-2 gap-3 sm:gap-4">
                         <div className="text-center">
-                          <div className="text-2xl sm:text-3xl font-bold text-[#f39c12]">30+</div>
+                          <div className="text-2xl sm:text-2xl font-bold text-[#f39c12]">30+</div>
                           <div className="text-xs sm:text-sm text-blue-200">Years Experience</div>
                         </div>
                         <div className="text-center">
-                          <div className="text-2xl sm:text-3xl font-bold text-[#f39c12]">1000+</div>
+                          <div className="text-2xl sm:text-2xl font-bold text-[#f39c12]">1000+</div>
                           <div className="text-xs sm:text-sm text-blue-200">Happy Clients</div>
                         </div>
                       </div>
@@ -149,7 +149,7 @@ export default function About() {
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#0d2b4e] mb-4 sm:mb-6">Why Choose Us</h2>
+              <h2 className="text-2xl sm:text-2xl lg:text-heading font-bold text-[#0d2b4e] mb-4 sm:mb-6">Why Choose Us</h2>
               <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto px-4">
                 Discover what makes us the preferred choice for industrial steel solutions
               </p>
@@ -212,7 +212,7 @@ export default function About() {
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">Our Foundation</h2>
+              <h2 className="text-2xl sm:text-2xl lg:text-heading font-bold mb-4 sm:mb-6">Our Foundation</h2>
               <p className="text-base sm:text-lg lg:text-xl text-blue-200 max-w-3xl mx-auto px-4">
                 Built on strong values, driven by clear vision, guided by our mission
               </p>
@@ -287,7 +287,7 @@ export default function About() {
                 <div className="absolute bottom-0 right-0 w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40 bg-gradient-to-tl from-[#0d2b4e]/10 to-transparent rounded-tl-full"></div>
                 
                 <div className="relative z-10">
-                  <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#0d2b4e] mb-4 sm:mb-6 lg:mb-8 text-center">
+                  <h2 className="text-xl sm:text-2xl md:text-2xl lg:text-heading font-bold text-[#0d2b4e] mb-4 sm:mb-6 lg:mb-8 text-center">
                     Your Trust, Our Commitment
                   </h2>
                   
@@ -327,7 +327,7 @@ export default function About() {
               variants={fadeInUp}
             >
               <div className="bg-gray-50 rounded-lg p-3 sm:p-4 lg:p-6">
-                <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#0d2b4e] mb-4 sm:mb-6 lg:mb-8 text-center px-4">
+                <h2 className="text-xl sm:text-2xl md:text-2xl lg:text-heading font-bold text-[#0d2b4e] mb-4 sm:mb-6 lg:mb-8 text-center px-4">
                   Terms and Conditions - Steel Supply & Material Delivery Policy
                 </h2>
                 

@@ -34,7 +34,7 @@ export default function StatsSection() {
             {/* Main Heading */}
             <div>
               <h1 
-                className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 leading-tight"
+                className="text-2xl sm:text-2xl lg:text-heading font-bold mb-4 sm:mb-6 leading-tight"
                 style={{ color: '#1a3e72' }}
                 data-testid="stats-heading"
               >
@@ -63,7 +63,7 @@ export default function StatsSection() {
                   data-testid={`stat-card-${index}`}
                 >
                   <div 
-                    className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-1 sm:mb-2"
+                    className="text-2xl sm:text-2xl lg:text-heading font-bold mb-1 sm:mb-2"
                     style={{ color: '#f39c12' }}
                     data-testid={`stat-value-${index}`}
                   >

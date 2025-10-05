@@ -143,7 +143,7 @@ export default function StainlessSteelElectrodes() {
         <section className="bg-gradient-to-r from-navy-primary to-navy-secondary text-white py-16" data-testid="hero-section">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="hero-title">
+              <h1 className="text-heading md:text-heading font-bold mb-6" data-testid="hero-title">
                 E307-16 Stainless Steel Welding Electrodes
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100" data-testid="hero-subtitle">
@@ -164,7 +164,7 @@ export default function StainlessSteelElectrodes() {
         {/* Product Features */}
         <section className="py-16 bg-white" data-testid="features-section">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="features-title">
+            <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="features-title">
               Why Choose Our Stainless Steel Electrodes?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -183,7 +183,7 @@ export default function StainlessSteelElectrodes() {
         <section className="py-16 bg-gray-50" data-testid="applications-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="applications-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="applications-title">
                 E307-16 Applications
               </h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
@@ -206,7 +206,7 @@ export default function StainlessSteelElectrodes() {
         <section className="py-16 bg-white" data-testid="top-features-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="top-features-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="top-features-title">
                 Top Features of E307-16
               </h2>
               <div className="grid md:grid-cols-1 gap-4">
@@ -227,7 +227,7 @@ export default function StainlessSteelElectrodes() {
         <section className="py-16 bg-gray-50" data-testid="dimension-specs-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="dimension-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="dimension-title">
                 Dimension & Weight Specifications
               </h2>
               <div className="bg-white rounded-lg shadow-lg border border-gray-200 overflow-hidden">
@@ -267,7 +267,7 @@ export default function StainlessSteelElectrodes() {
         <section className="py-16 bg-white" data-testid="welding-positions-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="positions-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="positions-title">
                 Welding Position Guidelines
               </h2>
               <div className="overflow-x-auto">
@@ -298,7 +298,7 @@ export default function StainlessSteelElectrodes() {
         <section className="py-16 bg-white" data-testid="product-description-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="description-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="description-title">
                 E307-16 Stainless Steel Welding Electrodes
               </h2>
               <div className="bg-gradient-to-br from-gray-50 to-white rounded-lg shadow-lg border border-gray-200 p-8">
@@ -326,7 +326,7 @@ export default function StainlessSteelElectrodes() {
         <section className="py-16 bg-gray-50" data-testid="specifications-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="specifications-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="specifications-title">
                 Technical Specifications
               </h2>
               <div className="grid lg:grid-cols-2 gap-8">
@@ -372,7 +372,7 @@ export default function StainlessSteelElectrodes() {
         <section className="py-16 bg-white" data-testid="composition-properties-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="composition-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="composition-title">
                 Chemical Composition & Mechanical Properties
               </h2>
               <div className="grid lg:grid-cols-2 gap-8">
@@ -440,7 +440,7 @@ export default function StainlessSteelElectrodes() {
         <section className="py-16 bg-gray-50" data-testid="operating-data-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="operating-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="operating-title">
                 Operating Data & Specifications
               </h2>
               <div className="bg-white rounded-lg shadow-lg border border-gray-200 overflow-hidden">
@@ -478,7 +478,7 @@ export default function StainlessSteelElectrodes() {
         <section className="py-16 bg-white" data-testid="delivery-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="delivery-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="delivery-title">
                 Delivery Coverage
               </h2>
               <div className="grid lg:grid-cols-2 gap-8">
@@ -550,7 +550,7 @@ export default function StainlessSteelElectrodes() {
         <section className="py-16 bg-gradient-to-r from-navy-primary to-navy-secondary text-white" data-testid="cta-section">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6" data-testid="cta-title">
+              <h2 className="text-2xl font-bold mb-6" data-testid="cta-title">
                 Ready to Order E307-16 Stainless Steel Electrodes?
               </h2>
               <p className="text-xl mb-8 text-blue-100" data-testid="cta-subtitle">

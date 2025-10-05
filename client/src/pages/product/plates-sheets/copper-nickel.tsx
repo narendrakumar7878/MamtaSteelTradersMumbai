@@ -72,7 +72,7 @@ export default function CopperNickelPlates() {
         <section className="bg-gradient-to-r from-navy-primary to-navy-secondary text-white py-16" data-testid="hero-section">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="hero-title">
+              <h1 className="text-heading md:text-heading font-bold mb-6" data-testid="hero-title">
                 Premium Copper Nickel Plates & Sheets
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100" data-testid="hero-subtitle">
@@ -93,7 +93,7 @@ export default function CopperNickelPlates() {
         {/* Product Features */}
         <section className="py-16 bg-white" data-testid="features-section">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="features-title">
+            <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="features-title">
               Why Choose Our Copper Nickel Plates?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -112,7 +112,7 @@ export default function CopperNickelPlates() {
         <section className="py-16 bg-gray-50" data-testid="specifications-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="specifications-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="specifications-title">
                 Technical Specifications
               </h2>
               <div className="grid md:grid-cols-2 gap-12">
@@ -147,13 +147,13 @@ export default function CopperNickelPlates() {
         <section className="py-16 bg-gradient-to-b from-blue-50 to-white" data-testid="pricing-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="pricing-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="pricing-title">
                 Copper Nickel Plate Pricing
               </h2>
               <div className="grid md:grid-cols-3 gap-8 mb-12">
                 <div className="bg-white p-8 rounded-lg shadow-lg border-t-4 border-gold-primary" data-testid="pricing-basic">
                   <h3 className="text-2xl font-bold text-navy-primary mb-4">90/10 CuNi</h3>
-                  <p className="text-4xl font-bold text-gold-primary mb-2">₹850-1150</p>
+                  <p className="text-heading font-bold text-gold-primary mb-2">₹850-1150</p>
                   <p className="text-gray-600 mb-6">per kg</p>
                   <ul className="space-y-3 mb-8">
                     <li className="flex items-center"><CheckCircle className="w-5 h-5 text-green-500 mr-2" />Standard marine grade</li>
@@ -164,7 +164,7 @@ export default function CopperNickelPlates() {
                 </div>
                 <div className="bg-white p-8 rounded-lg shadow-lg border-t-4 border-navy-primary" data-testid="pricing-premium">
                   <h3 className="text-2xl font-bold text-navy-primary mb-4">70/30 CuNi</h3>
-                  <p className="text-4xl font-bold text-navy-primary mb-2">₹1150-1450</p>
+                  <p className="text-heading font-bold text-navy-primary mb-2">₹1150-1450</p>
                   <p className="text-gray-600 mb-6">per kg</p>
                   <ul className="space-y-3 mb-8">
                     <li className="flex items-center"><CheckCircle className="w-5 h-5 text-green-500 mr-2" />High nickel content</li>
@@ -175,7 +175,7 @@ export default function CopperNickelPlates() {
                 </div>
                 <div className="bg-white p-8 rounded-lg shadow-lg border-t-4 border-green-500" data-testid="pricing-specialty">
                   <h3 className="text-2xl font-bold text-navy-primary mb-4">Special Grades</h3>
-                  <p className="text-4xl font-bold text-green-600 mb-2">₹300-1800</p>
+                  <p className="text-heading font-bold text-green-600 mb-2">₹300-1800</p>
                   <p className="text-gray-600 mb-6">per kg</p>
                   <ul className="space-y-3 mb-8">
                     <li className="flex items-center"><CheckCircle className="w-5 h-5 text-green-500 mr-2" />CuNi10Fe1Mn variants</li>
@@ -199,7 +199,7 @@ export default function CopperNickelPlates() {
         <section className="py-16 bg-white" data-testid="alloy-grades-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="alloy-grades-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="alloy-grades-title">
                 Available Copper Nickel Alloys
               </h2>
               <div className="overflow-x-auto">
@@ -282,7 +282,7 @@ export default function CopperNickelPlates() {
         <section className="py-16 bg-navy-primary text-white" data-testid="contact-cta-section">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6" data-testid="cta-title">
+              <h2 className="text-2xl font-bold mb-6" data-testid="cta-title">
                 Ready to Order Copper Nickel Plates?
               </h2>
               <p className="text-xl mb-8 text-blue-100" data-testid="cta-subtitle">

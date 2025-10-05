@@ -123,7 +123,7 @@ export default function AlloySteelFlanges() {
         <section className="bg-gradient-to-r from-navy-primary to-navy-secondary text-white py-16" data-testid="hero-section">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="hero-title">
+              <h1 className="text-heading md:text-heading font-bold mb-6" data-testid="hero-title">
                 Alloy Steel Flanges Suppliers Mumbai – ASTM A182 F1/F5/F9/F11/F22/F91/F92
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100" data-testid="hero-subtitle">
@@ -145,7 +145,7 @@ export default function AlloySteelFlanges() {
         <section className="py-16 bg-white" data-testid="mumbai-intro-section">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold text-navy-primary mb-8" data-testid="mumbai-intro-title">
+              <h2 className="text-2xl font-bold text-navy-primary mb-8" data-testid="mumbai-intro-title">
                 Mumbai's Most Trusted Alloy Steel Flanges Supplier
               </h2>
               <p className="text-lg text-gray-700 mb-6" data-testid="mumbai-intro-description">
@@ -179,7 +179,7 @@ export default function AlloySteelFlanges() {
         <section className="py-16 bg-gray-50" data-testid="product-gallery-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="gallery-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="gallery-title">
                 ASTM A182 Alloy Steel Flanges - Product Gallery
               </h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -253,7 +253,7 @@ export default function AlloySteelFlanges() {
         {/* Product Features */}
         <section className="py-16 bg-white" data-testid="features-section">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="features-title">
+            <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="features-title">
               Why Choose Our Alloy Steel Flanges?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -272,7 +272,7 @@ export default function AlloySteelFlanges() {
         <section className="py-16 bg-gray-50" data-testid="material-grades-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="grades-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="grades-title">
                 Available Material Grades
               </h2>
               <div className="overflow-x-auto">
@@ -305,7 +305,7 @@ export default function AlloySteelFlanges() {
         <section className="py-16 bg-white" data-testid="mechanical-properties-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="mechanical-properties-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="mechanical-properties-title">
                 Mechanical Properties
               </h2>
               <div className="overflow-x-auto">
@@ -340,7 +340,7 @@ export default function AlloySteelFlanges() {
         <section className="py-16 bg-gray-50" data-testid="supplier-advantages-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="supplier-advantages-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="supplier-advantages-title">
                 Why Choose Mumbai's Leading Alloy Steel Flanges Supplier?
               </h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -411,7 +411,7 @@ export default function AlloySteelFlanges() {
         <section className="py-16 bg-white" data-testid="pricing-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="pricing-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="pricing-title">
                 Size Availability & Competitive Pricing
               </h2>
               
@@ -502,7 +502,7 @@ export default function AlloySteelFlanges() {
         <section className="py-16 bg-white" data-testid="flange-types-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="flange-types-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="flange-types-title">
                 Available Flange Types
               </h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -523,7 +523,7 @@ export default function AlloySteelFlanges() {
         <section className="py-16 bg-gray-50" data-testid="specifications-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="specifications-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="specifications-title">
                 Technical Specifications
               </h2>
               <div className="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
@@ -549,7 +549,7 @@ export default function AlloySteelFlanges() {
         <section className="py-16 bg-white" data-testid="applications-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="applications-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="applications-title">
                 Industrial Applications
               </h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -570,7 +570,7 @@ export default function AlloySteelFlanges() {
         <section className="py-16 bg-gradient-to-r from-navy-primary to-navy-secondary text-white" data-testid="cta-section">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6" data-testid="cta-title">
+              <h2 className="text-2xl font-bold mb-6" data-testid="cta-title">
                 Ready to Order Alloy Steel Flanges?
               </h2>
               <p className="text-xl mb-8 text-blue-100" data-testid="cta-subtitle">

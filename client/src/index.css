@@ -205,6 +205,14 @@
   }
 }
 
+@layer utilities {
+  /* Custom font sizes as per requirement */
+  .text-heading {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+}
+
 @layer components {
   .steel-blue-50 {
     background-color: var(--steel-blue-50);

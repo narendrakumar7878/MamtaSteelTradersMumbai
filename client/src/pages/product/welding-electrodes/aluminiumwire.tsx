@@ -254,7 +254,7 @@ export default function AluminiumWire() {
         <div className="bg-gradient-to-r from-blue-900 via-blue-800 to-blue-700 text-white py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="text-main-heading">
+              <h1 className="text-heading md:text-heading font-bold mb-6" data-testid="text-main-heading">
                 Premium Aluminum Welding Wire & Filler Rods
               </h1>
               <p className="text-xl mb-8 text-blue-100" data-testid="text-hero-description">
@@ -277,7 +277,7 @@ export default function AluminiumWire() {
         {/* Key Features */}
         <div className="py-16 bg-gray-50 dark:bg-gray-800">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-features-heading">
+            <h2 className="text-2xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-features-heading">
               Key Features & Benefits
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -295,7 +295,7 @@ export default function AluminiumWire() {
         {/* Product Grid */}
         <div className="py-16">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-products-heading">
+            <h2 className="text-2xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-products-heading">
               Our Aluminum Welding Wire Products
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
@@ -334,7 +334,7 @@ export default function AluminiumWire() {
         {/* Detailed Specifications */}
         <div className="py-16 bg-gray-50 dark:bg-gray-800">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-specifications-heading">
+            <h2 className="text-2xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-specifications-heading">
               Technical Specifications
             </h2>
             <div className="grid lg:grid-cols-2 gap-8">
@@ -367,7 +367,7 @@ export default function AluminiumWire() {
         {/* Advantages */}
         <div className="py-16">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-advantages-heading">
+            <h2 className="text-2xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-advantages-heading">
               Why Choose Our Aluminum Welding Wires?
             </h2>
             <div className="grid lg:grid-cols-3 gap-8">
@@ -392,7 +392,7 @@ export default function AluminiumWire() {
         {/* Service Areas */}
         <div className="py-16 bg-gray-50 dark:bg-gray-800">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-service-areas-heading">
+            <h2 className="text-2xl font-bold text-center mb-12 text-gray-900 dark:text-white" data-testid="text-service-areas-heading">
               Service Areas
             </h2>
             <div className="grid lg:grid-cols-2 gap-8">
@@ -447,7 +447,7 @@ export default function AluminiumWire() {
         {/* Call to Action */}
         <div className="py-16 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl font-bold mb-6" data-testid="text-cta-heading">
+            <h2 className="text-2xl font-bold mb-6" data-testid="text-cta-heading">
               Ready to Get Premium Aluminum Welding Wires?
             </h2>
             <p className="text-xl mb-8 text-blue-100" data-testid="text-cta-description">

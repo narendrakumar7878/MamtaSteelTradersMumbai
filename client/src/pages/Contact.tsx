@@ -195,7 +195,7 @@ export default function Contact() {
               variants={staggerContainer}
             >
               <motion.h1 
-                className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold bg-gradient-to-r from-[#0d2b4e] to-[#f39c12] bg-clip-text text-transparent mb-4 sm:mb-6 lg:mb-8"
+                className="text-2xl sm:text-heading md:text-heading lg:text-heading xl:text-7xl font-bold bg-gradient-to-r from-[#0d2b4e] to-[#f39c12] bg-clip-text text-transparent mb-4 sm:mb-6 lg:mb-8"
                 variants={fadeInUp}
               >
                 Contact Us
@@ -235,7 +235,7 @@ export default function Contact() {
                 className="space-y-8"
               >
                 <div>
-                  <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#0d2b4e] mb-4 sm:mb-6 lg:mb-8">Get in Touch</h2>
+                  <h2 className="text-xl sm:text-2xl md:text-2xl lg:text-heading font-bold text-[#0d2b4e] mb-4 sm:mb-6 lg:mb-8">Get in Touch</h2>
                   
                   <motion.div 
                     className="space-y-4 sm:space-y-6"
@@ -426,7 +426,7 @@ export default function Contact() {
                   <div className="absolute bottom-0 left-0 w-24 h-24 sm:w-32 sm:h-32 bg-gradient-to-tr from-[#0d2b4e]/10 to-transparent rounded-tr-full"></div>
                   
                   <div className="relative z-10">
-                    <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#0d2b4e] mb-4 sm:mb-6 lg:mb-8 text-center">
+                    <h2 className="text-xl sm:text-2xl md:text-2xl lg:text-heading font-bold text-[#0d2b4e] mb-4 sm:mb-6 lg:mb-8 text-center">
                       Send us a Message
                     </h2>
                     

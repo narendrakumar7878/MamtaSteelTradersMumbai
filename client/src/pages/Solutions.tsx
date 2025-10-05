@@ -127,7 +127,7 @@ export default function Solutions() {
               variants={staggerContainer}
             >
               <motion.h1 
-                className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold bg-gradient-to-r from-[#0d2b4e] to-[#f39c12] bg-clip-text text-transparent mb-4 sm:mb-6 lg:mb-8"
+                className="text-2xl sm:text-heading md:text-heading lg:text-heading xl:text-7xl font-bold bg-gradient-to-r from-[#0d2b4e] to-[#f39c12] bg-clip-text text-transparent mb-4 sm:mb-6 lg:mb-8"
                 variants={fadeInUp}
               >
                 Steel Solutions
@@ -174,7 +174,7 @@ export default function Solutions() {
                           <solution.icon className="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 text-white" />
                         </div>
                         <div>
-                          <h2 className="text-lg sm:text-xl lg:text-2xl xl:text-3xl font-bold text-[#0d2b4e] group-hover:text-[#f39c12] transition-colors duration-300">
+                          <h2 className="text-lg sm:text-xl lg:text-2xl xl:text-2xl font-bold text-[#0d2b4e] group-hover:text-[#f39c12] transition-colors duration-300">
                             {solution.title}
                           </h2>
                         </div>
@@ -242,7 +242,7 @@ export default function Solutions() {
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">Our Solution Process</h2>
+              <h2 className="text-2xl sm:text-2xl lg:text-heading font-bold mb-4 sm:mb-6">Our Solution Process</h2>
               <p className="text-base sm:text-lg lg:text-xl text-blue-100 max-w-3xl mx-auto px-4">
                 A systematic approach to delivering exceptional steel solutions
               </p>
@@ -296,7 +296,7 @@ export default function Solutions() {
               <div className="absolute bottom-0 right-0 w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40 bg-gradient-to-tl from-[#0d2b4e]/10 to-transparent rounded-tl-full"></div>
               
               <div className="relative z-10 text-center">
-                <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#0d2b4e] mb-4 sm:mb-6">
+                <h2 className="text-xl sm:text-2xl md:text-2xl lg:text-heading font-bold text-[#0d2b4e] mb-4 sm:mb-6">
                   Ready to Get Started?
                 </h2>
                 <p className="text-sm sm:text-base lg:text-xl text-gray-600 mb-6 sm:mb-8 max-w-2xl mx-auto px-4">

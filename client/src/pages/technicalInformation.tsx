@@ -232,7 +232,7 @@ export default function TechnicalInformation() {
                 </div>
               </motion.div>
               
-              <h1 className="text-4xl md:text-5xl font-bold text-[#0d2b4e] mb-6">
+              <h1 className="text-heading md:text-heading font-bold text-[#0d2b4e] mb-6">
                 Technical Information
               </h1>
               
@@ -275,7 +275,7 @@ export default function TechnicalInformation() {
                 transition={{ duration: 0.6, delay: 0.6 }}
                 className="text-center mb-12"
               >
-                <h2 id="detailed-specs-heading" className="text-3xl md:text-4xl font-bold text-[#0d2b4e] mb-4">
+                <h2 id="detailed-specs-heading" className="text-2xl font-bold text-[#0d2b4e] mb-4">
                   Detailed Product Specifications
                 </h2>
                 <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -300,7 +300,7 @@ export default function TechnicalInformation() {
                         <div className="w-12 h-12 bg-[#f39c12] rounded-lg flex items-center justify-center mr-4" aria-hidden="true">
                           <spec.icon className="w-6 h-6 text-white" />
                         </div>
-                        <h3 id={`spec-category-${index}`} className="text-2xl md:text-3xl font-bold text-white" data-testid={`spec-title-${index}`}>
+                        <h3 id={`spec-category-${index}`} className="text-2xl md:text-2xl font-bold text-white" data-testid={`spec-title-${index}`}>
                           {spec.category}
                         </h3>
                       </div>
@@ -342,7 +342,7 @@ export default function TechnicalInformation() {
               aria-labelledby="testing-standards-heading"
             >
               <header className="text-center mb-12">
-                <h2 id="testing-standards-heading" className="text-3xl md:text-4xl font-bold text-[#0d2b4e] mb-4" data-testid="text-testing-title">
+                <h2 id="testing-standards-heading" className="text-2xl font-bold text-[#0d2b4e] mb-4" data-testid="text-testing-title">
                   Testing & Quality Standards
                 </h2>
                 <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -384,7 +384,7 @@ export default function TechnicalInformation() {
               aria-labelledby="standards-compliance-heading"
             >
               <header className="text-center mb-12">
-                <h2 id="standards-compliance-heading" className="text-3xl md:text-4xl font-bold text-[#0d2b4e] mb-4" data-testid="text-standards-title">
+                <h2 id="standards-compliance-heading" className="text-2xl font-bold text-[#0d2b4e] mb-4" data-testid="text-standards-title">
                   International Standards Compliance
                 </h2>
                 <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -471,7 +471,7 @@ export default function TechnicalInformation() {
               aria-labelledby="technical-overview-heading"
             >
               <header className="text-center mb-12">
-                <h2 id="technical-overview-heading" className="text-3xl md:text-4xl font-bold text-[#0d2b4e] mb-4">
+                <h2 id="technical-overview-heading" className="text-2xl font-bold text-[#0d2b4e] mb-4">
                   Stainless Steel Technical Overview
                 </h2>
                 <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -585,7 +585,7 @@ export default function TechnicalInformation() {
                         <Settings className="w-6 h-6 text-white" />
                       </div>
                     </div>
-                    <h2 id="cta-heading" className="text-3xl md:text-4xl font-bold mb-4">
+                    <h2 id="cta-heading" className="text-2xl font-bold mb-4">
                       Need Detailed Technical Specifications?
                     </h2>
                   </motion.div>

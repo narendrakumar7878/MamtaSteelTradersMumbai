@@ -197,7 +197,7 @@ export default function IndustryServe() {
           >
             <h2 
               id="industries-heading"
-              className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6 leading-tight px-2 sm:px-0"
+              className="text-2xl sm:text-2xl lg:text-heading xl:text-heading font-bold text-gray-900 dark:text-white mb-4 sm:mb-6 leading-tight px-2 sm:px-0"
             >
               <span className="text-[#0d2b4e]">Industries We Serve</span> - 
               <span className="text-[#f39c12]"> Steel Solutions Provider Mumbai</span>
@@ -340,7 +340,7 @@ export default function IndustryServe() {
             viewport={{ once: true }}
             variants={cardVariants}
           >
-            <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-center text-gray-900 dark:text-white mb-4 sm:mb-6">
+            <h3 className="text-xl sm:text-2xl lg:text-2xl font-bold text-center text-gray-900 dark:text-white mb-4 sm:mb-6">
               Why Choose Mamta Steel Traders for Your Industry?
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 text-center">

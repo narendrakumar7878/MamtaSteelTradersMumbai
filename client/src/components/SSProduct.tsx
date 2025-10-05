@@ -124,7 +124,7 @@ export default function SSProduct() {
           >
             <h1 
               id="steel-products-heading"
-              className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6 leading-tight px-2 sm:px-0"
+              className="text-2xl sm:text-2xl lg:text-heading xl:text-heading font-bold text-gray-900 dark:text-white mb-4 sm:mb-6 leading-tight px-2 sm:px-0"
             >
               <span className="text-[#f39c12]">Mamta Steel Traders</span> is Major Importer, Stockist, Supplier of{" "}
               <span className="text-[#0d2b4e]">Stainless Steel, Alloy Steel, Carbon Steel & Mild Steel Grades</span>
@@ -153,10 +153,10 @@ export default function SSProduct() {
                 custom={index}
               >
                 <div className="flex items-center mb-4 sm:mb-6">
-                  <span className="text-2xl sm:text-3xl lg:text-4xl mr-3 sm:mr-4" role="img" aria-label={category.title}>
+                  <span className="text-2xl sm:text-2xl lg:text-heading mr-3 sm:mr-4" role="img" aria-label={category.title}>
                     {category.icon}
                   </span>
-                  <h2 className={`text-xl sm:text-2xl lg:text-3xl font-bold ${category.iconColor}`}>
+                  <h2 className={`text-xl sm:text-2xl lg:text-2xl font-bold ${category.iconColor}`}>
                     {category.title}
                   </h2>
                 </div>
@@ -190,7 +190,7 @@ export default function SSProduct() {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-center text-gray-900 dark:text-white mb-4 sm:mb-6 lg:mb-8">
+            <h2 className="text-xl sm:text-2xl lg:text-2xl font-bold text-center text-gray-900 dark:text-white mb-4 sm:mb-6 lg:mb-8">
               Premium Quality Steel Products Supplier in India
             </h2>
             
@@ -223,7 +223,7 @@ export default function SSProduct() {
             viewport={{ once: true }}
             variants={fadeInUp}
           >
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">
+            <h2 className="text-xl sm:text-2xl md:text-2xl lg:text-heading font-bold mb-4 sm:mb-6">
               Contact Us for Best Price & Quick Delivery
             </h2>
             <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 opacity-90">

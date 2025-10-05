@@ -126,7 +126,7 @@ export default function TechnicalInfo() {
         <div className="container mx-auto px-4">
           {/* Hero Section */}
           <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6" data-testid="text-technical-title">
+            <h1 className="text-heading md:text-heading font-bold text-slate-800 mb-6" data-testid="text-technical-title">
               Technical Information & Specifications
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto" data-testid="text-technical-subtitle">
@@ -146,7 +146,7 @@ export default function TechnicalInfo() {
                   <div className="w-12 h-12 bg-orange-500 rounded-lg flex items-center justify-center mr-4">
                     <spec.icon className="w-6 h-6 text-white" />
                   </div>
-                  <h2 className="text-3xl font-bold text-slate-800" data-testid={`spec-title-${index}`}>
+                  <h2 className="text-2xl font-bold text-slate-800" data-testid={`spec-title-${index}`}>
                     {spec.category}
                   </h2>
                 </div>
@@ -173,7 +173,7 @@ export default function TechnicalInfo() {
 
           {/* Testing & Quality Standards */}
           <div className="bg-blue-50 rounded-lg p-12">
-            <h2 className="text-3xl font-bold text-slate-800 text-center mb-8" data-testid="text-testing-title">
+            <h2 className="text-2xl font-bold text-slate-800 text-center mb-8" data-testid="text-testing-title">
               Testing & Quality Standards
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -195,7 +195,7 @@ export default function TechnicalInfo() {
 
           {/* Standards Compliance */}
           <div className="mt-16 text-center">
-            <h2 className="text-3xl font-bold text-slate-800 mb-8" data-testid="text-standards-title">
+            <h2 className="text-2xl font-bold text-slate-800 mb-8" data-testid="text-standards-title">
               Standards Compliance
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

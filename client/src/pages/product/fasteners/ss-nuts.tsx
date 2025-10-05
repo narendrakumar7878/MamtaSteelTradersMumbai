@@ -179,7 +179,7 @@ export default function StainlessSteelNuts() {
         <section className="bg-gradient-to-r from-navy-primary to-navy-secondary text-white py-16" data-testid="hero-section">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="hero-title">
+              <h1 className="text-heading md:text-heading font-bold mb-6" data-testid="hero-title">
                 Premium Stainless Steel Nuts
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100" data-testid="hero-subtitle">
@@ -201,7 +201,7 @@ export default function StainlessSteelNuts() {
         <section className="py-16 bg-white" data-testid="features-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="features-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="features-title">
                 Why Choose Our Stainless Steel Nuts?
               </h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -223,7 +223,7 @@ export default function StainlessSteelNuts() {
         <section id="nut-types" className="py-16 bg-gray-50" data-testid="nut-types-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-4" data-testid="nut-types-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-4" data-testid="nut-types-title">
                 Stainless Steel Nut Types
               </h2>
               <p className="text-center text-gray-600 mb-12 text-lg">
@@ -285,7 +285,7 @@ export default function StainlessSteelNuts() {
         <section className="py-16 bg-white" data-testid="size-specs-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="size-specs-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="size-specs-title">
                 Detailed Size Specifications
               </h2>
               <div className="overflow-x-auto">
@@ -320,7 +320,7 @@ export default function StainlessSteelNuts() {
         <section className="py-16 bg-gray-50" data-testid="material-grades-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="grades-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="grades-title">
                 Stainless Steel Grades & Properties
               </h2>
               <div className="overflow-x-auto">
@@ -357,7 +357,7 @@ export default function StainlessSteelNuts() {
         <section className="py-16 bg-white" data-testid="specifications-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="specifications-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="specifications-title">
                 Technical Specifications & Applications
               </h2>
               <div className="grid md:grid-cols-2 gap-8">
@@ -392,7 +392,7 @@ export default function StainlessSteelNuts() {
         <section className="py-16 bg-gray-50" data-testid="keywords-section">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold text-navy-primary mb-8" data-testid="keywords-title">
+              <h2 className="text-2xl font-bold text-navy-primary mb-8" data-testid="keywords-title">
                 Popular Stainless Steel Nut Searches
               </h2>
               <div className="flex flex-wrap justify-center gap-3">
@@ -415,7 +415,7 @@ export default function StainlessSteelNuts() {
         <section className="py-16 bg-navy-primary text-white" data-testid="contact-cta-section">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6" data-testid="cta-title">
+              <h2 className="text-2xl font-bold mb-6" data-testid="cta-title">
                 Need Stainless Steel Nuts for Your Project?
               </h2>
               <p className="text-xl mb-8 text-blue-100" data-testid="cta-subtitle">

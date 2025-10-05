@@ -321,7 +321,7 @@ export default function StainlessSteelPlates() {
         <section className="bg-gradient-to-r from-navy-primary to-navy-secondary text-white py-16" data-testid="hero-section">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="hero-title">
+              <h1 className="text-heading md:text-heading font-bold mb-6" data-testid="hero-title">
                 Premium Stainless Steel Plates & Sheets
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100" data-testid="hero-subtitle">
@@ -344,7 +344,7 @@ export default function StainlessSteelPlates() {
           <div className="container mx-auto px-4">
             <div className="max-w-7xl mx-auto">
               <div className="text-center mb-16">
-                <h2 className="text-3xl md:text-4xl font-bold text-navy-primary mb-6" data-testid="grades-title">
+                <h2 className="text-2xl font-bold text-navy-primary mb-6" data-testid="grades-title">
                   Complete Range of Stainless Steel Plates & Sheets
                 </h2>
                 <p className="text-xl text-gray-600 max-w-4xl mx-auto" data-testid="grades-subtitle">
@@ -460,7 +460,7 @@ export default function StainlessSteelPlates() {
         {/* Product Features */}
         <section className="py-16 bg-white" data-testid="features-section">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="features-title">
+            <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="features-title">
               Why Choose Our Stainless Steel Plates?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -479,7 +479,7 @@ export default function StainlessSteelPlates() {
         <section className="py-16 bg-gray-50" data-testid="finishes-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="finishes-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="finishes-title">
                 Available Surface Finishes
               </h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -498,7 +498,7 @@ export default function StainlessSteelPlates() {
         <section className="py-16 bg-gray-50" data-testid="composition-section">
           <div className="container mx-auto px-4">
             <div className="max-w-7xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="composition-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="composition-title">
                 Chemical Composition of Stainless Steel Grades
               </h2>
               <div className="overflow-x-auto">
@@ -608,7 +608,7 @@ export default function StainlessSteelPlates() {
         <section className="py-16 bg-white" data-testid="specifications-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="specifications-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="specifications-title">
                 Technical Specifications
               </h2>
               <div className="grid md:grid-cols-2 gap-12">
@@ -643,7 +643,7 @@ export default function StainlessSteelPlates() {
         <section className="py-16 bg-gray-50" data-testid="size-chart-section">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-center text-navy-primary mb-12" data-testid="size-chart-title">
+              <h2 className="text-2xl font-bold text-center text-navy-primary mb-12" data-testid="size-chart-title">
                 Standard Sizes Available
               </h2>
               <div className="overflow-x-auto">
@@ -692,7 +692,7 @@ export default function StainlessSteelPlates() {
         <section className="py-16 bg-navy-primary text-white" data-testid="contact-cta-section">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6" data-testid="cta-title">
+              <h2 className="text-2xl font-bold mb-6" data-testid="cta-title">
                 Need Custom Stainless Steel Plates?
               </h2>
               <p className="text-xl mb-8 text-blue-100" data-testid="cta-subtitle">

@@ -44,7 +44,7 @@ export default function Fittings() {
           >
             {/* Header Section */}
             <header className="text-center mb-16">
-              <h1 className="text-4xl md:text-5xl font-bold text-[#0d2b4e] mb-6">
+              <h1 className="text-heading md:text-heading font-bold text-[#0d2b4e] mb-6">
                 <strong>Pipe Fittings</strong>
               </h1>
               
@@ -75,7 +75,7 @@ export default function Fittings() {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="bg-white rounded-xl shadow-lg p-8 mb-12"
             >
-              <h2 className="text-3xl font-bold text-[#0d2b4e] mb-8">
+              <h2 className="text-2xl font-bold text-[#0d2b4e] mb-8">
                 <strong>Types of Pipe Fittings</strong>
               </h2>
 
@@ -179,7 +179,7 @@ export default function Fittings() {
               transition={{ duration: 0.6, delay: 0.6 }}
               className="bg-white rounded-xl shadow-lg p-8 mb-12"
             >
-              <h2 className="text-3xl font-bold text-[#0d2b4e] mb-8">
+              <h2 className="text-2xl font-bold text-[#0d2b4e] mb-8">
                 <strong>Sizes & Material Grades</strong>
               </h2>
 
@@ -303,7 +303,7 @@ export default function Fittings() {
               transition={{ duration: 0.6, delay: 0.8 }}
               className="bg-white rounded-xl shadow-lg p-8 mb-12"
             >
-              <h2 className="text-3xl font-bold text-[#0d2b4e] mb-8">
+              <h2 className="text-2xl font-bold text-[#0d2b4e] mb-8">
                 <strong>Industry Applications</strong>
               </h2>
 
@@ -372,7 +372,7 @@ export default function Fittings() {
               className="text-center"
             >
               <div className="bg-gradient-to-r from-[#1a3e72] to-[#0d2b4e] rounded-xl p-8 text-white">
-                <h2 className="text-3xl font-bold mb-4">Need Custom Pipe Fittings?</h2>
+                <h2 className="text-2xl font-bold mb-4">Need Custom Pipe Fittings?</h2>
                 <p className="text-lg mb-8 opacity-90">
                   Get high-quality <strong>pipe fittings</strong> manufactured to your exact specifications. Available in all standard sizes, schedules, and materials for demanding piping applications.
                 </p>

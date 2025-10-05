@@ -117,7 +117,7 @@ export default function AlloySteelFSeries() {
           <div className="absolute inset-0 bg-black/20"></div>
           <div className="container mx-auto px-4 py-20 relative z-10">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6" data-testid="text-f-series-title">
+              <h1 className="text-heading font-bold mb-6" data-testid="text-f-series-title">
                 Alloy Steel F Series Round Bars
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-gray-200" data-testid="text-f-series-subtitle">
@@ -234,7 +234,7 @@ export default function AlloySteelFSeries() {
             {/* F-Series Grades Information */}
             <div className="bg-gradient-to-r from-navy-primary to-navy-secondary rounded-xl p-8 text-white mb-16">
               <div className="max-w-4xl mx-auto text-center">
-                <h3 className="text-2xl md:text-3xl font-bold mb-6" data-testid="text-grades-title">
+                <h3 className="text-2xl md:text-2xl font-bold mb-6" data-testid="text-grades-title">
                   F-Series Grade Information
                 </h3>
                 <div className="grid md:grid-cols-2 gap-6 text-left">
