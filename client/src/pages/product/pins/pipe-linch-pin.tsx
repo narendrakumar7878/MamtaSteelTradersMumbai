@@ -775,8 +775,8 @@ export default function PipeLinchPin() {
                   <div className="w-16 h-16 bg-gold-primary rounded-full mx-auto mb-4 flex items-center justify-center">
                     <Factory className="w-8 h-8 text-navy-primary" />
                   </div>
-                  <h3 className="text-xl font-semibold mb-2">25+ Years Experience</h3>
-                  <p className="text-blue-100">Trusted manufacturer & supplier in fasteners and pins industry</p>
+                  <h3 className="text-xl font-semibold mb-2">12+ Years Experience</h3>
+                  <p className="text-blue-100">Trusted manufacturer & supplier in fasteners and pins industry with 500+ clients and 1000+ products</p>
                 </div>
                 <div className="text-center">
                   <div className="w-16 h-16 bg-gold-primary rounded-full mx-auto mb-4 flex items-center justify-center">
