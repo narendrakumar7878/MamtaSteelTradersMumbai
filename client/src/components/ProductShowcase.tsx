@@ -155,10 +155,10 @@ export default function ProductShowcase() {
 
   return (
     <section 
-      className="px-3 sm:px-4 lg:px-6 py-8 sm:py-12 lg:py-16 xl:py-20 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800"
+      className="py-8 sm:py-12 lg:py-16 xl:py-20 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 overflow-hidden"
       aria-labelledby="products-heading"
     >
-      <div className="max-w-7xl mx-auto">
+      <div className="w-full max-w-full mx-auto px-2 sm:px-3 lg:px-4 xl:px-6">
         {/* SEO-Optimized Section Header */}
         <motion.div 
           className="text-center mb-8 sm:mb-12 lg:mb-16"
@@ -185,16 +185,15 @@ export default function ProductShowcase() {
         </motion.div>
 
         {/* Infinite Scrolling Carousel */}
-        <div className="relative overflow-hidden">
+        <div className="relative overflow-hidden w-full">
           <div 
             ref={carouselRef}
-            className="flex gap-3 sm:gap-4 md:gap-6 lg:gap-8 pb-6 sm:pb-8 overflow-x-hidden"
+            className="flex gap-3 sm:gap-4 md:gap-6 lg:gap-8 pb-6 sm:pb-8 overflow-x-auto"
             onMouseEnter={stopAutoplay}
             onMouseLeave={startAutoplay}
             style={{ 
               scrollbarWidth: 'none', 
-              msOverflowStyle: 'none',
-              width: `${products.length * 350 + (products.length - 1) * 32}px` // Dynamic width for infinite scroll
+              msOverflowStyle: 'none'
             }}
           >
             {/* Duplicate products for infinite scroll effect */}
@@ -261,8 +260,8 @@ export default function ProductShowcase() {
           </div>
           
           {/* Gradient overlays for infinite effect */}
-          <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-gray-50 to-transparent dark:from-gray-900 pointer-events-none z-10" />
-          <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-gray-50 to-transparent dark:from-gray-900 pointer-events-none z-10" />
+          <div className="absolute left-0 top-0 bottom-0 w-12 sm:w-16 md:w-20 bg-gradient-to-r from-gray-50 to-transparent dark:from-gray-900 pointer-events-none z-10" />
+          <div className="absolute right-0 top-0 bottom-0 w-12 sm:w-16 md:w-20 bg-gradient-to-l from-gray-50 to-transparent dark:from-gray-900 pointer-events-none z-10" />
         </div>
 
         {/* Hidden SEO Content for Google Indexing */}
