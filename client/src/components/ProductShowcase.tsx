@@ -155,10 +155,10 @@ export default function ProductShowcase() {
 
   return (
     <section 
-      className="py-8 sm:py-12 lg:py-16 xl:py-20 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 overflow-x-hidden"
+      className="py-8 sm:py-12 lg:py-16 xl:py-20 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800"
       aria-labelledby="products-heading"
     >
-      <div className="w-full mx-auto">
+      <div className="w-full max-w-[100vw] overflow-hidden">
         {/* SEO-Optimized Section Header */}
         <motion.div 
           className="text-center mb-8 sm:mb-12 lg:mb-16 px-4 sm:px-6 lg:px-8"
@@ -185,16 +185,17 @@ export default function ProductShowcase() {
         </motion.div>
 
         {/* Infinite Scrolling Carousel */}
-        <div className="w-full overflow-hidden">
-          <div className="relative overflow-hidden mx-4 sm:mx-6 lg:mx-8">
+        <div className="relative w-full">
+          <div className="overflow-hidden mx-4 sm:mx-6 lg:mx-8">
             <div 
               ref={carouselRef}
-              className="flex gap-2 sm:gap-3 md:gap-4 lg:gap-5 pb-6 sm:pb-8 overflow-x-auto"
+              className="flex gap-3 sm:gap-4 md:gap-5 pb-6 sm:pb-8 overflow-x-scroll scrollbar-hide"
               onMouseEnter={stopAutoplay}
               onMouseLeave={startAutoplay}
               style={{ 
                 scrollbarWidth: 'none', 
-                msOverflowStyle: 'none'
+                msOverflowStyle: 'none',
+                WebkitOverflowScrolling: 'touch'
               }}
             >
               {/* Duplicate products for infinite scroll effect */}
@@ -259,11 +260,11 @@ export default function ProductShowcase() {
               </motion.article>
             ))}
             </div>
-            
-            {/* Gradient overlays for infinite effect */}
-            <div className="absolute left-0 top-0 bottom-0 w-8 sm:w-12 md:w-16 bg-gradient-to-r from-gray-50 to-transparent dark:from-gray-900 pointer-events-none z-10" />
-            <div className="absolute right-0 top-0 bottom-0 w-8 sm:w-12 md:w-16 bg-gradient-to-l from-gray-50 to-transparent dark:from-gray-900 pointer-events-none z-10" />
           </div>
+          
+          {/* Gradient overlays for infinite effect */}
+          <div className="absolute left-0 top-0 bottom-8 w-12 sm:w-16 md:w-20 lg:w-24 bg-gradient-to-r from-gray-50 to-transparent dark:from-gray-900 pointer-events-none z-10" />
+          <div className="absolute right-0 top-0 bottom-8 w-12 sm:w-16 md:w-20 lg:w-24 bg-gradient-to-l from-gray-50 to-transparent dark:from-gray-900 pointer-events-none z-10" />
         </div>
 
         {/* Hidden SEO Content for Google Indexing */}
