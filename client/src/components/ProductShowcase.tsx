@@ -185,10 +185,10 @@ export default function ProductShowcase() {
         </motion.div>
 
         {/* Infinite Scrolling Carousel */}
-        <div className="relative w-full overflow-hidden">
+        <div className="relative w-full overflow-hidden ml-4 sm:ml-6 lg:ml-8">
           <div 
             ref={carouselRef}
-            className="flex gap-3 sm:gap-4 md:gap-5 pb-6 sm:pb-8 overflow-x-scroll scrollbar-hide pl-4 sm:pl-6 lg:pl-8"
+            className="flex gap-3 sm:gap-4 md:gap-5 pb-6 sm:pb-8 overflow-x-scroll scrollbar-hide"
             onMouseEnter={stopAutoplay}
             onMouseLeave={startAutoplay}
             style={{ 
