@@ -97,7 +97,7 @@ export default function Solutions() {
       <main className="bg-gradient-to-br from-slate-50 via-white to-blue-50 min-h-screen">
         {/* Breadcrumb Navigation */}
         <section className="bg-white border-b border-gray-100">
-          <div className="container mx-auto px-6 lg:px-12 py-4">
+          <div className="container mx-auto px-3 sm:px-4 lg:px-6 py-3 sm:py-4">
             <nav className="flex items-center space-x-2 text-sm">
               <Link href="/" className="flex items-center text-gray-500 hover:text-[#f39c12] transition-colors duration-200">
                 <Home className="w-4 h-4 mr-1" />
@@ -110,7 +110,7 @@ export default function Solutions() {
         </section>
 
         {/* Hero Section */}
-        <section className="relative py-20 overflow-hidden">
+        <section className="relative py-8 sm:py-12 lg:py-16 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-r from-[#0d2b4e]/10 to-[#f39c12]/10"></div>
           <div className="absolute inset-0 opacity-5">
             <div className="absolute inset-0" style={{
@@ -119,27 +119,27 @@ export default function Solutions() {
             }}></div>
           </div>
           
-          <div className="container mx-auto px-6 lg:px-12 relative">
+          <div className="container mx-auto px-3 sm:px-4 lg:px-6 relative">
             <motion.header 
-              className="text-center mb-16"
+              className="text-center mb-8 sm:mb-12 lg:mb-16"
               initial="hidden"
               animate="visible"
               variants={staggerContainer}
             >
               <motion.h1 
-                className="text-5xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-[#0d2b4e] to-[#f39c12] bg-clip-text text-transparent mb-8"
+                className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold bg-gradient-to-r from-[#0d2b4e] to-[#f39c12] bg-clip-text text-transparent mb-4 sm:mb-6 lg:mb-8"
                 variants={fadeInUp}
               >
                 Steel Solutions
               </motion.h1>
               
               <motion.div 
-                className="w-32 h-1 bg-gradient-to-r from-[#0d2b4e] to-[#f39c12] mx-auto mb-8 rounded-full"
+                className="w-24 sm:w-32 h-1 bg-gradient-to-r from-[#0d2b4e] to-[#f39c12] mx-auto mb-4 sm:mb-6 lg:mb-8 rounded-full"
                 variants={fadeInUp}
               ></motion.div>
               
               <motion.p 
-                className="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed"
+                className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed px-4"
                 variants={fadeInUp}
               >
                 Comprehensive steel solutions tailored to meet diverse industry requirements with expert consultation and support.
@@ -149,10 +149,10 @@ export default function Solutions() {
         </section>
 
         {/* Solutions Grid */}
-        <section className="py-20">
-          <div className="container mx-auto px-6 lg:px-12">
+        <section className="py-8 sm:py-12 lg:py-16">
+          <div className="container mx-auto px-3 sm:px-4 lg:px-6">
             <motion.div 
-              className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-20"
+              className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 mb-8 sm:mb-12 lg:mb-20"
               variants={staggerContainer}
               initial="hidden"
               whileInView="visible"
@@ -164,33 +164,33 @@ export default function Solutions() {
                   variants={index % 2 === 0 ? slideInLeft : slideInRight}
                   className="group"
                 >
-                  <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 border border-gray-100 group-hover:border-[#f39c12]/30 relative overflow-hidden">
-                    <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-[#f39c12]/5 to-transparent rounded-bl-full"></div>
-                    <div className="absolute bottom-0 left-0 w-20 h-20 bg-gradient-to-tr from-[#0d2b4e]/5 to-transparent rounded-tr-full"></div>
+                  <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-8 shadow-lg hover:shadow-2xl transition-all duration-500 border border-gray-100 group-hover:border-[#f39c12]/30 relative overflow-hidden">
+                    <div className="absolute top-0 right-0 w-24 h-24 sm:w-32 sm:h-32 bg-gradient-to-br from-[#f39c12]/5 to-transparent rounded-bl-full"></div>
+                    <div className="absolute bottom-0 left-0 w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-tr from-[#0d2b4e]/5 to-transparent rounded-tr-full"></div>
                     
                     <div className="relative z-10">
-                      <header className="flex items-start mb-6">
-                        <div className={`w-16 h-16 bg-gradient-to-br ${solution.gradient} rounded-xl flex items-center justify-center mr-6 group-hover:scale-110 transition-transform duration-300`}>
-                          <solution.icon className="w-8 h-8 text-white" />
+                      <header className="flex items-start mb-4 sm:mb-5 lg:mb-6">
+                        <div className={`w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 bg-gradient-to-br ${solution.gradient} rounded-lg sm:rounded-xl flex items-center justify-center mr-3 sm:mr-4 lg:mr-6 flex-shrink-0 group-hover:scale-110 transition-transform duration-300`}>
+                          <solution.icon className="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 text-white" />
                         </div>
                         <div>
-                          <h2 className="text-2xl md:text-3xl font-bold text-[#0d2b4e] group-hover:text-[#f39c12] transition-colors duration-300">
+                          <h2 className="text-lg sm:text-xl lg:text-2xl xl:text-3xl font-bold text-[#0d2b4e] group-hover:text-[#f39c12] transition-colors duration-300">
                             {solution.title}
                           </h2>
                         </div>
                       </header>
                       
-                      <p className="text-gray-600 mb-6 text-lg leading-relaxed">
+                      <p className="text-sm sm:text-base lg:text-lg text-gray-600 mb-4 sm:mb-5 lg:mb-6 leading-relaxed">
                         {solution.description}
                       </p>
                       
-                      <ul className="space-y-3 mb-8">
+                      <ul className="space-y-2 sm:space-y-3 mb-6 sm:mb-8">
                         {solution.features.map((feature, featureIndex) => (
                           <li 
                             key={featureIndex} 
-                            className="flex items-center text-gray-700"
+                            className="flex items-center text-sm sm:text-base text-gray-700"
                           >
-                            <CheckCircle className="w-5 h-5 text-[#f39c12] mr-3 flex-shrink-0" />
+                            <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-[#f39c12] mr-2 sm:mr-3 flex-shrink-0" />
                             <span className="font-medium">{feature}</span>
                           </li>
                         ))}
@@ -198,11 +198,11 @@ export default function Solutions() {
                       
                       <Link href="/contact">
                         <Button 
-                          className="w-full bg-gradient-to-r from-[#0d2b4e] to-[#1a3e72] hover:from-[#f39c12] hover:to-[#e97e07] text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 group-hover:scale-105"
+                          className="w-full bg-gradient-to-r from-[#0d2b4e] to-[#1a3e72] hover:from-[#f39c12] hover:to-[#e97e07] text-white font-semibold py-2.5 sm:py-3 px-4 sm:px-6 rounded-lg sm:rounded-xl transition-all duration-300 group-hover:scale-105 text-sm sm:text-base min-h-[44px]"
                         >
                           <span className="flex items-center justify-center">
                             Get Consultation
-                            <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
+                            <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
                           </span>
                         </Button>
                       </Link>
@@ -226,7 +226,7 @@ export default function Solutions() {
         </div>
 
         {/* Process Section */}
-        <section className="py-20 bg-gradient-to-br from-[#0d2b4e] to-[#1a3e72] text-white relative overflow-hidden">
+        <section className="py-8 sm:py-12 lg:py-16 bg-gradient-to-br from-[#0d2b4e] to-[#1a3e72] text-white relative overflow-hidden">
           <div className="absolute inset-0 opacity-10">
             <div className="absolute inset-0" style={{
               backgroundImage: `radial-gradient(circle, white 1px, transparent 1px)`,
@@ -234,22 +234,22 @@ export default function Solutions() {
             }}></div>
           </div>
           
-          <div className="container mx-auto px-6 lg:px-12 relative">
+          <div className="container mx-auto px-3 sm:px-4 lg:px-6 relative">
             <motion.header 
-              className="text-center mb-16"
+              className="text-center mb-8 sm:mb-12 lg:mb-16"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">Our Solution Process</h2>
-              <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">Our Solution Process</h2>
+              <p className="text-base sm:text-lg lg:text-xl text-blue-100 max-w-3xl mx-auto px-4">
                 A systematic approach to delivering exceptional steel solutions
               </p>
             </motion.header>
             
             <motion.div 
-              className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
+              className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8"
               variants={staggerContainer}
               initial="hidden"
               whileInView="visible"
@@ -261,19 +261,19 @@ export default function Solutions() {
                   className="text-center group"
                   variants={scaleIn}
                 >
-                  <div className="relative mb-6">
-                    <div className="w-20 h-20 bg-gradient-to-br from-[#f39c12] to-[#e97e07] rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:scale-110 transition-transform duration-300">
-                      <span className="text-white font-bold text-2xl">{process.step}</span>
+                  <div className="relative mb-4 sm:mb-6">
+                    <div className="w-16 h-16 sm:w-18 sm:h-18 lg:w-20 lg:h-20 bg-gradient-to-br from-[#f39c12] to-[#e97e07] rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:scale-110 transition-transform duration-300">
+                      <span className="text-white font-bold text-xl sm:text-2xl">{process.step}</span>
                     </div>
                     {index < processSteps.length - 1 && (
                       <div className="hidden lg:block absolute top-10 left-full w-full h-0.5 bg-gradient-to-r from-[#f39c12] to-transparent"></div>
                     )}
                   </div>
                   
-                  <h3 className="text-2xl font-bold mb-3 group-hover:text-[#f39c12] transition-colors duration-300">
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-2 sm:mb-3 group-hover:text-[#f39c12] transition-colors duration-300">
                     {process.title}
                   </h3>
-                  <p className="text-blue-100 leading-relaxed">
+                  <p className="text-sm sm:text-base text-blue-100 leading-relaxed">
                     {process.description}
                   </p>
                 </motion.div>
@@ -283,37 +283,37 @@ export default function Solutions() {
         </section>
 
         {/* Call to Action Section */}
-        <section className="py-20">
-          <div className="container mx-auto px-6 lg:px-12">
+        <section className="py-8 sm:py-12 lg:py-16">
+          <div className="container mx-auto px-3 sm:px-4 lg:px-6">
             <motion.div 
-              className="bg-gradient-to-br from-white to-blue-50 rounded-3xl p-12 shadow-xl border border-gray-100 relative overflow-hidden"
+              className="bg-gradient-to-br from-white to-blue-50 rounded-xl sm:rounded-2xl lg:rounded-3xl p-6 sm:p-8 lg:p-12 shadow-xl border border-gray-100 relative overflow-hidden"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              <div className="absolute top-0 left-0 w-40 h-40 bg-gradient-to-br from-[#f39c12]/10 to-transparent rounded-br-full"></div>
-              <div className="absolute bottom-0 right-0 w-40 h-40 bg-gradient-to-tl from-[#0d2b4e]/10 to-transparent rounded-tl-full"></div>
+              <div className="absolute top-0 left-0 w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40 bg-gradient-to-br from-[#f39c12]/10 to-transparent rounded-br-full"></div>
+              <div className="absolute bottom-0 right-0 w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40 bg-gradient-to-tl from-[#0d2b4e]/10 to-transparent rounded-tl-full"></div>
               
               <div className="relative z-10 text-center">
-                <h2 className="text-3xl md:text-4xl font-bold text-[#0d2b4e] mb-6">
+                <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#0d2b4e] mb-4 sm:mb-6">
                   Ready to Get Started?
                 </h2>
-                <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+                <p className="text-sm sm:text-base lg:text-xl text-gray-600 mb-6 sm:mb-8 max-w-2xl mx-auto px-4">
                   Contact our experts today for a consultation on your steel solution requirements. 
                   We're here to help you find the perfect steel solutions for your project.
                 </p>
                 
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
                   <Link href="/contact">
-                    <Button className="bg-gradient-to-r from-[#0d2b4e] to-[#1a3e72] hover:from-[#f39c12] hover:to-[#e97e07] text-white font-semibold py-4 px-8 rounded-xl text-lg transition-all duration-300 hover:scale-105">
-                      <MessageSquare className="w-5 h-5 mr-2" />
+                    <Button className="w-full sm:w-auto bg-gradient-to-r from-[#0d2b4e] to-[#1a3e72] hover:from-[#f39c12] hover:to-[#e97e07] text-white font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-lg sm:rounded-xl text-base sm:text-lg transition-all duration-300 hover:scale-105 min-h-[44px]">
+                      <MessageSquare className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
                       Get Free Consultation
                     </Button>
                   </Link>
                   
                   <Link href="/contact">
-                    <Button variant="outline" className="border-2 border-[#0d2b4e] text-[#0d2b4e] hover:bg-[#0d2b4e] hover:text-white font-semibold py-4 px-8 rounded-xl text-lg transition-all duration-300">
+                    <Button variant="outline" className="w-full sm:w-auto border-2 border-[#0d2b4e] text-[#0d2b4e] hover:bg-[#0d2b4e] hover:text-white font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-lg sm:rounded-xl text-base sm:text-lg transition-all duration-300 min-h-[44px]">
                       <Phone className="w-5 h-5 mr-2" />
                       Call Now
                     </Button>

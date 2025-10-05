@@ -53,17 +53,17 @@ export default function About() {
       
       <main itemScope itemType="https://schema.org/AboutPage" className="bg-gradient-to-br from-slate-50 via-white to-blue-50 min-h-screen">
         {/* Hero Section */}
-        <section className="relative py-20 overflow-hidden">
+        <section className="relative py-8 sm:py-12 lg:py-16 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-r from-[#0d2b4e]/5 to-[#f39c12]/5"></div>
-          <div className="container mx-auto px-6 lg:px-12 relative">
+          <div className="container mx-auto px-3 sm:px-4 lg:px-6 relative">
             <motion.header 
-              className="text-center mb-16"
+              className="text-center mb-8 sm:mb-12 lg:mb-16"
               initial="hidden"
               animate="visible"
               variants={staggerContainer}
             >
               <motion.h1 
-                className="text-5xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-[#0d2b4e] to-[#f39c12] bg-clip-text text-transparent mb-8"
+                className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold bg-gradient-to-r from-[#0d2b4e] to-[#f39c12] bg-clip-text text-transparent mb-4 sm:mb-6 lg:mb-8"
                 variants={fadeInUp}
               >
                 About Industry
@@ -77,23 +77,23 @@ export default function About() {
         </section>
 
         {/* Company Overview Section */}
-        <section className="py-16">
-          <div className="container mx-auto px-6 lg:px-12">
+        <section className="py-8 sm:py-12 lg:py-16">
+          <div className="container mx-auto px-3 sm:px-4 lg:px-6">
             <motion.article 
-              className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center"
+              className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 xl:gap-16 items-center"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.3 }}
               variants={staggerContainer}
             >
               <motion.div variants={slideInLeft}>
-                <div className="bg-white rounded-2xl shadow-xl p-8 lg:p-12 relative overflow-hidden">
-                  <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-[#f39c12]/20 to-transparent rounded-bl-full"></div>
-                  <p className="text-lg leading-relaxed text-gray-700 relative z-10">
+                <div className="bg-white rounded-xl sm:rounded-2xl shadow-xl p-4 sm:p-6 lg:p-8 xl:p-12 relative overflow-hidden">
+                  <div className="absolute top-0 right-0 w-20 h-20 sm:w-32 sm:h-32 bg-gradient-to-br from-[#f39c12]/20 to-transparent rounded-bl-full"></div>
+                  <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-gray-700 relative z-10">
                     <span className="text-[#0d2b4e] font-semibold">Mamta Steel Traders</span> is one of the <strong>Largest Manufacturer, Stockiest, Supplier, Importer and Exporter</strong> of Stainless Steel, Carbon Steel, Alloy Steel, Mild Steel, High Nickel Alloys, Special Alloys, Aluminium Alloys, Copper Nickel, Titanium Alloys, Duplex & Super Duplex, Tantalum, Abrasion Resistant Steel, Hadfield Manganese Steel, Corten Steel, High Tensile, Quenched & Tempered Steel, Armour Steel etc in Form & Shapes of <em>Pipes, Tubes, Plates, Round Bars, Flanges and Fittings</em>. We also deal in IBR Products.
                   </p>
-                  <div className="mt-8 p-6 bg-gradient-to-r from-[#0d2b4e]/10 to-[#f39c12]/10 rounded-xl">
-                    <p className="text-gray-700 leading-relaxed">
+                  <div className="mt-4 sm:mt-6 lg:mt-8 p-4 sm:p-5 lg:p-6 bg-gradient-to-r from-[#0d2b4e]/10 to-[#f39c12]/10 rounded-lg sm:rounded-xl">
+                    <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed">
                       Over <strong className="text-[#f39c12]">3 decades of experience</strong> and our commitment towards customer delight and providing top-notch quality of products, we are a well-recognized choice for the majority of the businesses and companies for their Industrial solutions.
                     </p>
                   </div>
@@ -102,22 +102,22 @@ export default function About() {
 
               <motion.div variants={slideInRight}>
                 <div className="relative">
-                  <div className="bg-gradient-to-br from-[#0d2b4e] to-[#2563eb] rounded-2xl p-8 lg:p-12 text-white shadow-2xl">
-                    <div className="absolute inset-0 bg-gradient-to-br from-[#f39c12]/20 to-transparent rounded-2xl"></div>
+                  <div className="bg-gradient-to-br from-[#0d2b4e] to-[#2563eb] rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-8 xl:p-12 text-white shadow-2xl">
+                    <div className="absolute inset-0 bg-gradient-to-br from-[#f39c12]/20 to-transparent rounded-xl sm:rounded-2xl"></div>
                     <div className="relative z-10">
-                      <Factory className="w-16 h-16 text-[#f39c12] mb-6" />
-                      <h2 className="text-3xl font-bold mb-6">Our Industrial Excellence</h2>
-                      <p className="text-blue-100 leading-relaxed mb-6">
+                      <Factory className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 text-[#f39c12] mb-4 sm:mb-5 lg:mb-6" />
+                      <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 sm:mb-5 lg:mb-6">Our Industrial Excellence</h2>
+                      <p className="text-sm sm:text-base text-blue-100 leading-relaxed mb-4 sm:mb-5 lg:mb-6">
                         Since Mamta Steel Traders was set up with a vision of excelling in the field of Manufacturing, Supplying and Fulfilling the demand of the dynamic metal market and the customers involved.
                       </p>
-                      <div className="grid grid-cols-2 gap-4">
+                      <div className="grid grid-cols-2 gap-3 sm:gap-4">
                         <div className="text-center">
-                          <div className="text-3xl font-bold text-[#f39c12]">30+</div>
-                          <div className="text-sm text-blue-200">Years Experience</div>
+                          <div className="text-2xl sm:text-3xl font-bold text-[#f39c12]">30+</div>
+                          <div className="text-xs sm:text-sm text-blue-200">Years Experience</div>
                         </div>
                         <div className="text-center">
-                          <div className="text-3xl font-bold text-[#f39c12]">1000+</div>
-                          <div className="text-sm text-blue-200">Happy Clients</div>
+                          <div className="text-2xl sm:text-3xl font-bold text-[#f39c12]">1000+</div>
+                          <div className="text-xs sm:text-sm text-blue-200">Happy Clients</div>
                         </div>
                       </div>
                     </div>
@@ -140,23 +140,23 @@ export default function About() {
         </div>
 
         {/* Why Choose Us Section */}
-        <section className="py-20 bg-gradient-to-br from-white to-slate-50">
-          <div className="container mx-auto px-6 lg:px-12">
+        <section className="py-8 sm:py-12 lg:py-16 bg-gradient-to-br from-white to-slate-50">
+          <div className="container mx-auto px-3 sm:px-4 lg:px-6">
             <motion.header 
-              className="text-center mb-16"
+              className="text-center mb-8 sm:mb-12 lg:mb-16"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              <h2 className="text-4xl md:text-5xl font-bold text-[#0d2b4e] mb-6">Why Choose Us</h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#0d2b4e] mb-4 sm:mb-6">Why Choose Us</h2>
+              <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto px-4">
                 Discover what makes us the preferred choice for industrial steel solutions
               </p>
             </motion.header>
 
             <motion.div 
-              className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+              className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.2 }}
@@ -176,16 +176,16 @@ export default function About() {
                   variants={fadeInUp}
                   className="group"
                 >
-                  <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 transform group-hover:-translate-y-2 border border-gray-100 relative overflow-hidden">
-                    <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-[#f39c12]/10 to-transparent rounded-bl-full"></div>
+                  <div className="bg-white rounded-lg sm:rounded-xl p-4 sm:p-6 lg:p-8 shadow-lg hover:shadow-2xl transition-all duration-500 transform group-hover:-translate-y-2 border border-gray-100 relative overflow-hidden min-h-[200px] sm:min-h-0">
+                    <div className="absolute top-0 right-0 w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-[#f39c12]/10 to-transparent rounded-bl-full"></div>
                     <div className="relative z-10">
-                      <div className="w-16 h-16 bg-gradient-to-br from-[#0d2b4e] to-[#2563eb] rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                        <item.icon className="w-8 h-8 text-white" />
+                      <div className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 bg-gradient-to-br from-[#0d2b4e] to-[#2563eb] rounded-lg sm:rounded-xl flex items-center justify-center mb-4 sm:mb-5 lg:mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <item.icon className="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 text-white" />
                       </div>
-                      <h3 className="text-xl font-bold text-[#0d2b4e] mb-4 group-hover:text-[#f39c12] transition-colors duration-300">
+                      <h3 className="text-base sm:text-lg lg:text-xl font-bold text-[#0d2b4e] mb-3 sm:mb-4 group-hover:text-[#f39c12] transition-colors duration-300">
                         {item.title}
                       </h3>
-                      <p className="text-gray-600 leading-relaxed">
+                      <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
                         {item.description}
                       </p>
                     </div>
@@ -197,59 +197,59 @@ export default function About() {
         </section>
 
         {/* Values, Vision, Mission Section */}
-        <section className="py-20 bg-gradient-to-br from-[#0d2b4e] to-[#1e40af] text-white relative overflow-hidden">
+        <section className="py-8 sm:py-12 lg:py-16 bg-gradient-to-br from-[#0d2b4e] to-[#1e40af] text-white relative overflow-hidden">
           <div className="absolute inset-0 opacity-10">
             <div className="absolute inset-0" style={{
               backgroundImage: `radial-gradient(circle, white 1px, transparent 1px)`,
               backgroundSize: '30px 30px'
             }}></div>
           </div>
-          <div className="container mx-auto px-6 lg:px-12 relative">
+          <div className="container mx-auto px-3 sm:px-4 lg:px-6 relative">
             <motion.header 
-              className="text-center mb-16"
+              className="text-center mb-8 sm:mb-12 lg:mb-16"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">Our Foundation</h2>
-              <p className="text-xl text-blue-200 max-w-3xl mx-auto">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">Our Foundation</h2>
+              <p className="text-base sm:text-lg lg:text-xl text-blue-200 max-w-3xl mx-auto px-4">
                 Built on strong values, driven by clear vision, guided by our mission
               </p>
             </motion.header>
 
             <motion.div 
-              className="grid grid-cols-1 lg:grid-cols-3 gap-8"
+              className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.2 }}
               variants={staggerContainer}
             >
               <motion.article variants={fadeInUp} className="group">
-                <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 hover:bg-white/20 transition-all duration-500 border border-white/20 group-hover:border-[#f39c12]/50">
-                  <Heart className="w-16 h-16 text-[#f39c12] mb-6 group-hover:scale-110 transition-transform duration-300" />
-                  <h3 className="text-2xl font-bold mb-4 group-hover:text-[#f39c12] transition-colors duration-300">Our Values</h3>
-                  <p className="text-blue-100 leading-relaxed">
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-8 hover:bg-white/20 transition-all duration-500 border border-white/20 group-hover:border-[#f39c12]/50 min-h-[250px] sm:min-h-0">
+                  <Heart className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 text-[#f39c12] mb-4 sm:mb-5 lg:mb-6 group-hover:scale-110 transition-transform duration-300" />
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4 group-hover:text-[#f39c12] transition-colors duration-300">Our Values</h3>
+                  <p className="text-sm sm:text-base text-blue-100 leading-relaxed">
                     Integrity, Quality, Innovation, and Customer Satisfaction form the cornerstone of everything we do. We believe in building lasting relationships through trust and excellence.
                   </p>
                 </div>
               </motion.article>
 
               <motion.article variants={fadeInUp} className="group">
-                <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 hover:bg-white/20 transition-all duration-500 border border-white/20 group-hover:border-[#f39c12]/50">
-                  <Eye className="w-16 h-16 text-[#f39c12] mb-6 group-hover:scale-110 transition-transform duration-300" />
-                  <h3 className="text-2xl font-bold mb-4 group-hover:text-[#f39c12] transition-colors duration-300">Our Vision</h3>
-                  <p className="text-blue-100 leading-relaxed">
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-8 hover:bg-white/20 transition-all duration-500 border border-white/20 group-hover:border-[#f39c12]/50 min-h-[250px] sm:min-h-0">
+                  <Eye className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 text-[#f39c12] mb-4 sm:mb-5 lg:mb-6 group-hover:scale-110 transition-transform duration-300" />
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4 group-hover:text-[#f39c12] transition-colors duration-300">Our Vision</h3>
+                  <p className="text-sm sm:text-base text-blue-100 leading-relaxed">
                     To be the global leader in steel manufacturing and supply, setting industry standards for quality, innovation, and sustainable practices while empowering industries worldwide.
                   </p>
                 </div>
               </motion.article>
 
               <motion.article variants={fadeInUp} className="group">
-                <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 hover:bg-white/20 transition-all duration-500 border border-white/20 group-hover:border-[#f39c12]/50">
-                  <Target className="w-16 h-16 text-[#f39c12] mb-6 group-hover:scale-110 transition-transform duration-300" />
-                  <h3 className="text-2xl font-bold mb-4 group-hover:text-[#f39c12] transition-colors duration-300">Our Mission</h3>
-                  <p className="text-blue-100 leading-relaxed">
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-8 hover:bg-white/20 transition-all duration-500 border border-white/20 group-hover:border-[#f39c12]/50 min-h-[250px] sm:min-h-0">
+                  <Target className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 text-[#f39c12] mb-4 sm:mb-5 lg:mb-6 group-hover:scale-110 transition-transform duration-300" />
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4 group-hover:text-[#f39c12] transition-colors duration-300">Our Mission</h3>
+                  <p className="text-sm sm:text-base text-blue-100 leading-relaxed">
                     To deliver exceptional steel solutions through cutting-edge technology, superior quality products, and outstanding customer service while maintaining ethical business practices.
                   </p>
                 </div>
@@ -270,8 +270,8 @@ export default function About() {
         </div>
 
         {/* Closing Section */}
-        <section className="py-20 bg-gradient-to-br from-slate-50 to-white">
-          <div className="container mx-auto px-6 lg:px-12">
+        <section className="py-8 sm:py-12 lg:py-16 bg-gradient-to-br from-slate-50 to-white">
+          <div className="container mx-auto px-3 sm:px-4 lg:px-6">
             <motion.div 
               className="max-w-5xl mx-auto"
               initial="hidden"
@@ -281,17 +281,17 @@ export default function About() {
             >
               <motion.div 
                 variants={fadeInUp}
-                className="bg-gradient-to-br from-white to-blue-50 rounded-3xl p-12 shadow-xl border border-gray-100 relative overflow-hidden"
+                className="bg-gradient-to-br from-white to-blue-50 rounded-xl sm:rounded-2xl lg:rounded-3xl p-4 sm:p-6 lg:p-12 shadow-xl border border-gray-100 relative overflow-hidden"
               >
-                <div className="absolute top-0 left-0 w-40 h-40 bg-gradient-to-br from-[#f39c12]/10 to-transparent rounded-br-full"></div>
-                <div className="absolute bottom-0 right-0 w-40 h-40 bg-gradient-to-tl from-[#0d2b4e]/10 to-transparent rounded-tl-full"></div>
+                <div className="absolute top-0 left-0 w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40 bg-gradient-to-br from-[#f39c12]/10 to-transparent rounded-br-full"></div>
+                <div className="absolute bottom-0 right-0 w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40 bg-gradient-to-tl from-[#0d2b4e]/10 to-transparent rounded-tl-full"></div>
                 
                 <div className="relative z-10">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#0d2b4e] mb-8 text-center">
+                  <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#0d2b4e] mb-4 sm:mb-6 lg:mb-8 text-center">
                     Your Trust, Our Commitment
                   </h2>
                   
-                  <div className="space-y-6 text-lg leading-relaxed text-gray-700">
+                  <div className="space-y-4 sm:space-y-5 lg:space-y-6 text-sm sm:text-base lg:text-lg leading-relaxed text-gray-700">
                     <p>
                       <strong className="text-[#0d2b4e]">Our Clients are our most valuable assets</strong> and for that we use our skilled people and latest technology and equipments to fulfill their needs.
                     </p>
@@ -304,8 +304,8 @@ export default function About() {
                       Provide technically sound solutions and create additional value in mutual interest with our customers resulting in being a <em className="text-[#f39c12] font-semibold">preferred Stockists & Suppliers</em> within the Stockists & Suppliers industry.
                     </p>
                     
-                    <div className="bg-gradient-to-r from-[#0d2b4e]/5 to-[#f39c12]/5 rounded-xl p-6 border border-[#f39c12]/20">
-                      <p className="text-center font-medium text-[#0d2b4e]">
+                    <div className="bg-gradient-to-r from-[#0d2b4e]/5 to-[#f39c12]/5 rounded-lg sm:rounded-xl p-4 sm:p-5 lg:p-6 border border-[#f39c12]/20">
+                      <p className="text-center font-medium text-[#0d2b4e] text-sm sm:text-base lg:text-lg">
                         We would appreciate to get your esteemed enquires and look forward to the pleasure receiving your valuable response.
                       </p>
                     </div>
@@ -317,8 +317,8 @@ export default function About() {
         </section>
 
         {/* Terms and Conditions Section */}
-        <section className="py-16 bg-gray-50">
-          <div className="container mx-auto px-6 lg:px-12">
+        <section className="py-8 sm:py-12 lg:py-16 bg-gray-50">
+          <div className="container mx-auto px-3 sm:px-4 lg:px-6">
             <motion.div 
               className="max-w-5xl mx-auto"
               initial="hidden"
@@ -326,13 +326,13 @@ export default function About() {
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              <div className="bg-gray-50 rounded-lg p-6">
-                <h2 className="text-3xl md:text-4xl font-bold text-[#0d2b4e] mb-8 text-center">
+              <div className="bg-gray-50 rounded-lg p-3 sm:p-4 lg:p-6">
+                <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#0d2b4e] mb-4 sm:mb-6 lg:mb-8 text-center px-4">
                   Terms and Conditions - Steel Supply & Material Delivery Policy
                 </h2>
                 
-                <div className="bg-white rounded-lg p-8 shadow-lg">
-                  <ul className="list-disc list-inside space-y-2 text-gray-700 leading-relaxed text-lg">
+                <div className="bg-white rounded-lg p-4 sm:p-6 lg:p-8 shadow-lg">
+                  <ul className="list-disc list-inside space-y-2 sm:space-y-3 text-gray-700 leading-relaxed text-sm sm:text-base lg:text-lg">
                     <li>
                       <strong>Credit Policy:</strong> Goods will not be provided on credit to maintain business efficiency and quality steel supplier standards.
                     </li>
@@ -374,8 +374,8 @@ export default function About() {
                     </li>
                   </ul>
                   
-                  <div className="mt-8 p-6 bg-gradient-to-r from-[#0d2b4e]/5 to-[#f39c12]/5 rounded-xl border border-[#f39c12]/20">
-                    <p className="text-center font-medium text-[#0d2b4e] text-lg">
+                  <div className="mt-6 sm:mt-8 p-4 sm:p-5 lg:p-6 bg-gradient-to-r from-[#0d2b4e]/5 to-[#f39c12]/5 rounded-lg sm:rounded-xl border border-[#f39c12]/20">
+                    <p className="text-center font-medium text-[#0d2b4e] text-sm sm:text-base lg:text-lg">
                       <strong>Contact Us:</strong> For any clarifications regarding these terms and conditions, material delivery policy, or quality steel supplier services, please reach out to Mamta Steel Traders - Your trusted steel partner in Mumbai, India.
                     </p>
                   </div>
