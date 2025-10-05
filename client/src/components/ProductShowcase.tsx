@@ -185,31 +185,30 @@ export default function ProductShowcase() {
         </motion.div>
 
         {/* Infinite Scrolling Carousel */}
-        <div className="relative w-full">
-          <div className="overflow-hidden mx-4 sm:mx-6 lg:mx-8">
-            <div 
-              ref={carouselRef}
-              className="flex gap-3 sm:gap-4 md:gap-5 pb-6 sm:pb-8 overflow-x-scroll scrollbar-hide"
-              onMouseEnter={stopAutoplay}
-              onMouseLeave={startAutoplay}
-              style={{ 
-                scrollbarWidth: 'none', 
-                msOverflowStyle: 'none',
-                WebkitOverflowScrolling: 'touch'
-              }}
-            >
-              {/* Duplicate products for infinite scroll effect */}
-              {[...products, ...products].map((product, index) => (
-                <motion.article
-                  key={`${product.id}-${index}`}
-                  className="flex-shrink-0 w-[240px] sm:w-[260px] md:w-[280px] lg:w-[300px] xl:w-[320px] bg-white dark:bg-gray-800 rounded-lg sm:rounded-xl shadow-lg overflow-hidden group cursor-pointer transform transition-all duration-500"
-                  whileHover={{ 
-                    scale: 1.03, 
-                    y: -8,
-                    boxShadow: "0 20px 40px rgba(0, 0, 0, 0.15)"
-                  }}
-                  data-testid={`product-card-${product.id}`}
-                >
+        <div className="relative w-full overflow-hidden">
+          <div 
+            ref={carouselRef}
+            className="flex gap-3 sm:gap-4 md:gap-5 pb-6 sm:pb-8 overflow-x-scroll scrollbar-hide pl-4 sm:pl-6 lg:pl-8"
+            onMouseEnter={stopAutoplay}
+            onMouseLeave={startAutoplay}
+            style={{ 
+              scrollbarWidth: 'none', 
+              msOverflowStyle: 'none',
+              WebkitOverflowScrolling: 'touch'
+            }}
+          >
+            {/* Duplicate products for infinite scroll effect */}
+            {[...products, ...products].map((product, index) => (
+              <motion.article
+                key={`${product.id}-${index}`}
+                className="flex-shrink-0 w-[240px] sm:w-[260px] md:w-[280px] lg:w-[300px] xl:w-[320px] bg-white dark:bg-gray-800 rounded-lg sm:rounded-xl shadow-lg overflow-hidden group cursor-pointer transform transition-all duration-500"
+                whileHover={{ 
+                  scale: 1.03, 
+                  y: -8,
+                  boxShadow: "0 20px 40px rgba(0, 0, 0, 0.15)"
+                }}
+                data-testid={`product-card-${product.id}`}
+              >
                 <div className="relative overflow-hidden h-40 sm:h-48 md:h-52">
                   <img 
                     src={product.image} 
@@ -259,7 +258,6 @@ export default function ProductShowcase() {
                 </div>
               </motion.article>
             ))}
-            </div>
           </div>
           
           {/* Gradient overlays for infinite effect */}
