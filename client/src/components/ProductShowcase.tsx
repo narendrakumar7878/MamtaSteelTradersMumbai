@@ -185,29 +185,30 @@ export default function ProductShowcase() {
         </motion.div>
 
         {/* Infinite Scrolling Carousel */}
-        <div className="relative overflow-hidden w-full">
-          <div 
-            ref={carouselRef}
-            className="flex gap-3 sm:gap-4 md:gap-5 lg:gap-6 pb-6 sm:pb-8 overflow-x-auto px-4 sm:px-6 lg:px-8"
-            onMouseEnter={stopAutoplay}
-            onMouseLeave={startAutoplay}
-            style={{ 
-              scrollbarWidth: 'none', 
-              msOverflowStyle: 'none'
-            }}
-          >
-            {/* Duplicate products for infinite scroll effect */}
-            {[...products, ...products].map((product, index) => (
-              <motion.article
-                key={`${product.id}-${index}`}
-                className="flex-shrink-0 w-[260px] sm:w-[280px] md:w-[300px] lg:w-[320px] xl:w-[340px] bg-white dark:bg-gray-800 rounded-lg sm:rounded-xl shadow-lg overflow-hidden group cursor-pointer transform transition-all duration-500"
-                whileHover={{ 
-                  scale: 1.03, 
-                  y: -8,
-                  boxShadow: "0 20px 40px rgba(0, 0, 0, 0.15)"
-                }}
-                data-testid={`product-card-${product.id}`}
-              >
+        <div className="max-w-[100vw] mx-auto overflow-hidden px-4 sm:px-6 lg:px-8">
+          <div className="relative overflow-hidden">
+            <div 
+              ref={carouselRef}
+              className="flex gap-2 sm:gap-3 md:gap-4 lg:gap-5 pb-6 sm:pb-8 overflow-x-auto min-w-0"
+              onMouseEnter={stopAutoplay}
+              onMouseLeave={startAutoplay}
+              style={{ 
+                scrollbarWidth: 'none', 
+                msOverflowStyle: 'none'
+              }}
+            >
+              {/* Duplicate products for infinite scroll effect */}
+              {[...products, ...products].map((product, index) => (
+                <motion.article
+                  key={`${product.id}-${index}`}
+                  className="flex-shrink-0 w-[clamp(15rem,70vw,20rem)] sm:w-[clamp(16rem,45vw,18rem)] md:w-[clamp(17rem,35vw,19rem)] lg:w-[clamp(18rem,28vw,20rem)] xl:w-[21rem] bg-white dark:bg-gray-800 rounded-lg sm:rounded-xl shadow-lg overflow-hidden group cursor-pointer transform transition-all duration-500"
+                  whileHover={{ 
+                    scale: 1.03, 
+                    y: -8,
+                    boxShadow: "0 20px 40px rgba(0, 0, 0, 0.15)"
+                  }}
+                  data-testid={`product-card-${product.id}`}
+                >
                 <div className="relative overflow-hidden h-40 sm:h-48 md:h-52">
                   <img 
                     src={product.image} 
@@ -257,11 +258,12 @@ export default function ProductShowcase() {
                 </div>
               </motion.article>
             ))}
+            </div>
+            
+            {/* Gradient overlays for infinite effect */}
+            <div className="absolute left-0 top-0 bottom-0 w-8 sm:w-12 md:w-16 bg-gradient-to-r from-gray-50 to-transparent dark:from-gray-900 pointer-events-none z-10" />
+            <div className="absolute right-0 top-0 bottom-0 w-8 sm:w-12 md:w-16 bg-gradient-to-l from-gray-50 to-transparent dark:from-gray-900 pointer-events-none z-10" />
           </div>
-          
-          {/* Gradient overlays for infinite effect */}
-          <div className="absolute left-0 top-0 bottom-0 w-8 sm:w-12 md:w-16 bg-gradient-to-r from-gray-50 to-transparent dark:from-gray-900 pointer-events-none z-10" />
-          <div className="absolute right-0 top-0 bottom-0 w-8 sm:w-12 md:w-16 bg-gradient-to-l from-gray-50 to-transparent dark:from-gray-900 pointer-events-none z-10" />
         </div>
 
         {/* Hidden SEO Content for Google Indexing */}
