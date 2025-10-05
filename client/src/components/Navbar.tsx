@@ -150,7 +150,7 @@ export default function Navbar() {
 
   return (
     <nav className="bg-navy-secondary text-white sticky top-0 z-50 shadow-lg">
-      <div className="container mx-auto px-4">
+      <div className="w-full max-w-full mx-auto px-2 sm:px-3 lg:px-4 xl:px-6">
         <div className="flex items-center justify-between h-16">
           {/* Logo (Mobile) */}
           <div className="flex items-center md:hidden">
@@ -162,7 +162,7 @@ export default function Navbar() {
           </div>
           
           {/* Desktop Navigation - Centered */}
-          <div className="hidden md:flex items-center justify-center flex-1 space-x-8">
+          <div className="hidden md:flex items-center justify-center flex-1 space-x-3 lg:space-x-6 xl:space-x-8">
             <Link href="/" className={`hover:text-gold-primary transition-colors flex items-center ${isActive('/') ? 'text-gold-primary' : ''}`} data-testid="link-home">
               <Home className="w-4 h-4 mr-2" />
               Home

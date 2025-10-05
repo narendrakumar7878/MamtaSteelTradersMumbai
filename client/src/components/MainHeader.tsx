@@ -5,7 +5,7 @@ import { Link } from "wouter";
 export default function MainHeader() {
   return (
     <div className="bg-[#1a3e72] shadow-md py-3 sm:py-4 lg:py-6">
-      <div className="container mx-auto px-2 sm:px-4 max-w-7xl">
+      <div className="w-full max-w-full mx-auto px-2 sm:px-3 lg:px-4 xl:px-6">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-3 sm:gap-4 lg:gap-6">
           {/* Left: Company Logo */}
           <div className="flex items-center">

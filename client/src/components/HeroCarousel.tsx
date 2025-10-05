@@ -184,7 +184,7 @@ export default function HeroCarousel() {
               loading={index === 0 ? "eager" : "lazy"}
             />
             <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
-            <div className="relative z-10 container mx-auto px-3 sm:px-4 lg:px-6 h-full flex items-center">
+            <div className="relative z-10 w-full max-w-full mx-auto px-2 sm:px-3 lg:px-4 xl:px-6 h-full flex items-center">
               <div className="text-white max-w-3xl">
                 <h1 className="text-2xl sm:text-2xl lg:text-heading xl:text-heading font-bold mb-3 sm:mb-4 md:mb-6 text-orange-400 leading-tight" data-testid={`slide-title-${index}`}>
                   {slide.title}

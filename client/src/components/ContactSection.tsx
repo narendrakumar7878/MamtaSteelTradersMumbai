@@ -40,7 +40,7 @@ export default function ContactSection() {
       data-testid="contact-section"
       aria-label="Contact Mamta Steel Traders"
     >
-      <div className="container mx-auto max-w-7xl">
+      <div className="w-full max-w-full mx-auto px-2 sm:px-3 lg:px-4 xl:px-6">
         
         {/* Animated Section Divider */}
         <div className="w-full h-[1px] lg:h-[2px] bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 shimmer-gradient mb-6" />
