@@ -11,6 +11,7 @@ import Products from "@/pages/Products";
 import Solutions from "@/pages/Solutions";
 import Certificate from "@/pages/Certificate";
 import Contact from "@/pages/Contact";
+import Blog from "@/pages/Blog";
 import TechnicalInfo from "@/pages/TechnicalInfo";
 import TechnicalInformation from "@/pages/technicalInformation";
 import ChemicalComposition from "@/pages/chemicalComposition";
@@ -266,6 +267,7 @@ function Router() {
       <Route path="/solutions" component={Solutions} />
       <Route path="/certificate" component={Certificate} />
       <Route path="/contact" component={Contact} />
+      <Route path="/blog" component={Blog} />
       <Route component={NotFound} />
     </Switch>
   );

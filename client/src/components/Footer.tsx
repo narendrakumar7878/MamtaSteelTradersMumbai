@@ -122,6 +122,15 @@ export default function Footer() {
                   Contact
                 </Link>
               </li>
+              <li className="transform transition-all duration-200 hover:translate-x-2">
+                <Link
+                  href="/blog"
+                  className="text-gray-300 text-xs sm:text-sm hover:text-white hover:text-orange-300 transition-colors duration-200 relative before:absolute before:left-0 before:bottom-0 before:h-0.5 before:w-0 before:bg-orange-400 before:transition-all before:duration-300 hover:before:w-full"
+                  data-testid="link-blog"
+                >
+                  Blog
+                </Link>
+              </li>
             </ul>
           </div>
 
