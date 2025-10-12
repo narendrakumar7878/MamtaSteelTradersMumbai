@@ -159,7 +159,7 @@ export default function HeroCarousel() {
   };
 
   return (
-    <section className="relative overflow-hidden" data-testid="hero-carousel">
+    <section className="relative w-full overflow-hidden" data-testid="hero-carousel">
       <div 
         ref={carouselRef}
         className="flex transition-transform duration-500 ease-out"
@@ -184,15 +184,15 @@ export default function HeroCarousel() {
               loading={index === 0 ? "eager" : "lazy"}
             />
             <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
-            <div className="relative z-10 w-full max-w-full mx-auto px-2 sm:px-3 lg:px-4 xl:px-6 h-full flex items-center">
-              <div className="text-white max-w-3xl">
-                <h1 className="text-2xl sm:text-2xl lg:text-heading xl:text-heading font-bold mb-3 sm:mb-4 md:mb-6 text-orange-400 leading-tight" data-testid={`slide-title-${index}`}>
+            <div className="relative z-10 w-full h-full flex items-center justify-center px-4 sm:px-6 lg:px-8">
+              <div className="text-white max-w-4xl text-center">
+                <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold mb-3 sm:mb-4 md:mb-6 text-orange-400 leading-tight" data-testid={`slide-title-${index}`}>
                   {slide.title}
                 </h1>
-                <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-4 sm:mb-6 md:mb-8 text-gray-100 leading-relaxed max-w-2xl" data-testid={`slide-description-${index}`}>
+                <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-4 sm:mb-6 md:mb-8 text-gray-100 leading-relaxed mx-auto max-w-3xl" data-testid={`slide-description-${index}`}>
                   {slide.description}
                 </p>
-                <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+                <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
                   {slide.buttons.map((button, buttonIndex) => (
                     <Button
                       key={buttonIndex}
@@ -213,25 +213,25 @@ export default function HeroCarousel() {
         ))}
       </div>
       
-      {/* Navigation Buttons */}
+      {/* Navigation Buttons - No Background */}
       <button
         onClick={prevSlide}
         disabled={isTransitioning}
-        className="absolute left-2 sm:left-3 md:left-6 top-1/2 -translate-y-1/2 bg-black/60 hover:bg-black/80 text-white min-w-[44px] min-h-[44px] p-2 sm:p-3 md:p-4 rounded-full transition-all duration-300 transform hover:scale-110 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg z-20 flex items-center justify-center"
+        className="absolute left-2 sm:left-4 md:left-6 top-1/2 -translate-y-1/2 text-white min-w-[44px] min-h-[44px] p-2 sm:p-3 transition-all duration-300 transform hover:scale-125 disabled:opacity-50 disabled:cursor-not-allowed z-20 flex items-center justify-center"
         data-testid="carousel-prev"
         aria-label="Previous slide"
       >
-        <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8" />
+        <ChevronLeft className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 drop-shadow-lg" />
       </button>
       
       <button
         onClick={nextSlide}
         disabled={isTransitioning}
-        className="absolute right-2 sm:right-3 md:right-6 top-1/2 -translate-y-1/2 bg-black/60 hover:bg-black/80 text-white min-w-[44px] min-h-[44px] p-2 sm:p-3 md:p-4 rounded-full transition-all duration-300 transform hover:scale-110 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg z-20 flex items-center justify-center"
+        className="absolute right-2 sm:right-4 md:right-6 top-1/2 -translate-y-1/2 text-white min-w-[44px] min-h-[44px] p-2 sm:p-3 transition-all duration-300 transform hover:scale-125 disabled:opacity-50 disabled:cursor-not-allowed z-20 flex items-center justify-center"
         data-testid="carousel-next"
         aria-label="Next slide"
       >
-        <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8" />
+        <ChevronRight className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 drop-shadow-lg" />
       </button>
       
       {/* Pagination Dots */}
