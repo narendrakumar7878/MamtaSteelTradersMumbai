@@ -1,6 +1,7 @@
 import { Quote, Phone, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
+import logoImage from "@assets/logomamtasteelwithoutbg_1760247842336.png";
 
 export default function MainHeader() {
   return (
@@ -12,14 +13,7 @@ export default function MainHeader() {
             <div className="w-20 h-12 sm:w-24 sm:h-14 lg:w-28 lg:h-16 bg-[#0d2b4e] rounded-lg flex items-center justify-center shadow-lg p-1 sm:p-2" data-testid="company-logo">
               {/* Flexible logo container that supports images */}
               <div className="w-full h-full flex items-center justify-center">
-                <svg className="w-8 h-8 sm:w-9 sm:h-9 lg:w-10 lg:h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z"/>
-                  <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2" fill="none"/>
-                </svg>
-                {/* 
-                Future logo implementation:
-                <img src="/logo.png" alt="Mamta Steel Traders Logo" className="w-full h-full object-contain" />
-                */}
+                <img src={logoImage} alt="Mamta Steel Traders Logo" className="w-full h-full object-contain" />
               </div>
             </div>
           </div>
