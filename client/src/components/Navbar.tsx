@@ -150,7 +150,7 @@ export default function Navbar() {
 
   return (
     <nav className="bg-navy-secondary text-white sticky top-0 z-50 shadow-lg">
-      <div className="w-full max-w-full mx-auto px-2 sm:px-3 lg:px-4 xl:px-6">
+      <div className="w-full max-w-7xl mx-auto px-2 sm:px-3 lg:px-4 xl:px-6">
         <div className="flex items-center justify-between h-16">
           {/* Logo (Mobile) */}
           <div className="flex items-center md:hidden">
