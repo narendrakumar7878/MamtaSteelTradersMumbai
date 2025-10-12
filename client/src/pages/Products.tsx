@@ -26,9 +26,49 @@ export default function Products() {
   return (
     <>
       <SEOHead
-        title="Products"
-        description="Explore our comprehensive range of steel products including pipes, sheets, plates, and flanges. Premium quality stainless steel and carbon steel products for industrial use."
-        keywords="steel pipes, steel sheets, steel flanges, stainless steel products, carbon steel pipes, industrial steel"
+        title="Steel Products Catalog - Pipes, Plates, Flanges, Fittings, Bars | Mamta Steel Traders India"
+        description="Complete steel products catalog - Stainless steel pipes (304, 316L), MS/SS plates & sheets, flanges (weld neck, slip-on, blind), pipe fittings, TMT bars, fasteners. ISO certified manufacturer & supplier in India. Best prices for bulk orders. Browse our comprehensive range of industrial steel products."
+        keywords="steel products India, stainless steel pipes, MS plates, SS sheets, steel flanges, pipe fittings, TMT bars, carbon steel pipes, alloy steel bars, industrial steel products, steel catalog, steel manufacturer India, buy steel online India, steel supplier catalog"
+        canonicalUrl="https://mamtasteeltraders.com/products"
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          "name": "Steel Products Catalog",
+          "description": "Comprehensive catalog of steel products - pipes, plates, flanges, fittings, bars",
+          "mainEntity": {
+            "@type": "ItemList",
+            "name": "Steel Products",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                  "@type": "Product",
+                  "name": "Stainless Steel Pipes & Tubes",
+                  "description": "SS 304, 316L, seamless and welded pipes"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                  "@type": "Product",
+                  "name": "Steel Plates & Sheets",
+                  "description": "MS plates, SS sheets, checkered plates"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                  "@type": "Product",
+                  "name": "Steel Flanges",
+                  "description": "Weld neck, slip-on, blind, threaded flanges"
+                }
+              }
+            ]
+          }
+        }}
       />
       
       <div className="py-8 sm:py-12 lg:py-16 bg-white">

@@ -171,9 +171,41 @@ export default function Contact() {
   return (
     <>
       <SEOHead
-        title="Contact Us - Mamta Steel Traders | Get in Touch for Steel Solutions"
-        description="Contact Mamta Steel Traders for steel product inquiries, quotes, and technical support. Located in Mumbai, Maharashtra. Call Prakash Parmar +91 9819322575, Naresh Parmar +91 9152958210 or email mamtasteeltraders@gmail.com"
-        keywords="contact Mamta Steel Traders, steel supplier Mumbai, steel quotes, technical support, steel inquiry, Mumbai steel company"
+        title="Contact Mamta Steel Traders - Steel Supplier India | Get Quote, Price List, Technical Support"
+        description="Contact Mamta Steel Traders for bulk steel orders, price quotes, technical specifications. Call Prakash Parmar +91 9819322575, Naresh Parmar +91 9152958210. Email: mamtasteeltraders@gmail.com. Best steel supplier in India for SS pipes, MS plates, flanges, fittings. Quick response, competitive prices, pan India delivery."
+        keywords="contact steel supplier India, steel quotes India, bulk steel order, price list steel, technical support steel, Mumbai steel trader contact, Mamta Steel contact, steel inquiry India, buy steel India, steel manufacturer contact, industrial steel supplier contact"
+        canonicalUrl="https://mamtasteeltraders.com/contact"
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "ContactPage",
+          "name": "Contact Mamta Steel Traders",
+          "mainEntity": {
+            "@type": "LocalBusiness",
+            "name": "Mamta Steel Traders",
+            "telephone": ["+91-9819322575", "+91-9152958210"],
+            "email": "mamtasteeltraders@gmail.com",
+            "openingHours": "Mo-Sa 09:30-20:30",
+            "priceRange": "₹₹₹",
+            "contactPoint": [
+              {
+                "@type": "ContactPoint",
+                "telephone": "+91-9819322575",
+                "contactType": "sales",
+                "name": "Prakash Parmar",
+                "areaServed": "IN",
+                "availableLanguage": ["English", "Hindi"]
+              },
+              {
+                "@type": "ContactPoint",
+                "telephone": "+91-9152958210",
+                "contactType": "customer service",
+                "name": "Naresh Parmar",
+                "areaServed": "IN",
+                "availableLanguage": ["English", "Hindi"]
+              }
+            ]
+          }
+        }}
       />
       
       <main className="bg-gradient-to-br from-slate-50 via-white to-blue-50 min-h-screen">

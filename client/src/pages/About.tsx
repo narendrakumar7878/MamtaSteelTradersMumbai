@@ -46,9 +46,30 @@ export default function About() {
   return (
     <>
       <SEOHead
-        title="About Industry - Mamta Steel Traders | Leading Steel Manufacturer & Supplier"
-        description="Mamta Steel Traders - Largest Manufacturer, Stockiest, Supplier, Importer and Exporter of Stainless Steel, Carbon Steel, Alloy Steel. Over 3 decades of experience in Mumbai, Maharashtra."
-        keywords="about Mamta Steel Traders, steel manufacturer Mumbai, stainless steel supplier, carbon steel, alloy steel, steel pipes, steel plates, steel flanges"
+        title="About Mamta Steel Traders - Leading Steel Manufacturer & Supplier India | ISO Certified"
+        description="Mamta Steel Traders - India's largest steel manufacturer, stockist, supplier & exporter. ISO 9001:2015 & MSME certified. 30+ years experience in stainless steel, carbon steel, alloy steel pipes, plates, flanges, fittings. Trusted by 1000+ clients across India. Best quality steel products at competitive prices."
+        keywords="about Mamta Steel Traders, steel manufacturer India, ISO certified steel supplier, stainless steel manufacturer, carbon steel supplier India, alloy steel pipes, steel stockist India, Mumbai steel supplier, steel exporter India, industrial steel manufacturer, quality steel supplier, bulk steel dealer India"
+        canonicalUrl="https://mamtasteeltraders.com/about"
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "AboutPage",
+          "name": "About Mamta Steel Traders",
+          "description": "Leading steel manufacturer and supplier in India with ISO 9001:2015 certification",
+          "mainEntity": {
+            "@type": "Organization",
+            "name": "Mamta Steel Traders",
+            "foundingDate": "1990",
+            "numberOfEmployees": "100+",
+            "description": "Premier steel manufacturer and supplier with 30+ years of industry experience",
+            "award": ["ISO 9001:2015 Certified", "MSME Certified", "Industry Excellence Award"],
+            "knowsAbout": [
+              "Stainless Steel Manufacturing",
+              "Carbon Steel Supply",
+              "Alloy Steel Distribution",
+              "Industrial Steel Solutions"
+            ]
+          }
+        }}
       />
       
       <main itemScope itemType="https://schema.org/AboutPage" className="bg-gradient-to-br from-slate-50 via-white to-blue-50 min-h-screen">
