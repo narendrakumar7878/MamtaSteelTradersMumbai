@@ -93,23 +93,36 @@ const cardVariants = {
 
 export default function IndustryServe() {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [isTransitioning, setIsTransitioning] = useState(true);
   const cardsPerSlide = 3;
   const totalSlides = Math.ceil(industries.length / cardsPerSlide);
+
+  // Create extended industries array for infinite loop
+  const extendedIndustries = [...industries, ...industries.slice(0, cardsPerSlide)];
 
   // Auto-slide every 5 seconds
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % totalSlides);
+      setIsTransitioning(true);
+      setCurrentSlide((prev) => prev + 1);
     }, 5000);
 
     return () => clearInterval(interval);
-  }, [totalSlides]);
+  }, []);
 
-  // Get cards for current slide
-  const getCurrentCards = () => {
-    const startIndex = currentSlide * cardsPerSlide;
-    return industries.slice(startIndex, startIndex + cardsPerSlide);
-  };
+  // Reset to first slide when reaching the end (for infinite loop)
+  useEffect(() => {
+    if (currentSlide === totalSlides) {
+      setTimeout(() => {
+        setIsTransitioning(false);
+        setCurrentSlide(0);
+      }, 700); // Wait for transition to complete
+      
+      setTimeout(() => {
+        setIsTransitioning(true);
+      }, 750); // Re-enable transitions
+    }
+  }, [currentSlide, totalSlides]);
 
   // SEO-optimized structured data for industries served
   const structuredData = {
@@ -171,22 +184,25 @@ export default function IndustryServe() {
             </p>
           </motion.div>
 
-          {/* Industries Carousel - 3 Cards at a time */}
+          {/* Industries Carousel - 3 Cards at a time with Infinite Loop */}
           <div className="relative overflow-hidden">
             <div 
-              className="flex transition-transform duration-700 ease-in-out"
-              style={{ transform: `translateX(-${currentSlide * 100}%)` }}
+              className="flex"
+              style={{ 
+                transform: `translateX(-${currentSlide * 100}%)`,
+                transition: isTransitioning ? 'transform 0.7s ease-in-out' : 'none'
+              }}
             >
-              {Array.from({ length: totalSlides }).map((_, slideIndex) => (
+              {Array.from({ length: totalSlides + 1 }).map((_, slideIndex) => (
                 <div
                   key={slideIndex}
                   className="w-full flex-shrink-0 grid grid-cols-1 md:grid-cols-3 gap-6 px-1"
                 >
-                  {industries
+                  {extendedIndustries
                     .slice(slideIndex * cardsPerSlide, slideIndex * cardsPerSlide + cardsPerSlide)
-                    .map((industry) => (
+                    .map((industry, cardIndex) => (
                       <motion.article
-                        key={industry.id}
+                        key={`${industry.id}-${slideIndex}-${cardIndex}`}
                         className="group relative bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden transform transition-all duration-500 hover:shadow-2xl"
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -251,15 +267,18 @@ export default function IndustryServe() {
             {Array.from({ length: totalSlides }).map((_, index) => (
               <button
                 key={index}
-                onClick={() => setCurrentSlide(index)}
+                onClick={() => {
+                  setIsTransitioning(true);
+                  setCurrentSlide(index);
+                }}
                 className={`min-w-[44px] min-h-[44px] p-3 rounded-full transition-all duration-300 flex items-center justify-center ${
-                  currentSlide === index ? 'bg-[#f39c12]/20' : 'bg-transparent'
+                  currentSlide % totalSlides === index ? 'bg-[#f39c12]/20' : 'bg-transparent'
                 }`}
                 aria-label={`Go to slide ${index + 1}`}
                 data-testid={`carousel-dot-${index}`}
               >
                 <span className={`w-3 h-3 rounded-full block transition-all duration-300 ${
-                  currentSlide === index
+                  currentSlide % totalSlides === index
                     ? 'bg-[#f39c12] scale-125'
                     : 'bg-gray-300 dark:bg-gray-600 hover:bg-gray-400'
                 }`} />
