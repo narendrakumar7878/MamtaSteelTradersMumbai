@@ -276,7 +276,7 @@ function App() {
     <HelmetProvider>
       <QueryClientProvider client={queryClient}>
         <TooltipProvider>
-          <div className="min-h-screen flex flex-col">
+          <div className="min-h-screen flex flex-col overflow-x-hidden">
             <TopBar />
             <MainHeader />
             <div className="h-[2px] bg-[#f39c12] w-full" />

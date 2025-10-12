@@ -11,7 +11,7 @@ export default function TopBar() {
 
   return (
     <div className="bg-navy-primary text-white py-2 text-xs sm:text-sm">
-      <div className="w-full max-w-full mx-auto px-2 sm:px-3 lg:px-4 xl:px-6">
+      <div className="w-full max-w-7xl mx-auto px-2 sm:px-3 lg:px-4 xl:px-6">
         <div className="flex flex-col sm:flex-row sm:flex-wrap justify-between items-center gap-2">
           <div className="flex flex-col sm:flex-row sm:flex-wrap items-center gap-2 sm:gap-4 lg:gap-6 w-full sm:w-auto justify-center sm:justify-start">
             <span className="flex items-center" data-testid="company-name">

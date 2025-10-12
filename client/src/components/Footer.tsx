@@ -4,7 +4,7 @@ import { Link } from "wouter";
 export default function Footer() {
   return (
     <footer className="bg-slate-700 text-white" data-testid="footer">
-      <div className="w-full max-w-full mx-auto px-2 sm:px-3 lg:px-4 xl:px-6 py-8 sm:py-10 lg:py-12">
+      <div className="w-full max-w-7xl mx-auto px-2 sm:px-3 lg:px-4 xl:px-6 py-8 sm:py-10 lg:py-12">
         {/* Main Footer Content - Centered */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 lg:gap-12 justify-items-center text-center lg:text-left lg:justify-items-start">
           {/* Company Info Section */}

@@ -213,6 +213,7 @@
   body {
     @apply font-sans antialiased bg-background text-foreground;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
   }
 }
 

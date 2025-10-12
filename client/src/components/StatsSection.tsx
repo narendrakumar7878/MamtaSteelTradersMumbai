@@ -26,7 +26,7 @@ const benefits = [
 export default function StatsSection() {
   return (
     <section className="py-8 sm:py-12 lg:py-16 xl:py-24 bg-gray-50" data-testid="stats-section">
-      <div className="w-full max-w-full mx-auto px-2 sm:px-3 lg:px-4 xl:px-6">
+      <div className="w-full max-w-7xl mx-auto px-2 sm:px-3 lg:px-4 xl:px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
           
           {/* Left Side - Content */}

@@ -6,7 +6,7 @@ import logoImage from "@assets/logomamtasteelwithoutbg_1760247842336.png";
 export default function MainHeader() {
   return (
     <div className="bg-[#1a3e72] shadow-md py-3 sm:py-4 lg:py-6">
-      <div className="w-full max-w-full mx-auto px-2 sm:px-3 lg:px-4 xl:px-6">
+      <div className="w-full max-w-7xl mx-auto px-2 sm:px-3 lg:px-4 xl:px-6">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-3 sm:gap-4 lg:gap-6">
           {/* Left: Company Logo */}
           <div className="flex items-center">
