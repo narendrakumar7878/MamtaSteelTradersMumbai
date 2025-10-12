@@ -117,7 +117,7 @@ export default function HeroCarousel() {
     "logo": "https://mamtasteeltraders.com/logo.png",
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+91-XXXXXXXXXX",
+      "telephone": "+91-9819322576",
       "contactType": "sales",
       "areaServed": "IN",
       "availableLanguage": ["en", "hi"]
@@ -222,7 +222,7 @@ export default function HeroCarousel() {
                       >
                         <div className="flex flex-col items-center">
                           <span className="text-sm sm:text-base font-bold">Contact for Bulk Order</span>
-                          <span className="text-xs sm:text-sm font-normal opacity-90">Get Price List & Technical Support</span>
+                          
                         </div>
                       </Button>
                     </Link>

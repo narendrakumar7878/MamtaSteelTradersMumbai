@@ -14,8 +14,8 @@ export default function Home() {
     "description": "Leading steel supplier and manufacturer in India. ISO 9001:2015 & MSME certified. Supplier of stainless steel pipes, carbon steel plates, alloy steel bars, flanges, fittings, fasteners. Best prices for bulk orders.",
     "image": "https://mamtasteeltraders.com/logo.png",
     "priceRange": "₹₹₹",
-    "telephone": "+91-XXXXXXXXXX",
-    "email": "sales@mamtasteeltraders.com",
+    "telephone": "+91-9819322576",
+    "email": "mamtasteeltraders@gmail.com",
     "address": {
       "@type": "PostalAddress",
       "addressCountry": "IN",
@@ -34,7 +34,8 @@ export default function Home() {
         "Wednesday",
         "Thursday",
         "Friday",
-        "Saturday"
+        "Saturday",
+        "Sunday"
       ],
       "opens": "09:30",
       "closes": "20:30"
