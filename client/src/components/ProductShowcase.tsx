@@ -146,7 +146,7 @@ const productDescriptions = [
 ];
 
 export default function ProductShowcase() {
-  const [showAll, setShowAll] = useState(false);
+  const [visibleCount, setVisibleCount] = useState(6);
 
   // Convert images to array
   const allImages = Object.entries(imageModules).map(([path, module], index) => {
@@ -160,7 +160,16 @@ export default function ProductShowcase() {
     };
   });
 
-  const displayedImages = showAll ? allImages : allImages.slice(0, 6);
+  const displayedImages = allImages.slice(0, visibleCount);
+
+  const loadMore = () => {
+    setVisibleCount(prev => Math.min(prev + 6, allImages.length));
+  };
+
+  const showLess = () => {
+    setVisibleCount(6);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   return (
     <section 
@@ -257,28 +266,28 @@ export default function ProductShowcase() {
           ))}
         </div>
 
-        {/* Show More / Show Less Button */}
-        <div className="flex justify-center">
-          <Button
-            onClick={() => {
-              setShowAll(!showAll);
-              if (showAll) {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-              }
-            }}
-            className="bg-[#f39c12] hover:bg-[#e67e22] text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
-            data-testid={showAll ? "button-show-less" : "button-show-more"}
-          >
-            {showAll ? (
-              <>
-                Show Less <ChevronUp className="ml-2 w-5 h-5" />
-              </>
-            ) : (
-              <>
-                Show More Products ({allImages.length - 6} more) <ChevronDown className="ml-2 w-5 h-5" />
-              </>
-            )}
-          </Button>
+        {/* Show More / Show Less Buttons */}
+        <div className="flex justify-center gap-4">
+          {visibleCount < allImages.length && (
+            <Button
+              onClick={loadMore}
+              className="bg-[#f39c12] hover:bg-[#e67e22] text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+              data-testid="button-show-more"
+            >
+              Show More Products ({allImages.length - visibleCount} more) <ChevronDown className="ml-2 w-5 h-5" />
+            </Button>
+          )}
+          
+          {visibleCount > 6 && (
+            <Button
+              onClick={showLess}
+              variant="outline"
+              className="border-2 border-[#0d2b4e] text-[#0d2b4e] hover:bg-[#0d2b4e] hover:text-white px-8 py-3 rounded-full font-semibold shadow-lg transition-all duration-300"
+              data-testid="button-show-less"
+            >
+              Show Less <ChevronUp className="ml-2 w-5 h-5" />
+            </Button>
+          )}
         </div>
 
         {/* Hidden SEO Content */}
