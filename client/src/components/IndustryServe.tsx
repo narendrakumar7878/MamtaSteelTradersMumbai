@@ -1,6 +1,5 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
 import csImg from "@/assets/CS  MAMTA STEEL TRADERS.jpg";
 import ssImg from "@/assets/SS 304  MAMTA STEEL TRADERS.jpg";
 import alloySteelImg from "@/assets/ALLOYS STEEL  MAMTA STEEL TRADERS.jpg";
@@ -83,18 +82,6 @@ const industries = [
   }
 ];
 
-// Animation variants for Framer Motion
-const containerVariants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.1,
-      delayChildren: 0.2
-    }
-  }
-};
-
 const cardVariants = {
   hidden: { opacity: 0, y: 30 },
   visible: { 
@@ -105,51 +92,24 @@ const cardVariants = {
 };
 
 export default function IndustryServe() {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
-  const carouselRef = useRef<HTMLDivElement>(null);
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const cardsPerSlide = 3;
+  const totalSlides = Math.ceil(industries.length / cardsPerSlide);
 
-  // Auto-play carousel functionality
+  // Auto-slide every 5 seconds
   useEffect(() => {
-    if (!isAutoPlaying) return;
-    
     const interval = setInterval(() => {
-      setCurrentIndex(prev => (prev + 1) % industries.length);
-    }, 4000);
+      setCurrentSlide((prev) => (prev + 1) % totalSlides);
+    }, 5000);
 
     return () => clearInterval(interval);
-  }, [isAutoPlaying]);
+  }, [totalSlides]);
 
-  const goToPrevious = () => {
-    setCurrentIndex(prev => (prev - 1 + industries.length) % industries.length);
+  // Get cards for current slide
+  const getCurrentCards = () => {
+    const startIndex = currentSlide * cardsPerSlide;
+    return industries.slice(startIndex, startIndex + cardsPerSlide);
   };
-
-  const goToNext = () => {
-    setCurrentIndex(prev => (prev + 1) % industries.length);
-  };
-
-  const stopAutoplay = () => setIsAutoPlaying(false);
-  const startAutoplay = () => setIsAutoPlaying(true);
-
-  // Get visible items based on screen size
-  const getVisibleItemsCount = () => {
-    if (typeof window === 'undefined') return 4;
-    if (window.innerWidth < 640) return 1;
-    if (window.innerWidth < 768) return 2;
-    if (window.innerWidth < 1024) return 3;
-    return 4;
-  };
-
-  const [visibleItems, setVisibleItems] = useState(getVisibleItemsCount());
-
-  useEffect(() => {
-    const handleResize = () => {
-      setVisibleItems(getVisibleItemsCount());
-    };
-    
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
 
   // SEO-optimized structured data for industries served
   const structuredData = {
@@ -182,14 +142,14 @@ export default function IndustryServe() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       
       <section 
-        className="px-3 sm:px-4 lg:px-6 py-8 sm:py-12 lg:py-16 xl:py-20 bg-gradient-to-b from-white to-gray-50 dark:from-gray-800 dark:to-gray-900"
+        className="px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16 bg-gradient-to-b from-white to-gray-50 dark:from-gray-800 dark:to-gray-900"
         aria-labelledby="industries-heading"
       >
         <div className="max-w-7xl mx-auto">
           
           {/* SEO-Optimized Section Header */}
           <motion.div 
-            className="text-center mb-8 sm:mb-12 lg:mb-16"
+            className="text-center mb-8 sm:mb-12"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
@@ -197,164 +157,139 @@ export default function IndustryServe() {
           >
             <h2 
               id="industries-heading"
-              className="text-2xl sm:text-2xl lg:text-heading xl:text-heading font-bold text-gray-900 dark:text-white mb-4 sm:mb-6 leading-tight px-2 sm:px-0"
+              className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-4"
             >
               <span className="text-[#0d2b4e]">Industries We Serve</span> - 
               <span className="text-[#f39c12]"> Steel Solutions Provider Mumbai</span>
             </h2>
-            <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-gray-700 dark:text-gray-300 max-w-5xl mx-auto leading-relaxed mb-3 sm:mb-4 px-2 sm:px-4">
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-700 dark:text-gray-300 max-w-5xl mx-auto leading-relaxed mb-3">
               Mamta Steel Traders - Leading Steel Supplier for Construction, Automotive, Manufacturing, Food Processing, 
               Pharmaceutical, Chemical, Water Treatment & Aerospace Industries in Mumbai, India
             </p>
-            <p className="text-xs sm:text-sm md:text-base lg:text-lg text-gray-600 dark:text-gray-400 max-w-4xl mx-auto px-2 sm:px-4">
+            <p className="text-xs sm:text-sm md:text-base text-gray-600 dark:text-gray-400 max-w-4xl mx-auto">
               Premium Quality Stainless Steel, Carbon Steel, Alloy Steel & Mild Steel Products for All Industrial Applications
             </p>
           </motion.div>
 
-          {/* Industries Carousel */}
-          <div className="relative">
-            {/* Carousel Container */}
-            <div className="overflow-hidden">
-              <motion.div 
-                ref={carouselRef}
-                className="flex transition-transform duration-500 ease-in-out gap-4 sm:gap-6"
-                style={{
-                  transform: `translateX(-${(currentIndex * (100 / visibleItems))}%)`
-                }}
-                onMouseEnter={stopAutoplay}
-                onMouseLeave={startAutoplay}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true }}
-                variants={containerVariants}
-              >
-                {industries.map((industry, index) => (
-                  <motion.article
-                    key={industry.id}
-                    className="group relative bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden transform transition-all duration-500 hover:shadow-2xl flex-shrink-0"
-                    style={{
-                      width: `calc(${100 / visibleItems}% - ${(visibleItems - 1) * 1}rem / ${visibleItems})`
-                    }}
-                    variants={cardVariants}
-                    whileHover={{ 
-                      scale: 1.02, 
-                      y: -4,
-                      transition: { duration: 0.3 }
-                    }}
-                    data-testid={`industry-card-${industry.id}`}
-                  >
-                    {/* Image Container - Reduced Height */}
-                    <div className="relative h-32 sm:h-36 md:h-40 overflow-hidden">
-                      <img
-                        src={industry.image}
-                        alt={industry.alt}
-                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 group-hover:brightness-110"
-                        loading="lazy"
-                      />
-                      
-                      {/* Gradient Overlay */}
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300" />
-                      
-                      {/* Industry Badge */}
-                      <div className="absolute top-2 left-2 bg-[#f39c12] text-white px-2 py-1 rounded-full text-xs font-semibold transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300">
-                        Steel Solutions
-                      </div>
-                    </div>
-
-                    {/* Content - Reduced Padding */}
-                    <div className="p-4">
-                      <h3 className="text-sm sm:text-base lg:text-lg font-bold text-[#0d2b4e] dark:text-blue-400 mb-2 group-hover:text-[#f39c12] transition-colors duration-300 line-clamp-2">
-                        {industry.seoTitle}
-                      </h3>
-                      
-                      <p className="text-gray-700 dark:text-gray-300 text-xs sm:text-sm leading-relaxed line-clamp-3 group-hover:line-clamp-4 transition-all duration-300">
-                        {industry.description}
-                      </p>
-                      
-                      {/* SEO Keywords Tags */}
-                      <div className="mt-3 pt-2 border-t border-gray-200 dark:border-gray-700">
-                        <div className="flex flex-wrap gap-1">
-                          {industry.keywords.split(', ').slice(0, 2).map((keyword, keyIndex) => (
-                            <span 
-                              key={keyIndex}
-                              className="text-xs bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 px-2 py-1 rounded-full"
-                            >
-                              {keyword}
-                            </span>
-                          ))}
-                        </div>
-                      </div>
-                    </div>
-                  </motion.article>
-                ))}
-              </motion.div>
-            </div>
-
-            {/* Carousel Navigation Controls */}
-            <button
-              onClick={goToPrevious}
-              className="absolute left-2 sm:left-3 md:left-4 top-1/2 -translate-y-1/2 z-10 min-w-[44px] min-h-[44px] w-11 h-11 sm:w-12 sm:h-12 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-full shadow-lg hover:bg-white hover:shadow-xl dark:hover:bg-gray-700 transition-all duration-300 flex items-center justify-center group"
-              data-testid="carousel-prev-btn"
-              aria-label="Previous industries"
+          {/* Industries Carousel - 3 Cards at a time */}
+          <div className="relative overflow-hidden">
+            <div 
+              className="flex transition-transform duration-700 ease-in-out"
+              style={{ transform: `translateX(-${currentSlide * 100}%)` }}
             >
-              <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6 text-gray-700 dark:text-gray-300 group-hover:text-[#f39c12] transition-colors duration-200" />
-            </button>
-
-            <button
-              onClick={goToNext}
-              className="absolute right-2 sm:right-3 md:right-4 top-1/2 -translate-y-1/2 z-10 min-w-[44px] min-h-[44px] w-11 h-11 sm:w-12 sm:h-12 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-full shadow-lg hover:bg-white hover:shadow-xl dark:hover:bg-gray-700 transition-all duration-300 flex items-center justify-center group"
-              data-testid="carousel-next-btn"
-              aria-label="Next industries"
-            >
-              <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6 text-gray-700 dark:text-gray-300 group-hover:text-[#f39c12] transition-colors duration-200" />
-            </button>
-
-            {/* Carousel Dots Indicator */}
-            <div className="flex justify-center mt-4 sm:mt-6 gap-1 sm:gap-2">
-              {Array.from({ length: Math.ceil(industries.length / visibleItems) }).map((_, index) => (
-                <button
-                  key={index}
-                  onClick={() => setCurrentIndex(index * visibleItems)}
-                  className={`min-w-[44px] min-h-[44px] p-3 rounded-full transition-all duration-300 flex items-center justify-center ${
-                    Math.floor(currentIndex / visibleItems) === index
-                      ? 'bg-[#f39c12]/20'
-                      : 'bg-transparent'
-                  }`}
-                  aria-label={`Go to slide ${index + 1}`}
+              {Array.from({ length: totalSlides }).map((_, slideIndex) => (
+                <div
+                  key={slideIndex}
+                  className="w-full flex-shrink-0 grid grid-cols-1 md:grid-cols-3 gap-6 px-1"
                 >
-                  <span className={`w-2 h-2 sm:w-3 sm:h-3 rounded-full block ${
-                    Math.floor(currentIndex / visibleItems) === index
-                      ? 'bg-[#f39c12] scale-125'
-                      : 'bg-gray-300 dark:bg-gray-600 hover:bg-gray-400'
-                  }`} />
-                </button>
+                  {industries
+                    .slice(slideIndex * cardsPerSlide, slideIndex * cardsPerSlide + cardsPerSlide)
+                    .map((industry) => (
+                      <motion.article
+                        key={industry.id}
+                        className="group relative bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden transform transition-all duration-500 hover:shadow-2xl"
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        whileHover={{ 
+                          scale: 1.02, 
+                          y: -4,
+                          transition: { duration: 0.3 }
+                        }}
+                        data-testid={`industry-card-${industry.id}`}
+                      >
+                        {/* Image Container */}
+                        <div className="relative h-40 sm:h-48 overflow-hidden">
+                          <img
+                            src={industry.image}
+                            alt={industry.alt}
+                            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 group-hover:brightness-110"
+                            loading="lazy"
+                          />
+                          
+                          {/* Gradient Overlay */}
+                          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300" />
+                          
+                          {/* Industry Badge */}
+                          <div className="absolute top-2 left-2 bg-[#f39c12] text-white px-2 py-1 rounded-full text-xs font-semibold transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300">
+                            Steel Solutions
+                          </div>
+                        </div>
+
+                        {/* Content */}
+                        <div className="p-5">
+                          <h3 className="text-base sm:text-lg font-bold text-[#0d2b4e] dark:text-blue-400 mb-2 group-hover:text-[#f39c12] transition-colors duration-300 line-clamp-2">
+                            {industry.seoTitle}
+                          </h3>
+                          
+                          <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed line-clamp-3 mb-3">
+                            {industry.description}
+                          </p>
+                          
+                          {/* SEO Keywords Tags */}
+                          <div className="pt-2 border-t border-gray-200 dark:border-gray-700">
+                            <div className="flex flex-wrap gap-1">
+                              {industry.keywords.split(', ').slice(0, 2).map((keyword, keyIndex) => (
+                                <span 
+                                  key={keyIndex}
+                                  className="text-xs bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 px-2 py-1 rounded-full"
+                                >
+                                  {keyword}
+                                </span>
+                              ))}
+                            </div>
+                          </div>
+                        </div>
+                      </motion.article>
+                    ))}
+                </div>
               ))}
             </div>
           </div>
 
+          {/* Dots Navigation */}
+          <div className="flex justify-center mt-8 gap-2">
+            {Array.from({ length: totalSlides }).map((_, index) => (
+              <button
+                key={index}
+                onClick={() => setCurrentSlide(index)}
+                className={`min-w-[44px] min-h-[44px] p-3 rounded-full transition-all duration-300 flex items-center justify-center ${
+                  currentSlide === index ? 'bg-[#f39c12]/20' : 'bg-transparent'
+                }`}
+                aria-label={`Go to slide ${index + 1}`}
+                data-testid={`carousel-dot-${index}`}
+              >
+                <span className={`w-3 h-3 rounded-full block transition-all duration-300 ${
+                  currentSlide === index
+                    ? 'bg-[#f39c12] scale-125'
+                    : 'bg-gray-300 dark:bg-gray-600 hover:bg-gray-400'
+                }`} />
+              </button>
+            ))}
+          </div>
+
           {/* Additional SEO Content */}
           <motion.div 
-            className="mt-8 sm:mt-12 lg:mt-16 bg-white dark:bg-gray-800 rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-8 shadow-lg"
+            className="mt-12 bg-white dark:bg-gray-800 rounded-2xl p-6 lg:p-8 shadow-lg"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
             variants={cardVariants}
           >
-            <h3 className="text-xl sm:text-2xl lg:text-2xl font-bold text-center text-gray-900 dark:text-white mb-4 sm:mb-6">
+            <h3 className="text-xl sm:text-2xl font-bold text-center text-gray-900 dark:text-white mb-6">
               Why Choose Mamta Steel Traders for Your Industry?
             </h3>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 text-center">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
               <div>
-                <h4 className="text-base sm:text-lg lg:text-xl font-semibold text-[#0d2b4e] dark:text-blue-400 mb-2">ISO Certified Quality</h4>
-                <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">All steel products meet international quality standards and certifications</p>
+                <h4 className="text-lg font-semibold text-[#0d2b4e] dark:text-blue-400 mb-2">ISO Certified Quality</h4>
+                <p className="text-sm text-gray-600 dark:text-gray-400">All steel products meet international quality standards and certifications</p>
               </div>
               <div>
-                <h4 className="text-base sm:text-lg lg:text-xl font-semibold text-[#0d2b4e] dark:text-blue-400 mb-2">Mumbai Stockist</h4>
-                <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">Large inventory and quick delivery across Mumbai and India</p>
+                <h4 className="text-lg font-semibold text-[#0d2b4e] dark:text-blue-400 mb-2">Mumbai Stockist</h4>
+                <p className="text-sm text-gray-600 dark:text-gray-400">Large inventory and quick delivery across Mumbai and India</p>
               </div>
               <div>
-                <h4 className="text-base sm:text-lg lg:text-xl font-semibold text-[#0d2b4e] dark:text-blue-400 mb-2">Best Pricing</h4>
-                <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">Competitive rates for bulk orders and regular supplies</p>
+                <h4 className="text-lg font-semibold text-[#0d2b4e] dark:text-blue-400 mb-2">Best Pricing</h4>
+                <p className="text-sm text-gray-600 dark:text-gray-400">Competitive rates for bulk orders and regular supplies</p>
               </div>
             </div>
           </motion.div>
