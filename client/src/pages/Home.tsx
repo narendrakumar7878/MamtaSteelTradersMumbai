@@ -5,6 +5,7 @@ import ProductShowcase from "@/components/ProductShowcase";
 import ContactSection from "@/components/ContactSection";
 import StatsSection from "@/components/StatsSection";
 import IndustryServe from "@/components/IndustryServe";
+import WhatsClientSays from "@/components/WhatsClientSays";
 
 export default function Home() {
   const structuredData = {
@@ -136,6 +137,7 @@ export default function Home() {
       <ContactSection />
       <StatsSection />
       <IndustryServe />
+      <WhatsClientSays />
     </>
   );
 }
