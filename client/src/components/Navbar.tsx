@@ -28,6 +28,7 @@ import {
   Pin,
   Flashlight
 } from "lucide-react";
+import logoImage from "@assets/logomamtasteelwithoutbg_1760247842336.png";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -154,11 +155,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo (Mobile) */}
           <div className="flex items-center md:hidden">
-            <div className="w-8 h-8 bg-gold-primary rounded flex items-center justify-center">
-              <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z"/>
-              </svg>
-            </div>
+            <img src={logoImage} alt="Mamta Steel Traders Logo" className="h-10 w-auto object-contain" />
           </div>
           
           {/* Desktop Navigation - Centered */}
