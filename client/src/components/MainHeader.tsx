@@ -10,7 +10,7 @@ export default function MainHeader() {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-3 sm:gap-4 lg:gap-6">
           {/* Left: Company Logo */}
           <div className="flex items-center">
-            <div className="w-20 h-12 sm:w-24 sm:h-14 lg:w-28 lg:h-16 bg-[#0d2b4e] rounded-lg flex items-center justify-center shadow-lg p-1 sm:p-2" data-testid="company-logo">
+            <div className="w-32 h-20 sm:w-40 sm:h-24 lg:w-48 lg:h-28 flex items-center justify-center" data-testid="company-logo">
               {/* Flexible logo container that supports images */}
               <div className="w-full h-full flex items-center justify-center">
                 <img src={logoImage} alt="Mamta Steel Traders Logo" className="w-full h-full object-contain" />
