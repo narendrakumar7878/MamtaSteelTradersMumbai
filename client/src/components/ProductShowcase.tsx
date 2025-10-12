@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { ChevronDown } from "lucide-react";
 
 // Dynamically import all product images using Vite's import.meta.glob
-const imageModules = import.meta.glob('@/assets/produtphoto/*.jpg', { eager: true, query: '?url', import: 'default' });
+const imageModules = import.meta.glob<{ default: string }>('../assets/produtphoto/*.jpg', { eager: true });
 
 // Product gallery with SEO-optimized metadata
 const productCategories = [
@@ -173,7 +173,7 @@ export default function ProductShowcase() {
 
   // Convert image modules to array and combine with product data
   const productGallery = useMemo(() => {
-    const imageArray = Object.entries(imageModules).map(([path, url], index) => {
+    const imageArray = Object.entries(imageModules).map(([path, module], index) => {
       const filename = path.split('/').pop()?.replace('.jpg', '') || '';
       const categoryIndex = index % productCategories.length;
       const title = productCategories[categoryIndex];
@@ -181,7 +181,7 @@ export default function ProductShowcase() {
       
       return {
         id: index + 1,
-        image: url as string,
+        image: module.default,
         filename,
         title,
         alt: `${title} - Premium Quality Stainless Steel Carbon Steel Alloy Steel Mild Steel Supplier Mamta Steel Traders Mumbai India ISO Certified Stockist ASTM ASME DIN Standard`,
