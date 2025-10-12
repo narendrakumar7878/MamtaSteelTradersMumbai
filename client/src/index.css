@@ -214,6 +214,11 @@
     @apply font-sans antialiased bg-background text-foreground;
     font-family: 'Poppins', sans-serif;
   }
+  
+  /* Force container to be full width on all screen sizes */
+  .container {
+    max-width: 100% !important;
+  }
 }
 
 @layer utilities {
