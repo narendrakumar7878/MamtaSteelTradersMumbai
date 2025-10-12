@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "wouter";
 
 import ssPipeImg from "@/assets/SS PIPE MAMTA STEEL TRADERS.jpg";
 import ssPlateImg from "@/assets/SS PLATE  MAMTA STEEL TRADERS.jpg";
@@ -16,10 +17,6 @@ const slides = [
     description:
       "High-quality stainless steel pipes and tubes, available in all grades for industrial and commercial use. ISO-certified manufacturing with global supply.",
     alt: "Stainless Steel Pipes and Tubes",
-    buttons: [
-      { text: "Explore Pipe Range", primary: true },
-      { text: "Request Quote", primary: false },
-    ],
   },
   {
     image: ssPlateImg,
@@ -27,10 +24,6 @@ const slides = [
     description:
       "Premium MS/SS plates, checkered sheets, and hot-rolled steel sheets for construction, manufacturing, and structural applications with superior durability.",
     alt: "Industrial Steel Plates and Sheets",
-    buttons: [
-      { text: "View Plates Catalog", primary: true },
-      { text: "Enquire Now", primary: false },
-    ],
   },
   {
     image: ssFlangeImg,
@@ -38,10 +31,6 @@ const slides = [
     description:
       "Precision-engineered weld neck, slip-on, threaded flanges and pipe fittings in ANSI, DIN, and JIS standards for critical industrial applications.",
     alt: "Steel Flanges and Pipe Fittings",
-    buttons: [
-      { text: "View Flanges Range", primary: true },
-      { text: "Contact for Bulk Order", primary: false },
-    ],
   },
   {
     image: ssRoundBarImg,
@@ -49,10 +38,6 @@ const slides = [
     description:
       "High-tensile strength steel bars, round bars, and reinforcement bars for construction, engineering, and manufacturing projects with certified quality.",
     alt: "Steel Bars and Round Bars",
-    buttons: [
-      { text: "Browse Bar Range", primary: true },
-      { text: "Get Price List", primary: false },
-    ],
   },
   {
     image: ssFittingImg,
@@ -60,10 +45,6 @@ const slides = [
     description:
       "Gate valves, ball valves, and industrial steel components for oil & gas, petrochemical, and power generation industries with full traceability.",
     alt: "Industrial Steel Valves",
-    buttons: [
-      { text: "Explore Valves", primary: true },
-      { text: "Technical Support", primary: false },
-    ],
   },
   {
     image: ssRodImg,
@@ -71,10 +52,6 @@ const slides = [
     description:
       "Professional-grade welding electrodes, cutting tools, and specialized steel tools for fabrication, construction, and industrial maintenance applications.",
     alt: "Welding Electrodes and Steel Tools",
-    buttons: [
-      { text: "View Tools Range", primary: true },
-      { text: "Technical Specs", primary: false },
-    ],
   },
 ];
 
@@ -159,19 +136,18 @@ export default function HeroCarousel() {
                 <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-6 text-gray-100">
                   {slide.description}
                 </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  {slide.buttons.map((btn, i) => (
+                <div className="flex justify-center">
+                  <Link href="/contact">
                     <Button
-                      key={i}
-                      className={`min-h-[44px] px-6 py-3 text-base font-semibold transition-all transform hover:scale-105 shadow-lg ${
-                        btn.primary
-                          ? "bg-orange-500 hover:bg-orange-600 text-white border-2 border-orange-500"
-                          : "bg-transparent border-2 border-white text-white hover:bg-white hover:text-gray-900"
-                      }`}
+                      className="bg-orange-500 hover:bg-orange-600 text-white border-2 border-orange-500 px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base font-semibold transition-all transform hover:scale-105 shadow-lg"
+                      data-testid="button-contact-bulk"
                     >
-                      {btn.text}
+                      <div className="flex flex-col items-center">
+                        <span className="text-sm sm:text-base font-bold">Contact for Bulk</span>
+                        <span className="text-xs sm:text-sm font-normal opacity-90">Get Price List, Technical Support</span>
+                      </div>
                     </Button>
-                  ))}
+                  </Link>
                 </div>
               </div>
             </div>
@@ -179,11 +155,11 @@ export default function HeroCarousel() {
         ))}
       </div>
 
-      {/* Arrows */}
+      {/* Arrows - Hidden on mobile */}
       <button
         onClick={prevSlide}
         disabled={isTransitioning}
-        className="absolute left-4 top-1/2 -translate-y-1/2 text-white p-3 hover:scale-125 z-20"
+        className="hidden md:block absolute left-4 top-1/2 -translate-y-1/2 text-white p-3 hover:scale-125 z-20"
       >
         <ChevronLeft className="w-8 h-8 drop-shadow-lg" />
       </button>
@@ -191,7 +167,7 @@ export default function HeroCarousel() {
       <button
         onClick={nextSlide}
         disabled={isTransitioning}
-        className="absolute right-4 top-1/2 -translate-y-1/2 text-white p-3 hover:scale-125 z-20"
+        className="hidden md:block absolute right-4 top-1/2 -translate-y-1/2 text-white p-3 hover:scale-125 z-20"
       >
         <ChevronRight className="w-8 h-8 drop-shadow-lg" />
       </button>
