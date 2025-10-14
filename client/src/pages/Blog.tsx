@@ -208,7 +208,7 @@ Our expert team at Mamta Steel Traders can help you select the optimal grade for
       author: "Mamta Steel Traders",
       date: "January 2025",
       category: "Material Selection Guide",
-      image: "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200&q=75",
+      image: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250&q=80",
       tags: ["Stainless Steel", "SS 304", "SS 316", "SS 310", "Material Selection", "Corrosion Resistance", "Industrial Materials"]
     },
     {
@@ -552,7 +552,7 @@ Mamta Steel Traders is your trusted partner for all stainless steel piping requi
       author: "Mamta Steel Traders",
       date: "January 2025",
       category: "Technical Standards",
-      image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200&q=75",
+      image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250&q=80",
       tags: ["Stainless Steel Pipes", "ASTM Standards", "A312", "A213", "Seamless Pipes", "Welded Pipes", "Industrial Piping"]
     },
     {
@@ -1052,7 +1052,7 @@ Contact our engineering team for flange selection, pressure-temperature ratings,
       author: "Mamta Steel Traders",
       date: "January 2025",
       category: "Piping Components",
-      image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200&q=75",
+      image: "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250&q=80",
       tags: ["Flanges", "ANSI", "DIN", "JIS", "Pressure Ratings", "Weld Neck", "Slip-On", "Industrial Piping"]
     },
     {
@@ -1572,7 +1572,7 @@ Call us today for your nickel alloy requirements!`,
       author: "Mamta Steel Traders",
       date: "January 2025",
       category: "Special Alloys",
-      image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200&q=75",
+      image: "https://images.unsplash.com/photo-1513828583688-c52646db42da?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250&q=80",
       tags: ["Nickel Alloys", "Inconel", "Hastelloy", "Monel", "High Temperature", "Corrosion Resistance", "Special Alloys"]
     },
     {
@@ -2110,7 +2110,7 @@ Your trusted partner for quality stainless steel fittings - Mamta Steel Traders`
       author: "Mamta Steel Traders",
       date: "January 2025",
       category: "Piping Components",
-      image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200&q=75",
+      image: "https://images.unsplash.com/photo-1581092162384-8987c1d64718?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250&q=80",
       tags: ["Stainless Steel Fittings", "Butt Weld", "Socket Weld", "Elbows", "Tees", "Reducers", "ASTM A403", "ASME B16.9"]
     },
     {
@@ -2744,7 +2744,7 @@ Marine & Offshore | Chemical Processing | Oil & Gas | Food & Beverage | Pharmace
       author: "Mamta Steel Traders",
       date: "January 2025",
       category: "Fasteners & Hardware",
-      image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200&q=75",
+      image: "https://images.unsplash.com/photo-1581092583537-20d51876f3c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250&q=80",
       tags: ["Stainless Steel Fasteners", "Bolts", "Nuts", "Studs", "A2-70", "A4-70", "ASTM F593", "Marine Fasteners"]
     }
   ];
@@ -2836,16 +2836,16 @@ Marine & Offshore | Chemical Processing | Oil & Gas | Food & Beverage | Pharmace
                   className="overflow-hidden hover:shadow-2xl transition-all duration-300 bg-white border-gray-200"
                   data-testid={`card-blog-${post.id}`}
                 >
-                  <div className="grid lg:grid-cols-3 gap-6">
-                    {/* Image Section - Fixed Size */}
-                    <div className="lg:col-span-1 relative overflow-hidden bg-gray-200 h-48 lg:h-56">
+                  <div className="flex flex-col lg:flex-row gap-6">
+                    {/* Image Section - Compact Size */}
+                    <div className="lg:w-64 lg:flex-shrink-0 relative overflow-hidden bg-gray-200 rounded-lg h-40 lg:h-48">
                       <img 
                         src={post.image} 
                         alt={post.title}
                         className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
                         loading={index < 2 ? "eager" : "lazy"}
                       />
-                      <div className="absolute top-4 left-4">
+                      <div className="absolute top-3 left-3">
                         <span className="bg-orange-500 text-white px-3 py-1 rounded-full text-xs font-semibold">
                           {post.category}
                         </span>
@@ -2853,7 +2853,7 @@ Marine & Offshore | Chemical Processing | Oil & Gas | Food & Beverage | Pharmace
                     </div>
 
                     {/* Content Section */}
-                    <CardContent className="lg:col-span-2 p-6 lg:p-8 flex flex-col">
+                    <CardContent className="flex-1 p-6 lg:p-8 flex flex-col">
                       <div className="flex items-center gap-4 text-sm text-gray-600 mb-4">
                         <div className="flex items-center gap-2">
                           <Calendar className="w-4 h-4" />
