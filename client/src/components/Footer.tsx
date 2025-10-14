@@ -45,7 +45,7 @@ export default function Footer() {
                   <Twitter size={18} className="sm:w-5 sm:h-5" />
                 </a>
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/mamta_steel_traders/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-pink-400 hover:scale-110 transform transition-all duration-300 hover:rotate-3"
@@ -55,7 +55,7 @@ export default function Footer() {
                   <Instagram size={18} className="sm:w-5 sm:h-5" />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/mamta-steel-traders-09520717a/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-blue-500 hover:scale-110 transform transition-all duration-300 hover:rotate-3"
@@ -158,7 +158,7 @@ export default function Footer() {
                   className="text-blue-400 text-xs sm:text-sm hover:text-blue-300 hover:underline transition-all duration-200 transform hover:scale-105"
                   data-testid="contact-phone-2"
                 >
-                  +91 9819322576
+                  +91 9867958210
                 </a>
               </div>
               <div className="transform transition-all duration-200 hover:translate-x-1">
@@ -214,7 +214,7 @@ export default function Footer() {
           {/* Bottom Social Icons - Below divider, Centered */}
           <div className="flex justify-center space-x-4 sm:space-x-6 lg:space-x-8">
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/narendrakumar7878/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-blue-500 social-bounce transform transition-all duration-300 hover:shadow-lg rounded-full p-1.5 sm:p-2 hover:bg-blue-500/10"
@@ -224,7 +224,7 @@ export default function Footer() {
               <Linkedin size={20} className="sm:w-6 sm:h-6" />
             </a>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/n_b_parmar_6677/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-pink-400 social-bounce transform transition-all duration-300 hover:shadow-lg rounded-full p-1.5 sm:p-2 hover:bg-pink-400/10"
@@ -234,7 +234,7 @@ export default function Footer() {
               <Instagram size={20} className="sm:w-6 sm:h-6" />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/narendrakumar7878"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white social-bounce transform transition-all duration-300 hover:shadow-lg rounded-full p-1.5 sm:p-2 hover:bg-white/10"
