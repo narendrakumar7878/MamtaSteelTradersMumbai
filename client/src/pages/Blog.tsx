@@ -208,7 +208,7 @@ Our expert team at Mamta Steel Traders can help you select the optimal grade for
       author: "Mamta Steel Traders",
       date: "January 2025",
       category: "Material Selection Guide",
-      image: "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300&q=80",
+      image: "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200&q=75",
       tags: ["Stainless Steel", "SS 304", "SS 316", "SS 310", "Material Selection", "Corrosion Resistance", "Industrial Materials"]
     },
     {
@@ -552,7 +552,7 @@ Mamta Steel Traders is your trusted partner for all stainless steel piping requi
       author: "Mamta Steel Traders",
       date: "January 2025",
       category: "Technical Standards",
-      image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300&q=80",
+      image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200&q=75",
       tags: ["Stainless Steel Pipes", "ASTM Standards", "A312", "A213", "Seamless Pipes", "Welded Pipes", "Industrial Piping"]
     },
     {
@@ -1052,7 +1052,7 @@ Contact our engineering team for flange selection, pressure-temperature ratings,
       author: "Mamta Steel Traders",
       date: "January 2025",
       category: "Piping Components",
-      image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300&q=80",
+      image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200&q=75",
       tags: ["Flanges", "ANSI", "DIN", "JIS", "Pressure Ratings", "Weld Neck", "Slip-On", "Industrial Piping"]
     },
     {
@@ -1572,7 +1572,7 @@ Call us today for your nickel alloy requirements!`,
       author: "Mamta Steel Traders",
       date: "January 2025",
       category: "Special Alloys",
-      image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300&q=80",
+      image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200&q=75",
       tags: ["Nickel Alloys", "Inconel", "Hastelloy", "Monel", "High Temperature", "Corrosion Resistance", "Special Alloys"]
     },
     {
@@ -2110,7 +2110,7 @@ Your trusted partner for quality stainless steel fittings - Mamta Steel Traders`
       author: "Mamta Steel Traders",
       date: "January 2025",
       category: "Piping Components",
-      image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300&q=80",
+      image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200&q=75",
       tags: ["Stainless Steel Fittings", "Butt Weld", "Socket Weld", "Elbows", "Tees", "Reducers", "ASTM A403", "ASME B16.9"]
     },
     {
@@ -2744,7 +2744,7 @@ Marine & Offshore | Chemical Processing | Oil & Gas | Food & Beverage | Pharmace
       author: "Mamta Steel Traders",
       date: "January 2025",
       category: "Fasteners & Hardware",
-      image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300&q=80",
+      image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200&q=75",
       tags: ["Stainless Steel Fasteners", "Bolts", "Nuts", "Studs", "A2-70", "A4-70", "ASTM F593", "Marine Fasteners"]
     }
   ];
@@ -2837,8 +2837,8 @@ Marine & Offshore | Chemical Processing | Oil & Gas | Food & Beverage | Pharmace
                   data-testid={`card-blog-${post.id}`}
                 >
                   <div className="grid lg:grid-cols-3 gap-6">
-                    {/* Image Section */}
-                    <div className="lg:col-span-1 relative overflow-hidden bg-gray-200 h-64 lg:h-auto">
+                    {/* Image Section - Fixed Size */}
+                    <div className="lg:col-span-1 relative overflow-hidden bg-gray-200 h-48 lg:h-56">
                       <img 
                         src={post.image} 
                         alt={post.title}
@@ -2853,7 +2853,7 @@ Marine & Offshore | Chemical Processing | Oil & Gas | Food & Beverage | Pharmace
                     </div>
 
                     {/* Content Section */}
-                    <CardContent className="lg:col-span-2 p-6 lg:p-8">
+                    <CardContent className="lg:col-span-2 p-6 lg:p-8 flex flex-col">
                       <div className="flex items-center gap-4 text-sm text-gray-600 mb-4">
                         <div className="flex items-center gap-2">
                           <Calendar className="w-4 h-4" />
