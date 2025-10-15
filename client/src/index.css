@@ -6,7 +6,7 @@
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
   }
-  
+
   .scrollbar-hide {
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -34,7 +34,7 @@
   --destructive-foreground: hsl(0, 0%, 100%);
   --ring: hsl(209, 85%, 18%);
   --radius: 0.5rem;
-  
+
   /* Mamta Steel Custom Color Palette */
   --navy-primary: hsl(209, 85%, 18%);
   --navy-secondary: hsl(213, 59%, 29%);
@@ -42,7 +42,7 @@
   --gold-hover: hsl(34, 89%, 47%);
   --text-light: hsl(0, 0%, 100%);
   --text-gray: hsl(0, 0%, 88%);
-  
+
   /* Legacy steel colors for backward compatibility */
   --steel-blue-50: hsl(214, 100%, 97%);
   --steel-blue-500: hsl(209, 85%, 18%);
@@ -76,7 +76,7 @@
   --destructive-foreground: hsl(0, 0%, 98%);
   --ring: hsl(36, 95%, 51%);
   --radius: 0.5rem;
-  
+
   /* Dark mode custom colors */
   --navy-primary: hsl(213, 59%, 29%);
   --navy-secondary: hsl(209, 85%, 18%);
@@ -88,6 +88,15 @@
 .industry-swiper .swiper-pagination {
   bottom: 0 !important;
 }
+
+* {
+  user-select: none;
+  -webkit-user-select: none;
+  /* Safari ke liye */
+  -ms-user-select: none;
+  /* Internet Explorer ke liye */
+}
+
 
 .industry-swiper .swiper-pagination-bullet {
   width: 12px;
@@ -113,6 +122,7 @@
   0% {
     transform: translateX(-100%);
   }
+
   100% {
     transform: translateX(100%);
   }
@@ -149,6 +159,7 @@
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -156,9 +167,12 @@
 }
 
 @keyframes glow {
-  0%, 100% {
+
+  0%,
+  100% {
     box-shadow: 0 0 5px rgba(249, 115, 22, 0.2);
   }
+
   50% {
     box-shadow: 0 0 20px rgba(249, 115, 22, 0.4);
   }
@@ -174,9 +188,12 @@
 
 /* Enhanced footer social icon animations */
 @keyframes bounce-gentle {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0) rotate(0deg) scale(1);
   }
+
   50% {
     transform: translateY(-5px) rotate(5deg) scale(1.1);
   }
@@ -191,9 +208,11 @@
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
@@ -218,17 +237,18 @@
 }
 
 @layer utilities {
+
   /* Custom font sizes as per requirement */
   .text-heading {
     font-size: 28px;
     line-height: 1.2;
   }
-  
+
   /* Hide scrollbar for Chrome, Safari and Opera */
   .overflow-x-auto::-webkit-scrollbar {
     display: none;
   }
-  
+
   /* Hide scrollbar for IE, Edge and Firefox */
   .overflow-x-auto {
     -ms-overflow-style: none;
@@ -240,59 +260,59 @@
   .steel-blue-50 {
     background-color: var(--steel-blue-50);
   }
-  
+
   .steel-blue-500 {
     background-color: var(--steel-blue-500);
   }
-  
+
   .steel-blue-600 {
     background-color: var(--steel-blue-600);
   }
-  
+
   .steel-blue-700 {
     background-color: var(--steel-blue-700);
   }
-  
+
   .steel-blue-800 {
     background-color: var(--steel-blue-800);
   }
-  
+
   .steel-blue-900 {
     background-color: var(--steel-blue-900);
   }
-  
+
   .steel-orange-500 {
     background-color: var(--steel-orange-500);
   }
-  
+
   .steel-orange-600 {
     background-color: var(--steel-orange-600);
   }
-  
+
   .steel-orange-700 {
     background-color: var(--steel-orange-700);
   }
-  
+
   .text-steel-blue-800 {
     color: var(--steel-blue-800);
   }
-  
+
   .text-steel-orange-400 {
     color: var(--steel-orange-500);
   }
-  
+
   .text-steel-orange-500 {
     color: var(--steel-orange-500);
   }
-  
+
   .hover\:text-steel-orange-500:hover {
     color: var(--steel-orange-500);
   }
-  
+
   .hover\:bg-steel-orange-600:hover {
     background-color: var(--steel-orange-600);
   }
-  
+
   .hover\:bg-steel-blue-700:hover {
     background-color: var(--steel-blue-700);
   }
