@@ -3,8 +3,44 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ChevronDown, ChevronUp } from "lucide-react";
 
-// Import all images from produtphoto folder
-const imageModules = import.meta.glob<{ default: string }>('../assets/produtphoto/*.jpg', { eager: true });
+import stainlessSteelPipes from "../assets/stainless-steel-pipes-tubes.jpg";
+import carbonSteelPlates from "../assets/carbon-steel-plates-sheets.jpg";
+import alloySteelRoundBars from "../assets/alloy-steel-round-bars.jpg";
+import stainlessSteelFlanges from "../assets/stainless-steel-flanges.jpg";
+import steelPipeFittings from "../assets/steel-pipe-fittings.jpg";
+import stainlessSteelCoils from "../assets/stainless-steel-coils.jpg";
+import fallbackImage1 from "../assets/fallback-steel-products-1.jpg";
+import stainlessSteelFasteners from "../assets/stainless-steel-fasteners.jpg";
+import carbonSteelPipes from "../assets/carbon-steel-pipes.jpg";
+import alloySteelPlates from "../assets/alloy-steel-plates.jpg";
+import stainlessSteelSheets from "../assets/stainless-steel-sheets.jpg";
+import steelBarsRods from "../assets/steel-bars-rods.jpg";
+import fallbackImage2 from "../assets/fallback-steel-products-2.jpg";
+import copperBrassProducts from "../assets/copper-brass-products.jpg";
+import aluminumProducts from "../assets/aluminum-products.jpg";
+import stainlessSteelWeldedPipes from "../assets/stainless-steel-welded-pipes.jpg";
+import carbonSteelSeamlessPipes from "../assets/carbon-steel-seamless-pipes.jpg";
+import alloySteelSeamlessPipes from "../assets/alloy-steel-seamless-pipes.jpg";
+import stainlessSteelSquareBars from "../assets/stainless-steel-square-bars.jpg";
+import carbonSteelFlatBars from "../assets/carbon-steel-flat-bars.jpg";
+import alloySteelHexBars from "../assets/alloy-steel-hex-bars.jpg";
+import stainlessSteelHollowBars from "../assets/stainless-steel-hollow-bars.jpg";
+import stainlessSteelWireRods from "../assets/stainless-steel-wire-rods.jpg";
+import chequeredSteelPlates from "../assets/chequered-steel-plates.jpg";
+import perforatedSteelSheets from "../assets/perforated-steel-sheets.jpg";
+import stainlessSteelWires from "../assets/stainless-steel-wires.jpg";
+import stainlessSteelButtweldFittings from "../assets/stainless-steel-buttweld-fittings.jpg";
+import socketWeldFittings from "../assets/socket-weld-fittings.jpg";
+import compressionTubeFittings from "../assets/compression-tube-fittings.jpg";
+import weldNeckFlanges from "../assets/weld-neck-flanges.jpg";
+import stainlessSteelAngles from "../assets/stainless-steel-angles.jpg";
+import seamlessSteelTubes from "../assets/seamless-steel-tubes.jpg";
+import heatExchangerTubes from "../assets/heat-exchanger-tubes.jpg";
+import hydraulicTubes from "../assets/hydraulic-tubes.jpg";
+import instrumentationTubes from "../assets/instrumentation-tubes.jpg";
+import coilTubes from "../assets/coil-tubes.jpg";
+import condenserTubes from "../assets/condenser-tubes.jpg";
+import boilerTubes from "../assets/boiler-tubes.jpg";
 
 // Product names with SEO keywords
 const productNames = [
@@ -145,25 +181,92 @@ const productDescriptions = [
   "High-temperature boiler tubes"
 ];
 
+// Image mapping array - matches products with their images
+const productImages = [
+  stainlessSteelPipes,      // 0
+  carbonSteelPlates,        // 1
+  alloySteelRoundBars,      // 2
+  stainlessSteelFlanges,    // 3
+  steelPipeFittings,        // 4
+  stainlessSteelCoils,      // 5
+  fallbackImage1,           // 6 - Mild Steel Channels & Angles
+  stainlessSteelFasteners,  // 7
+  carbonSteelPipes,         // 8
+  alloySteelPlates,         // 9
+  stainlessSteelSheets,     // 10
+  steelBarsRods,            // 11
+  fallbackImage2,           // 12 - Duplex Steel Products
+  fallbackImage1,           // 13 - Nickel Alloy Products
+  fallbackImage2,           // 14 - Titanium Steel Products
+  copperBrassProducts,      // 15
+  aluminumProducts,         // 16
+  fallbackImage1,           // 17 - Tool Steel Products
+  fallbackImage2,           // 18 - Spring Steel Products
+  fallbackImage1,           // 19 - Bearing Steel Products
+  stainlessSteelWeldedPipes,    // 20
+  carbonSteelSeamlessPipes,     // 21
+  alloySteelSeamlessPipes,      // 22
+  stainlessSteelSquareBars,     // 23
+  carbonSteelFlatBars,          // 24
+  alloySteelHexBars,            // 25
+  stainlessSteelHollowBars,     // 26
+  stainlessSteelWireRods,       // 27
+  fallbackImage2,               // 28 - Galvanized Steel Products
+  chequeredSteelPlates,         // 29
+  perforatedSteelSheets,        // 30
+  fallbackImage1,               // 31 - Expanded Metal Mesh
+  stainlessSteelWires,          // 32
+  fallbackImage2,               // 33 - Steel Gratings
+  stainlessSteelButtweldFittings, // 34
+  socketWeldFittings,           // 35
+  fallbackImage1,               // 36 - Threaded Pipe Fittings
+  compressionTubeFittings,      // 37
+  weldNeckFlanges,              // 38
+  fallbackImage2,               // 39 - Slip On Flanges
+  fallbackImage1,               // 40 - Blind Flanges
+  fallbackImage2,               // 41 - Threaded Flanges
+  fallbackImage1,               // 42 - Lap Joint Flanges
+  fallbackImage2,               // 43 - Orifice Flanges
+  fallbackImage1,               // 44 - Long Weld Neck Flanges
+  fallbackImage2,               // 45 - Stainless Steel Bolts
+  fallbackImage1,               // 46 - Stainless Steel Nuts
+  fallbackImage2,               // 47 - Stainless Steel Washers
+  fallbackImage1,               // 48 - Stainless Steel Studs
+  fallbackImage2,               // 49 - U Bolts & J Bolts
+  fallbackImage1,               // 50 - Stainless Steel Screws
+  fallbackImage2,               // 51 - Eye Bolts & Eye Nuts
+  fallbackImage1,               // 52 - Stud Bolts & Nuts
+  fallbackImage2,               // 53 - Socket Head Cap Screws
+  fallbackImage1,               // 54 - Set Screws & Grub Screws
+  stainlessSteelAngles,         // 55
+  fallbackImage2,               // 56 - Stainless Steel Channels
+  fallbackImage1,               // 57 - Stainless Steel I Beams
+  fallbackImage2,               // 58 - Stainless Steel T Bars
+  seamlessSteelTubes,           // 59
+  heatExchangerTubes,           // 60
+  hydraulicTubes,               // 61
+  instrumentationTubes,         // 62
+  coilTubes,                    // 63
+  condenserTubes,               // 64
+  boilerTubes                   // 65
+];
+
 export default function ProductShowcase() {
   const [visibleCount, setVisibleCount] = useState(6);
 
-  // Convert images to array
-  const allImages = Object.entries(imageModules).map(([path, module], index) => {
-    const nameIndex = index % productNames.length;
-    return {
-      id: index,
-      src: module.default,
-      name: productNames[nameIndex],
-      description: productDescriptions[nameIndex],
-      alt: `${productNames[nameIndex]} - Mamta Steel Traders Mumbai India ISO Certified ASTM ASME Standard`
-    };
-  });
+  // Create products array with matched images
+  const allProducts = productNames.map((name, index) => ({
+    id: index,
+    src: productImages[index] || fallbackImage1,
+    name: name,
+    description: productDescriptions[index],
+    alt: `${name} - Mamta Steel Traders Mumbai India ISO Certified ASTM ASME Standard`
+  }));
 
-  const displayedImages = allImages.slice(0, visibleCount);
+  const displayedImages = allProducts.slice(0, visibleCount);
 
   const loadMore = () => {
-    setVisibleCount(prev => Math.min(prev + 6, allImages.length));
+    setVisibleCount(prev => Math.min(prev + 6, allProducts.length));
   };
 
   const showLess = () => {
@@ -268,13 +371,13 @@ export default function ProductShowcase() {
 
         {/* Show More / Show Less Buttons */}
         <div className="flex justify-center gap-4">
-          {visibleCount < allImages.length && (
+          {visibleCount < allProducts.length && (
             <Button
               onClick={loadMore}
               className="bg-[#f39c12] hover:bg-[#e67e22] text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
               data-testid="button-show-more"
             >
-              Show More Products ({allImages.length - visibleCount} more) <ChevronDown className="ml-2 w-5 h-5" />
+              Show More Products ({allProducts.length - visibleCount} more) <ChevronDown className="ml-2 w-5 h-5" />
             </Button>
           )}
           
