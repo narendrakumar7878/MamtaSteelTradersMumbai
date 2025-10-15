@@ -1,10 +1,16 @@
 import { Switch, Route } from "wouter";
 import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
-import { HelmetProvider } from "react-helmet-async";
+import { HelmetProvider, Helmet } from "react-helmet-async";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { useContactScrollToTop } from "@/hooks/useScrollToTop";
+import { 
+  siteConfig, 
+  getOrganizationSchema, 
+  getLocalBusinessSchema, 
+  getWebsiteSchema 
+} from "@/lib/seo-config";
 import Home from "@/pages/Home";
 import About from "@/pages/About";
 import Products from "@/pages/Products";
@@ -273,11 +279,52 @@ function Router() {
   );
 }
 
+// Global SEO Schemas
+const globalSchemas = [
+  getOrganizationSchema(),
+  getLocalBusinessSchema(),
+  getWebsiteSchema()
+];
+
 function App() {
   return (
     <HelmetProvider>
       <QueryClientProvider client={queryClient}>
         <TooltipProvider>
+          {/* Global SEO Configuration */}
+          <Helmet>
+            {/* Global Site Meta Tags */}
+            <html lang="en-IN" />
+            <meta charSet="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+            
+            {/* Preconnect to Important Domains */}
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+            
+            {/* DNS Prefetch for Performance */}
+            <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+            <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+            
+            {/* Global Structured Data Schemas */}
+            <script type="application/ld+json">
+              {JSON.stringify(globalSchemas, null, 2)}
+            </script>
+            
+            {/* Additional SEO Enhancements */}
+            <meta name="referrer" content="origin-when-cross-origin" />
+            <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+            
+            {/* Manifest for PWA */}
+            <link rel="manifest" href="/manifest.json" />
+            
+            {/* Favicon and Icons */}
+            <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+            <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+            <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+            <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+          </Helmet>
+          
           <div className="min-h-screen flex flex-col overflow-x-hidden">
             <TopBar />
             <MainHeader />
