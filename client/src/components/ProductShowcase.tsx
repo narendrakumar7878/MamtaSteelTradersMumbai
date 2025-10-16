@@ -41,6 +41,16 @@ import instrumentationTubes from "../assets/instrumentation-tubes.jpg";
 import coilTubes from "../assets/coil-tubes.jpg";
 import condenserTubes from "../assets/condenser-tubes.jpg";
 import boilerTubes from "../assets/boiler-tubes.jpg";
+import ssCoilMamta from "../assets/SS COIL MAMTA STEEL TRADERS.jpg";
+import ssFlatBarMamta from "../assets/SS FLAT BAR  MAMTA STEEL TRADERS.jpg";
+import ssBoltsMamta from "../assets/SS NOTS BOLTS MAMTA STEEL TRADERS.jpg";
+import alloySteelMamta from "../assets/ALLOYS STEEL  MAMTA STEEL TRADERS.jpg";
+import ssSheetMamta from "../assets/SS SHEET  MAMTA STEEL TRADERS.jpg";
+import alloySteelMamta2 from "../assets/ALLOYS STEEL  MAMTA STEEL TRADERS2.jpg";
+import copperMamta from "../assets/COPPER MAMTA STEEL TRADERS.jpg";
+import aluminiumMamta from "../assets/ALUMINIUM MAMTA STEEL TRADERS.jpg";
+import alloySteelMamta0 from "../assets/ALLOYS STEEL MAMTA STEEL TRADERS 0.jpg";
+import ssRoundBarMamta from "../assets/SS  ROUND BAR  MAMTA STEEL TRADERS.jpg";
 
 // Product names with SEO keywords
 const productNames = [
@@ -188,21 +198,21 @@ const productImages = [
   alloySteelRoundBars,      // 2
   stainlessSteelFlanges,    // 3
   steelPipeFittings,        // 4
-  stainlessSteelCoils,      // 5
-  fallbackImage1,           // 6 - Mild Steel Channels & Angles
-  stainlessSteelFasteners,  // 7
+  ssCoilMamta,              // 5 - Stainless Steel Coils
+  ssFlatBarMamta,           // 6 - Mild Steel Channels & Angles
+  ssBoltsMamta,             // 7 - Stainless Steel Fasteners
   carbonSteelPipes,         // 8
-  alloySteelPlates,         // 9
-  stainlessSteelSheets,     // 10
+  alloySteelMamta,          // 9 - Alloy Steel Plates
+  ssSheetMamta,             // 10 - Stainless Steel Sheets
   steelBarsRods,            // 11
   fallbackImage2,           // 12 - Duplex Steel Products
-  fallbackImage1,           // 13 - Nickel Alloy Products
+  alloySteelMamta2,         // 13 - Nickel Alloy Products
   fallbackImage2,           // 14 - Titanium Steel Products
-  copperBrassProducts,      // 15
-  aluminumProducts,         // 16
-  fallbackImage1,           // 17 - Tool Steel Products
+  copperMamta,              // 15 - Copper & Brass Products
+  aluminiumMamta,           // 16 - Aluminum Products
+  alloySteelMamta0,         // 17 - Tool Steel Products
   fallbackImage2,           // 18 - Spring Steel Products
-  fallbackImage1,           // 19 - Bearing Steel Products
+  ssRoundBarMamta,          // 19 - Bearing Steel Products
   stainlessSteelWeldedPipes,    // 20
   carbonSteelSeamlessPipes,     // 21
   alloySteelSeamlessPipes,      // 22
