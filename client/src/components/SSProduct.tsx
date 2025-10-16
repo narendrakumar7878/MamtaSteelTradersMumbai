@@ -233,23 +233,23 @@ export default function SSProduct() {
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
               <Link href="/contact">
                 <Button 
-                  className="min-h-[44px] bg-[#f39c12] hover:bg-[#e97e07] text-white font-bold py-3 sm:py-4 px-6 sm:px-8 rounded-lg sm:rounded-xl text-sm sm:text-base lg:text-lg transition-all duration-300 hover:scale-105 shadow-lg"
+                  className="min-h-[40px] sm:min-h-[44px] bg-[#f39c12] hover:bg-[#e97e07] text-white font-bold py-2 sm:py-3 md:py-4 px-4 sm:px-6 md:px-8 rounded-lg sm:rounded-xl text-xs sm:text-sm md:text-base lg:text-lg transition-all duration-300 hover:scale-105 shadow-lg w-full sm:w-auto"
                   data-testid="button-contact-best-price"
                 >
-                  <Mail className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
-                  Contact Us for Best Price
-                  <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 ml-2" />
+                  <Mail className="w-3.5 h-3.5 sm:w-4 sm:h-4 md:w-5 md:h-5 mr-1.5 sm:mr-2" />
+                  <span className="whitespace-nowrap">Contact Us for Best Price</span>
+                  <ArrowRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 md:w-5 md:h-5 ml-1.5 sm:ml-2" />
                 </Button>
               </Link>
               
               <Link href="/contact">
                 <Button 
                   variant="outline" 
-                  className="min-h-[44px] border-2 border-white text-white hover:bg-white hover:text-[#0d2b4e] font-bold py-3 sm:py-4 px-6 sm:px-8 rounded-lg sm:rounded-xl text-sm sm:text-base lg:text-lg transition-all duration-300"
+                  className="min-h-[40px] sm:min-h-[44px] border-2 border-white text-white hover:bg-white hover:text-[#0d2b4e] font-bold py-2 sm:py-3 md:py-4 px-4 sm:px-6 md:px-8 rounded-lg sm:rounded-xl text-xs sm:text-sm md:text-base lg:text-lg transition-all duration-300 w-full sm:w-auto"
                   data-testid="button-get-quote"
                 >
-                  <Phone className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
-                  Get Instant Quote
+                  <Phone className="w-3.5 h-3.5 sm:w-4 sm:h-4 md:w-5 md:h-5 mr-1.5 sm:mr-2" />
+                  <span className="whitespace-nowrap">Get Instant Quote</span>
                 </Button>
               </Link>
             </div>

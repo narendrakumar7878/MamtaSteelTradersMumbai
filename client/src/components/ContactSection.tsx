@@ -222,17 +222,17 @@ export default function ContactSection() {
                   
                   <Button
                     asChild
-                    className="min-h-[44px] bg-blue-600 hover:bg-blue-700 text-white px-4 sm:px-5 lg:px-6 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 text-sm sm:text-base"
+                    className="min-h-[40px] sm:min-h-[44px] bg-blue-600 hover:bg-blue-700 text-white px-3 sm:px-4 md:px-5 lg:px-6 py-2 sm:py-2.5 md:py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 text-xs sm:text-sm md:text-base w-full sm:w-auto"
                     data-testid="maps-button"
                   >
                     <a
                       href="https://maps.google.com/maps?q=OFFICE+NO+20,+1st+FLOOR+45/49+GULAB+MOHAMAD+BULDING+RAMA+GALI,+2ND+KUMBHARWADA+MUMBAI+400004,+MAHARASHTRA,+INDIA"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center justify-center space-x-2"
+                      className="flex items-center justify-center space-x-1.5 sm:space-x-2"
                     >
-                      <MapPin className="w-4 h-4 sm:w-5 sm:h-5" />
-                      <span>View on Google Maps</span>
+                      <MapPin className="w-3.5 h-3.5 sm:w-4 sm:h-4 md:w-5 md:h-5" />
+                      <span className="whitespace-nowrap">View on Google Maps</span>
                     </a>
                   </Button>
                 </div>
