@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Allow specific pages
+Allow: /about
+Allow: /products
+Allow: /technical-info
+Allow: /solutions
+Allow: /certificate
+Allow: /contact
+
+# Sitemap location
+Sitemap: https://mamtasteeltraders.com/sitemap.xml
+
+# General crawling rules
+Crawl-delay: 1
