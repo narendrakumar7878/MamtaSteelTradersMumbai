@@ -51,8 +51,6 @@ import copperMamta from "../assets/COPPER MAMTA STEEL TRADERS.jpg";
 import aluminiumMamta from "../assets/ALUMINIUM MAMTA STEEL TRADERS.jpg";
 import alloySteelMamta0 from "../assets/ALLOYS STEEL MAMTA STEEL TRADERS 0.jpg";
 import ssRoundBarMamta from "../assets/SS  ROUND BAR  MAMTA STEEL TRADERS.jpg";
-import steelCoilsFittings from "../assets/steel-coils-fittings.jpg";
-import mildSteelChannelsAngles from "../assets/mild-steel-channels-angles.jpg";
 
 // Product names with SEO keywords
 const productNames = [
@@ -200,9 +198,9 @@ const productImages = [
   alloySteelRoundBars,      // 2
   stainlessSteelFlanges,    // 3
   steelPipeFittings,        // 4
-  steelCoilsFittings,       // 5 - Stainless Steel Coils
+  ssCoilMamta,              // 5 - Stainless Steel Coils
   ssFlatBarMamta,           // 6 - Mild Steel Channels & Angles
-  mildSteelChannelsAngles,  // 7 - Stainless Steel Fasteners
+  ssBoltsMamta,             // 7 - Stainless Steel Fasteners
   carbonSteelPipes,         // 8
   alloySteelMamta,          // 9 - Alloy Steel Plates
   ssSheetMamta,             // 10 - Stainless Steel Sheets
