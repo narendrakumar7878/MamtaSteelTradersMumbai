@@ -51,6 +51,9 @@ import copperMamta from "../assets/COPPER MAMTA STEEL TRADERS.jpg";
 import aluminiumMamta from "../assets/ALUMINIUM MAMTA STEEL TRADERS.jpg";
 import alloySteelMamta0 from "../assets/ALLOYS STEEL MAMTA STEEL TRADERS 0.jpg";
 import ssRoundBarMamta from "../assets/SS  ROUND BAR  MAMTA STEEL TRADERS.jpg";
+import steelPipeFittingsNew from "../assets/steel-pipe-fittings-new.jpg";
+import mildSteelChannelsAngles from "../assets/mild-steel-channels-angles.jpg";
+import alloySteelPlatesMamta from "../assets/ALLOYS STEEL  MAMTA STEEL TRADERS.jpg";
 
 // Product names with SEO keywords
 const productNames = [
@@ -197,12 +200,12 @@ const productImages = [
   carbonSteelPlates,        // 1
   alloySteelRoundBars,      // 2
   stainlessSteelFlanges,    // 3
-  steelPipeFittings,        // 4
+  steelPipeFittingsNew,     // 4 - Steel Pipe Fittings (Card #5)
   ssCoilMamta,              // 5 - Stainless Steel Coils
-  ssFlatBarMamta,           // 6 - Mild Steel Channels & Angles
+  mildSteelChannelsAngles,  // 6 - Mild Steel Channels & Angles (Card #7)
   ssBoltsMamta,             // 7 - Stainless Steel Fasteners
   carbonSteelPipes,         // 8
-  alloySteelMamta,          // 9 - Alloy Steel Plates
+  alloySteelPlates,         // 9 - Alloy Steel Plates (Card #10)
   ssSheetMamta,             // 10 - Stainless Steel Sheets
   steelBarsRods,            // 11
   fallbackImage2,           // 12 - Duplex Steel Products
@@ -213,52 +216,52 @@ const productImages = [
   alloySteelMamta0,         // 17 - Tool Steel Products
   fallbackImage2,           // 18 - Spring Steel Products
   ssRoundBarMamta,          // 19 - Bearing Steel Products
-  stainlessSteelWeldedPipes,    // 20
-  carbonSteelSeamlessPipes,     // 21
-  alloySteelSeamlessPipes,      // 22
-  stainlessSteelSquareBars,     // 23
-  carbonSteelFlatBars,          // 24
-  alloySteelHexBars,            // 25
-  stainlessSteelHollowBars,     // 26
-  stainlessSteelWireRods,       // 27
-  fallbackImage2,               // 28 - Galvanized Steel Products
-  chequeredSteelPlates,         // 29
-  perforatedSteelSheets,        // 30
-  fallbackImage1,               // 31 - Expanded Metal Mesh
-  stainlessSteelWires,          // 32
-  fallbackImage2,               // 33 - Steel Gratings
-  stainlessSteelButtweldFittings, // 34
-  socketWeldFittings,           // 35
-  fallbackImage1,               // 36 - Threaded Pipe Fittings
-  compressionTubeFittings,      // 37
-  weldNeckFlanges,              // 38
-  fallbackImage2,               // 39 - Slip On Flanges
-  fallbackImage1,               // 40 - Blind Flanges
-  fallbackImage2,               // 41 - Threaded Flanges
-  fallbackImage1,               // 42 - Lap Joint Flanges
-  fallbackImage2,               // 43 - Orifice Flanges
-  fallbackImage1,               // 44 - Long Weld Neck Flanges
-  fallbackImage2,               // 45 - Stainless Steel Bolts
-  fallbackImage1,               // 46 - Stainless Steel Nuts
-  fallbackImage2,               // 47 - Stainless Steel Washers
-  fallbackImage1,               // 48 - Stainless Steel Studs
-  fallbackImage2,               // 49 - U Bolts & J Bolts
-  fallbackImage1,               // 50 - Stainless Steel Screws
-  fallbackImage2,               // 51 - Eye Bolts & Eye Nuts
-  fallbackImage1,               // 52 - Stud Bolts & Nuts
-  fallbackImage2,               // 53 - Socket Head Cap Screws
-  fallbackImage1,               // 54 - Set Screws & Grub Screws
-  stainlessSteelAngles,         // 55
-  fallbackImage2,               // 56 - Stainless Steel Channels
-  fallbackImage1,               // 57 - Stainless Steel I Beams
-  fallbackImage2,               // 58 - Stainless Steel T Bars
-  seamlessSteelTubes,           // 59
-  heatExchangerTubes,           // 60
-  hydraulicTubes,               // 61
-  instrumentationTubes,         // 62
-  coilTubes,                    // 63
-  condenserTubes,               // 64
-  boilerTubes                   // 65
+  mildSteelChannelsAngles,  // 20 - Stainless Steel Welded Pipes
+  mildSteelChannelsAngles,  // 21 - Carbon Steel Seamless Pipes
+  mildSteelChannelsAngles,  // 22 - Alloy Steel Seamless Pipes
+  mildSteelChannelsAngles,  // 23 - Stainless Steel Square Bars
+  mildSteelChannelsAngles,  // 24 - Carbon Steel Flat Bars
+  mildSteelChannelsAngles,  // 25 - Alloy Steel Hex Bars
+  mildSteelChannelsAngles,  // 26 - Stainless Steel Hollow Bars
+  mildSteelChannelsAngles,  // 27 - Stainless Steel Wire Rods
+  mildSteelChannelsAngles,  // 28 - Galvanized Steel Products
+  mildSteelChannelsAngles,  // 29 - Chequered Steel Plates
+  mildSteelChannelsAngles,  // 30 - Perforated Steel Sheets
+  mildSteelChannelsAngles,  // 31 - Expanded Metal Mesh
+  mildSteelChannelsAngles,  // 32 - Stainless Steel Wires
+  mildSteelChannelsAngles,  // 33 - Steel Gratings
+  mildSteelChannelsAngles,  // 34 - Stainless Steel Buttweld Fittings
+  mildSteelChannelsAngles,  // 35 - Socket Weld Fittings
+  mildSteelChannelsAngles,  // 36 - Threaded Pipe Fittings
+  mildSteelChannelsAngles,  // 37 - Compression Tube Fittings
+  mildSteelChannelsAngles,  // 38 - Weld Neck Flanges
+  mildSteelChannelsAngles,  // 39 - Slip On Flanges
+  mildSteelChannelsAngles,  // 40 - Blind Flanges
+  mildSteelChannelsAngles,  // 41 - Threaded Flanges
+  mildSteelChannelsAngles,  // 42 - Lap Joint Flanges
+  mildSteelChannelsAngles,  // 43 - Orifice Flanges
+  mildSteelChannelsAngles,  // 44 - Long Weld Neck Flanges
+  mildSteelChannelsAngles,  // 45 - Stainless Steel Bolts
+  mildSteelChannelsAngles,  // 46 - Stainless Steel Nuts
+  mildSteelChannelsAngles,  // 47 - Stainless Steel Washers
+  mildSteelChannelsAngles,  // 48 - Stainless Steel Studs
+  mildSteelChannelsAngles,  // 49 - U Bolts & J Bolts
+  mildSteelChannelsAngles,  // 50 - Stainless Steel Screws
+  mildSteelChannelsAngles,  // 51 - Eye Bolts & Eye Nuts
+  mildSteelChannelsAngles,  // 52 - Stud Bolts & Nuts
+  mildSteelChannelsAngles,  // 53 - Socket Head Cap Screws
+  mildSteelChannelsAngles,  // 54 - Set Screws & Grub Screws
+  mildSteelChannelsAngles,  // 55 - Stainless Steel Angles
+  mildSteelChannelsAngles,  // 56 - Stainless Steel Channels
+  mildSteelChannelsAngles,  // 57 - Stainless Steel I Beams
+  mildSteelChannelsAngles,  // 58 - Stainless Steel T Bars
+  mildSteelChannelsAngles,  // 59 - Seamless Steel Tubes
+  mildSteelChannelsAngles,  // 60 - Heat Exchanger Tubes
+  mildSteelChannelsAngles,  // 61 - Hydraulic Tubes
+  mildSteelChannelsAngles,  // 62 - Instrumentation Tubes
+  mildSteelChannelsAngles,  // 63 - Coil Tubes
+  mildSteelChannelsAngles,  // 64 - Condenser Tubes
+  mildSteelChannelsAngles   // 65 - Boiler Tubes
 ];
 
 export default function ProductShowcase() {
