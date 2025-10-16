@@ -209,7 +209,7 @@ const productImages = [
   ssSheetMamta,             // 10 - Stainless Steel Sheets
   steelBarsRods,            // 11
   fallbackImage2,           // 12 - Duplex Steel Products
-  alloySteelMamta2,         // 13 - Nickel Alloy Products
+  alloySteelPlates,         // 13 - Nickel Alloy Products (Card #14)
   fallbackImage2,           // 14 - Titanium Steel Products
   copperMamta,              // 15 - Copper & Brass Products
   aluminiumMamta,           // 16 - Aluminum Products
